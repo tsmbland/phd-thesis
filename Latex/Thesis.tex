@@ -13,6 +13,7 @@
 \newcommand{\mycaption}[2]{\caption[#1]{\textbf{#1.} #2}}
 \usepackage{chngcntr}
 \counterwithin{figure}{section}
+\usepackage{hyperref}
 
 
 \begin{document}
@@ -93,7 +94,7 @@
 \clearpage
 \section{A pipeline for quantification of membrane and cytoplasmic protein concentrations}
 
-Text
+Intro to section
 
 \subsection{Autofluorescence correction}
 
@@ -132,7 +133,6 @@ Furthermore, by imaging untagged embryos with both the standard GFP channel and 
 Together, this implies that taking an autofluorescence channel image is sufficient to accurately predict the level of autofluorescence in the GFP channel. To quantify the necessary inter-channel conversion factor, I performed linear regression, using an ordinary least squares method, on Gaussian-filtered pixel values pooled from multiple untagged embryos. Then, to perform correction on images containing fluorophore, we just need to capture an autofluorescence channel image, alongside the GFP channel image, rescale the image according to this predefined relationship, and then subtract this away from the GFP channel image.\\
 
 
-\clearpage
 \subsubsection{Assessing performance on images of PAR proteins}
 
 To assess the effectiveness of SAIBR, and it’s utility in the analysis of PAR proteins, I applied it to a range of images of unlabelled and GFP-labelled embryos. As expected, applying SAIBR to images of unlabelled cells reduced fluorescence from across the cell to zero, with no visible structures remaining. This is a good validation of the method, and suggests that it can properly account for all of the autofluorescence in the cell. \\
@@ -146,7 +146,10 @@ As already shown, images of LGL are dominated by autofluorescence, and so SAIBR 
 \mycaption{Title}{Caption}
 \end{figure}
 
-As shown in fig x, SAIBR has a strong impact on the shape of intensity profiles taken across the cortex within each polarity domain, in all cases showing a clearer peak and suppression of signal at the internal portion of the curves. As discussed in the next section, this has a particular importance for quantification of membrane and cytoplasmic concentrations.\\
+As shown in fig x, SAIBR has a strong impact on the shape of intensity profiles taken across the cortex within each polarity domain, in all cases showing a clearer peak and suppression of signal at the internal portion of the curves. This has particular importance for quantitative studies as, as described in the next section, the shape of cross-cortex profiles are often used to quantitatively analyse membrane concentrations and/or membrane affinities. For example, a profile with a central peak that is much higher than the internal cytoplasmic plateau clearly implies that the protein is binding to the membrane with a high affinity. We can see from the SAIBR corrected profiles that, of the three proteins shown here, LGL has the strongest membrane affinity (highest enrichment at the cortex compared to its cytoplasmic level), followed by PAR-6, followed by PAR-3. If we look at the profiles pre-correction, however, this isn't so clearly apparent. One may have some success by simply subtracting an equivalent profile taken from untagged N2s. However, such a method fails to account for the fact that much of variation between embryos is down to autofluorescence, and is thus unsuitable for any study where inter-embryo variation is important. In the case of LGL this would also clearly result in negative values at the cytoplasmic portion of the curve for some embryos.\\
+
+% more here about membrane affinity, on rates, off rates
+
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{saibr_membrane_profiles}
@@ -155,7 +158,6 @@ As shown in fig x, SAIBR has a strong impact on the shape of intensity profiles 
 \mycaption{Title}{Caption}
 \end{figure}
 
-\clearpage
 \subsubsection{Extending SAIBR to dual-labelled C elegans embryos}
 
 As SAIBR relies on a red shifted emission channel, complications can arise when there is a red fluorophore present. As red fluorophores are usually weakly excited by blue lasers, they will contribute additional signal to the AF channel, which may lead to overestimation, and therefore oversubtraction, of autofluorescence if not accounted for. If RFP levels are low, this effect may be small and can be ignored. However, if RFP levels are high, this bleedthrough effect can be significant. This can be demonstrated by observing the inter-channel relationship in control embryos tagged with a red fluorophore (fig x). We find that, when an RFP is present, this relationship deviates significantly from the typical relationship observed in N2s, in direct proportion to local RFP levels (fig x inset). As this relationship is linear, autofluorescence in the GFP channel can now be described as a linear function of both the AF and the RFP channels. Plotting the pixel data in three dimensions shows that the data can be successfully fit to a plane, by performing multiple linear regression (fig x). \\
@@ -178,25 +180,37 @@ Then, to perform correction on images containing fluorophore, we just need to ca
 \end{figure}
 
 
-\clearpage
 \subsubsection{Discussion}
 
+In summary, I have demonstrated that a simple protocol, which we’ve termed SAIBR, can be used to successfully correct autofluorescence in images of C elegans zygotes. The improvements are particularly striking for images of fusion proteins with low levels of expression, such as LGL, but even when expression levels are higher, such as PAR-2, AF correction will prove important for quantitative analysis, as discussed in the next section. \\
+
+The simplicity of the method means that it can be easily incorporated into existing workflows, and should be applicable to a variety of imaging platforms. In the full study, we showed that the method is equally successful on both spinning-disk confocal and wide field instruments. \\
+
+Whilst designed with C elegans embryos in mind, the method isn't specific to this system, and could be applied to a number of other model systems in which autofluorescence is a problem. In the full study, we have shown that the method works successfully in C elegans larvae, as well as other model organisms such as starfish and yeast. That said, the method isn’t guaranteed to perform well in all cases. If samples contain multiple, independently varying sources of autoflourescence, then SAIBR may face problems as a single autofluorescence reporter channel cannot account for this. However, much like how we can tackle red fluorophores, we have found that in some cases this can be solved simply by adding one extra reporter channel. Inevitably, though, such an approach may not be compatible with dual-colour imaging. \\
+
+Whilst the analysis steps are relatively straightforward, implementing the computational workflow may still be a barrier to adoption for some. Therefore, to make the protocol accessible, I have put together a simple GUI-based FIJI plugin which can carry out all the analysis steps in a few simple steps. This can be found here: \url{https://github.com/tsmbland/saibr_fiji_plugin}. \\
+
+The method comes with a few tradeoffs, which will vary in significance depending on the particular study. One issue is that, as the method combines pixel noise from multiple images, corrected images can in some cases be quite noisy, particularly where weak imaging conditions are used. It also requires capturing two emission channels for each image, which doubles sample illumination times and potential phototoxicity, which may be an issue for long timelapses. Additionally, if samples display rapid motion, then the time lag between taking these two channels may lead to pixel mismatches, which could introduce artefacts. These last points could be fixed by using an imaging setup that allows for dual capture of multiple emission bands. However, for this particular study, none of these issues will be of major significance. \\
+
+
 \clearpage
-\subsection{Extraction of membrane and cytoplasmic signal components}
+\subsection{Extracting membrane and cytoplasmic signal components}
 
 % intro to section
+
+\subsubsection{An overview of existing methods}
 
 A number of methods have been implemented aiming to quantify cortical protein amounts in C elegans embryos. A typical approach to quantify membrane concentrations is to find the region of the image representing the cortex (either by manual or computational segmentation) and take a coarse measure of pixel values within this region (fig x). Such an approach was used by Goehring, who manually segmented the embryo cortex, computationally straightened a region around the circumference of the cell, and summed the highest intensity group of pixels at each cortical cross section. Hubatsch used a similar approach, but replaced manual segmentation with an automated computational pipeline. Similarly, Zhang used an elaborate computational protocol to segment images, and defined cortical concentrations around the cell as the average signal intensity within a region representing the cortex.\\
 
 % figure: intensity based vs fitting procedures
 
-A main disadvantage of these methods is that, as the cortex is immediately apposed the cytoplasm, pixel values at the cortex will inevitable contain a contribution from cytoplasmic fluorophore signal (and, indeed, cytoplasmic autofluorescence as none of these methods (?) have used spatial autofluorescence correction). This means that measurements of membrane concentration will sensitive the changes in cytoplasmic concentrations, and means that the methods fail to achieve an accurate zero (a positive signal will always register, even if there is nothing on the cortex). Typically, attempts are made to overcome this latter point by normalising concentrations and/or subtracting away a local or global estimate of the background signal, but this is often difficult and inaccurate.\\
+A main disadvantage of these methods is that, as the cortex is immediately apposed the cytoplasm, pixel values at the cortex will inevitable contain a contribution from cytoplasmic fluorophore signal (and, indeed, cytoplasmic autofluorescence as none of these methods (?) have employed spatial autofluorescence correction). This means that measurements of membrane concentration will sensitive to changes in cytoplasmic concentrations, and means that these methods fail to achieve an accurate zero (a positive signal will always register, even if there is nothing on the membrane). Typically, attempts are made to overcome this latter point by normalising concentrations and/or subtracting away a local or global estimate of the background signal, but this is often difficult and inaccurate.\\
 
 More advanced methods have aimed to overcome this problem by building models to describe the expected shape of individual cross-cortex profiles, based on summed contributions of cytoplasmic and membrane signal. Membrane and cytoplasmic concentrations can then be extracted by fitting measured profiles to this model, and extracting the relevant parameters describing the amplitudes of the two signal components (fig x). Such an approach was used by Gross, who described the cross-cortex profile at each point around the circumference of the embryo as the sum of a Gaussian and an error function contribution, representing the expected form of a point (cortex) or step-function (cytoplasm) convolved with a Gaussian-like point spread function in 1D. The model also includes a parameter describing the position of the cortex, which can be optimised to align the model to the profile, eliminating the need for accurate prior segmentation. A similar approach was previously used in Blanchoud (although with a slightly different description of cytoplasmic signal).\\
 
 \subsubsection{Accounting for out-of-focus scatter}
 
-Whilst these methods have been effectively deployed, and are good at capturing a proper zero baseline, their accuracy is inevitably limited by the accuracy of the underlying models. For many imaging set-ups, the assumption that cytoplasmic and membrane contributions can be described by such simple mathematical functions may in fact be far from the truth. This was demonstrated by Reich, who quantitatively analysed cross-cortex signal in cells containing only cytoplasmic protein, finding that (under imaging conditions similar to those used in this study) the shape of this profile deviates significantly from the expected error-function shape.\\
+Whilst these methods have been effectively deployed, and are good at capturing a proper zero baseline, their accuracy is inevitably limited by the accuracy of the underlying models. For many imaging set-ups, the assumption that cytoplasmic and membrane contributions can be described by such simple mathematical functions may in fact be far from the truth. This was demonstrated by for C elegans embryos by Reich, who quantitatively analysed cross-cortex signal in cells containing only cytoplasmic protein, finding that (under imaging conditions similar to those used in this study) the shape of this profile deviates significantly from the expected error-function shape. I have also performed similar analysis here...\\
 
 % * can be seen in figure A.3 of Jake’s thesis, although it’s worth noting that the original study didn’t use spatial autofluorescence correction, so there may be some artefacts relating to this
 
@@ -204,8 +218,7 @@ Whilst these methods have been effectively deployed, and are good at capturing a
 
 % cytbg figure
 
-The main reason for this is likely due to scattering and diffraction of light from planes above and below the imaging plane, combined with a curved geometry in the z-dimension (fig x). Scatter, which is a common issue in images of biological samples, is a broadening of light in three dimensions as it passes through regions of heterogeneous refractive index. This occurs within the (xy) plane of an image, but is typically far more significant in the z-plane. Whilst confocal microscopes are designed to only capture light from a single plane, they illuminate the whole sample, so will capture any emitted light from other planes that scatters into the focal plane. This means that pixel intensities within the focal plane will be affected not only by structures within that plane but also structures above and below.\\
-
+The main reason for this is likely due to scattering and diffraction of light from planes above and below the imaging plane, combined with a curved geometry in the z-dimension (fig x). Scatter, which is a common issue in images of biological samples, causes a broadening of light in three dimensions as it passes through regions of heterogeneous refractive index. This occurs within the (xy) plane of an image, but is typically far more significant in the z-axis. Whilst confocal microscopes are designed to only capture light from a single plane, they illuminate the whole sample, so will capture any emitted light from other planes that scatters into the focal plane. This means that pixel intensities within the focal plane will be affected not only by structures within that plane but also structures above and below.\\
 
 
 \begin{figure}[!h]
@@ -215,7 +228,7 @@ The main reason for this is likely due to scattering and diffraction of light fr
 \mycaption{Title}{Caption}
 \end{figure}
 
-It is likely that a similar problem applies in the case of membrane protein (fig x). Specifically, this analysis shows that out of focus cortical signal might expect to lead to a shape resembling an asymmetric Gaussian, with higher signal on the inside than the outside. In fact, this phenomenon can be easily observed just by looking at images of polarised PAR proteins (<reference earlier image>), where out-of-focus cortical signal can create the illusion of a strong cytoplasmic gradient (by comparison, two-photon images of PAR-2, which aim to eliminate out of focus light, show a completely flat cytoplasm (Petrasek), which is expected for most PAR proteins based on fast measured diffusion rates). Whilst in some cases this may be of little concern, this might be particularly problematic if accurate cytoplasmic quantification is required. Without accurate cytoplasmic concentration, measures of membrane to cytoplasmic ratio, which is often used as a proxy for membrane affinity (see later section), may be wildly off. This will prove significant for much of the analysis in this study.\\
+It is likely that a similar problem applies in the case of membrane protein (fig x). Specifically, this analysis shows that out of focus cortical signal might expect to lead to a shape resembling an asymmetric Gaussian, with higher signal on the inside than the outside. In fact, this phenomenon can be easily observed just by looking at images of polarised PAR proteins (<reference earlier image>), where out-of-focus cortical signal can create the illusion of a strong cytoplasmic gradient (by comparison, two-photon images of PAR-2, which aim to eliminate out of focus light, show a completely flat cytoplasm (Petrasek), which is expected for most PAR proteins based on fast measured diffusion rates). Whilst in some cases this may be of little concern, this might be particularly problematic if accurate cytoplasmic quantification is required. Without accurate cytoplasmic concentration, measures of membrane to cytoplasmic ratios, which are often used as a proxy for membrane affinity, may be wildly off. This will prove significant for much of the analysis in this study.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{memquant_mem_psf}
@@ -224,33 +237,50 @@ It is likely that a similar problem applies in the case of membrane protein (fig
 \mycaption{Title}{Caption}
 \end{figure}
 
-Typically, one might account for out-of-focus scatter by taking a z-stack from across the whole sample, and applying a deconvolution algorithm to the 3D stack to reassign all blurred/scattered light to an in-focus location (Wallace). These methods rely on prior knowledge of the point spread function that applies to the particular sample and imaging set-up, which needs to be as accurate as possible, otherwise artefacts can result. Theoretical methods exist to estimate an appropriate PSF given parameters such as the imaging modality, numerical aperture and emitted light wavelength. Whilst these methods are good at describing blur within the imaging apparatus, scattering within the sample and at the sample-apparatus interface is difficult to model. For this reason, it can be more effective to measure an empirical PSF by imaging the light distribution from a single point source (e.g. a fluorescent bead) under similar sample prep conditions to your sample of interest. However, as PSFs are influenced by scatter within the sample itself, the accuracy of this method depends on how closely the sample environment can be replicated when imaging the beads, which is difficult. <soaking tissue with beads>.\\
+Thus, in order to obtain accurate measures of cytoplasmic and membrane protein concentrations, we need a method to account for out of focus scatter. One common approact to account for out-of-focus scatter is to take a z-stack from across the whole sample, and apply a deconvolution algorithm to the 3D stack to reassign all blurred/scattered light to an in-focus location (Wallace). These methods rely on prior knowledge of the point spread function that applies to the particular sample and imaging set-up, which needs to be as accurate as possible, otherwise artefacts can result. Theoretical methods exist to estimate an appropriate PSF given parameters such as the imaging modality, numerical aperture and emitted light wavelength. Whilst these methods are good at describing blur within the imaging apparatus, scattering within the sample and at the sample-apparatus interface is difficult to model accurately. For this reason, it can be more effective to measure an empirical PSF by imaging the light distribution from a single point source (e.g. a fluorescent bead) under similar sample prep conditions to your sample of interest. However, as PSFs are influenced by scatter within the sample itself, the accuracy of this method depends on how closely the sample environment can be replicated when imaging the beads, which is not trivial. \\
 
-Furthermore, most deconvolution methods assume that the PSF is a constant function throughout the whole image, but in many cases this won't be the case. There may, for example, be refractive index gradients within the sample, which alter the shape of the PSF depending on location within the sample. Additionally, if there is a mismatch between the refractive index of the immersion and mounting media, as is often unavoidable when imaging live biological samples, then the PSF will vary with depth as spherical aberrations will be introduced deeper into the sample. A PSF from a fluorescent bead located directly below the coverslip will not capture either of these phenomena.\\
+Furthermore, most deconvolution methods assume that the PSF is a constant function throughout the whole image, but in many cases this won't be the case. There may, for example, be refractive index gradients within the sample, which will alter the shape of the PSF depending on location within the sample. Additionally, if there is a mismatch between the refractive index of the immersion and mounting media, as is often unavoidable when imaging live biological samples, then the PSF will usually vary with depth as spherical aberrations will be introduced deeper into the sample. A PSF from a fluorescent bead located directly below the coverslip will not capture either of these phenomena.\\
 
-In reality, given all of these confounding factors, an accurate description of the PSF that applies to a given sample of interest is often an unachievable goal. Whilst deconvolution with a suboptimal PSF may be sufficient for many qualitative applications, accurate quantitative measurements cannot be guaranteed. For this reason, I opted against using a deconvolution approach to account for out-of-plane scattering.\\
+In reality, given all of these confounding factors, an accurate description of the PSF that applies to a given sample of interest is often an unachievable goal. Whilst deconvolution with a suboptimal PSF may be sufficient for many qualitative applications, accurate quantitative measurements cannot be guaranteed. For this reason, I opted against using a PSF-based deconvolution approach to account for out-of-plane scattering.\\
 
 % transition
 
-%in most cases it should be possible to predict the distribution of protein in planes above and below based on the midplane image
+Fortunately, in this particular case, matters are greatly simplified by the fact that the geometry of protein distribution are usually highly consistent. Not only is the shape of embryos highly consistent, but PAR protein distributions within the embryo also tend to display rotational symmetry (at least during normal polarity development in P0), meaning that protein distributions in planes above and below the focal plane tend to be similar/identical to those seen at the focal plane (much like the simulations in figs x and x). Optical properties are also not expected to change from sample to sample, or from location to location around the circumference of an embryo.\\
 
-As the normalised shape of this profile is a function only of local embryo geometry and the optical properties of the microscope/sample, both of which should be largely consistent from point to point around the circumference, and from embryo to embryo, an explicit description of light scattering is not necessary, and it should be sufficient to rely on a phenomenological description of the cytoplasmic and membrane signal contributions. Reich exploited this idea by replacing the error-function description of cytoplasmic signal with his arbitrary, measured, cytoplasmic reference profile, thus describing the total signal as the sum of a Gaussian profile and this arbitrary profile. The result was a far better ability of the model to fit the shape of measured profiles.\\
+Together, these features imply that, for cytoplasmic or membrane protein, the normalised shape of the cross-cortex profile measured at the midplane should be some consistent function, that shouldn’t vary much between embryos or spatially around the circumference of an embryo. A change in local or global concentration should amount to a rescaling of this profile, but shouldn't change the normalised shape. Where there is a mix of cytoplasmic and cortical protein, the total measured cross-cortex profile will then be a sum of these two contributions. Therefore, if one has prior knowledge of the expected shape of the cross-cortex profile for cytoplasmic-only and membrane-only protein, then measured profiles can be fit as the sum of these two contributions, and membrane/cytoplasmic concentrations extracted as the amplitudes of the two signal components.\\
 
-Whilst this move is a significant step in the right direction, the problem remains of how best to account for out of focus cortical light. This presents a challenge: whilst it is relatively easy to directly measure a cytoplasmic reference profile (you just need a reference image in which all signal is cytoplasmic), the same is not true for a membrane profile as it is difficult/impossible to find a reference case in which all protein is membrane bound. \\
+Thus, a key step in the path to accurate quantification is the ability to measure these reference profiles. As mentioned previously, cytoplasmic reference profiles can easily be obtained by analysing cells in which all protein is cytoplasmic. Indeed, Reich used an approach half-way between the Gross method and the method that I am proposing, replacing the error-function description of cytoplasmic signal with his arbitrary, measured, cytoplasmic reference profile. Thus, total signals were fit as the sum of a Gaussian profile and this arbitrary cytoplasmic reference profile, which resulted in a far better ability of the model to fit the shape of measured profiles.\\
 
-%<Eggshell method> An initial idea, involving staining of the exterior of the eggshell with a fluorescent dye proved technically challenging and not reproducible.
+Whilst this move is a significant step in the right direction, the problem remains of how best to account for out of focus cortical light. This presents a challenge: whilst it is relatively easy to directly measure a cytoplasmic reference profile (you just need a reference image in which all signal is cytoplasmic), the same is not true for a membrane profile as it is difficult/impossible to find a reference case in which all protein is membrane bound. To extend the Reich method to account for out-of-focus membrane protein, I attempted to find alternative methods to get an approximation of the membrane reference profile. \\
 
-% introduce ideas here - uniform cytoplasm so contribution can be predicted
+This problem becomes simplified when one considers that, even in cases where the cortex is polarised, the cytoplasm of most PAR proteins should be uniform (although exceptions do exist in the case of PAR-1 and PAR-3, where true cytoplasmic gradients have been observed, although the basis for this is poorly understood). Thus, straightened cortices can be modelled as a uniform cytoplasmic component, defined by a cytoplasmic reference profile (Rc) and a single, uniform, cytoplasmic concentration (C), plus a polarised membrane component, defined by a membrane reference profile (Rm) and a nonuniform membrane concentration profile (M). This is shown in fig x. This is essentially a generalisation of the methods used by Gross and Reich, but proposes the use of arbitrary membrane and cytoplasmic reference profiles rather than mathematical functions (e.g. Gaussian, error function).\\
 
-\clearpage
-\subsubsection{A gradient descent protocol for image quantification}
+Rc can easily be predefined (fig x). If we assume for a second that Rm is also predefined, then M and C for a given embryo can be determined by fitting a straightened image to this model. (At this point these values will be in arbitrary units, but I’ll come back to this point). Whilst Rm is in fact not predefined, given the constraints imposed by cytoplasmic uniformity, it arises that only a model with an appropriate Rm will be able to create simulated images that closely match experimental images. (Imagine, for example a model with a Gaussian membrane reference profile, which would clearly fail to capture the graded internal signal). Therefore, under conditions such as these, in which we have a uniform cytoplasmic component and a graded membrane component, Rm need not be predefined, and can simply be fit to the data along with the concentration parameters. To perform this kind of optimisation, I have used a gradient descent approach based on differentiable programming, which is described below.\\
 
 \begin{figure}[!h]
-\includegraphics[scale=1]{memquant_forward_and_back_propagation}
+\includegraphics[scale=1.1]{memquant_model_schematic}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
 \end{figure}
+
+\subsubsection{A gradient descent protocol for image quantification}
+
+Gradient descent is a popular optimisation strategy used for a number of machine learning applications. The idea is to calculate the partial derivative of each input parameter with respect to a loss term (mean squared error). A negative gradient for a parameter would imply that an increase in that parameter would decrease overall loss, whereas a positive gradient would imply the opposite. Therefore, to reduce loss, each input parameter can be adjusted according to its partial derivative. Starting with a set of initial conditions, this procedure is then iteratively repeated, adjusting parameters and calculating new gradients at each step, until the loss term reaches a minimum. \\
+
+The utility of these methods has been greatly advanced in recent years by the advent of differentiable programming tools. Commonly used for deep learning, although generalisable to other problems, these tools greatly speed up computation for complex optimisation procedures by automatically calculating gradients at every step, rather than relying on numerical methods, using a process called backpropagation. In addition, extensions to the basic gradient descent algorithm (e.g. Adam) have proven effective at speeding up convergence and preventing entrapment in local minima. \\
+
+In the case of this particular problem, this procedure is described in figure x. Given a set of parameters (M, C, Rm, Rc), a forward propagation step simulates an image (fig x), and then this is compared to a ground truth image to calculate an error term. Backpropagation then calculates the gradient of each of the input parameters with respect to this error term. At this point, we can adjust some or all of the input parameters according to these gradients. Repeating this cycle of forward and back propagation will then lead to a gradual optimisation in these parameters, until a minimum is reached. \\
+
+\begin{figure}[!h]
+\includegraphics[scale=1.1]{memquant_forward_and_back_propagation}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+To test this approach, I first applied it to images of polarised PAR-2. Built using the differentiable programming package Tensorflow, the model was initiated with all concentrations (M and C) equal to zero, and Rm initiated as a Gaussian. For Rc I used a measured profile (fig x), and this was not adjusted during training (fig xa). Using an Adam optimiser with a learning rate of 0.01, all other parameters (M, C and Rm) were then adjusted iteratively until a plateau was reached (250 steps), as shown in fig xb. As shown in fig xc, the final simulated image, composed of a uniform cytoplasmic component and a nonuniform membrane component, fits closely to the ground truth image.\\
+
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{memquant_membg_training}
@@ -259,14 +289,20 @@ Whilst this move is a significant step in the right direction, the problem remai
 \mycaption{Title}{Caption}
 \end{figure}
 
-\clearpage
+% more here on reproducibility.
+
 \subsubsection{Segmentation}
 
-A nice outcome of this is that the offset parameters can then be used to refine the original ROI. As a result, initial ROIs need only be very rough (4 haphazard clicks around the cortex generally suffices, compared to ~20 which may be required to accurately trace the cortex).\\
+In addition to the parameters already mentioned, the model also includes a series of alignment parameters, which are also trained by gradient descent, allowing the model to freely align to the data in the x direction. As a result, ground truth images do not need to be accurately segmented prior to optimisation, and rough manual ROIs are fine to use. Another nice outcome of this is that these offset parameters can then be used to refine the original ROI, meaning that the method can serve as a tool for computational segmentation. Refined ROIs can then be used to restraighten the cortex, and optimisation repeated.\\
 
+% figure explaining this
 
 \clearpage
 \subsubsection{Benchmarking the method}
+
+The method described so far is limited to a special case of images with polarised membrane concentrations. However, as discussed previously, the optimised membrane reference profile, which is a function of local geometry and optical properties, should be applicable to all embryos. Therefore, much like we used a predefined cytoplasmic reference profile when fitting polarised PAR-2, images of proteins without a polarised membrane can be quantified by using an Rm derived from a calibration procedure on polarised images. \\
+
+To test this method, I performed quantification on images of PH with variable expression levels, obtained by performing an RNAi rundown using XFP (see Methods). In this case, I used a predefined Rm and Rc, and only optimised M and C (as well as the alignment parameters described in the previous section), fig xa. Compatible with expected linear membrane binding kinetics, we can see that the method gives a tight linear relationship between cytoplasmic and membrane concentrations. N2s are also accurately describes as having cytoplasmic and membrane concentrations of zero.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{memquant_benchmarking_ph_rundown}
@@ -275,24 +311,19 @@ A nice outcome of this is that the offset parameters can then be used to refine 
 \mycaption{Title}{Caption}
 \end{figure}
 
+I next investigated how robust the method is to changing signal-to-noise ratios, using three PH embryos with varying levels of expression. Adding pixel noise to these images may be expected to add noise to the resulting concentrations, but shouldn’t bias the data in any direction. As seen in figues xc and xd, this is precisely the case for all three PH embryos. Quantification of N2s is also not biased by noise (fig xc,d grey points). In addition, segmentation results are strikingly robust to noise, even at high noise levels that render embryos near-invisible to the human eye (fig xb).\\
+
 \begin{figure}[!h]
-\includegraphics[scale=0.9]{memquant_benchmarking_noise}
+\includegraphics[scale=0.85]{memquant_benchmarking_noise}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
 \end{figure}
 
 
-\clearpage
-\subsubsection{Calibration of concentration units}
+\subsubsection{Calibrating concentration units}
 
-%taken from tc3 - need to modify to match format of the thesis
-As $\alpha$ and $\beta$ are unitless constants, a conversion parameter, c, is required. To calibrate this conversion parameter, I quantified the effects on $\alpha$ and $\beta$ measurements of redistributing a fixed pool of protein from the cytoplasm to the cortex. To do this, I used an optogenetics system with a membrane bound PH::eGFP::LOV to move a cytoplasmic pool of ePDZ::mCherry to the membrane (Fielmich et al., 2018). Embryos were exposed to a xxxx, which promotes binding between ePDZ and LOV, leading to a rapid uniform recruitment of ePDZ::mCherry to the membrane and a reduction in the concentration in the cytoplasm. Assuming a fixed dosage of ePDZ::mCherry before and after exposure to green light (and negligible mCherry photobleaching), a value of the conversion parameter, $c$, can be calculated for each embryo using equation \ref{eq:c}, giving an estimate of $x \pm x$ (n=x) for $c$.
-
-\begin{equation}
-c = \frac{\alpha_{pre \textrm{-} exposure} - \alpha_{post  \textrm{-} exposure}}{\psi (\beta_{post  \textrm{-} exposure} - \beta_{pre  \textrm{-} exposure})}
-\label{eq:c}
-\end{equation}\\
+As M and C are in arbitrary units (effectively in units of their own respective reference profile), a conversion parameter, is required to put them in comparable units. To calibrate this conversion parameter, I quantified the effects on M and C measurements of redistributing a fixed pool of protein from the cytoplasm to the membrane. To do this, I used an optogenetics system with a membrane bound PH::eGFP::LOV to move a cytoplasmic pool of ePDZ::mCherry to the membrane (Fielmich et al., 2018). Embryos were exposed to blue light for 10 seconds, which promotes binding between ePDZ and LOV, leading to a rapid uniform recruitment of ePDZ::mCherry to the membrane and a reduction in the concentration in the cytoplasm (fig x). Where ePDZ mcherry is expressed alone, this localisation shift isn’t observed (fig x, grey).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{memquant_optogenetics}
@@ -300,6 +331,24 @@ c = \frac{\alpha_{pre \textrm{-} exposure} - \alpha_{post  \textrm{-} exposure}}
 \centering
 \mycaption{Title}{Caption}
 \end{figure}
+
+
+Whilst there is significant relocalisation, the total amount of protein can be assumed to be constant. This total amount, T, can be expressed as the C value that would be expected if all tagged molecules were in the cytoplasm, given by equation x where $\psi$ is the surface-area to volume ratio of the cell. Given that M is in different arbitrary units to C, a conversion parameter, c, is required:
+
+\begin{equation}
+\tau = C + \psi c M
+\label{eq:T}
+\end{equation}
+
+Given that T must be the same before and after exposure, c can be calculated, on an embryo by embryo basis, by comparing the gain in M to the loss in C:\\
+
+\begin{equation}
+c = \frac{C_{pre \textrm{-} exposure} - C_{post  \textrm{-} exposure}}{\psi (M_{post  \textrm{-} exposure} - M_{pre  \textrm{-} exposure})}
+\label{eq:c}
+\end{equation}
+
+Performing this analysis gives a value of c = x+- x, which can be used to put M and C in common units. Note that these concentrations are still arbitrary in the sense that they give no indication of absolute concentrations (i.e. absolute number of molecules per unit area). For much of the analysis in the following sections, where the aim is to measure membrane affinities (membrane to cytoplasmic ratios) this will not be an issue, although I’ll return to this point in section x.\\
+
 
 \clearpage
 \subsubsection{Discussion}
@@ -362,7 +411,9 @@ Text
 \mycaption{Title}{Caption}
 \end{figure}
 
-\subsection{Quantitative analysis of PAR-2 membrane binding kinetics}
+\subsection{Quantitative analysis of PAR-2 membrane binding kinetics in vivo}
+
+% the above makes predictions about the quantitative relationship between membrane and cytoplasmic concentrations. Suggests no bistability. Contrasts with earlier results. Let's try and measure this in vivo
 
 \subsection{Discussion}
 
