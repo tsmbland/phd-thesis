@@ -47,7 +47,7 @@
 \BOOKMARK [2][-]{subsection.3.3}{Polarity phenotypes in PAR-2 mutants}{section.3}% 47
 \BOOKMARK [2][-]{subsection.3.4}{Quantitative characterisation of PAR-2 mutants}{section.3}% 48
 \BOOKMARK [2][-]{subsection.3.5}{Discussion}{section.3}% 49
-\BOOKMARK [1][-]{section.4}{Determining the mechanisms of PAR-2 RING domain action}{}% 50
+\BOOKMARK [1][-]{section.4}{Determining mechanisms of PAR-2 RING domain action}{}% 50
 \BOOKMARK [2][-]{subsection.4.1}{Exploring a role for ubiquitination}{section.4}% 51
 \BOOKMARK [3][-]{subsubsection.4.1.1}{PAR-2 purification and in vitro ubiquitination assays}{subsection.4.1}% 52
 \BOOKMARK [3][-]{subsubsection.4.1.2}{Sequence analysis and targeted mutation of putative linchpin site}{subsection.4.1}% 53
@@ -59,20 +59,23 @@
 \BOOKMARK [2][-]{subsection.4.3}{Discussion}{section.4}% 59
 \BOOKMARK [1][-]{section.5}{A thermodynamic model of PAR-2 dimerisation}{}% 60
 \BOOKMARK [2][-]{subsection.5.1}{Model description}{section.5}% 61
-\BOOKMARK [2][-]{subsection.5.2}{Dimerisation-driven positive feedback}{section.5}% 62
-\BOOKMARK [2][-]{subsection.5.3}{Quantitative analysis of PAR-2 membrane binding kinetics in vivo}{section.5}% 63
-\BOOKMARK [2][-]{subsection.5.4}{Discussion}{section.5}% 64
-\BOOKMARK [1][-]{section.6}{Direct experimental manipulation of dimerisation}{}% 65
-\BOOKMARK [1][-]{section.7}{Modelling dimerisation-driven positive feedback in the PAR network}{}% 66
-\BOOKMARK [1][-]{section.8}{Discussion}{}% 67
-\BOOKMARK [1][-]{section.9}{Materials and methods}{}% 68
-\BOOKMARK [2][-]{subsection.9.1}{Worm maintenance}{section.9}% 69
-\BOOKMARK [2][-]{subsection.9.2}{Generating transgenic lines by CRISPR}{section.9}% 70
-\BOOKMARK [2][-]{subsection.9.3}{Microscopy}{section.9}% 71
-\BOOKMARK [2][-]{subsection.9.4}{Full-length PAR-2 purification}{section.9}% 72
-\BOOKMARK [2][-]{subsection.9.5}{Ubiquitination assays}{section.9}% 73
-\BOOKMARK [2][-]{subsection.9.6}{PAR-2 RING domain fragment purification}{section.9}% 74
-\BOOKMARK [2][-]{subsection.9.7}{SEC-MALS}{section.9}% 75
-\BOOKMARK [2][-]{subsection.9.8}{Image analysis}{section.9}% 76
-\BOOKMARK [2][-]{subsection.9.9}{Modelling methods}{section.9}% 77
-\BOOKMARK [1][-]{section.10}{Bibliography}{}% 78
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Four-species thermodynamic model}{subsection.5.1}% 62
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Reduction to a two-species model}{subsection.5.1}% 63
+\BOOKMARK [2][-]{subsection.5.2}{Dimerisation-driven positive feedback}{section.5}% 64
+\BOOKMARK [2][-]{subsection.5.3}{Quantitative analysis of PAR-2 membrane binding kinetics in vivo}{section.5}% 65
+\BOOKMARK [2][-]{subsection.5.4}{Discussion}{section.5}% 66
+\BOOKMARK [1][-]{section.6}{Direct experimental manipulation of dimerisation}{}% 67
+\BOOKMARK [1][-]{section.7}{Modelling dimerisation-driven positive feedback in the PAR network}{}% 68
+\BOOKMARK [1][-]{section.8}{Discussion}{}% 69
+\BOOKMARK [1][-]{section.9}{Materials and methods}{}% 70
+\BOOKMARK [2][-]{subsection.9.1}{Worm maintenance}{section.9}% 71
+\BOOKMARK [2][-]{subsection.9.2}{Generating transgenic lines by CRISPR}{section.9}% 72
+\BOOKMARK [2][-]{subsection.9.3}{Microscopy}{section.9}% 73
+\BOOKMARK [2][-]{subsection.9.4}{Full-length PAR-2 purification}{section.9}% 74
+\BOOKMARK [2][-]{subsection.9.5}{Ubiquitination assays}{section.9}% 75
+\BOOKMARK [2][-]{subsection.9.6}{PAR-2 RING domain fragment purification}{section.9}% 76
+\BOOKMARK [2][-]{subsection.9.7}{SEC-MALS}{section.9}% 77
+\BOOKMARK [2][-]{subsection.9.8}{Image analysis}{section.9}% 78
+\BOOKMARK [2][-]{subsection.9.9}{Modelling methods}{section.9}% 79
+\BOOKMARK [1][-]{section.10}{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{}% 80
+\BOOKMARK [1][-]{section.11}{Bibliography}{}% 81

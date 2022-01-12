@@ -545,7 +545,7 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\section{Determining the mechanisms of PAR-2 RING domain action}
+\section{Determining mechanisms of PAR-2 RING domain action}
 
 Text
 
@@ -553,10 +553,78 @@ Text
 \subsubsection{PAR-2 purification and in vitro ubiquitination assays}
 \subsubsection{Sequence analysis and targeted mutation of putative linchpin site}
 
+\clearpage
 \subsection{Exploring a role for dimerisation}
+
 \subsubsection{Structure prediction}
 \subsubsection{Characterising dimerisation in vitro}
+
+\clearpage
 \subsubsection{Characterising dimerisation in vivo}
+
+% Story: Talk about how, despite the RING being able to dimerise in vivo, Hao showed that RING doesn't interact with endogenous PAR-2. I've replicated this (show figure). However, doesn't exclude the possibility that membrane binding is a prerequisite for dimerisation in the first place, possibly via concentration-dependent effects. Then go through RING::PH assay. Then introduce model: membrane binding enhances concentration > dimerisation. Suggests that cytoplasmic PAR-2 should be monomeric. Then go through Tomm20 stuff, which confirms the model.
+
+Whilst the above provides convincing evidence that the RING domain of PAR-2 can dimerise in in vitro settings, its ability to drive PAR-2 dimerisation in vivo hasn't been demonstrated. In fact, some evidence exists that would appear to be contradictory to this. Hao showed that an N-terminal fragment (1-177) of PAR-2, which contains the full RING domain but lacks the membrane localisation domain, is entirely cytoplasmic when expressed in vivo. I have also replicated this finding, which is shown in fig x.\\
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{ring_fragment_in_vivo}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+This is surprising, as we would expect that the RING domain fragment should be able to interact with endogenous PAR-2, and thus should, at least partially, colocalise at the posterior membrane. However, given that the fragment contains no intrinsic membrane binding activity, this doesn't exclude the possibility that membrane binding itself is a prerequisite for dimerisation, potentially via concentration-dependent effects.\\
+
+To test whether the RING domain can dimerise when enriched on the membrane, used a PH membrane anchor to tether it to the membrane. Should this construct be capable of dimerisation, we would expect some degree of dimerisation with endogenous PAR-2, end therefore preferential enrichment in the posterior of the cell. Whereas PH alone is uniform on the membrane, tethering the PAR-2 RING domain causes clear enrichment in the posterior, indicating an interaction, presumably a dimerisation reaction, with endogenous PAR-2. A construct with a C56S mutant, by contrast, shows a small degree of polarity, but this is greatly reduced compared to wild type.\\
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{ph_ring}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+The above results suggest that the construct is polarising by responding to polarised endogenous PAR-2. Therefore, it is expected that disrupting polarity of endogenous PAR-2 might disrupt this. To test this, I aimed to disrupt endogenous polarity using RNAi. In conditions of par-2 RNAi, endogenous PAR-2 is expected to be entirely absent from the cell. Under these conditions, as shown in figure x, the construct loses enrichment in the posterior, and overall polarity is low. Similarly, in conditions of par-6 RNAi, where endogenous PAR-2 is expected to be uniform on the cortex, albeit less weakly concentrated, the construct also loses the ability to enrich in the posterior. Whilst we might expect overall affinity to be higher in the par-6 RNAi condition, as there is some level of endogenous PAR-2 on the cortex, this doesn’t appear to be the case. This may imply a concentration dependent effect, whereby the construct is only able to respond to endogenous PAR-2 that’s highly concentrated, or could be a product of inaccurate quantification at very low signal levels.\\
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{ph_ring_rnai}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+% more discussion here
+
+The above data implies to a model where PAR-2 is not constitutively dimeric, but can dimerise upon recruitment to the membrane, likely due to concentration-dependent effects. In line with this, we expect that the cytoplasmic pool should be largely, or entirely monomeric. To confirm this I devised in vivo pull-down assay based on dual labelling of PAR-2 with two different fluorophores, fig x. Expressing PAR-2 with a mix of green and red fluorophores means that, were PAR-2 to form constitutive dimers, a mixed population of green/green, green/red and red/red dimers would be expected to be present within the cytoplasm. Thus, forced relocalisation of one of these pools to an exogenous location in the cell should result in a detectable signal of the other fluorophore. A similar assay was used previously by Reich, who demonstrated a stable interaction between PAR-6 and PKC-3, through forced localisation of GFP::PKC-3 to the plasma membrane with a membrane-tethered GFP nanobody. (In this case the plasma membrane was a suitable target because, under the conditions of the assay, PAR-6/PKC-3 do not normally bind to the PM). Here I propose a similar approach, relying instead on recruitment to mitochondrial membranes within the cell. Mitochondrial membranes are dense within the cell, and can be probed easily with a localisation signal from the TOMM-20 protein.\\
+
+\begin{figure}[!h]
+\includegraphics[scale=0.95]{tomm20_schematic}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+To first test the potential utility of this method, I built a TOMM-20::GBP probe tagged with mKate, and introduced this into the worm by CRISPR. Crossing this line to GFP::PAR-2, and imaging the F1s (heterozygous for both GFP::PAR-2 and the probe), shows that the probe is well expressed, displays the expected mitochondrial localisation pattern, and is able to recruit GFP::PAR-2 to the mitochondria.\\
+
+\begin{figure}[!h]
+\includegraphics[scale=0.95]{tomm20_merge}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+To perform the proposed dimerisation assay, I next attempted to build an untagged version of the probe (lacking mKate). Whilst I was successfully able to build and introduce the construct into the genome of the worm, I found that this untagged probe failed to recruit any GFP::PAR-2 to the mitochondria, likely indicating that the probe failed to express. This suggests that the mKate tag may be stabilising expression of the full construct, possibly due to the presence of introns within the mKate sequence. As an alternative method to free up the red channel, I introduced a point mutation into mKate by CRISPR designed to disrupt the chromophore region. This construct, by contrast, was well expressed and, like the tagged parent construct, able to pull GFP::PAR-2 to the mitochondria. Next, I crossed this line to a line expressing PAR-2::mCherry at the endogenous locus, homozygosing both constructs. I then crossed this line to a line homozygous for endogenous GFP::PAR-2, giving F1s heterozygous for GFP/mCherry PAR-2, and heterozygous for the probe.  Imaging embryos from these F1s showed that, whereas GFP::PAR-2 is fully pulled to the mitochondria, there is no detectable colocalisation with mCherry::PAR-2.\\
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{tomm20_assay}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+% summary/discussion. Reiterate concentration-dependent dimerisation model.
+
+\clearpage
 \subsubsection{Targeted mutation to dimerisation interface regions}
 
 \subsection{Discussion}
@@ -566,9 +634,10 @@ Text
 \clearpage
 \section{A thermodynamic model of PAR-2 dimerisation}
 
-Text
 
 \subsection{Model description}
+
+\subsubsection{Four-species thermodynamic model} 
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_model_species}
@@ -578,15 +647,22 @@ Text
 \end{figure}
 
 \clearpage
+\subsubsection{Reduction to a two-species model} 
+
+\clearpage
 \subsection{Dimerisation-driven positive feedback}
 
+%make the point here (or later) that this gives a linear increase in affinity, so is not expected to contribute to bistability
+
 \begin{figure}[!h]
-\includegraphics[scale=0.9]{thermodynamic_model_feedback}
+\includegraphics[scale=0.85]{thermodynamic_model_feedback}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
 \end{figure}
 
+
+\clearpage
 \subsection{Quantitative analysis of PAR-2 membrane binding kinetics in vivo}
 
 % the above makes predictions about the quantitative relationship between membrane and cytoplasmic concentrations. Suggests no bistability. Contrasts with earlier results. Let's try and measure this in vivo
@@ -626,6 +702,11 @@ Text
 \subsection{SEC-MALS}
 \subsection{Image analysis}
 \subsection{Modelling methods}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\section{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
