@@ -14,6 +14,9 @@
 \usepackage{chngcntr}
 \counterwithin{figure}{section}
 \usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{comment}
+
 
 
 \begin{document}
@@ -547,11 +550,30 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 \clearpage
 \section{Determining mechanisms of PAR-2 RING domain action}
 
-Text
+% show that RING acts in cis. Present a few hypotheses
 
 \subsection{Exploring a role for ubiquitination}
+
 \subsubsection{PAR-2 purification and in vitro ubiquitination assays}
-\subsubsection{Sequence analysis and targeted mutation of putative linchpin site}
+
+\clearpage
+\subsubsection{Targeted mutation to putative linchpin site}
+
+A key site in many RING E3 ligases is an arginine or lysine residue immediately downstream of the final zinc-coordinating cysteine, which is known as the linchpin site. <what does this site do?>. 46\% of RING domains have an arginine at this site linchpin, whereas 14\% have lysine (Stewart). Typically, the choice of residue at this site regulates a trade-off between ubiquitination activity and E2 specificity. RINGs with a K at this site typically show lower ubiquitination activity in vitro (REF). Stewart showed for the protein <> that mutating this site from an arginine to a lysine increases ubiquitination activity but reduces E2 specificity (CHECK). However, this isn’t a universal mechanism, and many functional RING E3 ligases have other residues at this site <examples, refs>. This suggests that other mechanisms of <> must exist. Currently this is poorly understood.\\
+
+Notably, however, C elegans does have a lysine at this site, suggesting a potential role as a linchpin. Alignment of Caenorhabditis PAR-2 RING domain sequences shows that this site is largely conserved. There are, however, a few exceptions in some of the more distantly related (?) species. C. bovis, castelli and monodelphis have neither an arginine nor a lysine at this site. The fact that this site isn’t universally conserved may argue against an important role for ubiquitination activity, could suggest that PAR-2 does play a role as a ubiquitin ligase, but doesn’t rely on the linchpin, or could suggest that these other species have evolved alternative strategies.\\ 
+
+%alignment figure
+
+To test the potential role of linchpin-mediated autoubiquitination for PAR-2 membrane binding affinity, I used CRISPR to perform targeted mutation to this site, turning it into an A. <similar approach used in other studies>. As shown in fig x, this has no detectable effect on membrane affinity. Whilst this cannot rule out a role for ubiquitination in vivo, the result argues against a model in which linchpin mediated autoubiquitination is a driver of membrane affinity. \\
+
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{linchpin_in_vivo}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
 
 \clearpage
 \subsection{Exploring a role for dimerisation}
@@ -627,6 +649,20 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 \clearpage
 \subsubsection{Targeted mutation to dimerisation interface regions}
 
+As discussed previously, disrupting the RING domain, by targeted mutation to a zinc-interacting cysteine, has a strong phenotype in vivo, characterised by a string reduction in membrane affinity. My results suggest that this phenotype may be explained by a disruption in dimerisation at the membrane. However, as C56S mutation disrupts the tertiary structure of the whole domain, rather than just the dimerisation interface, it may also have additional effects. To confirm the specific role of dimerisation, I performed targeted mutations to the dimerisation interface region of the RING domain, aiming to disrupt dimerisation in vivo whilst keeping the tertiary structure of the domain intact. In addition to L109R, I performed an additional L>R mutation to L50, which is found in the N-helix. I introduced mutations at the endogenous site by CRISPR in an mNeonGreen::PAR-2 line. \\
+
+% L50R figure?
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{dimer_interface_mutants_in_vivo}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+As shown in fig x, both mutations cause a strong reduction in affinity. This effect is stronger for L109R, which may suggest that L50R, whilst partially disrupting dimerisation, is insufficient to disrupt it completely. Combination of both mutants has no effect compared to L109R alone, indicating that dimerisation is completely disrupted in L109R. Interestingly, however, neither mutants reduce membrane affinity to the same extent as C56S. Assuming that dimerisation is fully disrupted by L109R, this implies that fully disrupting the domain may have additional effects compared to just disrupting dimerisation alone. One plausible explanation is that, in the case of C56S, the unfolded domain interferes with normal membrane binding, and therefore has an additional negative effect on membrane affinity. Compatible with this, a PH::RING fusion has lower overall membrane affinity that PH alone (fig x). Combining C56S and L109R has no effect compared to C56S alone, suggesting that dimerisation is completely disrupted in the C56S mutant.\\
+
+\clearpage
 \subsection{Discussion}
 
 
@@ -637,7 +673,43 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 
 \subsection{Model description}
 
-\subsubsection{Four-species thermodynamic model} 
+\subsubsection{Thermodynamic description of membrane binding}
+
+\subsubsection{4-species dimerisation model}
+
+\begin{comment}
+Full equations:
+
+\begin{align}
+\mu_{c,1} &= \log\left(\frac{\phi_{c,1}}{1 - \phi_{c,1} - \phi_{c,2}}\right) - w_{c,1}\\
+\mu_{c,2} &= \log\left(\frac{\phi_{c,2}}{2 - \phi_{c,2}}\right) + 2\log\left(\frac{\phi_{c,2}}{1 - \phi_{c,1} - \phi_{c,2}}\right) - w_{c,2}\\
+\mu_{m,1} &= \log\left(\frac{\phi_{m,1}}{1 - \phi_{m,1} - \phi_{m,2}}\right) - w_{m,1}\\
+\mu_{m,2} &= \log\left(\frac{\phi_{m,2}}{2 - \phi_{m,2}}\right) + 2\log\left(\frac{\phi_{m,2}}{1 - \phi_{m,1} - \phi_{m,2}}\right) - w_{m,2}
+\end{align}
+\end{comment}
+
+Assuming the model is dilute:
+\begin{align}
+\mu_{c,1} &= \log(\phi_{c,1}) - w_{c,1}\\
+\mu_{c,2} &= \log(\phi_{c,2}) - w_{c,2}\\
+\mu_{m,1} &= \log(\phi_{m,1}) - w_{m,1}\\
+\mu_{m,2} &= \log(\phi_{m,2}) - w_{m,2}
+\end{align}
+
+Interaction energies:
+\begin{align}
+w_{c,1} &= 0\\
+w_{c,2} &= w_d\\
+w_{m,1} &= w_m\\
+w_{m,2} &= 2w_m + w_d
+\end{align}
+
+Equilibrium:
+\begin{equation}
+2\mu_{c,1} = \mu_{c,2} = 2\mu_{m,1} = \mu_{m,2}
+\end{equation}
+
+
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_model_species}
@@ -646,8 +718,6 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 \mycaption{Title}{Caption}
 \end{figure}
 
-\clearpage
-\subsubsection{Reduction to a two-species model} 
 
 \clearpage
 \subsection{Dimerisation-driven positive feedback}
@@ -661,6 +731,8 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 \mycaption{Title}{Caption}
 \end{figure}
 
+\clearpage
+\subsubsection{Reduction to a two-species model} 
 
 \clearpage
 \subsection{Quantitative analysis of PAR-2 membrane binding kinetics in vivo}
@@ -673,25 +745,24 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 \clearpage
 \section{Direct experimental manipulation of dimerisation}
 
-Text
+\subsection{Incorporating internal membranes into the thermodynamic model}
+
+\subsection{Closer to equilibrium}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \section{Modelling dimerisation-driven positive feedback in the PAR network}
 
-Text
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \section{Discussion}
 
-Text
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \section{Materials and methods}
 
-Text
 
 \subsection{Worm maintenance}
 \subsection{Generating transgenic lines by CRISPR}

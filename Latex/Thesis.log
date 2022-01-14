@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  12 JAN 2022 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  13 JAN 2022 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -249,23 +249,84 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip45
 )
-(./Thesis.aux)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen133
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen134
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count103
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count104
+\leftroot@=\count105
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count106
+\DOTSCASE@=\count107
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen135
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
+\dotsspace@=\muskip11
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks20
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks21
+\eqnshift@=\dimen136
+\alignsep@=\dimen137
+\tagshift@=\dimen138
+\tagwidth@=\dimen139
+\totwidth@=\dimen140
+\lineht@=\dimen141
+\@envbody=\toks22
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -303,17 +364,17 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen133
-\scratchbox=\box28
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen134
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count115
+\scratchdimen=\dimen142
+\scratchbox=\box30
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen143
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -340,26 +401,26 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip46
-\RaggedLeftLeftskip=\skip47
-\RaggedRightLeftskip=\skip48
-\CenteringRightskip=\skip49
-\RaggedLeftRightskip=\skip50
-\RaggedRightRightskip=\skip51
-\CenteringParfillskip=\skip52
-\RaggedLeftParfillskip=\skip53
-\RaggedRightParfillskip=\skip54
-\JustifyingParfillskip=\skip55
-\CenteringParindent=\skip56
-\RaggedLeftParindent=\skip57
-\RaggedRightParindent=\skip58
-\JustifyingParindent=\skip59
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 19.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -367,20 +428,20 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./Thesis.out) (./Thesis.out)
-\@outlinefile=\write3
-\openout3 = `Thesis.out'.
+\@outlinefile=\write4
+\openout4 = `Thesis.out'.
 
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
@@ -388,47 +449,34 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 
+l.38 
       [1]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-[3] (./Thesis.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
- [4
+[3] (./Thesis.toc [4
 
-] [5]
-Overfull \hbox (8.27747pt too wide) in paragraph at lines 53--53
- [][] [][]\OT1/cmr/m/n/12 Sequence anal-y-sis and tar-geted mu-ta-tion of pu-ta
--tive linch- 
- []
+] [5] [6])
+\tf@toc=\write5
+\openout5 = `Thesis.toc'.
 
-[6])
-\tf@toc=\write4
-\openout4 = `Thesis.toc'.
+ [7] (./Thesis.lof [8
 
- [7] (./Thesis.lof)
-\tf@lof=\write5
-\openout5 = `Thesis.lof'.
+])
+\tf@lof=\write6
+\openout6 = `Thesis.lof'.
 
- [8
-
-] [9
+ [9] [10
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
@@ -436,7 +484,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
@@ -444,38 +492,38 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ¦ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[10
+[11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[11] [12
+[12] [13
 
-] [13
+] [14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
@@ -483,66 +531,47 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[14
+[15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-[15]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
 [16]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
@@ -551,41 +580,17 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
@@ -594,72 +599,115 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 [20]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
@@ -667,52 +715,47 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
@@ -721,18 +764,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
@@ -740,12 +788,12 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
@@ -759,84 +807,84 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-[26
+[27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Overfull \hbox (4.16083pt too wide) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Overfull \hbox (4.16083pt too wide) in paragraph at lines 228--229
 []\OT1/cmr/m/n/12 Whilst the core-concepts of their model (namely con-cen-tra-t
 ion/phosphorylation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
-[28]
+[29]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
-[29] [30] [31
+[30] [31] [32
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[32
+[33
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
@@ -847,7 +895,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
@@ -855,29 +903,29 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-<../Figures/saibr_n2_correlation.png, id=612, 434.8245pt x 435.48697pt>
+<../Figures/saibr_n2_correlation.png, id=634, 434.8245pt x 435.48697pt>
 File: ../Figures/saibr_n2_correlation.png Graphic file (type png)
 
 <use ../Figures/saibr_n2_correlation.png>
 Package pdftex.def Info: ../Figures/saibr_n2_correlation.png used on input line
- 276.
+ 279.
 (pdftex.def)             Requested size: 413.0809pt x 413.71027pt.
 
-Overfull \hbox (15.5959pt too wide) in paragraph at lines 276--279
+Overfull \hbox (15.5959pt too wide) in paragraph at lines 279--282
  [][] 
  []
 
@@ -885,33 +933,33 @@ Overfull \hbox (15.5959pt too wide) in paragraph at lines 276--279
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-[34] [35 <../Figures/saibr_n2_correlation.png (PNG copy)>]
+[35] [36 <../Figures/saibr_n2_correlation.png (PNG copy)>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
-<../Figures/saibr_spatial_correction.png, id=621, 450.60345pt x 227.71072pt>
+<../Figures/saibr_spatial_correction.png, id=644, 450.60345pt x 227.71072pt>
 File: ../Figures/saibr_spatial_correction.png Graphic file (type png)
 
 <use ../Figures/saibr_spatial_correction.png>
 Package pdftex.def Info: ../Figures/saibr_spatial_correction.png used on input 
-line 293.
+line 296.
 (pdftex.def)             Requested size: 405.53937pt x 204.93773pt.
 
-Overfull \hbox (8.05437pt too wide) in paragraph at lines 293--296
+Overfull \hbox (8.05437pt too wide) in paragraph at lines 296--299
  [][] 
  []
 
@@ -919,59 +967,59 @@ Overfull \hbox (8.05437pt too wide) in paragraph at lines 293--296
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-[36]
-<../Figures/saibr_membrane_profiles.png, id=627, 388.27057pt x 277.5168pt>
+[37]
+<../Figures/saibr_membrane_profiles.png, id=649, 388.27057pt x 277.5168pt>
 File: ../Figures/saibr_membrane_profiles.png Graphic file (type png)
 
 <use ../Figures/saibr_membrane_profiles.png>
 Package pdftex.def Info: ../Figures/saibr_membrane_profiles.png used on input l
-ine 305.
+ine 308.
 (pdftex.def)             Requested size: 388.2696pt x 277.51611pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-[37 <../Figures/saibr_spatial_correction.png (PNG copy)>] [38 <../Figures/saibr
+[38 <../Figures/saibr_spatial_correction.png (PNG copy)>] [39 <../Figures/saibr
 _membrane_profiles.png (PNG copy)>]
-<../Figures/saibr_3channel_correlation.png, id=636, 394.89532pt x 394.71465pt>
+<../Figures/saibr_3channel_correlation.png, id=658, 394.89532pt x 394.71465pt>
 File: ../Figures/saibr_3channel_correlation.png Graphic file (type png)
 
 <use ../Figures/saibr_3channel_correlation.png>
 Package pdftex.def Info: ../Figures/saibr_3channel_correlation.png used on inpu
-t line 317.
+t line 320.
 (pdftex.def)             Requested size: 394.89435pt x 394.71367pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
-[39 <../Figures/saibr_3channel_correlation.png (PNG copy)>]
-<../Figures/saibr_3channel_correction.png, id=641, 249.99397pt x 332.32155pt>
+[40 <../Figures/saibr_3channel_correlation.png (PNG copy)>]
+<../Figures/saibr_3channel_correction.png, id=663, 249.99397pt x 332.32155pt>
 File: ../Figures/saibr_3channel_correction.png Graphic file (type png)
 
 <use ../Figures/saibr_3channel_correction.png>
 Package pdftex.def Info: ../Figures/saibr_3channel_correction.png used on input
- line 326.
+ line 329.
 (pdftex.def)             Requested size: 249.99335pt x 332.32074pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[40 <../Figures/saibr_3channel_correction.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+[41 <../Figures/saibr_3channel_correction.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
@@ -979,56 +1027,56 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
-
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
-[43
+[44
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
-<../Figures/memquant_cyt_psf.png, id=665, 461.38373pt x 360.50685pt>
+<../Figures/memquant_cyt_psf.png, id=687, 461.38373pt x 360.50685pt>
 File: ../Figures/memquant_cyt_psf.png Graphic file (type png)
 
 <use ../Figures/memquant_cyt_psf.png>
-Package pdftex.def Info: ../Figures/memquant_cyt_psf.png used on input line 375
+Package pdftex.def Info: ../Figures/memquant_cyt_psf.png used on input line 378
 .
 (pdftex.def)             Requested size: 415.2415pt x 324.45314pt.
 
-Overfull \hbox (17.7565pt too wide) in paragraph at lines 375--378
+Overfull \hbox (17.7565pt too wide) in paragraph at lines 378--381
  [][] 
  []
 
@@ -1036,19 +1084,19 @@ Overfull \hbox (17.7565pt too wide) in paragraph at lines 375--378
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
-[45] <../Figures/memquant_mem_psf.png, id=670, 461.38373pt x 360.50685pt>
+[46] <../Figures/memquant_mem_psf.png, id=692, 461.38373pt x 360.50685pt>
 File: ../Figures/memquant_mem_psf.png Graphic file (type png)
 
 <use ../Figures/memquant_mem_psf.png>
-Package pdftex.def Info: ../Figures/memquant_mem_psf.png used on input line 384
+Package pdftex.def Info: ../Figures/memquant_mem_psf.png used on input line 387
 .
 (pdftex.def)             Requested size: 415.2415pt x 324.45314pt.
 
-Overfull \hbox (17.7565pt too wide) in paragraph at lines 384--387
+Overfull \hbox (17.7565pt too wide) in paragraph at lines 387--390
  [][] 
  []
 
@@ -1056,68 +1104,68 @@ Overfull \hbox (17.7565pt too wide) in paragraph at lines 384--387
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
-[46 <../Figures/memquant_cyt_psf.png (PNG copy)>] [47 <../Figures/memquant_mem_
+[47 <../Figures/memquant_cyt_psf.png (PNG copy)>] [48 <../Figures/memquant_mem_
 psf.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
-
- []
-
-[48]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
-
- []
-
-[50]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
 
-<../Figures/memquant_model_schematic.png, id=692, 366.22823pt x 264.80933pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+[51]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+<../Figures/memquant_model_schematic.png, id=714, 366.22823pt x 264.80933pt>
 File: ../Figures/memquant_model_schematic.png Graphic file (type png)
 
 <use ../Figures/memquant_model_schematic.png>
 Package pdftex.def Info: ../Figures/memquant_model_schematic.png used on input 
-line 411.
+line 414.
 (pdftex.def)             Requested size: 402.85228pt x 291.29115pt.
 
-Overfull \hbox (5.36728pt too wide) in paragraph at lines 411--414
+Overfull \hbox (5.36728pt too wide) in paragraph at lines 414--417
  [][] 
  []
 
@@ -1125,44 +1173,44 @@ Overfull \hbox (5.36728pt too wide) in paragraph at lines 411--414
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
-[52 <../Figures/memquant_model_schematic.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+[53 <../Figures/memquant_model_schematic.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
 
-<../Figures/memquant_forward_and_back_propagation.png, id=701, 295.28317pt x 28
+<../Figures/memquant_forward_and_back_propagation.png, id=723, 295.28317pt x 28
 1.853pt>
 File: ../Figures/memquant_forward_and_back_propagation.png Graphic file (type p
 ng)
  <use ../Figures/memquant_forward_and_back_propagation.png>
 Package pdftex.def Info: ../Figures/memquant_forward_and_back_propagation.png u
-sed on input line 426.
+sed on input line 429.
 (pdftex.def)             Requested size: 324.81248pt x 310.03926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
-[53 <../Figures/memquant_forward_and_back_propagation.png (PNG copy)>]
-<../Figures/memquant_membg_training.png, id=706, 410.19247pt x 456.86685pt>
+[54 <../Figures/memquant_forward_and_back_propagation.png (PNG copy)>]
+<../Figures/memquant_membg_training.png, id=729, 410.19247pt x 456.86685pt>
 File: ../Figures/memquant_membg_training.png Graphic file (type png)
 
 <use ../Figures/memquant_membg_training.png>
 Package pdftex.def Info: ../Figures/memquant_membg_training.png used on input l
-ine 436.
+ine 439.
 (pdftex.def)             Requested size: 410.19147pt x 456.86572pt.
 
-Overfull \hbox (12.70647pt too wide) in paragraph at lines 436--439
+Overfull \hbox (12.70647pt too wide) in paragraph at lines 439--442
  [][] 
  []
 
@@ -1170,30 +1218,30 @@ Overfull \hbox (12.70647pt too wide) in paragraph at lines 436--439
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
 
  []
 
-[54] [55 <../Figures/memquant_membg_training.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+[55] [56 <../Figures/memquant_membg_training.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
 
-<../Figures/memquant_benchmarking_ph_rundown.png, id=716, 432.53595pt x 480.234
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+
+ []
+
+
+<../Figures/memquant_benchmarking_ph_rundown.png, id=739, 432.53595pt x 480.234
 15pt>
 File: ../Figures/memquant_benchmarking_ph_rundown.png Graphic file (type png)
  <use ../Figures/memquant_benchmarking_ph_rundown.png>
 Package pdftex.def Info: ../Figures/memquant_benchmarking_ph_rundown.png used o
-n input line 458.
+n input line 461.
 (pdftex.def)             Requested size: 432.53488pt x 480.23297pt.
 
-Overfull \hbox (35.04988pt too wide) in paragraph at lines 458--461
+Overfull \hbox (35.04988pt too wide) in paragraph at lines 461--464
  [][] 
  []
 
@@ -1204,24 +1252,24 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
 
  []
 
 
-<../Figures/memquant_benchmarking_noise.png, id=717, 386.52405pt x 628.80922pt>
+<../Figures/memquant_benchmarking_noise.png, id=740, 386.52405pt x 628.80922pt>
 File: ../Figures/memquant_benchmarking_noise.png Graphic file (type png)
 <use ../Figures/memquant_benchmarking_noise.png>
 Package pdftex.def Info: ../Figures/memquant_benchmarking_noise.png used on inp
-ut line 467.
+ut line 470.
 (pdftex.def)             Requested size: 328.54698pt x 534.49036pt.
- [56
+ [57
 
 ]
 
-LaTeX Warning: Text page 57 contains only floats.
+LaTeX Warning: Text page 58 contains only floats.
 
-[57 <../Figures/memquant_benchmarking_ph_rundown.png (PNG copy)>]
+[58 <../Figures/memquant_benchmarking_ph_rundown.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1229,19 +1277,19 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
-<../Figures/memquant_optogenetics.png, id=727, 420.8523pt x 206.2104pt>
+<../Figures/memquant_optogenetics.png, id=749, 420.8523pt x 206.2104pt>
 File: ../Figures/memquant_optogenetics.png Graphic file (type png)
 
 <use ../Figures/memquant_optogenetics.png>
 Package pdftex.def Info: ../Figures/memquant_optogenetics.png used on input lin
-e 479.
+e 482.
 (pdftex.def)             Requested size: 420.85127pt x 206.20988pt.
 
-Overfull \hbox (23.36627pt too wide) in paragraph at lines 479--482
+Overfull \hbox (23.36627pt too wide) in paragraph at lines 482--485
  [][] 
  []
 
@@ -1249,132 +1297,118 @@ Overfull \hbox (23.36627pt too wide) in paragraph at lines 479--482
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
-[58]
+[59]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
 
  []
 
-[59] [60 <../Figures/memquant_benchmarking_noise.png (PNG copy)>] [61 <../Figur
-es/memquant_optogenetics.png (PNG copy)>] [62
+[60] [61 <../Figures/memquant_benchmarking_noise.png (PNG copy)>] [62 <../Figur
+es/memquant_optogenetics.png (PNG copy)>] [63
 
 ]
-Overfull \hbox (24.28276pt too wide) in paragraph at lines 508--508
+Overfull \hbox (24.28276pt too wide) in paragraph at lines 511--511
 |[]\OT1/cmr/bx/n/17.28 Identifying core pat-tern-ing be-haviours of PAR-
  []
 
-<../Figures/uniform_polarity.png, id=754, 391.7034pt x 243.5499pt>
+<../Figures/uniform_polarity.png, id=777, 391.7034pt x 243.5499pt>
 File: ../Figures/uniform_polarity.png Graphic file (type png)
 
 <use ../Figures/uniform_polarity.png>
-Package pdftex.def Info: ../Figures/uniform_polarity.png used on input line 515
+Package pdftex.def Info: ../Figures/uniform_polarity.png used on input line 518
 .
 (pdftex.def)             Requested size: 352.5298pt x 219.19287pt.
- [63
+ [64
 
 
  <../Figures/uniform_polarity.png (PNG copy)>]
-<../Figures/uniform_polarity_sb.png, id=759, 418.80466pt x 483.60675pt>
+<../Figures/uniform_polarity_sb.png, id=782, 418.80466pt x 483.60675pt>
 File: ../Figures/uniform_polarity_sb.png Graphic file (type png)
 
 <use ../Figures/uniform_polarity_sb.png>
 Package pdftex.def Info: ../Figures/uniform_polarity_sb.png used on input line 
-525.
+528.
 (pdftex.def)             Requested size: 376.9207pt x 435.24205pt.
- [64
+ [65
 
  <../Figures/uniform_polarity_sb.png (PNG copy)>]
-<../Figures/uniform_polarity_mutants.png, id=764, 424.16467pt x 244.45328pt>
+<../Figures/uniform_polarity_mutants.png, id=787, 424.16467pt x 244.45328pt>
 File: ../Figures/uniform_polarity_mutants.png Graphic file (type png)
 
 <use ../Figures/uniform_polarity_mutants.png>
 Package pdftex.def Info: ../Figures/uniform_polarity_mutants.png used on input 
-line 535.
+line 538.
 (pdftex.def)             Requested size: 381.74467pt x 220.0059pt.
- [65
+ [66
 
- <../Figures/uniform_polarity_mutants.png (PNG copy)>] [66
-
-] [67
-
+ <../Figures/uniform_polarity_mutants.png (PNG copy)>] [67
 
 ] [68
 
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
-<../Figures/ring_fragment_in_vivo.png, id=782, 460.48035pt x 207.59558pt>
-File: ../Figures/ring_fragment_in_vivo.png Graphic file (type png)
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
 
-<use ../Figures/ring_fragment_in_vivo.png>
-Package pdftex.def Info: ../Figures/ring_fragment_in_vivo.png used on input lin
-e 570.
-(pdftex.def)             Requested size: 414.42848pt x 186.83427pt.
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
-Overfull \hbox (16.94348pt too wide) in paragraph at lines 570--573
- [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 
  []
 
 [69
 
- <../Figures/ring_fragment_in_vivo.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
+] <../Figures/linchpin_in_vivo.png, id=805, 445.06274pt x 198.92317pt>
+File: ../Figures/linchpin_in_vivo.png Graphic file (type png)
 
- []
+<use ../Figures/linchpin_in_vivo.png>
+Package pdftex.def Info: ../Figures/linchpin_in_vivo.png used on input line 572
+.
+(pdftex.def)             Requested size: 400.55275pt x 179.02917pt.
 
-<../Figures/ph_ring.png, id=787, 402.60413pt x 440.30498pt>
-File: ../Figures/ph_ring.png Graphic file (type png)
-
-<use ../Figures/ph_ring.png>
-Package pdftex.def Info: ../Figures/ph_ring.png used on input line 581.
-(pdftex.def)             Requested size: 402.60313pt x 440.3039pt.
-
-Overfull \hbox (5.11813pt too wide) in paragraph at lines 581--584
+Overfull \hbox (3.06775pt too wide) in paragraph at lines 572--575
  [][] 
  []
 
+[70 <../Figures/linchpin_in_vivo.png (PNG copy)>] [71
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+]
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 
  []
 
-<../Figures/ph_ring_rnai.png, id=788, 387.30698pt x 317.14485pt>
-File: ../Figures/ph_ring_rnai.png Graphic file (type png)
+<../Figures/ring_fragment_in_vivo.png, id=814, 460.48035pt x 207.59558pt>
+File: ../Figures/ring_fragment_in_vivo.png Graphic file (type png)
 
-<use ../Figures/ph_ring_rnai.png>
-Package pdftex.def Info: ../Figures/ph_ring_rnai.png used on input line 590.
-(pdftex.def)             Requested size: 387.30602pt x 317.14407pt.
- [70]
+<use ../Figures/ring_fragment_in_vivo.png>
+Package pdftex.def Info: ../Figures/ring_fragment_in_vivo.png used on input lin
+e 592.
+(pdftex.def)             Requested size: 414.42848pt x 186.83427pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (7.23302pt too wide) in paragraph at lines 598--599
-\OT1/cmr/m/n/12 but can dimerise upon re-cruit-ment to the mem-brane, likely du
-e to concentration-
+Overfull \hbox (16.94348pt too wide) in paragraph at lines 592--595
+ [][] 
  []
 
 
@@ -1382,143 +1416,223 @@ Underfull \hbox (badness 10000) in paragraph at lines 598--599
 
  []
 
-[71 <../Figures/ph_ring.png (PNG copy)>] [72 <../Figures/ph_ring_rnai.png (PNG 
-copy)>] <../Figures/tomm20_schematic.png, id=802, 385.07864pt x 169.77428pt>
-File: ../Figures/tomm20_schematic.png Graphic file (type png)
+[72
 
-<use ../Figures/tomm20_schematic.png>
-Package pdftex.def Info: ../Figures/tomm20_schematic.png used on input line 601
-.
-(pdftex.def)             Requested size: 365.82263pt x 161.28464pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 607--608
+ <../Figures/ring_fragment_in_vivo.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 
  []
 
-<../Figures/tomm20_merge.png, id=803, 400.91783pt x 223.67564pt>
-File: ../Figures/tomm20_merge.png Graphic file (type png)
+<../Figures/ph_ring.png, id=820, 402.60413pt x 440.30498pt>
+File: ../Figures/ph_ring.png Graphic file (type png)
 
-<use ../Figures/tomm20_merge.png>
-Package pdftex.def Info: ../Figures/tomm20_merge.png used on input line 610.
-(pdftex.def)             Requested size: 380.86978pt x 212.49065pt.
+<use ../Figures/ph_ring.png>
+Package pdftex.def Info: ../Figures/ph_ring.png used on input line 603.
+(pdftex.def)             Requested size: 402.60313pt x 440.3039pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
-
- []
-
-[73 <../Figures/tomm20_schematic.png (PNG copy)>] [74 <../Figures/tomm20_merge.
-png (PNG copy)>]
-<../Figures/tomm20_assay.png, id=812, 289.14023pt x 144.60022pt>
-File: ../Figures/tomm20_assay.png Graphic file (type png)
-
-<use ../Figures/tomm20_assay.png>
-Package pdftex.def Info: ../Figures/tomm20_assay.png used on input line 619.
-(pdftex.def)             Requested size: 289.13951pt x 144.59985pt.
- [75 <../Figures/tomm20_assay.png (PNG copy)>] [76
-
-]
-<../Figures/thermodynamic_model_species.png, id=821, 481.3182pt x 440.847pt>
-File: ../Figures/thermodynamic_model_species.png Graphic file (type png)
-
-<use ../Figures/thermodynamic_model_species.png>
-Package pdftex.def Info: ../Figures/thermodynamic_model_species.png used on inp
-ut line 643.
-(pdftex.def)             Requested size: 433.18239pt x 396.75862pt.
-
-Overfull \hbox (35.69739pt too wide) in paragraph at lines 643--646
+Overfull \hbox (5.11813pt too wide) in paragraph at lines 603--606
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+<../Figures/ph_ring_rnai.png, id=821, 387.30698pt x 317.14485pt>
+File: ../Figures/ph_ring_rnai.png Graphic file (type png)
+
+<use ../Figures/ph_ring_rnai.png>
+Package pdftex.def Info: ../Figures/ph_ring_rnai.png used on input line 612.
+(pdftex.def)             Requested size: 387.30602pt x 317.14407pt.
+ [73]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-] [78 <../Figures/thermodynamic_model_species.png (PNG copy)>] [79
-
-]
-<../Figures/thermodynamic_model_feedback.png, id=836, 466.1415pt x 624.4128pt>
-File: ../Figures/thermodynamic_model_feedback.png Graphic file (type png)
-
-<use ../Figures/thermodynamic_model_feedback.png>
-Package pdftex.def Info: ../Figures/thermodynamic_model_feedback.png used on in
-put line 658.
-(pdftex.def)             Requested size: 396.22214pt x 530.75339pt.
+Overfull \hbox (7.23302pt too wide) in paragraph at lines 620--621
+\OT1/cmr/m/n/12 but can dimerise upon re-cruit-ment to the mem-brane, likely du
+e to concentration-
+ []
 
 
-LaTeX Warning: Float too large for page by 1.59338pt on input line 662.
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
+
+ []
+
+[74 <../Figures/ph_ring.png (PNG copy)>] [75 <../Figures/ph_ring_rnai.png (PNG 
+copy)>] <../Figures/tomm20_schematic.png, id=834, 385.07864pt x 169.77428pt>
+File: ../Figures/tomm20_schematic.png Graphic file (type png)
+
+<use ../Figures/tomm20_schematic.png>
+Package pdftex.def Info: ../Figures/tomm20_schematic.png used on input line 623
+.
+(pdftex.def)             Requested size: 365.82263pt x 161.28464pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
+
+ []
+
+<../Figures/tomm20_merge.png, id=835, 400.91783pt x 223.67564pt>
+File: ../Figures/tomm20_merge.png Graphic file (type png)
+
+<use ../Figures/tomm20_merge.png>
+Package pdftex.def Info: ../Figures/tomm20_merge.png used on input line 632.
+(pdftex.def)             Requested size: 380.86978pt x 212.49065pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[80
 
-] [81 <../Figures/thermodynamic_model_feedback.png (PNG copy)>] [82
+Underfull \hbox (badness 10000) in paragraph at lines 638--639
 
-]
-Overfull \hbox (1.21477pt too wide) in paragraph at lines 674--674
-|[]\OT1/cmr/bx/n/17.28 Direct ex-per-i-men-tal ma-nip-u-la-tion of dimeri-
  []
 
-[83
+[76 <../Figures/tomm20_schematic.png (PNG copy)>] [77 <../Figures/tomm20_merge.
+png (PNG copy)>]
+<../Figures/tomm20_assay.png, id=844, 289.14023pt x 144.60022pt>
+File: ../Figures/tomm20_assay.png Graphic file (type png)
 
+<use ../Figures/tomm20_assay.png>
+Package pdftex.def Info: ../Figures/tomm20_assay.png used on input line 641.
+(pdftex.def)             Requested size: 289.13951pt x 144.59985pt.
+ [78 <../Figures/tomm20_assay.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
+
+ []
+
+
+<../Figures/dimer_interface_mutants_in_vivo.png, id=851, 433.68022pt x 343.1620
+5pt>
+File: ../Figures/dimer_interface_mutants_in_vivo.png Graphic file (type png)
+ <use ../Figures/dimer_interface_mutants_in_vivo.png>
+Package pdftex.def Info: ../Figures/dimer_interface_mutants_in_vivo.png used on
+ input line 657.
+(pdftex.def)             Requested size: 390.30858pt x 308.84299pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
+
+ []
+
+[79
+
+] [80 <../Figures/dimer_interface_mutants_in_vivo.png (PNG copy)>] [81
 
 ]
-Overfull \hbox (1.58073pt too wide) in paragraph at lines 680--680
-|[]\OT1/cmr/bx/n/17.28 Modelling dimerisation-driven pos-i-tive feed-
+Excluding 'comment' comment.
+<../Figures/thermodynamic_model_species.png, id=864, 481.3182pt x 440.847pt>
+File: ../Figures/thermodynamic_model_species.png Graphic file (type png)
+
+<use ../Figures/thermodynamic_model_species.png>
+Package pdftex.def Info: ../Figures/thermodynamic_model_species.png used on inp
+ut line 715.
+(pdftex.def)             Requested size: 433.18239pt x 396.75862pt.
+
+Overfull \hbox (35.69739pt too wide) in paragraph at lines 715--718
+ [][] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[82
+
+
+] [83 <../Figures/thermodynamic_model_species.png (PNG copy)>]
+<../Figures/thermodynamic_model_feedback.png, id=882, 466.1415pt x 624.4128pt>
+File: ../Figures/thermodynamic_model_feedback.png Graphic file (type png)
+
+<use ../Figures/thermodynamic_model_feedback.png>
+Package pdftex.def Info: ../Figures/thermodynamic_model_feedback.png used on in
+put line 728.
+(pdftex.def)             Requested size: 396.22214pt x 530.75339pt.
+
+
+LaTeX Warning: Float too large for page by 1.59338pt on input line 732.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [84
 
+] [85 <../Figures/thermodynamic_model_feedback.png (PNG copy)>] [86
 
-] [85
+]
+[87
 
+]
+Overfull \hbox (1.21477pt too wide) in paragraph at lines 746--746
+|[]\OT1/cmr/bx/n/17.28 Direct ex-per-i-men-tal ma-nip-u-la-tion of dimeri-
+ []
 
-] [86
-
-
-] [87
+[88
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 715.
- [88
+Overfull \hbox (1.58073pt too wide) in paragraph at lines 754--754
+|[]\OT1/cmr/bx/n/17.28 Modelling dimerisation-driven pos-i-tive feed-
+ []
+
+[89
+
+
+] [90
+
+
+] [91
+
+
+] [92
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 715.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 786.
+ [93
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 786.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 715.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 715.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 786.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 786.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E267EF43699A6D60F7D8E8B47006E70D;7012.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 715.
+(rerunfilecheck)             Checksum: 20BC60A621DF60D9FBB942F1115FBD11;7273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 786.
  ) 
 Here is how much of TeX's memory you used:
- 7491 strings out of 492995
- 117666 string characters out of 6132704
- 205884 words of memory out of 5000000
- 10756 multiletter control sequences out of 15000+600000
- 8709 words of font info for 31 fonts, out of 8000000 for 9000
+ 8148 strings out of 492995
+ 125742 string characters out of 6132704
+ 217223 words of memory out of 5000000
+ 11371 multiletter control sequences out of 15000+600000
+ 9383 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,38p,1644b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,38p,1644b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis.pdf (89 pages, 35075034 bytes).
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Thesis.pdf (94 pages, 37077114 bytes).
 PDF statistics:
- 948 PDF objects out of 1000 (max. 8388607)
- 816 compressed objects within 9 object streams
- 196 named destinations out of 1000 (max. 500000)
- 769 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1005 PDF objects out of 1200 (max. 8388607)
+ 865 compressed objects within 9 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 803 words of extra memory for PDF output out of 10000 (max. 10000000)
 
