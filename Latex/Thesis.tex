@@ -16,6 +16,7 @@
 \usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{comment}
+\usepackage{mhchem}
 
 
 
@@ -670,33 +671,131 @@ As shown in fig x, both mutations cause a strong reduction in affinity. This eff
 \clearpage
 \section{A thermodynamic model of PAR-2 dimerisation}
 
+\textit{This section describes work performed in conjunction with David Zwicker}
 
 \subsection{Model description}
 
+%Might be worth having a glossary of terms: ideal solution, chemical potential, enthalpy, chemical system, chemical state, thermodynamic equilibrium, free energy, volume fraction
+
+% Thermodynamic equilibrium puts constraints on the behaviour of a system, and allows us to accurately describe behaviour with a small number of easily interpretable parameters. In a multi-component chemical system, thermodynamic equilibrium is reached when all chemical components are at concentrations that have no tendancy to change with time, so that there are no overall changes in the properties of the system.
+
+% Systems are described by a number of chemical components, each of which has an associated chemical potential
+% Chemical potential describes
+% Thermodynamic equilibrium is reached when all chemical components are at concentrations that have no tendancy to change with time, so that there are no overall changes in the properties of the system. This state is reached when the chemical potentials describing each species are all identical, such that movement of a particle between two states leads to no net change in overall energy of the system.
+
+
+Consider, for example a simple chemical system in which matter is exchanging between two states, a and b:
+\begin{center}
+\ce{a <=> b}
+\end{center}
+
+Regardless of how the system is initiated, the system will eventually stabilise in a state where the forward and reverse reactions are equal, meaning that the concentrations of a and b will have no tenancy to change over time. Energetically speaking, this state is reached when the total energy of the system is minimised. When our system is at this minimum, the partial derivative of total energy with respect the the concentration of a must be equal to the partial partial derivative of total energy with respect the the concentration of b, meaning that any a to b reaction (or vice versa) will have no net impact on the overall energy energy of the system:
+
+\begin{align}
+\frac{dF}{da} = \frac{dF}{db}
+\end{align}
+
+These derivatives are more commonly referred to as the chemical potential of each species ($\mu_x$). Using ideal solution theory, this property can be described for each species, in $k_BT$ units, as:
+
+\begin{align}
+\mu_a &= \ln\phi_a - w_a\\
+\mu_b &= \ln\phi_b - w_b
+\end{align} 
+
+where $\phi_a$ and $\phi_b$ represent the volume fraction occupied by species a and b respectively, and $w_a$ and $w_b$ are enthalpies associated with each state. Since the total amount of material is conserved, we have the initial constraint that:
+\begin{equation}
+\phi_a + \phi_b = \phi
+\end{equation}
+
+where $\phi$ is a constant representing the total amount of material. As stated earlier, chemical equilibrium is reached when $\mu_a = \mu_b$. Thus, for a given total amount of protein ($\phi$), we can use our thermodynamic description to calculate $\phi_a$ and $\phi_b$ at equilibrium:
+
+\begin{align}
+\phi_a &= \frac{\phi}{1 + e^{w_b - w_a}}\\
+\phi_b &= \frac{\phi}{1 + e^{w_a - w_b}}
+\end{align}
+
+We can also see from equations xxx that, at equilibrium, the following relationship must always we true:
+
+\begin{equation}
+\frac{\phi_a}{\phi_b} = e^{w_a - w_b}
+\end{equation}
+
+showing that, regardless of the total amount of protein, there is a constant ratio between the two states at equilibrium. (This is, of course, obvious just by looking at the chemical equation). The ratio that is reached will depend on the enthalpy terms associated with each state. Where $w_a > w_b$ more protein will be in state a than state b, and vice versa (fig x).\\
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{thermodynamic_simple_example2}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+A similar description can apply to a species that is exchanging between two physical compartments. In this case a and b can represent protein in one of two spatial compartments, with $w_a$ and $w_b$ representing enthalpies associated with each compartment. The only difference is that the conservation of mass term must be slightly changed to account for potential differences in the volume of the two compartments. We will use:
+
+\begin{equation}
+\phi_a + \alpha\phi_b = \phi
+\end{equation}
+
+where $\alpha$ is a dimensionless exchange factor comparing the volume of the two compartments. (In this case $\phi$ can be interpreted as the volume fraction when all protein is in compartment a). As before, we end up with a linear relationship between concentrations in the two compartments, with ratios specified by $w_a - w_b$ (fig x - in this case, for simplicity, $\alpha = 1$).
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{thermodynamic_simple_example}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
 \subsubsection{Thermodynamic description of membrane binding}
+
+We can use this same description for a particle exchanging between membrane bound and cytoplasmic pools (m and c), by considering membrane and cytoplasmic compartments as two volume compartments. In this case the membrane compartment can be described as a thin volume, characterised by a surface area and a certain (small) thickness. Since, as shown above, equilibrium concentrations are specified by the difference in enthalpy terms, we can set $w_c = 0$, and define chemical potentials as:
+\begin{align}
+\mu_c &= \ln\phi_c\\
+\mu_m &= \ln\phi_m - w_m
+\end{align} 
+
+where $w_m$ can be interpreted as the membrane insertion energy (i.e. membrane affinity). The total amount of material is described as:
+\begin{equation}
+\phi_c + \alpha\phi_m = \phi
+\end{equation}
+
+where $\alpha << 1$. Thus, as before, membrane concentrations at equilibrium can be described as a linear function of cytoplasmic concentrations, the slope of which will depend on $w_m$.\\
+
+\subsubsection{Thermodynamic description of dimerisation}
+
+We can extend the same analysis to consider a species dimerising:
+
+\begin{center}
+\ce{2x_1 <=> x_2}
+\end{center}
+
+Chemical potentials are can be described as:
+\begin{align}
+\mu_{x,1} &= \ln\phi_{x,1}\\
+\mu_{x,2} &= \ln\phi_{x,2} - w_d
+\end{align} 
+
+with $w_d$ represents the dimerisation energy. Thermodynamic equilibrium is reached when $2\mu_{x,1} = \mu_{x,2}$ (the factor of 2 accounting for the differing stoichiometry between the two species), leading to the following relationship:
+
+\begin{equation}
+\frac{\phi_{x,2}}{(\phi_{x,1})^2} = e^{w_d}
+\end{equation}
+
+Thus, concentrations of dimeric protein will vary linearly with the square of monomer concentrations (again, this is obvious from the chemical equation), and so the fraction of protein in the dimeric state will increase as total protein amounts increase. Additionally, with the constraint that $\phi_c = \phi_{c,1} + \phi_{c,2}$ we can derive relationships for the concentrations of monomer and dimer as a function of total protein (check):
+\begin{align}
+\phi_{c,1} &= \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)\\
+\phi_{c,2} &= \phi_c - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)
+\end{align}
 
 \subsubsection{4-species dimerisation model}
 
-\begin{comment}
-Full equations:
-
+I next consider the case in which both dimerisation and membrane exchange are occurring. In this case, there are four potential species to consider: membrane monomers, membrane dimers, cytoplasmic monomers and cytoplasmic dimers (fig x). We can describe chemical potentials for the four species as:
 \begin{align}
-\mu_{c,1} &= \log\left(\frac{\phi_{c,1}}{1 - \phi_{c,1} - \phi_{c,2}}\right) - w_{c,1}\\
-\mu_{c,2} &= \log\left(\frac{\phi_{c,2}}{2 - \phi_{c,2}}\right) + 2\log\left(\frac{\phi_{c,2}}{1 - \phi_{c,1} - \phi_{c,2}}\right) - w_{c,2}\\
-\mu_{m,1} &= \log\left(\frac{\phi_{m,1}}{1 - \phi_{m,1} - \phi_{m,2}}\right) - w_{m,1}\\
-\mu_{m,2} &= \log\left(\frac{\phi_{m,2}}{2 - \phi_{m,2}}\right) + 2\log\left(\frac{\phi_{m,2}}{1 - \phi_{m,1} - \phi_{m,2}}\right) - w_{m,2}
-\end{align}
-\end{comment}
-
-Assuming the model is dilute:
-\begin{align}
-\mu_{c,1} &= \log(\phi_{c,1}) - w_{c,1}\\
-\mu_{c,2} &= \log(\phi_{c,2}) - w_{c,2}\\
-\mu_{m,1} &= \log(\phi_{m,1}) - w_{m,1}\\
-\mu_{m,2} &= \log(\phi_{m,2}) - w_{m,2}
+\mu_{c,1} &= \ln(\phi_{c,1}) - w_{c,1}\\
+\mu_{c,2} &= \ln(\phi_{c,2}) - w_{c,2}\\
+\mu_{m,1} &= \ln(\phi_{m,1}) - w_{m,1}\\
+\mu_{m,2} &= \ln(\phi_{m,2}) - w_{m,2}
 \end{align}
 
-Interaction energies:
+where $w_x$ represents the energy for each species. As only the differences in energies are important we set $w_{c,1} = 0$, and describe the four energies as:
 \begin{align}
 w_{c,1} &= 0\\
 w_{c,2} &= w_d\\
@@ -704,12 +803,17 @@ w_{m,1} &= w_m\\
 w_{m,2} &= 2w_m + w_d
 \end{align}
 
-Equilibrium:
+where $w_d$ represents the energy gain upon dimerisation and $w_m$ the energy gain upon membrane association. Whilst the experimental data argues against significant dimerisation in the cytosol, there's no reason the believe that PAR-2 has an inability to dimerise in cytosolic conditions. Instead, it seems more likely that concentrations in the cytoplasm are just too low for this to happen. Thus, in the interest of simplicity, we are assuming that the dimerisation energy is equal in the membrane and cytoplasm. We also assume that the membrane association energy of a dimer is twice that of a monomer (as dimers have two binding interfaces). Thermodynamic equilibrium is reached when
 \begin{equation}
 2\mu_{c,1} = \mu_{c,2} = 2\mu_{m,1} = \mu_{m,2}
 \end{equation}
 
+Since the total amount of material is conserved, we have:
+\begin{align}
+\phi &= \phi_c + \alpha\phi_m
+\end{align}
 
+where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$. With constraints imposed by mass conservation, equation x can be solved analytically to obtain expressions for each of the four species as a function of $\phi$. Figure x shows that, for a fixed total amount of protein, the equilibrium fraction of total protein in each of the four states will vary depending on the two energy parameters. With low $w_d$ and low $w_m$ protein will largely by cytoplasmic and monomeric; with low $w_d$ and high $w_m$ protein will be largely membrane-bound and monomeric; with high $w_d$ and low $w_m$ protein will be largely cytoplasmic and dimeric; and with high $w_d$ and high $w_m$ protein will be largely membrane-bound and dimeric. At intermediate energies a mix of states can be observed.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_model_species}
@@ -719,20 +823,33 @@ Equilibrium:
 \end{figure}
 
 
-\clearpage
+
 \subsection{Dimerisation-driven positive feedback}
 
-%make the point here (or later) that this gives a linear increase in affinity, so is not expected to contribute to bistability
+%We find that for most parameter regimes, changing dosage has a strong impact on the fraction of membrane bound protein in the dimeric state. Furthermore, as dimerisation enhances membrane affinity, we see a correspoding shift in the fraction of protein that's membrane bound
+
+
+%This leads to a model of dimerisation-driven positive feedback, whereby enhanced membrane concentrations at high dosages stabilises membrane binding through dimerisation.
 
 \begin{figure}[!h]
-\includegraphics[scale=0.85]{thermodynamic_model_feedback}
+% possibly include affinity vs dosage panels
+\includegraphics[scale=0.9]{thermodynamic_model_feedback}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
 \end{figure}
 
-\clearpage
-\subsubsection{Reduction to a two-species model} 
+% feedback requires dimerisation at the membrane but not in the cytoplasm
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{thermodynamic_model_dimer_fractions}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+
+%make the point here (or later) that this gives a linear increase in affinity, so is not expected to contribute to bistability
 
 \clearpage
 \subsection{Quantitative analysis of PAR-2 membrane binding kinetics in vivo}
@@ -741,17 +858,110 @@ Equilibrium:
 
 \subsection{Discussion}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
-\section{Direct experimental manipulation of dimerisation}
-
-\subsection{Incorporating internal membranes into the thermodynamic model}
-
-\subsection{Closer to equilibrium}
+% We have also considered non-ideal models and this doesn't change the behaviour within concentration ranges relevant to the in vivo measurements
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \section{Modelling dimerisation-driven positive feedback in the PAR network}
+
+\subsection{Model description}
+
+\subsubsection{Reducing thermodynamic model to a two-species model} 
+
+
+
+\subsubsection{Explicit description of binding kinetics} 
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{thermodynamic_model_koff}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\section{Direct experimental manipulation of dimerisation}
+
+\subsection{Forced constitutive dimerisation}
+
+% Strikingly, we see the unexpected appearance of visible structures within the cell. Based on comparison to RAB localisation patterns, these appear to be endosomes.
+
+% We also see the appearance of PAR-2 on the anterior membrane, suggesting that the protein is less susceptable to antagonism by PKC-3
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{gcn4}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{gcn4_quantification}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{gcn4_alone}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+\clearpage
+\subsection{Incorporating internal membranes into the thermodynamic model}
+
+I consider two further species, representing monomers and dimers bound to internal membranes.  Concentrations are specified by $\phi_{i,1}$ and $\phi_{i,2}$, chemical potentials $\mu_{i,1}$ and $\mu_{i,2}$ with energy parameters $w_{i,1}$ and $w_{i,2}$, where:
+
+\begin{align}
+w_{i,1} &= w_i\\
+w_{i,2} &= 2w_i + w_d
+\end{align}
+
+where $w_i$ is the internal membrane insertion energy. Thermodynamic equilibrium is reached when:
+\begin{equation}
+2\mu_{c,1} =  \mu_{c,2} = 2\mu_{p,1} =  \mu_{p,2} = 2\mu_{i,1} =  \mu_{i,2}
+\end{equation}
+
+The total amount of protein is conserved according the the following:
+\begin{equation}
+\overline{\phi} = \phi_c + \alpha\phi_p + \beta\phi_i
+\end{equation}
+
+where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and plasma membrane volume fractions, $\beta$ is the equivalent factor for internal membranes. Setting $\overline{\phi}$ as a fixed value, $\phi_{c,1}$, $\phi_{c,2}$, $\phi_{m,1}$, $\phi_{m,2}$, $\phi_{i,1}$ and $\phi_{i,2}$ can be solved numerically. Using this model, we can investigate the relationship between dimerisation energy ($w_d$) and PAR-2 localisation in systems with varying levels of internal membrane charge (varying $w_i$). As shown in fig x, we can see that, in systems where $w_i$ is sufficiently high, constitutive dimerisation (high $w_d$) can result in considerable PAR-2 levels on internal membranes, which isn't observed at lower/intermediate dimerisation strengths. 
+
+\begin{figure}[!h]
+\includegraphics[scale=0.90]{six_species_thermodynamic}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+% Whilst increasing wd may increase binding to internal membranes (provided that wi is high enough), this should always be accompanied by an increase in levels at the plasma membrane. In other words, we cannot get a scenario akin to what we see in vivo,  whereby constitutive dimerisation actually reduces levels on the plasma membrane.
+
+
+\subsection{Closer to equilibrium}
+
+
+\begin{figure}[!h]
+\includegraphics[scale=0.95]{three_surface_kinetic}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{gcn4_par3mut}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
