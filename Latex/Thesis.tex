@@ -580,6 +580,19 @@ To test the potential role of linchpin-mediated autoubiquitination for PAR-2 mem
 \subsection{Exploring a role for dimerisation}
 
 \subsubsection{Structure prediction}
+
+% fig: sequence alignment of n and c helices: 1. worm, 2. similar sequences. Colour coding: clustal?
+
+% fig: alphafold prediction. Potential ways to colour code: prediction confidence, chain, hydrophobicity, clustal?. Also show parameters: deltaG, interface area, ...
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{ring_alphafold}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+
 \subsubsection{Characterising dimerisation in vitro}
 
 \clearpage
@@ -684,43 +697,39 @@ As shown in fig x, both mutations cause a strong reduction in affinity. This eff
 % Thermodynamic equilibrium is reached when all chemical components are at concentrations that have no tendancy to change with time, so that there are no overall changes in the properties of the system. This state is reached when the chemical potentials describing each species are all identical, such that movement of a particle between two states leads to no net change in overall energy of the system.
 
 
-Consider, for example a simple chemical system in which matter is exchanging between two states, a and b:
+Consider, for example a simple chemical system in which material is exchanging between two states, $a$ and $b$:
 \begin{center}
 \ce{a <=> b}
 \end{center}
 
-Regardless of how the system is initiated, the system will eventually stabilise in a state where the forward and reverse reactions are equal, meaning that the concentrations of a and b will have no tenancy to change over time. Energetically speaking, this state is reached when the total energy of the system is minimised. When our system is at this minimum, the partial derivative of total energy with respect the the concentration of a must be equal to the partial partial derivative of total energy with respect the the concentration of b, meaning that any a to b reaction (or vice versa) will have no net impact on the overall energy energy of the system:
-
+Regardless of how the system is initiated, the system will eventually stabilise in a state where the forward and reverse reactions are equal, meaning that the concentrations of a and b will have no tenancy to change over time. Energetically speaking, this state is reached when the total free energy of the system ($F$) is minimised. When our system is at this minimum, the partial derivative of total energy with respect the the concentration of a must be equal to the equivalent partial derivative of b, meaning that any a to b reaction (or vice versa) will have no net impact on the overall energy energy of the system:
 \begin{align}
 \frac{dF}{da} = \frac{dF}{db}
 \end{align}
 
 These derivatives are more commonly referred to as the chemical potential of each species ($\mu_x$). Using ideal solution theory, this property can be described for each species, in $k_BT$ units, as:
-
 \begin{align}
 \mu_a &= \ln\phi_a - w_a\\
 \mu_b &= \ln\phi_b - w_b
 \end{align} 
 
-where $\phi_a$ and $\phi_b$ represent the volume fraction occupied by species a and b respectively, and $w_a$ and $w_b$ are enthalpies associated with each state. Since the total amount of material is conserved, we have the initial constraint that:
+where $\phi_a$ and $\phi_b$ represent the volume fraction occupied by species a and b respectively, and $w_a$ and $w_b$ are enthalpies associated with each state (a measure of how energetically favourable each state is). Since the total amount of material is conserved, we have the initial constraint that:
 \begin{equation}
 \phi_a + \phi_b = \phi
 \end{equation}
 
 where $\phi$ is a constant representing the total amount of material. As stated earlier, chemical equilibrium is reached when $\mu_a = \mu_b$. Thus, for a given total amount of protein ($\phi$), we can use our thermodynamic description to calculate $\phi_a$ and $\phi_b$ at equilibrium:
-
 \begin{align}
 \phi_a &= \frac{\phi}{1 + e^{w_b - w_a}}\\
 \phi_b &= \frac{\phi}{1 + e^{w_a - w_b}}
 \end{align}
 
 We can also see from equations xxx that, at equilibrium, the following relationship must always we true:
-
 \begin{equation}
 \frac{\phi_a}{\phi_b} = e^{w_a - w_b}
 \end{equation}
 
-showing that, regardless of the total amount of protein, there is a constant ratio between the two states at equilibrium. (This is, of course, obvious just by looking at the chemical equation). The ratio that is reached will depend on the enthalpy terms associated with each state. Where $w_a > w_b$ more protein will be in state a than state b, and vice versa (fig x).\\
+showing that, regardless of the total amount of protein, there is a constant ratio between the two states at equilibrium. (This is, of course, obvious just by looking at the chemical equation). The ratio that is reached will depend on the enthalpy terms associated with each state. Where $w_a > w_b$ more protein will end up in state a than state b, and vice versa (fig x).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_simple_example2}
@@ -730,7 +739,6 @@ showing that, regardless of the total amount of protein, there is a constant rat
 \end{figure}
 
 A similar description can apply to a species that is exchanging between two physical compartments. In this case a and b can represent protein in one of two spatial compartments, with $w_a$ and $w_b$ representing enthalpies associated with each compartment. The only difference is that the conservation of mass term must be slightly changed to account for potential differences in the volume of the two compartments. We will use:
-
 \begin{equation}
 \phi_a + \alpha\phi_b = \phi
 \end{equation}
@@ -746,7 +754,7 @@ where $\alpha$ is a dimensionless exchange factor comparing the volume of the tw
 
 \subsubsection{Thermodynamic description of membrane binding}
 
-We can use this same description for a particle exchanging between membrane bound and cytoplasmic pools (m and c), by considering membrane and cytoplasmic compartments as two volume compartments. In this case the membrane compartment can be described as a thin volume, characterised by a surface area and a certain (small) thickness. Since, as shown above, equilibrium concentrations are specified by the difference in enthalpy terms, we can set $w_c = 0$, and define chemical potentials as:
+We can use the same description for a particle exchanging between membrane bound and cytoplasmic pools (m and c), by considering membrane and cytoplasmic compartments as two volume compartments. In this case the membrane compartment can be described as a thin volume, characterised by a surface area and a (small) thickness. Since, as shown above, equilibrium concentrations are specified by the difference in enthalpy terms (rather than their absolute values), we can set $w_c = 0$, and define the chemical potentials as:
 \begin{align}
 \mu_c &= \ln\phi_c\\
 \mu_m &= \ln\phi_m - w_m
@@ -757,7 +765,7 @@ where $w_m$ can be interpreted as the membrane insertion energy (i.e. membrane a
 \phi_c + \alpha\phi_m = \phi
 \end{equation}
 
-where $\alpha << 1$. Thus, as before, membrane concentrations at equilibrium can be described as a linear function of cytoplasmic concentrations, the slope of which will depend on $w_m$.\\
+where $\alpha$ (the volume ratio between the compartments) will be some small number $<<1$. Thus, as before, membrane concentrations at equilibrium can be described as a linear function of cytoplasmic concentrations, the slope of which will depend on $w_m$.\\
 
 \subsubsection{Thermodynamic description of dimerisation}
 
@@ -774,16 +782,24 @@ Chemical potentials are can be described as:
 \end{align} 
 
 with $w_d$ represents the dimerisation energy. Thermodynamic equilibrium is reached when $2\mu_{x,1} = \mu_{x,2}$ (the factor of 2 accounting for the differing stoichiometry between the two species), leading to the following relationship:
-
 \begin{equation}
 \frac{\phi_{x,2}}{(\phi_{x,1})^2} = e^{w_d}
 \end{equation}
 
-Thus, concentrations of dimeric protein will vary linearly with the square of monomer concentrations (again, this is obvious from the chemical equation), and so the fraction of protein in the dimeric state will increase as total protein amounts increase. Additionally, with the constraint that $\phi_c = \phi_{c,1} + \phi_{c,2}$ we can derive relationships for the concentrations of monomer and dimer as a function of total protein (check):
+Thus, as concentrations of dimeric protein will vary linearly with the square of monomer concentrations (fig xA) (again, this is obvious from the chemical equation), and so the fraction of protein in the dimeric state will increase as total protein amounts increase (fig xB). Additionally, with the constraint that $\phi_x = \phi_{x,1} + \phi_{x,2}$ we can derive relationships for the concentrations of monomer and dimer as a function of total protein:
 \begin{align}
-\phi_{c,1} &= \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)\\
-\phi_{c,2} &= \phi_c - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)
+\phi_{x,1} &= \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_x + 1} - 1\right)\\
+\phi_{x,2} &= \phi_x - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_x + 1} - 1\right)
 \end{align}
+% check equations
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{thermodynamic_simple_dimer}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
 
 \subsubsection{4-species dimerisation model}
 
@@ -803,7 +819,7 @@ w_{m,1} &= w_m\\
 w_{m,2} &= 2w_m + w_d
 \end{align}
 
-where $w_d$ represents the energy gain upon dimerisation and $w_m$ the energy gain upon membrane association. Whilst the experimental data argues against significant dimerisation in the cytosol, there's no reason the believe that PAR-2 has an inability to dimerise in cytosolic conditions. Instead, it seems more likely that concentrations in the cytoplasm are just too low for this to happen. Thus, in the interest of simplicity, we are assuming that the dimerisation energy is equal in the membrane and cytoplasm. We also assume that the membrane association energy of a dimer is twice that of a monomer (as dimers have two binding interfaces). Thermodynamic equilibrium is reached when
+where $w_d$ represents the energy gain upon dimerisation and $w_m$ the energy gain upon membrane association. Whilst the experimental data argues against significant dimerisation in the cytosol, there's no reason the believe that PAR-2 has an inability to dimerise in cytosolic conditions. Instead, it seems more likely that concentrations in the cytoplasm are just too low for this to happen. Thus, in the interest of simplicity, we are assuming that the dimerisation energy is equal in the membrane and cytoplasm. We also assume that the membrane association energy of a dimer is twice that of a monomer (as dimers have two binding interfaces). Thermodynamic equilibrium is reached when:
 \begin{equation}
 2\mu_{c,1} = \mu_{c,2} = 2\mu_{m,1} = \mu_{m,2}
 \end{equation}
@@ -823,23 +839,21 @@ where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$.
 \end{figure}
 
 
-
 \subsection{Dimerisation-driven positive feedback}
 
-%We find that for most parameter regimes, changing dosage has a strong impact on the fraction of membrane bound protein in the dimeric state. Furthermore, as dimerisation enhances membrane affinity, we see a correspoding shift in the fraction of protein that's membrane bound
+Given the nonlinearities associated with dimerisation reactions, the distribution of protein between the four states is expected to vary depending on total protein amounts. This is particularly interesting in the case of PAR-2, as partitioning between the cytoplasm and membrane doesn’t follow simple linear kinetics, but varies depends on dosage (section x). I therefore investigated whether our simple thermodynamic behaviour can capture similar behaviour, by varying $\phi$ across a range of concentrations and solving for $\phi_m$ and $\phi_c$. \\
 
-
-%This leads to a model of dimerisation-driven positive feedback, whereby enhanced membrane concentrations at high dosages stabilises membrane binding through dimerisation.
+Figure x shows that, in certain parameter regimes, clear nonlinearity can be observed. For a given value of $w_m$, changing $w_d$ impacts both the shape and the amplitude of the cytoplasm vs membrane relationship (fig xA). By stabilising the high affinity dimeric state, increases to $w_d $increase overall membrane affinity for a constant $w_m$, leading to a steeper relationship. \\
 
 \begin{figure}[!h]
 % possibly include affinity vs dosage panels
-\includegraphics[scale=0.9]{thermodynamic_model_feedback}
+\includegraphics[scale=1]{thermodynamic_model_feedback}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
 \end{figure}
 
-% feedback requires dimerisation at the membrane but not in the cytoplasm
+As shown in fig xB, effective exponent of the cytoplasm vs membrane relationship ($\beta$), obtained by fitting $\phi_m = \alpha \phi_c^{\beta}$, varies across parameter space between 1 (linear relationship) and 2 (quadratic relationship). Peak nonlinearity occurs in regions of high membrane energy and intermediate dimerisation energy. This corresponds to regions of parameter space in which membrane protein is largely dimeric and cytoplasmic protein largely monomeric, across the relevant range of dosages (fig x). Where $w_d$ is low, protein is unable to dimerise, even at enriched membrane concentrations, and so the model simple linear kinetics like described in section x. If, on the other hand, $w_d$ is too high, protein is constitutively dimeric in both the membrane and cytoplasm, and will behave similarly to a monomer (albeit with a higher membrane affinity). If $w_d$ is intermediate, then an asymmetry is observed whereby protein is dimeric on the membrane but not in the cytoplasm, provided that $w_m$ is sufficiently large to set up a substantial concentration difference between the two compartments.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_model_dimer_fractions}
@@ -848,6 +862,7 @@ where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$.
 \mycaption{Title}{Caption}
 \end{figure}
 
+% Needs a comment here on why we get nonlinearity
 
 %make the point here (or later) that this gives a linear increase in affinity, so is not expected to contribute to bistability
 
@@ -868,16 +883,58 @@ where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$.
 
 \subsubsection{Reducing thermodynamic model to a two-species model} 
 
+To simplify further analysis, we can convert the four species thermodynamic model to a two species model, in which we only track overall membrane and cytoplasmic concentrations, $\phi_m$ and $\phi_c$, irrespective of dimeric state. If we assume that dimerisation reactions in the membrane and cytoplasm are fast relative to membrane binding, we can define instantaneous monomer and dimer concentrations as a function of overall concentration. For example, for cytoplasmic protein:
+% check equations
+\begin{align}
+\phi_{c,1} &= \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)\\
+\phi_{c,2} &= \phi_c - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)
+\end{align}
+
+which is identical to the description in section x. As a result, and because we can describe the chemical potential of each of these species individually (equations xxx), we can combine expression <> and <> to define the overall chemical potential of cytoplasmic protein ($\mu_c$) as a function of overall cytoplasmic concentrations ($\phi_c$):
+\begin{equation}
+\mu_c = \ln(\phi_c) - \frac{1}{2}\ln\left(1 + 2e^{w_d}\phi_c + \sqrt{4e^{w_d}\phi_c + 1}\right)
+\end{equation}
+% check equation
+
+And analogously for membrane bound protein: 
+\begin{equation}
+\mu_m = \ln(\phi_m) - \frac{1}{2}\ln\left(1 + 2e^{w_d}\phi_m + \sqrt{4e^{w_d}\phi_m + 1}\right) - w_m
+\end{equation}
+% check equation
+
+These two equations can be solved analytically at equilibrium ($\mu_c$ = $\mu_m$) to find equilibrium membrane and cytoplasmic concentrations.
 
 
-\subsubsection{Explicit description of binding kinetics} 
+\subsubsection{Explicit description of membrane binding kinetics} 
+
+Building kinetic models requires a description of membrane and unbinding rates, rather than just energetics. Exchange can be written as:
+
+\begin{center}
+\ce{$\phi_c$ <=>[$k_{on}$][$k_{off}$] $\phi_m$}
+\end{center}
+
+For a given composition, flux on ($s_{on}$) is equal to $k_{on}\phi_c$, and flux off ($s_{off}$) is equal to $k_{off}\phi_m$. Using transition state theory, these fluxes can be written as:
+\begin{align}
+s_{on} &= ke^{\mu_c}\\
+s_{off} &= ke^{\mu_m}
+\end{align}
+
+where $k$ is a kinetic factor. Using our previous descriptions of cytoplasmic and membrane chemical potentials, the kinetic rate constants can be calculated as:
+\begin{align}
+k_{on} &= \frac{k}{\sqrt{2e^{w_d}\phi_c+ 1}}\\
+k_{off} &= \frac{ke^{-w_m}}{\sqrt{2e^{w_d}\phi_m+ 1}}
+\end{align}
+
+implying a dependence on both energies and concentrations. This is shown for $k_{off}$ in fig x. Fig xA shows off rates plot a function of membrane energy and dimerisation energy, for a given membrane concentration. We can also see (fig xB), the dependence of off rates on concentrations.
 
 \begin{figure}[!h]
-\includegraphics[scale=0.9]{thermodynamic_model_koff}
+\includegraphics[scale=1]{thermodynamic_model_koff}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
 \end{figure}
+
+\subsubsection{Incorporation into mutual antagonism model}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -943,7 +1000,7 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 % Whilst increasing wd may increase binding to internal membranes (provided that wi is high enough), this should always be accompanied by an increase in levels at the plasma membrane. In other words, we cannot get a scenario akin to what we see in vivo,  whereby constitutive dimerisation actually reduces levels on the plasma membrane.
 
 
-\subsection{Closer to equilibrium}
+\subsection{Consideration of membrane exchange kinetics}
 
 
 \begin{figure}[!h]
@@ -954,8 +1011,10 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 \end{figure}
 
 
+\subsection{Monitoring the system closer to equilibrium in vivo}
+
 \begin{figure}[!h]
-\includegraphics[scale=1]{gcn4_par3mut}
+\includegraphics[scale=0.95]{gcn4_par3mut}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}

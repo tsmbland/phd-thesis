@@ -68,21 +68,23 @@
 \BOOKMARK [1][-]{section.6}{Modelling dimerisation-driven positive feedback in the PAR network}{}% 68
 \BOOKMARK [2][-]{subsection.6.1}{Model description}{section.6}% 69
 \BOOKMARK [3][-]{subsubsection.6.1.1}{Reducing thermodynamic model to a two-species model}{subsection.6.1}% 70
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Explicit description of binding kinetics}{subsection.6.1}% 71
-\BOOKMARK [1][-]{section.7}{Direct experimental manipulation of dimerisation}{}% 72
-\BOOKMARK [2][-]{subsection.7.1}{Forced constitutive dimerisation}{section.7}% 73
-\BOOKMARK [2][-]{subsection.7.2}{Incorporating internal membranes into the thermodynamic model}{section.7}% 74
-\BOOKMARK [2][-]{subsection.7.3}{Closer to equilibrium}{section.7}% 75
-\BOOKMARK [1][-]{section.8}{Discussion}{}% 76
-\BOOKMARK [1][-]{section.9}{Materials and methods}{}% 77
-\BOOKMARK [2][-]{subsection.9.1}{Worm maintenance}{section.9}% 78
-\BOOKMARK [2][-]{subsection.9.2}{Generating transgenic lines by CRISPR}{section.9}% 79
-\BOOKMARK [2][-]{subsection.9.3}{Microscopy}{section.9}% 80
-\BOOKMARK [2][-]{subsection.9.4}{Full-length PAR-2 purification}{section.9}% 81
-\BOOKMARK [2][-]{subsection.9.5}{Ubiquitination assays}{section.9}% 82
-\BOOKMARK [2][-]{subsection.9.6}{PAR-2 RING domain fragment purification}{section.9}% 83
-\BOOKMARK [2][-]{subsection.9.7}{SEC-MALS}{section.9}% 84
-\BOOKMARK [2][-]{subsection.9.8}{Image analysis}{section.9}% 85
-\BOOKMARK [2][-]{subsection.9.9}{Modelling methods}{section.9}% 86
-\BOOKMARK [1][-]{section.10}{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{}% 87
-\BOOKMARK [1][-]{section.11}{Bibliography}{}% 88
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Explicit description of membrane binding kinetics}{subsection.6.1}% 71
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Incorporation into mutual antagonism model}{subsection.6.1}% 72
+\BOOKMARK [1][-]{section.7}{Direct experimental manipulation of dimerisation}{}% 73
+\BOOKMARK [2][-]{subsection.7.1}{Forced constitutive dimerisation}{section.7}% 74
+\BOOKMARK [2][-]{subsection.7.2}{Incorporating internal membranes into the thermodynamic model}{section.7}% 75
+\BOOKMARK [2][-]{subsection.7.3}{Consideration of membrane exchange kinetics}{section.7}% 76
+\BOOKMARK [2][-]{subsection.7.4}{Monitoring the system closer to equilibrium in vivo}{section.7}% 77
+\BOOKMARK [1][-]{section.8}{Discussion}{}% 78
+\BOOKMARK [1][-]{section.9}{Materials and methods}{}% 79
+\BOOKMARK [2][-]{subsection.9.1}{Worm maintenance}{section.9}% 80
+\BOOKMARK [2][-]{subsection.9.2}{Generating transgenic lines by CRISPR}{section.9}% 81
+\BOOKMARK [2][-]{subsection.9.3}{Microscopy}{section.9}% 82
+\BOOKMARK [2][-]{subsection.9.4}{Full-length PAR-2 purification}{section.9}% 83
+\BOOKMARK [2][-]{subsection.9.5}{Ubiquitination assays}{section.9}% 84
+\BOOKMARK [2][-]{subsection.9.6}{PAR-2 RING domain fragment purification}{section.9}% 85
+\BOOKMARK [2][-]{subsection.9.7}{SEC-MALS}{section.9}% 86
+\BOOKMARK [2][-]{subsection.9.8}{Image analysis}{section.9}% 87
+\BOOKMARK [2][-]{subsection.9.9}{Modelling methods}{section.9}% 88
+\BOOKMARK [1][-]{section.10}{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{}% 89
+\BOOKMARK [1][-]{section.11}{Bibliography}{}% 90
