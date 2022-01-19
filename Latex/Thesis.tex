@@ -557,6 +557,13 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 
 \subsubsection{PAR-2 purification and in vitro ubiquitination assays}
 
+\begin{figure}[!h]
+\includegraphics[scale=1]{ubiquitin_assay}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
 \clearpage
 \subsubsection{Targeted mutation to putative linchpin site}
 
@@ -564,7 +571,12 @@ A key site in many RING E3 ligases is an arginine or lysine residue immediately 
 
 Notably, however, C elegans does have a lysine at this site, suggesting a potential role as a linchpin. Alignment of Caenorhabditis PAR-2 RING domain sequences shows that this site is largely conserved. There are, however, a few exceptions in some of the more distantly related (?) species. C. bovis, castelli and monodelphis have neither an arginine nor a lysine at this site. The fact that this site isn’t universally conserved may argue against an important role for ubiquitination activity, could suggest that PAR-2 does play a role as a ubiquitin ligase, but doesn’t rely on the linchpin, or could suggest that these other species have evolved alternative strategies.\\ 
 
-%alignment figure
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{linchpin_alignments}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
 
 To test the potential role of linchpin-mediated autoubiquitination for PAR-2 membrane binding affinity, I used CRISPR to perform targeted mutation to this site, turning it into an A. <similar approach used in other studies>. As shown in fig x, this has no detectable effect on membrane affinity. Whilst this cannot rule out a role for ubiquitination in vivo, the result argues against a model in which linchpin mediated autoubiquitination is a driver of membrane affinity. \\
 
@@ -579,11 +591,27 @@ To test the potential role of linchpin-mediated autoubiquitination for PAR-2 mem
 \clearpage
 \subsection{Exploring a role for dimerisation}
 
+\subsubsection{Sequence analysis}
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{alignments_other_rings}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{alignments_par2}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+\clearpage
 \subsubsection{Structure prediction}
 
 % fig: sequence alignment of n and c helices: 1. worm, 2. similar sequences. Colour coding: clustal?
 
-% fig: alphafold prediction. Potential ways to colour code: prediction confidence, chain, hydrophobicity, clustal?. Also show parameters: deltaG, interface area, ...
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{ring_alphafold}
@@ -593,7 +621,17 @@ To test the potential role of linchpin-mediated autoubiquitination for PAR-2 mem
 \end{figure}
 
 
+\clearpage
 \subsubsection{Characterising dimerisation in vitro}
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{l109_structure}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+
 
 \clearpage
 \subsubsection{Characterising dimerisation in vivo}
@@ -665,7 +703,13 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 
 As discussed previously, disrupting the RING domain, by targeted mutation to a zinc-interacting cysteine, has a strong phenotype in vivo, characterised by a string reduction in membrane affinity. My results suggest that this phenotype may be explained by a disruption in dimerisation at the membrane. However, as C56S mutation disrupts the tertiary structure of the whole domain, rather than just the dimerisation interface, it may also have additional effects. To confirm the specific role of dimerisation, I performed targeted mutations to the dimerisation interface region of the RING domain, aiming to disrupt dimerisation in vivo whilst keeping the tertiary structure of the domain intact. In addition to L109R, I performed an additional L>R mutation to L50, which is found in the N-helix. I introduced mutations at the endogenous site by CRISPR in an mNeonGreen::PAR-2 line. \\
 
-% L50R figure?
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{l50_structure}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{dimer_interface_mutants_in_vivo}
@@ -1035,6 +1079,16 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 
 \subsection{Worm maintenance}
 \subsection{Generating transgenic lines by CRISPR}
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{glh}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\end{figure}
+
+
+
 \subsection{Microscopy}
 \subsection{Full-length PAR-2 purification}
 \subsection{Ubiquitination assays}

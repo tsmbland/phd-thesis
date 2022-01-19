@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  18 JAN 2022 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  19 JAN 2022 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1198,7 +1198,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-<../Figures/saibr_n2_correlation.png, id=688, 434.8245pt x 435.48697pt>
+<../Figures/saibr_n2_correlation.png, id=707, 434.8245pt x 435.48697pt>
 File: ../Figures/saibr_n2_correlation.png Graphic file (type png)
 
 <use ../Figures/saibr_n2_correlation.png>
@@ -1232,7 +1232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
-<../Figures/saibr_spatial_correction.png, id=698, 450.60345pt x 227.71072pt>
+<../Figures/saibr_spatial_correction.png, id=717, 450.60345pt x 227.71072pt>
 File: ../Figures/saibr_spatial_correction.png Graphic file (type png)
 
 <use ../Figures/saibr_spatial_correction.png>
@@ -1253,7 +1253,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
  []
 
 [37]
-<../Figures/saibr_membrane_profiles.png, id=703, 388.27057pt x 277.5168pt>
+<../Figures/saibr_membrane_profiles.png, id=722, 388.27057pt x 277.5168pt>
 File: ../Figures/saibr_membrane_profiles.png Graphic file (type png)
 
 <use ../Figures/saibr_membrane_profiles.png>
@@ -1271,7 +1271,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
 [38 <../Figures/saibr_spatial_correction.png (PNG copy)>] [39 <../Figures/saibr
 _membrane_profiles.png (PNG copy)>]
-<../Figures/saibr_3channel_correlation.png, id=712, 394.89532pt x 394.71465pt>
+<../Figures/saibr_3channel_correlation.png, id=731, 394.89532pt x 394.71465pt>
 File: ../Figures/saibr_3channel_correlation.png Graphic file (type png)
 
 <use ../Figures/saibr_3channel_correlation.png>
@@ -1284,7 +1284,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
  []
 
 [40 <../Figures/saibr_3channel_correlation.png (PNG copy)>]
-<../Figures/saibr_3channel_correction.png, id=717, 249.99397pt x 332.32155pt>
+<../Figures/saibr_3channel_correction.png, id=736, 249.99397pt x 332.32155pt>
 File: ../Figures/saibr_3channel_correction.png Graphic file (type png)
 
 <use ../Figures/saibr_3channel_correction.png>
@@ -1349,7 +1349,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
-<../Figures/memquant_cyt_psf.png, id=741, 461.38373pt x 360.50685pt>
+<../Figures/memquant_cyt_psf.png, id=761, 461.38373pt x 360.50685pt>
 File: ../Figures/memquant_cyt_psf.png Graphic file (type png)
 
 <use ../Figures/memquant_cyt_psf.png>
@@ -1369,7 +1369,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
-[46] <../Figures/memquant_mem_psf.png, id=746, 461.38373pt x 360.50685pt>
+[46] <../Figures/memquant_mem_psf.png, id=766, 461.38373pt x 360.50685pt>
 File: ../Figures/memquant_mem_psf.png Graphic file (type png)
 
 <use ../Figures/memquant_mem_psf.png>
@@ -1438,7 +1438,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
-<../Figures/memquant_model_schematic.png, id=769, 366.22823pt x 264.80933pt>
+<../Figures/memquant_model_schematic.png, id=788, 366.22823pt x 264.80933pt>
 File: ../Figures/memquant_model_schematic.png Graphic file (type png)
 
 <use ../Figures/memquant_model_schematic.png>
@@ -1469,7 +1469,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 427--428
  []
 
 
-<../Figures/memquant_forward_and_back_propagation.png, id=778, 295.28317pt x 28
+<../Figures/memquant_forward_and_back_propagation.png, id=797, 295.28317pt x 28
 1.853pt>
 File: ../Figures/memquant_forward_and_back_propagation.png Graphic file (type p
 ng)
@@ -1483,7 +1483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 436--437
  []
 
 [54 <../Figures/memquant_forward_and_back_propagation.png (PNG copy)>]
-<../Figures/memquant_membg_training.png, id=784, 410.19247pt x 456.86685pt>
+<../Figures/memquant_membg_training.png, id=803, 410.19247pt x 456.86685pt>
 File: ../Figures/memquant_membg_training.png Graphic file (type png)
 
 <use ../Figures/memquant_membg_training.png>
@@ -1514,7 +1514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--460
  []
 
 
-<../Figures/memquant_benchmarking_ph_rundown.png, id=793, 432.53595pt x 480.234
+<../Figures/memquant_benchmarking_ph_rundown.png, id=812, 432.53595pt x 480.234
 15pt>
 File: ../Figures/memquant_benchmarking_ph_rundown.png Graphic file (type png)
  <use ../Figures/memquant_benchmarking_ph_rundown.png>
@@ -1538,7 +1538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--469
  []
 
 
-<../Figures/memquant_benchmarking_noise.png, id=794, 386.52405pt x 628.80922pt>
+<../Figures/memquant_benchmarking_noise.png, id=813, 386.52405pt x 628.80922pt>
 File: ../Figures/memquant_benchmarking_noise.png Graphic file (type png)
 <use ../Figures/memquant_benchmarking_noise.png>
 Package pdftex.def Info: ../Figures/memquant_benchmarking_noise.png used on inp
@@ -1562,7 +1562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
-<../Figures/memquant_optogenetics.png, id=803, 420.8523pt x 206.2104pt>
+<../Figures/memquant_optogenetics.png, id=822, 420.8523pt x 206.2104pt>
 File: ../Figures/memquant_optogenetics.png Graphic file (type png)
 
 <use ../Figures/memquant_optogenetics.png>
@@ -1599,7 +1599,7 @@ Overfull \hbox (24.28276pt too wide) in paragraph at lines 512--512
 |[]\OT1/cmr/bx/n/17.28 Identifying core pat-tern-ing be-haviours of PAR-
  []
 
-<../Figures/uniform_polarity.png, id=831, 391.7034pt x 243.5499pt>
+<../Figures/uniform_polarity.png, id=850, 391.7034pt x 243.5499pt>
 File: ../Figures/uniform_polarity.png Graphic file (type png)
 
 <use ../Figures/uniform_polarity.png>
@@ -1610,7 +1610,7 @@ Package pdftex.def Info: ../Figures/uniform_polarity.png used on input line 519
 
 
  <../Figures/uniform_polarity.png (PNG copy)>]
-<../Figures/uniform_polarity_sb.png, id=836, 418.80466pt x 483.60675pt>
+<../Figures/uniform_polarity_sb.png, id=855, 418.80466pt x 483.60675pt>
 File: ../Figures/uniform_polarity_sb.png Graphic file (type png)
 
 <use ../Figures/uniform_polarity_sb.png>
@@ -1620,7 +1620,7 @@ Package pdftex.def Info: ../Figures/uniform_polarity_sb.png used on input line
  [65
 
  <../Figures/uniform_polarity_sb.png (PNG copy)>]
-<../Figures/uniform_polarity_mutants.png, id=841, 424.16467pt x 244.45328pt>
+<../Figures/uniform_polarity_mutants.png, id=860, 424.16467pt x 244.45328pt>
 File: ../Figures/uniform_polarity_mutants.png Graphic file (type png)
 
 <use ../Figures/uniform_polarity_mutants.png>
@@ -1631,15 +1631,28 @@ line 539.
 
  <../Figures/uniform_polarity_mutants.png (PNG copy)>] [67
 
-] [68
-
-
 ]
+<../Figures/ubiquitin_assay.png, id=870, 403.44728pt x 180.07275pt>
+File: ../Figures/ubiquitin_assay.png Graphic file (type png)
+
+<use ../Figures/ubiquitin_assay.png>
+Package pdftex.def Info: ../Figures/ubiquitin_assay.png used on input line 561.
+
+(pdftex.def)             Requested size: 403.44629pt x 180.07231pt.
+
+Overfull \hbox (5.96129pt too wide) in paragraph at lines 561--564
+ [][] 
+ []
+
+[68
+
+
+ <../Figures/ubiquitin_assay.png (PNG copy)>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
@@ -1650,80 +1663,124 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
+<../Figures/linchpin_alignments.png, id=876, 346.59488pt x 161.10187pt>
+File: ../Figures/linchpin_alignments.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
+<use ../Figures/linchpin_alignments.png>
+Package pdftex.def Info: ../Figures/linchpin_alignments.png used on input line 
+575.
+(pdftex.def)             Requested size: 311.9325pt x 144.99033pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
  []
 
 [69
 
-] <../Figures/linchpin_in_vivo.png, id=859, 445.06274pt x 198.92317pt>
+] <../Figures/linchpin_in_vivo.png, id=881, 445.06274pt x 198.92317pt>
 File: ../Figures/linchpin_in_vivo.png Graphic file (type png)
 
 <use ../Figures/linchpin_in_vivo.png>
-Package pdftex.def Info: ../Figures/linchpin_in_vivo.png used on input line 573
+Package pdftex.def Info: ../Figures/linchpin_in_vivo.png used on input line 585
 .
 (pdftex.def)             Requested size: 400.55275pt x 179.02917pt.
 
-Overfull \hbox (3.06775pt too wide) in paragraph at lines 573--576
+Overfull \hbox (3.06775pt too wide) in paragraph at lines 585--588
  [][] 
  []
 
-[70 <../Figures/linchpin_in_vivo.png (PNG copy)>]
-<../Figures/ring_alphafold.png, id=864, 465.29836pt x 359.30235pt>
-File: ../Figures/ring_alphafold.png Graphic file (type png)
+[70 <../Figures/linchpin_alignments.png (PNG copy)> <../Figures/linchpin_in_viv
+o.png (PNG copy)>]
+<../Figures/alignments_other_rings.png, id=886, 359.36258pt x 241.92383pt>
+File: ../Figures/alignments_other_rings.png Graphic file (type png)
 
-<use ../Figures/ring_alphafold.png>
-Package pdftex.def Info: ../Figures/ring_alphafold.png used on input line 589.
-(pdftex.def)             Requested size: 418.76465pt x 323.36913pt.
+<use ../Figures/alignments_other_rings.png>
+Package pdftex.def Info: ../Figures/alignments_other_rings.png used on input li
+ne 597.
+(pdftex.def)             Requested size: 359.3617pt x 241.92322pt.
 
-Overfull \hbox (21.27965pt too wide) in paragraph at lines 589--592
- [][] 
- []
+<../Figures/alignments_par2.png, id=887, 339.36787pt x 301.24545pt>
+File: ../Figures/alignments_par2.png Graphic file (type png)
+
+<use ../Figures/alignments_par2.png>
+Package pdftex.def Info: ../Figures/alignments_par2.png used on input line 604.
+
+(pdftex.def)             Requested size: 339.36703pt x 301.2447pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [71
 
+ <../Figures/alignments_other_rings.png (PNG copy)>] [72 <../Figures/alignments
+_par2.png (PNG copy)>]
+<../Figures/ring_alphafold.png, id=897, 465.29836pt x 359.30235pt>
+File: ../Figures/ring_alphafold.png Graphic file (type png)
+
+<use ../Figures/ring_alphafold.png>
+Package pdftex.def Info: ../Figures/ring_alphafold.png used on input line 617.
+(pdftex.def)             Requested size: 418.76465pt x 323.36913pt.
+
+Overfull \hbox (21.27965pt too wide) in paragraph at lines 617--620
+ [][] 
+ []
+
+[73
+
  <../Figures/ring_alphafold.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 603--604
+<../Figures/l109_structure.png, id=902, 194.8881pt x 162.8484pt>
+File: ../Figures/l109_structure.png Graphic file (type png)
+
+<use ../Figures/l109_structure.png>
+Package pdftex.def Info: ../Figures/l109_structure.png used on input line 628.
+(pdftex.def)             Requested size: 194.88762pt x 162.848pt.
+ [74
+
+ <../Figures/l109_structure.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 
  []
 
-<../Figures/ring_fragment_in_vivo.png, id=870, 460.48035pt x 207.59558pt>
+<../Figures/ring_fragment_in_vivo.png, id=907, 460.48035pt x 207.59558pt>
 File: ../Figures/ring_fragment_in_vivo.png Graphic file (type png)
 
 <use ../Figures/ring_fragment_in_vivo.png>
 Package pdftex.def Info: ../Figures/ring_fragment_in_vivo.png used on input lin
-e 606.
+e 644.
 (pdftex.def)             Requested size: 414.42848pt x 186.83427pt.
 
-Overfull \hbox (16.94348pt too wide) in paragraph at lines 606--609
+Overfull \hbox (16.94348pt too wide) in paragraph at lines 644--647
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
 
  []
 
-[72
+[75
 
  <../Figures/ring_fragment_in_vivo.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 614--615
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
 
  []
 
-<../Figures/ph_ring.png, id=876, 402.60413pt x 440.30498pt>
+<../Figures/ph_ring.png, id=912, 402.60413pt x 440.30498pt>
 File: ../Figures/ph_ring.png Graphic file (type png)
 
 <use ../Figures/ph_ring.png>
-Package pdftex.def Info: ../Figures/ph_ring.png used on input line 617.
+Package pdftex.def Info: ../Figures/ph_ring.png used on input line 655.
 (pdftex.def)             Requested size: 402.60313pt x 440.3039pt.
 
-Overfull \hbox (5.11813pt too wide) in paragraph at lines 617--620
+Overfull \hbox (5.11813pt too wide) in paragraph at lines 655--658
  [][] 
  []
 
@@ -1737,150 +1794,154 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
-<../Figures/ph_ring_rnai.png, id=877, 387.30698pt x 317.14485pt>
+<../Figures/ph_ring_rnai.png, id=913, 387.30698pt x 317.14485pt>
 File: ../Figures/ph_ring_rnai.png Graphic file (type png)
 
 <use ../Figures/ph_ring_rnai.png>
-Package pdftex.def Info: ../Figures/ph_ring_rnai.png used on input line 626.
+Package pdftex.def Info: ../Figures/ph_ring_rnai.png used on input line 664.
 (pdftex.def)             Requested size: 387.30602pt x 317.14407pt.
- [73]
+ [76]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (7.23302pt too wide) in paragraph at lines 634--635
+Overfull \hbox (7.23302pt too wide) in paragraph at lines 672--673
 \OT1/cmr/m/n/12 but can dimerise upon re-cruit-ment to the mem-brane, likely du
 e to concentration-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
 
  []
 
-[74 <../Figures/ph_ring.png (PNG copy)>] [75 <../Figures/ph_ring_rnai.png (PNG 
-copy)>] <../Figures/tomm20_schematic.png, id=890, 385.07864pt x 169.77428pt>
+[77 <../Figures/ph_ring.png (PNG copy)>] [78 <../Figures/ph_ring_rnai.png (PNG 
+copy)>] <../Figures/tomm20_schematic.png, id=927, 385.07864pt x 169.77428pt>
 File: ../Figures/tomm20_schematic.png Graphic file (type png)
 
 <use ../Figures/tomm20_schematic.png>
-Package pdftex.def Info: ../Figures/tomm20_schematic.png used on input line 637
+Package pdftex.def Info: ../Figures/tomm20_schematic.png used on input line 675
 .
 (pdftex.def)             Requested size: 365.82263pt x 161.28464pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--644
+Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
  []
 
-<../Figures/tomm20_merge.png, id=891, 400.91783pt x 223.67564pt>
+<../Figures/tomm20_merge.png, id=928, 400.91783pt x 223.67564pt>
 File: ../Figures/tomm20_merge.png Graphic file (type png)
 
 <use ../Figures/tomm20_merge.png>
-Package pdftex.def Info: ../Figures/tomm20_merge.png used on input line 646.
+Package pdftex.def Info: ../Figures/tomm20_merge.png used on input line 684.
 (pdftex.def)             Requested size: 380.86978pt x 212.49065pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
 
  []
 
-[76 <../Figures/tomm20_schematic.png (PNG copy)>] [77 <../Figures/tomm20_merge.
+[79 <../Figures/tomm20_schematic.png (PNG copy)>] [80 <../Figures/tomm20_merge.
 png (PNG copy)>]
-<../Figures/tomm20_assay.png, id=900, 289.14023pt x 144.60022pt>
+<../Figures/tomm20_assay.png, id=937, 289.14023pt x 144.60022pt>
 File: ../Figures/tomm20_assay.png Graphic file (type png)
 
 <use ../Figures/tomm20_assay.png>
-Package pdftex.def Info: ../Figures/tomm20_assay.png used on input line 655.
+Package pdftex.def Info: ../Figures/tomm20_assay.png used on input line 693.
 (pdftex.def)             Requested size: 289.13951pt x 144.59985pt.
- [78 <../Figures/tomm20_assay.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
+ [81 <../Figures/tomm20_assay.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
+<../Figures/l50_structure.png, id=942, 194.82788pt x 162.8484pt>
+File: ../Figures/l50_structure.png Graphic file (type png)
 
-<../Figures/dimer_interface_mutants_in_vivo.png, id=906, 433.68022pt x 343.1620
+<use ../Figures/l50_structure.png>
+Package pdftex.def Info: ../Figures/l50_structure.png used on input line 707.
+(pdftex.def)             Requested size: 175.34346pt x 146.56221pt.
+
+<../Figures/dimer_interface_mutants_in_vivo.png, id=943, 433.68022pt x 343.1620
 5pt>
 File: ../Figures/dimer_interface_mutants_in_vivo.png Graphic file (type png)
  <use ../Figures/dimer_interface_mutants_in_vivo.png>
 Package pdftex.def Info: ../Figures/dimer_interface_mutants_in_vivo.png used on
- input line 671.
+ input line 715.
 (pdftex.def)             Requested size: 390.30858pt x 308.84299pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
 
  []
 
-[79
-
-] [80 <../Figures/dimer_interface_mutants_in_vivo.png (PNG copy)>] [81
-
-]
 [82
 
+ <../Figures/l50_structure.png (PNG copy)>] [83 <../Figures/dimer_interface_mut
+ants_in_vivo.png (PNG copy)>] [84] [85
+
+] [86
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
 
  []
 
-[83]
-<../Figures/thermodynamic_simple_example2.png, id=936, 344.12566pt x 88.83188pt
+[87]
+<../Figures/thermodynamic_simple_example2.png, id=978, 344.12566pt x 88.83188pt
 >
 File: ../Figures/thermodynamic_simple_example2.png Graphic file (type png)
  <use ../Figures/thermodynamic_simple_example2.png>
 Package pdftex.def Info: ../Figures/thermodynamic_simple_example2.png used on i
-nput line 735.
+nput line 779.
 (pdftex.def)             Requested size: 309.71022pt x 79.94794pt.
 
-<../Figures/thermodynamic_simple_example.png, id=937, 344.12566pt x 104.18925pt
+<../Figures/thermodynamic_simple_example.png, id=979, 344.12566pt x 104.18925pt
 >
 File: ../Figures/thermodynamic_simple_example.png Graphic file (type png)
  <use ../Figures/thermodynamic_simple_example.png>
 Package pdftex.def Info: ../Figures/thermodynamic_simple_example.png used on in
-put line 749.
+put line 793.
 (pdftex.def)             Requested size: 309.71022pt x 93.76944pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[84 <../Figures/thermodynamic_simple_example2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 768--769
+[88 <../Figures/thermodynamic_simple_example2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
 
  []
 
-[85 <../Figures/thermodynamic_simple_example.png (PNG copy)>] [86]
-<../Figures/thermodynamic_simple_dimer.png, id=958, 387.48766pt x 185.79413pt>
+[89 <../Figures/thermodynamic_simple_example.png (PNG copy)>] [90]
+<../Figures/thermodynamic_simple_dimer.png, id=1001, 387.48766pt x 185.79413pt>
 File: ../Figures/thermodynamic_simple_dimer.png Graphic file (type png)
-
 <use ../Figures/thermodynamic_simple_dimer.png>
 Package pdftex.def Info: ../Figures/thermodynamic_simple_dimer.png used on inpu
-t line 797.
+t line 841.
 (pdftex.def)             Requested size: 387.4867pt x 185.79367pt.
- [87 <../Figures/thermodynamic_simple_dimer.png (PNG copy)>] [88]
-Underfull \hbox (badness 10000) in paragraph at lines 832--833
+ [91 <../Figures/thermodynamic_simple_dimer.png (PNG copy)>] [92]
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 
  []
 
 
-<../Figures/thermodynamic_model_species.png, id=980, 489.5088pt x 269.20575pt>
+<../Figures/thermodynamic_model_species.png, id=1022, 489.5088pt x 269.20575pt>
 File: ../Figures/thermodynamic_model_species.png Graphic file (type png)
-
 <use ../Figures/thermodynamic_model_species.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_species.png used on inp
-ut line 835.
+ut line 879.
 (pdftex.def)             Requested size: 440.55385pt x 242.28291pt.
 
-Overfull \hbox (43.06885pt too wide) in paragraph at lines 835--838
+Overfull \hbox (43.06885pt too wide) in paragraph at lines 879--882
  [][] 
  []
 
@@ -1891,180 +1952,188 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--845
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 846--847
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
 
  []
 
-[89]
-<../Figures/thermodynamic_model_feedback.png, id=986, 374.3586pt x 180.25342pt>
+[93]
+<../Figures/thermodynamic_model_feedback.png, id=1028, 374.3586pt x 180.25342pt
+>
 File: ../Figures/thermodynamic_model_feedback.png Graphic file (type png)
-<use ../Figures/thermodynamic_model_feedback.png>
+ <use ../Figures/thermodynamic_model_feedback.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_feedback.png used on in
-put line 850.
+put line 894.
 (pdftex.def)             Requested size: 374.35768pt x 180.25296pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
 
  []
 
-[90 <../Figures/thermodynamic_model_species.png (PNG copy)>]
-<../Figures/thermodynamic_model_dimer_fractions.png, id=992, 454.51808pt x 342.
-49957pt>
+[94 <../Figures/thermodynamic_model_species.png (PNG copy)>]
+<../Figures/thermodynamic_model_dimer_fractions.png, id=1033, 454.51808pt x 342
+.49957pt>
 File: ../Figures/thermodynamic_model_dimer_fractions.png Graphic file (type png
 )
  <use ../Figures/thermodynamic_model_dimer_fractions.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_dimer_fractions.png use
-d on input line 859.
+d on input line 903.
 (pdftex.def)             Requested size: 409.06248pt x 308.24677pt.
 
-Overfull \hbox (11.57748pt too wide) in paragraph at lines 859--862
+Overfull \hbox (11.57748pt too wide) in paragraph at lines 903--906
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[91 <../Figures/thermodynamic_model_feedback.png (PNG copy)>] [92 <../Figures/t
-hermodynamic_model_dimer_fractions.png (PNG copy)>] [93
+[95 <../Figures/thermodynamic_model_feedback.png (PNG copy)>] [96 <../Figures/t
+hermodynamic_model_dimer_fractions.png (PNG copy)>] [97
 
 ]
-Overfull \hbox (1.58073pt too wide) in paragraph at lines 880--880
+Overfull \hbox (1.58073pt too wide) in paragraph at lines 924--924
 |[]\OT1/cmr/bx/n/17.28 Modelling dimerisation-driven pos-i-tive feed-
  []
 
-[94
+[98
 
 
 ]
-<../Figures/thermodynamic_model_koff.png, id=1012, 387.54788pt x 185.85435pt>
+<../Figures/thermodynamic_model_koff.png, id=1054, 387.54788pt x 185.85435pt>
 File: ../Figures/thermodynamic_model_koff.png Graphic file (type png)
 
 <use ../Figures/thermodynamic_model_koff.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_koff.png used on input 
-line 931.
+line 975.
 (pdftex.def)             Requested size: 387.54692pt x 185.85388pt.
- [95] [96 <../Figures/thermodynamic_model_koff.png (PNG copy)>]
-Overfull \hbox (1.21477pt too wide) in paragraph at lines 942--942
+ [99] [100 <../Figures/thermodynamic_model_koff.png (PNG copy)>]
+Overfull \hbox (1.21477pt too wide) in paragraph at lines 986--986
 |[]\OT1/cmr/bx/n/17.28 Direct ex-per-i-men-tal ma-nip-u-la-tion of dimeri-
  []
 
-<../Figures/gcn4.png, id=1027, 392.54655pt x 295.70474pt>
+<../Figures/gcn4.png, id=1068, 392.54655pt x 295.70474pt>
 File: ../Figures/gcn4.png Graphic file (type png)
 
 <use ../Figures/gcn4.png>
-Package pdftex.def Info: ../Figures/gcn4.png used on input line 951.
+Package pdftex.def Info: ../Figures/gcn4.png used on input line 995.
 (pdftex.def)             Requested size: 392.5456pt x 295.70401pt.
 
-<../Figures/gcn4_quantification.png, id=1028, 394.41353pt x 419.94893pt>
+<../Figures/gcn4_quantification.png, id=1069, 394.41353pt x 419.94893pt>
 File: ../Figures/gcn4_quantification.png Graphic file (type png)
 
 <use ../Figures/gcn4_quantification.png>
 Package pdftex.def Info: ../Figures/gcn4_quantification.png used on input line 
-958.
+1002.
 (pdftex.def)             Requested size: 394.41255pt x 419.94789pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Figures/gcn4_alone.png, id=1029, 341.17462pt x 175.1343pt>
+<../Figures/gcn4_alone.png, id=1070, 341.17462pt x 175.1343pt>
 File: ../Figures/gcn4_alone.png Graphic file (type png)
 
 <use ../Figures/gcn4_alone.png>
-Package pdftex.def Info: ../Figures/gcn4_alone.png used on input line 965.
+Package pdftex.def Info: ../Figures/gcn4_alone.png used on input line 1009.
 (pdftex.def)             Requested size: 341.17378pt x 175.13387pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[97
+[101
 
 
- <../Figures/gcn4.png (PNG copy)>] [98 <../Figures/gcn4_quantification.png (PNG
- copy)>] [99 <../Figures/gcn4_alone.png (PNG copy)>]
-Overfull \hbox (3.35945pt too wide) in paragraph at lines 991--992
+ <../Figures/gcn4.png (PNG copy)>] [102 <../Figures/gcn4_quantification.png (PN
+G copy)>] [103 <../Figures/gcn4_alone.png (PNG copy)>]
+Overfull \hbox (3.35945pt too wide) in paragraph at lines 1035--1036
 []\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 $ \OT1/cmr/m/n/12 is a non-dimension
 al con-ver-sion fac-tor be-tween cy-to-plas-mic and plasma
  []
 
-<../Figures/six_species_thermodynamic.png, id=1042, 442.17195pt x 147.4308pt>
+<../Figures/six_species_thermodynamic.png, id=1084, 442.17195pt x 147.4308pt>
 File: ../Figures/six_species_thermodynamic.png Graphic file (type png)
 
 <use ../Figures/six_species_thermodynamic.png>
 Package pdftex.def Info: ../Figures/six_species_thermodynamic.png used on input
- line 994.
+ line 1038.
 (pdftex.def)             Requested size: 397.95107pt x 132.68648pt.
- [100
+ [104
 
 ]
-<../Figures/three_surface_kinetic.png, id=1051, 423.984pt x 467.28578pt>
+<../Figures/three_surface_kinetic.png, id=1093, 423.984pt x 467.28578pt>
 File: ../Figures/three_surface_kinetic.png Graphic file (type png)
 
 <use ../Figures/three_surface_kinetic.png>
 Package pdftex.def Info: ../Figures/three_surface_kinetic.png used on input lin
-e 1007.
+e 1051.
 (pdftex.def)             Requested size: 402.78249pt x 443.91896pt.
 
-Overfull \hbox (5.29749pt too wide) in paragraph at lines 1007--1010
+Overfull \hbox (5.29749pt too wide) in paragraph at lines 1051--1054
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../Figures/gcn4_par3mut.png, id=1052, 420.6114pt x 405.73582pt>
+<../Figures/gcn4_par3mut.png, id=1094, 420.6114pt x 405.73582pt>
 File: ../Figures/gcn4_par3mut.png Graphic file (type png)
 
 <use ../Figures/gcn4_par3mut.png>
-Package pdftex.def Info: ../Figures/gcn4_par3mut.png used on input line 1017.
+Package pdftex.def Info: ../Figures/gcn4_par3mut.png used on input line 1061.
 (pdftex.def)             Requested size: 399.57857pt x 385.44684pt.
 
-Overfull \hbox (2.09357pt too wide) in paragraph at lines 1017--1020
+Overfull \hbox (2.09357pt too wide) in paragraph at lines 1061--1064
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[101 <../Figures/six_species_thermodynamic.png (PNG copy)>] [102 <../Figures/th
-ree_surface_kinetic.png (PNG copy)>] [103 <../Figures/gcn4_par3mut.png (PNG cop
-y)>] [104
+[105 <../Figures/six_species_thermodynamic.png (PNG copy)>] [106 <../Figures/th
+ree_surface_kinetic.png (PNG copy)>] [107 <../Figures/gcn4_par3mut.png (PNG cop
+y)>] [108
 
 
-] [105
+] <../Figures/glh.png, id=1113, 366.34868pt x 297.9933pt>
+File: ../Figures/glh.png Graphic file (type png)
+
+<use ../Figures/glh.png>
+Package pdftex.def Info: ../Figures/glh.png used on input line 1084.
+(pdftex.def)             Requested size: 366.34778pt x 297.99257pt.
+ [109
 
 
-] [106
+ <../Figures/glh.png (PNG copy)>] [110] [111
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1055.
- [107
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1109.
+
+[112
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1055.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1109.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1055.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1055.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1109.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2D1F4472AE96A96730C769C9C994A912;7876.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1055.
+(rerunfilecheck)             Checksum: 559F648F39F8FE2CF18BDA3F6B8849BE;7953.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1109.
  ) 
 Here is how much of TeX's memory you used:
- 17051 strings out of 492995
- 314566 string characters out of 6132704
+ 17100 strings out of 492995
+ 315851 string characters out of 6132704
  391734 words of memory out of 5000000
- 20155 multiletter control sequences out of 15000+600000
+ 20184 multiletter control sequences out of 15000+600000
  536242 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,20n,92p,10348b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2080,10 +2149,10 @@ texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis.pdf (108 pages, 50580024 bytes).
+Output written on Thesis.pdf (113 pages, 61367132 bytes).
 PDF statistics:
- 1186 PDF objects out of 1200 (max. 8388607)
- 1015 compressed objects within 11 object streams
- 276 named destinations out of 1000 (max. 500000)
- 911 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1238 PDF objects out of 1440 (max. 8388607)
+ 1055 compressed objects within 11 object streams
+ 289 named destinations out of 1000 (max. 500000)
+ 954 words of extra memory for PDF output out of 10000 (max. 10000000)
 
