@@ -53,6 +53,7 @@
 
 \tableofcontents
 \listoffigures
+\listoftables
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -94,9 +95,21 @@ As well as the C elegans embryo, PAR protein homologies display asymmetric local
 \clearpage
 \subsection{PAR polarity in C elegans zygotes}
 
+Intro to section
+
+\begin{figure}[!h]
+\includegraphics[scale=0.9]{par_proteins_schematic}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\label{fig:par_proteins_schematic}
+\end{figure}
+
+
 \subsubsection{Mechanisms of PAR cortical association}
 
 TRANSITION TO SECTION. PAR proteins associate to the cortex in a number of ways. Some display direct and intrinsic cortical localisation activity (PAR-3, PAR-2, CDC-42, CHIN-1, LGL-1). Whilst originally thought to interact with the cytoskeleton, these PARs are now known to localise to the cortex by interacting with the plasma membrane through a combination of electrostatics and specific phospholipid interactions. Other PARs lack intrinsic cortical localisation activity (PAR-6, PKC-3), relying instead on other PARs to act as scaffolds and adaptors, or fall somewhere in between with a mix of direct and scaffold-mediated binding (PAR-1). In this section I will overview some of the key mechanisms.\\
+
 
 \textit{Association with lipids}\\
 
@@ -561,9 +574,11 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 \clearpage
 \section{Identifying core patterning behaviours of PAR-2}
 
+\subsection{Introduction}
+
 % Note: previous studies have shown that PAR-2 can maintain domains once formed, but hasn't been demonstrated whether PAR-2 can break symmetry without clearance of aPARs.
 
-\subsection{PAR-2 polarity in systems with uniform aPAR}
+\subsection{Self-organisation of PAR-2 drives polarity in a uniform aPAR field}
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{uniform_polarity}
@@ -572,9 +587,6 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 \mycaption{Title}{Caption}
 \label{fig:uniform_polarity}
 \end{figure}
-
-\clearpage
-\subsection{Symmetry breaking against uniform aPAR}
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{uniform_polarity_sb}
@@ -585,7 +597,7 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 \end{figure}
 
 \clearpage
-\subsection{Polarity phenotypes in PAR-2 mutants}
+\subsection{PAR-2 driven polarity is disrupted in various PAR-2 mutants}
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{uniform_polarity_mutants}
@@ -598,11 +610,31 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 \clearpage
 \subsection{Quantitative characterisation of PAR-2 mutants}
 
+\clearpage
+\subsection{RING domain promotes positive feedback to achieve optimal membrane affinity}
+
+Transition to section\\
+
+To test for evidence of feedback, I performed an assay where I titrated the level of PAR-2 by RNAi (in a par-3 mutant system) and quantified the membrane and cytoplasmic concentrations in the different embryos (similar to the assay performed previously for PH). Whilst a protein without feedback is expected to follow a linear relationship, a protein feeding back on its own membrane recruitment may instead be expected to have a higher membrane affinity the more total protein there is in the system, giving a nonlinear relationship between membrane and cytoplasmic concentrations. In the case of PAR-2, the assay quite clearly shows that there isn't a straightforward linear relationship between membrane and cytoplasm, with a positive uptick that's characteristic of positive feedback (fig x).\\
+
+On the other hand, mutant PAR-2 (C56S), as well as following a lower affinity trajectory, appears to have a more linear relationship between cytoplasm and membrane, more in line with a protein that's exchanging on and off the membrane without feedback. This suggests that the mechanisms of positive feedback, which appear to contribute to the strong membrane binding kinetics of PAR-2, may be RING domain dependent.
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{rundown_vs_c56s}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\label{fig:rundown_vs_c56s}
+\end{figure}
+
+\clearpage
 \subsection{Discussion}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \section{Determining mechanisms of PAR-2 RING domain action}
+
+\subsection{Introduction}
 
 % needs to comment on positive feedback more
 
@@ -630,17 +662,13 @@ A third possibility, which I will touch upon but do not directly investigate, is
 
 \textit{This section describes work performed with Colin Davis in Anne Schreiber's lab, and Diego Esposito in Katrin Rittinger's lab, both at the Crick}
 
-\subsubsection{PAR-2 purification and in vitro ubiquitination assays}
-
-% Shown to interact with E2 enzymes in yeast two hybrid assays
+\subsubsection{PAR-2 does not show activity in in vitro ubiquitination assays}
 
 % Whilst the Hao paper reports unpublished data
 
 We expressed strep-tagged full-length PAR-2 in insect cells, lysed cells by sonication, and purified by pull-down followed by size exclusion chromatography (see Methods). From the initial pull-down stage, we observed two prominant bands close to the expected mass of PAR-2. Due to their similar masess, we were unable to separate the two bands by size exclusion chromatography (fig x). We tested both bands by mass spectrometry, which confirmed them both to be PAR-2. Interestingly, a single ubiquitinated site (K...) was identified in the upper band sample, explaining the higher mass. No ubiquitinated sites were found in the lower band sample, although the K... site was not covered. We also observed similar bands in a small-scale prep of C56S mutant PAR-2. Therefore, I do not believe this to be a result of autoubiquitination, but may rather represent ubiquitination of the protein by an insect E3 within the insect cell. CRISPR mutation of K... has no effect in vivo (data not shown), and attempts to purify PAR-2 from worm lysates and HEK cell preps have not shown two bands.\\
 
-% Sample from SEC purification was pooled (lanes x-x)
-
-% Whereas the positive control sample (TRIM2) showed rapid auto-polyubiquitination and depletion of ubiquitin within 30 minutes, no effect was observed for PAR-2 across the whole 60 minutes of the experiment, indicating lack of ubiquitniation activity.
+Sample from SEC purification was pooled (lanes x-x) and used for an in vitro ubiquitination assay. Designed to test for ubiquitination activity, this assay involves mixing a text protein with ubiquitin, E1 and an E2, and observing for autoubiquitination of the test protein. Given that E3s typically work with only a small number of E2s, the assay is sensitive to the choice of E2, and therefore care must be taken to choose an appropriate E2. In the case of PAR-2 this is so far unknown, although PAR-2 has been shown to weakly interact with UBC-2, UBC-18 and UEV-2 in yeast two hybrid assays \citep{Gudgen2004}. Since UBC-2 (known as UBCH5a in Humans) is also the most promiscuous of the E2s, this was chosen for the assay (see Methods for more details). As shown in fig x, whereas the positive control sample (TRIM2) showed rapid auto-polyubiquitination and depletion of ubiquitin within 30 minutes, no effect was observed for PAR-2 across the whole 60 minutes of the experiment, indicating lack of ubiquitnation activity. A similar assay was performed using human UBC13/UEV1 as the E2, chosen based on PAR-2's similarity to RNF8 which works with this E2, however the result was also negative (data not shown).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{ubiquitin_assay}
@@ -651,9 +679,8 @@ We expressed strep-tagged full-length PAR-2 in insect cells, lysed cells by soni
 \end{figure}
 
 
-
 \clearpage
-\subsubsection{Targeted mutation to putative linchpin site}
+\subsubsection{Targeted mutation to putative linchpin site has no phenotype}
 
 A key site in many RING E3 ligases is an arginine or lysine residue immediately downstream of the final zinc-coordinating cysteine, which is known as the linchpin site. <what does this site do?>. 46\% of RING domains have an arginine at this site linchpin, whereas 14\% have lysine \citep{Stewart2017}. Typically, the choice of residue at this site regulates a trade-off between ubiquitination activity and E2 specificity. RINGs with a K at this site typically show lower ubiquitination activity in vitro (REF). Stewart showed for the protein <> that mutating this site from an arginine to a lysine increases ubiquitination activity but reduces E2 specificity (CHECK). However, this isn’t a universal mechanism, and many functional RING E3 ligases have other residues at this site <examples, refs>. This suggests that other mechanisms of <> must exist. Currently this is poorly understood.\\
 
@@ -680,10 +707,12 @@ To test the potential role of linchpin-mediated autoubiquitination for PAR-2 mem
 
 \subsubsection{Discussion}
 
+Unfortunately, since all of the experiments performed have given negative results, it's difficult to draw too many conclusions. Negative results in the ubiquitination assay could indicate lack of E3 ligase activity, but could also be caused by an inappropriate E2, damage to the protein during purification, or there could be a level of activity that's below the detection threshold of the assay. The first point could be adressed by using an E2 scan, an approach that tests for activity using a wide array of available E2s. However, given the low likelihood of success, combined with success in other areas of the project which will be described below, this was not prioritised. Negative results for the linchpin mutant could argue that PAR-2 doesn't act as an E3 ligase (at least not in a way that would impact membrane affinity), but given that the linchpin mechanism isn't universaly conserved in E3s this isn't a robust assay and only a positive result would have been meaningful.\\
+
 \clearpage
 \subsection{Exploring a role for dimerisation}
 
-\subsubsection{RING domain sequence analysis}
+\subsubsection{PAR-2 RING domain sequence bears hallmarks of dimeric RINGs}
 
 As a first step, I performed a BLAST search to compare the PAR-2 sequence against sequences for which the quaternary structure has been solved using laboratory methods, using the online SWISS model tool. This yielded hits for a number of well-characterised RING domains, most of which are dimeric in their crystal structures (table x). RING domain dimerisation is typically mediated by a four-helix bundle, consisting of short alpha-helical segments N- and C- terminal to the core RING domain each of the two monomers. By forming a hydrophobic interface, dimerisation is stabilised. Thus, dimeric RING domains have a characteristic pattern of hydrophobic residues in the regions upstream and downstream of the core RING domain. Sequence alignment shows that, whilst the precise pattern of hydrophobic varies slightly between different proteins, PAR-2 follows the general pattern expected of dimeric RING domains (fig x).\\
 
@@ -706,7 +735,7 @@ As shown in fig x, these regions are highly conserved in different Caenorhabditi
 \end{figure}
 
 \clearpage
-\subsubsection{RING domain structure prediction}
+\subsubsection{Structure predictions reveal 4-helix bundle with hydrophobic core}
 
 A number of different methods for predicting the structure. SWISS model tool allows homology modelling, whereby the sequence of interest is mapped to a chosen structure of a protein with high sequence homology. <caveats>. Recently <new methods e.g. alphafold>. \citep{Jumper2021} \\
 
@@ -733,7 +762,7 @@ Note, at the time of writing, whilst alphafold can model quaternary structures o
 
 
 \clearpage
-\subsubsection{Characterising RING domain dimerisation in vitro}
+\subsubsection{The PAR-2 RING domain dimerises in vitro}
 
 % sec mals on wild type RING
 
@@ -751,7 +780,7 @@ Instead, we decided to attempt more targeted mutation to the dimerisation interf
 
 
 \clearpage
-\subsubsection{Characterising PAR-2 dimerisation in vivo}
+\subsubsection{Membrane-enriched PAR-2 self-associates in vivo}
 
 Whilst the above provides convincing evidence that the RING domain of PAR-2 can dimerise in in vitro settings, its ability to drive PAR-2 dimerisation in vivo hasn't been demonstrated. In fact, some evidence exists that would appear to be contradictory to this. Hao showed that an N-terminal fragment (1-177) of PAR-2, which contains the full RING domain but lacks the membrane localisation domain, is entirely cytoplasmic when expressed in vivo. I have also replicated this finding, which is shown in fig x.\\
 
@@ -787,6 +816,8 @@ The above results suggest that the construct is polarising by responding to pola
 
 % more discussion here
 
+\subsubsection{Cytoplasmic PAR-2  does not self-associate in vivo}
+
 The above data implies to a model where PAR-2 is not constitutively dimeric, but can dimerise upon recruitment to the membrane, likely due to concentration-dependent effects. In line with this, we expect that the cytoplasmic pool should be largely, or entirely monomeric. To confirm this I devised in vivo pull-down assay based on dual labelling of PAR-2 with two different fluorophores, fig x. Expressing PAR-2 with a mix of green and red fluorophores means that, were PAR-2 to form constitutive dimers, a mixed population of green/green, green/red and red/red dimers would be expected to be present within the cytoplasm. Thus, forced relocalisation of one of these pools to an exogenous location in the cell should result in a detectable signal of the other fluorophore. A similar assay was used previously by \textcite{Reich2019}, who demonstrated a stable interaction between PAR-6 and PKC-3, through forced localisation of GFP::PKC-3 to the plasma membrane with a membrane-tethered GFP nanobody. (In this case the plasma membrane was a suitable target because, under the conditions of the assay, PAR-6/PKC-3 do not normally bind to the PM). Here I propose a similar approach, relying instead on recruitment to mitochondrial membranes within the cell. Mitochondrial membranes are dense within the cell, and can be probed easily with a localisation signal from the TOMM-20 protein (ref).\\
 
 \begin{figure}[!h]
@@ -820,7 +851,7 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 % summary/discussion. Reiterate concentration-dependent dimerisation model.
 
 \clearpage
-\subsubsection{Targeted mutation to dimerisation interface regions}
+\subsubsection{Mutation to dimerisation interface weakens membrane association in vivo}
 
 As discussed previously, disrupting the RING domain, by targeted mutation to a zinc-interacting cysteine, has a strong phenotype in vivo, characterised by a string reduction in membrane affinity. My results suggest that this phenotype may be explained by a disruption in dimerisation at the membrane. However, as C56S mutation disrupts the tertiary structure of the whole domain, rather than just the dimerisation interface, it may also have additional effects. To confirm the specific role of dimerisation, I performed targeted mutations to the dimerisation interface region of the RING domain, aiming to disrupt dimerisation in vivo whilst keeping the tertiary structure of the domain intact. In addition to L109R, I performed an additional L>R mutation to L50, which is found in the N-helix. I introduced mutations at the endogenous site by CRISPR in an mNeonGreen::PAR-2 line. \\
 
@@ -844,7 +875,7 @@ As discussed previously, disrupting the RING domain, by targeted mutation to a z
 As shown in fig x, both mutations cause a strong reduction in affinity. This effect is stronger for L109R, which may suggest that L50R, whilst partially disrupting dimerisation, is insufficient to disrupt it completely. Combination of both mutants has no effect compared to L109R alone, indicating that dimerisation is completely disrupted in L109R. Interestingly, however, neither mutants reduce membrane affinity to the same extent as C56S. Assuming that dimerisation is fully disrupted by L109R, this implies that fully disrupting the domain may have additional effects compared to just disrupting dimerisation alone. One plausible explanation is that, in the case of C56S, the unfolded domain interferes with normal membrane binding, and therefore has an additional negative effect on membrane affinity. Compatible with this, a PH::RING fusion has lower overall membrane affinity that PH alone (fig x). Combining C56S and L109R has no effect compared to C56S alone, suggesting that dimerisation is completely disrupted in the C56S mutant.\\
 
 \clearpage
-\subsection{Discussion}
+\subsubsection{Discussion}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -852,6 +883,8 @@ As shown in fig x, both mutations cause a strong reduction in affinity. This eff
 \section{A thermodynamic model of PAR-2 dimerisation}
 
 \textit{This section describes work performed in conjunction with David Zwicker}
+
+\subsection{Introduction}
 
 \subsection{Model description}
 
@@ -1010,7 +1043,7 @@ where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$.
 \end{figure}
 
 
-\subsection{Dimerisation-driven positive feedback}
+\subsection{Intermediate dimerisation can drive nonlinear membrane association}
 
 Given the nonlinearities associated with dimerisation reactions, the distribution of protein between the four states is expected to vary depending on total protein amounts. This is particularly interesting in the case of PAR-2, as partitioning between the cytoplasm and membrane doesn’t follow simple linear kinetics, but varies depends on dosage (section x). I therefore investigated whether our simple thermodynamic behaviour can capture similar behaviour, by varying $\phi$ across a range of concentrations and solving for $\phi_m$ and $\phi_c$. \\
 
@@ -1040,7 +1073,7 @@ As shown in fig xB, effective exponent of the cytoplasm vs membrane relationship
 %make the point here (or later) that this gives a linear increase in affinity, so is not expected to contribute to bistability
 
 \clearpage
-\subsection{Quantitative analysis of PAR-2 membrane binding kinetics in vivo}
+\subsection{Assessment of in vivo PAR-2 membrane binding kinetics}
 
 % the above makes predictions about the quantitative relationship between membrane and cytoplasmic concentrations. Suggests no bistability. Contrasts with earlier results. Let's try and measure this in vivo
 
@@ -1113,9 +1146,11 @@ implying a dependence on both energies and concentrations. This is shown for $k_
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\section{Direct experimental manipulation of dimerisation}
+\section{Experimental manipulation of PAR-2 dimerisation}
 
-\subsection{Forced constitutive dimerisation}
+\subsection{Introduction}
+
+\subsection{Forced constitutive dimerisation of PAR-2 shifts localisation towards internal membranes}
 
 % Strikingly, we see the unexpected appearance of visible structures within the cell. Based on comparison to RAB localisation patterns, these appear to be endosomes.
 
@@ -1178,7 +1213,7 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 % Whilst increasing wd may increase binding to internal membranes (provided that wi is high enough), this should always be accompanied by an increase in levels at the plasma membrane. In other words, we cannot get a scenario akin to what we see in vivo,  whereby constitutive dimerisation actually reduces levels on the plasma membrane.
 
 
-\subsection{Consideration of membrane exchange kinetics}
+\subsection{Modelling kinetics outside of equilibrium}
 
 
 \begin{figure}[!h]
@@ -1190,7 +1225,7 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 \end{figure}
 
 
-\subsection{Monitoring the system closer to equilibrium in vivo}
+\subsection{aPAR disruption partially restores expected equilibrium localisation pattern}
 
 \begin{figure}[!h]
 \includegraphics[scale=0.95]{gcn4_par3mut}
@@ -1200,6 +1235,7 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 \label{fig:gcn4_par3mut}
 \end{figure}
 
+\subsection{Discussion}
 
 
 
@@ -1238,6 +1274,10 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 \clearpage
 \section{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\section{Abbreviations}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
