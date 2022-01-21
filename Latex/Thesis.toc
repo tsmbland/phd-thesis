@@ -1,91 +1,185 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{10}{section.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1}Spatial patterning in biological systems}{10}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Cell polarity}{11}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.1}The Min system}{11}{subsubsection.1.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.2}CDC-42 polarity in yeast}{11}{subsubsection.1.2.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.3}PAR polarity}{11}{subsubsection.1.2.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3}Maintenance of cell polarity by bistable reaction-diffusion systems}{13}{subsection.1.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.3.1}Bistable reaction kinetics}{13}{subsubsection.1.3.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.3.2}Single species polarity models}{13}{subsubsection.1.3.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.3.3}The mutual antagonism model}{13}{subsubsection.1.3.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4}A molecular basis for ultrasensitivity}{14}{subsection.1.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.1}Ultrasensitivity in protein phosphorylation reactions}{14}{subsubsection.1.4.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.2}Ultrasensitivity through cooperative membrane binding}{14}{subsubsection.1.4.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5}PAR polarity in C elegans zygotes}{15}{subsection.1.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.1}Mechanisms of PAR cortical association}{15}{subsubsection.1.5.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.2}Maintenance of polarity by mutual antagonism}{19}{subsubsection.1.5.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.3}Establishment of polarity}{22}{subsubsection.1.5.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.4}Downstream of the PAR proteins}{25}{subsubsection.1.5.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.5}Resistance and substrate competition}{26}{subsubsection.1.5.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.6}Discussion}{26}{subsubsection.1.5.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.6}PAR-2: roles and mechanisms of action}{27}{subsection.1.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.6.1}Main functional roles of PAR-2}{27}{subsubsection.1.6.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.6.2}Evidence and proposed roles for oligomerisation}{28}{subsubsection.1.6.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.6.3}Roles for the RING domain}{30}{subsubsection.1.6.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.7}RING domains across the proteome}{32}{subsection.1.7}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.7.1}RING proteins in the ubiquitination pathway}{32}{subsubsection.1.7.1}
-\contentsline {subsubsection}{\numberline {1.7.2}RINGs as dimerisation domains}{32}{subsubsection.1.7.2}
-\contentsline {subsubsection}{\numberline {1.7.3}Discussion}{32}{subsubsection.1.7.3}
-\contentsline {section}{\numberline {2}A pipeline for quantification of membrane and cytoplasmic protein concentrations}{33}{section.2}
-\contentsline {subsection}{\numberline {2.1}Autofluorescence correction}{33}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Autofluorescence in C elegans}{33}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}{35}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Assessing performance on images of PAR proteins}{37}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Extending SAIBR to dual-labelled C elegans embryos}{39}{subsubsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.5}Discussion}{42}{subsubsection.2.1.5}
-\contentsline {subsection}{\numberline {2.2}Extracting membrane and cytoplasmic signal components}{44}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}An overview of existing methods}{44}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Accounting for out-of-focus scatter}{45}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}A gradient descent protocol for image quantification}{52}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}Segmentation}{55}{subsubsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.5}Benchmarking the method}{57}{subsubsection.2.2.5}
-\contentsline {subsubsection}{\numberline {2.2.6}Calibrating concentration units}{59}{subsubsection.2.2.6}
-\contentsline {subsubsection}{\numberline {2.2.7}Discussion}{63}{subsubsection.2.2.7}
-\contentsline {section}{\numberline {3}Identifying core patterning behaviours of PAR-2}{64}{section.3}
-\contentsline {subsection}{\numberline {3.1}PAR-2 polarity in systems with uniform aPAR}{64}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Symmetry breaking against uniform aPAR}{65}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Polarity phenotypes in PAR-2 mutants}{66}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Quantitative characterisation of PAR-2 mutants}{67}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Discussion}{67}{subsection.3.5}
-\contentsline {section}{\numberline {4}Determining mechanisms of PAR-2 RING domain action}{68}{section.4}
-\contentsline {subsection}{\numberline {4.1}Exploring a role for ubiquitination}{68}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}PAR-2 purification and in vitro ubiquitination assays}{68}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Targeted mutation to putative linchpin site}{69}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}Exploring a role for dimerisation}{71}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Sequence analysis}{71}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Structure prediction}{73}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Characterising dimerisation in vitro}{74}{subsubsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.4}Characterising dimerisation in vivo}{75}{subsubsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.5}Targeted mutation to dimerisation interface regions}{82}{subsubsection.4.2.5}
-\contentsline {subsection}{\numberline {4.3}Discussion}{85}{subsection.4.3}
-\contentsline {section}{\numberline {5}A thermodynamic model of PAR-2 dimerisation}{86}{section.5}
-\contentsline {subsection}{\numberline {5.1}Model description}{86}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Thermodynamic description of membrane binding}{89}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Thermodynamic description of dimerisation}{90}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}4-species dimerisation model}{91}{subsubsection.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Dimerisation-driven positive feedback}{93}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Quantitative analysis of PAR-2 membrane binding kinetics in vivo}{97}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Discussion}{97}{subsection.5.4}
-\contentsline {section}{\numberline {6}Modelling dimerisation-driven positive feedback in the PAR network}{98}{section.6}
-\contentsline {subsection}{\numberline {6.1}Model description}{98}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Reducing thermodynamic model to a two-species model}{98}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Explicit description of membrane binding kinetics}{99}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}Incorporation into mutual antagonism model}{100}{subsubsection.6.1.3}
-\contentsline {section}{\numberline {7}Direct experimental manipulation of dimerisation}{101}{section.7}
-\contentsline {subsection}{\numberline {7.1}Forced constitutive dimerisation}{101}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Incorporating internal membranes into the thermodynamic model}{104}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Consideration of membrane exchange kinetics}{105}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Monitoring the system closer to equilibrium in vivo}{105}{subsection.7.4}
-\contentsline {section}{\numberline {8}Discussion}{108}{section.8}
-\contentsline {section}{\numberline {9}Materials and methods}{109}{section.9}
-\contentsline {subsection}{\numberline {9.1}Worm maintenance}{109}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Generating transgenic lines by CRISPR}{109}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Microscopy}{110}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Full-length PAR-2 purification}{110}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Ubiquitination assays}{110}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}PAR-2 RING domain fragment purification}{110}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}SEC-MALS}{110}{subsection.9.7}
-\contentsline {subsection}{\numberline {9.8}Image analysis}{110}{subsection.9.8}
-\contentsline {subsection}{\numberline {9.9}Modelling methods}{110}{subsection.9.9}
-\contentsline {section}{\numberline {10}Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{111}{section.10}
-\contentsline {section}{\numberline {11}Bibliography}{112}{section.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.7.2}RINGs as dimerisation domains}{34}{subsubsection.1.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.7.3}Discussion}{36}{subsubsection.1.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}A pipeline for quantification of membrane and cytoplasmic protein concentrations}{37}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Autofluorescence correction}{37}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Autofluorescence in C elegans}{37}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}{39}{subsubsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}Assessing performance on images of PAR proteins}{41}{subsubsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4}Extending SAIBR to dual-labelled C elegans embryos}{43}{subsubsection.2.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.5}Discussion}{46}{subsubsection.2.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Extracting membrane and cytoplasmic signal components}{48}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}An overview of existing methods}{48}{subsubsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Accounting for out-of-focus scatter}{49}{subsubsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3}A gradient descent protocol for image quantification}{56}{subsubsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.4}Segmentation}{58}{subsubsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.5}Benchmarking the method}{61}{subsubsection.2.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.6}Calibrating concentration units}{63}{subsubsection.2.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.7}Discussion}{67}{subsubsection.2.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Identifying core patterning behaviours of PAR-2}{68}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}PAR-2 polarity in systems with uniform aPAR}{68}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Symmetry breaking against uniform aPAR}{69}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Polarity phenotypes in PAR-2 mutants}{70}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Quantitative characterisation of PAR-2 mutants}{71}{subsection.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Discussion}{71}{subsection.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Determining mechanisms of PAR-2 RING domain action}{72}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Exploring a role for ubiquitination}{73}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}PAR-2 purification and in vitro ubiquitination assays}{74}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Targeted mutation to putative linchpin site}{76}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.3}Discussion}{78}{subsubsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Exploring a role for dimerisation}{79}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}RING domain sequence analysis}{79}{subsubsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2}RING domain structure prediction}{82}{subsubsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3}Characterising RING domain dimerisation in vitro}{85}{subsubsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.4}Characterising PAR-2 dimerisation in vivo}{87}{subsubsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5}Targeted mutation to dimerisation interface regions}{94}{subsubsection.4.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Discussion}{97}{subsection.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}A thermodynamic model of PAR-2 dimerisation}{98}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Model description}{98}{subsection.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1}Thermodynamic description of membrane binding}{101}{subsubsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.2}Thermodynamic description of dimerisation}{102}{subsubsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.3}4-species dimerisation model}{103}{subsubsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Dimerisation-driven positive feedback}{105}{subsection.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Quantitative analysis of PAR-2 membrane binding kinetics in vivo}{109}{subsection.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Discussion}{109}{subsection.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Modelling dimerisation-driven positive feedback in the PAR network}{110}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Model description}{110}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.1}Reducing thermodynamic model to a two-species model}{110}{subsubsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.2}Explicit description of membrane binding kinetics}{111}{subsubsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.1.3}Incorporation into mutual antagonism model}{112}{subsubsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Direct experimental manipulation of dimerisation}{113}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Forced constitutive dimerisation}{113}{subsection.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Incorporating internal membranes into the thermodynamic model}{116}{subsection.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Consideration of membrane exchange kinetics}{117}{subsection.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4}Monitoring the system closer to equilibrium in vivo}{117}{subsection.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Discussion}{120}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Materials and methods}{121}{section.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1}Worm maintenance}{121}{subsection.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2}Generating transgenic lines by CRISPR}{121}{subsection.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3}Microscopy}{122}{subsection.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.4}Full-length PAR-2 purification}{122}{subsection.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.5}Ubiquitination assays}{122}{subsection.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.6}PAR-2 RING domain fragment purification}{122}{subsection.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.7}SEC-MALS}{122}{subsection.9.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.8}Image analysis}{122}{subsection.9.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.9}Modelling methods}{122}{subsection.9.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{123}{section.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11}Bibliography}{124}{section.11}
