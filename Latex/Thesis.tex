@@ -298,33 +298,33 @@ Given the widespread roles of dimerisation <>, it’s not unlikely that RING dom
 \clearpage
 \section{A pipeline for quantification of membrane and cytoplasmic protein concentrations}
 
-Intro to section
+Intro to section, build on narrative from introduction
 
 \subsection{Autofluorescence correction}
 
-Note: this section has been adapted from \textcite{Rodrigues2022}, and describes work performed in conjunction with Nelio Rodrigues.
+\textit{Note: this section has been adapted from \textcite{Rodrigues2022}, and describes work performed in conjunction with Nelio Rodrigues.}
 
 \subsubsection{Autofluorescence in C elegans}
 
-One major barrier in quantitative experiments using C elegans is autofluorescence. Whilst usually minor in red channels excited with xxx wavelengths, autofluorescence is particularly prominent in channels excited with blue wavelengths which are commonly used to image green fluorophores. When using endogenously tagged proteins, which are often expressed at low levels, this contribution is often be a significant fraction of the total signal, and can therefore significantly obscure the true signal that one is interested in. This might pose particular problems for quantitative experiments, where the absolute signal levels may be important.\\
+One major barrier in quantitative experiments using \textit{C. elegans} is autofluorescence (AF). Whilst usually minor in red channels excited with xxx wavelengths, autofluorescence is particularly prominent in channels excited with blue wavelengths which are commonly used to image green fluorophores. When using endogenously tagged proteins, which are often expressed at low levels, this contribution can often be a significant fraction of the total signal, and can therefore significantly obscure the true signal that one is interested in. This might pose particular problems for quantitative experiments, where the absolute signal levels may be important.\\
 
-We can observe this problem by imaging untagged control embryos. As shown in (fig x), a significant amount signal is collected in the GFP channel, which varies both spatially within the image, and between different images. By comparison, total signal in embryos endogenously tagged with LGL GFP is also highly variable, and only marginally higher than N2s, suggesting that a significant fraction of the total signal observed in these cells is autofluorescence, and that the intra-embryo signal variation is largely due to variable autofluorescence. Despite being enriched on the posterior cortex, which is easily visible in cells with overexpressed LGL (ref), this is difficult to visualise here as a result of autofluorescence. Therefore, if we want to accurately visualise, and indeed quantify, protein levels and distributions, we need a method that can locally correct AF on a pixel-by-pixel basis.\\
+We can observe the significance of the problem in \textit{C. elegans} by imaging untagged control embryos. As shown in (fig x), a significant amount of signal is collected in the regular GFP channel (488nm excitation, 535/50nm emission), which varies both spatially within the image, and between different images. By comparison, total signal in embryos endogenously tagged with LGL-1::GFP is also highly variable, and only marginally higher than N2s, suggesting that a significant fraction of the total signal observed in these cells is autofluorescence, and that much of the intra-embryo signal variation is likely due to variable autofluorescence. Despite being enriched at the posterior cortex, which is easily visible in cells with overexpressed LGL-1 (ref), this is difficult to visualise here as a result of autofluorescence. Therefore, if we want to accurately visualise, and indeed quantify, protein levels and distributions, we need a method that can locally correct AF on a pixel-by-pixel basis.\\
 
 % figure demonstrating autofluorescence
 
-One approach that has been used for this is spectral imaging. Typically used to separate overlapping fluorophore signals based on spectral characteristics, this approach can also be used to separate out autofluorescence by treating it much like a fluorophore with its own spectral characteristics. Whilst often effective, these techniques require specialised instruments and analysis tools and cannot be performed on standard confocal microscopes.\\
+One approach that has been used to tackle autofluorescence in some systems is spectral imaging \citep{Billinton2001}. Typically used to separate overlapping fluorophore signals based on spectral characteristics, this approach can also be used to separate out autofluorescence by treating it much like a fluorophore with its own spectral characteristics. Whilst often effective, these techniques require specialised instruments and analysis tools and cannot be performed on standard confocal microscopes.\\
 
-However, simpler approaches have been used. By exploiting the fact that autofluorescence can often be described as a single component, with an emission spectrum much broader than GFP, one can find an emission wavelength (usually red) that is specific for autofluorescence, and use this channel to infer the amount of autofluorescence in the sample. This can then be subtracted away from the fluorophore channel, giving a ‘clean’ readout of fluorophore signal. In comparison to full spectral imaging, this method can be carried out with standard light sources and emission filters, and therefore can be easily implemented into existing workflows.\\
+A simpler, related, approach has been proposed for some systems (e.g. \cite{Roederer1986}) which exploits the fact that autofluorescence can often be described as a single fluorescent component, with an emission spectrum much broader than GFP. If one can find an emission wavelength (usually red shifted) that is specific for autofluorescence, this can be used to infer the infer the amount of autofluorescence in the sample, which can then be subtracted away from the regular fluorophore channel to give a clean readout of fluorophore signal. In comparison to full spectral imaging, this method can be carried out with standard light sources and emission filters, and therefore can be easily implemented into existing workflows.\\
 
-Inspired by this work, we aimed to implement, and assess the applicability of such a method to images of C elegans zygotes. In doing so, we have put together a robust and easily-implementable workflow which we’ve termed SAIBR: Spectral Autofluorescence Image correction by regression.\\
+Inspired by this approach, we aimed to implement, and assess the applicability of such a method for autofluorescence removal in images of \textit{C. elegans} embryos. In doing so, we have put together a robust and easily-implementable workflow which we’ve termed SAIBR: Spectral Autofluorescence Image correction by Regression.\\
 
 
 \subsubsection{SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}
 
 
-At minimum, autofluorescence correction relies on the ability to find a reporter channel that is free of GFP signal, but rich in autofluorescence, such that this channel can be used an independent readout of autofluorescence in the sample. Full spectral analysis performed by Nelio Rodrigues (not shown here), shows that red shifted emission filters, which are commonly used to image red fluorescent proteins, meet such a requirement.\\
+At minimum, autofluorescence correction relies on the ability to find a reporter channel that is free of GFP signal, but rich in autofluorescence, such that this channel can be used as an independent readout of autofluorescence in the sample. Full spectral analysis performed by Nelio Rodrigues (not shown here), shows that a channel with a red shifted emission filter, such as those commonly used to image red fluorescent proteins, meet such a requirement.\\
 
-Furthermore, by imaging untagged embryos with both the standard GFP channel and the AF channel, we find a strong linear correlation between pixel data from the two channels. Whilst raw pixel values do not correlate well, as these are dominated by noise, we can get a strong correlation by first applying a Gaussian filter to suppress this noise (fig x). We found that this relationship is consistent between embryos (fig x b, c). Furthermore, we found a near identical relationship when plotting the mean intensity values of individual embryos, suggesting that the same relationship can account for both intra- and inter-embryo AF variation. \\
+Furthermore, by imaging untagged embryos with both the standard GFP channel and this red-shifted autofluorescence-reporter channel (488nm excitation, 630/75nm emission), which I will refer to as the AF channel, we find a strong linear correlation between pixel data from the two channels. Whilst raw pixel values do not correlate well, as these are dominated by noise, we can get a strong correlation by first applying a Gaussian filter to suppress this noise (\cref{fig:saibr_n2_correlation}A). We found that this relationship is consistent between embryos (\cref{fig:saibr_n2_correlation}B, C). Furthermore, we found a near identical relationship when plotting the mean intensity values of individual embryos, suggesting that the same relationship can account for both intra- and inter-embryo AF variation. \\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.95]{saibr_n2_correlation}
@@ -334,15 +334,14 @@ Furthermore, by imaging untagged embryos with both the standard GFP channel and 
 \label{fig:saibr_n2_correlation}
 \end{figure}
 
+Together, this implies that taking an AF channel image should be sufficient to accurately predict the level of autofluorescence in the GFP channel, and thus subtract it out. To quantify the necessary inter-channel conversion factor, I performed linear regression, using an ordinary least squares method, on Gaussian-filtered pixel values pooled from multiple untagged embryos. Then, to perform correction on images containing fluorophore, we just need to capture an AF channel image, alongside the GFP channel image, rescale the image according to this predefined relationship, and then subtract this inferred autofluorescence away from the GFP channel image.\\
 
-Together, this implies that taking an autofluorescence channel image is sufficient to accurately predict the level of autofluorescence in the GFP channel. To quantify the necessary inter-channel conversion factor, I performed linear regression, using an ordinary least squares method, on Gaussian-filtered pixel values pooled from multiple untagged embryos. Then, to perform correction on images containing fluorophore, we just need to capture an autofluorescence channel image, alongside the GFP channel image, rescale the image according to this predefined relationship, and then subtract this away from the GFP channel image.\\
 
+\subsubsection{Assessing SAIBR performance on images of PAR proteins}
 
-\subsubsection{Assessing performance on images of PAR proteins}
+To assess the effectiveness of SAIBR, and it’s utility in the analysis of PAR proteins, I applied it to a range of images of unlabelled and GFP-labelled embryos. As expected, applying SAIBR to images of unlabelled cells reduced fluorescence from across the cell to zero, with no visible structures remaining (\cref{fig:saibr_spatial_correction}A). This is a good validation of the method, and suggests that it can properly account for all of the autofluorescence in the cell. \\
 
-To assess the effectiveness of SAIBR, and it’s utility in the analysis of PAR proteins, I applied it to a range of images of unlabelled and GFP-labelled embryos. As expected, applying SAIBR to images of unlabelled cells reduced fluorescence from across the cell to zero, with no visible structures remaining. This is a good validation of the method, and suggests that it can properly account for all of the autofluorescence in the cell. \\
-
-As already shown, images of LGL are dominated by autofluorescence, and so SAIBR was expected to be particularly useful. As shown in fig x, SAIBR strongly reduces signal within the cell, and improves contrast at the posterior cortex, allowing us to better resolve cortical enrichment at the posterior. Improvements are similar for PAR-3. In addition to improvements at the cortex, we see that SAIBR can suppress the local fluorescence minimum at the cell centre caused by lower AF at the pronuclei. For PAR-6 the improvements are qualitatively less striking, due to a higher ratio of fluorophore signal to autofluorescence, but nonetheless quantitatively important.\\
+In the case of LGL-1::GFP expressing embryos, where autofluorescence signal is dominant (fig x), SAIBR strongly reduces autofluorescence signal within the cell, and improves contrast at the posterior cortex, allowing us to better resolve cortical enrichment \cref{fig:saibr_spatial_correction}B. Improvements are just as striking for PAR-3::GFP. In addition to improvements at the cortex, we see that SAIBR can suppress the local fluorescence minimum at the cell centre caused by lower AF at the pronuclei. For PAR-6::GFP the improvements are qualitatively less striking, as the ratio of fluorophore signal to autofluorescence is higher, but nonetheless has a quantitative impact.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{saibr_spatial_correction}
@@ -352,10 +351,7 @@ As already shown, images of LGL are dominated by autofluorescence, and so SAIBR 
 \label{fig:saibr_spatial_correction}
 \end{figure}
 
-As shown in fig x, SAIBR has a strong impact on the shape of intensity profiles taken across the cortex within each polarity domain, in all cases showing a clearer peak and suppression of signal at the internal portion of the curves. This has particular importance for quantitative studies as, as described in the next section, the shape of cross-cortex profiles are often used to quantitatively analyse membrane concentrations and/or membrane affinities. For example, a profile with a central peak that is much higher than the internal cytoplasmic plateau clearly implies that the protein is binding to the membrane with a high affinity. We can see from the SAIBR corrected profiles that, of the three proteins shown here, LGL has the strongest membrane affinity (highest enrichment at the cortex compared to its cytoplasmic level), followed by PAR-6, followed by PAR-3. If we look at the profiles pre-correction, however, this isn't so clearly apparent. One may have some success by simply subtracting an equivalent profile taken from untagged N2s. However, such a method fails to account for the fact that much of variation between embryos is down to autofluorescence, and is thus unsuitable for any study where inter-embryo variation is important. In the case of LGL this would also clearly result in negative values at the cytoplasmic portion of the curve for some embryos.\\
-
-% more here about membrane affinity, on rates, off rates
-
+As shown in \cref{fig:saibr_membrane_profiles}, SAIBR has a strong impact on the shape of intensity profiles taken across the cortex within each polarity domain, in all cases showing a clearer peak and suppression of signal at the internal portion of the curves. This has particular importance for quantitative studies as, as described in the section x, the shape of cross-cortex profiles are often used to quantitatively analyse membrane concentrations and/or membrane affinities. For example, a cross-cortex profile with a central peak that is much higher than the internal cytoplasmic plateau clearly implies that the protein is binding to the membrane with a high affinity. We can see from the SAIBR corrected profiles that, of the three proteins shown here, LGL-1 has the strongest membrane affinity (highest enrichment at the cortex compared to its cytoplasmic level), followed by PAR-6, followed by PAR-3. If we look at the profiles pre-correction, however, this isn't so clearly apparent. One might have had some success by simply subtracting an equivalent average profile taken from untagged N2s, but such a method would fail to account for the fact that much of variation between embryos is down to autofluorescence, and would therefore be unsuitable for studies where inter-embryo variation is important. In the case of LGL-1 this would also clearly result in negative values at the cytoplasmic portion of the curve for some embryos.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{saibr_membrane_profiles}
@@ -367,7 +363,7 @@ As shown in fig x, SAIBR has a strong impact on the shape of intensity profiles 
 
 \subsubsection{Extending SAIBR to dual-labelled C elegans embryos}
 
-As SAIBR relies on a red shifted emission channel, complications can arise when there is a red fluorophore present. As red fluorophores are usually weakly excited by blue lasers, they will contribute additional signal to the AF channel, which may lead to overestimation, and therefore oversubtraction, of autofluorescence if not accounted for. If RFP levels are low, this effect may be small and can be ignored. However, if RFP levels are high, this bleedthrough effect can be significant. This can be demonstrated by observing the inter-channel relationship in control embryos tagged with a red fluorophore (fig x). We find that, when an RFP is present, this relationship deviates significantly from the typical relationship observed in N2s, in direct proportion to local RFP levels (fig x inset). As this relationship is linear, autofluorescence in the GFP channel can now be described as a linear function of both the AF and the RFP channels. Plotting the pixel data in three dimensions shows that the data can be successfully fit to a plane, by performing multiple linear regression (fig x). \\
+As SAIBR relies on a red shifted emission channel, complications can arise in samples containing red fluorophore. As red fluorophores are usually weakly excited by blue lasers, they will contribute additional signal to the AF channel, which may lead to overestimation, and therefore oversubtraction, of autofluorescence if not accounted for. If RFP levels are low, this effect may be small and can be ignored. However, if RFP levels are high, this bleedthrough effect can be significant. This can be demonstrated by observing the inter-channel relationship in control embryos tagged with a red fluorophore (\cref{fig:saibr_3channel_correlation}A). We find that, when an RFP is present, this relationship deviates significantly from the typical relationship observed in N2s, in direct proportion to local RFP levels (\cref{fig:saibr_3channel_correlation}A inset). As this relationship is linear, autofluorescence in the GFP channel can be described as a linear function of both the AF and the RFP channels. Plotting pixel data in three dimensions shows that the data can be successfully fit to a plane, by performing multiple linear regression (\cref{fig:saibr_3channel_correlation}B, C). \\
 
 
 \begin{figure}[!h]
@@ -378,26 +374,25 @@ As SAIBR relies on a red shifted emission channel, complications can arise when 
 \label{fig:saibr_3channel_correlation}
 \end{figure}
 
-Then, to perform correction on images containing fluorophore, we just need to capture all three channels, calculate autofluorescence using the three-channel regression relationship obtained from the appropriate RFP tagged single line, and then subtract this away from the GFP channel image. This is demonstrated in figure x, for embryos expressing both PAR-6 GFP and MEX5 mCherry, or just MEX5 cherry. Whereas 2-channel SAIBR results in oversubtraction of autofluorescence (particularly visible in the MEX5 cherry single line), this is eliminated when using 3-channel SAIBR.\\
+Then, to perform correction on images containing fluorophore, we just need to capture all three channels, calculate autofluorescence using the three-channel regression relationship obtained from the appropriate RFP-tagged single line, and then subtract this away from the GFP channel image. This is demonstrated in \cref{fig:saibr_3channel_correction}, for embryos expressing both PAR-6::GFP and mCh::MEX-5, or just mCh::MEX-5. Whereas 2-channel SAIBR results in oversubtraction of autofluorescence (particularly visible in the mCh::MEX-5 single line), this is eliminated when using 3-channel SAIBR.\\
 
-\begin{figure}[!h]
+\begin{SCfigure}[][!h]
 \includegraphics[scale=1]{saibr_3channel_correction}
 \setlength{\abovecaptionskip}{20pt}
-\centering
 \mycaption{Title}{Caption}
 \label{fig:saibr_3channel_correction}
-\end{figure}
+\end{SCfigure}
 
 
 \subsubsection{Discussion}
 
-In summary, I have demonstrated that a simple protocol, which we’ve termed SAIBR, can be used to successfully correct autofluorescence in images of C elegans zygotes. The improvements are particularly striking for images of fusion proteins with low levels of expression, such as LGL, but even when expression levels are higher, such as PAR-2, AF correction will prove important for quantitative analysis, as discussed in the next section. \\
+In summary, I have demonstrated that a simple protocol, which we’ve termed SAIBR, can be used to successfully correct autofluorescence in images of \textit{C. elegans} zygotes. The improvements are particularly striking for images of fusion proteins with low levels of expression, such as LGL-1::GFP, but even in cases where expression levels are higher, AF correction will prove important for quantitative analysis of membrane concentrations, as discussed in the next section. \\
 
-The simplicity of the method means that it can be easily incorporated into existing workflows, and should be applicable to a variety of imaging platforms. In the full study, we showed that the method is equally successful on both spinning-disk confocal and wide field instruments. \\
+The simplicity of the method means that it can be easily incorporated into existing workflows, and should be applicable to a variety of imaging platforms. In the full study, we showed that the method is equally successful on both spinning-disk confocal and wide-field instruments. \\
 
-Whilst designed with C elegans embryos in mind, the method isn't specific to this system, and could be applied to a number of other model systems in which autofluorescence is a problem. In the full study, we have shown that the method works successfully in C elegans larvae, as well as other model organisms such as starfish and yeast. That said, the method isn’t guaranteed to perform well in all cases. If samples contain multiple, independently varying sources of autoflourescence, then SAIBR may face problems as a single autofluorescence reporter channel cannot account for this. However, much like how we can tackle red fluorophores, we have found that in some cases this can be solved simply by adding one extra reporter channel. Inevitably, though, such an approach may not be compatible with dual-colour imaging. \\
+Whilst initially developed with \textit{C. elegans} embryos in mind, the method isn't specific to this system, and could be applied to a number of other model systems in which autofluorescence is a problem. In the full study, we have shown that the method works successfully in \textit{C. elegans} larvae, as well as other model organisms such as starfish and yeast. That said, the method isn’t guaranteed to perform well in all cases. If samples contain multiple, independently varying sources of autoflourescence, then SAIBR may face problems as a single autofluorescence reporter channel cannot account for this. However, much like how we can tackle red fluorophores, we have found that in some cases this can be solved simply by adding one extra reporter channel. Inevitably, though, such an approach may not be compatible with dual-colour imaging. \\
 
-Whilst the analysis steps are relatively straightforward, implementing the computational workflow may still be a barrier to adoption for some. Therefore, to make the protocol accessible, I have put together a simple GUI-based FIJI plugin which can carry out all the analysis steps in a few simple steps. This can be found here: \url{https://github.com/tsmbland/saibr_fiji_plugin}. \\
+Whilst the analysis steps are relatively straightforward, implementing the computational workflow may still be a barrier to adoption for some. Therefore, to make the protocol accessible, I have put together a simple GUI-based FIJI plugin which can carry out all the necessary analysis in a few simple steps. This can be found here: \url{https://github.com/tsmbland/saibr_fiji_plugin}. \\
 
 The method comes with a few tradeoffs, which will vary in significance depending on the particular study. One issue is that, as the method combines pixel noise from multiple images, corrected images can in some cases be quite noisy, particularly where weak imaging conditions are used. It also requires capturing two emission channels for each image, which doubles sample illumination times and potential phototoxicity, which may be an issue for long timelapses. Additionally, if samples display rapid motion, then the time lag between taking these two channels may lead to pixel mismatches, which could introduce artefacts. These last points could be fixed by using an imaging setup that allows for dual capture of multiple emission bands. However, for this particular study, none of these issues will be of major significance. \\
 
@@ -405,7 +400,7 @@ The method comes with a few tradeoffs, which will vary in significance depending
 \clearpage
 \subsection{Extracting membrane and cytoplasmic signal components}
 
-% intro to section
+Transition to section
 
 \subsubsection{An overview of existing methods}
 
@@ -427,7 +422,7 @@ Whilst these methods have been effectively deployed, and are good at capturing a
 
 % cytbg figure
 
-The main reason for this is likely due to scattering and diffraction of light from planes above and below the imaging plane, combined with a curved geometry in the z-dimension (fig x). Scatter, which is a common issue in images of biological samples, causes a broadening of light in three dimensions as it passes through regions of heterogeneous refractive index. This occurs within the (xy) plane of an image, but is typically far more significant in the z-axis. Whilst confocal microscopes are designed to only capture light from a single plane, they illuminate the whole sample, so will capture any emitted light from other planes that scatters into the focal plane. This means that pixel intensities within the focal plane will be affected not only by structures within that plane but also structures above and below.\\
+The main reason for this is likely due to scattering and diffraction of light from planes above and below the imaging plane, combined with a curved geometry in the z-dimension (\cref{fig:memquant_cyt_psf}). Scatter, which is a common issue in images of biological samples, causes a broadening of light in three dimensions as it passes through regions of heterogeneous refractive index. This occurs within the (xy) plane of an image, but is typically far more significant in the z-axis. Whilst confocal microscopes are designed to only capture light from a single plane, they illuminate the whole sample, so will capture any emitted light from other planes that scatters into the focal plane. This means that pixel intensities within the focal plane will be affected not only by structures within that plane but also structures above and below.\\
 
 
 \begin{figure}[!h]
@@ -438,7 +433,7 @@ The main reason for this is likely due to scattering and diffraction of light fr
 \label{fig:memquant_cyt_psf}
 \end{figure}
 
-It is likely that a similar problem applies in the case of membrane protein (fig x). Specifically, this analysis shows that out of focus cortical signal might expect to lead to a shape resembling an asymmetric Gaussian, with higher signal on the inside than the outside. In fact, this phenomenon can be easily observed just by looking at images of polarised PAR proteins (<reference earlier image>), where out-of-focus cortical signal can create the illusion of a strong cytoplasmic gradient (by comparison, two-photon images of PAR-2, which aim to eliminate out of focus light, show a completely flat cytoplasm \citep{Petrasek2008}, which is expected for most PAR proteins based on fast measured diffusion rates). Whilst in some cases this may be of little concern, this might be particularly problematic if accurate cytoplasmic quantification is required. Without accurate cytoplasmic concentration, measures of membrane to cytoplasmic ratios, which are often used as a proxy for membrane affinity, may be wildly off. This will prove significant for much of the analysis in this study.\\
+It is likely that a similar problem applies in the case of membrane protein (\cref{fig:memquant_mem_psf}). Specifically, this analysis shows that out of focus cortical signal might expect to lead to a shape resembling an asymmetric Gaussian, with higher signal on the inside than the outside. In fact, this phenomenon can be easily observed just by looking at images of polarised PAR proteins (<reference earlier image>), where out-of-focus cortical signal can create the illusion of a strong cytoplasmic gradient (by comparison, two-photon images of PAR-2, which aim to eliminate out of focus light, show a completely flat cytoplasm \citep{Petrasek2008}, which is expected for most PAR proteins based on fast measured diffusion rates). Whilst in some cases this may be of little concern, this might be particularly problematic if accurate cytoplasmic quantification is required. Without accurate cytoplasmic concentration, measures of membrane to cytoplasmic ratios, which are often used as a proxy for membrane affinity, may be wildly off. This will prove significant for much of the analysis in this study.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{memquant_mem_psf}
@@ -456,7 +451,7 @@ In reality, given all of these confounding factors, an accurate description of t
 
 % transition
 
-Fortunately, in this particular case, matters are greatly simplified by the fact that the geometry of protein distribution are usually highly consistent. Not only is the shape of embryos highly consistent, but PAR protein distributions within the embryo also tend to display rotational symmetry (at least during normal polarity development in P0), meaning that protein distributions in planes above and below the focal plane tend to be similar/identical to those seen at the focal plane (much like the simulations in figs x and x). Optical properties are also not expected to change from sample to sample, or from location to location around the circumference of an embryo.\\
+Fortunately, in this particular case, matters are greatly simplified by the fact that the geometry of protein distribution are usually highly consistent. Not only is the shape of embryos highly consistent, but PAR protein distributions within the embryo also tend to display rotational symmetry (at least during normal polarity development in P0), meaning that protein distributions in planes above and below the focal plane tend to be similar/identical to those seen at the focal plane (much like the simulations in \cref{fig:memquant_cyt_psf} and \cref{fig:memquant_mem_psf}). Optical properties are also not expected to change from sample to sample, or from location to location around the circumference of an embryo.\\
 
 Together, these features imply that, for cytoplasmic or membrane protein, the normalised shape of the cross-cortex profile measured at the midplane should be some consistent function, that shouldn’t vary much between embryos or spatially around the circumference of an embryo. A change in local or global concentration should amount to a rescaling of this profile, but shouldn't change the normalised shape. Where there is a mix of cytoplasmic and cortical protein, the total measured cross-cortex profile will then be a sum of these two contributions. Therefore, if one has prior knowledge of the expected shape of the cross-cortex profile for cytoplasmic-only and membrane-only protein, then measured profiles can be fit as the sum of these two contributions, and membrane/cytoplasmic concentrations extracted as the amplitudes of the two signal components.\\
 
@@ -464,9 +459,7 @@ Thus, a key step in the path to accurate quantification is the ability to measur
 
 Whilst this move is a significant step in the right direction, the problem remains of how best to account for out of focus cortical light. This presents a challenge: whilst it is relatively easy to directly measure a cytoplasmic reference profile (you just need a reference image in which all signal is cytoplasmic), the same is not true for a membrane profile as it is difficult/impossible to find a reference case in which all protein is membrane bound. To extend the Reich method to account for out-of-focus membrane protein, I attempted to find alternative methods to get an approximation of the membrane reference profile. An initial idea, which involved staining the exterior of the eggshell with a fluorescent dye, proved technically challenging and not reproducible.\\
 
-Instead, the problem becomes simplified when one considers that, even in cases where the cortex is polarised, the cytoplasm of most PAR proteins should be uniform (although exceptions do exist in the case of PAR-1 and PAR-3, where true cytoplasmic gradients have been observed, although the basis for this is poorly understood). Thus, straightened cortices can be modelled as a uniform cytoplasmic component, defined by a cytoplasmic reference profile (Rc) and a single, uniform, cytoplasmic concentration (C), plus a polarised membrane component, defined by a membrane reference profile (Rm) and a nonuniform membrane concentration profile (M). This is shown in fig x. This is essentially a generalisation of the methods used by Gross and Reich, but proposes the use of arbitrary membrane and cytoplasmic reference profiles rather than mathematical functions (e.g. Gaussian, error function).\\
-
-Rc can easily be predefined (fig x). If we assume for a second that Rm is also predefined, then M and C for a given embryo can be determined by fitting a straightened image to this model. (At this point these values will be in arbitrary units, but I’ll come back to this point). Whilst Rm is in fact not predefined, given the constraints imposed by cytoplasmic uniformity, it arises that only a model with an appropriate Rm will be able to create simulated images that closely match experimental images. (Imagine, for example a model with a Gaussian membrane reference profile, which would clearly fail to capture the graded internal signal). Therefore, under conditions such as these, in which we have a uniform cytoplasmic component and a graded membrane component, Rm need not be predefined, and can simply be fit to the data along with the concentration parameters. To perform this kind of optimisation, I have used a gradient descent approach based on differentiable programming, which is described below.\\
+Instead, the problem becomes simplified when one considers that, even in cases where the cortex is polarised, the cytoplasm of most PAR proteins should be uniform (although exceptions do exist in the case of PAR-1 and PAR-3, where true cytoplasmic gradients have been observed, although the basis for this is poorly understood). Thus, straightened cortices can be modelled as a uniform cytoplasmic component, defined by a cytoplasmic reference profile (Rc) and a single, uniform, cytoplasmic concentration (C), plus a polarised membrane component, defined by a membrane reference profile (Rm) and a nonuniform membrane concentration profile (M). This is shown in \cref{fig:memquant_model_schematic}. This is essentially a generalisation of the methods used by Gross and Reich, but proposes the use of arbitrary membrane and cytoplasmic reference profiles rather than mathematical functions (e.g. Gaussian, error function).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1.1]{memquant_model_schematic}
@@ -476,13 +469,16 @@ Rc can easily be predefined (fig x). If we assume for a second that Rm is also p
 \label{fig:memquant_model_schematic}
 \end{figure}
 
+Rc can easily be predefined (fig x). If we assume for a second that Rm is also predefined, then M and C for a given embryo can be determined by fitting a straightened image to this model. (At this point these values will be in arbitrary units, but I’ll come back to this point). Whilst Rm is in fact not predefined, given the constraints imposed by cytoplasmic uniformity, it arises that only a model with an appropriate Rm will be able to create simulated images that closely match experimental images. (Imagine, for example a model with a Gaussian membrane reference profile, which would clearly fail to capture the graded internal signal). Therefore, under conditions such as these, in which we have a uniform cytoplasmic component and a graded membrane component, Rm need not be predefined, and can simply be fit to the data along with the concentration parameters. To perform this kind of optimisation, I have used a gradient descent approach based on differentiable programming, which is described below.\\
+
+
 \subsubsection{A gradient descent protocol for image quantification}
 
 Gradient descent is a popular optimisation strategy used for a number of machine learning applications. The idea is to calculate the partial derivative of each input parameter with respect to a loss term (mean squared error). A negative gradient for a parameter would imply that an increase in that parameter would decrease overall loss, whereas a positive gradient would imply the opposite. Therefore, to reduce loss, each input parameter can be adjusted according to its partial derivative. Starting with a set of initial conditions, this procedure is then iteratively repeated, adjusting parameters and calculating new gradients at each step, until the loss term reaches a minimum. \\
 
 The utility of these methods has been greatly advanced in recent years by the advent of differentiable programming tools. Commonly used for deep learning, although generalisable to other problems, these tools greatly speed up computation for complex optimisation procedures by automatically calculating gradients at every step, rather than relying on numerical methods, using a process called backpropagation. In addition, extensions to the basic gradient descent algorithm (e.g. Adam) have proven effective at speeding up convergence and preventing entrapment in local minima. \\
 
-In the case of this particular problem, this procedure is described in figure x. Given a set of parameters (M, C, Rm, Rc), a forward propagation step simulates an image (fig x), and then this is compared to a ground truth image to calculate an error term. Backpropagation then calculates the gradient of each of the input parameters with respect to this error term. At this point, we can adjust some or all of the input parameters according to these gradients. Repeating this cycle of forward and back propagation will then lead to a gradual optimisation in these parameters, until a minimum is reached. \\
+In the case of this particular problem, this procedure is described in \cref{fig:memquant_forward_and_back_propagation}. Given a set of parameters (M, C, Rm, Rc), a forward propagation step simulates an image, and then this is compared to a ground truth image to calculate an error term. Backpropagation then calculates the gradient of each of the input parameters with respect to this error term. At this point, we can adjust some or all of the input parameters according to these gradients. Repeating this cycle of forward and back propagation will then lead to a gradual optimisation in these parameters, until a minimum is reached. \\
 
 \begin{figure}[!h]
 \includegraphics[scale=1.1]{memquant_forward_and_back_propagation}
@@ -492,7 +488,7 @@ In the case of this particular problem, this procedure is described in figure x.
 \label{fig:memquant_forward_and_back_propagation}
 \end{figure}
 
-To test this approach, I first applied it to images of polarised PAR-2. Built using the differentiable programming package Tensorflow (cite: Abadi), the model was initiated with all concentrations (M and C) equal to zero, and Rm initiated as a Gaussian. For Rc I used a measured profile (fig x), and this was not adjusted during training (fig xa). Using an Adam optimiser with a learning rate of 0.01, all other parameters (M, C and Rm) were then adjusted iteratively until a plateau was reached (250 steps), as shown in fig xb. As shown in fig xc, the final simulated image, composed of a uniform cytoplasmic component and a nonuniform membrane component, fits closely to the ground truth image.\\
+To test this approach, I first applied it to images of polarised PAR-2. Built using the differentiable programming package Tensorflow (cite: Abadi), the model was initiated with all concentrations (M and C) equal to zero, and Rm initiated as a Gaussian. For Rc I used a measured profile (fig x), and this was not adjusted during training (\cref{fig:memquant_membg_training}A). Using an Adam optimiser with a learning rate of 0.01, all other parameters (M, C and Rm) were then adjusted iteratively until a plateau was reached (250 steps), as shown in \cref{fig:memquant_membg_training}B. As shown in \cref{fig:memquant_membg_training}C, the final simulated image, composed of a uniform cytoplasmic component and a nonuniform membrane component, fits closely to the ground truth image.\\
 
 
 \begin{figure}[!h]
@@ -511,12 +507,11 @@ In addition to the parameters already mentioned, the model also includes a serie
 
 % figure explaining this
 
-\clearpage
 \subsubsection{Benchmarking the method}
 
 The method described so far is limited to a special case of images with polarised membrane concentrations. However, as discussed previously, the optimised membrane reference profile, which is a function of local geometry and optical properties, should be applicable to all embryos. Therefore, much like we used a predefined cytoplasmic reference profile when fitting polarised PAR-2, images of proteins without a polarised membrane can be quantified by using an Rm derived from a calibration procedure on polarised images. \\
 
-To test this method, I performed quantification on images of PH with variable expression levels, obtained by performing an RNAi rundown using XFP (see Methods). In this case, I used a predefined Rm and Rc, and only optimised M and C (as well as the alignment parameters described in the previous section), fig xa. Compatible with expected linear membrane binding kinetics, we can see that the method gives a tight linear relationship between cytoplasmic and membrane concentrations. N2s are also accurately describes as having cytoplasmic and membrane concentrations of zero.\\
+To test this method, I performed quantification on images of PH with variable expression levels, obtained by performing an RNAi rundown using XFP (see Methods). In this case, I used a predefined Rm and Rc, and only optimised M and C (as well as the alignment parameters described in the previous section), \cref{fig:memquant_benchmarking_ph_rundown}A. Compatible with expected linear membrane binding kinetics, we can see that the method gives a tight linear relationship between cytoplasmic and membrane concentrations \cref{fig:memquant_benchmarking_ph_rundown}C. N2s are also accurately describes as having cytoplasmic and membrane concentrations of zero.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{memquant_benchmarking_ph_rundown}
@@ -526,7 +521,7 @@ To test this method, I performed quantification on images of PH with variable ex
 \label{fig:memquant_benchmarking_ph_rundown}
 \end{figure}
 
-I next investigated how robust the method is to changing signal-to-noise ratios, using three PH embryos with varying levels of expression. Adding pixel noise to these images may be expected to add noise to the resulting concentrations, but shouldn’t bias the data in any direction. As seen in figues xc and xd, this is precisely the case for all three PH embryos. Quantification of N2s is also not biased by noise (fig xc,d grey points). In addition, segmentation results are strikingly robust to noise, even at high noise levels that render embryos near-invisible to the human eye (fig xb).\\
+I next investigated how robust the method is to changing signal-to-noise ratios, using three PH embryos with varying levels of expression. Adding pixel noise to these images may be expected to add noise to the resulting concentrations, but shouldn’t bias the data in any direction. As seen in \cref{fig:memquant_benchmarking_noise}C and D, this is precisely the case for all three PH embryos. Quantification of N2s is also not biased by noise (\cref{fig:memquant_benchmarking_noise}C/D grey points). In addition, segmentation results are strikingly robust to noise, even at high noise levels that render embryos near-invisible to the human eye ( \cref{fig:memquant_benchmarking_noise}B).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.85]{memquant_benchmarking_noise}
@@ -539,7 +534,7 @@ I next investigated how robust the method is to changing signal-to-noise ratios,
 
 \subsubsection{Calibrating concentration units}
 
-As M and C are in arbitrary units (effectively in units of their own respective reference profile), a conversion parameter, is required to put them in comparable units. To calibrate this conversion parameter, I quantified the effects on M and C measurements of redistributing a fixed pool of protein from the cytoplasm to the membrane. To do this, I used an optogenetics system with a membrane bound PH::eGFP::LOV to move a cytoplasmic pool of ePDZ::mCherry to the membrane (Fielmich et al., 2018). Embryos were exposed to blue light for 10 seconds, which promotes binding between ePDZ and LOV, leading to a rapid uniform recruitment of ePDZ::mCherry to the membrane and a reduction in the concentration in the cytoplasm (fig x). Where ePDZ mcherry is expressed alone, this localisation shift isn’t observed (fig x, grey).\\
+As M and C are in arbitrary units (effectively in units of their own respective reference profile), a conversion parameter, is required to put them in comparable units. To calibrate this conversion parameter, I quantified the effects on M and C measurements of redistributing a fixed pool of protein from the cytoplasm to the membrane. To do this, I used an optogenetics system with a membrane bound PH::eGFP::LOV to move a cytoplasmic pool of ePDZ::mCherry to the membrane (Fielmich et al., 2018). Embryos were exposed to blue light for 10 seconds, which promotes binding between ePDZ and LOV, leading to a rapid uniform recruitment of ePDZ::mCherry to the membrane and a reduction in the concentration in the cytoplasm (\cref{fig:memquant_optogenetics}). Where ePDZ mcherry is expressed alone, this localisation shift isn’t observed (\cref{fig:memquant_optogenetics}, grey).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{memquant_optogenetics}
@@ -554,14 +549,12 @@ Whilst there is significant relocalisation, the total amount of protein can be a
 
 \begin{equation}
 \tau = C + \psi c M
-\label{eq:T}
 \end{equation}
 
 Given that T must be the same before and after exposure, c can be calculated, on an embryo by embryo basis, by comparing the gain in M to the loss in C:\\
 
 \begin{equation}
 c = \frac{C_{pre \textrm{-} exposure} - C_{post  \textrm{-} exposure}}{\psi (M_{post  \textrm{-} exposure} - M_{pre  \textrm{-} exposure})}
-\label{eq:c}
 \end{equation}
 
 Performing this analysis gives a value of c = x+- x, which can be used to put M and C in common units. Note that these concentrations are still arbitrary in the sense that they give no indication of absolute concentrations (i.e. absolute number of molecules per unit area). For much of the analysis in the following sections, where the aim is to measure membrane affinities (membrane to cytoplasmic ratios) this will not be an issue, although I’ll return to this point in section x.\\
@@ -615,7 +608,7 @@ Performing this analysis gives a value of c = x+- x, which can be used to put M 
 
 Transition to section\\
 
-To test for evidence of feedback, I performed an assay where I titrated the level of PAR-2 by RNAi (in a par-3 mutant system) and quantified the membrane and cytoplasmic concentrations in the different embryos (similar to the assay performed previously for PH). Whilst a protein without feedback is expected to follow a linear relationship, a protein feeding back on its own membrane recruitment may instead be expected to have a higher membrane affinity the more total protein there is in the system, giving a nonlinear relationship between membrane and cytoplasmic concentrations. In the case of PAR-2, the assay quite clearly shows that there isn't a straightforward linear relationship between membrane and cytoplasm, with a positive uptick that's characteristic of positive feedback (fig x).\\
+To test for evidence of feedback, I performed an assay where I titrated the level of PAR-2 by RNAi (in a par-3 mutant system) and quantified the membrane and cytoplasmic concentrations in the different embryos (similar to the assay performed previously for PH). Whilst a protein without feedback is expected to follow a linear relationship, a protein feeding back on its own membrane recruitment may instead be expected to have a higher membrane affinity the more total protein there is in the system, giving a nonlinear relationship between membrane and cytoplasmic concentrations. In the case of PAR-2, the assay quite clearly shows that there isn't a straightforward linear relationship between membrane and cytoplasm, with a positive uptick that's characteristic of positive feedback (\cref{fig:rundown_vs_c56s}).\\
 
 On the other hand, mutant PAR-2 (C56S), as well as following a lower affinity trajectory, appears to have a more linear relationship between cytoplasm and membrane, more in line with a protein that's exchanging on and off the membrane without feedback. This suggests that the mechanisms of positive feedback, which appear to contribute to the strong membrane binding kinetics of PAR-2, may be RING domain dependent.
 
@@ -638,9 +631,9 @@ On the other hand, mutant PAR-2 (C56S), as well as following a lower affinity tr
 
 % needs to comment on positive feedback more
 
-Since initial observations that RING mutants show weaker membrane association, the RING domain has been widely believed to play an important role in regulating the membrane affinity of the protein. However, the precise role carried out by the RING domain in this context is not yet understood. On its own, the PAR-2 RING domain in isolation shows no membrane binding activity (Hao, and replicated below). Therefore it's likely that, rather than a direct membrane binding role, the RING domain sets membrane affinity by regulating electrostatic binding via the central charged region of the protein.\\
+Since initial observations that RING mutants show weaker membrane association, the RING domain has been widely believed to play an important role in regulating the membrane affinity of the protein. However, the precise role carried out by the RING domain in this context is not yet understood. On its own, the PAR-2 RING domain in isolation shows no membrane binding activity (\cite{Hao2006} and replicated below). Therefore it's likely that, rather than a direct membrane binding role, the RING domain sets membrane affinity by regulating electrostatic binding via the central charged region of the protein.\\
 
-Given the common role for RING domain proteins as ubiquitin ligases, it's tempting to speculate that ubiquitination activity at the cortex might change the electrostatic profile of the membrane in some way to make it more favourable for PAR-2 binding. However, as has been previously observed (ref), the membrane affinity of C56S PAR-2 is independent on the presence of wild type PAR-2. I have replicated this finding, more quantitatively, in figure x. Here, I show that, for C56S mutant PAR-2, membrane affinity is unchanged when balanced by a wild type copy compared to when homozygous. In other words, the effects of C56S mutation appear to be cis acting, intrinsic to each molecule.
+Given the common role for RING domain proteins as ubiquitin ligases, it's tempting to speculate that ubiquitination activity at the cortex might change the electrostatic profile of the membrane in some way to make it more favourable for PAR-2 binding. However, as has been previously observed (Hao, Motegi?), the membrane affinity of C56S PAR-2 is independent on the presence of wild type PAR-2. I have replicated this finding, more quantitatively, in \cref{fig:c56s_cis}. Here, I show that, for C56S mutant PAR-2, membrane affinity is unchanged when balanced by a wild type copy compared to when homozygous. In other words, the effects of C56S mutation appear to be cis acting, intrinsic to each molecule.
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{c56s_cis}
@@ -666,16 +659,16 @@ A third possibility, which I will touch upon but do not directly investigate, is
 
 % Whilst the Hao paper reports unpublished data
 
-We expressed strep-tagged full-length PAR-2 in insect cells, lysed cells by sonication, and purified by pull-down followed by size exclusion chromatography (see Methods). From the initial pull-down stage, we observed two prominant bands close to the expected mass of PAR-2. Due to their similar masess, we were unable to separate the two bands by size exclusion chromatography (fig x). We tested both bands by mass spectrometry, which confirmed them both to be PAR-2. Interestingly, a single ubiquitinated site (K...) was identified in the upper band sample, explaining the higher mass. No ubiquitinated sites were found in the lower band sample, although the K... site was not covered. We also observed similar bands in a small-scale prep of C56S mutant PAR-2. Therefore, I do not believe this to be a result of autoubiquitination, but may rather represent ubiquitination of the protein by an insect E3 within the insect cell. CRISPR mutation of K... has no effect in vivo (data not shown), and attempts to purify PAR-2 from worm lysates and HEK cell preps have not shown two bands.\\
+We expressed strep-tagged full-length PAR-2 in insect cells, lysed cells by sonication, and purified by pull-down followed by size exclusion chromatography (see Methods). From the initial pull-down stage, we observed two prominant bands close to the expected mass of PAR-2. Due to their similar masess, we were unable to separate the two bands by size exclusion chromatography (\cref{fig:ubiquitin_assay}A). We tested both bands by mass spectrometry, which confirmed them both to be PAR-2. Interestingly, a single ubiquitinated site (K...) was identified in the upper band sample, explaining the higher mass. No ubiquitinated sites were found in the lower band sample, although the K... site was not covered. We also observed similar bands in a small-scale prep of C56S mutant PAR-2. Therefore, I do not believe this to be a result of autoubiquitination, but may rather represent ubiquitination of the protein by an insect E3 within the insect cell. CRISPR mutation of K... has no effect in vivo (data not shown), and attempts to purify PAR-2 from worm lysates and HEK cell preps have not shown two bands.\\
 
-Sample from SEC purification was pooled (lanes x-x) and used for an in vitro ubiquitination assay. Designed to test for ubiquitination activity, this assay involves mixing a text protein with ubiquitin, E1 and an E2, and observing for autoubiquitination of the test protein. Given that E3s typically work with only a small number of E2s, the assay is sensitive to the choice of E2, and therefore care must be taken to choose an appropriate E2. In the case of PAR-2 this is so far unknown, although PAR-2 has been shown to weakly interact with UBC-2, UBC-18 and UEV-2 in yeast two hybrid assays \citep{Gudgen2004}. Since UBC-2 (known as UBCH5a in Humans) is also the most promiscuous of the E2s, this was chosen for the assay (see Methods for more details). As shown in fig x, whereas the positive control sample (TRIM2) showed rapid auto-polyubiquitination and depletion of ubiquitin within 30 minutes, no effect was observed for PAR-2 across the whole 60 minutes of the experiment, indicating lack of ubiquitnation activity. A similar assay was performed using human UBC13/UEV1 as the E2, chosen based on PAR-2's similarity to RNF8 which works with this E2, however the result was also negative (data not shown).\\
+Sample from SEC purification was pooled (lanes x-x) and used for an in vitro ubiquitination assay. Designed to test for ubiquitination activity, this assay involves mixing a text protein with ubiquitin, E1 and an E2, and observing for autoubiquitination of the test protein. Given that E3s typically work with only a small number of E2s, the assay is sensitive to the choice of E2, and therefore care must be taken to choose an appropriate E2. In the case of PAR-2 this is so far unknown, although PAR-2 has been shown to weakly interact with UBC-2, UBC-18 and UEV-2 in yeast two hybrid assays \citep{Gudgen2004}. Since UBC-2 (known as UBCH5a in Humans) is also the most promiscuous of the E2s, this was chosen for the assay (see Methods for more details). As shown in \cref{fig:ubiquitin_assay}, whereas the positive control sample (TRIM2) showed rapid auto-polyubiquitination and depletion of ubiquitin within 30 minutes, no effect was observed for PAR-2 across the whole 60 minutes of the experiment, indicating lack of ubiquitnation activity. A similar assay was performed using human UBC13/UEV1 as the E2, chosen based on PAR-2's similarity to RNF8 which works with this E2, however the result was also negative (data not shown).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{ubiquitin_assay}
 \setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
-\label{ubiquitin_assay}
+\label{fig:ubiquitin_assay}
 \end{figure}
 
 
@@ -684,7 +677,7 @@ Sample from SEC purification was pooled (lanes x-x) and used for an in vitro ubi
 
 A key site in many RING E3 ligases is an arginine or lysine residue immediately downstream of the final zinc-coordinating cysteine, which is known as the linchpin site. <what does this site do?>. 46\% of RING domains have an arginine at this site linchpin, whereas 14\% have lysine \citep{Stewart2017}. Typically, the choice of residue at this site regulates a trade-off between ubiquitination activity and E2 specificity. RINGs with a K at this site typically show lower ubiquitination activity in vitro (REF). Stewart showed for the protein <> that mutating this site from an arginine to a lysine increases ubiquitination activity but reduces E2 specificity (CHECK). However, this isn’t a universal mechanism, and many functional RING E3 ligases have other residues at this site <examples, refs>. This suggests that other mechanisms of <> must exist. Currently this is poorly understood.\\
 
-Notably, however, C elegans does have a lysine at this site, suggesting a potential role as a linchpin. Alignment of Caenorhabditis PAR-2 RING domain sequences shows that this site is largely conserved as a lysine (fig x). There are, however, a few exceptions in some of the more distantly related (?) species. C. bovis, castelli and monodelphis have neither an arginine nor a lysine at this site. The fact that this site isn’t universally conserved may argue against an important role for ubiquitination activity, could suggest that PAR-2 does play an role as a ubiquitin ligase but doesn’t rely on the linchpin, or could suggest that these other species have evolved alternative strategies.\\ 
+Notably, however, C elegans does have a lysine at this site, suggesting a potential role as a linchpin. Alignment of Caenorhabditis PAR-2 RING domain sequences shows that this site is largely conserved as a lysine \cref{fig:linchpin_alignments}. There are, however, a few exceptions in some of the more distantly related (?) species. C. bovis, castelli and monodelphis have neither an arginine nor a lysine at this site. The fact that this site isn’t universally conserved may argue against an important role for ubiquitination activity, could suggest that PAR-2 does play an role as a ubiquitin ligase but doesn’t rely on the linchpin, or could suggest that these other species have evolved alternative strategies.\\ 
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{linchpin_alignments}
@@ -694,7 +687,7 @@ Notably, however, C elegans does have a lysine at this site, suggesting a potent
 \label{fig:linchpin_alignments}
 \end{figure}
 
-To test the potential role of linchpin-mediated autoubiquitination for PAR-2 membrane binding affinity, I used CRISPR to perform targeted mutation to this site, turning it into an A. <similar approach used in other studies>. As shown in fig x, this has no detectable effect on membrane affinity. Whilst this cannot rule out a role for ubiquitination in vivo, the result argues against a model in which linchpin-mediated autoubiquitination is a driver of membrane affinity. \\
+To test the potential role of linchpin-mediated autoubiquitination for PAR-2 membrane binding affinity, I used CRISPR to perform targeted mutation to this site, turning it into an A. <similar approach used in other studies>. As shown in \cref{fig:linchpin_in_vivo}, this has no detectable effect on membrane affinity. Whilst this cannot rule out a role for ubiquitination in vivo, the result argues against a model in which linchpin-mediated autoubiquitination is a driver of membrane affinity. \\
 
 
 \begin{figure}[!h]
@@ -714,7 +707,7 @@ Unfortunately, since all of the experiments performed have given negative result
 
 \subsubsection{PAR-2 RING domain sequence bears hallmarks of dimeric RINGs}
 
-As a first step, I performed a BLAST search to compare the PAR-2 sequence against sequences for which the quaternary structure has been solved using laboratory methods, using the online SWISS model tool. This yielded hits for a number of well-characterised RING domains, most of which are dimeric in their crystal structures (table x). RING domain dimerisation is typically mediated by a four-helix bundle, consisting of short alpha-helical segments N- and C- terminal to the core RING domain each of the two monomers. By forming a hydrophobic interface, dimerisation is stabilised. Thus, dimeric RING domains have a characteristic pattern of hydrophobic residues in the regions upstream and downstream of the core RING domain. Sequence alignment shows that, whilst the precise pattern of hydrophobic varies slightly between different proteins, PAR-2 follows the general pattern expected of dimeric RING domains (fig x).\\
+As a first step, I performed a BLAST search to compare the PAR-2 sequence against sequences for which the quaternary structure has been solved using laboratory methods, using the online SWISS model tool. This yielded hits for a number of well-characterised RING domains, most of which are dimeric in their crystal structures (table x). RING domain dimerisation is typically mediated by a four-helix bundle, consisting of short alpha-helical segments N- and C- terminal to the core RING domain each of the two monomers. By forming a hydrophobic interface, dimerisation is stabilised. Thus, dimeric RING domains have a characteristic pattern of hydrophobic residues in the regions upstream and downstream of the core RING domain. Sequence alignment shows that, whilst the precise pattern of hydrophobic varies slightly between different proteins, PAR-2 follows the general pattern expected of dimeric RING domains \cref{fig:alignments_other_rings}.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{alignments_other_rings}
@@ -724,7 +717,7 @@ As a first step, I performed a BLAST search to compare the PAR-2 sequence agains
 \label{fig:alignments_other_rings}
 \end{figure}
 
-As shown in fig x, these regions are highly conserved in different Caenorhabditis species. Most species show an identical pattern of hydrophobic residues, which points to a potentially important role for PAR-2 RING domain dimerisation. \\
+As shown in \cref{fig:alignments_par2}, these regions are highly conserved in different Caenorhabditis species. Most species show an identical pattern of hydrophobic residues, which points to a potentially important role for PAR-2 RING domain dimerisation. \\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{alignments_par2}
@@ -739,7 +732,7 @@ As shown in fig x, these regions are highly conserved in different Caenorhabditi
 
 A number of different methods for predicting the structure. SWISS model tool allows homology modelling, whereby the sequence of interest is mapped to a chosen structure of a protein with high sequence homology. <caveats>. Recently <new methods e.g. alphafold>. \citep{Jumper2021} \\
 
-The predicted structure resembles the common structure of RING domain dimers, characterised by folds around zinc-conjugated ions and a four-helix bundle consisting of an N- and C- helix from each of the two monomers (fig xB). Within this bundle, we see a characteristic pattern of inwards facing hydrophobic residues (fig x). Confidence scores, as measured by pLDDT, are high throughout the structured region of the model.\\
+The predicted structure resembles the common structure of RING domain dimers, characterised by folds around zinc-conjugated ions and a four-helix bundle consisting of an N- and C- helix from each of the two monomers (\cref{fig:ring_alphafold}B). Within this bundle, we see a characteristic pattern of inwards facing hydrophobic residues (\cref{fig:ring_alphafold}D). Confidence scores, as measured by pLDDT, are high throughout the structured region of the model (\cref{fig:ring_alphafold}C).\\
 
 
 \begin{figure}[!h]
@@ -758,7 +751,7 @@ The predicted structure resembles the common structure of RING domain dimers, ch
 \label{fig:ring_alphafold_species}
 \end{figure}
 
-Note, at the time of writing, whilst alphafold can model quaternary structures of oligomeric proteins, it relies on the user to input the expected oligomeric state (e.g. dimer in this case), and therefore cannot be used as a tool to predict oligomeric state. Therefore, the resulting structures should be interpreted as the best guess given that dimerisation is expected, which is a reasonable assumption given the common dimeric state of RING domains, and homology of PAR-2 to known dimeric RING domains. Outputted models also do not provide the location of <ions>, but are expected to capture their effects on protein folding.
+Note, at the time of writing, whilst alphafold can model quaternary structures of oligomeric proteins, it relies on the user to input the expected oligomeric state (e.g. dimer in this case), and therefore cannot be used as a tool to predict oligomeric state. Therefore, the resulting structures should be interpreted as the best guess given that dimerisation is expected, which is a reasonable assumption given the common dimeric state of RING domains, and homology of PAR-2 to known dimeric RING domains. Outputted models also do not provide the location of ligands (e.g. zinc ions in this case), but are expected to capture their effects on protein folding.
 
 
 \clearpage
@@ -766,9 +759,9 @@ Note, at the time of writing, whilst alphafold can model quaternary structures o
 
 % sec mals on wild type RING
 
-In light of in vivo findings using the C56S mutant, we attempted to express and purify a this mutant for SEC MALS. However, we found the protein to be unstable in vitro and were unable to purify significant quantities, which was not completely unexpected given that the mutation is designed to completely unfold the domain.\\
+In light of in vivo findings using the C56S mutant, we attempted to express and purify this mutant for SEC MALS. However, we found the protein to be unstable in vitro and were unable to purify significant quantities, which was not completely unexpected given that the mutation is designed to completely unfold the domain.\\
 
-Instead, we decided to attempt more targeted mutation to the dimerisation interface, aiming to disrupt dimerisation without disrupting the tertiary structure of the domain. This approach has previously been used <examples>. We identified L109, predicted to be found in the C-helical region as a likely important site (fig x), and L109R as a likely disruptive mutation. By contrast to C56S, this mutant was easier to express and purify in sufficient quantities to perform SEC MALS. Strikingly, as shown in fig x, this single mutation completely abrogates dimerisation, showing the expected size for a purely monomeric sample.\\
+Instead, we decided to attempt more targeted mutation to the dimerisation interface, aiming to disrupt dimerisation without disrupting the tertiary structure of the domain. This approach has previously been used <examples>. We identified L109, predicted to be found in the C-helical region as a likely important site(\cref{fig:l109_structure}), and L109R as a likely disruptive mutation. By contrast to C56S, this mutant was easier to express and purify in sufficient quantities to perform SEC MALS. Strikingly, as shown in fig x, this single mutation completely abrogates dimerisation, showing the expected size for a purely monomeric sample.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{l109_structure}
@@ -782,7 +775,7 @@ Instead, we decided to attempt more targeted mutation to the dimerisation interf
 \clearpage
 \subsubsection{Membrane-enriched PAR-2 self-associates in vivo}
 
-Whilst the above provides convincing evidence that the RING domain of PAR-2 can dimerise in in vitro settings, its ability to drive PAR-2 dimerisation in vivo hasn't been demonstrated. In fact, some evidence exists that would appear to be contradictory to this. Hao showed that an N-terminal fragment (1-177) of PAR-2, which contains the full RING domain but lacks the membrane localisation domain, is entirely cytoplasmic when expressed in vivo. I have also replicated this finding, which is shown in fig x.\\
+Whilst the above provides convincing evidence that the RING domain of PAR-2 can dimerise in in vitro settings, its ability to drive PAR-2 dimerisation in vivo hasn't been demonstrated. In fact, some evidence exists that would appear to be contradictory to this. Hao showed that an N-terminal fragment (1-177) of PAR-2, which contains the full RING domain but lacks the membrane localisation domain, is entirely cytoplasmic when expressed in vivo. I have also replicated this finding, which is shown in \cref{fig:ring_fragment_in_vivo}.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{ring_fragment_in_vivo}
@@ -794,7 +787,7 @@ Whilst the above provides convincing evidence that the RING domain of PAR-2 can 
 
 This is surprising, as we would expect that the RING domain fragment should be able to interact with endogenous PAR-2, and thus should, at least partially, colocalise at the posterior membrane. However, given that the fragment contains no intrinsic membrane binding activity, this doesn't exclude the possibility that membrane binding itself is a prerequisite for dimerisation, potentially via concentration-dependent effects.\\
 
-To test whether the RING domain can dimerise when enriched on the membrane, used a PH membrane anchor to tether it to the membrane. Should this construct be capable of dimerisation, we would expect some degree of dimerisation with endogenous PAR-2, end therefore preferential enrichment in the posterior of the cell. Whereas PH alone is uniform on the membrane, tethering the PAR-2 RING domain causes clear enrichment in the posterior, indicating an interaction, presumably a dimerisation reaction, with endogenous PAR-2. A construct with a C56S mutant, by contrast, shows a small degree of polarity, but this is greatly reduced compared to wild type.\\
+To test whether the RING domain can dimerise when enriched on the membrane, used a PH membrane anchor to tether it to the membrane. Should this construct be capable of dimerisation, we would expect some degree of dimerisation with endogenous PAR-2, end therefore preferential enrichment in the posterior of the cell. Whereas PH alone is uniform on the membrane, tethering the PAR-2 RING domain causes clear enrichment in the posterior, indicating an interaction, presumably a dimerisation reaction, with endogenous PAR-2 (\cref{fig:ph_ring}). A construct with a C56S mutant, by contrast, shows a small degree of polarity, but this is greatly reduced compared to wild type.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{ph_ring}
@@ -804,7 +797,7 @@ To test whether the RING domain can dimerise when enriched on the membrane, used
 \label{fig:ph_ring}
 \end{figure}
 
-The above results suggest that the construct is polarising by responding to polarised endogenous PAR-2. Therefore, it is expected that disrupting polarity of endogenous PAR-2 might disrupt this. To test this, I aimed to disrupt endogenous polarity using RNAi. In conditions of par-2 RNAi, endogenous PAR-2 is expected to be entirely absent from the cell. Under these conditions, as shown in figure x, the construct loses enrichment in the posterior, and overall polarity is low. Similarly, in conditions of par-6 RNAi, where endogenous PAR-2 is expected to be uniform on the cortex, albeit less weakly concentrated, the construct also loses the ability to enrich in the posterior. Whilst we might expect overall affinity to be higher in the par-6 RNAi condition, as there is some level of endogenous PAR-2 on the cortex, this doesn’t appear to be the case. This may imply a concentration dependent effect, whereby the construct is only able to respond to endogenous PAR-2 that’s highly concentrated, or could be a product of inaccurate quantification at very low signal levels.\\
+The above results suggest that the construct is polarising by responding to polarised endogenous PAR-2. Therefore, it is expected that disrupting polarity of endogenous PAR-2 might disrupt this. To test this, I aimed to disrupt endogenous polarity using RNAi. In conditions of par-2 RNAi, endogenous PAR-2 is expected to be entirely absent from the cell. Under these conditions, as shown in \cref{fig:ph_ring_rnai}, the construct loses enrichment in the posterior, and overall polarity is low. Similarly, in conditions of par-6 RNAi, where endogenous PAR-2 is expected to be uniform on the cortex, albeit less weakly concentrated, the construct also loses the ability to enrich in the posterior. Whilst we might expect overall affinity to be higher in the par-6 RNAi condition, as there is some level of endogenous PAR-2 on the cortex, this doesn’t appear to be the case. This may imply a concentration dependent effect, whereby the construct is only able to respond to endogenous PAR-2 that’s highly concentrated, or could be a product of inaccurate quantification at very low signal levels.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{ph_ring_rnai}
@@ -818,7 +811,7 @@ The above results suggest that the construct is polarising by responding to pola
 
 \subsubsection{Cytoplasmic PAR-2  does not self-associate in vivo}
 
-The above data implies to a model where PAR-2 is not constitutively dimeric, but can dimerise upon recruitment to the membrane, likely due to concentration-dependent effects. In line with this, we expect that the cytoplasmic pool should be largely, or entirely monomeric. To confirm this I devised in vivo pull-down assay based on dual labelling of PAR-2 with two different fluorophores, fig x. Expressing PAR-2 with a mix of green and red fluorophores means that, were PAR-2 to form constitutive dimers, a mixed population of green/green, green/red and red/red dimers would be expected to be present within the cytoplasm. Thus, forced relocalisation of one of these pools to an exogenous location in the cell should result in a detectable signal of the other fluorophore. A similar assay was used previously by \textcite{Reich2019}, who demonstrated a stable interaction between PAR-6 and PKC-3, through forced localisation of GFP::PKC-3 to the plasma membrane with a membrane-tethered GFP nanobody. (In this case the plasma membrane was a suitable target because, under the conditions of the assay, PAR-6/PKC-3 do not normally bind to the PM). Here I propose a similar approach, relying instead on recruitment to mitochondrial membranes within the cell. Mitochondrial membranes are dense within the cell, and can be probed easily with a localisation signal from the TOMM-20 protein (ref).\\
+The above data implies to a model where PAR-2 is not constitutively dimeric, but can dimerise upon recruitment to the membrane, likely due to concentration-dependent effects. In line with this, we expect that the cytoplasmic pool should be largely, or entirely monomeric. To confirm this I devised in vivo pull-down assay based on dual labelling of PAR-2 with two different fluorophores, \cref{fig:tomm20_schematic}. Expressing PAR-2 with a mix of green and red fluorophores means that, were PAR-2 to form constitutive dimers, a mixed population of green/green, green/red and red/red dimers would be expected to be present within the cytoplasm. Thus, forced relocalisation of one of these pools to an exogenous location in the cell should result in a detectable signal of the other fluorophore. A similar assay was used previously by \textcite{Reich2019}, who demonstrated a stable interaction between PAR-6 and PKC-3, through forced localisation of GFP::PKC-3 to the plasma membrane with a membrane-tethered GFP nanobody. (In this case the plasma membrane was a suitable target because, under the conditions of the assay, PAR-6/PKC-3 do not normally bind to the PM). Here I propose a similar approach, relying instead on recruitment to mitochondrial membranes within the cell. Mitochondrial membranes are dense within the cell, and can be probed easily with a localisation signal from the TOMM-20 protein (ref).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.95]{tomm20_schematic}
@@ -828,7 +821,7 @@ The above data implies to a model where PAR-2 is not constitutively dimeric, but
 \label{fig:tomm20_schematic}
 \end{figure}
 
-To first test the potential utility of this method, I built a TOMM-20::GBP probe tagged with mKate, and introduced this into the worm by CRISPR. Crossing this line to GFP::PAR-2, and imaging the F1s (heterozygous for both GFP::PAR-2 and the probe), shows that the probe is well expressed, displays the expected mitochondrial localisation pattern, and is able to recruit GFP::PAR-2 to the mitochondria.\\
+To first test the potential utility of this method, I built a TOMM-20::GBP probe tagged with mKate, and introduced this into the worm by CRISPR. Crossing this line to GFP::PAR-2, and imaging the F1s (heterozygous for both GFP::PAR-2 and the probe), shows that the probe is well expressed, displays the expected mitochondrial localisation pattern, and is able to recruit GFP::PAR-2 to the mitochondria (\cref{fig:tomm20_merge}).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.95]{tomm20_merge}
@@ -838,7 +831,7 @@ To first test the potential utility of this method, I built a TOMM-20::GBP probe
 \label{fig:tomm20_merge}
 \end{figure}
 
-To perform the proposed dimerisation assay, I next attempted to build an untagged version of the probe (lacking mKate). Whilst I was successfully able to build and introduce the construct into the genome of the worm, I found that this untagged probe failed to recruit any GFP::PAR-2 to the mitochondria, likely indicating that the probe failed to express. This suggests that the mKate tag may be stabilising expression of the full construct, possibly due to the presence of introns within the mKate sequence. As an alternative method to free up the red channel, I introduced a point mutation into mKate by CRISPR designed to disrupt the chromophore region (ref). This construct, by contrast, was well expressed and, like the tagged parent construct, able to pull GFP::PAR-2 to the mitochondria. Next, I crossed this line to a line expressing PAR-2::mCherry at the endogenous locus, homozygosing both constructs. I then crossed this line to a line homozygous for endogenous GFP::PAR-2, giving F1s heterozygous for GFP/mCherry PAR-2, and heterozygous for the probe.  Imaging embryos from these F1s showed that, whereas GFP::PAR-2 is fully pulled to the mitochondria, there is no detectable colocalisation with mCherry::PAR-2.\\
+To perform the proposed dimerisation assay, I next attempted to build an untagged version of the probe (lacking mKate). Whilst I was successfully able to build and introduce the construct into the genome of the worm, I found that this untagged probe failed to recruit any GFP::PAR-2 to the mitochondria, likely indicating that the probe failed to express. This suggests that the mKate tag may be stabilising expression of the full construct, possibly due to the presence of introns within the mKate sequence. As an alternative method to free up the red channel, I introduced a point mutation into mKate by CRISPR designed to disrupt the chromophore region (ref). This construct, by contrast, was well expressed and, like the tagged parent construct, able to pull GFP::PAR-2 to the mitochondria. Next, I crossed this line to a line expressing PAR-2::mCherry at the endogenous locus, homozygosing both constructs. I then crossed this line to a line homozygous for endogenous GFP::PAR-2, giving F1s heterozygous for GFP/mCherry PAR-2, and heterozygous for the probe.  Imaging embryos from these F1s showed that, whereas GFP::PAR-2 is fully pulled to the mitochondria, there is no detectable colocalisation with mCherry::PAR-2 (\cref{fig:tomm20_assay}).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{tomm20_assay}
@@ -853,7 +846,7 @@ To perform the proposed dimerisation assay, I next attempted to build an untagge
 \clearpage
 \subsubsection{Mutation to dimerisation interface weakens membrane association in vivo}
 
-As discussed previously, disrupting the RING domain, by targeted mutation to a zinc-interacting cysteine, has a strong phenotype in vivo, characterised by a string reduction in membrane affinity. My results suggest that this phenotype may be explained by a disruption in dimerisation at the membrane. However, as C56S mutation disrupts the tertiary structure of the whole domain, rather than just the dimerisation interface, it may also have additional effects. To confirm the specific role of dimerisation, I performed targeted mutations to the dimerisation interface region of the RING domain, aiming to disrupt dimerisation in vivo whilst keeping the tertiary structure of the domain intact. In addition to L109R, I performed an additional L>R mutation to L50, which is found in the N-helix. I introduced mutations at the endogenous site by CRISPR in an mNeonGreen::PAR-2 line. \\
+As discussed previously, disrupting the RING domain, by targeted mutation to a zinc-interacting cysteine, has a strong phenotype in vivo, characterised by a string reduction in membrane affinity. My results suggest that this phenotype may be explained by a disruption in dimerisation at the membrane. However, as C56S mutation disrupts the tertiary structure of the whole domain, rather than just the dimerisation interface, it may also have additional effects. To confirm the specific role of dimerisation, I performed targeted mutations to the dimerisation interface region of the RING domain, aiming to disrupt dimerisation in vivo whilst keeping the tertiary structure of the domain intact. In addition to L109R, I performed an additional L>R mutation to L50, which is found in the N-helix (\cref{fig:l50_structure}). I introduced mutations at the endogenous site by CRISPR in an mNeonGreen::PAR-2 line. \\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{l50_structure}
@@ -864,6 +857,8 @@ As discussed previously, disrupting the RING domain, by targeted mutation to a z
 \end{figure}
 
 
+As shown in \cref{fig:dimer_interface_mutants_in_vivo}, both mutations cause a strong reduction in affinity. This effect is stronger for L109R, which may suggest that L50R, whilst partially disrupting dimerisation, is insufficient to disrupt it completely. Combination of both mutants has no effect compared to L109R alone, indicating that dimerisation is completely disrupted in L109R. Interestingly, however, neither mutants reduce membrane affinity to the same extent as C56S. Assuming that dimerisation is fully disrupted by L109R, this implies that fully disrupting the domain may have additional effects compared to just disrupting dimerisation alone. One plausible explanation is that, in the case of C56S, the unfolded domain interferes with normal membrane binding, and therefore has an additional negative effect on membrane affinity. Compatible with this, a PH::RING fusion has lower overall membrane affinity that PH alone (\cref{fig:ph_ring}). Combining C56S and L109R has no effect compared to C56S alone, suggesting that dimerisation is completely disrupted in the C56S mutant.\\
+
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{dimer_interface_mutants_in_vivo}
 \setlength{\abovecaptionskip}{20pt}
@@ -871,8 +866,6 @@ As discussed previously, disrupting the RING domain, by targeted mutation to a z
 \mycaption{Title}{Caption}
 \label{fig:dimer_interface_mutants_in_vivo}
 \end{figure}
-
-As shown in fig x, both mutations cause a strong reduction in affinity. This effect is stronger for L109R, which may suggest that L50R, whilst partially disrupting dimerisation, is insufficient to disrupt it completely. Combination of both mutants has no effect compared to L109R alone, indicating that dimerisation is completely disrupted in L109R. Interestingly, however, neither mutants reduce membrane affinity to the same extent as C56S. Assuming that dimerisation is fully disrupted by L109R, this implies that fully disrupting the domain may have additional effects compared to just disrupting dimerisation alone. One plausible explanation is that, in the case of C56S, the unfolded domain interferes with normal membrane binding, and therefore has an additional negative effect on membrane affinity. Compatible with this, a PH::RING fusion has lower overall membrane affinity that PH alone (fig x). Combining C56S and L109R has no effect compared to C56S alone, suggesting that dimerisation is completely disrupted in the C56S mutant.\\
 
 \clearpage
 \subsubsection{Discussion}
@@ -929,7 +922,7 @@ We can also see from equations xxx that, at equilibrium, the following relations
 \frac{\phi_a}{\phi_b} = e^{w_a - w_b}
 \end{equation}
 
-showing that, regardless of the total amount of protein, there is a constant ratio between the two states at equilibrium. (This is, of course, obvious just by looking at the chemical equation). The ratio that is reached will depend on the enthalpy terms associated with each state. Where $w_a > w_b$ more protein will end up in state a than state b, and vice versa (fig x).\\
+showing that, regardless of the total amount of protein, there is a constant ratio between the two states at equilibrium. (This is, of course, obvious just by looking at the chemical equation). The ratio that is reached will depend on the enthalpy terms associated with each state. Where $w_a > w_b$ more protein will end up in state a than state b, and vice versa (\cref{fig:thermodynamic_simple_example2}).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_simple_example2}
@@ -944,7 +937,7 @@ A similar description can apply to a species that is exchanging between two phys
 \phi_a + \alpha\phi_b = \phi
 \end{equation}
 
-where $\alpha$ is a dimensionless exchange factor comparing the volume of the two compartments. (In this case $\phi$ can be interpreted as the volume fraction when all protein is in compartment a). As before, we end up with a linear relationship between concentrations in the two compartments, with ratios specified by $w_a - w_b$ (fig x - in this case, for simplicity, $\alpha = 1$).
+where $\alpha$ is a dimensionless exchange factor comparing the volume of the two compartments. (In this case $\phi$ can be interpreted as the volume fraction when all protein is in compartment a). As before, we end up with a linear relationship between concentrations in the two compartments, with ratios specified by $w_a - w_b$ (\cref{fig:thermodynamic_simple_example}) - in this case, for simplicity, $\alpha = 1$).
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_simple_example}
@@ -988,12 +981,11 @@ with $w_d$ represents the dimerisation energy. Thermodynamic equilibrium is reac
 \frac{\phi_{x,2}}{(\phi_{x,1})^2} = e^{w_d}
 \end{equation}
 
-Thus, as concentrations of dimeric protein will vary linearly with the square of monomer concentrations (fig xA) (again, this is obvious from the chemical equation), and so the fraction of protein in the dimeric state will increase as total protein amounts increase (fig xB). Additionally, with the constraint that $\phi_x = \phi_{x,1} + \phi_{x,2}$ we can derive relationships for the concentrations of monomer and dimer as a function of total protein:
+Thus, concentrations of dimeric protein will vary linearly with the square of monomer concentrations (\cref{fig:thermodynamic_simple_dimer}A) (again, this is obvious from the chemical equation), and so the fraction of protein in the dimeric state will increase as total protein amounts increase (\cref{fig:thermodynamic_simple_dimer}B). Additionally, with the constraint that $\phi_x = \phi_{x,1} + \phi_{x,2}$, we can derive relationships for the concentrations of monomer and dimer as a function of total protein (check):
 \begin{align}
 \phi_{x,1} &= \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_x + 1} - 1\right)\\
 \phi_{x,2} &= \phi_x - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_x + 1} - 1\right)
 \end{align}
-% check equations
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{thermodynamic_simple_dimer}
@@ -1006,7 +998,7 @@ Thus, as concentrations of dimeric protein will vary linearly with the square of
 
 \subsubsection{4-species dimerisation model}
 
-I next consider the case in which both dimerisation and membrane exchange are occurring. In this case, there are four potential species to consider: membrane monomers, membrane dimers, cytoplasmic monomers and cytoplasmic dimers (fig x). We can describe chemical potentials for the four species as:
+I next consider the case in which both dimerisation and membrane exchange are occurring. In this case, there are four potential species to consider: membrane monomers, membrane dimers, cytoplasmic monomers and cytoplasmic dimers (\cref{fig:thermodynamic_model_species}A). We can describe chemical potentials for the four species as:
 \begin{align}
 \mu_{c,1} &= \ln(\phi_{c,1}) - w_{c,1}\\
 \mu_{c,2} &= \ln(\phi_{c,2}) - w_{c,2}\\
@@ -1022,7 +1014,7 @@ w_{m,1} &= w_m\\
 w_{m,2} &= 2w_m + w_d
 \end{align}
 
-where $w_d$ represents the energy gain upon dimerisation and $w_m$ the energy gain upon membrane association. Whilst the experimental data argues against significant dimerisation in the cytosol, there's no reason the believe that PAR-2 has an inability to dimerise in cytosolic conditions. Instead, it seems more likely that concentrations in the cytoplasm are just too low for this to happen. Thus, in the interest of simplicity, we are assuming that the dimerisation energy is equal in the membrane and cytoplasm. We also assume that the membrane association energy of a dimer is twice that of a monomer (as dimers have two binding interfaces). Thermodynamic equilibrium is reached when:
+where $w_d$ represents the energy gain upon dimerisation and $w_m$ the energy gain upon membrane association. Whilst experimental data argues against significant dimerisation in the cytosol, there's no reason the believe that PAR-2 has an inability to dimerise in cytosolic conditions (in fact, we know from SEC MALS that pure RING can dimerise at without a membrane). Instead, it seems likely that concentrations in the cytoplasm are just too low for this to happen. Therefore, in the interest of simplicity, we here assume that the dimerisation energy is equal in the membrane and cytoplasm. We also assume that the membrane association energy of a dimer is twice that of a monomer (as dimers have two binding interfaces, one for each monomer). Thermodynamic equilibrium is reached when:
 \begin{equation}
 2\mu_{c,1} = \mu_{c,2} = 2\mu_{m,1} = \mu_{m,2}
 \end{equation}
@@ -1032,7 +1024,7 @@ Since the total amount of material is conserved, we have:
 \phi &= \phi_c + \alpha\phi_m
 \end{align}
 
-where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$. With constraints imposed by mass conservation, equation x can be solved analytically to obtain expressions for each of the four species as a function of $\phi$. Figure x shows that, for a fixed total amount of protein, the equilibrium fraction of total protein in each of the four states will vary depending on the two energy parameters. With low $w_d$ and low $w_m$ protein will largely by cytoplasmic and monomeric; with low $w_d$ and high $w_m$ protein will be largely membrane-bound and monomeric; with high $w_d$ and low $w_m$ protein will be largely cytoplasmic and dimeric; and with high $w_d$ and high $w_m$ protein will be largely membrane-bound and dimeric. At intermediate energies a mix of states can be observed.\\
+where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$. With constraints imposed by mass conservation, equation x can be solved analytically to obtain expressions for each of the four species as a function of $\phi$. Figure \ref{fig:thermodynamic_model_species} shows that, for a fixed total amount of protein, the equilibrium fraction of total protein in each of the four states will vary depending on the two energy parameters. With low $w_d$ and low $w_m$ protein will largely by cytoplasmic and monomeric; with low $w_d$ and high $w_m$ protein will be largely membrane-bound and monomeric; with high $w_d$ and low $w_m$ protein will be largely cytoplasmic and dimeric; and with high $w_d$ and high $w_m$ protein will be largely membrane-bound and dimeric. At intermediate energies a mix of states can be observed.\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_model_species}
@@ -1047,10 +1039,9 @@ where $\phi_c = \phi_{c,1} + \phi_{c,2}$ and $\phi_m = \phi_{m,1} + \phi_{m,2}$.
 
 Given the nonlinearities associated with dimerisation reactions, the distribution of protein between the four states is expected to vary depending on total protein amounts. This is particularly interesting in the case of PAR-2, as partitioning between the cytoplasm and membrane doesn’t follow simple linear kinetics, but varies depends on dosage (section x). I therefore investigated whether our simple thermodynamic behaviour can capture similar behaviour, by varying $\phi$ across a range of concentrations and solving for $\phi_m$ and $\phi_c$. \\
 
-Figure x shows that, in certain parameter regimes, clear nonlinearity can be observed. For a given value of $w_m$, changing $w_d$ impacts both the shape and the amplitude of the cytoplasm vs membrane relationship (fig xA). By stabilising the high affinity dimeric state, increases to $w_d $increase overall membrane affinity for a constant $w_m$, leading to a steeper relationship. \\
+Figure \ref{fig:thermodynamic_model_feedback} shows that, in certain parameter regimes, clear nonlinearity can be observed in the relationship between cytoplasmic and membrane concentrations. For a given value of $w_m$, changing $w_d$ impacts both the shape and the amplitude of the relationship (\cref{fig:thermodynamic_model_feedback}A). By stabilising the high affinity dimeric state, increases to $w_d $increase overall membrane affinity for a constant $w_m$, leading to a steeper relationship. \\
 
 \begin{figure}[!h]
-% possibly include affinity vs dosage panels
 \includegraphics[scale=1]{thermodynamic_model_feedback}
 \setlength{\abovecaptionskip}{20pt}
 \centering
@@ -1058,7 +1049,7 @@ Figure x shows that, in certain parameter regimes, clear nonlinearity can be obs
 \label{fig:thermodynamic_model_feedback}
 \end{figure}
 
-As shown in fig xB, effective exponent of the cytoplasm vs membrane relationship ($\beta$), obtained by fitting $\phi_m = \alpha \phi_c^{\beta}$, varies across parameter space between 1 (linear relationship) and 2 (quadratic relationship). Peak nonlinearity occurs in regions of high membrane energy and intermediate dimerisation energy. This corresponds to regions of parameter space in which membrane protein is largely dimeric and cytoplasmic protein largely monomeric, across the relevant range of dosages (fig x). Where $w_d$ is low, protein is unable to dimerise, even at enriched membrane concentrations, and so the model simple linear kinetics like described in section x. If, on the other hand, $w_d$ is too high, protein is constitutively dimeric in both the membrane and cytoplasm, and will behave similarly to a monomer (albeit with a higher membrane affinity). If $w_d$ is intermediate, then an asymmetry is observed whereby protein is dimeric on the membrane but not in the cytoplasm, provided that $w_m$ is sufficiently large to set up a substantial concentration difference between the two compartments.\\
+As shown in \cref{fig:thermodynamic_model_feedback}B, the effective exponent of the cytoplasm vs membrane relationship ($\beta$), obtained by fitting $\phi_m = \alpha \phi_c^{\;\beta}$, varies across parameter space between 1 (linear relationship) and 2 (quadratic relationship). Peak nonlinearity occurs in regions of high membrane energy and intermediate dimerisation energy. This corresponds to regions of parameter space in which membrane protein is largely dimeric but cytoplasmic protein largely monomeric, across the relevant range of dosages (\cref{fig:thermodynamic_model_dimer_fractions}). Where $w_d$ is low, protein is unable to dimerise, even at enriched membrane concentrations, and so the model follows simple linear kinetics like the description in section x. If, on the other hand, $w_d$ is too high, protein is constitutively dimeric in both the membrane and cytoplasm, and will behave similarly to a monomer without nonlinearities (albeit with a higher membrane affinity). If $w_d$ is intermediate, then an asymmetry is observed whereby protein is dimeric on the membrane but not in the cytoplasm, provided that $w_m$ is sufficiently large to set up a substantial concentration difference between the two compartments. NEED A COMMENT ON WHY THIS GIVES NONLINEARITY\\
 
 \begin{figure}[!h]
 \includegraphics[scale=0.9]{thermodynamic_model_dimer_fractions}
@@ -1068,18 +1059,30 @@ As shown in fig xB, effective exponent of the cytoplasm vs membrane relationship
 \label{fig:thermodynamic_model_dimer_fractions}
 \end{figure}
 
-% Needs a comment here on why we get nonlinearity
-
-%make the point here (or later) that this gives a linear increase in affinity, so is not expected to contribute to bistability
 
 \clearpage
-\subsection{Assessment of in vivo PAR-2 membrane binding kinetics}
+\subsection{Assessment of PAR-2 membrane binding kinetics}
 
-% the above makes predictions about the quantitative relationship between membrane and cytoplasmic concentrations. Suggests no bistability. Contrasts with earlier results. Let's try and measure this in vivo
+Overall, a few behaviours of the model make it highly relevant for consideration of PAR-2. Firstly, the model suggests that a reduction in dimerisation energy ($w_d$), as would be expected for a RING-disrupting mutant, can substantially decrease membrane association, independently of the membrane association energy ($w_m$). Secondly, the model suggests that, in some parameter regimes, a nonlinear relationship can occur between cytoplasmic and membrane concentrations. This latter point has the condition that dimerisation be supported in the membrane but not the cytoplasm, both of which appear to be the case for PAR-2.\\
+
+To assess how well the membrane-binding kinetics of wild type and RING-mutant PAR-2 can be captured by this model, I performed a quantitative comparison to in vivo data of cytoplasmic vs membrane concentrations. In light of evidence described in the previous chapter, which suggests that C56S may disrupt membrane binding by more than just disrupting dimerisation, I decided to repeat the experiment shown in fig x using the L109R mutant as a baseline instead of C56S. The results show a similar effect, whereby L109R mutant PAR-2 follows a different trajectory to wild type.\\
+
+I then fit this data to a dimerisation model in which $w_m$ is unchanged between the two conditions but $w_d$ allowed to change, implying that the dimerisation interface mutant is expected to disrupt the dimerisation interaction without changing the membrane interaction. Figure x shows that the data can be closely captured by a model in which L109R mutation causes a decrease in $w_d$ with a constant $w_m$. Note that the dimerisation constant (kd) is exponentially related to the dimerisation energy, so a x decrease in wd corresponds to a x fold difference in kd. Figure x shows a histogram of parameter values obtained by fitting bootstrapped samples of the data to the model. This shows that, whilst there is some uncertainty in the parameter values, particularly $w_d$, there is clear separation between the two conditions.\\
+
+\begin{figure}[!h]
+\includegraphics[scale=1]{thermodynamic_model_wt_vs_l109r}
+\setlength{\abovecaptionskip}{20pt}
+\centering
+\mycaption{Title}{Caption}
+\label{fig:thermodynamic_model_wt_vs_l109r}
+\end{figure}
+
 
 \subsection{Discussion}
 
 % We have also considered non-ideal models and this doesn't change the behaviour within concentration ranges relevant to the in vivo measurements
+
+The question remains as to why C56S appears more disruptive than L109R. One possibility is that dimerisation isn’t completely disrupted in L109R, although if this were the case, I’d expect L109R and L50R to be additive, which they are not. Another possibility is that C56S mutation, by causing the entire domain to unfold, has an additional negative impact on membrane binding whereby the unfolded domain interferes with the association between the polybasic domain and the membrane (effectively causing a decrease in $w_m$ in addition to $w_d$).\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
@@ -1150,7 +1153,7 @@ implying a dependence on both energies and concentrations. This is shown for $k_
 
 \subsection{Introduction}
 
-\subsection{Forced constitutive dimerisation of PAR-2 shifts localisation towards internal membranes}
+\subsection{Forced constitutive dimerisation of PAR-2 shifts localisation towards lower-affinity membranes}
 
 % Strikingly, we see the unexpected appearance of visible structures within the cell. Based on comparison to RAB localisation patterns, these appear to be endosomes.
 

@@ -64,11 +64,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.2}SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}{42}{subsubsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Assessing performance on images of PAR proteins}{44}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3}Assessing SAIBR performance on images of PAR proteins}{44}{subsubsection.2.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.4}Extending SAIBR to dual-labelled C elegans embryos}{46}{subsubsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.5}Discussion}{49}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.5}Discussion}{47}{subsubsection.2.1.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Extracting membrane and cytoplasmic signal components}{51}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
@@ -76,9 +76,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.2}Accounting for out-of-focus scatter}{52}{subsubsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}A gradient descent protocol for image quantification}{59}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3}A gradient descent protocol for image quantification}{60}{subsubsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4}Segmentation}{61}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4}Segmentation}{62}{subsubsection.2.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.5}Benchmarking the method}{64}{subsubsection.2.2.5}
 \defcounter {refsection}{0}\relax 
@@ -142,58 +142,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Intermediate dimerisation can drive nonlinear membrane association}{111}{subsection.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Assessment of in vivo PAR-2 membrane binding kinetics}{115}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.4}Assessment of PAR-2 membrane binding kinetics}{115}{subsection.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}Discussion}{115}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.5}Discussion}{116}{subsection.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Modelling dimerisation-driven positive feedback in the PAR network}{116}{section.6}
+\contentsline {section}{\numberline {6}Modelling dimerisation-driven positive feedback in the PAR network}{118}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Model description}{116}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.1}Model description}{118}{subsection.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.1}Reducing thermodynamic model to a two-species model}{116}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Reducing thermodynamic model to a two-species model}{118}{subsubsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.2}Explicit description of membrane binding kinetics}{117}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2}Explicit description of membrane binding kinetics}{119}{subsubsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.3}Incorporation into mutual antagonism model}{118}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.3}Incorporation into mutual antagonism model}{120}{subsubsection.6.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Experimental manipulation of PAR-2 dimerisation}{119}{section.7}
+\contentsline {section}{\numberline {7}Experimental manipulation of PAR-2 dimerisation}{121}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Introduction}{119}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.1}Introduction}{121}{subsection.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Forced constitutive dimerisation of PAR-2 shifts localisation towards internal membranes}{119}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.2}Forced constitutive dimerisation of PAR-2 shifts localisation towards lower-affinity membranes}{121}{subsection.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Incorporating internal membranes into the thermodynamic model}{122}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.3}Incorporating internal membranes into the thermodynamic model}{124}{subsection.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Modelling kinetics outside of equilibrium}{123}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.4}Modelling kinetics outside of equilibrium}{125}{subsection.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5}aPAR disruption partially restores expected equilibrium localisation pattern}{123}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.5}aPAR disruption partially restores expected equilibrium localisation pattern}{125}{subsection.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6}Discussion}{123}{subsection.7.6}
+\contentsline {subsection}{\numberline {7.6}Discussion}{125}{subsection.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Discussion}{126}{section.8}
+\contentsline {section}{\numberline {8}Discussion}{128}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Materials and methods}{127}{section.9}
+\contentsline {section}{\numberline {9}Materials and methods}{129}{section.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Worm maintenance}{127}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.1}Worm maintenance}{129}{subsection.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Generating transgenic lines by CRISPR}{127}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.2}Generating transgenic lines by CRISPR}{129}{subsection.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3}Microscopy}{128}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.3}Microscopy}{130}{subsection.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4}Full-length PAR-2 purification}{128}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.4}Full-length PAR-2 purification}{130}{subsection.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5}Ubiquitination assays}{128}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.5}Ubiquitination assays}{130}{subsection.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.6}PAR-2 RING domain fragment purification}{128}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.6}PAR-2 RING domain fragment purification}{130}{subsection.9.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.7}SEC-MALS}{128}{subsection.9.7}
+\contentsline {subsection}{\numberline {9.7}SEC-MALS}{130}{subsection.9.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.8}Image analysis}{128}{subsection.9.8}
+\contentsline {subsection}{\numberline {9.8}Image analysis}{130}{subsection.9.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.9}Modelling methods}{128}{subsection.9.9}
+\contentsline {subsection}{\numberline {9.9}Modelling methods}{130}{subsection.9.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{129}{section.10}
+\contentsline {section}{\numberline {10}Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{131}{section.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Abbreviations}{130}{section.11}
+\contentsline {section}{\numberline {11}Abbreviations}{132}{section.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Bibliography}{131}{section.12}
+\contentsline {section}{\numberline {12}Bibliography}{133}{section.12}
