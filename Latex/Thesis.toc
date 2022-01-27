@@ -78,9 +78,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.3}A gradient descent protocol for image quantification}{67}{subsubsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4}Segmentation}{70}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4}Segmentation}{71}{subsubsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.5}Benchmarking the method}{70}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5}Benchmarking the method}{71}{subsubsection.2.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.6}Calibrating concentration units}{74}{subsubsection.2.2.6}
 \defcounter {refsection}{0}\relax 

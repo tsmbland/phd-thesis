@@ -2100,6 +2100,101 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Hubatsch2019a}{article}{}
+    \name{author}{7}{}{%
+      {{hash=HL}{%
+         family={Hubatsch},
+         familyi={H\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Peglion},
+         familyi={P\bibinitperiod},
+         given={Florent},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RJD}{%
+         family={Reich},
+         familyi={R\bibinitperiod},
+         given={Jacob\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RNT}{%
+         family={Rodrigues},
+         familyi={R\bibinitperiod},
+         given={Nelio\bibnamedelima T.L.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Hirani},
+         familyi={H\bibinitperiod},
+         given={Nisha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=IR}{%
+         family={Illukkumbura},
+         familyi={I\bibinitperiod},
+         given={Rukshala},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Modelling,Polarity}
+    \strng{namehash}{HL+1}
+    \strng{fullhash}{HLPFRJDRNTHNIRGNW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Reaction–diffusion networks underlie pattern formation in a range of
+  biological contexts, from morphogenesis of organisms to the polarization of
+  individual cells. One requirement for such molecular networks is that output
+  patterns be scaled to system size. At the same time, kinetic properties of
+  constituent molecules constrain the ability of networks to adapt to size
+  changes. Here, we explore these constraints and the consequences thereof
+  within the conserved PAR cell polarity network. Using the stem-cell-like germ
+  lineage of the Caenorhabditis elegans embryo as a model, we find that the
+  behaviour of PAR proteins fails to scale with cell size. Theoretical analysis
+  demonstrates that this lack of scaling results in a size threshold below
+  which polarity is destabilized, yielding an unpolarized system. In
+  empirically constrained models, this threshold occurs near the size at which
+  germ lineage cells normally switch between asymmetric and symmetric modes of
+  division. Consistent with cell size limiting polarity and division asymmetry,
+  genetic or physical reduction in germ lineage cell size is sufficient to
+  trigger loss of polarity in normally polarizing cells at predicted size
+  thresholds. Physical limits of polarity networks may be one mechanism by
+  which cells read out geometrical features to inform cell fate decisions.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41567-019-0601-x
+    \endverb
+    \field{issn}{17452481}
+    \field{number}{10}
+    \field{pages}{1078\bibrangedash 1085}
+    \field{title}{{A cell-size threshold limits cell polarity and asymmetric
+  division potential}}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41567-019-0601-x
+    \endverb
+    \field{volume}{15}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Hubatsch et al. - Unknown -
+    \verb A cell-size threshold limits cell polarity and asymmetric division po
+    \verb tential.pdf:pdf;:Users/blandt/Documents/Mendeley Desktop/41567_2019_6
+    \verb 01_MOESM1_ESM.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Physics}
+    \field{year}{2019}
+  \endentry
+
   \entry{Johnson2012}{article}{}
     \name{author}{3}{}{%
       {{hash=JJL}{%
@@ -3418,6 +3513,65 @@
     \endverb
     \field{journaltitle}{Current Biology}
     \field{year}{2019}
+  \endentry
+
+  \entry{Reich2019a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RJD}{%
+         family={Reich},
+         familyi={R\bibinitperiod},
+         given={Jacob\bibnamedelima Dietrich},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {UCL (University College London)}%
+    }
+    \keyw{book chapters,conference proceedings,digital web
+  resources,discovery,journal articles,open access,open access
+  repository,research,theses,ucl,ucl discovery,ucl library,ucl research}
+    \strng{namehash}{RJD1}
+    \strng{fullhash}{RJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Most cell types exhibit some form of asymmetry, often termed polarity,
+  creating distinct cell ends with specialised functions. One highly conserved
+  mechanism for initially differentiating cell ends involves proteins of the
+  PAR polarity network, which self-organise into opposing domains on the cortex
+  of cells, generating an initial asymmetry which can act as a landmark for
+  further asymmetries. For proper development and tissue homeostasis of
+  multicellular organisms, polarity must be controlled in time, as many cell
+  types undergo alternating periods of being polarised, and not being
+  polarised. However, how the underlying PAR networks are temporally regulated,
+  in terms of being able to respond to symmetry-breaking cues and polarise, is
+  not well understood. The one-cell embryo of the model organism C. elegans is
+  initially unpolarised, but polarises upon completion of maternal meiosis.
+  This project has identified that the PAR network is initially inactive in
+  immature oocytes, due to members of the anterior PAR complex being unable to
+  associate with the cortex at this time. Oocyte maturation - independent of
+  fertilisation or meiosis completion - was identified as the key process in
+  activating the PAR network, by allowing anterior PARs to localise to the
+  cortex, and localising posterior PARs to the cytoplasm. This renders the
+  network capable of polarising the cortex in response to symmetry-breaking
+  cues. Furthermore, anterior PAR cortical localisation is negatively regulated
+  by the cell cycle regulators AuroraA and Polo-like kinase in oocytes, thus
+  linking the activation of the PAR network to cell cycle progression, thereby
+  enabling the proper coordination of PAR network activation and cue
+  maturation, ensuring singularity of PAR domain formation.%
+    }
+    \field{title}{{Activation of the PAR polarity system in the C. elegans
+  embryo}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Reich_10072620_Thesis.pdf:pd
+    \verb f
+    \endverb
+    \field{journaltitle}{Doctoral thesis, UCL (University College London).}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Rodrigues2022}{article}{}
