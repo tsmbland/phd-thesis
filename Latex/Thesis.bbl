@@ -17,6 +17,292 @@
 \endgroup
 
 \sortlist[entry]{nyt/global/}
+  \entry{Abadi2016}{article}{}
+    \name{author}{40}{}{%
+      {{hash=AM}{%
+         family={Abadi},
+         familyi={A\bibinitperiod},
+         given={Mart{\'{i}}n},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={Ashish},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Barham},
+         familyi={B\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Brevdo},
+         familyi={B\bibinitperiod},
+         given={Eugene},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhifeng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Citro},
+         familyi={C\bibinitperiod},
+         given={Craig},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CGS}{%
+         family={Corrado},
+         familyi={C\bibinitperiod},
+         given={Greg\bibnamedelima S},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Devin},
+         familyi={D\bibinitperiod},
+         given={Matthieu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Ghemawat},
+         familyi={G\bibinitperiod},
+         given={Sanjay},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Goodfellow},
+         familyi={G\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Harp},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IG}{%
+         family={Irving},
+         familyi={I\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Isard},
+         familyi={I\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Yangqing},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jozefowicz},
+         familyi={J\bibinitperiod},
+         given={Rafal},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={Lukasz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kudlur},
+         familyi={K\bibinitperiod},
+         given={Manjunath},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Levenberg},
+         familyi={L\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Mane},
+         familyi={M\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Monga},
+         familyi={M\bibinitperiod},
+         given={Rajat},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Sherry},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Murray},
+         familyi={M\bibinitperiod},
+         given={Derek},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Olah},
+         familyi={O\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schuster},
+         familyi={S\bibinitperiod},
+         given={Mike},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shlens},
+         familyi={S\bibinitperiod},
+         given={Jonathon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Steiner},
+         familyi={S\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Talwar},
+         familyi={T\bibinitperiod},
+         given={Kunal},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tucker},
+         familyi={T\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vanhoucke},
+         familyi={V\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Viegas},
+         familyi={V\bibinitperiod},
+         given={Fernanda},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Warden},
+         familyi={W\bibinitperiod},
+         given={Pete},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wattenberg},
+         familyi={W\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wicke},
+         familyi={W\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Xiaoqiang},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+  \strng{fullhash}{AMAABPBECZCCCGSDADJDMGSGIHAIGIMJYJRKLKMLJMDMRMSMDOCSMSJSBSITKTPVVVVVFVOWPWMWMYYZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    TensorFlow is an interface for expressing machine learning algorithms, and
+  an implementation for executing such algorithms. A computation expressed
+  using TensorFlow can be executed with little or no change on a wide variety
+  of heterogeneous systems, ranging from mobile devices such as phones and
+  tablets up to large-scale distributed systems of hundreds of machines and
+  thousands of computational devices such as GPU cards. The system is flexible
+  and can be used to express a wide variety of algorithms, including training
+  and inference algorithms for deep neural network models, and it has been used
+  for conducting research and for deploying machine learning systems into
+  production across more than a dozen areas of computer science and other
+  fields, including speech recognition, computer vision, robotics, information
+  retrieval, natural language processing, geographic information extraction,
+  and computational drug discovery. This paper describes the TensorFlow
+  interface and an implementation of that interface that we have built at
+  Google. The TensorFlow API and a reference implementation were released as an
+  open-source package under the Apache 2.0 license in November, 2015 and are
+  available at www.tensorflow.org.%
+    }
+    \verb{eprint}
+    \verb 1603.04467
+    \endverb
+    \field{title}{{TensorFlow: Large-Scale Machine Learning on Heterogeneous
+  Distributed Systems}}
+    \verb{url}
+    \verb www.tensorflow.org. http://arxiv.org/abs/1603.04467
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Abadi et al. - Unknown - Ten
+    \verb sorFlow Large-Scale Machine Learning on Heterogeneous Distributed Sys
+    \verb tems.pdf:pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2016}
+  \endentry
+
   \entry{Aceto2006}{article}{}
     \name{author}{3}{}{%
       {{hash=AD}{%
@@ -466,6 +752,51 @@
     \endverb
     \field{journaltitle}{Development}
     \field{year}{2006}
+  \endentry
+
+  \entry{Billinton2001}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BN}{%
+         family={Billinton},
+         familyi={B\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KAW}{%
+         family={Knight},
+         familyi={K\bibinitperiod},
+         given={Andrew\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press}%
+    }
+    \strng{namehash}{BNKAW1}
+    \strng{fullhash}{BNKAW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1006/ABIO.2000.5006
+    \endverb
+    \field{issn}{0003-2697}
+    \field{number}{2}
+    \field{pages}{175\bibrangedash 197}
+    \field{title}{{Seeing the Wood through the Trees: A Review of Techniques
+  for Distinguishing Green Fluorescent Protein from Endogenous
+  Autofluorescence}}
+    \field{volume}{291}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Billinton, Knight - 2001 - S
+    \verb eeing the Wood through the Trees A Review of Techniques for Distingui
+    \verb shing Green Fluorescent Protein from En.pdf:pdf
+    \endverb
+    \field{journaltitle}{Analytical Biochemistry}
+    \field{year}{2001}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Blanchoud2015}{article}{}
@@ -1046,6 +1377,104 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Goehring2011a}{article}{}
+    \name{author}{7}{}{%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=TPK}{%
+         family={Trong},
+         familyi={T\bibinitperiod},
+         given={Philipp\bibnamedelima Khuc},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BJS}{%
+         family={Bois},
+         familyi={B\bibinitperiod},
+         given={Justin\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chowdhury},
+         familyi={C\bibinitperiod},
+         given={Debanjan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NEM}{%
+         family={Nicola},
+         familyi={N\bibinitperiod},
+         given={Ernesto\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HAA}{%
+         family={Hyman},
+         familyi={H\bibinitperiod},
+         given={Anthony\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GSW}{%
+         family={Grill},
+         familyi={G\bibinitperiod},
+         given={Stephan\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \keyw{C. elegans,Modelling,Polarity,Printed}
+    \strng{namehash}{GNW+1}
+    \strng{fullhash}{GNWTPKBJSCDNEMHAAGSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    In the Caenorhabditis elegans zygote, a conserved network of
+  partitioning-defective (PAR) polarity proteins segregates into an anterior
+  and a posterior domain, facilitated by flows of the cortical actomyosin
+  meshwork. The physical mechanisms by which stable asymmetric PAR
+  distributions arise from transient cortical flows remain unclear. We present
+  evidence that PAR polarity arises from coupling of advective transport by the
+  flowing cell cortex to a multistable PAR reaction-diffusion system. By
+  inducing transient PAR segregation, advection serves as a mechanical trigger
+  for the formation of a PAR pattern within an otherwise stably unpolarized
+  system. We suggest that passive advective transport in an active and flowing
+  material may be a general mechanism for mechanochemical pattern formation in
+  developmental systems.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.1208619
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{1095-9203 (Electronic)\r0036-8075 (Linking)}
+    \field{issn}{10959203}
+    \field{number}{6059}
+    \field{pages}{1137\bibrangedash 1141}
+    \field{title}{{Polarization of PAR proteins by advective triggering of a
+  pattern-forming system}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/22021673
+    \endverb
+    \field{volume}{334}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Goehring et al. - 2011 - Sup
+    \verb porting Online Material for Polarization of PAR Proteins by Advective
+    \verb  Triggering of a Pattern- Forming Syste.pdf:pdf;:Users/blandt/Documen
+    \verb ts/Mendeley Desktop/Goehring et al. - 2011 - Polarization of PAR prot
+    \verb eins by advective triggering of a pattern-forming system.pdf:pdf
+    \endverb
+    \field{journaltitle}{Science}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
   \entry{Goldstein2007}{misc}{}
     \name{author}{2}{}{%
       {{hash=GB}{%
@@ -1329,6 +1758,79 @@
     \endverb
     \field{journaltitle}{Nature Physics}
     \field{year}{2018}
+  \endentry
+
+  \entry{Gudgen2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GM}{%
+         family={Gudgen},
+         familyi={G\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chandrasekaran},
+         familyi={C\bibinitperiod},
+         given={Anantharaman},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Frazier},
+         familyi={F\bibinitperiod},
+         given={Tyralynn},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Boyd},
+         familyi={B\bibinitperiod},
+         given={Lynn},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Mms2,PAR-2,RING,RING
+  finger,Rad6,Two-hybrid,Ubc13,Ubiquitin,Ubiquitin conjugating enzyme,Ubiquitin
+  conjugating enzyme variant,Ubiquitin ligase,Ubiquitination,Uev1}
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMCAFTBL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The ubiquitin system is a well-conserved and pervasive process for
+  post-synthetic modification of proteins. Three key components of the pathway
+  are required for ubiquitination to occur: the E1 ubiquitin activating enzyme,
+  the E2 ubiquitin conjugating enzyme, and the E3 ubiquitin ligase. There are
+  several different E2 ubiquitin conjugating enzymes and an even greater number
+  of E3 ubiquitin ligases. Interactions between these two groups are critical
+  for substrate ubiquitination. This study reports a two-hybrid analysis of
+  interactions within the ubiquitin system of Caenorhabditis elegans.
+  Forty-three RING finger proteins (presumed E3 ubiquitin ligases) and 14
+  predicted E2 ubiquitin conjugating enzymes were included in the screen. A
+  total of 31 E2-E3 interactions were uncovered. In addition, the UBC-13
+  conjugating enzyme was observed to interact with two different E2s, UEV-1 and
+  UBC-1. The interaction of UBC-1 and UBC-13 was confirmed with in vitro
+  ubiquitination reactions. Using NHL-1 as the E3 in the assays, ubiquitination
+  was observed when both UBC-1 and UBC-13 were present but not with either
+  alone. These data imply that some E2s require dimerization in order to
+  function. {\textcopyright} 2004 Elsevier Inc. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bbrc.2004.10.047
+    \endverb
+    \field{issn}{0006291X}
+    \field{number}{2}
+    \field{pages}{479\bibrangedash 486}
+    \field{title}{{Interactions within the ubiquitin pathway of Caenorhabditis
+  elegans}}
+    \field{volume}{325}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0006291X04023629-mai
+    \verb n.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biochemical and Biophysical Research Communications}
+    \field{year}{2004}
   \endentry
 
   \entry{Hao2006}{article}{}
@@ -1930,6 +2432,59 @@
     \endverb
     \field{journaltitle}{Nature}
     \field{year}{2021}
+  \endentry
+
+  \entry{Kingma2015}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KDP}{%
+         family={Kingma},
+         familyi={K\bibinitperiod},
+         given={Diederik\bibnamedelima P},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BJL}{%
+         family={Ba},
+         familyi={B\bibinitperiod},
+         given={Jimmy\bibnamedelima Lei},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KDPBJL1}
+    \strng{fullhash}{KDPBJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    We introduce Adam, an algorithm for first-order gradient-based optimization
+  of stochastic objective functions, based on adaptive estimates of lower-order
+  moments. The method is straightforward to implement, is computationally
+  efficient, has little memory requirements, is invariant to diagonal rescaling
+  of the gradients, and is well suited for problems that are large in terms of
+  data and/or parameters. The method is also appropriate for non-stationary
+  objectives and problems with very noisy and/or sparse gradients. The
+  hyper-parameters have intuitive interpretations and typically require little
+  tuning. Some connections to related algorithms, on which Adam was inspired,
+  are discussed. We also analyze the theoretical convergence properties of the
+  algorithm and provide a regret bound on the convergence rate that is
+  comparable to the best known results under the online convex optimization
+  framework. Empirical results demonstrate that Adam works well in practice and
+  compares favorably to other stochastic optimization methods. Finally, we
+  discuss AdaMax, a variant of Adam based on the infinity norm.%
+    }
+    \field{booktitle}{3rd International Conference on Learning Representations,
+  ICLR 2015 - Conference Track Proceedings}
+    \verb{eprint}
+    \verb 1412.6980
+    \endverb
+    \field{title}{{Adam: A method for stochastic optimization}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Kingma, Lei Ba - Unknown - A
+    \verb DAM A METHOD FOR STOCHASTIC OPTIMIZATION(2).pdf:pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2015}
   \endentry
 
   \entry{Klinkert2019}{article}{}
@@ -3094,6 +3649,64 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Roederer1986}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RM}{%
+         family={Roederer},
+         familyi={R\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MRF}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima F.},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \keyw{Autofluorescence,Ligand acidification,endosome pH,multiparameter flow
+  cytometry,receptor‐mediated endocytosis}
+    \strng{namehash}{RMMRF1}
+    \strng{fullhash}{RMMRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1986}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Autofluorescence of cells can be a major portion of the fluorescence signal
+  in many systems, especially when fluorescent conjugates are used to study
+  receptor‐ligand systems for which there are less than 70,000 receptors per
+  cell. We have devised a method for the cell‐by‐cell correction of
+  autofluorescence for flow cytometric data by using an additional parameter to
+  measure and correct for autofluorescence in the fluorescence channel. The
+  principle has been extended to allow simultaneous correction for
+  autofluorescence and dual‐fluorescence spillover compensation in samples
+  labeled with two different fluorochromes; all corrections were done in
+  software, making them applicable to any flow cytometer. The autofluorescence
+  correction method was used to analyze the acidification of epidermal growth
+  factor (EGF) by Swiss 3T3 cells. EGF is acidified to pH 6.2 starting two min
+  after labeling, with a half‐time for acidification of 45 s. Copyright
+  {\textcopyright} 1986 Wiley‐Liss, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/CYTO.990070610
+    \endverb
+    \field{number}{6}
+    \field{pages}{558\bibrangedash 565}
+    \field{title}{{Cell‐by‐cell autofluorescence correction for low
+  signal‐to‐noise systems: Application to epidermal growth factor
+  endocytosis by 3T3 fibroblasts}}
+    \field{volume}{7}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Roederer, Murphy - 1986 - Ce
+    \verb ll‐by‐cell autofluorescence correction for low signal‐to‐nois
+    \verb e systems Application to epidermal grow.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cytometry}
+    \field{year}{1986}
+  \endentry
+
   \entry{Rojas-Fernandez2014}{article}{}
     \name{author}{6}{}{%
       {{hash=RFA}{%
@@ -3489,6 +4102,76 @@
     \endverb
     \field{journaltitle}{Protein Science}
     \field{year}{2017}
+  \endentry
+
+  \entry{Sun2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SS}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Shiliang},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Zehui},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Han},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Approximate Bayesian inference,deep neural network (DNN),machine
+  learning,optimization method,reinforcement learning (RL)}
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSCZZHZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Machine learning develops rapidly, which has made many theoretical
+  breakthroughs and is widely applied in various fields. Optimization, as an
+  important part of machine learning, has attracted much attention of
+  researchers. With the exponential growth of data amount and the increase of
+  model complexity, optimization methods in machine learning face more and more
+  challenges. A lot of work on solving optimization problems or improving
+  optimization methods in machine learning has been proposed successively. The
+  systematic retrospect and summary of the optimization methods from the
+  perspective of machine learning are of great significance, which can offer
+  guidance for both developments of optimization and machine learning research.
+  In this article, we first describe the optimization problems in machine
+  learning. Then, we introduce the principles and progresses of commonly used
+  optimization methods. Finally, we explore and give some challenges and open
+  problems for the optimization in machine learning.%
+    }
+    \verb{doi}
+    \verb 10.1109/TCYB.2019.2950779
+    \endverb
+    \verb{eprint}
+    \verb 1906.06821
+    \endverb
+    \field{issn}{21682275}
+    \field{title}{{A Survey of Optimization Methods from a Machine Learning
+  Perspective}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Sun et al. - 2019 - A Survey
+    \verb  of Optimization Methods from a Machine Learning Perspective(2).pdf:p
+    \verb df
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
   \endentry
 
   \entry{Visco2016}{article}{}
