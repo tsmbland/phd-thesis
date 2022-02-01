@@ -832,6 +832,15 @@ These regions are also highly conserved in different \textit{Caenorhabditis} spe
 
 %Instead, we decided to attempt more targeted mutation to the dimerisation interface, aiming to disrupt dimerisation without disrupting the tertiary structure of the domain. This approach has previously been used <examples>. We identified L109, predicted to be found in the C-helical region as a likely important site (\cref{fig:l109_structure}), and L109R as a likely disruptive mutation. By contrast to C56S, this mutant allele was easier to express and purify in sufficient quantities to perform SEC-MALS. Strikingly, as shown in fig x, this single mutation completely abrogates dimerisation, showing the expected size for a purely monomeric sample.\\
 
+\begin{figure}
+\includegraphics[scale=1]{sec_mals}
+\centering
+\mycaption{Title}{
+Caption
+}
+\label{fig:sec_mals}
+\end{figure}
+
 Data suggests that PAR-2 displays concentration-dependent dimerisation, existing largely as a monomer at low concentrations and mostly dimeric at high concentrations.\\
 
 
@@ -856,7 +865,7 @@ The predicted structure (\cref{fig:ring_alphafold}) resembles the common structu
 
 Note, at the time of writing, whilst Alphafold can model quaternary structures of oligomeric proteins, it relies on the user to input the expected oligomeric state (e.g. dimer in this case), and therefore cannot be used as a tool to predict oligomeric state. Therefore, the resulting structures should be interpreted as the best guess given that dimerisation is expected. Outputted models also do not provide the location of ligands (e.g. zinc ions in this case), but are expected to capture their effects on protein folding.\\
 
-I also performed predictions for PAR-2 across the \textit{Caenorhabditis} genus (\cref{fig:ring_alphafold_species}). These show that the structure is predicted to be largely conserved, although confidence scores within the 4-helix bundle are variable. A major exception is \textit{C. latens}, which is predicted to form no bundle at all. This is compatible with the lack of hydrophobic residues at the key sites (\cref{fig:alignments_par2}). It's likely that, unlike other species, the RING domain of \textit{C. latens} PAR-2 is monomeric.
+I also performed predictions for PAR-2 across the \textit{Caenorhabditis} genus (\cref{fig:ring_alphafold_species}). These show that the structure is predicted to be largely conserved, although confidence scores within the 4-helix bundle are variable. A major exception is \textit{C. latens}, which is predicted to form no bundle at all. This is compatible with the lack of hydrophobic residues at the key sites (\cref{fig:alignments_par2}). It's likely that, unlike other species, the RING domain of \textit{C. latens} PAR-2 is monomeric.\\
 
 \begin{figure}
 \includegraphics[scale=0.9]{ring_alphafold_species}
@@ -867,7 +876,16 @@ Colour coded by pLDDT.
 \label{fig:ring_alphafold_species}
 \end{figure}
 
-% L109R, structure prediction
+L109R, SEC MALS\\
+
+\begin{figure}
+\includegraphics[scale=1]{l109r_sec_mals}
+\centering
+\mycaption{Title}{
+Caption
+}
+\label{fig:l109r_sec_mals}
+\end{figure}
 
 \subsubsection{Cytoplasmic PAR-2  does not self-associate in vivo}
 
@@ -929,7 +947,7 @@ To test whether the PAR-2 RING domain can dimerise when enriched on the membrane
 \end{figure}
 
 \begin{figure}
-\includegraphics[scale=0.9]{ring_fragment_in_vivo}
+\includegraphics[scale=1]{ring_fragment_in_vivo}
 \centering
 \mycaption{PAR-2 RING domain fragment shows no membrane localisation}{
 \textbf{(A)} Midplane image of mNG::PAR-2(1-177), showing entirely cytoplasmic localisation.
@@ -960,7 +978,7 @@ Overall model: cytoplasmic PAR-2 is monomeric, enrichment on membrane kicks off 
 As discussed previously, disrupting the RING domain, by targeted mutation to a zinc-interacting cysteine, has a strong phenotype in vivo, characterised by a strong reduction in membrane affinity. My results suggest that this phenotype may be explained by disruption of dimerisation at the membrane. However, as C56S mutation disrupts the tertiary structure of the whole domain, rather than just the dimerisation interface, it may also have additional effects. To confirm the specific role of dimerisation, I performed targeted mutations to the dimerisation interface region of the RING domain, aiming to disrupt dimerisation in vivo whilst keeping the tertiary structure of the domain intact. In addition to L109R, I performed an additional L>R mutation to L50, which is found in the N-helix (\cref{fig:l50_structure}). I introduced mutations at the endogenous site by CRISPR in an mNeonGreen::PAR-2 line. \\
 
 \begin{SCfigure}
-\includegraphics[scale=0.9]{l50_structure}
+\includegraphics[scale=0.8]{l50_structure}
 \mycaption{Position of the L50 site within the 4-helix bundle of the PAR-2 RING domain}{L50 site highlighted in blue, other residues coloured by hydrophobicity}
 \label{fig:l50_structure}
 \end{SCfigure}
