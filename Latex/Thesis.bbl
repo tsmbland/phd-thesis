@@ -1164,6 +1164,62 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Deshaies2009}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DRJ}{%
+         family={Deshaies},
+         familyi={D\bibinitperiod},
+         given={Raymond\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=JCAP}{%
+         family={Joazeiro},
+         familyi={J\bibinitperiod},
+         given={Claudio A\bibnamedelima P},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+    }
+    \keyw{APC,CRL,Cbl,E2,RING,Review,SCF,UPS,Ubiquitin}
+    \strng{namehash}{DRJJCAP1}
+    \strng{fullhash}{DRJJCAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    E3 ligases confer specificity to ubiquitination by recognizing target
+  substrates and mediating transfer of ubiquitin from an E2
+  ubiquitin-conjugating enzyme to substrate. The activity of most E3s is
+  specified by a RING domain, which binds to an E2∼ubiquitin thioester and
+  activates discharge of its ubiquitin cargo. E2-E3 complexes can either
+  monoubiquitinate a substrate lysine or synthesize polyubiqui-tin chains
+  assembled via different lysine residues of ubiquitin. These modifications can
+  have diverse effects on the substrate, ranging from proteasome-dependent
+  proteolysis to modulation of protein function, structure, assembly, and/or
+  localization. Not surprisingly, RING E3-mediated ubiquitination can be
+  regulated in a number of ways. RING-based E3s are specified by over 600 human
+  genes, surpassing the 518 protein kinase genes. Accordingly, RING E3s have
+  been linked to the control of many cellular processes and to multiple human
+  diseases. Despite their critical importance, our knowledge of the
+  physiological partners, biological functions, substrates, and mechanism of
+  action for most RING E3s remains at a rudimentary stage.%
+    }
+    \verb{doi}
+    \verb 10.1146/annurev.biochem.78.101807.093809
+    \endverb
+    \field{title}{{RING Domain E3 Ubiquitin Ligases}}
+    \verb{url}
+    \verb http://ca.expasy.org/
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Deshaies, Joazeiro - 2009 -
+    \verb RING Domain E3 Ubiquitin Ligases.pdf:pdf
+    \endverb
+    \field{year}{2009}
+  \endentry
+
   \entry{Dickinson2017}{article}{}
     \name{author}{5}{}{%
       {{hash=DDJ}{%
@@ -1377,6 +1433,263 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Dinkelmann2003}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=DMV}{%
+         family={Dinkelmann},
+         familyi={D\bibinitperiod},
+         given={Maria\bibnamedelima V.;},
+         giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Haining;},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SAR}{%
+         family={Skop},
+         familyi={S\bibinitperiod},
+         given={Ahna\bibnamedelima R.;},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WJG}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={John\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Genetics}%
+    }
+    \keyw{Tomm20}
+    \strng{namehash}{DMV+1}
+    \strng{fullhash}{DMVZHSARWJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    We have analyzed 31 mutations that have dominant effects on the behavior or
+  morphology of the nematode Caenorhabditis elegans. These mutations appear to
+  define 15 genes. We have studied ten of these genes in some detail and have
+  been led to two notable conclusions. First, loss of gene function for four of
+  these ten genes results in a wild-type phenotype; if these genes represent a
+  random sample from the genome, then we would estimate that null mutations in
+  about half of the genes in C. elegans would result in a nonmutant phenotype.
+  Second, the dominant effects of mutations in nine of these ten genes are
+  caused by novel gene functions, and in all nine cases the novel function is
+  antagonized by the wild-type function.%
+    }
+    \field{booktitle}{Medecine/Sciences}
+    \verb{doi}
+    \verb 10.1051/medsci/20031967725
+    \endverb
+    \field{issn}{07670974}
+    \field{number}{6-7}
+    \field{pages}{725\bibrangedash 734}
+    \field{title}{{SPD-3 Is Required for Spindle Alignment in Caenorhabditis
+  elegans Embryos and Localizes to Mitochondria}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/9649523 http://www.pubmedcentral.n
+    \verb ih.gov/articlerender.fcgi?artid=PMC1460238
+    \endverb
+    \field{volume}{19}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Yochem et al. - 1998 - A new
+    \verb  marker for mosaic analysis in Caenorhabditis elegans indicates a fus
+    \verb ion between hyp6 and hyp7, two major co.pdf:pdf
+    \endverb
+    \field{year}{2003}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Fiorentini2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FF}{%
+         family={Fiorentini},
+         familyi={F\bibinitperiod},
+         given={Filippo},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Esposito},
+         familyi={E\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rittinger},
+         familyi={R\bibinitperiod},
+         given={Katrin},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Dimerisation,RING,Review}
+    \strng{namehash}{FFEDRK1}
+    \strng{fullhash}{FFEDRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    TRIM proteins form a protein family that is characterized by a conserved
+  tripartite motif domain comprising a RING domain, one or two B-box domains
+  and a coiled-coil region. Members of this large protein family are important
+  regulators of numerous cellular functions including innate immune responses,
+  transcriptional regulation and apoptosis. Key to their cellular role is their
+  E3 ligase activity which is conferred by the RING domain. Self-association is
+  an important characteristic of TRIM protein activity and is mediated by
+  homodimerization via the coiled-coil region, and in some cases higher order
+  association via additional domains of the tripartite motif. In many of the
+  TRIM family proteins studied thus far, RING dimerization is an important
+  prerequisite for E3 ligase enzymatic activity though the propensity of RING
+  domains to dimerize differs significantly between different TRIMs and can be
+  influenced by other regions of the protein.%
+    }
+    \verb{doi}
+    \verb 10.1042/BST20200383
+    \endverb
+    \field{issn}{1470-8752}
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{{Does it take two to tango? RING domain self-association and
+  activity in TRIM E3 ubiquitin ligases.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/33170204
+    \endverb
+    \field{volume}{0}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/bst-2020-0383c.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biochemical Society transactions}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Fiskin2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=FE}{%
+         family={Fiskin},
+         familyi={F\bibinitperiod},
+         given={Evgenij},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bhogaraju},
+         familyi={B\bibinitperiod},
+         given={Sagar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Herhaus},
+         familyi={H\bibinitperiod},
+         given={Lina},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kalayil},
+         familyi={K\bibinitperiod},
+         given={Sissy},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Dikic},
+         familyi={D\bibinitperiod},
+         given={Ivan},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FE+1}
+    \strng{fullhash}{FEBSHLKSHMDI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The hallmark of Salmonella Typhimurium infection is an acute intestinal
+  inflammatory response, which is mediated through the action of secreted
+  bacterial effector proteins. The pro-inflammatory Salmonella effector SopA is
+  a HECT-like E3 ligase, which was previously proposed to activate host RING
+  ligases TRIM56 and TRIM65. Here we elucidate an inhibitory mechanism of
+  TRIM56 and TRIM65 targeting by SopA. We present the crystal structure of SopA
+  in complex with the RING domain of human TRIM56, revealing the atomic details
+  of their interaction and the basis for SopA selectivity towards TRIM56 and
+  TRIM65. Structure-guided biochemical analysis shows that SopA inhibits TRIM56
+  E3 ligase activity by occluding the E2-interacting surface of TRIM56. We
+  further demonstrate that SopA ubiquitinates TRIM56 and TRIM65, resulting in
+  their proteasomal degradation during infection. Our results provide the basis
+  for how a bacterial HECT ligase blocks host RING ligases and exemplifies the
+  multivalent power of bacterial effectors during infection.%
+    }
+    \verb{doi}
+    \verb 10.1038/ncomms14004
+    \endverb
+    \field{issn}{20411723}
+    \field{title}{{Structural basis for the recognition and degradation of host
+  TRIM proteins by Salmonella effector SopA}}
+    \verb{url}
+    \verb www.nature.com/naturecommunications
+    \endverb
+    \field{volume}{8}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Fiskin et al. - 2017 - ARTIC
+    \verb LE Structural basis for the recognition and degradation of host TRIM
+    \verb proteins by Salmonella effector SopA.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Freemont1991}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FPS}{%
+         family={Freemont},
+         familyi={F\bibinitperiod},
+         given={Paul\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HIM}{%
+         family={Hanson},
+         familyi={H\bibinitperiod},
+         given={Isabel\bibnamedelima M.},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Trowsdale},
+         familyi={T\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FPSHIMTJ1}
+    \strng{fullhash}{FPSHIMTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{{A Novel Cysteine-Rich sequence motif}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/25193576 http://www.ncbi.nlm.nih.g
+    \verb ov/pubmed/24650859
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Unknown - 1991 - Letter to t
+    \verb he Editor A Novel Cysteine-Rich Sequence Motif.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{year}{1991}
+  \endentry
+
   \entry{Goehring2011a}{article}{}
     \name{author}{7}{}{%
       {{hash=GNW}{%
@@ -1537,6 +1850,77 @@
     \endverb
     \field{eprinttype}{arXiv}
     \field{year}{2007}
+  \endentry
+
+  \entry{Goodsell2000}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=GDS}{%
+         family={Goodsell},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima S},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OAJ}{%
+         family={Olson},
+         familyi={O\bibinitperiod},
+         given={Arthur\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Oligomeric proteins,Protein structure/function relationships,Protein
+  symmetry}
+    \strng{namehash}{GDSOAJ1}
+    \strng{fullhash}{GDSOAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The majority of soluble and membrane-bound proteins in modern cells are
+  symmetrical oligomeric complexes with two or more subunits. The evolutionary
+  selection of symmetrical oligomeric complexes is driven by functional,
+  genetic, and physicochemical needs. Large proteins are selected for specific
+  morphological functions, such as formation of rings, containers, and
+  filaments, and for cooperative functions, such as allosteric regulation and
+  multivalent binding. Large proteins are also more stable against denaturation
+  and have a reduced surface area exposed to solvent when compared with many
+  individual, smaller proteins. Large proteins are constructed as oligomers for
+  reasons of error control in synthesis, coding efficiency, and regulation of
+  assembly. Symmetrical oligomers are favored because of stability and finite
+  control of assembly. Several functions limit symmetry, such as interaction
+  with DNA or membranes, and directional motion. Symmetry is broken or modified
+  in many forms: quasisymmetry, in which identical subunits adopt similar but
+  different conformations; pleomorphism, in which identical subunits form
+  different complexes; pseudosymmetry, in which different molecules form
+  approximately symmetrical complexes; and symmetry mismatch, in which
+  oligomers of different symmetries interact along their respective symmetry
+  axes. Asymmetry is also observed at several levels. Nearly all complexes show
+  local asymmetry at the level of side chain conformation. Several complexes
+  have reciprocating mechanisms in which the complex is asymmetric, but, over
+  time, all subunits cycle through the same set of conformations. Global
+  asymmetry is only rarely observed. Evolution of oligomeric complexes may
+  favor the formation of dimers over complexes with higher cyclic symmetry,
+  through a mechanism of prepositioned pairs of interacting residues. However,
+  examples have been found for all of the crystallographic point groups,
+  demonstrating that functional need can drive the evolution of any symmetry.%
+    }
+    \field{booktitle}{Annual Review of Biophysics and Biomolecular Structure}
+    \verb{doi}
+    \verb 10.1146/annurev.biophys.29.1.105
+    \endverb
+    \field{issn}{10568700}
+    \field{pages}{105\bibrangedash 153}
+    \field{title}{{Structural symmetry and protein function}}
+    \verb{url}
+    \verb www.annualreviews.org
+    \endverb
+    \field{volume}{29}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Goodsell, Olson - 2000 - STR
+    \verb UCTURAL SYMMETRY AND PROTEIN FUNCTION.pdf:pdf
+    \endverb
+    \field{year}{2000}
   \endentry
 
   \entry{Griffin2011}{article}{}
@@ -3032,6 +3416,239 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Li2008}{article}{}
+    \name{author}{9}{}{%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=BMH}{%
+         family={Bengtson},
+         familyi={B\bibinitperiod},
+         given={Mario\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=UA}{%
+         family={Ulbrich},
+         familyi={U\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Matsuda},
+         familyi={M\bibinitperiod},
+         given={Akio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RVA}{%
+         family={Reddy},
+         familyi={R\bibinitperiod},
+         given={Venkateshwar\bibnamedelima A.},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Orth},
+         familyi={O\bibinitperiod},
+         given={Anthony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CSK}{%
+         family={Chanda},
+         familyi={C\bibinitperiod},
+         given={Sumit\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Batalov},
+         familyi={B\bibinitperiod},
+         given={Serge},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JCAP}{%
+         family={Joazeiro},
+         familyi={J\bibinitperiod},
+         given={Claudio A.\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LW+1}
+    \strng{fullhash}{LWBMHUAMARVAOACSKBSJCAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{issn}{19326203}
+    \field{title}{{Genome-Wide and Functional Annotation of Human E3 Ubiquitin
+  Ligases Identifies MULAN, a Mitochondrial E3 that Regulates the Organelle's
+  Dynamics and Signaling}}
+    \verb{url}
+    \verb www.plosone.org http://www.ncbi.nlm.nih.gov/pubmed/28369083 http://ww
+    \verb w.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5378400
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Li et al. - Unknown - Genome
+    \verb -Wide and Functional Annotation of Human E3 Ubiquitin Ligases Identif
+    \verb ies MULAN, a Mitochondrial E3 that Regu.pdf:pdf
+    \endverb
+    \field{journaltitle}{PLOS ONE}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Liew2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LCW}{%
+         family={Liew},
+         familyi={L\bibinitperiod},
+         given={Chu\bibnamedelima Wai},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Huaiyu},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hunter},
+         familyi={H\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DCL}{%
+         family={Day},
+         familyi={D\bibinitperiod},
+         given={Catherine\bibnamedelima L},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{E3 ligase,Protein domain,Protein-protein interaction,RING,RING finger
+  protein 4 (RNF4),Really interesting new gene finger (RING finger),Small
+  ubiquitin-like modifier (SUMO),Ubiquitin}
+    \strng{namehash}{LCW+1}
+    \strng{fullhash}{LCWSHHTDCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    RNF4 [RING (really interesting new gene) finger protein 4] family ubiquitin
+  ligases are RING E3 ligases that regulate the homoeostasis of SUMOylated
+  proteins by promoting their ubiquitylation. In the present paper we report
+  that the RING domain of RNF4 forms a stable dimer, and that dimerization is
+  required for ubiquitin transfer. Our results suggest that the stability of
+  the E2∼ubiquitin thioester bond is regulated by RING domain dimerization.
+  {\textcopyright} The Authors.%
+    }
+    \verb{doi}
+    \verb 10.1042/BJ20100957
+    \endverb
+    \field{issn}{14708728}
+    \field{number}{1}
+    \field{pages}{23\bibrangedash 29}
+    \field{title}{{RING domain dimerization is essential for RNF4 function}}
+    \verb{url}
+    \verb http://www.biochemj.org/bj/431/bj4310023add.
+    \endverb
+    \field{volume}{431}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Liew et al. - 2010 - ACCELER
+    \verb ATED PUBLICATION RING domain dimerization is essential for RNF4 funct
+    \verb ion.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biochemical Journal}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Minaee2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MS}{%
+         family={Minaee},
+         familyi={M\bibinitperiod},
+         given={Shervin},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BYY}{%
+         family={Boykov},
+         familyi={B\bibinitperiod},
+         given={Yuri\bibnamedelima Y.},
+         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Porikli},
+         familyi={P\bibinitperiod},
+         given={Fatih},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PAJ}{%
+         family={Plaza},
+         familyi={P\bibinitperiod},
+         given={Antonio\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kehtarnavaz},
+         familyi={K\bibinitperiod},
+         given={Nasser},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Terzopoulos},
+         familyi={T\bibinitperiod},
+         given={Demetri},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Computational modeling,Computer architecture,Deep learning,Generative
+  adversarial networks,Image segmentation,Logic gates,Semantics,convolutional
+  neural networks,deep learning,encoder-decoder models,generative
+  models,instance segmentation,medical image segmentation,panoptic
+  segmentation,recurrent models,semantic segmentation}
+    \strng{namehash}{MS+1}
+    \strng{fullhash}{MSBYYPFPAJKNTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Image segmentation is a key task in computer vision and image processing
+  with important applications such as scene understanding, medical image
+  analysis, robotic perception, video surveillance, augmented reality, and
+  image compression, among others, and numerous segmentation algorithms are
+  found in the literature. Against this backdrop, the broad success of Deep
+  Learning (DL) has prompted the development of new image segmentation
+  approaches leveraging DL models. We provide a comprehensive review of this
+  recent literature, covering the spectrum of pioneering efforts in semantic
+  and instance segmentation, including convolutional pixel-labeling networks,
+  encoder-decoder architectures, multiscale and pyramid-based approaches,
+  recurrent networks, visual attention models, and generative models in
+  adversarial settings. We investigate the relationships, strengths, and
+  challenges of these DL-based segmentation models, examine the widely used
+  datasets, compare performances, and discuss promising research directions.%
+    }
+    \verb{doi}
+    \verb 10.1109/TPAMI.2021.3059968
+    \endverb
+    \verb{eprint}
+    \verb 2001.05566
+    \endverb
+    \field{issn}{19393539}
+    \field{title}{{Image Segmentation Using Deep Learning: A Survey}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Minaee et al. - Unknown - Im
+    \verb age Segmentation Using Deep Learning A Survey.pdf:pdf
+    \endverb
+    \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}
+    \field{eprinttype}{arXiv}
+    \field{year}{2021}
+  \endentry
+
   \entry{Moravcevic2010}{article}{}
     \name{author}{7}{}{%
       {{hash=MK}{%
@@ -3449,6 +4066,97 @@
     \endverb
     \field{journaltitle}{Journal of Biological Chemistry}
     \field{year}{2008}
+  \endentry
+
+  \entry{Pruneda2012}{article}{}
+    \name{author}{7}{}{%
+      {{hash=PJN}{%
+         family={Pruneda},
+         familyi={P\bibinitperiod},
+         given={Jonathan\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=LPJ}{%
+         family={Littlefield},
+         familyi={L\bibinitperiod},
+         given={Peter\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SSE}{%
+         family={Soss},
+         familyi={S\bibinitperiod},
+         given={Sarah\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NKA}{%
+         family={Nordquist},
+         familyi={N\bibinitperiod},
+         given={Kyle\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CWJ}{%
+         family={Chazin},
+         familyi={C\bibinitperiod},
+         given={Walter\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BPS}{%
+         family={Brzovic},
+         familyi={B\bibinitperiod},
+         given={Peter\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KRE}{%
+         family={Klevit},
+         familyi={K\bibinitperiod},
+         given={Rachel\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Linchpin,Printed,RING,Ubiquitin}
+    \strng{namehash}{PJN+1}
+    \strng{fullhash}{PJNLPJSSENKACWJBPSKRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Despite the widespread importance of RING/U-box E3 ubiquitin ligases in
+  ubiquitin (Ub) signaling, the mechanism by which this class of enzymes
+  facilitates Ub transfer remains enigmatic. Here, we present a structural
+  model for a RING/U-box E3:E2∼Ub complex poised for Ub transfer. The model
+  and additional analyses reveal that E3 binding biases dynamic E2∼Ub
+  ensembles toward closed conformations with enhanced reactivity for substrate
+  lysines. We identify a key hydrogen bond between a highly conserved E3 side
+  chain and an E2 backbone carbonyl, observed in all structures of active
+  RING/U-Box E3/E2 pairs, as the linchpin for allosteric activation of E2∼Ub.
+  The conformational biasing mechanism is generalizable across diverse E2s and
+  RING/U-box E3s, but is not shared by HECT-type E3s. The results provide a
+  structural model for a RING/U-box E3:E2∼Ub ligase complex and identify the
+  long sought-after source of allostery for RING/U-Box activation of E2∼Ub
+  conjugates. {\textcopyright} 2012 Elsevier Inc.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.molcel.2012.07.001
+    \endverb
+    \field{issn}{10972765}
+    \field{number}{6}
+    \field{pages}{933\bibrangedash 942}
+    \field{title}{{Structure of an E3:E2∼Ub Complex Reveals an Allosteric
+  Mechanism Shared among RING/U-box Ligases}}
+    \verb{url}
+    \verb https://reader.elsevier.com/reader/sd/pii/S1097276512005916?token=80D
+    \verb 2CAA780EFB851D893AAF0397ABBBAD85F4E16D2DCCBF040369371FF6BFFEDD2EAE504
+    \verb EDDA2B3E390B63DCAECE6B44
+    \endverb
+    \field{volume}{47}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S1097276512005916-mai
+    \verb n.pdf:pdf
+    \endverb
+    \field{journaltitle}{Molecular Cell}
+    \field{year}{2012}
   \endentry
 
   \entry{Ramanujam2018}{article}{}
@@ -4264,6 +4972,70 @@
     \field{journaltitle}{Developmental Cell}
     \field{year}{2016}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Stevens2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SRV}{%
+         family={Stevens},
+         familyi={S\bibinitperiod},
+         given={Rebecca\bibnamedelima V.},
+         giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Esposito},
+         familyi={E\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rittinger},
+         familyi={R\bibinitperiod},
+         given={Katrin},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Linchpin,RING}
+    \strng{namehash}{SRVEDRK1}
+    \strng{fullhash}{SRVEDRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    TRIM E3 ubiquitin ligases regulate multiple cellular processes, and their
+  dysfunction is linked to disease. They are characterised by a conserved
+  N-terminal tripartite motif comprising a RING, B-box domains, and a
+  coiled-coil region, with C-terminal domains often mediating substrate
+  recruitment. TRIM proteins are grouped into 11 classes based on C-terminal
+  domain identity. Class VI TRIMs, TRIM24, TRIM33, and TRIM28, have been
+  described as transcriptional regulators, a function linked to their
+  C-terminal plant homeodomain and bromodomain, and independent of their
+  ubiquitination activity. It is unclear whether E3 ligase activity is
+  regulated in family members where the C-terminal domains function
+  independently. Here, we provide a detailed biochemical characterisation of
+  the RING domains of class VI TRIMs and describe the solution structure of the
+  TRIM28 RING. Our study reveals a lack of activity of the isolated RING
+  domains, which may be linked to the absence of self-association. We propose
+  that class VI TRIMs exist in an inactive state and require additional
+  regulatory events to stimulate E3 ligase activity, ensuring that associated
+  chromatin-remodelling factors are not injudiciously degraded.%
+    }
+    \verb{doi}
+    \verb 10.26508/lsa.201900295
+    \endverb
+    \field{issn}{25751077}
+    \field{number}{3}
+    \field{pages}{1\bibrangedash 14}
+    \field{title}{{Characterisation of class VI TRIM RING domains: Linking RING
+  activity to C-terminal domain identity}}
+    \field{volume}{2}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/e201900295.full.pdf:pdf
+    \endverb
+    \field{journaltitle}{Life Science Alliance}
+    \field{year}{2019}
   \endentry
 
   \entry{Stewart2017}{article}{}
