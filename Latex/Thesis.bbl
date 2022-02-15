@@ -1506,6 +1506,54 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Etemad-Moghadam1995}{report}{}
+    \name{author}{3}{}{%
+      {{hash=EMB}{%
+         family={Etemad-Moghadam},
+         familyi={E\bibinitperiod-M\bibinitperiod},
+         given={Bijan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Su},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,PAR-3,Polarity}
+    \strng{namehash}{EMBGSKKJ1}
+    \strng{fullhash}{EMBGSKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{booktitle}{Cell}
+    \field{pages}{743\bibrangedash 752}
+    \field{title}{{Asymmetrically Distributed PAR-3 Protein Contributes to Cell
+  Polarity and Spindle Alignment in Early C. elegans Embryos}}
+    \verb{url}
+    \verb https://www.cell.com/cell/pdf/0092-8674(95)90187-6.pdf?_returnURL=htt
+    \verb ps%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2F009286749590187
+    \verb 6%3Fshowall%3Dtrue
+    \endverb
+    \field{volume}{83}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Etemad-Moghadam, Guo, Kemphu
+    \verb es - 1995 - Asymmetrically Distributed PAR-3 Protein Contributes to C
+    \verb ell Polarity and Spindle Alignment in E.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{1995}
+  \endentry
+
   \entry{Fiorentini2020}{article}{}
     \name{author}{3}{}{%
       {{hash=FF}{%
@@ -3716,6 +3764,87 @@
     \endverb
     \field{journaltitle}{Cell}
     \field{year}{2010}
+  \endentry
+
+  \entry{Mori2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MY}{%
+         family={Mori},
+         familyi={M\bibinitperiod},
+         given={Yoichiro},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Jilkine},
+         familyi={J\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EKL}{%
+         family={Edelstein-Keshet},
+         familyi={E\bibinitperiod-K\bibinitperiod},
+         given={Leah},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Polarity,Printed}
+    \strng{namehash}{MYJAEKL1}
+    \strng{fullhash}{MYJAEKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Motile eukaryotic cells polarize in response to external signals. Numerous
+  mechanisms have been suggested to account for this symmetry breaking and for
+  the ensuing robust polarization. Implicated in this process are various
+  proteins that are recruited to the plasma membrane and segregate at an
+  emergent front or back of the polarizing cell. Among these are PI3K, PTEN,
+  and members of the Rho family GTPases such as Cdc42, Rac, and Rho. Many such
+  proteins, including the Rho GTPases, cycle between active membrane-bound
+  forms and inactive cytosolic forms. In previous work, we have shown that this
+  property, together with appropriate crosstalk, endows a biochemical circuit
+  (Cdc42, Rac, and Rho) with the property of inherent polarizability. Here we
+  show that this property is present in an even simpler system comprised of a
+  single active/inactive protein pair with positive feedback to its own
+  activation. The simplicity of this minimal system also allows us to explain
+  the mechanism using insights from mathematical analysis. The basic idea
+  resides in a well-known property of reaction-diffusion systems with bistable
+  kinetics, namely, propagation of fronts. However, it crucially depends on
+  exchange between active and inactive forms of the chemicals with unequal
+  rates of diffusion, and overall conservation to pin the waves into a stable
+  polar distribution. We refer to these dynamics as wave-pinning and we show
+  that this phenomenon is distinct from Turing-instability-generated pattern
+  formation that occurs in reaction-diffusion systems that appear to be very
+  similar. We explain the mathematical basis of the phenomenon, relate it to
+  spatial segregation of Rho GTPases, and show how it can account for spatial
+  amplification and maintenance of polarity, as well as sensitivity to new
+  stimuli typical in polarization of eukaryotic cells. {\textcopyright} 2008 by
+  the Biophysical Society.%
+    }
+    \verb{doi}
+    \verb 10.1529/biophysj.107.120824
+    \endverb
+    \field{isbn}{1542-0086 (Electronic)}
+    \field{issn}{15420086}
+    \field{number}{9}
+    \field{pages}{3684\bibrangedash 3697}
+    \field{title}{{Wave-pinning and cell polarity from a bistable
+  reaction-diffusion system}}
+    \verb{url}
+    \verb https://ac.els-cdn.com/S0006349508704442/1-s2.0-S0006349508704442-mai
+    \verb n.pdf?_tid=b40592da-c859-11e7-b23b-00000aab0f01&acdnat=1510567505_df9
+    \verb aa075a3c0b46f3b7db0ab00a37c71
+    \endverb
+    \field{volume}{94}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Mori, Jilkine, Edelstein-Kes
+    \verb het - Unknown - Wave-Pinning and Cell Polarity from a Bistable Reacti
+    \verb on-Diffusion System.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2008}
   \endentry
 
   \entry{Motegi2011}{article}{}
