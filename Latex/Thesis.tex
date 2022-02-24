@@ -20,7 +20,9 @@
 \usepackage{cleveref}
 \usepackage{caption}
 \captionsetup{font=footnotesize}
+\usepackage{csvsimple}
 \usepackage[backend=bibtex,style=authoryear, natbib=true]{biblatex} %
+\usepackage{textgreek}
 \addbibresource{bibliography.bib}
 
 
@@ -708,6 +710,7 @@ Surprisingly, I found that the microtubule-binding mutants (R163A and R183-5A) a
 
 
 \section{RING domain promotes positive feedback to achieve optimal membrane affinity}
+\label{section:par2_rundown}
 
 Whilst membrane concentrations are expected to be higher in polarised cells than uniform (\textit{par-3 (it71)}) cells due to an increase in the concentration of the cytoplasmic pool, membrane affinity, which is a simple function of membrane binding and unbinding rates, is expected to be constant. In other words, the membrane and cytoplasmic concentrations of a protein undergoing membrane exchange with constant binding and unbinding rates should fall along a linear trajectory (\cref{fig:rundown_schematic}A).\\
 
@@ -1131,14 +1134,15 @@ To determine the effects of these mutants on organism development, I investigate
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\chapter{A thermodynamic model of PAR-2 dimerisation}
+\chapter{Modelling the interplay between dimerisation and membrane association}
 
 \textbf{Detailed contributions:}\\
+The thermodynamic model described in section \ref{section:thermodynamic_full_model} was developed by David Zwicker at the Max Planck Institute for Dynamics and Self-Organisation in G{\"o}ttingen, Germany. All the analysis presented in this chapter was performed by myself.\\
 
 \clearpage
 \section*{Symbols}
 
-I will use the following symbols throughout the chapter to refer to the chemical properties of an equilibrium system:\\
+I will use the following symbols throughout the chapter to describe to the chemical properties of an equilibrium system:\\
 
 \begin{tabular}{ll}
 $G$ & total Gibbs energy of the system\\
@@ -1147,249 +1151,335 @@ $n_x$ & number of moles of $x$\\
 $\mu_x$ & chemical potential of $x$\\
 $\mu_x^{\circ}$ & standard chemical potential of $x$\\
 $c_x$ & molar concentration of $x$\\
-$c^{\circ}$ & the standard concentration (=1 mol dm$^{-3}$)\\
+$c^{\circ}$ & standard concentration\\
+$R$ & the gas constant\\
+$T$ & temperature in kelvins
 \end{tabular}
 
 
 \clearpage
 \section{Introduction}
 
+In the previous chapter, I showed that the RING domain of PAR-2 can dimerise, and that membrane bound PAR-2 is, at least partially, dimeric. I also showed that a series of RING domain mutants have a lower membrane affinity, suggesting that dimerisation may be fundamental for achieving high membrane affinity. Added to this, I have shown that wild type PAR-2 displays nonlinear membrane binding association, which is disrupted in RING domain mutants. This suggests that dimerisation may lead to a form of feedback, whereby membrane affinity is enhanced as protein concentrations increase.\\
+
+In this chapter, I investigate the potential link between these characteristics, and, more generally, investigate the extent to which dimerisation can influence the membrane binding behaviour of a protein. To do so, I will use chemical thermodynamics to model dimerisation and membrane binding in an equilibrium system. I will begin this chapter by introducing the general modelling framework, and will then use this framework to describe a model which incorporates dimerisation and membrane association. I will then use this model to investigate the potential influence of dimerisation on membrane association, and compare this to in vivo data of PAR-2 membrane association. Specifically, I investigate the extent to which the nonlinearity of PAR-2 membrane association can be accounted for by protein dimerisation, and whether differences in the membrane association behaviour of wild type PAR-2 and RING domain mutants can be accounted for by disruption to dimerisation.\\
 
 % Thermodynamic equilibrium puts constraints on the behaviour of a system, and allows us to accurately describe behaviour with a small number of easily interpretable parameters. 
 
 
 \clearpage
-\section{Chemical equilibrium}
+\section{Modelling chemical equilibria}
+\label{sec:modelling_chemical_equilibria}
 
-Consider, for example a closed system in which material is exchanging between two states, $a$ and $b$:
+In a chemical reaction, chemical equilibrium is a state in which reactants and products are present at concentrations that have no tendency to change over time. Consider a closed system in which material is exchanging between two states, \textbf{a} and \textbf{b}:
 \begin{center}
-\ce{a <=> b}
+\ce{\textbf{a} <=> \textbf{b}}
 \end{center}
 
-Energetically speaking, this system will reached an equilibrium when the total Gibbs free energy of the system ($G$) is minimised. This minimum energy ($G_{min}$) will be lower than the energy of either pure a ($G_a$) or pure b ($G_b$), and so, regardless of how the system is initiated, the system will eventually stabilise with a mixture of the two states (fig x).\\ 
+Provided there are no additional inputs, the system will eventually reach an equilibrium in which the rates of the forward and reverse reactions are equal, and concentrations have no tendency to change over time. Energetically speaking, this equilibrium is reached when the total Gibbs free energy of the system ($G$) is minimised. This minimum energy at equilibrium ($G_{min}$) will be lower than the energy of a system of either pure \textbf{a} ($G_a$) or pure \textbf{b} ($G_b$), and so, regardless of how the system is initiated, the system will eventually stabilise with a mixture of the two states (\cref{fig:gibbs_profile}).\\ 
 
 \begin{SCfigure}
 \includegraphics[scale=0.9]{gibbs_profile}
-\mycaption{Gibbs energy profile for a system in equilibrium}{Shown the Gibbs energy of the system as a function of composition for a species converting between states a and b (where a composition of 0 means entirely in state a and 1 means entirely in state b). Ga and Gb represent the Gibbs energy of the system when all protein is in state a or state b. The system reaches an equilibriums when G is minimised (Gmin), at which point the equilibrium concentration of b is beq and a is (1 - beq).
+\mycaption{Gibbs energy profile for a system at equilibrium}{
+Plot of the Gibbs energy of a system as a function of composition for a species converting between states \textbf{a} and \textbf{b} (where a composition of 0 means entirely in state \textbf{a} and 1 means entirely in state \textbf{b}). $G_a$ and $G_b$ represent the Gibbs energy of the system when all molecules are in state \textbf{a} or state \textbf{b}. The system reaches an equilibrium when $G$ is minimised ($G_{min}$), at which point the equilibrium concentration of \textbf{b} is $b_{eq}$ and \textbf{a} is (1 - $b_{eq}$).
 }
 \label{fig:gibbs_profile}
 \end{SCfigure}
 
-It's intuitive to imagine that the position of equilibrium will depend on the intrinsic energetics of the two species. For example if $G_a$ is lower than $G_b$ (meaning that pure a is more energetically favourable than pure b), the system will stabilise in a state with more A than B, and vice versa. The aim of thermodynamic modelling is to determine this equilibrium position by considering the energetic properties of the species involved.\\
-
-Formally, we can describe $G$ according to the molar amounts of a and b ($n_a$ and $n_b$), and their associated chemical potentials ($\mu_a$ and $\mu_b$):
+The position of equilibrium will depend on the intrinsic energetics of the two species. For example if $G_a$ is lower than $G_b$ (meaning that pure \textbf{a} is more energetically favourable than pure \textbf{b}), as is shown in \cref{fig:gibbs_profile}, the system will stabilise in a state with more \textbf{a} than \textbf{b}. Formally, we can describe $G$ according to the molar amounts of \textbf{a} and \textbf{b} ($n_a$ and $n_b$), and their associated chemical potentials ($\mu_a$ and $\mu_b$):
 \begin{equation}
 G = n_a \mu_a + n_b \mu_b
+\label{eq:gibbs}
 \end{equation}
 
-Chemical potentials describe the Gibbs free energy density of each component in the mixture (i.e. energy per mole). These values vary with the molar concentration of each species ($c_a$ and $c_b$), and using ideal solution theory can be described in RT units as:
+Chemical potentials describe the Gibbs free energy density of each component in a mixture (i.e. energy per mole). These values vary with the molar concentration of each species ($c_a$ and $c_b$), and using ideal solution theory can be described as:
 \begin{align}
-\mu_a &= \mu_a^{\circ} + \ln c_a\\
-\mu_b &= \mu_b^{\circ} + \ln c_b
+\mu_a &= \mu_a^{\circ} + RT \ln \frac{c_a}{c^{\circ}}\\
+\mu_b &= \mu_b^{\circ} + RT \ln \frac{c_b}{c^{\circ}}
 \end{align} 
 
-where $\mu_a^{\circ}$ and $\mu_b^{\circ}$ are the standard chemical potentials of a and b (i.e. the molar Gibbs energies of a solution containing a or b at a standard concentration of 1 mol dm$^{-3}$). For a 1 litre system containing 1 mole of substance, $\mu_a^{\circ}$ and $\mu_b^{\circ}$ are equivalent to $G_a$ and $G_b$ in fig x.\\
+where $c^{\circ}$ is the standard concentration (usually defined as 1 mol dm$^{-3}$) and $\mu_a^{\circ}$ and $\mu_b^{\circ}$ are the standard chemical potentials of \textbf{a} and \textbf{b} (i.e. chemical potentials at the standard concentration). $R$ and $T$ are the gas constant and temperature in kelvins, respectively. For a 1 litre system containing 1 mole of \textbf{a} or \textbf{b}, $\mu_a^{\circ}$ and $\mu_b^{\circ}$ are equivalent to $G_a$ and $G_b$ in \cref{fig:gibbs_profile}.\\
 
-From equation x we can see that $G$ will be minimised when $\mu_a = \mu_b$, so that conversion of a small amount of a to b would lead to no overall change in $G$. Therefore, equilibrium concentrations of a and b can be found by solving $\mu_a = \mu_b$. Since the total amount of material is conserved, we have the initial constraint that:
+Equilibrium concentrations of \textbf{a} and \textbf{b} can be found by finding the point at which \cref{eq:gibbs} is minimised (i.e the point at which the derivative of $G$ ($dG$) as a function of system composition is zero). By considering how $G$ changes when a small amount ($dn$) of \textbf{a} is converted to \textbf{b}, we can see $dG$ approaches zero when $\mu_a = \mu_b$:
 \begin{equation}
-c_a + c_b = c
+dG = - dn \mu_a + dn \mu_b
 \end{equation}
 
-where $c$ is a constant representing the total amount of material. Therefore, for a given total amount of protein ($c$), we can express the equilibrium concentrations of a and b by:
+Therefore, equilibrium concentrations of \textbf{a} and \textbf{b} can be found by solving the equilibrium condition:
+\begin{equation}
+\mu_a = \mu_b
+\label{eq:equilibrium_condition_simple}
+\end{equation}
+
+Since the total amount of material is conserved, we can impose the initial constraint that:
+\begin{equation}
+c_{tot} = c_a + c_b
+\label{eq:mass_conservation_simple}
+\end{equation}
+where $c_{tot}$ is a constant representing the total concentration of material. Solving equations \ref{eq:equilibrium_condition_simple} and \ref{eq:mass_conservation_simple}, equilibrium concentrations of \textbf{a} and \textbf{b} can be expressed as:
 \begin{align}
-c_a &= \frac{c}{1 + e^{\mu_a^{\circ} - \mu_b^{\circ}}}\\
-c_b &= \frac{c}{1 + e^{\mu_b^{\circ} - \mu_a^{\circ}}}
+c_a &= \frac{c_{tot}}{1 + e^{(\mu_a^{\circ} - \mu_b^{\circ})/RT}}\\
+c_b &= \frac{c_{tot}}{1 + e^{(\mu_b^{\circ} - \mu_a^{\circ})/RT}}
 \end{align}
 
-We can also see from equations x that, at equilibrium, the following relationship must always we true:
+Additionally, the following relationship always holds true:
 \begin{equation}
-\frac{c_a}{c_b} = e^{\mu_b^{\circ} - \mu_a^{\circ}}
+\frac{c_a}{c_b} = e^{(\mu_b^{\circ} - \mu_a^{\circ})/RT}
 \end{equation}
 
-showing that, regardless of the total amount of protein, there is a constant ratio between the two states at equilibrium. (This is, of course, obvious just by looking at the chemical equation). The ratio that is reached will depend on the standard chemical potentials of with each state. Where $\mu_a^{\circ} < \mu_b^{\circ}$ more protein will end up in state a than state b, and vice versa (\cref{fig:thermodynamic_simple_example2}).\\
+showing that, regardless of the total amount of material, there is a constant ratio between the two states at equilibrium. The ratio that is reached will depend on the standard chemical potentials of each state. When $\mu_a^{\circ} < \mu_b^{\circ}$ the system will stabilise with more \textbf{a} than \textbf{b}, and vice versa (\cref{fig:thermodynamic_simple_example2}).\\
 
 \begin{figure}
 \includegraphics[scale=0.9]{thermodynamic_simple_example2}
 \centering
 \mycaption{Schematic of thermodynamic equilibrium for a substance exchanging between two states}{
-As shown, the position of equilibrium depends on the standard chemical potentials of each state.}
+As shown, the position of equilibrium depends on the standard chemical potentials of each state ($\mu_a^{\circ}$ and $\mu_b^{\circ}$).}
 \label{fig:thermodynamic_simple_example2}
 \end{figure}
 
-A similar description can apply to a species that is exchanging between two physical compartments. In this case a and b can represent protein in one of two spatial compartments, with $\mu_a^{\circ}$ and $\mu_b^{\circ}$ representing the standard chemical potential associated with each compartment. The only difference is that the conservation of mass term must be slightly changed to account for potential differences in the volume of the two compartments. We will use:
+We can apply a similar description to a species that is exchanging between two physical compartments. In this case \textbf{a} and \textbf{b} can represent material in two spatial compartments, with $\mu_a^{\circ}$ and $\mu_b^{\circ}$ representing the standard chemical potentials associated with each compartment. The chemical potential equations take on the same form as above, although we can make the following adjustment to the conservation of mass term to account for potential differences in the volume of the two compartments:
 \begin{equation}
-c_a + \alpha c_b = c
+c_{tot} = c_a + \alpha c_b
 \end{equation}
 
-where $\alpha$ is a dimensionless exchange factor comparing the volume of the two compartments. (In this case $c$ can be interpreted as the volume fraction when all protein is in compartment a). As before, we end up with a linear relationship between concentrations in the two compartments, with ratios specified by $\mu_b^{\circ} - \mu_a^{\circ}$ (\cref{fig:thermodynamic_simple_example}) - in this case, for simplicity, $\alpha = 1$.\\
+where $\alpha$ is a dimensionless factor comparing the volume of the two compartments. (In this case $c_{tot}$ can be interpreted as the concentration in compartment \textbf{a} when all molecules are in compartment \textbf{a}). As before, chemical equilibrium implies a linear relationship between concentrations in the two compartments, and the concentration ratio between compartments is specified by $\mu_b^{\circ} - \mu_a^{\circ}$ (\cref{fig:thermodynamic_simple_example}).\\
 
 \begin{figure}
 \includegraphics[scale=0.9]{thermodynamic_simple_example}
 \centering
 \mycaption{Schematic of thermodynamic equilibrium for a substance exchanging between two compartments}{
-As shown, the position of equilibrium depends on the standard chemical potentials of the substance associated with each compartment.}
+As shown, the position of equilibrium depends on the standard chemical potentials of the substance associated with each compartment ($\mu_a^{\circ}$ and $\mu_b^{\circ}$). In this example, the volume ratio between the compartments ($\alpha$) is equal to 1.}
 \label{fig:thermodynamic_simple_example}
 \end{figure}
 
+
+
+\clearpage
+\section{A thermodynamic model of dimerisation and membrane association}
+\label{section:thermodynamic_full_model}
+
+Now that I have introduced the modelling framework, we can begin to use this approach to understand the equilibrium behaviour of PAR-2 in a cellular environment. Specifically, I aim to model dimerisation of PAR-2, and its interaction with the plasma membrane, to understand how these behaviours might interact with each other. I will begin by building individual thermodynamic descriptions of membrane association and dimerisation, before describing a full model which combines both features.\\
+
 \subsection{Thermodynamic description of membrane association}
+\label{section:thermodynamic_membrane_binding}
 
-We can use the same description for a particle exchanging between membrane bound and cytoplasmic pools (m and c), by considering membrane and cytoplasmic compartments as two volume compartments. In this case the membrane compartment can be described as a thin volume, characterised by a surface area and a (small) thickness. We can see from the above analysis that equilibrium concentrations depend only on the difference between $\mu^{\circ}$ terms. Therefore, we can define the chemical potentials as:
-\begin{align}
-\mu_c &= \ln c_c\\
-\mu_m &= \ln c_m - w_m
-\end{align} 
+PAR-2 binds to the inner surface of the plasma membrane via electrostatic charge, and undergoes a continuous exchange between membrane bound (\textbf{m}) and cytoplasmic (\textbf{c}) states:
 
-where $w_m$ can be interpreted as the energetic difference between the cytoplasmic and membrane states (in RT units). The total amount of material is described as:
+\begin{center}
+\ce{c <=> m}
+\end{center}
+
+At equilibrium, the forward and reverse reactions occur at equal rates, and concentrations have no tendency to change over time. For now, we can consider the \textit{par-3 (it71)} condition discussed in chapter 3, in which PAR-2 is not being phosphorylated by PKC-3 and lies uniformly on the membrane without diffusive fluxes, to be close to equilibrium. (In chapter 7 I will return to this point, and discuss conditions in which this may not be the case). \\
+
+In the previous section I described an approach to model the equilibrium behaviour of a particle exchanging between two spatial compartments. We can use a similar description for a protein exchanging between membrane-bound and cytoplasmic states, by considering membrane and cytoplasm as two volume compartments. In this case the membrane compartment can be described as a thin volume between the plasma membrane and the cytoplasm (\cref{fig:thermodynamic_membrane_binding_schematic}). In this very simple description, if we assume that motion of membrane-bound molecules is confined to two dimensions along the inner surface of the plasma membrane, the effective thickness of the membrane compartment will be equal to the diameter of the protein ($D$). Therefore, the volume ratio between the two compartments can be given as $D\psi$, where $\psi$ is the surface area to volume ratio, and the total amount of protein can be described as:
 \begin{equation}
-\phi_c + \alpha\phi_m = \phi
+c_{tot} = c_c + D\psi c_m
 \end{equation}
 
-where $\alpha$ (the volume ratio between the compartments) will be a small number $<<1$. Thus, similarly to the description in section x, membrane concentrations at equilibrium can be described as a linear function of cytoplasmic concentrations, the slope of which will depend on $w_m$.\\
+where $c_m$ and $c_c$ are molar concentrations in the cytoplasmic and membrane compartments, and $c_{tot}$ is the total amount of protein (i.e. the cytoplasmic concentration when all molecules are cytoplasmic).\\
+
+\begin{SCfigure}
+\includegraphics[scale=1]{thermodynamic_membrane_binding_schematic}
+\mycaption{Schematic of equilibrium model for membrane association}{
+The system can be described as two volume compartments representing cytoplasmic and membrane-bound states. We assume that diffusion in the membrane compartment is confined to the two-dimensional plane of the plasma membrane, so the membrane compartment can be described as a volume with thickness $D$, where $D$ is equal to the diameter of the molecule.
+}
+\label{fig:thermodynamic_membrane_binding_schematic}
+\end{SCfigure}
+
+We can see from the analysis in the previous section that equilibrium concentrations depend only on the difference between $\mu^{\circ}$ terms. Therefore, for the purpose of determining equilibria, we can define chemical potentials as:
+\begin{align}
+\mu_c &= RT \ln \frac{c_c}{c^{\circ}}\\
+\mu_m &= RT \ln \frac{c_m}{c^{\circ}} - w_m
+\end{align} 
+
+where $w_m$ represents the energetic difference between the cytoplasmic and membrane states (i.e. $\mu_c^{\circ} - \mu_m^{\circ}$). Therefore, similar to the description in section \ref{sec:modelling_chemical_equilibria}, membrane to cytoplasmic ratios at equilibrium are expected to be constant, according to the value of $w_m$:
+\begin{equation}
+\frac{c_m}{c_c} = e^{w_m/RT}
+\end{equation}
+
 
 \subsection{Thermodynamic description of dimerisation}
 
-We can extend the same analysis to consider a species dimerising:
+We can use similar analysis to consider a dimerisation reaction:
 
 \begin{center}
 \ce{2x_1 <=> x_2}
 \end{center}
 
-Chemical potentials are can be described as:
+where x$_1$ represents a monomer and x$_2$ represents a dimer. Chemical potentials can be described as:
 \begin{align}
-\mu_{x,1} &= \ln c_{x,1}\\
-\mu_{x,2} &= \ln c_{x,2} - w_d
+\mu_{x_1} &= RT\ln \frac{c_{x_1}}{c^{\circ}} \\
+\mu_{x_2} &= RT\ln  \frac{c_{x_2}}{c^{\circ}} - w_d
 \end{align} 
 
-with $w_d$ represents the energetic difference between the monomeric and dimeric states. Thermodynamic equilibrium is reached when $2\mu_{x,1} = \mu_{x,2}$ (the factor of 2 accounting for the differing stoichiometry between the two species), leading to the following relationship:
+where $w_d$ represents the dimerisation energy (i.e. the energetic difference between the monomeric and dimeric states ($\mu_{x1}^{\circ} - \mu_{x2}^{\circ}$)). Thermodynamic equilibrium is reached when $2\mu_{x_1} = \mu_{x_2}$ (the factor of 2 accounting for the differing stoichiometry between the two species), leading to the following relationship:
 \begin{equation}
-\frac{c_{x,2}}{(c_{x,1})^2} = e^{w_d}
+\frac{c_{x_2}\:c^{\circ}}{(c_{x_1})^2} = e^{w_d/RT}
 \end{equation}
 
-Thus, concentrations of dimeric protein will vary linearly with the square of monomer concentrations (\cref{fig:thermodynamic_simple_dimer}A) (again, this is obvious from the chemical equation), and so the fraction of protein in the dimeric state will increase as total protein amounts increase (\cref{fig:thermodynamic_simple_dimer}B). Additionally, with the constraint that $c_x = c_{x,1} + c_{x,2}$, we can derive relationships for the concentrations of monomer and dimer as a function of total protein (check):
+Therefore, concentrations of dimeric protein will vary with the square of monomer concentrations (\cref{fig:thermodynamic_simple_dimer}A). With the constraint that $c_{tot} = c_{x1} + c_{x2}$, we can derive relationships for the concentrations of monomer and dimer as a function of total protein:
 \begin{align}
-\phi_{x,1} &= \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_x + 1} - 1\right)\\
-\phi_{x,2} &= \phi_x - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_x + 1} - 1\right)
+c_{x_1} &= \frac{1}{2}e^{-w_d/RT}\left(\sqrt{4e^{w_d/RT} \frac{c_{tot}}{c^{\circ}} + 1} - 1\right)c^{\circ}\\
+c_{x_2} &= c_{tot} - \frac{1}{2}e^{-w_d/RT}\left(\sqrt{4e^{w_d/RT} \frac{c_{tot}}{c^{\circ}} + 1} - 1\right)c^{\circ}
 \end{align}
+
+Plotting these functions, we can see that the total fraction of protein in the dimeric state is expected to increase as a function of protein amounts (\cref{fig:thermodynamic_simple_dimer}B). Note that in this description, $c_{x_2}$ is related not to the number of dimer molecules but the number of protein monomers in the dimeric state.\\
 
 \begin{figure}
 \includegraphics[scale=1]{thermodynamic_simple_dimer}
 \centering
 \mycaption{Dimerisation reactions lead to nonlinear equilibrium behaviour}{
-\textbf{(A)} At equilibrium, dimer concentrations vary with the square of monomer concentrations
-\textbf{(B)} The total fraction of protein in the dimeric state increases as the concentration of total material increases
-}
+\textbf{(A)} At equilibrium, dimer concentrations vary with the square of monomer concentrations.
+\textbf{(B)} The total fraction of protein in the dimeric state increases as the concentration of total material increases. Parameters used: $c^{\circ} = 1$ M, $w_d / RT = 10$. Concentrations in molar units.}
 \label{fig:thermodynamic_simple_dimer}
 \end{figure}
 
-Note that in this description $c_{x,2}$ relates not to the number of dimer molecules but the number of molecules of x in the dimeric state.\\
 
-\clearpage
-\section{Exploring the interplay between dimerisation and membrane binding}
+\subsection{Combining membrane association and dimerisation}
 
-In this section I combine the descriptions of membrane binding and dimerisation presented above to explore the interplay between dimerisation and membrane binding.
+So far, I have explored how dimerisation and membrane binding reactions can be described in simple thermodynamic terms. In this section I combine these descriptions to explore the potential interplay between dimerisation and membrane binding.\\
 
-% Structure: keep generic at this stage. Do four species model first. Show that nonlinearity can exist and peaks at 2. Occurs in regions where membrane is dimeric and cytoplasmic monomeric. Then use two species model to demonstrate why this is the case. Conclusion: can get nonlinearity if dimerisation and membrane binding kinetics support dimerisation on the membrane but not cytoplasm
-
-
-\subsection{Model description}
-
-There are four potential species to consider: membrane monomers, membrane dimers, cytoplasmic monomers and cytoplasmic dimers (\cref{fig:thermodynamic_model_species}A). We can describe chemical potentials for the four species as:
+In a system in which a protein is both dimerising and exchanging between membrane and cytoplasmic pools, there are four potential species to consider: membrane monomers (\textbf{m$_1$}), membrane dimers (\textbf{m$_2$}), cytoplasmic monomers (\textbf{c$_1$}) and cytoplasmic dimers (\textbf{c$_2$}) (\cref{fig:thermodynamic_model_species}A). We can describe chemical potentials for these four species as:
 \begin{align}
-\mu_{c,1} &= \ln(c_{c,1})\\
-\mu_{c,2} &= \ln(c_{c,2}) - w_d\\
-\mu_{m,1} &= \ln(c_{m,1}) - w_m\\
-\mu_{m,2} &= \ln(c_{m,2}) - 2w_m - w_d
+\mu_{c_1} &= RT\ln(c_{c_1} / c^{\circ})\\
+\mu_{c_2} &= RT\ln(c_{c_2} / c^{\circ}) - w_d\\
+\mu_{m_1} &= RT\ln(c_{m_1} / c^{\circ}) - w_m\\
+\mu_{m_2} &= RT\ln(c_{m_2} / c^{\circ}) - 2w_m - w_d
 \end{align}
 
-where $w_d$ represents the dimerisation energy and $w_m$ the membrane binding energy. To keep the model simple, we are assuming that a molecule in a dimer has twice the membrane binding energy of monomer (as dimers have two binding interfaces, one for each monomer), and that the dimerisation energy is equal in the membrane and cytoplasm. Thermodynamic equilibrium is reached when the chemical potentials of all species are equal:
+where $w_m$ is the membrane binding energy and $w_d$ is the dimerisation energy. Here, we assume that a molecule in a dimer has twice the membrane binding energy of monomer (as dimers have membrane binding interfaces from each of two monomers), and that the dimerisation energy is equal in the membrane and cytoplasm. Chemical equilibrium is reached when:
 \begin{equation}
-2\mu_{c,1} = \mu_{c,2} = 2\mu_{m,1} = \mu_{m,2}
+2\mu_{c_1} = \mu_{c_2} = 2\mu_{m_1} = \mu_{m_2}
+\label{eq:four_species_equilibrium}
 \end{equation}
 
-Since the total amount of material is conserved, we have:
+Since the total amount of material is conserved, we have the initial constraint that:
 \begin{align}
-c &= c_c + \alpha c_m
+c_{tot} &= c_c + D \psi c_m
+\label{eq:four_species_mass_conservation}
 \end{align}
 
-where $c = c_{c,1} + c_{c,2}$ and $c_m = c_{m,1} + c_{m,2}$. With constraints imposed by mass conservation, equation x can be solved to obtain expressions for each of the four species as a function of $c$. Figure \ref{fig:thermodynamic_model_species} shows that, for a fixed total amount of protein, the equilibrium fraction of total protein in each of the four states will vary depending on the two energy parameters. With low $w_d$ and low $w_m$ protein will largely by cytoplasmic and monomeric; with low $w_d$ and high $w_m$ protein will be largely membrane-bound and monomeric; with high $w_d$ and low $w_m$ protein will be largely cytoplasmic and dimeric; and with high $w_d$ and high $w_m$ protein will be largely membrane-bound and dimeric. At intermediate energies a mix of states can be observed.\\
+where $c_c = c_{c_1} + c_{c_2}$ and $c_m = c_{m_1} + c_{m_2}$, $D$ is the protein diameter, and $\psi$ is the surface area to volume ratio. For a given amount of total protein, equations \ref{eq:four_species_equilibrium} and \ref{eq:four_species_mass_conservation} can be solved to calculate equilibrium concentrations of each of the four species.\\
+
+I first investigated how the equilibrium state of a system with a fixed total amount of protein ($c_{tot}$), varies depending on the two energy parameters: $w_m$ and $w_d$ (\cref{fig:thermodynamic_model_species}B). This analysis reveals that there are energy regimes in which each of the four states are favoured. With low $w_d$ and low $w_m$ protein will largely by cytoplasmic and monomeric; with low $w_d$ and high $w_m$ protein will be largely membrane-bound and monomeric; with high $w_d$ and low $w_m$ protein will be largely cytoplasmic and dimeric; and with high $w_d$ and high $w_m$ protein will be largely membrane-bound and dimeric. At intermediate energies a mix of states can be observed.\\
 
 \begin{figure}
 \includegraphics[scale=0.9]{thermodynamic_model_species}
 \centering
-\mycaption{Equilibrium state of a four-species dimerisation model varies depending on the interaction energies}{
-\textbf{(A)}
-\textbf{(B)}
-}
+\mycaption{The equilibrium state of a four-species dimerisation model varies depending on the interaction energies}{
+\textbf{(A)} Schematic of the four species in the system.
+\textbf{(B)} The equilibrium state as a function of the membrane association energy ($w_m$) and dimerisation energy ($w_d$). Shows the total amount of protein in each of the four states as a fraction of total protein. $c_{tot} / c^{\circ} = 10^{-5}$, $D\psi$ = 0.001}
 \label{fig:thermodynamic_model_species}
 \end{figure}
+
+We can also see that the total amount of protein bound to the membrane ($m_1$ + $m_2$) varies according to both $w_m$ and $w_d$. By stabilising the high affinity dimeric state, increases to $w_d$ can increase overall membrane localisation for a constant $w_m$\\
 
 
 \subsection{Intermediate dimerisation can drive nonlinear membrane association}
 
-Given the nonlinearities associated with dimerisation reactions, the distribution of protein between the four states is expected to vary depending on total protein amounts. Figure \ref{fig:thermodynamic_model_feedback} shows that, in certain parameter regimes, clear nonlinearity can be observed in the relationship between cytoplasmic and membrane concentrations. For a given value of $w_m$, changing $w_d$ impacts both the shape and the amplitude of the relationship (\cref{fig:thermodynamic_model_feedback}A). By stabilising the high affinity dimeric state, increases to $w_d $increase overall membrane affinity for a constant $w_m$, leading to a steeper relationship. \\
+I next investigated how the system responds to varying total protein amounts. As previously described, the equilibrium state of dimerisation reactions varies as a function of total concentration, with more concentrated systems favouring increased dimerisation (\cref{fig:thermodynamic_simple_dimer}B). We would therefore expect that, in a model involving both dimerisation and membrane association, the equilibrium state should vary depending on total protein amounts.\\
+
+In the absence of dimerisation, membrane and cytoplasmic concentrations have defined ratio (section \ref{section:thermodynamic_membrane_binding}), and therefore will vary linearly as protein amounts are changed. In a system in which protein can dimerise, this is no longer the case. Figure \ref{fig:thermodynamic_model_feedback} shows that, in certain parameter regimes, a nonlinear relationship can be observed between cytoplasmic and membrane concentrations, with an effective exponent varying between 1 (linear relationship) and 2 (quadratic relationship).\\
 
 \begin{figure}
 \includegraphics[scale=1]{thermodynamic_model_feedback}
 \centering
 \mycaption{Intermediate dimerisation can drive nonlinear membrane association}{
-\textbf{(A)}
-\textbf{(B)}
+\textbf{(A)} The relationship between cytoplasmic and membrane concentrations at equilibrium, found by modelling systems with varying amounts of total protein (ranging from $c_{tot} = 10^{-7}$ to $c_{tot} = 10^{-5}$). Curves are colour coded according to the value of $w_d$, corresponding to the coloured points in (B).
+\textbf{(B)} The effective exponent of the membrane versus cytoplasm relationship across parameter space. Exponents were calculated by fitting curves such as those shown in (A) to the equation $c_m/c^{\circ} = \alpha \: (c_c/c^{\circ})^{\beta}$, with $\beta$ taken as the effective exponent. $D\phi$ = 0.001.
 }
 \label{fig:thermodynamic_model_feedback}
 \end{figure}
 
-As shown in \cref{fig:thermodynamic_model_feedback}B, the effective exponent of the cytoplasm vs membrane relationship ($\beta$), obtained by fitting $\phi_m = \alpha \phi_c^{\;\beta}$, varies across parameter space between 1 (linear relationship) and 2 (quadratic relationship). Peak nonlinearity occurs in regions of high membrane energy and intermediate dimerisation energy. This corresponds to regions of parameter space in which membrane protein is largely dimeric but cytoplasmic protein largely monomeric, across the relevant range of dosages (\cref{fig:thermodynamic_model_dimer_fractions}). Where $w_d$ is low, protein is unable to dimerise, even at enriched membrane concentrations, and so the model follows simple linear kinetics like the description in section x. If, on the other hand, $w_d$ is too high, protein is constitutively dimeric in both the membrane and cytoplasm, and will behave similarly to a monomer without nonlinearities (albeit with a higher membrane affinity). If $w_d$ is intermediate, then an asymmetry is observed whereby protein is dimeric on the membrane but not in the cytoplasm, provided that $w_m$ is sufficiently large to set up a substantial concentration difference between the two compartments.\\
+Peak nonlinearity occurs in regions with high membrane energy and intermediate dimerisation energy. This corresponds to regions of parameter space in which membrane protein is largely dimeric but cytoplasmic protein largely monomeric, across the relevant range of total protein amounts (\cref{fig:thermodynamic_model_dimer_fractions}). When $w_d$ is low, protein is unable to dimerise, even at enriched membrane concentrations, and so the system follows simple linear behaviour like the monomer system described in section \ref{section:thermodynamic_membrane_binding}. If, on the other hand, $w_d$ is too high, protein is fully dimeric in both the membrane and cytoplasm, and so the system will behave similarly to the monomeric system (albeit with a higher membrane affinity). If, on the other hand, $w_d$ is intermediate, then an asymmetry can be observed whereby protein is dimeric on the membrane but not in the cytoplasm, provided that $w_m$ is sufficiently large to set up a substantial concentration difference between the two compartments.\\
 
 \begin{figure}
 \includegraphics[scale=0.9]{thermodynamic_model_dimer_fractions}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{The dimeric state of cytoplasmic and membrane protein as a function of $w_m$, $w_d$ and $c_{tot}$}{
+Figure shows the fraction of total membrane protein (A) and total cytoplasmic protein (B) that is dimeric in models with varying $w_m$, $w_d$ and $c_{tot}$. Comparing this with \cref{fig:thermodynamic_model_feedback}, we can see that regions of peak nonlinearity occur when membrane protein is dimeric but cytoplasmic protein monomeric.
+}
 \label{fig:thermodynamic_model_dimer_fractions}
 \end{figure}
 
-To understand why this situation leads to nonlinear membrane binding kinetics, consider an extreme case in which cytoplasmic protein can only exist as a monomer and membrane protein can only exist as a dimer. In other words we have the following equilibrium:
+To understand why this leads to a nonlinear membrane binding relationship, consider an extreme case in which all cytoplasmic protein is monomeric and all membrane protein is dimeric (with the other two states being transient intermediates). In other words, we have the following equilibrium:
 
 \begin{center}
-\ce{2x_{c,1} <=> x_{m,2}}
+\ce{2c_1 <=> m_2}
 \end{center}
 
-Solving for $2\mu_{c,1} = \mu_{m,2}$ at equilibrium, we can immediately see that we have the following relationship:
+Solving for $2\mu_{c1} = \mu_{m2}$ at equilibrium, we obtain the following relationship:
 \begin{equation}
-c_{m,2} = e^{w} (c_{c,1})^2
+\frac{c_{m2}}{c^{\circ}} = e^{2w_m + w_d} \left(\frac{c_{c1}}{c^{\circ}}\right)^2
 \end{equation}
 
 implying a quadratic relationship between cytoplasmic and membrane concentrations.\\
 
+Overall, this analysis shows that dimerisation can have a strong influence on the membrane binding behaviour of a protein. With the assumption that the membrane binding energy of a dimer is twice that of a monomer, dimerisation is expected to strongly enhance membrane affinity and overall membrane localisation. I have also shown that nonlinear membrane association behaviour can arise if dimerisation and membrane binding energies are sufficient to so that dimerisation is supported on the membrane but not in the cytoplasm.\\
 
 \clearpage
-\section{Assessment of PAR-2 membrane binding kinetics}
+\section{Quantitative assessment of PAR-2 membrane association behaviour}
 
-% Link to PAR-2
+Several features of this model are particularly relevant for PAR-2. Firstly, the model suggests that a reduction in dimerisation energy ($w_d$), as would be expected for a RING-disrupting mutant, can substantially decrease membrane association, independently of the membrane association energy ($w_m$). Secondly, the model suggests that, in some parameter regimes, a nonlinear relationship can occur between cytoplasmic and membrane concentrations. This latter point has the condition that dimerisation be supported in the membrane but not the cytoplasm, both of which appear to be the case for PAR-2 in vivo.\\
 
-A few behaviours of the model make it highly relevant for consideration of PAR-2. Firstly, the model suggests that a reduction in dimerisation energy ($w_d$), as would be expected for a RING-disrupting mutant, can substantially decrease membrane association, independently of the membrane association energy ($w_m$). Secondly, the model suggests that, in some parameter regimes, a nonlinear relationship can occur between cytoplasmic and membrane concentrations. This latter point has the condition that dimerisation be supported in the membrane but not the cytoplasm, both of which appear to be the case for PAR-2.\\
+To assess how well the membrane-binding behaviour of wild type and RING-mutant PAR-2 can be captured by this model, I performed a quantitative comparison of the model to in vivo measurements of cytoplasmic and membrane PAR-2 concentrations. I first asked whether the different membrane-binding behaviour of wild type and RING mutant PAR-2 can be explained purely by a difference in dimerisation energies. \\
 
-% To assess how well the membrane-binding kinetics of wild type and RING-mutant PAR-2 can be captured by this model, I performed a quantitative comparison to in vivo data of cytoplasmic vs membrane concentrations. 
+In chapter 3, I showed that wild type PAR-2 has displays nonlinear membrane association, which is disrupted in a C56S RING domain mutant. In light of results described in the chapter 4, which suggest that C56S may disrupt membrane binding by more than just disrupting dimerisation, I decided to repeat the rundown experiment described in section \ref{section:par2_rundown} using the L109R mutant as a baseline instead of C56S. The results show a similar effect, whereby L109R mutant PAR-2 follows a shallower, more linear trajectory compared to wild type PAR-2 (\cref{fig:thermodynamic_wt_vs_l109r_model_fit}).\\
 
-In light of evidence described in the previous chapter, which suggests that C56S may disrupt membrane binding by more than just disrupting dimerisation, I decided to repeat the experiment shown in fig x using the L109R mutant as a baseline instead of C56S. The results show a similar effect, whereby L109R mutant PAR-2 follows a different trajectory to wild type.\\
+% Do the same fig here to show cyt vs mem relationship?
 
-I then fit this data to a dimerisation model in which $w_m$ is unchanged between the two conditions but $w_d$ allowed to change, implying that the dimerisation interface mutant is expected to disrupt the dimerisation interaction without changing the membrane interaction. Figure x shows that the data can be closely captured by a model in which L109R mutation causes a decrease in $w_d$ with a constant $w_m$. Note that the dimerisation constant (kd) is exponentially related to the dimerisation energy, so a x decrease in wd corresponds to a x fold difference in kd. Figure x shows a histogram of parameter values obtained by fitting bootstrapped samples of the data to the model. This shows that, whilst there is some uncertainty in the parameter values, particularly $w_d$, there is clear separation between the two conditions.\\
 
-\begin{figure}[!h]
-\includegraphics[scale=1]{thermodynamic_model_wt_vs_l109r}
-\setlength{\abovecaptionskip}{20pt}
+% Ultimately this parameter influences the degree to effective concentrations are enhanced upon membrane binding, which will influence the degree to which dimeric state can differ in the membrane and cytoplasmic compartments.
+
+To assess whether the different behaviour of WT and L109R can be explained purely by a reduction in dimerisation energy, I fit the in vivo data to a model in which $w_m$ is unchanged between the two conditions but $w_d$ allowed to change. As discussed previously, the model has a parameter $D$ describing the diameter of the protein molecule. Whilst this has not been determined for PAR-2, we can expect that, with a mass of 69.95 kDa, protein diameter should be on the order of 1-10 nm \citep{Erickson2009}. To assess the full range of model behaviours I consider $D$ at both extremes.\\
+
+I performed model fitting by orthogonal distance regression, and estimated parameter uncertainty by bootstrapping (\cref{fig:thermodynamic_wt_vs_l109r_model_fit}A, C). Optimised model parameters and 95\% confidence intervals are shown in table \ref{table:thermodynamic_model_parameters}.\\
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+ & \textbf{Model 1 (D = 10 nm)} & \textbf{Model 2 (D = 1 nm)} \\ \hline
+$w_m/RT$ & 5.94 {[}5.63, 6.10{]} & 8.24 {[}7.96, 8.41{]} \\ \hline
+$w_d/RT$ (WT) & 12.99 {[}12.39, 13.88{]} &  {[}10.09, 11.51{]}\\ \hline
+$w_d/RT$ (L109R) & 11.16 {[}10.16, 12.46{]} & 8.84 {[}7.83, 10.11{]} \\ \hline
+$w_d/RT$ difference & 1.83 {[}1.36, 2.27{]} & 1.83 {[}1.36, 2.28{]} \\ \hline
+kD fold difference & 6.21 {[}3.89, 9.69{]} & 6.22 {[}3.90, 9.81{]} \\ \hline
+\end{tabular}
+
+\mycaption{Optimised model parameters}{
+Given for models in which $D$ (protein diameter) = 10 nm or 1 nm. Both models show that the data is best explained by an approximately 6-fold difference in dimerisation kD between wild type and L109R PAR-2. 95\% confidence intervals shown in square brackets.
+}
+
+\label{table:thermodynamic_model_parameters}
+\end{table}
+
+Figures \ref{fig:thermodynamic_wt_vs_l109r_model_fit}B and D show that the optimised models closely capture the data, suggesting that a reduction in dimerisation energy by approximately 1.8 $RT$ is sufficient to account for the different membrane association relationships of wild type PAR-2 and PAR-2 L109R. This corresponds to a roughly 6-fold difference in the dissociation constant (kD). (Note that the dissociation constant (kD) for dimerisation is exponentially related to the dimerisation energy, so a decrease in $w_d / RT$ by $x$ corresponds to a $e^x$ fold increase in kD.) Furthermore, we can see that the optimised models predict that cytoplasmic protein is entirely monomeric across the range of relevant concentrations, whereas wild type membrane-bound protein is mostly dimeric, which matches experimental observations. Dimerisation of PAR-2 L109R is reduced at the membrane compared to wild type PAR-2.
+
+% Maybe have a box for model fitting procedure?
+
+\begin{figure}
+\includegraphics[scale=0.85]{thermodynamic_wt_vs_l109r_model_fit}
 \centering
-\mycaption{Title}{Caption}
-\label{fig:thermodynamic_model_wt_vs_l109r}
+\mycaption{Membrane-association behaviour of wild-type and L109R PAR-2 can be explained by a reduction in dimerisation energy}{
+\textbf{(A, C)} Parameter estimates for models with $D$ (protein diameter) = 10 nm (A) or 1 nm (C). Models were fit to the in vivo data in (B) and (C) by orthogonal distance regression. Parameter uncertainty was assessed by bootstrapping. Each point represents parameters obtained from fitting a model to single bootstrap sample (an orange and a blue point with a shared $w_m$ for each sample). Black dots show parameters for a model trained on the full dataset.
+\textbf{(B, D)} In vivo data (points) compared to model fits (lines, shaded regions indicate 95\% confidence intervals). $c^{\circ}$ is defined as the mean cytoplasmic concentration of wild type PAR-2 at full dosage x $10^8$. Assuming a cytoplasmic concentration of roughly 10 nM \citep{Gross2018}, this corresponds to approximately 1 M. Also shown are the dimeric states of membrane and cytoplasmic protein in the models across the range of concentrations, with 95\% confidence intervals.
+}
+\label{fig:thermodynamic_wt_vs_l109r_model_fit}
 \end{figure}
+
 
 
 \section{Discussion}
 
-% We have also considered non-ideal models and this doesn't change the behaviour within concentration ranges relevant to the in vivo measurements
+Overall, this analysis shows that a number of previously unexplained behaviours of PAR-2 can be explained by the ability its ability to dimerise. The in vitro data in chapter 4 shows that the PAR-2 RING domain displays concentration dependent dimerisation. I propose that, in vivo, cytoplasmic PAR-2 concentrations are too low for the RING to dimerise, but enrichment on the membrane enhances effective concentrations, driving concentration-dependent RING dimerisation on the membrane. This reaction has two major consequences:\\
 
-% Discuss the fact that we have SEC MALS data for RING and we might be able to get energies from this
+Firstly, as dimers can utilise membrane binding interfaces from two PAR-2 molecules, dimerisation is expected to overall membrane affinities. This provides an explanation for the reduction in membrane localisation seen for all RING domain mutants (chapter 4). \\
 
-The question remains as to why C56S appears more disruptive than L109R. One possibility is that dimerisation isn’t completely disrupted in L109R, although if this were the case, I’d expect L109R and L50R to be additive, which they are not. Another possibility is that C56S mutation, by causing the entire domain to unfold, has an additional negative impact on membrane binding whereby the unfolded domain interferes with the association between the polybasic domain and the membrane (effectively causing a decrease in $w_m$ in addition to $w_d$).\\
+Secondly membrane-specific dimerisation can lead to a nonlinear membrane association relationship, which closely matches in vivo PAR-2 data. The model makes a number of simplifications in its description of interaction energies, such as the assumption that dimerisation energy is equal in the cytoplasm and on the membrane, and that dimers have a membrane association energy twice that of a monomer. Nevertheless, a general feature of the model, shown by equation x, is that, regardless of the values of the energy terms, as long as the system can achieve dimerisation on the membrane but not in the cytoplasm, a quadratic relationship between cytoplasmic and membrane concentrations is to be expected.\\
+
+This nonlinearity can be considered a form of positive feedback in which the effective membrane affinity increases with increasing membrane concentrations. Oligomerisation is a common feature of many polarity proteins, and has been suggested to contribute to stable bistability in mathematical models of polarity \citep{Lang2022}. In the next chapter, I consider the specific impact that PAR-2 dimerisation may have on the patterning behaviour of the PAR network.\\
+
+% The question remains as to why C56S appears more disruptive than L109R. One possibility is that dimerisation isn’t completely disrupted in L109R, although if this were the case, I’d expect L109R and L50R to be additive, which they are not. Another possibility is that C56S mutation, by causing the entire domain to unfold, has an additional negative impact on membrane binding whereby the unfolded domain interferes with the association between the polybasic domain and the membrane (effectively causing a decrease in $w_m$ in addition to $w_d$).\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage

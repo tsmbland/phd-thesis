@@ -63,15 +63,15 @@
 \BOOKMARK [2][-]{subsection.4.3.5}{Membrane-enriched PAR-2 self-associates in vivo}{section.4.3}% 63
 \BOOKMARK [2][-]{subsection.4.3.6}{Mutation to dimerisation interface weakens membrane association in vivo}{section.4.3}% 64
 \BOOKMARK [2][-]{subsection.4.3.7}{Discussion}{section.4.3}% 65
-\BOOKMARK [0][-]{chapter.5}{A thermodynamic model of PAR-2 dimerisation}{}% 66
+\BOOKMARK [0][-]{chapter.5}{Modelling the interplay between dimerisation and membrane association}{}% 66
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 67
-\BOOKMARK [1][-]{section.5.2}{Chemical equilibrium}{chapter.5}% 68
-\BOOKMARK [2][-]{subsection.5.2.1}{Thermodynamic description of membrane association}{section.5.2}% 69
-\BOOKMARK [2][-]{subsection.5.2.2}{Thermodynamic description of dimerisation}{section.5.2}% 70
-\BOOKMARK [1][-]{section.5.3}{Exploring the interplay between dimerisation and membrane binding}{chapter.5}% 71
-\BOOKMARK [2][-]{subsection.5.3.1}{Model description}{section.5.3}% 72
-\BOOKMARK [2][-]{subsection.5.3.2}{Intermediate dimerisation can drive nonlinear membrane association}{section.5.3}% 73
-\BOOKMARK [1][-]{section.5.4}{Assessment of PAR-2 membrane binding kinetics}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.2}{Modelling chemical equilibria}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.3}{A thermodynamic model of dimerisation and membrane association}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.3.1}{Thermodynamic description of membrane association}{section.5.3}% 70
+\BOOKMARK [2][-]{subsection.5.3.2}{Thermodynamic description of dimerisation}{section.5.3}% 71
+\BOOKMARK [2][-]{subsection.5.3.3}{Combining membrane association and dimerisation}{section.5.3}% 72
+\BOOKMARK [2][-]{subsection.5.3.4}{Intermediate dimerisation can drive nonlinear membrane association}{section.5.3}% 73
+\BOOKMARK [1][-]{section.5.4}{Quantitative assessment of PAR-2 membrane association behaviour}{chapter.5}% 74
 \BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 75
 \BOOKMARK [0][-]{chapter.6}{Modelling dimerisation-driven positive feedback in the PAR network}{}% 76
 \BOOKMARK [1][-]{section.6.1}{Model description}{chapter.6}% 77
@@ -96,6 +96,6 @@
 \BOOKMARK [1][-]{section.9.7}{SEC-MALS}{chapter.9}% 96
 \BOOKMARK [1][-]{section.9.8}{Image analysis}{chapter.9}% 97
 \BOOKMARK [1][-]{section.9.9}{Modelling methods}{chapter.9}% 98
-\BOOKMARK [0][-]{chapter*.68}{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{}% 99
-\BOOKMARK [0][-]{chapter*.69}{Abbreviations}{}% 100
-\BOOKMARK [0][-]{chapter*.69}{Bibliography}{}% 101
+\BOOKMARK [0][-]{chapter*.70}{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}{}% 99
+\BOOKMARK [0][-]{chapter*.71}{Abbreviations}{}% 100
+\BOOKMARK [0][-]{chapter*.71}{Bibliography}{}% 101

@@ -1506,6 +1506,59 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Erickson2009}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EHP}{%
+         family={Erickson},
+         familyi={E\bibinitperiod},
+         given={Harold\bibnamedelima P.},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{Electron microscopy,Gel filtration,Hydrodynamics,Protein
+  shape,Sedimentation}
+    \strng{namehash}{EHP1}
+    \strng{fullhash}{EHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    An important part of characterizing any protein molecule is to determine
+  its size and shape. Sedimentation and gel filtration are hydrodynamic
+  techniques that can be used for this medium resolution structural analysis.
+  This review collects a number of simple calculations that are useful for
+  thinking about protein structure at the nanometer level. Readers are reminded
+  that the Perrin equation is generally not a valid approach to determine the
+  shape of proteins. Instead, a simple guideline is presented, based on the
+  measured sedimentation coefficient and a calculated maximum S, to estimate if
+  a protein is globular or elongated. It is recalled that a gel filtration
+  column fractionates proteins on the basis of their Stokes radius, not
+  molecular weight. The molecular weight can be determined by combining
+  gradient sedimentation and gel filtration, techniques available in most
+  biochemistry laboratories, as originally proposed by Siegel and Monte.
+  Finally, rotary shadowing and negative stain electron microscopy are powerful
+  techniques for resolving the size and shape of single protein molecules and
+  complexes at the nanometer level. A combination of hydrodynamics and electron
+  microscopy is especially powerful.%
+    }
+    \verb{doi}
+    \verb 10.1007/s12575-009-9008-x
+    \endverb
+    \field{issn}{14809222}
+    \field{number}{1}
+    \field{pages}{32\bibrangedash 51}
+    \field{title}{{Size and shape of protein molecules at the nanometer level
+  determined by sedimentation, gel filtration, and electron microscopy}}
+    \field{volume}{11}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1480-9222-11-1-9008.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biological Procedures Online}
+    \field{year}{2009}
+  \endentry
+
   \entry{Etemad-Moghadam1995}{report}{}
     \name{author}{3}{}{%
       {{hash=EMB}{%
@@ -3379,6 +3432,44 @@
     \endverb
     \field{journaltitle}{Development}
     \field{year}{2017}
+  \endentry
+
+  \entry{Lang2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LCF}{%
+         family={Lang},
+         familyi={L\bibinitperiod},
+         given={Charles\bibnamedelima F},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=MEM}{%
+         family={Munro},
+         familyi={M\bibinitperiod},
+         given={Edwin\bibnamedelima M},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Oligomerisation,Polarity,Thermodynamics}
+    \strng{namehash}{LCFMEM1}
+    \strng{fullhash}{LCFMEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{{Oligomerization of peripheral membrane proteins provides
+  tunable control of cell surface polarity Author summary}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/2022.01.04.474999v1.full.pdf
+    \verb :pdf
+    \endverb
+    \field{annotation}{%
+    Whilst they investigate tuning a parameter representing oligomerisation
+  strength, they don't focus on cases where oligomers are restricted to a fixed
+  maximum size (e.g. dimer) Don't consider oligomerisation in the cytoplasm.
+  Therefore can't account for constitutive dimerisation.%
+    }
+    \field{year}{2022}
   \endentry
 
   \entry{Li2010a}{article}{}
