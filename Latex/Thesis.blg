@@ -16,54 +16,54 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14730 items from 5000.
+Reallocated field_info (elt_size=4) to 16537 items from 5000.
 Database file #1: Thesis-blx.bib
 Database file #2: bibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I didn't find a database entry for "Goehring2011b"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-You've used 69 entries,
+You've used 82 entries,
             6256 wiz_defined-function locations,
-            1973 strings with 121321 characters,
-and the built_in function-call counts, 692738 in all, are:
-= -- 54633
-> -- 9238
-< -- 1918
-+ -- 20273
-- -- 4538
-* -- 58083
-:= -- 80456
+            2104 strings with 142772 characters,
+and the built_in function-call counts, 828796 in all, are:
+= -- 65578
+> -- 10852
+< -- 2209
++ -- 24272
+- -- 5344
+* -- 69514
+:= -- 96521
 add.period$ -- 0
-call.type$ -- 69
-change.case$ -- 945
-chr.to.int$ -- 42
-cite$ -- 136
-duplicate$ -- 72527
-empty$ -- 61072
-format.name$ -- 7370
-if$ -- 134607
+call.type$ -- 82
+change.case$ -- 1087
+chr.to.int$ -- 43
+cite$ -- 162
+duplicate$ -- 86720
+empty$ -- 73166
+format.name$ -- 8774
+if$ -- 160868
 int.to.chr$ -- 0
-int.to.str$ -- 148
+int.to.str$ -- 176
 missing$ -- 0
-newline$ -- 4722
-num.names$ -- 3023
-pop$ -- 25828
+newline$ -- 5630
+num.names$ -- 3559
+pop$ -- 30818
 preamble$ -- 1
-purify$ -- 1814
+purify$ -- 2125
 quote$ -- 0
-skip$ -- 12522
+skip$ -- 14705
 stack$ -- 0
-substring$ -- 103701
-swap$ -- 16175
-text.length$ -- 2068
-text.prefix$ -- 68
+substring$ -- 124830
+swap$ -- 19217
+text.length$ -- 2429
+text.prefix$ -- 81
 top$ -- 1
-type$ -- 2333
+type$ -- 2775
 warning$ -- 0
-while$ -- 9773
+while$ -- 11708
 width$ -- 0
-write$ -- 4654
+write$ -- 5549
 (There was 1 warning)

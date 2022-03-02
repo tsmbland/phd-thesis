@@ -561,6 +561,109 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Arribere2014}{article}{}
+    \name{author}{6}{}{%
+      {{hash=AJA}{%
+         family={Arribere},
+         familyi={A\bibinitperiod},
+         given={Joshua\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BRT}{%
+         family={Bell},
+         familyi={B\bibinitperiod},
+         given={Ryan\bibnamedelima T},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=FBX}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Becky\bibnamedelima X.H.},
+         giveni={B\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=AKL}{%
+         family={Artiles},
+         familyi={A\bibinitperiod},
+         given={Karen\bibnamedelima L},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HPS}{%
+         family={Hartman},
+         familyi={H\bibinitperiod},
+         given={Phil\bibnamedelima S},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=FAZ}{%
+         family={Fire},
+         familyi={F\bibinitperiod},
+         given={Andrew\bibnamedelima Z},
+         giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJA+1}
+    \strng{fullhash}{AJABRTFBXAKLHPSFAZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    Facilitated by recent advances using CRISPR/Cas9, genome editing
+  technologies now permit custom genetic modifications in a wide variety of
+  organisms. Ideally, modified animals could be both efficiently made and
+  easily identified with minimal initial screening and without introducing
+  exogenous sequence at the locus of interest or marker mutations elsewhere. To
+  this end, we describe a coconversion strategy, using CRISPR/Cas9 in which
+  screening for a dominant phenotypic oligonucleotide-templated conversion
+  event at one locus can be used to enrich for custom modifications at another
+  unlinked locus. After the desired mutation is identified among the F1 progeny
+  heterozygous for the dominant marker mutation, F2 animals that have lost the
+  marker mutation are picked to obtain the desired mutation in an unmarked
+  genetic background. We have developed such a coconversion strategy for
+  Caenorhabditis elegans, using a number of dominant phenotypic markers.
+  Examining the coconversion at a second (unselected) locus of interest in the
+  marked F1 animals, we observed that 14-84% of screened animals showed
+  homologous recombination. By reconstituting the unmarked background through
+  segregation of the dominant marker mutation at each step, we show that custom
+  modification events can be carried out recursively, enabling multiple mutant
+  animals to be made. While our initial choice of a coconversion marker
+  [rol-6(su1006)] was readily applicable in a single round of coconversion, the
+  genetic properties of this locus were not optimal in that CRISPR-mediated
+  deletion mutations at the unselected rol-6 locus can render a fraction of
+  coconverted strains recalcitrant to further rounds of similar mutagenesis. An
+  optimal marker in this sense would provide phenotypic distinctions between
+  the desired mutant/+ class and alternative +/+, mutant/null, null/null, and
+  null/+ genotypes. Reviewing dominant alleles from classical C. elegans
+  genetics, we identified one mutation in dpy-10 and one mutation in sqt-1 that
+  meet these criteria and demonstrate that these too can be used as effective
+  conversion markers. Coconversion was observed using a variety of donor
+  molecules at the second (unselected) locus, including oligonucleotides, PCR
+  products, and plasmids. We note that the coconversion approach described here
+  could be applied in any of the variety of systems where suitable coconversion
+  markers can be identified from previous intensive genetic analyses of
+  gain-of-function alleles.%
+    }
+    \verb{doi}
+    \verb 10.1534/genetics.114.169730
+    \endverb
+    \field{issn}{19432631}
+    \field{number}{3}
+    \field{pages}{837\bibrangedash 846}
+    \field{title}{{Efficient marker-free recovery of custom genetic
+  modifications with CRISPR/Cas9 in caenorhabditis elegans}}
+    \verb{url}
+    \verb www.mclab.com
+    \endverb
+    \field{volume}{198}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Arribere et al. - 2014 - Eff
+    \verb icient Marker-Free Recovery of Custom Genetic Modifications with CRIS
+    \verb PRCas9 in Caenorhabditis elegans.pdf:pdf
+    \endverb
+    \field{journaltitle}{Genetics}
+    \field{year}{2014}
+  \endentry
+
   \entry{Beatty2010}{article}{}
     \name{author}{3}{}{%
       {{hash=BA}{%
@@ -1029,6 +1132,58 @@
     \field{year}{2009}
   \endentry
 
+  \entry{Concordet2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CJP}{%
+         family={Concordet},
+         familyi={C\bibinitperiod},
+         given={Jean-Paul},
+         giveni={J\bibinitperiod-P\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Haeussler},
+         familyi={H\bibinitperiod},
+         given={Maximilian},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJPHM1}
+    \strng{fullhash}{CJPHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    CRISPOR.org is a web tool for genome editing experiments with the
+  CRISPR-Cas9 system. It finds guide RNAs in an input sequence and ranks them
+  according to different scores that evaluate potential off-targets in the
+  genome of interest and predict on-target activity. The list of genomes is
+  continuously expanded, with more 150 genomes added in the last two years.
+  CRISPOR tries to provide a comprehensive solution from selection, cloning and
+  expression of guide RNA as well as providing primers needed for testing guide
+  activity and potential off-targets. Recent developments include batch design
+  for genome-wide CRISPR and saturation screens, creating custom
+  oligonucleotides for guide cloning and the design of next generation
+  sequencing primers to test for off-target mutations. CRISPOR is available
+  from http://crispor.org, including the full source code of the website and a
+  stand-alone, command-line version .%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gky354
+    \endverb
+    \field{title}{{CRISPOR: intuitive guide selection for CRISPR/Cas9 genome
+  editing experiments and screens}}
+    \field{volume}{46}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Concordet, Haeussler - 2018
+    \verb - CRISPOR intuitive guide selection for CRISPRCas9 genome editing exp
+    \verb eriments and screens.pdf:pdf
+    \endverb
+    \field{journaltitle}{Web Server issue Published online}
+    \field{year}{2018}
+  \endentry
+
   \entry{Cuenca2003}{article}{}
     \name{author}{1}{}{%
       {{hash=CAA}{%
@@ -1218,6 +1373,76 @@
     \verb RING Domain E3 Ubiquitin Ligases.pdf:pdf
     \endverb
     \field{year}{2009}
+  \endentry
+
+  \entry{Dickinson2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DDJ}{%
+         family={Dickinson},
+         familyi={D\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WJD}{%
+         family={Ward},
+         familyi={W\bibinitperiod},
+         given={Jordan\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RDJ}{%
+         family={Reiner},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Goldstein},
+         familyi={G\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Genetics}
+    \strng{namehash}{DDJ+1}
+    \strng{fullhash}{DDJWJDRDJGB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Study of the nematode Caenorhabditis elegans has provided important
+  insights in a wide range of fields in biology. The ability to precisely
+  modify genomes is critical to fully realize the utility of model organisms.
+  Here we report a method to edit the C. elegans genome using the clustered,
+  regularly interspersed, short palindromic repeats (CRISPR) RNA-guided Cas9
+  nuclease and homologous recombination. We demonstrate that Cas9 is able to
+  induce DNA double-strand breaks with specificity for targeted sites and that
+  these breaks can be repaired efficiently by homologous recombination. By
+  supplying engineered homologous repair templates, we generated gfp knock-ins
+  and targeted mutations. Together our results outline a flexible methodology
+  to produce essentially any desired modification in the C. elegans genome
+  quickly and at low cost. This technology is an important addition to the
+  array of genetic techniques already available in this experimentally
+  tractable model organism.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.2641
+    \endverb
+    \field{issn}{15487091}
+    \field{number}{10}
+    \field{pages}{1028\bibrangedash 1034}
+    \field{title}{{Engineering the Caenorhabditis elegans genome using
+  Cas9-triggered homologous recombination}}
+    \field{volume}{10}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Dickinson et al. - 2013 - En
+    \verb gineering the Caenorhabditis elegans genome using Cas9-triggered homo
+    \verb logous recombination.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Dickinson2017}{article}{}
@@ -1504,6 +1729,128 @@
     \endverb
     \field{year}{2003}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Dokshin2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DGA}{%
+         family={Dokshin},
+         familyi={D\bibinitperiod},
+         given={Gregoriy\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GKS}{%
+         family={Ghanta},
+         familyi={G\bibinitperiod},
+         given={Krishna\bibnamedelima S.},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PKM}{%
+         family={Piscopo},
+         familyi={P\bibinitperiod},
+         given={Katherine\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MCC}{%
+         family={Mello},
+         familyi={M\bibinitperiod},
+         given={Craig\bibnamedelima C.},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Genetics,cas9-based genome editing
+  enables,crispr,cytological,designer alleles of any,fl uorescent
+  tags,genetic,hdr,in practice,locus for,n theory,or biochemical
+  analyses,re-,searchers to rapidly generate,wormbase}
+    \strng{namehash}{DGA+1}
+    \strng{fullhash}{DGAGKSPKMMCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{isbn}{0000000287807}
+    \field{number}{November}
+    \field{pages}{781\bibrangedash 787}
+    \field{title}{{Robust Genome Editing with Short Single-Stranded}}
+    \field{volume}{210}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Robust Genome Editing with S
+    \verb hort Single-Stranded and Long, Partially Single-Stranded DNA Donors i
+    \verb n Caenorhabditis elegans.pdf:pdf;:Users/blandt/Documents/Mendeley Des
+    \verb ktop/File_S2_Editing_Protocol.pdf:pdf
+    \endverb
+    \field{journaltitle}{Genetics}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Duan2020}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DY}{%
+         family={Duan},
+         familyi={D\bibinitperiod},
+         given={Ye},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Sungwook},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NC}{%
+         family={Nelson},
+         familyi={N\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AV}{%
+         family={Ambros},
+         familyi={A\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{CRISPR}
+    \strng{namehash}{DY+1}
+    \strng{fullhash}{DYCSNCAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Figure 1: A-B. Schematic diagrams of the jump board strategy for
+  engineering the let-7 locus. To generate the jump board strain (A),
+  hermaphrodites of the strain EG9615(oxSi1091[mex-5p::Cas9(smu-2 introns)
+  unc-119(+)] II; unc-119(ed3) III) carrying a transgene expressing the Cas9
+  protein were injected with a crRNA targeting let-7 (purple), tracrRNA and
+  dsDNA HDR donor to replace the 64 bp sequence corresponding to the
+  precursor-let-7 transcript with the 23 bp jump board sequence (blue). To
+  permit recovery of F1 progeny carrying a lethal jump board let-7 null allele,
+  injected P0 hermaphrodites were crossed to males carrying the mnDp1 [umnIs25]
+  genetic balancer, which contains a wild type let-7 locus, as well as an
+  integrated myo-2p::GFP transgene. The resulting jump board strain,
+  VT3742(oxSi1091 II; mnDp1[umnIs25] (X;V)/+ V; let-7(ma393) X) was used as a
+  platform for repeated mutagenesis at the let-7 locus. To use the established
+  jump board strain for mutagenesis (B), the let-7 jump board allele (ma393) in
+  VT3742 was targeted by the universal jump board guide INPP4A-crRNA and
+  replaced by HDR with multiplexed dsDNA donors containing the let-7%
+    }
+    \verb{doi}
+    \verb 10.17912/micropub.biology.000315
+    \endverb
+    \field{issn}{2578-9430}
+    \field{title}{{Engineering essential genes with a "jump board" strategy
+  using CRISPR/Cas9.}}
+    \field{volume}{2020}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Duan et al. - Unknown - Engi
+    \verb neering essential genes with a jump board strategy using CRISPRCas9.p
+    \verb df:pdf
+    \endverb
+    \field{journaltitle}{microPublication biology}
+    \field{year}{2020}
   \endentry
 
   \entry{Erickson2009}{article}{}
@@ -2022,6 +2369,124 @@
     \verb UCTURAL SYMMETRY AND PROTEIN FUNCTION.pdf:pdf
     \endverb
     \field{year}{2000}
+  \endentry
+
+  \entry{Goudeau2021}{article}{}
+    \name{author}{9}{}{%
+      {{hash=GJ}{%
+         family={Goudeau},
+         familyi={G\bibinitperiod},
+         given={J{\'{e}}r{\^{o}}me},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SCS}{%
+         family={Sharp},
+         familyi={S\bibinitperiod},
+         given={Catherine\bibnamedelima S},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Paw},
+         familyi={P\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Savy},
+         familyi={S\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LMD}{%
+         family={Leonetti},
+         familyi={L\bibinitperiod},
+         given={Manuel\bibnamedelima D},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=YAG}{%
+         family={York},
+         familyi={Y\bibinitperiod},
+         given={Andrew\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=UDL}{%
+         family={Updike},
+         familyi={U\bibinitperiod},
+         given={Dustin\bibnamedelima L},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kenyon},
+         familyi={K\bibinitperiod},
+         given={Cynthia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Ingaramo},
+         familyi={I\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{2A,C. elegans,CRISPR,Cas9,GFP,Journal Club,genome
+  engineering,germline,mScarlet,protein localization,wrmScarlet}
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJSCSPJSLLMDYAGUDLKCIM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    We create and share a new red fluorophore, along with a set of strains,
+  reagents and protocols, to make it faster and easier to label endogenous
+  Caenorhabditis elegans proteins with fluorescent tags. CRISPR-mediated
+  fluorescent labeling of C. elegans proteins is an invaluable tool, but it is
+  much more difficult to insert fluorophore-size DNA segments than it is to
+  make small gene edits. In principle, high-affinity asymmetrically split
+  fluorescent proteins solve this problem in C. elegans: the small fragment can
+  quickly and easily be fused to almost any protein of interest, and can be
+  detected wherever the large fragment is expressed and complemented. However,
+  there is currently only one available strain stably expressing the large
+  fragment of a split fluorescent protein, restricting this solution to a
+  single tissue (the germline) in the highly autofluorescent green channel. No
+  available C. elegans lines express unbound large fragments of split red
+  fluorescent proteins, and even state-of-the-art split red fluorescent
+  proteins are dim compared to the canonical split-sfGFP protein. In this
+  study, we engineer a bright, high-affinity new split red fluorophore,
+  split-wrmScarlet. We generate transgenic C. elegans lines to allow easy
+  single-color labeling in muscle or germline cells and dual-color labeling in
+  somatic cells. We also describe a novel expression strategy for the germline,
+  where traditional expression strategies struggle. We validate these strains
+  by targeting split-wrmScarlet to several genes whose products label distinct
+  organelles, and we provide a protocol for easy, cloning-free CRISPR/Cas9
+  editing. As the collection of split-FP strains for labeling in different
+  tissues or organelles expands, we will post updates at
+  doi.org/10.5281/zenodo.3993663.%
+    }
+    \verb{doi}
+    \verb 10.1093/genetics/iyab014
+    \endverb
+    \field{isbn}{014/6126424}
+    \field{issn}{19432631}
+    \field{number}{4}
+    \field{title}{{Split-wrmScarlet and split-sfGFP: tools for faster, easier
+  fluorescent labeling of endogenous proteins in Caenorhabditis elegans}}
+    \verb{url}
+    \verb https://cgc.umn.edu/strain/DUP237
+    \endverb
+    \field{volume}{217}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/R{\^{o}} Me Goudeau et al. -
+    \verb  Unknown - Split-wrmScarlet and split-sfGFP tools for faster, easier
+    \verb fluorescent labeling of endogenous proteins.pdf:pdf;:Users/blandt/Doc
+    \verb uments/Mendeley Desktop/Supplementary_Text.docx:docx;:Users/blandt/Do
+    \verb cuments/Mendeley Desktop/Supplementary Figures S1 to S12 from Split-w
+    \verb rmScarlet and split-sfGFP- Tools for faster, easier fluorescent label
+    \verb ing of endogenous prot.pptx:pptx
+    \endverb
+    \field{journaltitle}{Genetics}
+    \field{year}{2021}
   \endentry
 
   \entry{Griffin2011}{article}{}
@@ -3014,6 +3479,240 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Kamath2003}{article}{}
+    \name{author}{13}{}{%
+      {{hash=KRS}{%
+         family={Kamath},
+         familyi={K\bibinitperiod},
+         given={Ravi\bibnamedelima S},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=FAG}{%
+         family={Fraser},
+         familyi={F\bibinitperiod},
+         given={Andrew\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=DY}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Poulin},
+         familyi={P\bibinitperiod},
+         given={Gino},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Durbin},
+         familyi={D\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gotta},
+         familyi={G\bibinitperiod},
+         given={Monica},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kanapin},
+         familyi={K\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={{Le Bot}},
+         familyi={L\bibinitperiod},
+         given={Nathalie},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moreno},
+         familyi={M\bibinitperiod},
+         given={Sergio},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sohrmann},
+         familyi={S\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WDP}{%
+         family={Welchman},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima P},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zipperien},
+         familyi={Z\bibinitperiod},
+         given={Peder},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Ahringer},
+         familyi={A\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KRS+1}
+    \strng{fullhash}{KRSFAGDYPGDRGMKALNMSSMWDPZPAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    A principal challenge currently facing biologists is how to connect the
+  complete DNA sequence of an organism to its development and behaviour.
+  Large-scale targeted-deletions have been successful in defining gene
+  functions in the single-celled yeast Saccharomyces cerevisiae, but comparable
+  analyses have yet to be performed in an animal. Here we describe the use of
+  RNA interference to inhibit the function of ∼86% of the 19,427 predicted
+  genes of C. elegans. We identified mutant phenotypes for 1,722 genes, about
+  two-thirds of which were not previously associated with a phenotype. We find
+  that genes of similar functions are clustered in distinct, multi-megabase
+  regions of individual chromosomes; genes in these regions tend to share
+  transcriptional profiles. Our resulting data set and reusable RNAi library of
+  16,757 bacterial clones will facilitate systematic analyses of the
+  connections among gene sequence, chromosomal location and gene function in C.
+  elegans.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature01278
+    \endverb
+    \field{issn}{00280836}
+    \field{number}{6920}
+    \field{pages}{231\bibrangedash 237}
+    \field{title}{{Systematic functional analysis of the Caenorhabditis elegans
+  genome using RNAi}}
+    \verb{url}
+    \verb www.nature.com/nature
+    \endverb
+    \field{volume}{421}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Kamath et al. - 2003 - Syste
+    \verb matic functional analysis of the Caenorhabditis elegans genome using
+    \verb RNAi.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Kim2011}{article}{}
+    \name{author}{9}{}{%
+      {{hash=KJH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jin\bibnamedelima Hee},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LSR}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Sang\bibnamedelima Rok},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=LLH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Li\bibnamedelima Hua},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PHJ}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Hye\bibnamedelima Jeong},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PJH}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Jeong\bibnamedelima Hoh},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LKY}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Kwang\bibnamedelima Youl},
+         giveni={K\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=KMK}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Myeong\bibnamedelima Kyu},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SBA}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={Boo\bibnamedelima Ahn},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CSY}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Seok\bibnamedelima Yong},
+         giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJH+1}
+    \strng{fullhash}{KJHLSRLLHPHJPJHLKYKMKSBACSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    When expression of more than one gene is required in cells, bicistronic or
+  multicistronic expression vectors have been used. Among various strategies
+  employed to construct bicistronic or multicistronic vectors, an internal
+  ribosomal entry site (IRES) has been widely used. Due to the large size and
+  difference in expression levels between genes before and after IRES, however,
+  a new strategy was required to replace IRES. A self-cleaving 2A peptide could
+  be a good candidate to replace IRES because of its small size and high
+  cleavage efficiency between genes upstream and downstream ofthe 2A peptide.
+  Despite the advantages of the 2A peptides, its use is not widespread because
+  (i) there are no publicly available cloning vectors harboring a 2A peptide
+  gene and (ii) comprehensive comparison of cleavage efficiency among various
+  2A peptides reported to date has not been performed in different contexts.
+  Here, we generated four expression plasmids each harboring different 2A
+  peptides derived from the foot-and-mouth disease virus, equine rhinitis A
+  virus, Thoseaasigna virus and porcine teschovirus-1, respectively, and
+  evaluated their cleavage efficiency in three commonly used human cell lines,
+  zebrafish embryos and adult mice. Western blotting and confocal microscopic
+  analyses revealed that among the four 2As, the one derived from porcine
+  teschovirus-1 (P2A) has the highest cleavage efficiency in all the contexts
+  examined. We anticipate that the 2A-harboring cloning vectors we generated
+  and the highest efficiency of the P2A peptide we demonstrated would help
+  biomedical researchers easily adopt the 2A technology when bicistronic or
+  multicistronic expression is required. {\textcopyright} 2011 Kim et al.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pone.0018556
+    \endverb
+    \field{issn}{19326203}
+    \field{number}{4}
+    \field{title}{{High cleavage efficiency of a 2A peptide derived from
+  porcine teschovirus-1 in human cell lines, zebrafish and mice}}
+    \verb{url}
+    \verb www.plosone.org
+    \endverb
+    \field{volume}{6}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Hee Kim et al. - 2011 - High
+    \verb  Cleavage Efficiency of a 2A Peptide Derived from Porcine Teschovirus
+    \verb -1 in Human Cell Lines, Zebrafish and M.pdf:pdf
+    \endverb
+    \field{journaltitle}{PLoS ONE}
+    \field{year}{2011}
+  \endentry
+
   \entry{Kingma2015}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=KDP}{%
@@ -3703,6 +4402,114 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Liu2017}{article}{}
+    \name{author}{9}{}{%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Ziqing},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CO}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Olivia},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WJBJ}{%
+         family={Wall},
+         familyi={W\bibinitperiod},
+         given={J.\bibnamedelima Blake\bibnamedelima Joseph},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={{Ruth Vaseghi}},
+         familyi={R\bibinitperiod},
+         given={Haley},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=QL}{%
+         family={Qian},
+         familyi={Q\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jiandong},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{2A}
+    \strng{namehash}{LZ+1}
+    \strng{fullhash}{LZCOWJBJZMZYWLRHQLLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Cloning of multiple genes in a single vector has greatly facilitated both
+  basic and translational studies that require co-expression of multiple
+  factors or multi-units of complex protein. Many strategies have been adopted,
+  among which 2A "self-cleaving" peptides have garnered increased interest for
+  their polycistronic nature, small size and high "cleavage" efficiency.
+  However, broad application of 2 A peptides is limited by the lack of
+  systematic comparison of different 2As alone or in combination. Here we
+  characterized the effect of varying gene position and 2As on the expression
+  of proteins encoded in bi-, tri-, or quad-cistronic constructs. Using direct
+  cardiac reprogramming as an example, we further determined the effect of
+  varied 2As on the efficiency of fluorescent cell labeling and cell fate
+  conversion. We found that the expression of fluorophores decreased as it was
+  moved towards the end of the construct while reprogramming was most efficient
+  with the fluorophore at the second position. Moreover, quad-cistronic TPE2A
+  constructs resulted in more efficient reprogramming than 3P2A or PTE2A
+  constructs. We expect that the bi-, tri-, and quad-cistronic vectors
+  constructed here and our results on protein expression ratios from different
+  2A constructs could serve to guide future utilization of 2A peptides in basic
+  research and clinical applications.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41598-017-02460-2
+    \endverb
+    \field{issn}{20452322}
+    \field{number}{1}
+    \field{title}{{Systematic comparison of 2A peptides for cloning multi-genes
+  in a polycistronic vector}}
+    \verb{url}
+    \verb www.nature.com/scientificreports/
+    \endverb
+    \field{volume}{7}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/41598_2017_2460_MOESM1_ESM.p
+    \verb df:pdf;:Users/blandt/Documents/Mendeley Desktop/Liu et al. - Unknown
+    \verb - Systematic comparison of 2A peptides for cloning multi-genes in a p
+    \verb olycistronic vector OPEN.pdf:pdf
+    \endverb
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2017}
+  \endentry
+
   \entry{Minaee2021}{article}{}
     \name{author}{6}{}{%
       {{hash=MS}{%
@@ -4094,6 +4901,106 @@
     \endverb
     \field{journaltitle}{Developmental Cell}
     \field{year}{2004}
+  \endentry
+
+  \entry{Pan2017}{article}{}
+    \name{author}{9}{}{%
+      {{hash=PD}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Dongqing},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Klare},
+         familyi={K\bibinitperiod},
+         given={Kerstin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Petrovic},
+         familyi={P\bibinitperiod},
+         given={Arsen},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Take},
+         familyi={T\bibinitperiod},
+         given={Annika},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Walstein},
+         familyi={W\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Priyanka},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rondelet},
+         familyi={R\bibinitperiod},
+         given={Arnaud},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BAW}{%
+         family={Bird},
+         familyi={B\bibinitperiod},
+         given={Alexander\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Musacchio},
+         familyi={M\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{2A}
+    \strng{namehash}{PD+1}
+    \strng{fullhash}{PDKKPATAWKSPRABAWMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Centromeres are unique chromosomal loci that promote the assembly of
+  kinetochores, macromolecular complexes that bind spindle microtubules during
+  mitosis. In most organisms, centromeres lack defined genetic features.
+  Rather, they are specified epigenetically by a centromere-specific histone H3
+  variant, CENP-A. The Mis18 complex, comprising the Mis18$\alpha$:
+  Mis18$\beta$ subcomplex and M18BP1, is crucial for CENP-A homeostasis. It
+  recruits the CENP-A-specific chaperone HJURP to centromeres and primes it for
+  CENP-A loading. We report here that a specific arrangement of Yippee domains
+  in a human Mis18$\alpha$:Mis18$\beta$ 4:2 hexamer binds two copies of M18BP1
+  through M18BP1's 140 N-terminal residues. Phosphorylation by Cyclin-dependent
+  kinase 1 (CDK1) at two conserved sites in this region destabilizes binding to
+  Mis18$\alpha$:Mis18$\beta$, limiting complex formation to the G1 phase of the
+  cell cycle. Using an improved viral 2A peptide co-expression strategy, we
+  demonstrate that CDK1 controls Mis18 complex recruitment to centromeres by
+  regulating oligomerization of M18BP1 through the Mis18$\alpha$:Mis18$\beta$
+  scaffold.%
+    }
+    \verb{doi}
+    \verb 10.7554/eLife.23352.001
+    \endverb
+    \field{issn}{2050084X}
+    \field{title}{{CDK-regulated dimerization of M18BP1 on a Mis18 hexamer is
+  necessary for CENP-A loading}}
+    \field{volume}{6}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Akhtar et al. - Unknown - CD
+    \verb K-regulated dimerization of M18BP1 on a Mis18 hexamer is necessary fo
+    \verb r CENP-A loading.pdf:pdf;:Users/blandt/Documents/Mendeley Desktop/eli
+    \verb fe-23352-supp1-v4.doc:doc
+    \endverb
+    \field{journaltitle}{eLife}
+    \field{year}{2017}
   \endentry
 
   \entry{Petrasek2008}{article}{}
@@ -5352,6 +6259,36 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Stiernagle2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Stiernagle},
+         familyi={S\bibinitperiod},
+         given={Theresa},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1895/wormbook.1.101.1
+    \endverb
+    \field{issn}{15518507}
+    \field{number}{1999}
+    \field{pages}{1\bibrangedash 11}
+    \field{title}{{Maintenance of C. elegans.}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/strainmaintain.pdf:pdf
+    \endverb
+    \field{journaltitle}{WormBook : the online review of C. elegans biology}
+    \field{year}{2006}
+  \endentry
+
   \entry{Sun2019}{article}{}
     \name{author}{4}{}{%
       {{hash=SS}{%
@@ -5658,6 +6595,109 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Wu2018b}{article}{}
+    \name{author}{9}{}{%
+      {{hash=WWS}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Wei\bibnamedelima Sheng},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HWC}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Wei\bibnamedelima Che},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BJS}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Jordan\bibnamedelima S},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Donglei},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Xiaoyan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Hao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tu},
+         familyi={T\bibinitperiod},
+         given={Shikui},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Weng},
+         familyi={W\bibinitperiod},
+         given={Zhiping},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LHC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Heng\bibnamedelima Chi},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WWS+1}
+    \strng{fullhash}{WWSHWCBJSZDSXCHTSWZLHC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{extrayear}{1}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    pirScan is a web-based tool for identifying C. elegans piRNA-targeting
+  sites within a given mRNA or spliced DNA sequence. The purpose of our tool is
+  to allowC. elegans researchers to predict piRNA targeting sites and to avoid
+  the persistent germline silencing of transgenes that has renderedmany
+  constructs unusable. pirScan fulfills this purpose by first enumerating the
+  predicted piRNA-targeting sites present in an input sequence. This prediction
+  can be exported in a tabular or graphical format. Subsequently, pirScan
+  suggests silent mutations that can be introduced to the input sequence that
+  would allow the modified transgene to avoid piRNA targeting. The user can
+  customize the piRNA targeting stringency and the silent mutations that he/she
+  wants to introduce into the sequence. The modified sequences can be
+  re-submitted to be certain that any previously present piRNA-targeting sites
+  are now absent and no new piRNA-targeting sites are accidentally generated.
+  This revised sequence can finally be downloaded as a text file and/or
+  visualized in a graphical format.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gky277
+    \endverb
+    \field{issn}{13624962}
+    \field{number}{W1}
+    \field{pages}{W43\bibrangedash W48}
+    \field{title}{{PirScan: A webserver to predict piRNA targeting sites and to
+  avoid transgene silencing in C. elegans}}
+    \verb{url}
+    \verb http://cosbi4.
+    \endverb
+    \field{volume}{46}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Wu et al. - 2018 - pirScan a
+    \verb  webserver to predict piRNA targeting sites and to avoid transgene si
+    \verb lencing in C. elegans.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{year}{2018}
+  \endentry
+
   \entry{Wu2018}{article}{}
     \name{author}{6}{}{%
       {{hash=WY}{%
@@ -5703,6 +6743,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
+    \field{extrayear}{2}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \verb{doi}
@@ -5801,6 +6842,83 @@
     \endverb
     \field{journaltitle}{Journal of Cell Science}
     \field{year}{2017}
+  \endentry
+
+  \entry{Zipperlen2001}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZP}{%
+         family={Zipperlen},
+         familyi={Z\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FAG}{%
+         family={Fraser},
+         familyi={F\bibinitperiod},
+         given={A.\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=KRS}{%
+         family={Kamath},
+         familyi={K\bibinitperiod},
+         given={R.\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MCM}{%
+         family={Martinez-Campos},
+         familyi={M\bibinitperiod-C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Ahringer},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Caenorhabditis elegans,Embryogenesis,RNAi,Video recordings}
+    \strng{namehash}{ZP+1}
+    \strng{fullhash}{ZPFAGKRSMCMAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Early embryonic development involves complex events such as the regulation
+  of cell division and the establishment of embryonic polarity. To identify
+  genes involved in these events, we collected four-dimensional time-lapse
+  video recordings of the first three cell divisions and analysed terminal
+  phenotypes after RNA interference of 147 embryonic lethal genes previously
+  identified in a systematic screen of Caenorhabditis elegans chromosome I.
+  Over half gave defects in early processes such as meiosis, the assembly or
+  position of the first mitotic spindle, cytokinesis, and proper nuclear
+  positioning. For some phenotypic classes, the majority of genes are involved
+  in a shared biochemical process. In addition, we identified loss-of-function
+  phenotypes for genes of unknown function, but for which homologues exist in
+  other organisms, shedding light on the function of these uncharacterized
+  genes. When applied to the whole genome, this approach should identify the
+  vast majority of genes required for early cell processes, paving the way for
+  a greatly improved understanding of these processes and their regulation at
+  the molecular level.%
+    }
+    \verb{doi}
+    \verb 10.1093/emboj/20.15.3984
+    \endverb
+    \field{issn}{02614189}
+    \field{number}{15}
+    \field{pages}{3984\bibrangedash 3992}
+    \field{title}{{Roles for 147 embryonic lethal genes on C. elegans
+  chromosome I identified by RNA interference and video microscopy}}
+    \field{volume}{20}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/The EMBO Journal - 2001 - Zi
+    \verb pperlen - Roles for 147 embryonic lethal genes on C elegans chromosom
+    \verb e I identified by RNA.pdf:pdf
+    \endverb
+    \field{journaltitle}{EMBO Journal}
+    \field{year}{2001}
   \endentry
 \endsortlist
 \endinput

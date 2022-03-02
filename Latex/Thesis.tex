@@ -23,6 +23,10 @@
 \usepackage{csvsimple}
 \usepackage[backend=bibtex,style=authoryear, natbib=true]{biblatex} %
 \usepackage{textgreek}
+\usepackage{tabularx}
+\usepackage{ltablex}
+\usepackage{seqsplit}
+\usepackage{longtable,tabu}
 \addbibresource{bibliography.bib}
 
 
@@ -1483,7 +1487,7 @@ This nonlinearity can be considered a form of positive feedback in which the eff
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\chapter{Modelling dimerisation-driven positive feedback in the PAR network}
+\chapter{Assessing the impacts of PAR-2 dimerisation in polarity models}
 
 \textbf{Detailed contributions:}\\
 
@@ -1654,32 +1658,425 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 \clearpage
 \chapter{Materials and methods}
 
-\clearpage
-\section{Worm maintenance}
-\section{Generating transgenic lines by CRISPR}
+\section{\textit{C. elegans} methods}
 
-\begin{figure}[!h]
+\subsection{Worm maintenance}
+
+\textit{C. elegans} strains were maintained at 20$^{\circ}$C on nematode growth media (NGM) seeded with OP50 bacteria \citep{Stiernagle2006}. 
+
+
+\subsection{Worm strains}
+
+Strains used in this study are listed in table \ref{tab:worm_lines}.\\
+
+
+\begin{longtabu} to \textwidth {
+    >{\scriptsize}X[1,l]
+    >{\scriptsize}X[1,l]
+    >{\scriptsize}X[3,l]
+    >{\scriptsize}X[1,l]}
+    
+\hline
+\textbf{Strain} & \textbf{Description} & \textbf{Genotype} & \textbf{Source} \\ \hline
+\endhead
+%
+N2 & Wild type & Wild type & Wild type \\ \hline
+NWG0285 & LGL-1::GFP & lgl-1(crk66{[}lgl-1::gfp{]}) X & Goehring lab (Nisha Hirani) \\ \hline
+KK1216 & PAR-3::GFP & par-3(it298{[}par-3::gfp{]}) III & Ken Kemphues \\ \hline
+KK1248 & PAR-6::GFP & par-6(it310{[}par-6::gfp{]}) I & Ken Kemphues \\ \hline
+NWG0033 & mCh::MEX-5 & unc-119(ed3) III; axIs1731{[}pie1p::mcherry::mex-5::pie-1 3'UTR + unc-119   (+){]} & Goehring lab (derived from JH2840 (Geraldine Seydoux)) \\ \hline
+NWG0119 & PAR-6::GFP, mCh::MEX-5 & par-6(it310{[}par-6::gfp{]}) I; unc-119(ed3) III;   axIs1731{[}pie-1p::mcherry::mex-5::pie-1 3'UTR + unc-119 (+){]} & Goehring lab (parent strains: KK1248, NWG0033) \\ \hline
+LP637 & mNG::PAR-2 & par-2(cp329{[}mNG-C1\textasciicircum{}PAR-2{]}) III & Dan Dickinson \\ \hline
+NWG0347 & mNG (glh::T2A) & glh-1(crk148{[}glh-1::T2A::mNG::INPP4A{]}) I & This study \\ \hline
+NWG0378 & mNG (glh::tPT2A) & glh-1(crk150{[}glh-1::tPT2A::mNG::INPP4A{]}) I & This study \\ \hline
+OD58 & GFP::PH & unc-119(ed3) III; ltIs38{[}pAA1; pie-1::GFP::PH(PLC1 d1) + unc-119(+){]} & Karen Oegema \\ \hline
+SV2061 & ePDZ::mCh;   PH::eGFP::LOV & ttTi5605(he314{[}Ppie-1::glo-epdz::mcherry(smu-1)::tbb-2(3'UTR){]})   II; cxTi10816(he259{[}Peft-3::ph::co-egfp::co- lov::tbb-2(3'UTR){]}) IV & Sander van den Heuvel \\ \hline
+NWG0206 & ePDZ::mCh & ttTi5605(he314{[}Ppie-1::glo-epdz::mcherry(smu-1)::tbb-2(3'UTR){]})   II & This study (derived from SV2061) \\ \hline
+KK1273 & GFP::PAR-2 & par-2 (it328{[}gfp::par-2{]}) III & Ken Kemphues \\ \hline
+NWG0066 & GFP::PAR-2(AxA) & par-2(crk5{[}par-2(AxA)::gfp{]}*KK1273) III & Goehring lab (Nisha Hirani) \\ \hline
+NWG0190 & GFP::PAR-2(R163A) & par-2(crk28{[}par-2(R163A)::gfp{]}*KK1273) III & Goehring lab (Nisha Hirani) \\ \hline
+NWG0192 & GFP::PAR-2(R183-5A) & par-2(crk30{[}par-2(R183-5A)::gfp{]}*KK1273) III & Goehring lab (Nisha Hirani) \\ \hline
+NWG0214 & GFP::PAR-2(C56S) balanced & par-2(crk34{[}par-2(C56S)::gfp{]}*KK1273)/sC1(s2023) {[}dpy-1(s2170) umnIs21{]}   III{]} & Goehring lab (Nisha Hirani) \\ \hline
+CGC32 & sC1 balancer & sC1(s2023) {[}dpy-1(s2170) umnIs21{]} III{]}. & CGC \\ \hline
+KK571-Q & par-3 (it71) & lon-1(e185)   par-3(it71) / qC1 dpy-19(e1259) glp-1(q339){[}qIs26{]} III & Goehring lab (derived from KK571 (Ken Kemphues) and JK2533 (CGC)) \\ \hline
+NWG0123 & GFP::PAR-2, par-3 (it71) & par-2(it328{[}gfp::par-2{]}); lon-1(e185) par-3(it71) / qC1 dpy-19(e1259)   glp-1(q339){[}qIs26{]} III & This study (parent strains: KK1273 and KK571-Q) \\ \hline
+NWG0178 & GFP::PAR-2(AxA), par-3 (it71) & par-2(crk5{[}par-2(AxA)::gfp{]}*KK1273); lon-1(e185) par-3(it71) / qC1   dpy-19(e1259) glp-1(q339){[}qIs26{]} III & This study (parent strains: NWG0066 and KK571-Q) \\ \hline
+NWG0218 & GFP::PAR-2(R163A), par-3 (it71) & par-2(crk28{[}par-2(R163A)::gfp{]}*KK1273); lon-1(e185) par-3(it71) / qC1   dpy-19(e1259) glp-1(q339){[}qIs26{]} III & This study (parent strains: NWG0190 and KK571-Q) \\ \hline
+NWG0217 & GFP::PAR-2(R183-5A), par-3 (it71) & par-2(crk30{[}par-2(R183-5A)::gfp{]}*KK1273); lon-1(e185) par-3(it71) / qC1   dpy-19(e1259) glp-1(q339){[}qIs26{]} III & This study (parent strains: NWG0192 and KK571-Q) \\ \hline
+NWG0222 & GFP::PAR-2(C56S), par-3 (it71) & par-2(crk34{[}par-2(C56S)::gfp{]}*KK1273);   lon-1(e185)par-3(it71)/qC1dpy-19(e1259)glp-1(q339){[}qIs26{]} II & This study (parent strains: NWG0214 and KK571-Q) \\ \hline
+NWG0201 & mNG::PAR-2, par-3 (it71) & par-2(cp329{[}mNG-C1\textasciicircum{}PAR-2{]}); lon-1(e185) par-3(it71) / qC1 dpy-19(e1259)   glp-1(q339){[}qIs26{]} III & This study (parent strains: LP637 and KK571-Q) \\ \hline
+NWG0240 & mNG::PAR-2(C56S) & par-2(crk41{[}mNG::par-2(C56S){]}*LP637) / sC1(s2023) {[}dpy-1(s2170) umnIs21{]}   III{]} & This study \\ \hline
+NWG0246 & mNG::PAR-2(C56S), par-3 (it71) & par-2(crk41{[}mNG::par-2(C56S){]}*LP637); lon-1(e185) par-3(it71) / qC1   dpy-19(e1259) glp-1(q339){[}qIs26{]} III & This study (parent strains: NWG0240 and KK571-Q) \\ \hline
+NWG0269 & GFP::PAR-2(K351A) & par-2(crk53{[}par-2(K351A)::gfp{]}*KK1273) III & This study \\ \hline
+NWG0274 & GFP::PAR-2(K94A) & par-2(crk58{[}par-2(K94A)::gfp{]}*KK1273) III & This study \\ \hline
+NWG0231 & Tomm20(1-55)::GBP::mKate & unc-119(ed3)   III; crkSi3{[}pTB001: mex-5p::Tomm20(1-55)::GBP::mKate::nmy-2UTR + unc-119(+){]} & This study \\ \hline
+NWG0247 & Tomm20(1-55)::GBP::mKate(Y65A) & unc-119(ed3)   III; crkSi3(crk44{[}mex-5p::Tomm20(1-55)::GBP::mKate(Y65A)::nmy-2UTR{]}*NWG231{]} +   unc-119(+)) & This study \\ \hline
+NWG0250 & Tomm20(1-55)::GBP::mKate(Y65A); mCherry::PAR-2 & crkSi3(crk44{[}mex-5p::Tomm20(1-55)::GBP::mKate(Y65A)::nmy-2UTR{]}*NWG231{]}   + unc-119(+)); par-2 (it315{[}mCherry::par-2{]}) & This study (parent strains: NWG0247 and KK1254 (Ken Kemphues)) \\ \hline
+NWG0313 & GFP::PAR-2(1-177)::PH & crkSi4{[}pTB005:   mex-5p::GFP::PAR-2(1-177)::PH::nmy-2UTR{]} & This study \\ \hline
+NWG0373 & GFP::PAR-2(1-177, C56S)::PH & crkSi5{[}pTB006:   mex-5p::GFP::PAR-2(1-177, C56S)::PH::nmy-2UTR{]} & This study \\ \hline
+NWG0421 & mNG::PAR-2(1-177) & glh-1(crk153{[}glh-1::tPT2A::mNG::par-2(1-177){]}) I & This study \\ \hline
+NWG0325 & mNG::PAR-2 balanced & par-2(cp329{[}mNG-C1\textasciicircum{}PAR-2{]}) / sC1(s2023) {[}dpy-1(s2170) umnIs21{]} III{]} & This study (derived from LP637 and CGC32) \\ \hline
+NWG0400 & mNG::PAR-2(L50R) balanced & par-2(crk114{[}mNG::par-2(L50R){]}*LP637) / sC1(s2023) {[}dpy-1(s2170) umnIs21{]}   III{]} & This study \\ \hline
+NWG0338 & mNG::PAR-2(L109R) balanced & par-2(crk82{[}mNG::par-2(L109R){]}*LP637) / sC1(s2023) {[}dpy-1(s2170) umnIs21{]}   III{]} & This study \\ \hline
+NWG0351 & mNG::PAR-2(L50R, L109R) balanced & par-2(crk89{[}mNG::par-2(L50R){]}*NWG0338) / sC1(s2023) {[}dpy-1(s2170)   umnIs21{]} III{]} & This study \\ \hline
+NWG0407 & mNG::PAR-2(C56S, L109R) balanced & par-2(crk120{[}mNG::par-2(C56S, L109R){]}*LP637) / sC1(s2023) {[}dpy-1(s2170)   umnIs21{]} III{]} & This study \\ \hline
+NWG0369 & mNG::PAR-2(L109R), par-3 (it71) & par-2(crk82{[}mNG::par-2(L109R){]}*LP637) lon-1(e185) par-3(it71) / qC1   dpy-19(e1259) glp-1(q339){[}qIs26{]} III & This study (parent strains: NWG0338 and KK571-Q) \\ \hline
+\mycaption{\textit{C. elegans} strains}{}
+\label{tab:worm_lines}
+\end{longtabu}
+
+
+\subsection{RNA interference}
+
+RNAi was performed using the feeding method described in \textcite{Kamath2003}. Bacterial feeding clones were grown in LB liquid culture with ampicillin (50 \textmu g/mL) for 16 hours at 37$^{\circ}$C in a shaking incubator. dsRNA expression was then induced with IPTG (5 mM), and 150 mL bacteria were struck onto 60 mm NGM agar plates, which were then incubated at room temperature for 24 hours. To obtain complete gene depletions, L4 worms were added to plates and incubated at 20$^{\circ}$C for 24 hours before imaging. To obtain graded depletions, adult/L4 worms were left on plates for 0-24 hours.\\
+
+\subsection{Brood size assays}
+
+Young adult worms were left on individual plates for 5 hours to lay eggs. Worms were then removed from  plates, and the plates were left at 20$^{\circ}$C. After two days, the number of L4s and unhatched eggs on the plates were counted, and embryonic lethality was calculated as the fraction of total progeny that failed to hatch (i.e. unhatched eggs / (L4s + unhatched eggs)). On the third day, the number of gravid and sterile adults were counted, and adult sterility was calculated as the fraction of sterile adults amongst the total population of adult worms (i.e. sterile / (gravid + sterile)).
+
+\section{CRISPR}
+
+\subsection{Overview of CRISPR strategies}
+
+\subsubsection{Point mutations}
+
+In general, this process involved designing CRISPR guides to target the site of the mutation, designing a repair template to add the point mutation, injecting, screening progeny by PCR and sequencing. Guide RNAs were identified using the CRISPOR tool \citep{Concordet2018}. Two guides close to the target site were selected for each mutation, and ordered from IDT as Alt-R crRNA. Point mutations were incorporated into 200 bp repair templates homologous to the target region, which were ordered as ultramer oligomers from IDT. To aid screening, silent restriction sites were also added to each repair template close to the target site. CRISPR target sites were also silently mutated to prevent repaired sequences from being re-targeted, either through silent mutation to the PAM sites, or a series of silent mutations to the guide target sites. \\
+
+crRNA guides were annealed with tracrRNA (IDT) by combining 0.5 \textmu L tracrRNA (4 mg/ml) with 2.75 \textmu L guide and 2.75 \textmu L duplex buffer (IDT), and incubating at 95$^{\circ}$C for 5 minutes. 20 \textmu l of injection mix was prepared containing annealed crRNA, the repair template and Cas9 enzyme from IDT (recipe in table \ref{tab:par2_crispr_recipe}). Injection mixes also contained constructs for dpy-10 co-CRISPR using the strategy described in \textcite{Arribere2014}, which is designed to produce a dominant roller phenotype following successful CRISPR. OR UNC. Injection mixes were incubated at 37$^{\circ}$C for 10 minutes and centrifuged at 14,000 rpm for 10 minutes. The gonads of 10-20 young adult worms were injected, and worms were left at 20$^{\circ}$C.\\
+
+Approximately 50 F1 roller worms were singled from each set of injections, left for 24 hours to lay eggs, and screened by single worm PCR using appropriate primers and restriction digest using the appropriate restriction enzyme. Candidate heterozygous lines could be identified based on the cutting pattern of the PCR product. F2 worms were then screened in a similar way to test for homozygosity, and homozygous worms sequenced to confirm incorporation of the intended DNA sequence. Up to two independent lines were saved for each mutant.\\
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Volume (\textmu l)} & \textbf{Component} \\ \hline
+1 & first tracrRNA/crRNA complex for target site \\ \hline
+1 & second tracrRNA/crRNA complex for taget site \\ \hline
+1 & repair template for target site (100 \textmu M) \\ \hline
+1 & tracrRNA/crRNA complex for dpy-10 \\ \hline
+0.5 & repair template for dpy-10 (100 \textmu M) \\ \hline
+13.5 & H20 \\ \hline
+1 & Cas9 (10 mg/ml) \\ \hline
+\end{tabular}
+\mycaption{Injection mix recipe for PAR-2 point mutants}{}
+\label{tab:par2_crispr_recipe}
+\end{table}
+
+\subsubsection{Small insertions}
+
+Small insertions were carried out using the same strategy as above, by incorporating insertion sequences into ultramer repair templates. In general, screening can be carried out based on the size of the PCR product, so restriction digests are not required.
+
+\subsubsection{Large insertions}
+
+In this project, I used two strategies to insert long sequences. MOS SITE METHOD\\
+
+An alternative method, developed by \textcite{Dokshin2018} uses a similar approach to the method described above for point mutations and small insertions, but uses PCR to generate a double-stranded repair template with single-strand overhangs, which allows longer sequences to be inserted. For each insert, the procedure involves generating a PCR product containing the insert sequence (short product), and a separate PCR product containing the insert flanked by additional 100 bp homology arms (long product). The two PCR products are then PCR purified (Qiagen, QIAquick PCR purification kit), mixed in equimolar amounts, denatured at 95$^{\circ}$C, and annealed by gradually cooling to room temperature. This creates a mixture double stranded molecules, approximately half of which will be hybrid short/long molecules with single stranded overhangs. Using the entire reaction mix as a repair template, the rest of the procedure is similar to section x. \\
+
+\subsection{Testing a method for insertions at the \textit{glh-1} site}
+
+Germline silencing commonly limits, or entirely prevents, expression of transgenes in early embryos. Recently, \textcite{Goudeau2021} developed an expression approach that takes advantage of \textit{glh-1}, which encodes for a germline helicase protein which is highly expressed in the germline. The method involves inserting coding sequence for a gene of interest at the 3' end of the endogenous \textit{glh-1} gene (immediately prior to the stop codon), preceded by a T2A ribosome skipping sequence. High expression of GLH-1 yields high expression of the protein of interest, and T2A promotes ribosome skipping to separate the protein from GLH-1. This leaves a 17 amino acid scar at the C-terminus of GLH-1, but only a single proline at the N-terminus of the second protein.\\
+
+To test the potential utility of this method, and to serve as a base for future line generation, I began by expressing free NeonGreen fluorphore. I targeted the 3' end of \textit{glh-1} with crRNA guides TB0105 and TB0106. To generate the short repair template product containing the insert sequence, I designed primers (TB0107 and TB0108) to amplify the mNG sequence from plasmid pDD268 (Dan Dickinson). To promote ribosomal skipping, I included a T2A sequence in the forward primer upstream of mNG. To aid future insertions, I also included INPP4A, an optimised guide RNA sequence \citep{Duan2020}, downstream of mNG in the reverse primer. The long product was generated by amplifying the short product with primers TB0109 and TB0110, which contain 100bp homology arms to the insertion site. A schematic of the overall target sequence is shown in \cref{fig:glh}Ai.\\
+
+Following the protocol described above, I successfully inserted T2A::mNG::INPP4A at the \textit{glh-1} site. Imaging embryos revealed high expression of mNG, but also revealed puncta in the posterior of embryos representing a small amount of GLH-1::mNG fusion protein (\cref{fig:glh}B). Whilst highly efficient in vitro, 2A peptides have been shown to result in incomplete ribosome skipping in a range of in vivo systems, which can lead to a small amount of unseparated fusion protein \citep{Kim2011}. In mouse and HeLa cell lines, the efficiency of ribosome skipping has been shown to increase by including an additional P2A sequence (an alternative ribosome skipping sequence) in tandem with T2A (known as tandem P2A-T2A, or tPT2A), which entirely removes fusion protein expression without affecting overall expression levels \citep{Liu2017, Pan2017}. To test this approach, I inserted a P2A sequence upstream of T2A by CRISPR, targeting the site with guides TB0122 and TB0123, and using TB0124 as a repair template (ordered as an ultramer oligomer by IDT). A schematic of the overall target sequence is shown in fig \cref{fig:glh}Aii. After inserting this additional sequence, visible expression of GLH-1::mNG fusion protein was successfully prevented (\cref{fig:glh}B), without any change in overall expression levels (\cref{fig:glh}C).\\
+
+\begin{figure}
 \includegraphics[scale=1]{glh}
-\setlength{\abovecaptionskip}{20pt}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{Free NeonGreen expression using the \textit{glh-1} site method}{
+\textbf{(A)}
+\textbf{(B)}
+\textbf{(C)}
+}
 \label{fig:glh}
 \end{figure}
 
+To express N-terminal fusion proteins, the INPP4A site can then be targeted with guide TB0113, and sequences inserted via a repair template with 5' homology to mNG and 3' homology to the \textit{glh-1} 3' UTR (including the stop codon). Long sequences should be inserted using the \textcite{Dokshin2018} method described above, or via a plasmid repair template, although shorter sequences may be inserted using an single-stranded oligomer repair template. \\
+
+Guide RNA sequences are shown in table \ref{tab:glh_guides}, and primer sequences for repair templates are shown in table \ref{tab:glh_templates}.\\
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{crRNA} & \textbf{Sequence} \\ \hline
+TB0105 & CAAGTCCCTCAAGATGAAGA \\ \hline
+TB0106 & TCCCTCAAGATGAAGAAGGC \\ \hline
+TB0122 & GGACGAGGAGGGGTGGGGAT \\ \hline
+TB0123 & GGAGGGGTGGGGATCGGGAG \\ \hline
+TB0113 & TGTATCAGTTCGATATCTGA \\ \hline
+\end{tabular}
+\mycaption{CRISPR guides for \textit{glh-1} site insertions}{}
+\label{tab:glh_guides}
+\end{table}
+
+\begin{table}[]
+\footnotesize
+\begin{tabularx}{400pt}{|l|X|}
+\hline
+\textbf{Primer} & \textbf{Sequence} \\ \hline
+TB0107 & \seqsplit{GGATCGGGAGAGGGACGTGGATCCCTTCTTACCTGCGGAGACGTCGAGGAGAACCCAGGACCAGGAGCATCGGGAGCCTCAGGAGCATCGATGGTCTCCAAGGGAGAGGA} \\ \hline
+TB0108 & \seqsplit{TCCGTCAGATATCGAACTGATACACTTGTAGAGCTCGTCCATTC} \\ \hline
+TB0109 & \seqsplit{TGTTCCAGACTGGATGCAAGGTGCTGCTGGAGGCAATTACGGAGCTAGTGGATTTGGGTCCAGTGTACCAACTCAAGTCCCGCAGGACGAGGAGGGGTGGGGATCGGGAGAGGGACGTGG} \\ \hline
+TB0110 & \seqsplit{CACCAACAAATACAATTAAAAATCAACAAGGGCAGGATAAAATATGGGGGAACTGACAGCATTAATAAATGCGAAACACTATCAATTGGTCGGTTTTCTATCCGTCAGATATCGAACTGA} \\ \hline
+TB0124 & \seqsplit{CAATTACGGAGCTAGTGGATTTGGGTCCAGTGTACCAACTCAAGTCCCGCAGGACGAGGAGGGGTGGGGTAGTGGTGCTACCAACTTTTCCCTCTTAAAGCAAGCCGGAGACGTTGAGGAGAATCCAGGACCTGGATCGGGAGAGGGACGTGGATCCCTTCTTACCTGCGGAGACGTCGAGGAGAACCCAGGACCAGGA}G \\ \hline
+\end{tabularx}
+\mycaption{Primer sequences for \textit{glh-1} site insertion repair templates}{}
+\label{tab:glh_templates}
+\end{table}
+
+\subsection{PAR-2 point mutations}
+
+I designed constructs and performed CRISPR for four point mutations (K351A, K94A, L50R and L109R), and performed CRISPR for one other with constructs designed by Nisha Hirani (C56S). Other mutants were designed and performed by Nisha Hirani (AxA, R163A, R183-5A). A summary of the reagents used for each mutant is shown in table \ref{tab:par2_crispr_summary}. Guide RNA sequences are shown in table \ref{tab:par2_crispr_guides}. Repair template sequences are shown in table \ref{tab:par2_crispr_templates}. PCR screening/sequencing primers are shown in table \ref{tab:par2_crispr_primers}.\\
+
+\begin{table}[]
+\footnotesize
+\begin{tabularx}{400pt}{|X|X|X|X|X|}
+\hline
+\textbf{Mutant} & \textbf{Guides RNAs} & \textbf{Repair template} & \textbf{Screening primers} & \textbf{Screening enzyme} \\ \hline
+C56S & NH0379, NH0380 & NH0381 & NH0383, NH0384 & MfeI \\ \hline
+K351A & TB0046, TB0047 & TB0048 & TB0044, TB0045 & FauI \\ \hline
+K94A & TB0041, TB0042 & TB0043 & TB0036, TB0037 & AlwI \\ \hline
+L50R & NH0379, NH0380 & TB0119 & NH0383, NH0384 & MfeI \\ \hline
+L109R & TB0041, TB0042 & TB0101 & TB0049, TB0050 & AlwI \\ \hline
+\end{tabularx}
+\mycaption{Summary of CRISPR strategies for PAR-2 point mutants}{}
+\label{tab:par2_crispr_summary}
+\end{table}
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{crRNA} & \textbf{Sequence} \\ \hline
+NH0379 & GCTGATCACACAGTGGACAG \\ \hline
+NH0380 & TCGAAAAGCTGATCACACAG \\ \hline
+TB0046 & GCGGCTTTTCATGCCGAAAA \\ \hline
+TB0047 & GGTGTCAAAAGTGTCGCCAG \\ \hline
+TB0041 & GTAATCTGTAAACTCGACGT \\ \hline
+TB0042 & CTGGGAATCATCGCTGCAAA \\ \hline
+\end{tabular}
+\mycaption{crRNA guides for PAR-2 CRISPR point mutants}{}
+\label{tab:par2_crispr_guides}
+\end{table}
+
+\begin{table}[]
+\footnotesize
+\begin{tabularx}{400pt}{|l|X|}
+\hline
+\textbf{Repair template} & \textbf{Sequence} \\ \hline
+NH0381 & \seqsplit{TGCATCAACGACGTTCAACAGCCGGTTCGACGCGATTTGAGCTCGGAACTCTTAAGCCCCCTGTGTGATCAATTGTTCGACAGGGTTAGAACATGGAAA} \\ \hline
+TB0048 & \seqsplit{CCAGCATAAGATCGCTCTGGAAGCGGCTTTTCATGCCGAAAAAAGTGTCAGCTGTGTCGCCCGCAGCCGTCCAGCTGCTGAGCCAATCGCCCAGCACCAC} \\ \hline
+TB0043 & \seqsplit{GACATACACGTGATACGAGAGCCTGTGTTATATGCGCACTGGACGTTGGACCATTCGCTGCCATGATCCCTAGCATTACACTTGATAATGTACGACGGAT} \\ \hline
+TB0119 & \seqsplit{TGCATCAACGACGTTCAACAGCCGGTTCGACGCGATAGGAGCTCGGAACTCTTATGTCCCCTGTGTGATCAATTGTTCGACAGGGTTAGAACATGGAAA} \\ \hline
+TB0101 & \seqsplit{GATACGAGAGCCTGTGTTATATGCAAACTGGACGTTGGACCATTCGCTGCCATGATCCCTAGCATTACACGTGATAATGTACGACGGATTTTGATGCGAA} \\ \hline
+\end{tabularx}
+\mycaption{Repair templates for PAR-2 CRISPR point mutants}{}
+\label{tab:par2_crispr_templates}
+\end{table}
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Primer} & \textbf{Sequence} \\ \hline
+NH0383 & GATTGCCAACTCATCGCCAC \\ \hline
+NH0384 & TCCGGCAAAATTGGGGTTTT \\ \hline
+TB0044 & CGCTCTCACCTCCAGGATTC \\ \hline
+TB0045 & ATTTTAGAACGAACGGCGGC \\ \hline
+TB0036 & ATCGTGTTTTTCGCCCTGGA \\ \hline
+TB0037 & AAACCCGACTTTTGGGGTCA \\ \hline
+TB0049 & AGAAACCCCAGTTTTTCAGCG \\ \hline
+TB0050 & TGAATTTTCGGCAAGATTTTCAAGGA \\ \hline
+\end{tabular}
+\mycaption{PCR screening primers for PAR-2 CRISPR point mutants}{}
+\label{tab:par2_crispr_primers}
+\end{table}
+
+
+\subsection{Mitochondrial GBP}
+
+I codon optimised amino acids 1 to 55 from the C. elegans tomm-20 gene, corrected for piRNA sites using the online pirScan tool \citep{Wu2018b} and ordered as a gBlock from IDT. I PCR amplified the sequence, and cloned it into plasmid pNG0019, previously used to construct PH::GBP::mKate2 \citep{Rodriguez2017}, replacing the PH plasma membrane localisation signal with TOMM-20(1-55). I inserted the resulting plasmid (pTB1) at the ttTi5605 mos1 site locus of HT1593 unc-119(ed3) worms by CRISPR, using the strategy described by \textcite{Dickinson2013}. \\
+
+Aiming to create an untagged version, I initially repeated the above procedure, cloning the TOMM20 1-55 sequence into the pNG0020 vector (PH::GBP), again removing PH and replacing with TOMM20 1-55, yielding the plamid pTB2 (TOMM20::GBP). Unfortunately, this construct failed to express in vivo, likely due to germline silencing. I hypothesised that the mKate sequence might prevent germline silencing in the full construct, possibly due the inclusion of introns. Therefore, as an alternative strategy to create an untagged line, I aimed to mutate the chromophore region of mKate to remove fluorescent signal \citep{Pletnev2008}. To do so, I designed guide RNAs to target the chromophore region of mKate (TB34, TB35), and designed a repair template (TB33) which included a Y65A mutation, changing the chromophore from MYG to MAG. Following the strategy described in section x, I successfully carried out the point mutation, and this was successful in eliminating fluorescence whilst maintaining expression.\\
+
+
+\subsection{Membrane tethered PAR-2 RING fragment}
+
+Firstly, I amplified the GFP sequence from pDD282 by PCR. Secondly, I codon optimised sequences for PH and PAR-2 (1-177), corrected for piRNAs, ordered PH::PAR-2(1-177) as a gBlock and amplified by PCR. Next, using Gibson assembly, I cloned both products into pRI21, a vector designed for inserting genes at the ttTi5605 mos1 locus under control of a \textit{mex-5} promoter and an \textit{nmy-2} 3' UTR. I inserted the resulting plasmid (pTB5) into the \textit{C. elegans} genome by CRISPR. To express a C56S form of the construct, I performed site directed mutagenesis on pTB5, generating pTB6, which was inserted by CRISPR in the same way.\\
+
+
+\subsection{RING domain fragment}
+
+To express mNG::PAR-2(1-177), I amplified the PAR-2(1-177) sequence from plasmid pTB5 using two sets of primers to create short (TB0115 and TB0144) and long (TB0117 and TB0145) products for the repair template. The sequence was then inserted at the \textit{glh-1} site using the protocol described in section x. Primer sequences for generating the repair template are shown in table \ref{tab:ring_fragment_template}.\\
+
+
+\begin{table}[]
+\footnotesize
+\begin{tabularx}{400pt}{|l|X|}
+\hline
+\textbf{Primer} & \textbf{Sequence} \\ \hline
+TB0115 & \seqsplit{GGTGGCAGCGGAGGTACCGGCGGTAGTGGAGGCACGATGACCGACCTTGATACCTC} \\ \hline
+TB0144 & \seqsplit{TGAGGAGCAGATGGTTGGCC} \\ \hline
+TB0117 & \seqsplit{CTTCCGTAAGACCGAGCTCAAGCACTCCAAGACCGAGCTCAACTTCAAGGAGTGGCAAAAGGCCTTCACCGACGTCATGGGAATGGACGAGCTCTACAAGGGTGGCAGCGGAGGTACCGGCGGTAGTGGAGGCACGATGACCGACCTTGATACCTC} \\ \hline
+TB0145 & \seqsplit{CACCAACAAATACAATTAAAAATCAACAAGGGCAGGATAAAATATGGGGGAACTGACAGCATTAATAAATGCGAAACACTATCAATTGGTCGGTTTTCTATGAGGAGCAGATGGTTGGCC} \\ \hline
+\end{tabularx}
+\mycaption{Primer sequences for generating PAR-2 RING repair template for insertion at the \textit{glh-1} site}{}
+\label{tab:ring_fragment_template}
+\end{table}
 
 
 \section{Microscopy}
-\section{Full-length PAR-2 purification}
-\section{Ubiquitination assays}
-\section{PAR-2 RING domain fragment purification}
-\section{SEC-MALS}
-\section{Image analysis}
+
+Two methods were used to mount embryos for microscopy. In some experiments, embryos were dissected from adult worms in 5 uL M9 buffer on a coverslip and mounted on 2\% agarose pads \citep{Zipperlen2001}. In other experiments, embryos were dissected in 8 uL egg buffer, and mounted between a slide and coverslip with 20 um polystyrene beads.\\
+
+Midplane confocal images were captured using 60x or 100x objective lenses on a Nikon TiE system equipped with an X-Light V1 spinning disk system (CrestOptics) with 50 um slits, Obis 488/561 nm fiber-coupled diode lasers (Coherent) and an Evolve delta camera (Photometrics). The system was controlled using Metamorph (Molecular Devices) and configured by Cairn Research.\\
+
+
+\section{In vitro methods}
+
+
+\subsection{Full-length PAR-2 purification}
+
+Full length PAR-2 purification was performed with Colin Davis in Anne Schreiber's lab at the Crick. We grew 4L of High Five insect cells, and infected cells with virus packaged with pNH0046, a vector containing FLAG-StrepII2X-tagged PAR-2. This vector was built by Nisha Hirani, by inserting the full-length PAR-2 sequence into pASC144 (based on pFBDM), a vector designed for expression of recombinant proteins in insect cells. The virus was prepared by Colin Davis.\\
+
+Infected cells were incubated at xC for 3 days, centrifuged, and pellets frozen at -80$^{\circ}$C. We then resuspended pellets in lysis buffer (recipe in table \ref{table:insect_cell_lysis_buffer}) and sonicated samples on ice. We then centrifuged sonicated samples and discarded pellets. Next, we performed strep pull-down on the supernatant using a StrepTactin column, and eluted strep-tagged protein with elution buffer (recipe in table \ref{table:insect_cell_elution_buffer}). We followed this with size exclusion chromatography using a Superdex 200 column.\\
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Component} & \textbf{Concentration} \\ \hline
+Tris pH 8.5 & 50 mM \\ \hline
+NaCl & 200 mM \\ \hline
+Glycerol & 5\% \\ \hline
+DTT & 2 mM \\ \hline
+EDTA free protease inhibitor tablet & 1 tablet per 50 ml buffer \\ \hline
+EDTA & 4 mM \\ \hline
+Leupeptin & 1 in 1000 \\ \hline
+Pepstatin & 1 in 1000 \\ \hline
+PMSF & 0.2 mM \\ \hline
+Benzamidine & 1 scoop per 250 ml buffer \\ \hline
+Pierce universal nuclease & 6 \textmu l per 100ml buffer \\ \hline
+\end{tabular}
+\mycaption{Lysis buffer for PAR-2 purification from insect cells}{}
+\label{table:insect_cell_lysis_buffer}
+\end{table}
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Component} & \textbf{Concentration} \\ \hline
+Tris pH 8.5 & 50 mM \\ \hline
+NaCl & 200 mM \\ \hline
+Glycerol & 5\% \\ \hline
+DTT & 2 mM \\ \hline
+Desthiobiotin & 2.5 mM \\ \hline
+\end{tabular}
+\mycaption{Elution buffer for PAR-2 purification from insect cells}{}
+\label{table:insect_cell_elution_buffer}
+\end{table}
+
+
+\subsection{Ubiquitination assays}
+
+Ubiquitination assays were performed with Diego Esposito from Katrin Rittinger's lab at the Crick. To perform assays, we set up 50 \textmu l of the reaction mix shown in table \ref{table:ubiquitin_assay}. Time point 0 was taken before addition of ATP, and reactions were started and run at 25$^{\circ}$C by the addition of ATP. At times 0, 30 and 60 min, 10 \textmu l of reaction mix was extracted mixed with 10 \textmu l of SDS loading buffer (loading dye + DTT).
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Component} & \textbf{Concentration} \\ \hline
+E1 (Ube1) & 0.5 uM \\ \hline
+E2 (UbcH5a or x) & 2.5 uM \\ \hline
+Ubiquitin & 50 uM \\ \hline
+ATP & 5 mM \\ \hline
+PAR-2 or TRIM2 & 4 uM \\ \hline
+HEPES pH 7.5 & 5 mM \\ \hline
+NaCl & 15 mM \\ \hline
+MgCl2 & 2 mM \\ \hline
+\end{tabular}
+\mycaption{Reaction mix for ubiquitination assays}{}
+\label{table:ubiquitin_assay}
+\end{table}
+
+\subsection{PAR-2 RING domain fragment purification}
+
+PAR-2 RING domain fragment purification was performed with Dave Briggs in Neil McDonald's lab at the Crick. Based on secondary structure prediction and sequence alignment, we identified amino acids 40-120 of PAR-2 as sufficient to contain the core RING domain and flanking dimerisation helices. I amplified this sequence from pNH46 using primers x and x and cloned into the pETM11 His-Sumo vector (obtained from the Crick Structural Biology STP), generating the plasmid pTB10, which I transformed into Rosetta (DE3) cells by electroporation.\\
+
+I grew 5ml overnight cultures of transformed cells and used these to inoculate 12x 500ml LB supplemented with 50mM zinc sulphate. Cells were grown in a shaking incubator at 37C to an OD600 of 0.6. At this point, we reduced the temperature to 16$^{\circ}$C, added 100uM IPTG and left cultures shaking overnight. The following day, we centrifuged the cultures and froze pellets at -80$^{\circ}$C until ready for subsequent steps.\\
+
+We began subsequent purification by resuspending pellets in lysis buffer containing protease inhibitors (recipe in table \ref{table:ecoli_lysis_buffer}) and sonicating samples on ice. We then centrifuged sonicated samples at high speed and discarded the pellets. We used the Ni-NTA agarose kit from Qiagen to pull His-tagged protein onto beads, and washed beads with lysis buffer without protease inhibitors, before eluting protein off beads with elution buffer (recipe in table \ref{table:ecoli_elution_buffer}).\\
+
+Next, to cleave the His-Sumo tag from the protein, we added the SUMO protease SenP2 (obtained from the Crick Structural Biology STP) at an approximate ratio of 1:1000, and left the sample overnight at 4$^{\circ}$C whilst dialysing in TBS with x dialysis tubing. We then removed cleaved tag from the sample using the Ni-NTA agarose kit.\\
+
+To remove any impurities from the sample, we performed ion exchange chromatography using x and size exclusion chromatography using x.\\
+
+To purify mutants of the RING domain, I performed site-directed mutagenesis on pTB10. For L109R I used primers x and x, generating the plasmid pTB13. For C56S I used primers x and x, generating the plasmid pTB11. We attempted to express and purify 1L (check) samples of both mutants. Whilst both were expressed in cells, we found that C56S was unstable during the purification process and we were unable to purify large quantities. L109R, on the other hand, was more stable, and we managed to purify sufficient quantities for one SEC MALS run.\\
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Component} & \textbf{Concentration} \\ \hline
+Tris pH 7.5 & 50 mM \\ \hline
+NaCl & 300 mM \\ \hline
+Imidazole & 20 mM \\ \hline
+TCEP & 0.5 mM \\ \hline
+\end{tabular}
+\mycaption{Lysis buffer for PAR-2 RING purification from bacteria}{}
+\label{table:ecoli_lysis_buffer}
+\end{table}
+
+\begin{table}[]
+\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Component} & \textbf{Concentration} \\ \hline
+Tris pH 7.5 & 20 mM \\ \hline
+NaCl & 300 mM \\ \hline
+Imidazole & 500 mM \\ \hline
+TCEP & 0.5 mM \\ \hline
+\end{tabular}
+\mycaption{Elution buffer for PAR-2 RING purification from bacteria}{}
+\label{table:ecoli_elution_buffer}
+\end{table}
+
+
+\subsection{SEC-MALS}
+
+SEC-MALS was performed with Dave Briggs in Neil McDonald's lab at the Crick. Samples were run over a size exclusion chromatography using a x column, and analysed by multi-angle laser light scattering (MALLS) using x. \\
+
+
 \section{Modelling methods}
+
+Text
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\chapter*{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}
-\addcontentsline{toc}{chapter}{Appendix: Analysis of PAR-2 diffusion kinetics by single particle tracking}
+\chapter*{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}
+\addcontentsline{toc}{chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}
+
+\textbf{Detailed contributions:}\\
+
+
+\begin{figure}
+\includegraphics[scale=0.4]{par2_phos_mutants}
+\centering
+\mycaption{Title}{Figure from Nisha Hirani}
+\label{fig:par2_phos_mutants}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\chapter*{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}
+\addcontentsline{toc}{chapter}{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}
+
+\textbf{Manuscript notes:}\\
 
 
 
@@ -1697,6 +2094,7 @@ where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and pl
 \clearpage
 \addcontentsline{toc}{chapter}{Bibliography}
 
+\AtNextBibliography{\scriptsize}
 \printbibliography
 
 \end{document}
