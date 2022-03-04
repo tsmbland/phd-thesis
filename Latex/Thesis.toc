@@ -224,8 +224,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{197}{chapter*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}{199}{chapter*.88}
+\contentsline {chapter}{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}{212}{chapter*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbreviations}{200}{chapter*.89}
+\contentsline {chapter}{Abbreviations}{213}{chapter*.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{201}{chapter*.89}
+\contentsline {chapter}{Bibliography}{214}{chapter*.93}

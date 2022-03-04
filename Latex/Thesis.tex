@@ -2060,15 +2060,85 @@ Text
 \chapter*{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}
 \addcontentsline{toc}{chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}
 
-\textbf{Detailed contributions:}\\
+\clearpage
+\section*{Introduction}
 
+PAR-2 polarity arises largely through phosphorylation by the anterior PAR PKC-3. Phosphorylation of PAR-2 at multiple sites within the membrane localisation domain is generally understood to electrostatically repel PAR-2 from the plasma membrane through the addition of negatively charged phosphate groups. Compatible with this, PKC-3 mutants prevent PAR-2 from polarising and cause it to lie uniformly on the membrane. However, whilst a number of potential PKC-3 phosphorylation sites have been identified based on sequence analysis, seven serines in total \citep{Hao2006}, the phosphorylation state of PAR-2 in vivo, and the roles of each potential phosphorylation site, is poorly understood. Mutation of all seven sites to alanine eliminates phosphorylation in vivo, causing PAR-2 to remain uniform on the membrane \citep{Hao2006}. Similarly, mutation of all seven sites to glutamic acid, designed to mimic phosphorylation, causes PAR-2 to remain mostly cytoplasmic. Whilst individual mutant analysis hasn't been performed on all of these sites independently, \textcite{Motegi2011} showed that mutation of just one site (S241A) is sufficient to significantly reduce phosphorylation of PAR-2 in vitro, and achieves a similar phenotype as the seven serine to alanine mutant in vivo. This indicates that the S241 site may be a dominant site, or may somehow regulate the phosphorylation of other sites.\\
+
+\section*{Phosphorylation of PAR-2 by PKC-3 is regulated by a high affinity phosphosite}
+
+The S241 site is unique amongst the putative phosphorylation sites in its inclusion of an upstream FxR motif (\cref{fig:fxr_sequence}). Identified in PAR-3 \citep{Soriano2016}, and also present in PAR-1 and LGL-1, FxR motifs act as high affinity PKC-3 recognition motifs. To assess the roles of the FxR/S241 site in the context of polarity, Nisha Hirani in the Goehring lab performed a series of mutations at the endogenous PAR-2 locus by CRISPR. As expected, mutation of S241 to alanine completely disrupts polarity, indicating that phosphorylation is largely or entirely prevented. Mutation of the FxR site to a AxA, designed to reduce affinity of PKC-3 for this site, leads to reduced removal of PAR-2 from the anterior membrane by PKC-3. Together, these results imply that efficient removal of PAR-2 from the membrane by PKC-3 requires PKC-3 to engage with the high affinity FxR site and phosphorylate S241.\\
+
+\begin{figure}
+\includegraphics[scale=0.4]{fxr_sequence}
+\centering
+\mycaption{FxR motif in \textit{C. elegans} PAR-1, PAR-2 and PAR-3}{
+PAR-1, PAR-2 and PAR-3 all contain PKC-3 phosphorylation sites with an upstream FxR motif, which acts as a high affinity PKC-3 recognition motif. In PAR-1 and PAR-2, this site attracts PKC-3 and promotes rapid phosphorylation of the corresponding site. PAR-3 has an additional downstream KR motif. Together the FxR and KR bind PKC-3 with such a high affinity that PAR-3 acts as an inhibitor to PKC-3 rather than a substrate.
+}
+\label{fig:fxr_sequence}
+\end{figure}
+
+Surprisingly, in mutants where the high affinity site is lost, mutating S241 to alanine (AxA + S241A) has no effect, and PAR-2 is still able to be removed from the anterior (albeit with a lower efficiency than wild type). This suggests that that removal of PAR-2 from the membrane must rely on phosphosites other than S241. Compatible with this, mutation of S241 to glutamic acid (S241E), designed to mimic phosphorylation, does not drive PAR-2 to the cytoplasm. In fact, the S241E phenotype closely resembles the AxA phenotype, displaying \textit{reduced} removal in the anterior compared to wild type PAR-2.\\
+
+Overall, these mutants imply that removal of PAR-2 from the membrane by PKC-3 is driven by a complex interaction between multiple phosphorylation sites. Whilst phosphorylation at the high affinity FxR/S241 site does not appear to directly drive PAR-2 off the membrane, the site appears to impact access to other phosphorylation sites on the molecule that are directly linked to membrane removal. \\
 
 \begin{figure}
 \includegraphics[scale=0.4]{par2_phos_mutants}
 \centering
-\mycaption{Title}{Figure from Nisha Hirani}
+\mycaption{Mutants of the PAR-2 high affinity FxR/S241 phosphosite in vivo}{
+Shows midplane confocal images at maintenance phase (without autofluorescence correction). Figure from Nisha Hirani.}
 \label{fig:par2_phos_mutants}
 \end{figure}
+
+One potential model is that the FxR/S241 site acts as a gatekeeper for the other sites. Under normal conditions, PKC-3 must phosphorylate this site first before it can gain access to the other sites (i.e. phosphorylation of S241 `opens the gate' to the other sites). S241A mutation prevents the site from being phosphorylated, so prevents the gate from being opened. Mutants that reduce the affinity of the FxR/S241 site, either by mutating the FxR recognition site or by a phosphomimetic mutation, have the effect of opening the gate, meaning that PKC-3 can bypass the FxR/S241 site and directly bind to the other sites. How this gating mechanism might work is currently not clear. \\
+
+If the FxR/S241 were acting purely as a gatekeeper, one might expect that mutations the open the gate (AxA, S241E) would have a positive effect on phosphorylation, but in fact the opposite appears to be true. Therefore, it is likely that, as well as acting as a gatekeeper, the high affinity FxR/S241 is also important to provide a high affinity docking point for the kinase. Initial attraction of PKC-3 to the high affinity FxR/S241 site brings the kinase into contact with the substrate. It is plausible that, after binding to FxR and phosphorylating S241, phosphorylation of the other sites may proceed quickly since PKC-3 is already bound to the substrate and in the vicinity of the other sites. If the FxR/S241 site is reduced in affinity (AxA, S241E), then the initial encounter of PKC-3 with PAR-2 must be through other sites that lack a high affinity motif. In this way, me might explain why AxA and S241E mutants are phosphorylated with a lower efficiency that wild type.\\
+
+\section*{Modelling the PKC-3/PAR-2 interaction}
+
+These ideas can be formalised with mathematical models. Specifically, we can model substrate and kinase molecules as species in a model, and consider the effects of different reaction schemes on phosphorylation behaviour. To simplify matters, it is helpful to model PAR-2 molecules as substrates with just two phosphorylation sites: a primary high affinity site which represents the FxR/S241 site, and a secondary low affinity site, which represents the other sites that directly regulate membrane binding (currently we do not know how many sites are actually phosphorylated in vivo). An implicit assumption in doing this is that all the secondary sites are phosphorylated in single step.\\
+
+As a starting point, I consider two general frameworks that are often applied to multiphosphorylation pathways: processive phosphorylation and distributive phosphorylation. Purely processive phosphorylation means that a kinase binds to a first phosphorylation site, phosphorylates this site, and then moves on to (and phosphorylates) the next site without unbinding from the substrate. Only when the kinase has phosphorylated all sites does it unbind from the substrate. In this mechanism, phosphorylation of the different sites follows a strict order. One site is designated as the primary site where the kinase initially docks, and only when this site is phosphorylated can the next site be accessed, and so on. In distributive phosphorylation, sites are entirely independent. The kinase binds to one site, phosphorylates it, and unbinds. Another kinase molecule can then bind to another site on the substrate, phosphorylate, and unbind. In this scenario, sites can be phosphorylated in any order, but a specific order may arise if different sites differ in affinity for the kinase (high affinity sites will tend to be phosphorylated first). In the case of PAR-2, a purely processive model, in which the high affinity site acts as the primary site, is represented in \cref{fig:fxr_phosphorylation_types}A. A purely distributive model, where the two sites are independent, is represented in figure \cref{fig:fxr_phosphorylation_types}B. \\
+
+It is clear that both of these simple models are insufficient to capture all observations from the PAR-2 FxR/S241 mutants. In the following discussion, I propose that the core behaviours of all mutants can be captured in a simple model that combines features of processive and distributive pathways (\cref{fig:fxr_phosphorylation_types}C). In this model, the kinase can follow both processive and distributive pathways. In the processive route, the kinase first binds to the first (high affinity) site and, once it has phosphorylated this site, is handed off to the second (low affinity) site. Alternatively, the kinase may bypass the processive route and bind directly to the second site, but this is expected to be rarer since the second site has a lower affinity than the first site. \\
+
+\begin{figure}
+\includegraphics[scale=0.85]{fxr_phosphorylation_types}
+\centering
+\mycaption{Schematic of potential models for PAR-2 multisite phosphorylation}{}
+\label{fig:fxr_phosphorylation_types}
+\end{figure}
+
+The reaction scheme can be modelled using ordinary differential equations by describing each of the reactions shown with mass action kinetics. To model the first site as higher affinity than the second site, I set $k_{bind1} > k_{bind2}$. In addition, I model dephosphorylation reactions as single step reactions with rate $k_{dephos}$ (same rate for both sites). Default parameter values used in simulations are shown in the legend of \cref{fig:fxr_simulations}. As an additional constraint, I assume that a substrate molecule can only have one kinase molecule bound to it (at either site) at any time, with the argument that binding of multiple kinase molecules to a substrate may be sterically hindered if sites are in close proximity on the molecule. This assumption is not strictly necessary to achieve the behaviour that I will present, but I will explain my reasons for making this assumption later on.\\
+
+Firstly, I assess the impact of PKC-3 concentration on the phosphorylation state of PAR-2 using this reaction scheme. Modelling the system until equilibrium is reached, \cref{fig:fxr_simulations}A shows that phosphorylation of both sites increases as a function of PKC-3 concentration. As the second site (which refers to a set of secondary sites on the real PAR-2 molecule) directly regulates membrane binding, high phosphorylation at this site would imply efficient membrane removal at the anterior membrane.\\
+
+Next, I consider each mutant within this modelling framework. S241A prevents phosphorylation of the high affinity site, which can be modelled by setting $k_{cat1} = 0$ (\cref{fig:fxr_mutant_schematic}B). In the AxA mutant, the high affinity docking site is lost, which can be modelled by setting $k_{bind1} = 0$ (\cref{fig:fxr_mutant_schematic}C). In AxA + S241A, both $k_{cat1}$ and $k_{bind1}$ are set to zero (\cref{fig:fxr_mutant_schematic}D). S241E brings a strong charge to the vicinity of the FxR site, so is expected to reduce $k_{bind1}$, and also prevents phosphorylation of S241, so can be described in the same way as AxA + S241A ($k_{cat1} = k_{bind1} = 0$).\\
+
+In all cases these changes cause the processive route to be lost (\cref{fig:fxr_mutant_schematic}B-D). This means that PKC-3 cannot utilise the high affinity site, and can only phosphorylate the low affinity site by docking to it directly. Simulations for AxA and AxA + S241A conditions show that, whilst some phosphorylation occurs at the second site, this is reduced compared to wild type. This is in line with reduced removal at the anterior membrane in vivo compared to wild type PAR-2.\\
+
+By contrast, phosphorylation at the low affinity site is almost completely lost in S241A conditions. The key difference compared to AxA and AxA + S241A conditions is that, in the S241A model, PKC-3 still has access to the high affinity site (as the FxR motif is intact). Whereas wild type PAR-2 would quickly be phosphorylated at this site, and PKC-3 handed off to the seconndary site, this cannot occur in S241A conditions, and so PKC-3 remains bound to the site until it eventually falls off (set by rate $k_{unbind1}$). This has two consequences. Firstly, PKC-3 molecules become sequestered onto PAR-2 molecules, which reduces the availability of kinase to bind to and phosphorylate other molecules. Secondly, since the model assumes that only one kinase molecule can be bound to a substrate molecule at a time, stable binding of PKC-3 to the high affinity site of a molecule blocks access of PKC-3 molecules to the second site. The first effect is a trans effect, and the second is a cis effect (intrinsic to each molecule).\\
+
+\begin{figure}
+\includegraphics[scale=0.85]{fxr_mutant_schematic}
+\centering
+\mycaption{Modelling FxR/S241 site mutants}{}
+\label{fig:fxr_mutant_schematic}
+\end{figure}
+
+\begin{figure}
+\includegraphics[scale=0.9]{fxr_simulations}
+\centering
+\mycaption{Modelling PKC-3 sensitivity of wild type and FxR/S241 mutant PAR-2}{
+Shows the percentage of PAR-2 molecules phosphorylated at each site at equilibrium, as a function of total PKC-3 levels. Default parameters: $k_{bind1} = 1$, $k_{unbind1} = 0.1$, $k_{bind2} = 0.1$, $k_{unbind2} = 0.1$, $k_{cat1} = 1$, $k_{cat2} = 1$, $k_{dephos} = 0.1$, total PAR-2 = 1. Mutants are simulated as outlined in the main text.}
+\label{fig:fxr_simulations}
+\end{figure}
+
+Based on a number of observations I believe the second (cis) mechanism to be of more relevance in vivo. One prediction is that, if a trans mechanism dominates, this should affect other PKC-3 substrates (e.g. LGL-1, PAR-1) too, meaning that in PAR-2 S241A conditions other PKC-3 substrates should also be uniform (or partially uniform). However, preliminary data from PAR-1 and LGL-1 suggests that this is not the case (Florent Peglion, Nisha Hirani). Another prediction from a purely trans model is that simply reducing the amount of PAR-2 should permit PKC-3 to phosphorylate the low affinity site by freeing up kinase availability. In other words, a purely trans model predicts that PAR-2 S241A should be able to polarise when concentrations are lowered. However, preliminary data suggests that this is not the case, and PAR-2 S241A fails to polarise even at low concentrations (Shona Ellison). This leads me to conclude that a trans model cannot be behind the inability of PAR-2 S241A to polarise, and a cis mechanism, such as a model where binding of PKC-3 to the high affinity site physically blocks access to the second site, is more plausible.\\
+
+\section*{Discussion}
+
+In conclusion, whilst the model I have presented clearly makes a number of simplifications, it is sufficient to qualitatively capture the observed in vivo behaviours of all FxR/S241 site mutants. I propose that the FxR/S241 site could regulate phosphorylation of secondary sites in PAR-2 in two ways. Firstly, this site could catalyse access to secondary sites by acting as a high affinity docking site in a processive pathway. Secondly, the FxR/S241 might regulate access to secondary sites through competition. I have described two ways in which this competition might occur, through sequestration of the available kinase pool or by physically blocking access to the secondary sites, with the latter considered more plausible in light of preliminary in vivo data. As a result of this competition, the secondary site will largely evade phosphorylation until the primary site is phosphorylated first, and so the primary site effectively acts as a gatekeeper. \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
