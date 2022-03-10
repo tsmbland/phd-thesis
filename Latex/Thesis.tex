@@ -1492,63 +1492,169 @@ This nonlinearity can be considered a form of positive feedback in which the eff
 \textbf{Detailed contributions:}\\
 
 \clearpage
-\section{Model description}
+\section*{Symbols}
 
-\subsection{Reducing thermodynamic model to a two-species model} 
+I will use the following symbols throughout the chapter to describe characteristics of the mathematical model:\\
 
-To simplify further analysis, we can convert the four species thermodynamic model to a two species model, in which we only track overall membrane and cytoplasmic concentrations, $\phi_m$ and $\phi_c$, irrespective of dimeric state. If we assume that dimerisation reactions in the membrane and cytoplasm are fast relative to membrane binding, we can define instantaneous monomer and dimer concentrations as a function of overall concentration. For example, for cytoplasmic protein:
-% check equations
+\begin{tabular}{ll}
+$x$ & Equilibrium membrane concentration in a system with total amount of material $T$, surface area to volume ratio $\phi$, membrane binding rate $k_on$ \\
+$\alpha$ & Overall off rate at equilibrium in a uniform system without antagonism and a total amount of material of 1 \\
+$x$ & Membrane dimeric fraction at membrane concentration $x$ \\
+$x$ & Differential antagonism between monomers and dimers \\
+$x$ & Overall antagonism rate at membrane concentration $x$
+\end{tabular}
+
+\clearpage
+\section{Describing membrane binding dynamics with transition state theory}
+
+\subsection{Two-species thermodynamic model} 
+
+To simplify further analysis, we can convert the four species thermodynamic model to a two species model, in which we only track overall membrane and cytoplasmic concentrations, $c_m$ and $c_c$, irrespective of dimeric state. If we assume that dimerisation reactions in the membrane and cytoplasm are fast relative to membrane binding, we can define instantaneous monomer and dimer concentrations as a function of overall concentration. For example, for membrane-bound protein:
+
 \begin{align}
-\phi_{c,1} &= \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)\\
-\phi_{c,2} &= \phi_c - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d}\phi_c + 1} - 1\right)
+c_{m1} &= \frac{1}{2} e^{-w_d} \left(\sqrt{4e^{w_d} c_m + 1} - 1\right)\\
+c_{m2} &= c_m - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d} c_m + 1} - 1\right)
 \end{align}
 
-which is identical to the description in section x. As a result, and because we can describe the chemical potential of each of these species individually (equations xxx), we can combine expression <> and <> to define the overall chemical potential of cytoplasmic protein ($\mu_c$) as a function of overall cytoplasmic concentrations ($\phi_c$):
-\begin{equation}
-\mu_c = \ln(\phi_c) - \frac{1}{2}\ln\left(1 + 2e^{w_d}\phi_c + \sqrt{4e^{w_d}\phi_c + 1}\right)
-\end{equation}
-% check equation
+where $w_m$ and $w_d$ are expressed in $RT$ units, and $c_c$ and $c_m$ are expressed in $c^{\circ}$ units. This is identical to the description in section x. As a result, we can define the overall chemical potential of membrane and cytoplasmic protein ($\mu_m$ and $\mu_c$) as a function of overall membrane and cytoplasmic concentrations ($c_m$ and $c_c$):
 
-And analogously for membrane bound protein: 
-\begin{equation}
-\mu_m = \ln(\phi_m) - \frac{1}{2}\ln\left(1 + 2e^{w_d}\phi_m + \sqrt{4e^{w_d}\phi_m + 1}\right) - w_m
-\end{equation}
-% check equation
+\begin{align}
+\mu_c &= \ln(c_c) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_c + \sqrt{4e^{w_d} c_c+ 1}\right)\\
+\mu_m &= \ln(c_m) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_m + \sqrt{4e^{w_d} c_m + 1}\right) - w_m
+\end{align}
 
 These two equations can be solved analytically at equilibrium ($\mu_c$ = $\mu_m$) to find equilibrium membrane and cytoplasmic concentrations.
 
 
 \subsection{Explicit description of membrane binding kinetics} 
 
-Building kinetic models requires a description of membrane and unbinding rates, rather than just energetics. Exchange can be written as:
+% Building kinetic models requires a description of membrane and unbinding rates.
 
 \begin{center}
-\ce{$\phi_c$ <=>[$k_{on}$][$k_{off}$] $\phi_m$}
+\ce{$c$ <=>[$k_{on}$][$k_{off}$] $m$}
 \end{center}
 
-For a given composition, flux on ($s_{on}$) is equal to $k_{on}\phi_c$, and flux off ($s_{off}$) is equal to $k_{off}\phi_m$. Using transition state theory, these fluxes can be written as:
+For a given composition, flux on ($s_{on}$) is equal to $k_{on} c_c$, and flux off ($s_{off}$) is equal to $k_{off} c_m$. Using transition state theory, these fluxes can be related to chemical potentials as:
 \begin{align}
-s_{on} &= ke^{\mu_c}\\
-s_{off} &= ke^{\mu_m}
+s_{on} &= \Lambda e^{\mu_c}\\
+s_{off} &= \Lambda e^{\mu_m}
 \end{align}
 
-where $k$ is a kinetic factor. Using our previous descriptions of cytoplasmic and membrane chemical potentials, the kinetic rate constants can be calculated as:
+And so:
 \begin{align}
-k_{on} &= \frac{k}{\sqrt{2e^{w_d}\phi_c+ 1}}\\
-k_{off} &= \frac{ke^{-w_m}}{\sqrt{2e^{w_d}\phi_m+ 1}}
+k_{on} &= \Lambda e^{\mu_c} / c_c \\
+k_{off} &= \Lambda e^{\mu_m} / c_m
 \end{align}
 
-implying a dependence on both energies and concentrations. This is shown for $k_{off}$ in fig x. Fig xA shows off rates plot a function of membrane energy and dimerisation energy, for a given membrane concentration. We can also see (fig xB), the dependence of off rates on concentrations.
+Which is equivalent to:
+\begin{align}
+k_{on} &= \frac{\Lambda}{\sqrt{2 e^{w_d} c_c + \sqrt{4 e^{w_d} c_c + 1} + 1}}\\
+k_{off} &= \frac{\Lambda e^{-w_m}}{\sqrt{2 e^{w_d} c_m + \sqrt{4 e^{w_d} c_m + 1} + 1}}\\
+\end{align}
 
-\begin{figure}[!h]
+Assuming that $e^{w_d} c_c$ is small (i.e. the cytoplasm is entirely monomeric), $k_{on}$ can be approximated as a constant ($k_{on} \approx \Lambda / \sqrt{2}$).
+
+
+
+\begin{figure}
 \includegraphics[scale=1]{thermodynamic_model_koff}
-\setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Title}{Caption}
 \label{fig:thermodynamic_model_koff}
 \end{figure}
 
-\subsection{Incorporation into mutual antagonism model}
+
+\subsection{Simplified model}
+
+$k_{off}$ can be expressed in terms of parameters $k_1$ and $k_2$:
+\begin{equation}
+k_{off} = \frac{k_1}{\sqrt{2 k_2 c_m + \sqrt{4 k_2 c_m + 1} + 1}}\\
+\end{equation}
+
+where membrane concentration $c_m$ can be in arbitrary units.\\
+
+I define $\alpha$ as the membrane affinity ($k_{on} / k_{off}$ at equilibrium). The membrane concentration at equilibrium $c_{m, eq}$, given membrane affinity $\alpha$ is given as:
+\begin{equation}
+c_{m, eq} = \frac{\alpha c_{tot}}{\alpha \psi + 1}
+\end{equation}
+
+where $c_{tot}$ is the total amount of material (i.e the cytoplasmic concentration when all material is cytoplasmic), and $\psi$ is the surface area to volume ratio.\\
+
+I define $\epsilon$ as the dimeric fraction at equilibrium. The value of $k_2$ required for a given $\epsilon$ and $c_{m, eq}$ is given as:
+\begin{equation}
+k_2 = \frac{\epsilon}{c_{m, eq} (\epsilon - 1)^2}
+\end{equation}
+
+The value of $k_1$ for a given $\alpha$, $k_2$ and $c_{m, eq}$ is then given as:
+\begin{equation}
+k_1 = \frac{k_{on}}{\alpha} \sqrt{2 k_2 c_{m, eq} + \sqrt{4 k_2 c_{m, eq} + 1 } + 1}
+\end{equation}
+
+\begin{figure}
+\includegraphics[scale=1]{epsilon_vs_koff}
+\centering
+\mycaption{Title}{Caption}
+\label{fig:epsilon_vs_koff}
+\end{figure}
+
+
+\section{Modelling aPAR to pPAR antagonism}
+
+Assuming monomers and dimers are equally well antagonised. The overall flux off the membrane ($s_{off}$) can be expressed as:
+
+\begin{equation}
+s_{off} = k_{off} c_m + k_{ant} c_m
+\end{equation} 
+
+where $k_{off}$ is a function of concentration, as previously discussed, and $k_{ant}$ is a first order rate constant which is independent of concentration.\\
+
+If monomers and dimers are antagonised differently, the rate of antagonism will depend on the dimeric state of membrane-bound protein, which is a function of concentration. In this case, I will define $k_{ant}$ as:
+
+\begin{equation}
+k_{ant} = \frac{k_3 (c_{m1} + (1 - \beta) c_{m2}}{c_{m}}
+\end{equation} 
+
+\begin{equation}
+s_{off} = k_{off} c_m + k_3 c_{m1} + k_3 (1 - \beta) c_{m2}
+\end{equation} 
+
+where $c_{m1}$ and $c_{m2}$ (the membrane concentrations of monomeric and dimeric protein respectively) are related to the overall concentration by:
+\begin{align}
+c_{m1} &= \frac{\sqrt{4 k_2 c_{m} + 1} - 1}{2 k_2} \\
+c_{m2} &= c_{m} - c_{m1}
+\end{align}
+
+I define $\theta$ as the value of $k_{ant}$ when protein is at the equilibrium membrane concentration $c_{m,eq}$. For a chosen value of $\theta$, $k_3$ is set by
+
+\begin{equation}
+k_3 = \frac{\theta}{c_{m1,eq} + (1 - \beta) c_{m2,eq}}
+\end{equation}
+
+
+\subsection{Dimerisation can generate nonlinear feedback}
+
+\begin{figure}
+\includegraphics[scale=1]{model_antagonism_effective_exponent}
+\centering
+\mycaption{Title}{Caption}
+\label{fig:model_antagonism_effective_exponent}
+\end{figure}
+
+
+\subsection{Dimerisation can amplify induced asymmetries}
+
+\begin{figure}
+\includegraphics[scale=1]{model_fixed_apar_asi}
+\centering
+\mycaption{Title}{Caption}
+\label{fig:model_fixed_apar_asi}
+\end{figure}
+
+\section{Implications of dimerisation in self-organising patterning models}
+
+\subsection{Effects of membrane affinity}
+
+\subsection{Effects of concentration-dependent dimerisation}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

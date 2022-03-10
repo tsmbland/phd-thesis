@@ -74,39 +74,45 @@
 \BOOKMARK [1][-]{section.5.4}{Quantitative assessment of PAR-2 membrane association behaviour}{chapter.5}% 74
 \BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 75
 \BOOKMARK [0][-]{chapter.6}{Assessing the impacts of PAR-2 dimerisation in polarity models}{}% 76
-\BOOKMARK [1][-]{section.6.1}{Model description}{chapter.6}% 77
-\BOOKMARK [2][-]{subsection.6.1.1}{Reducing thermodynamic model to a two-species model}{section.6.1}% 78
+\BOOKMARK [1][-]{section.6.1}{Describing membrane binding dynamics with transition state theory}{chapter.6}% 77
+\BOOKMARK [2][-]{subsection.6.1.1}{Two-species thermodynamic model}{section.6.1}% 78
 \BOOKMARK [2][-]{subsection.6.1.2}{Explicit description of membrane binding kinetics}{section.6.1}% 79
-\BOOKMARK [2][-]{subsection.6.1.3}{Incorporation into mutual antagonism model}{section.6.1}% 80
-\BOOKMARK [0][-]{chapter.7}{Experimental manipulation of PAR-2 dimerisation}{}% 81
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 82
-\BOOKMARK [1][-]{section.7.2}{Forced constitutive dimerisation of PAR-2 shifts localisation towards lower-affinity membranes}{chapter.7}% 83
-\BOOKMARK [1][-]{section.7.3}{Incorporating internal membranes into the thermodynamic model}{chapter.7}% 84
-\BOOKMARK [1][-]{section.7.4}{Modelling kinetics outside of equilibrium}{chapter.7}% 85
-\BOOKMARK [1][-]{section.7.5}{aPAR disruption partially restores expected equilibrium localisation pattern}{chapter.7}% 86
-\BOOKMARK [1][-]{section.7.6}{Discussion}{chapter.7}% 87
-\BOOKMARK [0][-]{chapter.8}{Discussion}{}% 88
-\BOOKMARK [0][-]{chapter.9}{Materials and methods}{}% 89
-\BOOKMARK [1][-]{section.9.1}{C. elegans methods}{chapter.9}% 90
-\BOOKMARK [2][-]{subsection.9.1.1}{Worm maintenance}{section.9.1}% 91
-\BOOKMARK [2][-]{subsection.9.1.2}{Worm strains}{section.9.1}% 92
-\BOOKMARK [2][-]{subsection.9.1.3}{RNA interference}{section.9.1}% 93
-\BOOKMARK [2][-]{subsection.9.1.4}{Brood size assays}{section.9.1}% 94
-\BOOKMARK [1][-]{section.9.2}{CRISPR}{chapter.9}% 95
-\BOOKMARK [2][-]{subsection.9.2.1}{Overview of CRISPR strategies}{section.9.2}% 96
-\BOOKMARK [2][-]{subsection.9.2.2}{Testing a method for insertions at the glh-1 site}{section.9.2}% 97
-\BOOKMARK [2][-]{subsection.9.2.3}{PAR-2 point mutations}{section.9.2}% 98
-\BOOKMARK [2][-]{subsection.9.2.4}{Mitochondrial GBP}{section.9.2}% 99
-\BOOKMARK [2][-]{subsection.9.2.5}{Membrane tethered PAR-2 RING fragment}{section.9.2}% 100
-\BOOKMARK [2][-]{subsection.9.2.6}{RING domain fragment}{section.9.2}% 101
-\BOOKMARK [1][-]{section.9.3}{Microscopy}{chapter.9}% 102
-\BOOKMARK [1][-]{section.9.4}{In vitro methods}{chapter.9}% 103
-\BOOKMARK [2][-]{subsection.9.4.1}{Full-length PAR-2 purification}{section.9.4}% 104
-\BOOKMARK [2][-]{subsection.9.4.2}{Ubiquitination assays}{section.9.4}% 105
-\BOOKMARK [2][-]{subsection.9.4.3}{PAR-2 RING domain fragment purification}{section.9.4}% 106
-\BOOKMARK [2][-]{subsection.9.4.4}{SEC-MALS}{section.9.4}% 107
-\BOOKMARK [1][-]{section.9.5}{Modelling methods}{chapter.9}% 108
-\BOOKMARK [0][-]{chapter*.86}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 109
-\BOOKMARK [0][-]{chapter*.92}{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}{}% 110
-\BOOKMARK [0][-]{chapter*.93}{Abbreviations}{}% 111
-\BOOKMARK [0][-]{chapter*.93}{Bibliography}{}% 112
+\BOOKMARK [2][-]{subsection.6.1.3}{Simplified model}{section.6.1}% 80
+\BOOKMARK [1][-]{section.6.2}{Modelling aPAR to pPAR antagonism}{chapter.6}% 81
+\BOOKMARK [2][-]{subsection.6.2.1}{Dimerisation can generate nonlinear feedback}{section.6.2}% 82
+\BOOKMARK [2][-]{subsection.6.2.2}{Dimerisation can amplify induced asymmetries}{section.6.2}% 83
+\BOOKMARK [1][-]{section.6.3}{Implications of dimerisation in self-organising patterning models}{chapter.6}% 84
+\BOOKMARK [2][-]{subsection.6.3.1}{Effects of membrane affinity}{section.6.3}% 85
+\BOOKMARK [2][-]{subsection.6.3.2}{Effects of concentration-dependent dimerisation}{section.6.3}% 86
+\BOOKMARK [0][-]{chapter.7}{Experimental manipulation of PAR-2 dimerisation}{}% 87
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 88
+\BOOKMARK [1][-]{section.7.2}{Forced constitutive dimerisation of PAR-2 shifts localisation towards lower-affinity membranes}{chapter.7}% 89
+\BOOKMARK [1][-]{section.7.3}{Incorporating internal membranes into the thermodynamic model}{chapter.7}% 90
+\BOOKMARK [1][-]{section.7.4}{Modelling kinetics outside of equilibrium}{chapter.7}% 91
+\BOOKMARK [1][-]{section.7.5}{aPAR disruption partially restores expected equilibrium localisation pattern}{chapter.7}% 92
+\BOOKMARK [1][-]{section.7.6}{Discussion}{chapter.7}% 93
+\BOOKMARK [0][-]{chapter.8}{Discussion}{}% 94
+\BOOKMARK [0][-]{chapter.9}{Materials and methods}{}% 95
+\BOOKMARK [1][-]{section.9.1}{C. elegans methods}{chapter.9}% 96
+\BOOKMARK [2][-]{subsection.9.1.1}{Worm maintenance}{section.9.1}% 97
+\BOOKMARK [2][-]{subsection.9.1.2}{Worm strains}{section.9.1}% 98
+\BOOKMARK [2][-]{subsection.9.1.3}{RNA interference}{section.9.1}% 99
+\BOOKMARK [2][-]{subsection.9.1.4}{Brood size assays}{section.9.1}% 100
+\BOOKMARK [1][-]{section.9.2}{CRISPR}{chapter.9}% 101
+\BOOKMARK [2][-]{subsection.9.2.1}{Overview of CRISPR strategies}{section.9.2}% 102
+\BOOKMARK [2][-]{subsection.9.2.2}{Testing a method for insertions at the glh-1 site}{section.9.2}% 103
+\BOOKMARK [2][-]{subsection.9.2.3}{PAR-2 point mutations}{section.9.2}% 104
+\BOOKMARK [2][-]{subsection.9.2.4}{Mitochondrial GBP}{section.9.2}% 105
+\BOOKMARK [2][-]{subsection.9.2.5}{Membrane tethered PAR-2 RING fragment}{section.9.2}% 106
+\BOOKMARK [2][-]{subsection.9.2.6}{RING domain fragment}{section.9.2}% 107
+\BOOKMARK [1][-]{section.9.3}{Microscopy}{chapter.9}% 108
+\BOOKMARK [1][-]{section.9.4}{In vitro methods}{chapter.9}% 109
+\BOOKMARK [2][-]{subsection.9.4.1}{Full-length PAR-2 purification}{section.9.4}% 110
+\BOOKMARK [2][-]{subsection.9.4.2}{Ubiquitination assays}{section.9.4}% 111
+\BOOKMARK [2][-]{subsection.9.4.3}{PAR-2 RING domain fragment purification}{section.9.4}% 112
+\BOOKMARK [2][-]{subsection.9.4.4}{SEC-MALS}{section.9.4}% 113
+\BOOKMARK [1][-]{section.9.5}{Modelling methods}{chapter.9}% 114
+\BOOKMARK [0][-]{chapter*.89}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 115
+\BOOKMARK [0][-]{chapter*.95}{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}{}% 116
+\BOOKMARK [0][-]{chapter*.96}{Abbreviations}{}% 117
+\BOOKMARK [0][-]{chapter*.96}{Bibliography}{}% 118
