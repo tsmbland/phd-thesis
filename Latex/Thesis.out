@@ -91,8 +91,8 @@
 \BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 91
 \BOOKMARK [1][-]{section.7.2}{Forced constitutive dimerisation of PAR-2 shifts localisation pattern}{chapter.7}% 92
 \BOOKMARK [1][-]{section.7.3}{Incorporating internal membranes into the thermodynamic model}{chapter.7}% 93
-\BOOKMARK [1][-]{section.7.4}{Modelling kinetics outside of equilibrium}{chapter.7}% 94
-\BOOKMARK [1][-]{section.7.5}{aPAR disruption partially restores expected equilibrium localisation pattern}{chapter.7}% 95
+\BOOKMARK [1][-]{section.7.4}{Modelling PAR-2 dimer kinetics outside of equilibrium}{chapter.7}% 94
+\BOOKMARK [1][-]{section.7.5}{aPAR mutants restore dimeric PAR-2 towards the expected equilibrium localisation pattern}{chapter.7}% 95
 \BOOKMARK [1][-]{section.7.6}{Discussion}{chapter.7}% 96
 \BOOKMARK [0][-]{chapter.8}{Discussion}{}% 97
 \BOOKMARK [0][-]{chapter.9}{Materials and methods}{}% 98
@@ -103,21 +103,22 @@
 \BOOKMARK [2][-]{subsection.9.1.4}{Brood size assays}{section.9.1}% 103
 \BOOKMARK [1][-]{section.9.2}{CRISPR}{chapter.9}% 104
 \BOOKMARK [2][-]{subsection.9.2.1}{Overview of CRISPR strategies}{section.9.2}% 105
-\BOOKMARK [2][-]{subsection.9.2.2}{Testing a method for insertions at the glh-1 site}{section.9.2}% 106
+\BOOKMARK [2][-]{subsection.9.2.2}{Testing a method for gene insertions at the endogenous glh-1 site}{section.9.2}% 106
 \BOOKMARK [2][-]{subsection.9.2.3}{PAR-2 point mutations}{section.9.2}% 107
-\BOOKMARK [2][-]{subsection.9.2.4}{Mitochondrial GBP}{section.9.2}% 108
-\BOOKMARK [2][-]{subsection.9.2.5}{Membrane tethered PAR-2 RING fragment}{section.9.2}% 109
-\BOOKMARK [2][-]{subsection.9.2.6}{RING domain fragment}{section.9.2}% 110
-\BOOKMARK [1][-]{section.9.3}{Microscopy}{chapter.9}% 111
-\BOOKMARK [1][-]{section.9.4}{In vitro methods}{chapter.9}% 112
-\BOOKMARK [2][-]{subsection.9.4.1}{Full-length PAR-2 purification}{section.9.4}% 113
-\BOOKMARK [2][-]{subsection.9.4.2}{Ubiquitination assays}{section.9.4}% 114
-\BOOKMARK [2][-]{subsection.9.4.3}{PAR-2 RING domain fragment purification}{section.9.4}% 115
-\BOOKMARK [2][-]{subsection.9.4.4}{SEC-MALS}{section.9.4}% 116
-\BOOKMARK [1][-]{section.9.5}{Modelling methods}{chapter.9}% 117
-\BOOKMARK [2][-]{subsection.9.5.1}{Simulations}{section.9.5}% 118
-\BOOKMARK [2][-]{subsection.9.5.2}{Creating qualitative parameter space maps}{section.9.5}% 119
-\BOOKMARK [0][-]{chapter*.97}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 120
-\BOOKMARK [0][-]{chapter*.103}{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}{}% 121
-\BOOKMARK [0][-]{chapter*.104}{Abbreviations}{}% 122
-\BOOKMARK [0][-]{chapter*.104}{Bibliography}{}% 123
+\BOOKMARK [2][-]{subsection.9.2.4}{PAR-2 GCN4 insertion}{section.9.2}% 108
+\BOOKMARK [2][-]{subsection.9.2.5}{Mitochondrial GFP-binding protein}{section.9.2}% 109
+\BOOKMARK [2][-]{subsection.9.2.6}{Membrane tethered PAR-2 RING fragment}{section.9.2}% 110
+\BOOKMARK [2][-]{subsection.9.2.7}{RING domain fragment}{section.9.2}% 111
+\BOOKMARK [2][-]{subsection.9.2.8}{GCN4 fragment}{section.9.2}% 112
+\BOOKMARK [1][-]{section.9.3}{Microscopy}{chapter.9}% 113
+\BOOKMARK [1][-]{section.9.4}{In vitro methods}{chapter.9}% 114
+\BOOKMARK [2][-]{subsection.9.4.1}{Full-length PAR-2 purification}{section.9.4}% 115
+\BOOKMARK [2][-]{subsection.9.4.2}{Ubiquitination assays}{section.9.4}% 116
+\BOOKMARK [2][-]{subsection.9.4.3}{PAR-2 RING domain fragment purification}{section.9.4}% 117
+\BOOKMARK [2][-]{subsection.9.4.4}{SEC-MALS}{section.9.4}% 118
+\BOOKMARK [1][-]{section.9.5}{Modelling methods}{chapter.9}% 119
+\BOOKMARK [2][-]{subsection.9.5.1}{Simulations}{section.9.5}% 120
+\BOOKMARK [2][-]{subsection.9.5.2}{Creating qualitative parameter space maps}{section.9.5}% 121
+\BOOKMARK [0][-]{chapter*.102}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 122
+\BOOKMARK [0][-]{chapter*.108}{Abbreviations}{}% 123
+\BOOKMARK [0][-]{chapter*.108}{Bibliography}{}% 124

@@ -1512,6 +1512,90 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Dickinson2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DDJ}{%
+         family={Dickinson},
+         familyi={D\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PAM}{%
+         family={Pani},
+         familyi={P\bibinitperiod},
+         given={Ariel\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HJK}{%
+         family={Heppert},
+         familyi={H\bibinitperiod},
+         given={Jennifer\bibnamedelima K},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HCD}{%
+         family={Higgins},
+         familyi={H\bibinitperiod},
+         given={Christopher\bibnamedelima D},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Goldstein},
+         familyi={G\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{CRISPR/Cas9,Caenorhabditis elegans,Gene tagging,Genetics,Homologous
+  recombination,Self-excising cassette}
+    \strng{namehash}{DDJ+2}
+    \strng{fullhash}{DDJPAMHJKHCDGB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    A central goal in the development of genome engineering technology is to
+  reduce the time and labor required to produce custom genome modifications.
+  Here, we describe a new selection strategy for producing fluorescent protein
+  (FP) knock-ins using CRISPR/Cas9-triggered homologous recombination. We have
+  tested our approach in Caenorhabditis elegans. This approach has been
+  designed to minimize hands-on labor at each step of the procedure. Central to
+  our strategy is a newly developed self-excising cassette (SEC) for drug
+  selection. SEC consists of three parts: a drug resistance gene, a visible
+  phenotypic marker, and an inducible Cre recombinase. SEC is flanked by LoxP
+  sites and placed within a synthetic intron of a fluorescent protein tag,
+  resulting in an FP-SEC module that can be inserted into any C. elegans gene.
+  Upon heat shock, SEC excises itself from the genome, leaving no exogenous
+  sequences outside the fluorescent protein tag. With our approach, one can
+  generate knock-in alleles in any genetic background, with no PCR screening
+  required and without the need for a second injection step to remove the
+  selectable marker. Moreover, this strategy makes it possible to produce a
+  fluorescent protein fusion, a transcriptional reporter and a strong
+  loss-of-function allele for any gene of interest in a single injection step.%
+    }
+    \verb{doi}
+    \verb 10.1534/genetics.115.178335
+    \endverb
+    \field{issn}{19432631}
+    \field{number}{4}
+    \field{pages}{1035\bibrangedash 1049}
+    \field{title}{{Streamlined genome engineering with a self-excising drug
+  selection cassette}}
+    \verb{url}
+    \verb http://wormcas9hr.weebly.com
+    \endverb
+    \field{volume}{200}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Dickinson et al. - 2015 - St
+    \verb reamlined Genome Engineering with a Self-Excising Drug Selection Cass
+    \verb ette.pdf:pdf;:Users/blandt/Documents/Mendeley Desktop/SEC_CRISPR_prot
+    \verb ocol_(Dan_Dickinson).pdf:pdf
+    \endverb
+    \field{journaltitle}{Genetics}
+    \field{year}{2015}
+  \endentry
+
   \entry{Dickinson2017}{article}{}
     \name{author}{5}{}{%
       {{hash=DDJ}{%
@@ -1849,6 +1933,44 @@
     \endverb
     \field{journaltitle}{Genetics}
     \field{year}{2018}
+  \endentry
+
+  \entry{Dormand1980}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DJR}{%
+         family={Dormand},
+         familyi={D\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PPJ}{%
+         family={Prince},
+         familyi={P\bibinitperiod},
+         given={P.\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Runge-Kutta,absolute stability,efficiency curve,truncation error
+  norm}
+    \strng{namehash}{DJRPPJ1}
+    \strng{fullhash}{DJRPPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1016/0377-0427(86)90027-0
+    \endverb
+    \field{issn}{03770427}
+    \field{title}{{A family of embedded Runge-Kutta formulae}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-0771050X80900133-main
+    \verb .pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Computational and Applied Mathematics,
+  volume 6, no 1}
+    \field{year}{1980}
   \endentry
 
   \entry{Duan2020}{article}{}
@@ -4700,6 +4822,83 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Matsuda2005}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MS}{%
+         family={Matsuda},
+         familyi={M\bibinitperiod},
+         given={Shinji},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kamiya},
+         familyi={K\bibinitperiod},
+         given={Yoshinori},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YM}{%
+         family={Yuzaki},
+         familyi={Y\bibinitperiod},
+         given={Michisuke},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Leucine zipper}
+    \strng{namehash}{MSKYYM1}
+    \strng{fullhash}{MSKYYM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    The $\alpha$-amino-3-hydroxyl-5-methyl-4-isoxazolepropionic acid (AMPA)
+  subtype of ionotropic glutamate receptors (iGluRs) mediates fast excitatory
+  neurotransmission in the mammalian brain. Although the most N-terminal
+  leucine/isoleucine/valine-binding protein (LIVBP) domain is suggested to play
+  a role in the initial assembly of iGluR subunits, it is unclear how this
+  domain is arranged and functions in intact iGluRs. Similarly, although recent
+  crystallographic analyses indicate that the isolated ligand-binding
+  lysine/arginine/ornithine-binding protein domain forms a 2-fold symmetric
+  dimer, the subunit stoichiometry of intact iGluRs remains elusive. Here, we
+  developed a new approach to address these issues. The LIVBP domain of the
+  GIuR1 subunit of AMPA receptors was replaced by leucine-zipper peptides
+  designed to form stable symmetric dimers, trimers, tetramers, or pentamers.
+  All these mutant GluR1s were expressed in human embryonic kidney 293 cells
+  and were transported to the cell surface as well as wild type GluR1.
+  Functional and biochemical analyses indicated that these oligomerizing
+  peptides specifically controlled the formation of the expected number of
+  subunits in a channel complex. However, the channel function was only
+  restored by the tetramer-forming peptide. Although the purified LIVBP domain
+  of GluR1 formed a dimmer in solution, a dimer-forming peptide could not
+  restore the function of GluR1. Moreover, a cross-linking assay indicated that
+  four LIVBP domains are located in proximity to each other. These results
+  suggest that the function of the LIVBP domain is not simply to form initial
+  dimers but to adopt a conformation compatible with the overall tetrameric
+  arrangement of subunits in intact AMPA receptors. {\textcopyright} 2005 by
+  The American Society for Biochemistry and Molecular Biology, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1074/jbc.M410513200
+    \endverb
+    \field{issn}{00219258}
+    \field{number}{20}
+    \field{pages}{20021\bibrangedash 20029}
+    \field{title}{{Roles of the N-terminal domain on the function and
+  quaternary structure of the ionotropic glutamate receptor}}
+    \verb{url}
+    \verb http://www.jbc.org/
+    \endverb
+    \field{volume}{280}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Matsuda, Kamiya, Yuzaki - 20
+    \verb 05 - ROLES OF THE N-TERMINAL DOMAIN ON THE FUNCTION AND QUATERNARY ST
+    \verb RUCTURE OF THE IONOTROPIC GLUTAMATE REC.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Biological Chemistry}
+    \field{year}{2005}
+  \endentry
+
   \entry{Minaee2021}{article}{}
     \name{author}{6}{}{%
       {{hash=MS}{%
@@ -5554,6 +5753,83 @@
     \endverb
     \field{journaltitle}{Nature Chemical Biology}
     \field{year}{2018}
+  \endentry
+
+  \entry{Redemann2011}{article}{}
+    \name{author}{7}{}{%
+      {{hash=RS}{%
+         family={Redemann},
+         familyi={R\bibinitperiod},
+         given={Stefanie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schloissnig},
+         familyi={S\bibinitperiod},
+         given={Siegfried},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Ernst},
+         familyi={E\bibinitperiod},
+         given={Susanne},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pozniakowsky},
+         familyi={P\bibinitperiod},
+         given={Andrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Ayloo},
+         familyi={A\bibinitperiod},
+         given={Swathi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HAA}{%
+         family={Hyman},
+         familyi={H\bibinitperiod},
+         given={Antony\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bringmann},
+         familyi={B\bibinitperiod},
+         given={Henrik},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RS+1}
+    \strng{fullhash}{RSSSESPAASHAABH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    We present a method to control protein levels under native genetic
+  regulation in Caenorhabditis elegans by using synthetic genes with adapted
+  codons. We found that the force acting on the spindle in C. elegans embryos
+  was related to the amount of the G-protein regulator GPR-1/2. Codon-adapted
+  versions of any C. elegans gene can be designed using our web tool, C.
+  elegans codon adapter. {\textcopyright} 2011 Nature America, Inc. All rights
+  reserved.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.1565
+    \endverb
+    \field{issn}{15487091}
+    \field{number}{3}
+    \field{pages}{250\bibrangedash 252}
+    \field{title}{{Codon adaptation-based control of protein expression in C.
+  elegans}}
+    \field{volume}{8}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nmeth.1565.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{year}{2011}
   \endentry
 
   \entry{Reich2019}{article}{}

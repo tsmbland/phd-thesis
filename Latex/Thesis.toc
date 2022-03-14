@@ -186,11 +186,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Incorporating internal membranes into the thermodynamic model}{194}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Modelling kinetics outside of equilibrium}{196}{section.7.4}
+\contentsline {section}{\numberline {7.4}Modelling PAR-2 dimer kinetics outside of equilibrium}{196}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}aPAR disruption partially restores expected equilibrium localisation pattern}{197}{section.7.5}
+\contentsline {section}{\numberline {7.5}aPAR mutants restore dimeric PAR-2 towards the expected equilibrium localisation pattern}{196}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Discussion}{198}{section.7.6}
+\contentsline {section}{\numberline {7.6}Discussion}{196}{section.7.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Discussion}{199}{chapter.8}
 \defcounter {refsection}{0}\relax 
@@ -202,9 +202,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.2}Worm strains}{200}{subsection.9.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.3}RNA interference}{204}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.3}RNA interference}{205}{subsection.9.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.4}Brood size assays}{204}{subsection.9.1.4}
+\contentsline {subsection}{\numberline {9.1.4}Brood size assays}{205}{subsection.9.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.2}CRISPR}{206}{section.9.2}
 \defcounter {refsection}{0}\relax 
@@ -216,38 +216,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Large insertions}{208}{subsubsection*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.2}Testing a method for insertions at the \textit {glh-1} site}{208}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.2}Testing a method for gene insertions at the endogenous \textit {glh-1} site}{209}{subsection.9.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.3}PAR-2 point mutations}{210}{subsection.9.2.3}
+\contentsline {subsection}{\numberline {9.2.3}PAR-2 point mutations}{213}{subsection.9.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.4}Mitochondrial GBP}{212}{subsection.9.2.4}
+\contentsline {subsection}{\numberline {9.2.4}PAR-2 GCN4 insertion}{215}{subsection.9.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.5}Membrane tethered PAR-2 RING fragment}{214}{subsection.9.2.5}
+\contentsline {subsection}{\numberline {9.2.5}Mitochondrial GFP-binding protein}{216}{subsection.9.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.6}RING domain fragment}{214}{subsection.9.2.6}
+\contentsline {subsection}{\numberline {9.2.6}Membrane tethered PAR-2 RING fragment}{217}{subsection.9.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Microscopy}{216}{section.9.3}
+\contentsline {subsection}{\numberline {9.2.7}RING domain fragment}{219}{subsection.9.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}In vitro methods}{217}{section.9.4}
+\contentsline {subsection}{\numberline {9.2.8}GCN4 fragment}{220}{subsection.9.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.1}Full-length PAR-2 purification}{217}{subsection.9.4.1}
+\contentsline {section}{\numberline {9.3}Microscopy}{221}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.2}Ubiquitination assays}{217}{subsection.9.4.2}
+\contentsline {section}{\numberline {9.4}In vitro methods}{222}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.3}PAR-2 RING domain fragment purification}{219}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.1}Full-length PAR-2 purification}{222}{subsection.9.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.4}SEC-MALS}{221}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {9.4.2}Ubiquitination assays}{222}{subsection.9.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Modelling methods}{222}{section.9.5}
+\contentsline {subsection}{\numberline {9.4.3}PAR-2 RING domain fragment purification}{224}{subsection.9.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.1}Simulations}{222}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.4.4}SEC-MALS}{226}{subsection.9.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.2}Creating qualitative parameter space maps}{222}{subsection.9.5.2}
+\contentsline {section}{\numberline {9.5}Modelling methods}{227}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{223}{chapter*.97}
+\contentsline {subsection}{\numberline {9.5.1}Simulations}{227}{subsection.9.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 2: Analysis of PAR-2 diffusion by single particle tracking}{238}{chapter*.103}
+\contentsline {subsection}{\numberline {9.5.2}Creating qualitative parameter space maps}{227}{subsection.9.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbreviations}{239}{chapter*.104}
+\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{229}{chapter*.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{240}{chapter*.104}
+\contentsline {chapter}{Abbreviations}{244}{chapter*.108}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{245}{chapter*.108}
