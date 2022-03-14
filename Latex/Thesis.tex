@@ -188,7 +188,7 @@ As previously mentioned, PAR polarity doesn't occur spontaneously, requiring a t
 
 A first mechanism involves a local inhibition of RhoA activity in the posterior of the cell, which downregulates actomyosin contractility. This sets up a spatial gradient of contractility, which leads to anterior-directed cortical flows. The aPARs PAR-3, PAR-6 and PKC-3 are advected by these flows, which causes them to segregate to the anterior. <more here on local RhoA inhibition, par-3 clustering>\\
 
-The resulting depletion of PKC-3 concentration in the posterior relieves antagonism of pPARs, allowing them to bind in the posterior and form a nascent domain. This domain is then amplified via a series of antagonistic feedback reactions, which are described in another section. This mechanism of advective triggering followed by self-organisation is sufficient to capture the core features and dynamics of polarity in computer models of the PAR network \citep{Goehring2011a}.\\
+The resulting depletion of PKC-3 concentration in the posterior relieves antagonism of pPARs, allowing them to bind in the posterior and form a nascent domain. This domain is then amplified via a series of antagonistic feedback reactions, which are described in another section. This mechanism of advective triggering followed by self-organisation is sufficient to capture the core features and dynamics of polarity in mathematical models of the PAR network \citep{Goehring2011a}.\\
 
 Further work has shown that the PAR proteins themselves are able to feed back onto the actomyosin cortex, amplifying contractility asymmetries as polarity progresses \citep{Gross2018} <More here>.\\
 
@@ -218,7 +218,7 @@ Signalling from the PARs regulates the position of the mitotic spindle, which le
 
 \textit{Segregation of fate determinants}\\
 
-As well as differing in size, the two daughter cells differ in a number of cytoplasmic components which define cell fate during development, which is also set up by signalling from the PARs. Immediately downstream of the PARs is MEX-5, which is organised into a cytoplasmic gradient in response to asymmetry of PAR-1. PAR-1 phosphorylates MEX-5 \citep{Griffin2011}, which increases its mobility. Working against the action of a uniform phosphatase, PP2A, this leads to an asymmetry in MEX mobility, which leads to accumulation at the anterior where mobility is lowest. <Computer models, Griffin>. \\
+As well as differing in size, the two daughter cells differ in a number of cytoplasmic components which define cell fate during development, which is also set up by signalling from the PARs. Immediately downstream of the PARs is MEX-5, which is organised into a cytoplasmic gradient in response to asymmetry of PAR-1. PAR-1 phosphorylates MEX-5 \citep{Griffin2011}, which increases its mobility. Working against the action of a uniform phosphatase, PP2A, this leads to an asymmetry in MEX mobility, which leads to accumulation at the anterior where mobility is lowest. <Mathematical models, Griffin>. \\
 
 This MEX gradient then sets up a P granule asymmetry by regulating growth and dissolution of phase-separated P-granule droplets \citep{Brangwynne2009}. These granules dominate in the posterior, so are inherited by the P1 cell after cell division. The granules contain fate determinants which are responsible for specifying germ-line fate in the P lineage.\\
 
@@ -252,7 +252,7 @@ This ability to self-associate is supported by in vitro pull-down studies, which
 
 Taken together, \textcite{Arata2016} propose that an initial PKC-3 asymmetry leads to a PAR-2 oligomer size asymmetry, either as a direct effect of phosphorylation disrupting oligomerisation, or as a result of concentration-dependent oligomer growth/dissociation. Oligomer size asymmetry would in turn stabilise concentration asymmetries, through on and off rate effects, leading to a degree of positive feedback and polarity stabilisation.\\
 
-Whilst the core-concepts of their model (namely concentration/phosphorylation dependent oligomerisation, oligomer-size dependent membrane stability, and self-recruitment) are attractive and intuitive, they have yet to be formalised by mechanistic computer models in the context of PAR-2 polarity. Furthermore, the mechanistic basis of the putative PAR-2 oligomerisation reaction remains elusive.\\
+Whilst the core-concepts of their model (namely concentration/phosphorylation dependent oligomerisation, oligomer-size dependent membrane stability, and self-recruitment) are attractive and intuitive, they have yet to be formalised by mechanistic mathematical models in the context of PAR-2 polarity. Furthermore, the mechanistic basis of the putative PAR-2 oligomerisation reaction remains elusive.\\
 
 
 \subsection{Roles for the RING domain}
@@ -607,9 +607,9 @@ Accurate quantification of features from images relies on the ability to separat
 
 % Most of this might work better in the main introduction section, but including here now as it's necessary to introduce the chapter.
 
-Mutual antagonism, in which aPARs and pPARs exclude each other from the membrane through phosphorylation reactions, is generally understood to be a dominant factor driving self-organisation of PAR polarity. When coupled to with sufficiently strong spatial trigger, such as an advective flow trigger, mutual antagonism alone is sufficient to give rise to stable polarity in computer models. However, a number of experimental observations have been made which cannot be accounted for by such simple models, suggesting that other feedback mechanisms may be important.\\
+Mutual antagonism, in which aPARs and pPARs exclude each other from the membrane through phosphorylation reactions, is generally understood to be a dominant factor driving self-organisation of PAR polarity. When coupled to with sufficiently strong spatial trigger, such as an advective flow trigger, mutual antagonism alone is sufficient to give rise to stable polarity in mathematical models. However, a number of experimental observations have been made which cannot be accounted for by such simple models, suggesting that other feedback mechanisms may be important.\\
 
-Of particular interest is PAR-2, a posterior PAR scaffold which recruits the kinase PAR-1. Whilst PAR-2 is dependent on exclusion by PKC-3 for polarity, several observations have been made which appear to violate predictions from mutual antagonism models, and suggest that PAR-2 plays significant roles in polarity formation which are not fully appreciated by existing computer models.\\
+Of particular interest is PAR-2, a posterior PAR scaffold which recruits the kinase PAR-1. Whilst PAR-2 is dependent on exclusion by PKC-3 for polarity, several observations have been made which appear to violate predictions from mutual antagonism models, and suggest that PAR-2 plays significant roles in polarity formation which are not fully appreciated by existing mathematical models.\\
 
 \subsection{The PAR-2 polarity pathway}
 
@@ -671,7 +671,7 @@ Unpublished work by Florent Peglion (Goehring lab) has shown that a mutant PAR-2
 
 Overall, this work paints a picture of PAR-2 polarity that extends beyond the mutual antagonism model. Whilst under normal conditions, advective transport and mutual antagonism may dominate the patterning process, the secondary microtubule-dependent pathway appears to rely, at least partially, on feedback reactions intrinsic to PAR-2 itself. Following initial recruitment to the cortex by microtubules, self-recruitment of PAR-2 molecules from the cytoplasm enhances cortical PAR-2 concentrations. Diffusive spread, along with the ability to resist PKC-3 when highly concentrated allows PAR-2 to spread anteriorly and rapidly invade cortical space occupied by aPAR. At the same time, cortical PAR-2 recruits PAR-1 from the cytoplasm. By phosphorylating PAR-3, PAR-1 eventually clears aPARs from the posterior, restricting them to the anterior.\\
 
-However, our understanding of this process is far from complete. Primarily, whilst feedback pathways have been proposed, we lack insight into the quantitative nature of these pathways, which limits our ability to understand the system with computer models. Furthermore, we lack good insight into the quantitative characteristics of PAR-2 mutants, including basic properties such as membrane affinities and total protein levels, which complicates interpretation of phenotypes. Recent advances in techniques for in vivo quantification, described in the previous chapter, overcome some of these barriers and should enhance our ability to obtain accurate quantitative data. \\
+However, our understanding of this process is far from complete. Primarily, whilst feedback pathways have been proposed, we lack insight into the quantitative nature of these pathways, which limits our ability to understand the system with mathematical models. Furthermore, we lack good insight into the quantitative characteristics of PAR-2 mutants, including basic properties such as membrane affinities and total protein levels, which complicates interpretation of phenotypes. Recent advances in techniques for in vivo quantification, described in the previous chapter, overcome some of these barriers and should enhance our ability to obtain accurate quantitative data. \\
 
 Additionally, previous studies are complicated by their reliance on transgenic lines. As expression of PAR-2 transgenes is not under the same regulatory control as endogenous PAR-2, and the location of transgene insertions in the genome varies from line to line, protein levels are often not comparable to endogenous protein levels, and can strongly differ between lines. This is a potential concern, as the ability for PAR-2 to polarise in no-flow conditions is sensitive to small changes in PAR-2 amounts (Rodrigues). Recent advances in CRISPR technologies mean that we can now tag and monitor endogenous PAR-2 with relative ease, which may control for this potentially confounding factor.\\
 
@@ -1303,6 +1303,7 @@ where $w_m$ represents the energetic difference between the cytoplasmic and memb
 
 
 \subsection{Thermodynamic description of dimerisation}
+\label{section:thermodynamic_dimerisation}
 
 We can use similar analysis to consider a dimerisation reaction:
 
@@ -1491,136 +1492,155 @@ This nonlinearity can be considered a form of positive feedback in which the eff
 
 \textbf{Detailed contributions:}\\
 
+The transition state theory description of membrane binding kinetics presented in section \ref{section:transition_state_theory} was developed by David Zwicker, following on from work described in the previous chapter. The rest of the work is my own.\\
+
 
 \clearpage
 \section{Introduction}
 
+Cell polarity is generally understood as an out-of-equilibrium process in which feedback reactions regulate the conversion of proteins between slowly diffusing plasma membrane-bound states and rapidly diffusing cytoplasmic states. So far, I have shown that PAR-2 dimerises at the membrane, and used equilibrium models to show that this reaction underlies a form of positive feedback, whereby membrane affinity increases as concentrations increase. In this section, I consider the impact that this feedback reaction might have in the context of cell polarity. \\
+
+To consider the potential implications of dimerisation-dependent membrane association behaviour in out-of-equilibrium contexts, it is no longer sufficient to consider the equilibrium state, and individual rates governing membrane association and dissociation must be considered. I therefore begin this chapter by considering the impact that dimerisation might have on membrane binding and unbinding rates. Fortunately, the thermodynamic model described in the previous chapter can be easily extended to this scenario, which I describe in the first section of this chapter. I then use this description to incorporate several features of dimerisation into existing mathematical models of PAR polarity and comment on the potential implications of dimerisation.\\
+
+
 \clearpage
 \section{Describing membrane binding dynamics with transition state theory}
+\label{section:transition_state_theory}
 
-\subsection{Two-species thermodynamic model} 
-
-To simplify further analysis, we can convert the four species thermodynamic model to a two species model, in which we only track overall membrane and cytoplasmic concentrations, $c_m$ and $c_c$. If we assume that dimerisation reactions in the membrane and cytoplasm are fast relative to membrane binding, we can define instantaneous monomer and dimer concentrations as a function of overall concentration. For example, for membrane-bound protein:
-\begin{align}
-c_{m1} &= \frac{1}{2} e^{-w_d} \left(\sqrt{4e^{w_d} c_m + 1} - 1\right)\\
-c_{m2} &= c_m - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d} c_m + 1} - 1\right)
-\end{align}
-
-where $w_d$ (the dimerisation energy) is expressed in $RT$ units, and concentrations are expressed in $c^{\circ}$ units. This is identical to the description in section x. As a result, we can define the overall chemical potential of membrane and cytoplasmic protein ($\mu_m$ and $\mu_c$) as a function of overall membrane and cytoplasmic concentrations ($c_m$ and $c_c$):
-\begin{align}
-\mu_c &= \ln(c_c) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_c + \sqrt{4e^{w_d} c_c+ 1}\right)\\
-\mu_m &= \ln(c_m) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_m + \sqrt{4e^{w_d} c_m + 1}\right) - w_m
-\end{align}
-
-where $w_m$ is the membrane association energy, also expressed in $RT$ units. These two equations can be solved analytically at equilibrium ($\mu_c$ = $\mu_m$) to find equilibrium membrane and cytoplasmic concentrations.
-
-
-\subsection{Explicit description of membrane binding kinetics} 
-
-% Building kinetic models requires a description of membrane and unbinding rates.
-
+To begin, consider the following reaction in which a protein is exchanging between cytoplasmic ($c$) and membrane ($m$) states: 
 \begin{center}
 \ce{$c$ <=>[$k_{on}$][$k_{off}$] $m$}
 \end{center}
 
-For a given composition, flux on ($s_{on}$) is equal to $k_{on} c_c$, and flux off ($s_{off}$) is equal to $k_{off} c_m$. Using transition state theory, these fluxes can be expressed in terms of the chemical potentials of each state:
+For a given system composition, the instantaneous flux onto the membrane ($s_{on}$) can be expressed using mass action kinetics as $k_{on} c_c$, and the total flux off the membrane ($s_{off}$) can be written as $k_{off} c_m$ (where $c_c$ and $c_m$ are cytoplasmic and membrane concentrations, respectively). Using transition state theory \citep{Hanggi1990}, these fluxes can be written in terms of the chemical potentials of each state:
 \begin{align}
 s_{on} &= \Lambda e^{\mu_c}\\
 s_{off} &= \Lambda e^{\mu_m}
 \end{align}
 
-And so:
+where $\Lambda$ is a factor that scales rates according to the energetics of the transition state. Rate constants can then be described as:
 \begin{align}
 k_{on} &= \Lambda e^{\mu_c} / c_c \\
 k_{off} &= \Lambda e^{\mu_m} / c_m
 \end{align}
 
-Which is equivalent to:
+Using the four-species chemical potential model described in the previous chapter, we can derive the following relative on and off rates for monomers and dimers:
 \begin{align}
-k_{on} &= \frac{\Lambda}{\sqrt{2 e^{w_d} c_c + \sqrt{4 e^{w_d} c_c + 1} + 1}}\\
-k_{off} &= \frac{\Lambda e^{-w_m}}{\sqrt{2 e^{w_d} c_m + \sqrt{4 e^{w_d} c_m + 1} + 1}}
+k_{on,1} &= \Lambda\\
+k_{on,2} &= \Lambda e^{-w_d}\\
+k_{off,1} &= \Lambda e^{-w_m}\\
+k_{off,2} &= \Lambda e^{-2w_m - w_d}
 \end{align}
 
-Assuming that $e^{w_d} c_c$ is small (i.e. the cytoplasm is entirely monomeric), $k_{on}$ can be approximated as a constant ($k_{on} \approx \Lambda / \sqrt{2}$). $k_{off}$ is expected to change as a function of $w_m$, $w_d$ and concentration (fig x). 
+where $w_d$ (the dimerisation energy) and $w_m$ (the membrane association energy) are expressed in $RT$ units. This implies that dimerisation in the cytoplasm and on the membrane is expected to slow membrane binding and unbinding kinetics, respectively. Furthermore, since dimerisation is concentration dependent, we expect overall rates to slow as overall concentrations increase. If we make the assumption that dimerisation reactions in the membrane and cytoplasm are fast relative to membrane binding, we can define instantaneous monomer and dimer concentrations as a function of overall concentrations. For example, for membrane-bound protein:
+\begin{align}
+c_{m1} &= \frac{1}{2} e^{-w_d} \left(\sqrt{4e^{w_d} c_m + 1} - 1\right)\\
+c_{m2} &= c_m - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d} c_m + 1} - 1\right)
+\end{align}
+
+where concentrations are expressed in $c^{\circ}$ units. (Note, this is identical to the description of dimerisation in section \ref{section:thermodynamic_dimerisation}). As a result, overall chemical potentials of membrane and cytoplasmic protein ($\mu_m$ and $\mu_c$) can be described as a function of overall concentrations ($c_m$ and $c_c$):
+\begin{align}
+\mu_c &= \ln(c_c) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_c + \sqrt{4e^{w_d} c_c+ 1}\right)\\
+\mu_m &= \ln(c_m) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_m + \sqrt{4e^{w_d} c_m + 1}\right) - w_m
+\end{align}
+
+We can then obtain concentration-dependent rate constants describing overall membrane binding and unbinding, which take dimerisation into account (I use $*$ to indicate rate constants that vary as a function of concentration):
+\begin{align}
+k_{on}^* &= \frac{\Lambda}{\sqrt{2 e^{w_d} c_c + \sqrt{4 e^{w_d} c_c + 1} + 1}}\\
+k_{off}^* &= \frac{\Lambda e^{-w_m}}{\sqrt{2 e^{w_d} c_m + \sqrt{4 e^{w_d} c_m + 1} + 1}}
+\end{align}
+
+
+Throughout this chapter, I will restrict analysis to models in which cytoplasmic protein is dilute and so predominantly monomeric, which is relevant for consideration of PAR-2. In this case, $e^{w_d} c_c$ is small, and so $k_{on}$ can be approximated as a constant. At the membrane, where concentrations are higher, $k_{off}$ is expected to change as a function of $w_m$, $w_d$ and concentration (\cref{fig:thermodynamic_model_koff}).\\
+
+% Need to check the maths a bit. Getting kon = lambda / root2 when cc is small, but should be just lambda, no?
 
 \begin{figure}
 \includegraphics[scale=1]{thermodynamic_model_koff}
 \centering
-\mycaption{Membrane unbinding rates ($k_{off}$) vary as a function of $w_m$, $w_d$ and concentration}{
-\textbf{(A)} $k_{off} / \Lambda$ as a function of energy parameters $w_m$ and $w_d$ for a fixed membrane concentration (x).
-\textbf{(B)} $k_{off} / \Lambda$ as a function of concentration for four different values of $w_d$, corresponding to the coloured points in (A). Whereas off rates for weakly dimeric protein (blue and orange) are insensitive to concentration, off rates for more strongly dimeric protein (green and red) fall sharply as membrane concentrations increase.
+\mycaption{Describing relative off rates with transition state theory}{
+\textbf{(A)} $k_{off} / \Lambda$ as a function of energy parameters $w_m$ and $w_d$ for a fixed membrane concentration ($c_m = 10^{-5}$).
+\textbf{(B)} $k_{off} / \Lambda$ as a function of concentration for four different values of $w_d$, corresponding to the coloured points in (A). Whereas off rates for weakly dimeric protein (blue and orange) are insensitive (or weakly sensitive) to concentration, off rates for more strongly dimeric protein (green and red) fall sharply as membrane concentrations increase.
 }
 \label{fig:thermodynamic_model_koff}
 \end{figure}
 
+Overall, this analysis implies that the effects of dimerisation on membrane affinity are expected to come about largely through changes in the rate of membrane dissociation, rather than the rate of membrane association. Two separate points are important to note. Firstly, by impacting the dimeric state of membrane protein, the strength of dimer association ($w_d$) can tune the total dissociation rate of membrane protein over orders of magnitude. Secondly, positive feedback on membrane localisation is yielded through a decrease in membrane dissociation rates as membrane concentrations rise. In the rest of this chapter, I aim to consider these two features separately. Firstly, I consider the extent to which membrane dissociation rates impact the behaviour of the existing PAR model in the absence of dimerisation-driven positive feedback. Secondly, I build a new model that incorporates dimerisation-driven positive feedback in the pPAR subnetwork, and explore the impacts that this has on patterning behaviour.\\
+
 
 \clearpage
 \section{Exploring the effects of membrane lifetime in the mutual antagonism model}
+\label{section:goehring_model_off_rates}
 
-\subsection{Model description}
+A number of self-organising models have been used to describe PAR polarity driven by mutual antagonism, which vary in their complexity \citep{Goehring2011a, Dawes2011, Sailer2015, Arata2016, Gross2018}. However, in general, the principles governing polarity in each model are the same. Specifically, antagonistic feedback reactions regulate the conversion of proteins between slowly diffusing plasma membrane-bound states and rapidly diffusing cytoplasmic pools. Nonlinearities in these feedback reactions give systems bistability, which permits the existence of stable polarised and uniform states. Mass conservation causes the cytoplasmic pool of proteins to deplete as polarity domains grow, which has a stabilising effect on the position of the domain boundary. This is a similar principle to the `wave-pinning' model originally described for Cdc42 polarity in yeast \citep{Mori2008}.\\
 
-For simplicity, I will consider a symmetric model in which identical parameters govern the anterior and posterior species:
+The aim of this section is to discuss the impacts of membrane lifetime in models based on these principles. For this purpose, I will base my analysis on the simplest self-organising PAR model, developed by \textcite{Goehring2011a}. This model groups aPARs and pPARs into two species (referred to as $A$ and $P$), and models antagonism as single-step reactions that depend nonlinearly on the concentration of the antagonist. To further simplify analysis, I will consider a symmetric model in which identical parameters govern the anterior and posterior species, similar to the approach used by \textcite{Hubatsch2019a} and \textcite{Trong2014}. This can be described by the following partial differential equations:
 \begin{align}
 \frac{\partial A_m}{\partial t} &= D \frac{\partial^2 A_m}{\partial x^2} + k_{on} A_c - k_{off} A_m - k_{ant} P_m^2 A_m\\
 \frac{\partial P_m}{\partial t} &= D \frac{\partial^2 P_m}{\partial x^2} + k_{on} P_c - k_{off} P_m - k_{ant} A_m^2 P_m
 \end{align}
 
-where $D$ is the diffusion coefficient at the membrane, $k_{on}$ and $k_{off}$ are the membrane binding and unbinding rates and $k_{ant}$ is the rate of antagonism. For now, we assume that antagonism depends nonlinearly on the concentration of the antagonising species, by imposing an exponent of 2 on each of the antagonism terms. I will return to this point later in the context of dimerisation-driven feedback. A similar description has been used previously in Hubatsch and Trong. With the assumption that cytoplasmic diffusion is fast, and so cytoplasmic concentrations are effectively uniform, the cytoplasmic concentrations of A and P ($A_c$ and $P_c$) can be calculated based on the total amount of material ($A_{tot}$ and $P_{tot}$) according the the conservation of mass terms below:
+where $x$ is the position coordinate along a one-dimensional membrane of length $L$, $D$ is the diffusion coefficient at the membrane, $k_{on}$ and $k_{off}$ are the membrane binding and unbinding rates and $k_{ant}$ is the rate of antagonism. With the assumption that cytoplasmic diffusion is fast, and so cytoplasmic concentrations are effectively uniform, the cytoplasmic concentrations of A and P ($A_c$ and $P_c$) can be calculated based on the total amount of material ($A_{tot}$ and $P_{tot}$) according the the conservation of mass terms below:
 \begin{align}
 A_c &= A_{tot} - \psi \bar{A_m}\\
 P_c &= P_{tot} - \psi \bar{P_m}
 \end{align}
 
-where $\bar{A_m}$ and $\bar{P_m}$ are the average membrane concentrations of A and P, and $\psi$ is the surface area to volume ratio. Default values for all parameters used in this section are shown in table x.
+where $\bar{A_m}$ and $\bar{P_m}$ are the average membrane concentrations of A and P, $\psi$ is the surface area to volume ratio and $A/P_{tot}$ are the total amounts of material. Default values for all parameters used in this section are shown in table \ref{tab:goehring_model_default_parameters}.
 
-% One dimensional system
+\begin{table}[]
+\scriptsize
+\begin{tabular}{lllllll}
+$D$ & $k_{on}$ & $k_{off}$ & $k_{ant}$ & $A/P_{tot}$ & $\psi$ & $L$ \\ \hline
+0.1 $\mu m^2 s^{-1}$ & 0.1 $\mu m s^{-1}$ & 0.001-0.1 $s^{-1}$ & 0.001-1 $\mu m^4 s^{-1}$ & 1 $\mu m^{-3}$ & 0.1 $\mu m^{-1}$ & 50 $\mu m$
+\end{tabular}
+\mycaption{Default parameter values used for symmetric PAR model}{}
+\label{tab:goehring_model_default_parameters}
+\end{table}
 
+\subsection{Conditions for polarisation}
 
-\clearpage
-\subsection{Polarity requires sufficiently stable membrane association}
+Firstly, I test how off rates impact the ability of models to maintain stable polarity. To do so, I initiate models from a fully polarised state, and test for their ability to maintain polarity for 10000s without continuous external cues (\ref{fig:goehring_model_kant_koff_triggering}A, left). Parameter space analysis (\cref{fig:goehring_model_kant_koff_triggering}B) reveals that, for a given $k_{ant}$, a threshold $k_{off}$ exists below which polarity can be stably maintained. Additionally, as $k_{off}$ decreases, models can maintain polarity over a wider range of $k_{ant}$ values.\\
 
-% Need some introduction here. Stable uniform state, stable pattern
-
-I first explore the effects of $k_{off}$ on the ability of models to form and maintain stable polarised patterns. I consider two different polarity regimes. In a first scenario, I initiate models in a polarised state, and ask whether patterns can be maintained (fig x, left). In a second scenario, I initial models in a uniform state, impose a very small spatial perturbation, and ask whether models can spontaneously break symmetry.\\
+Previous parameter space analysis of this model has revealed the existence of parameter regimes which support the existence of stable uniform states (as is the case in vivo), and others in which the uniform state is unstable \citep{Goehring2011a, Trong2014}, but the effects of $k_{off}$ were not explicitly shown. To test this, I started models from a uniform aPAR dominant state and subjected them to a small initial asymmetry. In models where the uniform state is unstable, this small perturbation is amplified and a full pattern is formed (\ref{fig:goehring_model_kant_koff_triggering}A, right). In models where the uniform state is stable, the initial asymmetry is suppressed and uniformity is maintained. This analysis reveals that, over the range of parameters explored, the stability of the uniform state is set mainly by the value of $k_{ant}$, with $k_{off}$ only impacting stability close to the edge of the polarisable region.
 
 \begin{figure}
 \includegraphics[scale=1]{goehring_model_kant_koff_triggering}
 \centering
 \mycaption{Off rates and antagonism rates determine the potential for polarisation}{
-\textbf{(A)} Examples of induced and spontaneous polarity. MORE. DETAILS ON SIMULATIONS
-\textbf{(B)} Dependence of spontaneous and inducible polarity on $k_{ant}$ and $k_{off}$. 
-Grey regions indicate models that can break symmetry spontaneously to form stable polarised patterns. Green regions indicate models that can maintain polarity starting from a polarised state, but cannot break symmetry spontaneously. Models were simulated for 10000s, and scored as polarised at the end of the simulation if the membrane concentration profiles of A and P cross. DEFAULT PARAMETERS. Simulations in (A) were performed with $k_{ant} = x$ and $k_{off} = x$.
+\textbf{(A)} Examples of induced and spontaneous polarity. Induced polarity: models are started from a polarised state, and tested for their ability to stably maintain polarity in the absence of continuous spatial cues. Spontaneous polarity: models are started from a uniform aPAR dominant steady state, and $A_m$ and $P_m$ profiles are subjected to small gradients towards their respective poles. Models in which the uniform steady state is unstable will amplify these perturbations and spontaneously polarise.
+\textbf{(B)} $k_{ant}$ / $k_{off}$ parameter space. Models were simulated for 10000s, using the two procedures described above, and scored as polarised at the end of the simulation if the membrane concentration profiles of A and P cross. The white regions correspond to models that are unpolarised at the end of both simulations, the grey region correspond to models that are polarised at the end of both simulations, and the green region indicates models that can stably maintain induced polarity but don't polarise spontaneously. Simulations in (A) were performed with $k_{off} = 10^{-2.5}$ and $k_{ant} = 10^{-3}$, which exists in the grey region. Further details on simulations and parameter space analysis are described in the Methods section.
 }
 \label{fig:goehring_model_kant_koff_triggering}
 \end{figure}
 
-Whilst, for a given $k_{ant}$, a minimum value of $k_{off}$ is required for patterning, changing $k_{ant}$ alone within the polarisable region generally has no impact on the mode of polarity. By contrast, decreasing $k_{ant}$ can switch models from having a stable uniform state to being spontaneously polarisable. \\
 
-% Whilst changing kant alone can switch models from inducible to spontaneous, this wasn't found to be the case for koff within the range of parameters explored
-% models with low koff can operate over a larger range of kant
-
-
-\clearpage
 \subsection{Low off rates strengthen pattern asymmetries}
 
-Next, I explore how off rates impact the shape of polarised patterns in the PAR model. I perform simulations with varying values of $k_{ant}$ and $k_{off}$, and score final patterns based on asymmetry index. \\
+Next, I explore how off rates impact the shape of polarised membrane patterns generated by the PAR model. Across the same $k_{ant}$ / $k_{off}$ parameter space, I simulate models starting from a polarised state, and score models based on the asymmetry of their final membrane patterns. I use the asymmetry index (ASI) of $P_m$ as a metric, calculated as follows:
+\begin{equation}
+ASI = (P_{m, post} - P_{m, ant}) /  2(P_{m, post} + P_{m, ant})
+\end{equation}
+
+where $P_{m, post}$ and $P_{m, ant}$ indicate the average membrane concentrations of $P_m$ in the posterior and anterior 50\% of the system.\\
+
+The results (\cref{fig:goehring_model_kant_koff_asi}) show a dependence of pattern asymmetry on both $k_{ant}$ and $k_{off}$. Increasing $k_{ant}$ increases rates of antagonism for a given concentration of antagonist, which promotes high asymmetry by keeping PARs out of their opposing domains. Similarly, decreasing off rates allow antagonists to reach higher concentrations within their domains, which helps amplify nonlinear antagonism. Figure \ref{fig:goehring_model_kant_koff_asi}B shows that decreasing $k_{off}$ for a given $k_{ant}$ can strongly impact on the normalised shape of polarised patterns, until a maximum degree of asymmetry is reached.\\
 
 \begin{figure}
 \includegraphics[scale=1]{goehring_model_kant_koff_asi}
 \centering
 \mycaption{Low off rates strengthen pattern asymmetries}{
-\textbf{(A)} Dependence of pattern asymmetry on $k_{ant}$ and $k_{off}$. Asymmetry index is defined as x.
-\textbf{(B)} Dependence of normalised membrane patterns on $k_{off}$, which shows that low off rates sharpen asymmetries. Default parameters. Simulations in (B) were performed with $k_{ant} = x$.
+\textbf{(A)} Dependence of pattern asymmetry on $k_{ant}$ and $k_{off}$. 
+\textbf{(B)} Dependence of normalised membrane patterns on $k_{off}$, which shows that low off rates sharpen asymmetries. Simulations in (B) were performed with $k_{ant} = 0.005$.
 }
 \label{fig:goehring_model_kant_koff_asi}
 \end{figure}
 
-These results show that pattern asymmetry depends strongly on both $k_{ant}$ and $k_{off}$. Increasing $k_{ant}$ leads to higher rates of for a given concentration of antagonist, which helps keep PARs out of their opposing domain. Similarly, decreasing off rates allow antagonists to reach higher concentrations within their domains, which helps strengthen overall antagonism. Due to the nonlinear dependence of antagonism on antagonist concentrations, this effect is strong. Fig x shows that decreasing $k_{off}$ for a given $k_{ant}$ can have a strong impact on the normalised shape of polarised patterns.\\
+\subsection{Low off rates enhance pattern stability}
 
-\clearpage
-\subsection{Low off rates enhance polarity robustness}
+Maintenance of polarity relies on competition between aPARs and pPARs, and therefore balanced activity between the two groups is expected to be an essential requirement for polarity. That said, recent work from the Goehring lab shows that the PAR network is surprisingly robust to imbalances in protein amounts in vivo, able to withstand reductions in PAR protein amounts by over 50\% (Rodrigues et al., in prep). This warrants full exploration of the robustness of models to imbalances in protein amounts.\\
 
-Next I explore how stable patterns are to changing protein amounts. Models with a high off rate are highly sensitive to protein amounts. Small reductions in the amount of P compared to A cause large shifts in the boundary position, and large imbalances cause polarity to completely break down (fig xA). On the other hand, models with a low off rate are much more stable. Small imbalances cause relatively minor shifts in the boundary position, and models can withstand large imbalances before polarity breaks down (fig xB). Parameter space shows that, within the range of parameters that support polarity, tolerance to imbalance is set mainly by koff, and kant has relatively little impact.\\
+To test the robustness of models to protein imbalances, I simulate models with varying levels of $P_{tot}$, and score their ability to maintain polarity starting from a polarised state. Models with high off rates are highly sensitive to protein amounts. Small reductions in $P_{tot}$ cause the boundary position to shift towards the posterior, and larger imbalances cause polarity to completely break down (\cref{fig:goehring_model_kant_koff_dosage_imbalance}A). Models with lower off rates, however, are more stable in the face of imbalances (\cref{fig:goehring_model_kant_koff_dosage_imbalance}B). Small imbalances cause relatively minor shifts in the boundary position, and models can withstand larger imbalances before polarity breaks down. In figure (\ref{fig:goehring_model_kant_koff_dosage_imbalance}B), I show the maximum reduction in $P_{tot}$ that models can withstand before polarity breaks down, across $k_{ant}$ / $k_{off}$ parameter space. This reveals that, within the range of parameters explored, tolerance to imbalance is set mainly by $k_{off}$, and $k_{ant}$ has relatively little impact.\\
 
 \begin{figure}
 \includegraphics[scale=1]{goehring_model_kant_koff_dosage_imbalance}
@@ -1628,126 +1648,127 @@ Next I explore how stable patterns are to changing protein amounts. Models with 
 \mycaption{Low off rates enhance robustness to imbalanced protein amounts}{
 \textbf{(A)} Models with high off rates are strongly sensitive to imbalanced protein amounts. A small reduction in the amount of P compared to A leads to a large shift in the boundary position, whereas larger reductions cause polarity to break down
 \textbf{(B)} Models with low off rates have a more stable boundary and can maintain polarity with strong imbalances in protein amounts. 
-\textbf{(C)} Dependence on $k_{ant}$ and $k_{off}$ of the ability of models to withstand imbalanced in protein amounts. Shading highlights the maximum amount by which pP can be reduced and polarity maintained. Default parameters. Simulations in (A) and (B) were performed with $k_{ant} = x$.
+\textbf{(C)} Dependence on $k_{ant}$ and $k_{off}$ of the ability of models to withstand imbalanced in protein amounts. Shading highlights the maximum amount by which $P_{tot}$ can be reduced and polarity stably maintained. Simulations in (A) and (B) were performed with $k_{ant} = 0.005$.
 }
 \label{fig:goehring_model_kant_koff_dosage_imbalance}
 \end{figure}
 
+Enhanced stability in models with low off rates is likely a consequence of cytoplasmic pool depletion, which `pins' domain boundaries and limits the ability of the aPAR domain to grow when $P_{tot}$ is depleted. Compatible with this, models with infinite cytoplasmic pools generally show highly unstable domain boundaries \citep{Dawes2011}.\\
+
+\subsection{Conclusions}
+
+Overall, the analysis in this section shows that membrane dissociation rates can have a strong impact on the patterning capabilities of the PAR model. For a start, the ability of models to form patterns requires $k_{off}$ to be sufficiently low. In addition, decreasing off rates generally gives models properties that would be considered beneficial for robust patterning systems. Low off rates permit polarity across a wider range of antagonism rates, enhance steady state asymmetries by amplifying nonlinear feedback, and stabilise boundaries to the effects of changing protein amounts. Therefore, by simply lowering membrane dissociation rates, dimerisation is expected to strongly impact patterning behaviour. \\
+
+
 \clearpage
 \section{Exploring the effects of dimerisation-driven feedback in polarity models}
 
-Overall, the above section shows that, even in the absence of dimerisation-driven feedback, the effects of dimerisation on off rates can have a large impact on models. Low off rates permit polarity across a wider range of antagonism rates. Low off rates enhance steady state asymmetries by amplifying nonlinear feedback. Low off rates stabilise boundaries. In this section I introduce dimerisation-driven feedback into models. Firstly, I describe a method for isolating the effects of dimerisation on feedback and expllring this independently of membrane affinity.\\
+The analysis in the previous section considers the effects of changing fixed off rates on patterning. However, as discussed previously, dimerisation can also make off rates sensitive to membrane concentrations. In this section, I aim to explore the effects of this concentration-dependent feedback on patterning. To do so, I first describe a method for separating the effects of dimerisation on feedback and basal affinity, so that feedback can be explored independently. \\
 
 \subsection{Separating the effects of dimerisation on membrane affinity and feedback}
 
-$k_{off}^*$ can be redefined in terms of arbitrary parameters $k_1$ and $k_2$:
+Firstly, I redefine $k_{off}^*$ in terms of arbitrary parameters $k_1$ and $k_2$:
 \begin{equation}
-k_{off} = \frac{k_1}{\sqrt{2 k_2 P_m + \sqrt{4 k_2 P_m + 1} + 1}}\\
+k_{off}^* = \frac{k_1}{\sqrt{2 k_2 P_m + \sqrt{4 k_2 P_m + 1} + 1}}\\
 \end{equation}
 
-where $P_m$ is the membrane concentration of PAR-2 in arbitrary units.\\
-
-I define $\alpha$ as the off rate at equilibrium. The membrane concentration at equilibrium $P_{m, eq}$, can then be given as:
+In order to study the effects of feedback and membrane affinity separately, I define two additional parameters, based on the equilibrium properties of models in a uniform equilibrium system (so far neglecting antagonism, which I will return to later). I define $\alpha$ as the off rate in these equilibrium conditions, and $\epsilon$ as the fraction of membrane-bound protein in the dimeric state. For specific values of $\alpha$ and $\epsilon$, the membrane concentration at equilibrium $P_{m, eq}$, can be given as:
 \begin{equation}
 P_{m, eq} = \frac{\alpha P_{tot}}{\alpha \psi + 1}
 \end{equation}
 
-where $P_{tot}$ is the total amount of material (i.e the cytoplasmic concentration when all material is cytoplasmic), and $\psi$ is the surface area to volume ratio.\\
-
-I define $\epsilon$ as the fraction of membrane-bound protein in the dimeric state at equilibrium. The value of $k_2$ required for a given $\epsilon$ can then be given as:
+$k_2$ can then be given as:
 \begin{equation}
 k_2 = \frac{\epsilon}{P_{m, eq} (\epsilon - 1)^2}
 \end{equation}
 
-The value of $k_1$ required for a given $\alpha$ can then be given as:
+And finally $k_1$ can be given as:
 \begin{equation}
 k_1 = \alpha \sqrt{2 k_2 P_{m, eq} + \sqrt{4 k_2 P_{m, eq} + 1 } + 1}
 \end{equation}
 
-By expressing the off rate in terms of $\epsilon$ and $\alpha$, I can separate the effects of dimerisation on membrane affinity and concentration-dependent feedback (fig x).\\
+By expressing the off rate in terms of $\alpha$ and $\epsilon$, we can separate the effects of dimerisation on basal membrane affinity and concentration-dependent feedback (\cref{fig:epsilon_vs_koff}). Note: since the cytoplasm is considered to be entirely monomeric, I use a fixed membrane binding rate ($k_{on}$). \\
 
 \begin{figure}
 \includegraphics[scale=1]{epsilon_vs_koff}
 \centering
-\mycaption{Separating the effects of dimerisation on membrane affinity and feedback}{
-\textbf{(A)} Relationship between model parameters $k_1$ and $k_2$ and features $alpha$  (which indicates the off rate at equilibrium), and $\epsilon$ (which indicates the membrane dimeric fraction at equilibrium).
-\textbf{(B)} Expressing models in terms of $\alpha$ and $\epsilon$ separates the effects of dimerisation on membrane affinity and feedback. Shows the relationship between cytoplasmic and membrane concentrations in systems with varying total protein amounts for different values of $\alpha$ (colours) and $\epsilon$ (shading). Parameter values specified in (A). Dashed line indicates the range of possible membrane and cytoplasm concentrations in a uniform system with $P_{tot}  = 1$ and $\psi = 0.1$, as specified by conservation of mass (equation x). $\alpha$ determines the membrane affinity along this conservation of mass line. $\epsilon$ determines the degree of concentration-dependent feedback. DEFAULT PARAMETERS
+\mycaption{Separating the effects of dimerisation on basal membrane affinity and feedback}{
+\textbf{(A)} Relationship between model parameters $k_1$ and $k_2$, and $\alpha$ (which indicates the off rate at equilibrium), and $\epsilon$ (which indicates the membrane dimeric fraction at equilibrium).
+\textbf{(B)} Expressing models in terms of $\alpha$ and $\epsilon$ separates the effects of dimerisation on membrane affinity and feedback. Figure shows the relationship between cytoplasmic and membrane concentrations in systems with varying total protein amounts for different values of $\alpha$ (colours) and $\epsilon$ (shading). Parameter values correspond to those specified in (A). Dashed line indicates the range of possible membrane and cytoplasm concentrations in a uniform system with $P_{tot}  = 1$ and $\psi = 0.1$. $\alpha$ determines the membrane affinity along this conservation of mass line and $\epsilon$ determines the degree of concentration-dependent feedback. Shown for $k_{on} = 0.1$.
 }
 \label{fig:epsilon_vs_koff}
 \end{figure}
 
 
-\clearpage
+
 \subsection{Modelling aPAR to pPAR antagonism}
 
-% Is it worth considering A concentration here?
-
-Next, I introduce antagonism. Assuming that monomers and dimers are equally well antagonised, overall flux off the membrane ($s_{off}$) can be expressed using mass action kinetics as:
+Next, I describe a scheme for modelling antagonism from $A_m$ to $P_m$. If we initially assume that dimerisation has no effects on antagonism, so that protein in monomeric and dimeric states is equally well antagonised, the overall flux off the membrane ($s_{off}$) can be expressed using mass action kinetics as:
 \begin{equation}
-s_{off} = k_{off}^* P_m + k_{ant} P_m
+s_{off} = k_{off}^* P_m + k_{ant} A_m P_m
 \end{equation} 
 
-where $k_{ant}$ is a first order rate constant which is independent of concentration. If monomers and dimers are antagonised differently, the rate of antagonism will depend on the dimeric state of membrane-bound protein. In this case, $s_{off}$ can be expressed as:
+where $k_{ant}$ is independent of concentration. However, given that their membrane association is intrinsically more stable, it is plausible to imagine that dimers might be partially resistant to the effects of antagonism compared to monomers. If monomers and dimers are antagonised differently, then the overall rate of antagonism will depend upon the dimeric state of membrane-bound protein. To account for this, I introduce parameters $k_3$ and $\beta$, where $\beta$ scales the antagonism rate of dimers compared to monomers:
 \begin{equation}
 s_{off} = k_{off}^* P_m + k_3 P_{m1} + k_3 (1 - \beta) P_{m2}
-\end{equation} 
+\end{equation}
 
-where $P_{m1}$ and $P_{m2}$ are the membrane concentrations of monomeric and dimeric protein respectively, and $\beta$ is a parameter that determines how well dimers are antagonised compared to monomers. A $\beta$ of 0 indicates that monomers and dimers are equally well antagonised. whereas a $\beta$ of 1 implies that dimers cannot be antagonised at all. I can then define an overall concentration-dependent rate constant for antagonism ($k_{ant}^*$) as:
+This allows for a full range of potential behaviours. $\beta = 0$ indicates that monomers and dimers are equally well antagonised, whereas $\beta = 1$ implies that dimers are entirely resistant to antagonism. I can then define an overall concentration-dependent rate constant for antagonism ($k_{ant}^*$) as:
 \begin{equation}
 k_{ant}^* = \frac{k_3 (P_{m1} + (1 - \beta) P_{m2})}{P_{m}}
 \end{equation} 
 
-I define $\theta$ as the value of $k_{ant}^*$ when protein is at the equilibrium membrane concentration $P_{m,eq}$. For a chosen value of $\theta$, $k_3$ can then be expressed as:
-
+where $P_{m1}$ and $P_{m2}$ are a function of overall concentration. This implies that, for any value of $\beta$ greater than zero, the overall rate of antagonism will change according to the dimeric state of $P_m$. To control the rate of antagonism independently of dimerisation, I introduce parameter $\theta$ which I define as the value of $k_{ant}^*$ when $P_m$ is at the equilibrium membrane concentration $P_{m,eq}$. For a certain value of $\theta$, $k_3$ can then be expressed as:
 \begin{equation}
 k_3 = \frac{\theta}{1 - \epsilon\beta}
 \end{equation}
 
-\clearpage
+A summary of the core parameters introduced in this section is shown in table \ref{tab:dimer_model_parameter_definitions}.\\
+
+\begin{table}[]
+\begin{tabularx}{400pt}{|l|l|X|}
+\hline
+Parameter & Units & Definition \\ \hline
+$\alpha$ &  & Basal off rate at the equilibrium membrane concentration $P_{m,eq}$ \\ \hline
+$\epsilon$ &  & Fraction of membrane protein in the dimeric state at the equilibrium membrane concentration $P_{m,eq}$ \\ \hline
+$\beta$ & $s^{-1}$ & Resistance to antagonism of dimers compared to monomers \\ \hline
+$\theta$ & $\mu m^2 s^{-1}$ & Basal antagonism rate at the equilibrium membrane concentration $P_{m,eq}$ \\ \hline
+\end{tabularx}
+\mycaption{Parameters describing the core features of dimerisation and antagonism}{}
+\label{tab:dimer_model_parameter_definitions}
+\end{table}
+
+
 \subsection{Dimerisation can generate nonlinear antagonism}
 
-Firstly, I explore the relationship between concentration of the antagonist and removal of PAR-2. I find that, if antagonism acts on monomers and dimers equally, dimerisation has only a marginal impact on removal. If antagonism acts on monomers only, dimerisation can lead to a nonlinear relationship between antagonist concentration and removal. The effective exponent of this relationship is shown in fig xB as a function of $\epsilon$ and $\beta$, for two different values of $\alpha$. This shows that nonlinear antagonism can occur when $\epsilon$ is high (i.e. significant dimerisation on the membrane) and $\beta$ is high (i.e. dimers are resistant to antagonism compared to monomers). This also shows that when $\alpha$ is high the threshold for nonlinear antagonism (effective exponent > 1) is lower, so that ultrasensitivity requires only a marginal difference in antagonism between monomers and dimers. The intuitive argument is that as concentrations of the antagonist increase, and concentrations of PAR-2 fall, the balance of PAR-2 on the membrane shifts to be more monomeric, and so antagonism is amplified.\\
+Firstly, I use this reaction scheme to explore the impacts of dimerisation on antagonism in a non-spatial system. For different values of $\epsilon$ and $\beta$, I monitor the relationship between $A_m$ and the rate of $P_m$ membrane removal. In cases where antagonism acts on monomers and dimers equally ($\beta = 0$), dimerisation has only a marginal impact on removal (\cref{fig:model_antagonism_effective_exponent}A, left). At the other extreme, if antagonism acts only on monomers ($\beta = 1$), dimerisation can lead to a nonlinear relationship between $A_m$ concentration and removal (\cref{fig:model_antagonism_effective_exponent}A, right). As $A_m$ rises, antagonism of $P_m$ causes concentrations to fall, which shifts the balance of $P_m$ towards the monomeric state, and so antagonism is amplified. The effective exponent of the antagonism relationship is shown in f\cref{fig:model_antagonism_effective_exponent}B as a function of $\epsilon$ and $\beta$, for two different values of $\alpha$. This analysis shows that nonlinear antagonism can occur when $\epsilon$ is high (i.e. significant dimerisation on the membrane) and $\beta$ is also high (i.e. dimers are resistant to antagonism compared to monomers). This analysis also shows that when $\alpha$ is low (i.e. low off rates) the threshold for ultrasensitive antagonism (effective exponent $>$ 1) is lower, so that nonlinearity requires only a marginal difference in antagonism between monomers and dimers. \\
 
 \begin{figure}
 \includegraphics[scale=1]{model_antagonism_effective_exponent}
 \centering
 \mycaption{Dimerisation can generate nonlinear antagonism}{
-\textbf{(A)} Relationship between the rate of antagonism ($\theta$) and membrane removal (as measured by the cytoplasm to membrane ratio). If monomers and dimers are antagonised equally ($\beta = 0$), the degree of dimerisation has little effect on this relationship. If only monomers are antagonised ($\beta = 1$), moderate dimerisation leads to a nonlinear relationship between antagonism and removal. 
-\textbf{(B)} Relationship between $\epsilon$, $\beta$ and the effective exponent of the antagonism relationship. An effective exponent greater that 1 indicates an ultrasensitive relationship. Maximal ultrasensitivity requires strong membrane dimerisation (high $\epsilon$) and strong dimer resistance (high $\beta$), although there is a sharp drop-off when $\epsilon$ is very high. In low off-rate regimes (right), ultrasensitivity requires only a modest value of $\beta$. Effective exponents were calculated by fitting removal versus antagonism relationships to $y = a x^b + c$, where $b$ is given as the effective exponent.
-DEFAULT PARAMETERS.
+\textbf{(A)} Relationship between the rate of antagonism ($\theta A_m$) and membrane removal (as measured by the cytoplasm to membrane concentration ratio). If monomers and dimers are antagonised equally ($\beta = 0$), the degree of dimerisation has little effect on this relationship. If only monomers are antagonised ($\beta = 1$), dimerisation leads to a nonlinear relationship between antagonism and removal. Simulations performed with $\alpha = 0.01$.
+\textbf{(B)} Relationship between $\epsilon$, $\beta$ and the effective exponent of the antagonism relationship. An effective exponent greater that 1 indicates an ultrasensitive relationship. Maximal ultrasensitivity requires strong membrane dimerisation (high $\epsilon$) and strong dimer resistance (high $\beta$), although there is a sharp drop-off when $\epsilon$ is very high. In low off-rate regimes (right), ultrasensitivity requires only a modest value of $\beta$. Effective exponents were calculated by fitting removal versus antagonism relationships such as those shown in (A) to $y = a x^b + c$, where $b$ is given as the effective exponent.
 }
 \label{fig:model_antagonism_effective_exponent}
 \end{figure}
 
-\clearpage
-\subsection{Nonlinear feedback amplifies induced asymmetries in spatial models}
-
-I set up the partial differential equation:
-\begin{align}
-\frac{\partial P_m}{\partial t} &= D \frac{\partial^2 P_m}{\partial x^2} + k_{on} P_c - k_{off}^* P_m - k_{ant}^* A_m P_m
-\end{align}
-
-where $k_{off}^*$ is the concentration-dependent off rate, and $k_{ant}^*$ is the concentration dependent antagonism rate. As previously, I describe $k_{off}^*$ in terms of $\alpha$ and $k_{ant}^*$ in terms of $\theta$.
+% Comment here on nonlinearity, implications, assumptions of previous models.
+Overall, this analysis reveals that dimerisation combined with antagonism can be sufficient to generate nonlinear feedback, but that differential antagonism between monomers and dimers is essential to achieve this.\\
 
 
-\begin{figure}
-\includegraphics[scale=1]{model_fixed_apar_asi}
-\centering
-\mycaption{Dimerisation can amplify induced asymmetries}{
-\textbf{(A)} Membrane patterns in models with anterior-specific antagonism, as a function of $\epsilon$ and $\beta$. Models were simulated with a constant antagonism ($\theta = x$) in the anterior-half of the system, and figures show steady state patterns after 10000s. If monomers and dimers are antagonised equally ($\beta = 0$, left), dimerisation can modestly enhance pattern asymmetries. If only monomers are antagonised ($\beta = 1$, right), this effect is stronger.
-\textbf{(B)} Asymmetry index as a function of $\epsilon$ and $\beta$ for models with weak (left) and strong (right) antagonism. When antagonism is weak, dimerisation can lead to a modest increases in pattern asymmetry, which is stronger if dimers are resistant to antagonism. When antagonism is strong (right), dimerisation has a less significant effect on pattern asymmetry. DEFAULT PARAMETERS
-}
-\label{fig:model_fixed_apar_asi}
-\end{figure}
-
-\clearpage
 \subsection{Dimerisation-driven nonlinearities are sufficient for polarity in self-organising models}
 
+% Maybe need to use ODE model first to show existence of multiple steady states?
+Next, I explore the implications of these features in spatial models. To do so, I adapt the simplified symmetric model described previously to take into account concentration-dependent antagonism and membrane lifetime of the pPAR species. Since dimerisation is sufficient to yield nonlinear antagonism, I no longer explicitly include exponents in the antagonism terms. I use the following PDEs:
 \begin{align}
 \frac{\partial A_m}{\partial t} &= D \frac{\partial^2 A_m}{\partial x^2} + k_{on} A_c - k_{off} A_m - k_{ant} P_m A_m\\
 \frac{\partial P_m}{\partial t} &= D \frac{\partial^2 P_m}{\partial x^2} + k_{on} P_c - k_{off}^* P_m - k_{ant}^* A_m P_m
 \end{align}
 
+As before, I describe the concentration-dependent off rate of $P_m$ ($k_{off}^*$) in terms of $\alpha$ and $\epsilon$, and describe the concentration-dependent antagonism rate from A to P ($k_{ant}^*$) in terms of $\epsilon$ and $\beta$. To maintain balance between the two species, $D$ and $k_{on}$ are equal for both species. I also set the basal off rates of A and P to be equal ($k_{off} = \alpha$), and set the basal antagonism rates to be equal ($k_{ant} = \theta$).\\
+
+I first explore the ability of this model to maintain a stable polarised state. My analysis (\cref{fig:dimer_model_triggering}) shows that regions of $\epsilon$ / $\beta$ parameter space exist for which polarity can be successfully maintained. Specifically, stable polarity requires membrane dimerisation to be high (high $\epsilon$), and for dimers to be resistant to antagonism compared to monomers (high $\beta$), which corresponds to regions in which the A to P antagonism relationship is nonlinear. A subset of this region also supports a stable uniform state. Changing $\alpha$ and $\theta$ impacts the shape and form of the polarisable region. Increasing $\alpha$ causes the whole polarisable region to shrink, and increasing $\theta$ causes the region with a stable uniform state to grow (\cref{fig:dimer_model_triggering}).\\
 
 \begin{figure}
 \includegraphics[scale=1]{dimer_model_triggering}
@@ -1758,21 +1779,49 @@ Figure shows the effects of $\epsilon$, $\beta$, $\alpha$ and $\theta$ on the ab
 \label{fig:dimer_model_triggering}
 \end{figure}
 
-% Similar to before, off rates influence the size of the polarisable region, and antagonism rates influence the mode of polarity
+Next, I quantify the degree of asymmetry within patterns produced by the model (\cref{fig:dimer_mutual_antagonism_model_asi}). This reveals that strong asymmetries can be achieved if $\beta$ is sufficiently high, which highlights the link between nonlinear feedback and strong asymmetries.\\
+
+Additional parameter space analysis is shown in \cref{fig:dimer_model_more_paramspace}, which shows the dependence of parameters $\theta$ (antagonism rate) and $\alpha$ (off rate) on uniform-state stability, pattern asymmetry, and tolerance to imbalance. Broadly speaking, this is similar to the $k_{ant}$ versus $k_{off}$ analysis presented for the original PAR model in section \ref{section:goehring_model_off_rates}.\\
 
 \begin{figure}
 \includegraphics[scale=1]{dimer_mutual_antagonism_model_asi}
 \centering
-\mycaption{Title}{
+\mycaption{Asymmetry of patterns in a model with dimeric pPAR}{
 \textbf{(A)} Asymmetry index of P as a function of $\epsilon$ and $\beta$.
-\textbf{(B)} Example of a steady-state pattern ($\epsilon = x$, $\beta = x$)
-DEFAULT PARAMETERS
+\textbf{(B)} Example of a steady-state patterns for different values of $\beta$ ($\epsilon = 0.6$).
 }
 \label{fig:dimer_mutual_antagonism_model_asi}
 \end{figure}
 
+\begin{figure}
+\includegraphics[scale=0.9]{dimer_model_more_paramspace}
+\centering
+\mycaption{Additional parameter space analysis for model with dimeric pPAR}{
+Orange point corresponds to equivalent position in parameter space.
+}
+\label{fig:dimer_model_more_paramspace}
+\end{figure}
+
 \clearpage
 \section{Discussion}
+
+Overall, I have shown that protein dimerisation can have a number of implications in PAR polarity models. Firstly, by considering thermodynamics, I have shown that dimerisation is expected to change membrane affinity largely through changes membrane unbinding rates. In the context of membrane patterning, I have shown that changes to off rates alone can enhance robust patterning behaviour in models that have additional sources of nonlinear feedback, strengthening pattern asymmetries and making systems less sensitive to changes in protein amounts. Therefore, simply as a mechanism to enhance membrane affinities, protein dimerisation is expected to have considerable implications.\\
+
+I have also described two forms of feedback that can be brought about by dimerisation. The first form of feedback is on the intrinsic off rate of the dimerising protein, which occurs due to concentration-dependent dimerisation coupled with an intrinsically lower off rate of dimers compared to monomers. However, compared to the effects of antagonism, this effect is minor if monomers and dimers respond to antagonism equally. A second form of feedback can occur if dimers display resistance to antagonism compared to monomers. In this case, overall rates of antagonism accelerate as concentrations of the antagonist rise, due to a fall in the concentration of the antagonised protein which causes it to shift to a more monomeric state. Crucially, this second form of feedback can lead to an ultrasensitive dependence of antagonism on the concentration of the antagonist, which is sufficient to endow patterning models with bistability in the absence of additional nonlinearities. \\
+
+This analysis performed in this chapter is similar to a recent study by \textcite{Lang2022}, but reaches a number additional of conclusions which are not explored in that study. Most notably, by exploring different relationships between dimerisation and antagonism, I highlight the need for differential antagonism between monomers and dimers, and show that models in which monomers and dimers are antagonised equally well are insufficient for polarity without additional sources of nonlinearity.\\
+
+Currently, the relationship between PAR-2 dimerisation and antagonism is unclear. The simple antagonism terms included in existing models represent a complex process that encompasses diffusion, interactions between kinase and substrate molecules, phoshphorylation reactions (including the potential for multiphosphorylation), dephosphorylation, membrane unbinding and more. One could imagine a multitude of ways in which dimerisation might affect this process. Addition of a single phosphate groups to a protein is expected to have a multiplicative effect on the off rate of that protein through the addition of negative charge, and therefore overall removal of dimers, which have an intrinsically lower off rate, should be lower than monomers. However, if charge effects are so high that off rates of phosphorylated protein are effectively infinite (perhaps through multiphosphorylation), then antagonism becomes limited by substrate/kinase encounters and the rate of the phosphorylation reaction, which may not be affected by the dimeric state of the substrate. That said, it is plausible to imagine that dimerisation might somehow change the substrate/kinase interaction, perhaps by occluding access to phosphorylation sites on PAR-2.\\
+
+Overall, this work suggests that, whilst dimerisation can provide an explanation for pattern bistability, careful consideration of the properties of monomeric and dimeric protein is important. In the next chapter I develop an approach for generating constitutively dimeric PAR-2, which aims to address some of these issues. \\
+
+% Models probably have many sources of nonlinearity. If this is the case, then the additional nonlinearity caused by dimerisation may not be important. Nevertheless, dimerisation is still expected to impact behaviour by decreasing off rates
+
+% Other points. I exclude the possibility that monomers can bind directly to membrane monomers. But this was found to be counterproductive in Lang/Munro 
+
+% Need to discuss that many PAR proteins dimerise/oligomerise
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
@@ -1783,7 +1832,7 @@ DEFAULT PARAMETERS
 \clearpage
 \section{Introduction}
 
-\section{Forced constitutive dimerisation of PAR-2 shifts localisation towards lower-affinity membranes}
+\section{Forced constitutive dimerisation of PAR-2 shifts localisation pattern}
 
 % Strikingly, we see the unexpected appearance of visible structures within the cell. Based on comparison to RAB localisation patterns, these appear to be endosomes.
 
@@ -2281,7 +2330,7 @@ SEC-MALS was performed with Dave Briggs in Neil McDonald's lab at the Crick. Sam
 
 % Systems were scored as polarised if the concentration profiles of A and P cross at the end of the simulation. Systems were simulated for up to 10000 seconds. Simulations initialted from a polarised state were terminated early if polarity broke down before the end of the time limit
 
-% ASI?
+% Boundary conditions. Dirichlet?
 
 \subsection{Creating qualitative parameter space maps}
 

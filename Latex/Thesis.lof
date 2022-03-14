@@ -2,174 +2,174 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5.1}{\ignorespaces Title}}{24}{figure.caption.4}
+\contentsline {figure}{\numberline {1.5.1}{\ignorespaces Title}}{25}{figure.caption.4}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.1}{\ignorespaces Autofluorescence is abundant and variable in images of \textit {C. elegans} zygotes}}{45}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces Autofluorescence is abundant and variable in images of \textit {C. elegans} zygotes}}{46}{figure.caption.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.2}{\ignorespaces Autofluorescence is spatially correlated across emission channels}}{48}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2.2}{\ignorespaces Autofluorescence is spatially correlated across emission channels}}{49}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.3}{\ignorespaces Applying SAIBR to images of GFP-tagged PAR proteins}}{50}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2.3}{\ignorespaces Applying SAIBR to images of GFP-tagged PAR proteins}}{51}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.4}{\ignorespaces SAIBR improves detection of membrane signals}}{51}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2.4}{\ignorespaces SAIBR improves detection of membrane signals}}{52}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.5}{\ignorespaces Pixel intensities correlate across three channels in samples containing red fluorophore.}}{53}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2.5}{\ignorespaces Pixel intensities correlate across three channels in samples containing red fluorophore.}}{54}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.6}{\ignorespaces 3-channel SAIBR prevents oversubtraction in samples containing red fluorophore}}{54}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2.6}{\ignorespaces 3-channel SAIBR prevents oversubtraction in samples containing red fluorophore}}{55}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.1}{\ignorespaces Approaches for quantifying membrane concentrations from midplane images}}{58}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3.1}{\ignorespaces Approaches for quantifying membrane concentrations from midplane images}}{59}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.2}{\ignorespaces Assessing the contribution of cytoplasmic protein to midplane signal}}{61}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3.2}{\ignorespaces Assessing the contribution of cytoplasmic protein to midplane signal}}{62}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.3}{\ignorespaces Effects of sample geometry and the PSF on in-plane signal measurements in simulations of cytoplasm-like signal}}{62}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3.3}{\ignorespaces Effects of sample geometry and the PSF on in-plane signal measurements in simulations of cytoplasm-like signal}}{63}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.4}{\ignorespaces Effects of sample geometry and the PSF on in-plane signal measurements in simulations of membrane-like signal}}{64}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3.4}{\ignorespaces Effects of sample geometry and the PSF on in-plane signal measurements in simulations of membrane-like signal}}{65}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.5}{\ignorespaces A model for simulating membrane and cytoplasmic fluorescence signal at the cortex}}{68}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3.5}{\ignorespaces A model for simulating membrane and cytoplasmic fluorescence signal at the cortex}}{69}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.6}{\ignorespaces Backpropagation gradient descent protocol for parameter optimisation}}{71}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3.6}{\ignorespaces Backpropagation gradient descent protocol for parameter optimisation}}{72}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.7}{\ignorespaces Separation of membrane and cytoplasmic signal in an image of mNG::PAR-2}}{72}{figure.caption.17}
+\contentsline {figure}{\numberline {2.3.7}{\ignorespaces Separation of membrane and cytoplasmic signal in an image of mNG::PAR-2}}{73}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.8}{\ignorespaces Semi-automated segmentation algorithm}}{74}{figure.caption.18}
+\contentsline {figure}{\numberline {2.3.8}{\ignorespaces Semi-automated segmentation algorithm}}{75}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.9}{\ignorespaces Quantification of GFP::PH expressing embryos reveals a linear relationship between membrane and cytoplasmic concentrations}}{75}{figure.caption.19}
+\contentsline {figure}{\numberline {2.3.9}{\ignorespaces Quantification of GFP::PH expressing embryos reveals a linear relationship between membrane and cytoplasmic concentrations}}{76}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.10}{\ignorespaces Quantifications of membrane and cytoplasmic concentrations are robust to pixel-noise}}{77}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3.10}{\ignorespaces Quantifications of membrane and cytoplasmic concentrations are robust to pixel-noise}}{78}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3.11}{\ignorespaces Redistribution of fluorescent signal from cytoplasm to membrane using optogenetics}}{78}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1.1}{\ignorespaces Simulating PAR polarity driven by the microtubule cue}}{84}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1.2}{\ignorespaces Schematic of pPAR polarity in systems with uniform aPAR}}{85}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1.3}{\ignorespaces Schematic representation of PAR-2}}{87}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2.1}{\ignorespaces Membrane affinities of wild-type PAR-2 and mutant alleles in polarised and uniform systems}}{93}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2.2}{\ignorespaces Further quantification of wild-type PAR-2 and mutant alleles in polarised and uniform systems}}{94}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3.1}{\ignorespaces Cytoplasm versus membrane relationships for models with and without positive feedback}}{97}{figure.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3.2}{\ignorespaces PAR-2 displays RING-dependent nonlinear membrane binding kinetics}}{99}{figure.caption.28}
+\contentsline {figure}{\numberline {2.3.11}{\ignorespaces Redistribution of fluorescent signal from cytoplasm to membrane using optogenetics}}{79}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1.1}{\ignorespaces The PAR-2 RING domain activity is cis-acting}}{103}{figure.caption.29}
+\contentsline {figure}{\numberline {3.1.1}{\ignorespaces Simulating PAR polarity driven by the microtubule cue}}{85}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1.2}{\ignorespaces Schematic of RING domain organisation}}{104}{figure.caption.30}
+\contentsline {figure}{\numberline {3.1.2}{\ignorespaces Schematic of pPAR polarity in systems with uniform aPAR}}{86}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2.1}{\ignorespaces Schematic of the ubiquitination pathway}}{105}{figure.caption.31}
+\contentsline {figure}{\numberline {3.1.3}{\ignorespaces Schematic representation of PAR-2}}{88}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2.2}{\ignorespaces PAR-2 does not show activity in an in vitro ubiquitination assay}}{110}{figure.caption.32}
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces Membrane affinities of wild-type PAR-2 and mutant alleles in polarised and uniform systems}}{94}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2.3}{\ignorespaces Linchpin site alignments}}{111}{figure.caption.33}
+\contentsline {figure}{\numberline {3.2.2}{\ignorespaces Further quantification of wild-type PAR-2 and mutant alleles in polarised and uniform systems}}{95}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2.4}{\ignorespaces Mutation of the PAR-2 linchpin site has no effect on membrane affinity}}{112}{figure.caption.34}
+\contentsline {figure}{\numberline {3.3.1}{\ignorespaces Cytoplasm versus membrane relationships for models with and without positive feedback}}{98}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.1}{\ignorespaces Structure of the TRIM25 RING domain dimer}}{114}{figure.caption.35}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.2}{\ignorespaces Alignment of the PAR-2 RING domain N and C helices against similar proteins in the PDB}}{117}{figure.caption.37}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.3}{\ignorespaces Alignment of the PAR-2 RING domain N and C helices within the \textit {Caenorhabditis} genus}}{118}{figure.caption.38}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.4}{\ignorespaces SEC-MALS titration reveals concentration-dependent dimerisation of the PAR-2 RING domain}}{120}{figure.caption.39}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.5}{\ignorespaces AlphaFold prediction for the 3D structure of the PAR-2 RING domain dimer}}{122}{figure.caption.40}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.6}{\ignorespaces AlphaFold predictions for the PAR-2 RING domain across the \textit {Caenorhabditis} genus}}{124}{figure.caption.41}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.7}{\ignorespaces Mutation of residue at hydrophobic interface disrupts PAR-2 RING domain dimerisation}}{125}{figure.caption.42}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.8}{\ignorespaces Schematic of an in vivo dimerisation assay involving the mitochondrial probe TOMM-20}}{126}{figure.caption.43}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.9}{\ignorespaces Mitochondrial GFP nanobody pulls GFP-tagged PAR-2 to mitochondria}}{127}{figure.caption.44}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.10}{\ignorespaces In vivo dimerisation assay shows that PAR-2 does not constitutively dimerise in vivo}}{128}{figure.caption.45}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.11}{\ignorespaces Membrane-tethered RING domain fragment drives posterior localisation}}{130}{figure.caption.46}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.12}{\ignorespaces PAR-2 RING domain fragment shows no membrane localisation}}{131}{figure.caption.47}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.13}{\ignorespaces Localisation of membrane-tethered RING domain is dependent on endogenous PAR patterns}}{132}{figure.caption.48}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.14}{\ignorespaces Position of the L50 site within the 4-helix bundle of the PAR-2 RING domain}}{133}{figure.caption.49}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.15}{\ignorespaces Dimerisation interface mutants disrupt PAR-2 membrane association}}{134}{figure.caption.50}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.16}{\ignorespaces Embryonic lethality and adult sterility in RING mutant lines}}{135}{figure.caption.51}
+\contentsline {figure}{\numberline {3.3.2}{\ignorespaces PAR-2 displays RING-dependent nonlinear membrane binding kinetics}}{100}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2.1}{\ignorespaces Gibbs energy profile for a system at equilibrium}}{139}{figure.caption.52}
+\contentsline {figure}{\numberline {4.1.1}{\ignorespaces The PAR-2 RING domain activity is cis-acting}}{104}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2.2}{\ignorespaces Schematic of thermodynamic equilibrium for a substance exchanging between two states}}{142}{figure.caption.53}
+\contentsline {figure}{\numberline {4.1.2}{\ignorespaces Schematic of RING domain organisation}}{105}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2.3}{\ignorespaces Schematic of thermodynamic equilibrium for a substance exchanging between two compartments}}{143}{figure.caption.54}
+\contentsline {figure}{\numberline {4.2.1}{\ignorespaces Schematic of the ubiquitination pathway}}{106}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3.1}{\ignorespaces Schematic of equilibrium model for membrane association}}{145}{figure.caption.55}
+\contentsline {figure}{\numberline {4.2.2}{\ignorespaces PAR-2 does not show activity in an in vitro ubiquitination assay}}{111}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3.2}{\ignorespaces Dimerisation reactions lead to nonlinear equilibrium behaviour}}{148}{figure.caption.56}
+\contentsline {figure}{\numberline {4.2.3}{\ignorespaces Linchpin site alignments}}{112}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3.3}{\ignorespaces The equilibrium state of a four-species dimerisation model varies depending on the interaction energies}}{150}{figure.caption.57}
+\contentsline {figure}{\numberline {4.2.4}{\ignorespaces Mutation of the PAR-2 linchpin site has no effect on membrane affinity}}{113}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3.4}{\ignorespaces Intermediate dimerisation can drive nonlinear membrane association}}{152}{figure.caption.58}
+\contentsline {figure}{\numberline {4.3.1}{\ignorespaces Structure of the TRIM25 RING domain dimer}}{115}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3.5}{\ignorespaces The dimeric state of cytoplasmic and membrane protein as a function of $w_m$, $w_d$ and $c_{tot}$}}{153}{figure.caption.59}
+\contentsline {figure}{\numberline {4.3.2}{\ignorespaces Alignment of the PAR-2 RING domain N and C helices against similar proteins in the PDB}}{118}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4.1}{\ignorespaces Membrane-association behaviour of wild-type and L109R PAR-2 can be explained by a reduction in dimerisation energy}}{158}{figure.caption.61}
+\contentsline {figure}{\numberline {4.3.3}{\ignorespaces Alignment of the PAR-2 RING domain N and C helices within the \textit {Caenorhabditis} genus}}{119}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.3.4}{\ignorespaces SEC-MALS titration reveals concentration-dependent dimerisation of the PAR-2 RING domain}}{121}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2.1}{\ignorespaces Membrane unbinding rates ($k_{off}$) vary as a function of $w_m$, $w_d$ and concentration}}{165}{figure.caption.62}
+\contentsline {figure}{\numberline {4.3.5}{\ignorespaces AlphaFold prediction for the 3D structure of the PAR-2 RING domain dimer}}{123}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3.1}{\ignorespaces Off rates and antagonism rates determine the potential for polarisation}}{169}{figure.caption.63}
+\contentsline {figure}{\numberline {4.3.6}{\ignorespaces AlphaFold predictions for the PAR-2 RING domain across the \textit {Caenorhabditis} genus}}{125}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3.2}{\ignorespaces Low off rates strengthen pattern asymmetries}}{170}{figure.caption.64}
+\contentsline {figure}{\numberline {4.3.7}{\ignorespaces Mutation of residue at hydrophobic interface disrupts PAR-2 RING domain dimerisation}}{126}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3.3}{\ignorespaces Low off rates enhance robustness to imbalanced protein amounts}}{173}{figure.caption.65}
+\contentsline {figure}{\numberline {4.3.8}{\ignorespaces Schematic of an in vivo dimerisation assay involving the mitochondrial probe TOMM-20}}{127}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4.1}{\ignorespaces Separating the effects of dimerisation on membrane affinity and feedback}}{176}{figure.caption.66}
+\contentsline {figure}{\numberline {4.3.9}{\ignorespaces Mitochondrial GFP nanobody pulls GFP-tagged PAR-2 to mitochondria}}{128}{figure.caption.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4.2}{\ignorespaces Dimerisation can generate nonlinear antagonism}}{179}{figure.caption.67}
+\contentsline {figure}{\numberline {4.3.10}{\ignorespaces In vivo dimerisation assay shows that PAR-2 does not constitutively dimerise in vivo}}{129}{figure.caption.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4.3}{\ignorespaces Dimerisation can amplify induced asymmetries}}{181}{figure.caption.68}
+\contentsline {figure}{\numberline {4.3.11}{\ignorespaces Membrane-tethered RING domain fragment drives posterior localisation}}{131}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4.4}{\ignorespaces Dimerisation is sufficient for polarity in models without additional sources of nonlinearity}}{183}{figure.caption.69}
+\contentsline {figure}{\numberline {4.3.12}{\ignorespaces PAR-2 RING domain fragment shows no membrane localisation}}{132}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4.5}{\ignorespaces Title}}{184}{figure.caption.70}
+\contentsline {figure}{\numberline {4.3.13}{\ignorespaces Localisation of membrane-tethered RING domain is dependent on endogenous PAR patterns}}{133}{figure.caption.48}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.3.14}{\ignorespaces Position of the L50 site within the 4-helix bundle of the PAR-2 RING domain}}{134}{figure.caption.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2.1}{\ignorespaces Title}}{187}{figure.caption.71}
+\contentsline {figure}{\numberline {4.3.15}{\ignorespaces Dimerisation interface mutants disrupt PAR-2 membrane association}}{135}{figure.caption.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2.2}{\ignorespaces Title}}{188}{figure.caption.72}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2.3}{\ignorespaces Title}}{189}{figure.caption.73}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3.1}{\ignorespaces Title}}{191}{figure.caption.74}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4.1}{\ignorespaces Title}}{192}{figure.caption.75}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5.1}{\ignorespaces Title}}{193}{figure.caption.76}
+\contentsline {figure}{\numberline {4.3.16}{\ignorespaces Embryonic lethality and adult sterility in RING mutant lines}}{136}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2.1}{\ignorespaces Gibbs energy profile for a system at equilibrium}}{140}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2.2}{\ignorespaces Schematic of thermodynamic equilibrium for a substance exchanging between two states}}{143}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2.3}{\ignorespaces Schematic of thermodynamic equilibrium for a substance exchanging between two compartments}}{144}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3.1}{\ignorespaces Schematic of equilibrium model for membrane association}}{146}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3.2}{\ignorespaces Dimerisation reactions lead to nonlinear equilibrium behaviour}}{149}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3.3}{\ignorespaces The equilibrium state of a four-species dimerisation model varies depending on the interaction energies}}{151}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3.4}{\ignorespaces Intermediate dimerisation can drive nonlinear membrane association}}{153}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3.5}{\ignorespaces The dimeric state of cytoplasmic and membrane protein as a function of $w_m$, $w_d$ and $c_{tot}$}}{154}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4.1}{\ignorespaces Membrane-association behaviour of wild-type and L109R PAR-2 can be explained by a reduction in dimerisation energy}}{159}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.2.1}{\ignorespaces Free NeonGreen expression using the \textit {glh-1} site method}}{207}{figure.caption.81}
+\contentsline {figure}{\numberline {6.2.1}{\ignorespaces Describing relative off rates with transition state theory}}{167}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.1}{\ignorespaces Title}}{218}{figure.caption.94}
+\contentsline {figure}{\numberline {6.3.1}{\ignorespaces Off rates and antagonism rates determine the potential for polarisation}}{171}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.2}{\ignorespaces FxR motif in \textit {C. elegans} PAR-1, PAR-2 and PAR-3}}{221}{figure.caption.96}
+\contentsline {figure}{\numberline {6.3.2}{\ignorespaces Low off rates strengthen pattern asymmetries}}{172}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.3}{\ignorespaces Mutants of the PAR-2 high affinity FxR/S241 phosphosite in vivo}}{223}{figure.caption.97}
+\contentsline {figure}{\numberline {6.3.3}{\ignorespaces Low off rates enhance robustness to imbalanced protein amounts}}{174}{figure.caption.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.4}{\ignorespaces Schematic of potential models for PAR-2 multisite phosphorylation}}{227}{figure.caption.98}
+\contentsline {figure}{\numberline {6.4.1}{\ignorespaces Separating the effects of dimerisation on basal membrane affinity and feedback}}{178}{figure.caption.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.5}{\ignorespaces Modelling FxR/S241 site mutants}}{230}{figure.caption.99}
+\contentsline {figure}{\numberline {6.4.2}{\ignorespaces Dimerisation can generate nonlinear antagonism}}{182}{figure.caption.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.6}{\ignorespaces Modelling PKC-3 sensitivity of wild type and FxR/S241 mutant PAR-2}}{231}{figure.caption.100}
+\contentsline {figure}{\numberline {6.4.3}{\ignorespaces Dimerisation is sufficient for polarity in models without additional sources of nonlinearity}}{184}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4.4}{\ignorespaces Asymmetry of patterns in a model with dimeric pPAR}}{185}{figure.caption.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4.5}{\ignorespaces Additional parameter space analysis for model with dimeric pPAR}}{186}{figure.caption.72}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2.1}{\ignorespaces Title}}{191}{figure.caption.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2.2}{\ignorespaces Title}}{192}{figure.caption.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2.3}{\ignorespaces Title}}{193}{figure.caption.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3.1}{\ignorespaces Title}}{195}{figure.caption.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.4.1}{\ignorespaces Title}}{196}{figure.caption.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.5.1}{\ignorespaces Title}}{197}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.2.1}{\ignorespaces Free NeonGreen expression using the \textit {glh-1} site method}}{211}{figure.caption.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.5.1}{\ignorespaces Title}}{222}{figure.caption.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.5.2}{\ignorespaces FxR motif in \textit {C. elegans} PAR-1, PAR-2 and PAR-3}}{225}{figure.caption.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.5.3}{\ignorespaces Mutants of the PAR-2 high affinity FxR/S241 phosphosite in vivo}}{227}{figure.caption.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.5.4}{\ignorespaces Schematic of potential models for PAR-2 multisite phosphorylation}}{231}{figure.caption.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.5.5}{\ignorespaces Modelling FxR/S241 site mutants}}{234}{figure.caption.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.5.6}{\ignorespaces Modelling PKC-3 sensitivity of wild type and FxR/S241 mutant PAR-2}}{235}{figure.caption.102}

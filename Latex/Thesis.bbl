@@ -1319,6 +1319,73 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Dawes2011}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DAT}{%
+         family={Dawes},
+         familyi={D\bibinitperiod},
+         given={Adriana\bibnamedelima T.},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=MEM}{%
+         family={Munro},
+         familyi={M\bibinitperiod},
+         given={Edwin\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Modelling,PAR-3,Polarity,Printed}
+    \strng{namehash}{DATMEM1}
+    \strng{fullhash}{DATMEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Par proteins establish discrete intracellular spatial domains to polarize
+  many different cell types. In the single-cell embryo of the nematode worm
+  Caenorhabditis elegans, the segregation of Par proteins is crucial for proper
+  division and cell fate specification. Actomyosin-based cortical flows drive
+  the initial formation of anterior and posterior Par domains, but cortical
+  actin is not required for the maintenance of these domains. Here we develop a
+  model of interactions between the Par proteins that includes both mutual
+  inhibition and PAR-3 oligomerization. We show that this model gives rise to a
+  bistable switch mechanism, allowing the Par proteins to occupy distinct
+  anterior and posterior domains seen in the early C. elegans embryo,
+  independent of dynamics or asymmetries in the actin cortex. The model
+  predicts a sharp loss of cortical Par protein asymmetries during gradual
+  depletion of the Par protein PAR-6, and we confirm this prediction
+  experimentally. Together, these results suggest both mutual inhibition and
+  PAR-3 oligomerization are sufficient to maintain distinct Par protein domains
+  in the early C. elegans embryo. {\textcopyright} 2011 Biophysical Society.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bpj.2011.07.030
+    \endverb
+    \field{isbn}{1542-0086 (Electronic)\r0006-3495 (Linking)}
+    \field{issn}{00063495}
+    \field{number}{6}
+    \field{pages}{1412\bibrangedash 1422}
+    \field{title}{{PAR-3 oligomerization may provide an actin-independent
+  mechanism to maintain distinct par protein domains in the early
+  Caenorhabditis elegans embryo}}
+    \verb{url}
+    \verb https://ac.els-cdn.com/S0006349511008885/1-s2.0-S0006349511008885-mai
+    \verb n.pdf?_tid=7d795d98-f9fd-11e7-ae63-00000aab0f6c&acdnat=1516025467_5bf
+    \verb 8c85fb4cfbd514186da099b1af2f8
+    \endverb
+    \field{volume}{101}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Dawes, Munro - 2011 - PAR-3
+    \verb Oligomerization May Provide an Actin-Independent Mechanism to Maintai
+    \verb n Distinct Par Protein Domains in the E.pdf:pdf;:Users/blandt/Documen
+    \verb ts/Mendeley Desktop/mmc1(3).pdf:pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2011}
+  \endentry
+
   \entry{Deshaies2009}{article}{}
     \name{author}{2}{}{%
       {{hash=DRJ}{%
@@ -2781,6 +2848,129 @@
     \endverb
     \field{journaltitle}{Biochemical and Biophysical Research Communications}
     \field{year}{2004}
+  \endentry
+
+  \entry{Hanggi1990}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HP}{%
+         family={Hanggi},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Talkner},
+         familyi={T\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Borkovec},
+         familyi={B\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Thermodynamics}
+    \strng{namehash}{HPTPBM1}
+    \strng{fullhash}{HPTPBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1990}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    The calculation of rate coefficients is a discipline of nonlinear science
+  of importance to much of physics, chemistry, engineering, and biology. Fifty
+  years after Kramers' seminal paper on thermally activated barrier crossing,
+  the authors report, extend, and interpret much of our current understanding
+  relating to theories of noise-activated escape, for which many of the notable
+  contributions are originating from the communities both of physics and of
+  physical chemistry. Theoretical as well as numerical approaches are discussed
+  for single-and many-dimensional metastable systems (including fields) in
+  gases and condensed phases. The role of many-dimensional transition-state
+  theory is contrasted with Kramers' reaction-rate theory for
+  moderate-to-strong friction; the authors emphasize the physical situation and
+  the close connection between unimolecular rate theory and Kramers' work for
+  weakly damped systems. The rate theory accounting for memory friction is
+  presented, together with a unifying theoretical approach which covers the
+  whole regime of weak-to-moderate-to-strong friction on the same basis
+  (turnover theory). The peculiarities of noise-activated escape in a variety
+  of physically different metastable potential configurations is elucidated in
+  terms of the mean-first-passage-time technique. Moreover, the role and the
+  complexity of escape in driven systems exhibiting possibly multiple,
+  metastable stationary nonequilibrium states is identified. At lower
+  temperatures, quantum tunneling effects start to dominate the rate mechanism.
+  The early quantum approaches as well as the latest quantum versions of
+  Kramers' theory are discussed, thereby providing a description of dissipative
+  escape events at all temperatures. In addition, an attempt is made to discuss
+  prominent experimental work as it relates to Kramers' reaction-rate theory
+  and to indicate the most important areas for future research in theory and
+  experiment. CONTENTS List of Symbols Introduction Roadway To Rate
+  Calculations A. Separation of time scales B. Equation of motion for the
+  reaction coordinate C. Theoretical concepts for rate calculations 1. The
+  flux-overpopulation method 2. Method of reactive flux 3. Method of lowest
+  eigenvalue, mean first-passage time, and the like Classical Transition-State
+  Theory A. Simple transition-state theory B. Canonical multidimensional
+  transition-state theory 1. Multidimensional transition-state rate for a
+  collection of N vibrational bath modes 2. Atom-transfer reaction 3.
+  Dissociation reaction 4. Recombination reaction C. Model case: particle
+  coupled bilinearly to a bath of harmonic oscillators 1. The model 2.
+  Normal-mode analysis 3. The rate of escape Kramers Rate Theory A. The model
+  B. Stationary flux and rate of escape C. Energy of injected particles
+  IV.Present address: Paul Scherrer Institut, CH-5232 Villigen, Switzerland. D.
+  Energy-diffusion-limited rate E. Spatial-diffusion-limited rate: the
+  Smoluchowski limit F. Spatial-diffusion-limited rate in many dimensions and
+  fields 1 $\sim$ The model 2. Stationary current-carrying probability density
+  3. The rate of nucleation G. Regime of validity for Kramers' rate theory V.
+  Unimolecular Rate Theory A. Strong collision limit B. Weak collision limit C.
+  Between strong and weak collisions D. Beyond simple unimolecular rate theory
+  VI. Turnover between Weak and Strong Friction A. Interpolation formulas B.
+  Turnover theory: a normal-mode approach C. Peculiarities of Kramers' theory
+  with memory friction VII. Mean-First-Passage-Time Approach A. The mean
+  first-passage time and the rate B. The general Markovian case C. Mean
+  first-passage time for a one-dimensional Smo-luchowski equation 1. The
+  transition rate in a double-well potential 2. Transition rates and effective
+  diffusion in periodic potentials 3. Transition rates in random potentials 4.
+  Diffusion in spherically symmetric potentials D. Mean first-passage times for
+  Fokker-Planck processes in many dimensions E. Sundry topics from contemporary
+  mean-first-passage-time theory 1. Escape over a quartic (-x) barrier LIST GF
+  SYMBGLS C(t) D E(s) temperature-dependent quantum rate prefac-tor correlation
+  function difT'usion coeKcient energy function activation energy (=barrier
+  energy with the energy at the metastable state set equal to zero) Hessian
+  matrix of the energy function at the stable state Hessian matrix of the
+  energy function around the saddle-point configuration action variable of the
+  reaction coordinate Jacobian 2. Escape over a cusp-shaped barrier 3. Mean
+  first-passage time for shot noise 4. First-passage-time problems for
+  non-Markovian processes VIII. Transition Rates in Nonequilibrium Systems A.
+  Two examples of one-dimensional nonequilibrium rate problems 1. Bistable
+  tunnel diode 2. Nonequilibrium chemical reaction B. Brownian motion in biased
+  periodic potentials C. Escape driven by colored noise D. Nucleation of driven
+  sine-Gordon solitons 1. Nucleation of a single string 2. Nucleation of
+  interacting pairs IX. Quantum Rate Theory A. Historic background and
+  perspectives; traditional quantum approaches B. The functional-integral
+  approach C. The crossover temperature D. The dissipative tunneling rate 1.
+  Flux-flux autocorrelation function expression for the quantum rate 2. Unified
+  approach to the quantum-Kramers rate 3. Results for the quantum-Kramers rate
+  a. Dissipative tunneling above crossover b. Dissipative tunneling near
+  crossover c. Dissipative tunneling below crossover 4. Regime of validity of
+  the quantum-Kramers rate E. Dissipative tunneling at weak dissipation 1.
+  Quantum escape at very weak friction 2. Quantum turnover F. Sundry topics on
+  dissipative tunneling 1. Incoherent tunneling in weakly biased metasta-ble
+  wells 2. Coherent dissipative tunneling 3. Tunneling with fermionic
+  dissipation X. Numerical Methods in Rate Theory XI. Experiments A. Classical
+  activation regime B. Low-temperature quantum effects XII. Conclusions and
+  Outlook Acknowledgments%
+    }
+    \field{number}{2}
+    \field{title}{{Reaction-rate theory: fifty years after Kramers}}
+    \field{volume}{62}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Hanggi, Talkner, Borkovec -
+    \verb 1990 - Reaction-rate theory fifty years after Kramers.pdf:pdf
+    \endverb
+    \field{journaltitle}{Reviews of Modern Physics}
+    \field{year}{1990}
   \endentry
 
   \entry{Hao2006}{article}{}
@@ -6357,6 +6547,88 @@
     \endverb
     \field{eprinttype}{arXiv}
     \field{year}{2019}
+  \endentry
+
+  \entry{Trong2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=TPK}{%
+         family={Trong},
+         familyi={T\bibinitperiod},
+         given={Philipp\bibnamedelima Khuc},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=NEM}{%
+         family={Nicola},
+         familyi={N\bibinitperiod},
+         given={Ernesto\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KKV}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={K.\bibnamedelima Vijay},
+         giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=GSW}{%
+         family={Grill},
+         familyi={G\bibinitperiod},
+         given={Stephan\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \keyw{Modelling,Polarity,Printed,cell polarity,cusp
+  bifurcation,reaction-diffusion equations}
+    \strng{namehash}{TPK+1}
+    \strng{fullhash}{TPKNEMGNWKKVGSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Reaction-diffusion systems have been widely successful in the theoretical
+  description of biological patterning phenomena, giving rise to numerous
+  models based on differing mechanisms, mathematical implementations and
+  parameter choices. However, even for models with common design features, the
+  diversity of mathematical realizations may hinder the identification of
+  common behavior. Here, we analyze three different reaction-diffusion models
+  for cell polarity that feature conservation of mass, rapid cytoplasmic
+  diffusion and bistability via a cusp bifurcation of uniform states. In all
+  three models, the nonuniform polar states are front solutions, and growth of
+  domains ceases through stalling of a propagating front. For these three
+  models we find a characteristic parameter space topology, comprising a region
+  of linear instability that loops around the cusp point and that is enclosed
+  by a 'comet-shaped' region of nonuniform domain states. We propose a minimal
+  model based on the cusp bifurcation normal form that includes essential
+  characteristics of all cell polarity models considered. For this minimal
+  model, we provide a complete analytical description of the parameter space
+  topology, and find that the instability loop appears as a generic property of
+  the cusp bifurcation. This topological analysis provides a unifying
+  understanding of earlier mathematically distinct models and is suitable to
+  classify future models.%
+    }
+    \verb{doi}
+    \verb 10.1088/1367-2630/16/6/065009
+    \endverb
+    \field{isbn}{1367-2630}
+    \field{issn}{13672630}
+    \field{title}{{Parameter-space topology of models for cell polarity}}
+    \field{volume}{16}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/New Journal of Physics_Param
+    \verb eter-space topology of models for cell polarity.pdf:pdf
+    \endverb
+    \field{journaltitle}{New Journal of Physics}
+    \field{year}{2014}
   \endentry
 
   \entry{Visco2016}{article}{}
