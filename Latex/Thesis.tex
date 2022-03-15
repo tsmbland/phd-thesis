@@ -1970,8 +1970,8 @@ NWG0246 & mNG::PAR-2(C56S), par-3 (it71) & par-2(crk41{[}mNG::par-2(C56S){]}*LP6
 NWG0269 & GFP::PAR-2(K351A) & par-2(crk53{[}par-2(K351A)::gfp{]}*KK1273) III & This study \\ \hline
 NWG0274 & GFP::PAR-2(K94A) & par-2(crk58{[}par-2(K94A)::gfp{]}*KK1273) III & This study \\ \hline
 NWG0231 & Tomm20(1-55)::GBP::mKate & unc-119(ed3)   III; crkSi3{[}pTB001: mex-5p::Tomm20(1-55)::GBP::mKate::nmy-2UTR + unc-119(+){]} & This study \\ \hline
-NWG0247 & Tomm20(1-55)::GBP::mKate(Y65A) & unc-119(ed3)   III; crkSi3(crk44{[}mex-5p::Tomm20(1-55)::GBP::mKate(Y65A)::nmy-2UTR{]}*NWG231{]} +   unc-119(+)) & This study \\ \hline
-NWG0250 & Tomm20(1-55)::GBP::mKate(Y65A); mCherry::PAR-2 & crkSi3(crk44{[}mex-5p::Tomm20(1-55)::GBP::mKate(Y65A)::nmy-2UTR{]}*NWG231{]}   + unc-119(+)); par-2 (it315{[}mCherry::par-2{]}) & This study (parent strains: NWG0247 and KK1254 (Ken Kemphues)) \\ \hline
+NWG0247 & Tomm20(1-55)::GBP::mKate2(Y65A) & unc-119(ed3)   III; crkSi3(crk44{[}mex-5p::Tomm20(1-55)::GBP::mKate2(Y65A)::nmy-2UTR{]}*NWG231{]} +   unc-119(+)) & This study \\ \hline
+NWG0250 & Tomm20(1-55)::GBP::mKate2(Y65A); mCherry::PAR-2 & crkSi3(crk44{[}mex-5p::Tomm20(1-55)::GBP::mKate(Y65A)::nmy-2UTR{]}*NWG231{]}   + unc-119(+)); par-2 (it315{[}mCherry::par-2{]}) & This study (parent strains: NWG0247 and KK1254 (Ken Kemphues)) \\ \hline
 NWG0313 & GFP::PAR-2(1-177)::PH & crkSi4{[}pTB005:   mex-5p::GFP::PAR-2(1-177)::PH::nmy-2UTR{]} & This study \\ \hline
 NWG0373 & GFP::PAR-2(1-177, C56S)::PH & crkSi5{[}pTB006:   mex-5p::GFP::PAR-2(1-177, C56S)::PH::nmy-2UTR{]} & This study \\ \hline
 NWG0421 & mNG::PAR-2(1-177) & glh-1(crk153{[}glh-1::tPT2A::mNG::par-2(1-177){]}) I & This study \\ \hline
@@ -1983,7 +1983,7 @@ NWG0407 & mNG::PAR-2(C56S, L109R) balanced & par-2(crk120{[}mNG::par-2(C56S, L10
 NWG0369 & mNG::PAR-2(L109R), par-3 (it71) & par-2(crk82{[}mNG::par-2(L109R){]}*LP637) lon-1(e185) par-3(it71) / qC1   dpy-19(e1259) glp-1(q339){[}qIs26{]} III & This study (parent strains: NWG0338 and KK571-Q) \\ \hline
 NWG0376 & mNG::PAR-2(GCN4) & par-2(crk106{[}mNG::::par-2(GCN4\_IL){]}*LP637)   / sC1(s2023) {[}dpy-1(s2170) umnIs21{]} III{]} & This study \\ \hline
 NWG0383 & mNG::GCN4 & glh-1(crk151{[}glh-1::tPT2A::mNG::GCN4(IL){]})   I & This study \\ \hline
-NWG0437 & mNG::PAR-2(GCN4),   par-3 (it71) & par-2(crk130{[}mNG::::par-2(GCN4\_IL){]}*LP637)   lon-1(e185)par-3(it71)/qC1dpy-19(e1259)glp-1(q339){[}qIs26{]} III & This study (parent strains: NWG0338 and KK571-Q) \\ \hline
+NWG0437 & mNG::PAR-2(GCN4),   par-3 (it71) & par-2(crk130{[}mNG::::par-2(GCN4\_IL){]}*LP637)   lon-1(e185)par-3(it71)/qC1dpy-19(e1259)glp-1(q339){[}qIs26{]} III & This study \\ \hline
 HT1593 & unc & unc-119(ed3) III & SD Narasimhan \\ \hline
 \mycaption{\textit{C. elegans} strains}{}
 \label{tab:worm_lines}
@@ -2162,7 +2162,7 @@ TB0050 & TGAATTTTCGGCAAGATTTTCAAGGA \\ \hline
 \clearpage
 \subsection{PAR-2 GCN4 insertion}
 
-I used the protein sequence of dimeric GCN4 (GCN4-IL) from \textcite{Matsuda2005}, along with flanking GSGG/GGSG linkers. To create a DNA sequence for insertion into the PAR-2 locus, I created a codon optimised sequence using the online \textit{C. elegans} Codon Adapter tool \citep{Redemann2011} and corrected for piRNAs. The overall sequence is shown in table \ref{tab:gcn4_sequence}. To insert at the endogenous PAR-2 locus, I used guides TB0134 and TB0135, and ultramer repair template TB0138 (table \ref{tab:par2_gcn4_constructs}), which includes the full insert sequence flanked by homology arms for \textit{par-2}.
+I used the protein sequence of dimeric GCN4 (GCN4-IL) from \textcite{Matsuda2005}, along with flanking GSGG/GGSG linkers. To create a DNA sequence for insertion into the \textit{par-2} locus, I created a codon optimised sequence using the online \textit{C. elegans} Codon Adapter tool \citep{Redemann2011} and corrected for piRNA sites using the online pirScan tool \citep{Wu2018b}. The overall sequence is shown in table \ref{tab:gcn4_sequence}. To insert at the endogenous \textit{par-2} locus, I used guides TB0134 and TB0135, and ultramer repair template TB0138 (table \ref{tab:par2_gcn4_constructs}), which includes the full insert sequence flanked by homology arms for \textit{par-2}.
 
 \begin{table}[]
 \footnotesize
@@ -2189,9 +2189,9 @@ TB0138 & \seqsplit{TTTTCGTTTCAGATGGTCCGAAAATTGAAAAACCAAGAGGGATCCGGAGGACGTATGAAAC
 \clearpage
 \subsection{Mitochondrial GFP-binding protein}
 
-To target GFP binding protein (GFP) to mitochondria, I used residues 1 to 55 from the C. elegans \textit{tomm-20} gene. The DNA sequence is shown in table \ref{tab:tomm20_sequence}, which is based on the sequence of the endogenous gene but corrected for piRNA sites using the online pirScan tool \citep{Wu2018b}. I ordered this sequence as a gBlock from IDT and cloned it into plasmid pNG0019, previously used to construct PH::GBP::mKate2 \citep{Rodriguez2017}, replacing the PH plasma membrane localisation signal with TOMM-20(1-55). I inserted the resulting plasmid (pTB1) at the ttTi5605 mos1 site locus of HT1593 unc-119(ed3) worms by CRISPR, using the strategy described by \textcite{Dickinson2013}. \\
+To target GFP binding protein (GBP) to mitochondria, I used residues 1-55 from the \textit{C. elegans} \textit{tomm-20} gene. The DNA sequence is shown in table \ref{tab:tomm20_sequence}, which is based on the sequence of the endogenous gene but corrected for piRNA sites. I ordered this sequence as a gBlock from IDT and cloned it into plasmid pNG0019, previously used to construct PH::GBP::mKate2 \citep{Rodriguez2017}, replacing the PH plasma membrane localisation signal with TOMM-20(1-55). I inserted the resulting plasmid (pTB1) at the ttTi5605 mos1 site locus of HT1593 unc-119(ed3) worms by CRISPR, using the strategy described by \textcite{Dickinson2013}. \\
 
-Aiming to create an untagged version, I initially repeated the above procedure, cloning the \textit{tomm-20} 1-55 sequence into the pNG0020 vector (PH::GBP), removing PH and replacing with \textit{tomm-20}, yielding the plamid pTB2 (TOMM20::GBP). Unfortunately, this construct failed to express in vivo, likely due to germline silencing. I hypothesised that the mKate sequence might prevent germline silencing in the full construct, possibly due the inclusion of introns. Therefore, as an alternative strategy to create an untagged line, I aimed to mutate the chromophore region of mKate to remove fluorescent signal \citep{Pletnev2008}. To do so, I designed guide RNAs to target the chromophore region of mKate (TB0034, TB0035), and designed a repair template (TB0033) which included a Y65A mutation, changing the chromophore from MYG to MAG. Sequences are shown in table \ref{tab:y65a}. Following the point mutation strategy described previously, I successfully introduced the point mutation, and this was successful in eliminating fluorescence whilst maintaining expression.\\
+Aiming to create an untagged version, repeated a similar procedure, cloning the \textit{tomm-20} 1-55 sequence into the pNG0020 vector (PH::GBP), removing PH and replacing with \textit{tomm-20}, yielding the plamid pTB2 (\seqsplit{TOMM20::GBP}). Unfortunately, this construct failed to express in vivo, likely due to germline silencing. I hypothesised that the mKate2 sequence might prevent germline silencing in the full construct, possibly due the inclusion of introns. Therefore, as an alternative strategy to create an untagged line, I aimed to mutate the chromophore region of mKate2 to remove fluorescent signal \citep{Pletnev2008}. To do so, I designed guide RNAs to target the chromophore region of mKate2 (TB0034, TB0035), and designed a repair template (TB0033) which included a Y65A mutation, changing the chromophore from MYG to MAG. Sequences are shown in table \ref{tab:y65a}. Following the point mutation strategy described previously, I successfully introduced the point mutation, and this was successful in eliminating fluorescence whilst maintaining expression.\\
 
 \begin{table}[]
 \footnotesize
@@ -2216,9 +2216,9 @@ TB0035 & GGTGTGGTTGATGAAGGTCT \\ \hline
 \end{table}
 
 
-\subsection{Membrane tethered PAR-2 RING fragment}
+\subsection{Plasma membrane tethered PAR-2 RING fragment}
 
-Firstly, I amplified sequences for GFP and PH from plasmid pRI121 (from Rukshala Illukkumbura) by PCR. Secondly, I codon optimised the sequence for PAR-2 (1-177) using the online \textit{C. elegans} Codon Adapter tool \citep{Redemann2011}, corrected for piRNAs, inserted three synthetic introns, and ordered as a gBlock from IDT. The full sequence is shown in table \ref{tab:par2_ring_sequence}. Next, using Gibson assembly, I cloned all three products into pRI21, a vector designed for inserting genes at the ttTi5605 \textit{mos1} locus under control of a \textit{mex-5} promoter and an \textit{nmy-2} 3' UTR. I inserted the resulting plasmid (pTB5) into the \textit{C. elegans} genome by CRISPR using the method described by \textcite{Dickinson2015}. To express a C56S form of the construct, I performed site directed mutagenesis (Q5 site directed mutagenesis kit from New England Biolabs) on pTB5, generating pTB6, which was inserted by CRISPR in the same way.\\
+Firstly, I amplified sequences for GFP and PH (PLC delta) from plasmid pRI121 (from Rukshala Illukkumbura) by PCR. Secondly, I codon optimised the sequence for PAR-2 (1-177), corrected for piRNAs, inserted three synthetic introns, and ordered as a gBlock from IDT. The full sequence is shown in table \ref{tab:par2_ring_sequence}. Next, using Gibson assembly, I cloned all three products into pRI21, a vector designed for inserting genes at the ttTi5605 \textit{mos1} locus under control of a \textit{mex-5} promoter and an \textit{nmy-2} 3' UTR. I inserted the resulting plasmid (pTB5) into the \textit{C. elegans} genome by CRISPR using the method described by \textcite{Dickinson2015}. To express a C56S form of the construct, I performed site directed mutagenesis (Q5 site directed mutagenesis kit from New England Biolabs) on pTB5, generating pTB6, which was inserted by CRISPR in the same way.\\
 
 \begin{table}[]
 \footnotesize
@@ -2233,7 +2233,7 @@ Par-2 (1-177) \\ \hline
 \clearpage
 \subsection{RING domain fragment}
 
-To express mNG::PAR-2(1-177), PAR-2(1-177) sequence shown in table  \ref{tab:par2_ring_sequence} using two sets of primers to create short (TB0115 and TB0144) and long (TB0117 and TB0145) products for the repair template. The sequence was then inserted at the \textit{glh-1} site using the protocol described previously. Primer sequences for generating the repair template are shown in table \ref{tab:ring_fragment_template}.\\
+To express mNG::PAR-2(1-177), I amplified the PAR-2(1-177) sequence shown in table  \ref{tab:par2_ring_sequence} using two sets of primers to create short (TB0115 and TB0144) and long (TB0117 and TB0145) products for a double-stranded repair template with overhangs. The sequence was then inserted at the \textit{glh-1} site using the protocol described in section \ref{section:glh_method}. Primer sequences for generating the repair template are shown in table \ref{tab:ring_fragment_template}.\\
 
 
 \begin{table}[]
@@ -2253,7 +2253,7 @@ TB0145 & \seqsplit{CACCAACAAATACAATTAAAAATCAACAAGGGCAGGATAAAATATGGGGGAACTGACAGCA
 \clearpage
 \subsection{GCN4 fragment}
 
-I inserted the sequence shown in table \ref{tab:gcn4_sequence} at the \textit{glh-1} with an ultramer repair template using the method described in section \ref{section:glh_method}. The repair template sequence (TB0139) is shown below:\\
+I inserted the sequence shown in table \ref{tab:gcn4_sequence} at the \textit{glh-1} site with an ultramer repair template using the method described in section \ref{section:glh_method}. The repair template sequence (TB0139) is shown below:\\
 
 \seqsplit{GCCTTCACCGACGTCATGGGAATGGACGAGCTCTACAAGGGATCCGGAGGACGTATGAAACAGCTTGAGGACAAGATTGAGGAATTACTCTCCAAGATTTATCACCTCGAGAACGAGATTGCCCGTCTCAAAAAATTAATCGGTGAGCGTGGTGGATCCGGTTAGAAAACCGACCAATTGATAGTGTTTCGCATTTATTA}
 
@@ -2261,7 +2261,7 @@ I inserted the sequence shown in table \ref{tab:gcn4_sequence} at the \textit{gl
 \clearpage
 \section{Microscopy}
 
-Two methods were used to mount embryos for microscopy. In some experiments, embryos were dissected from adult worms in 5 uL M9 buffer on a coverslip and mounted on 2\% agarose pads \citep{Zipperlen2001}. In other experiments, embryos were dissected in 8 uL egg buffer, and mounted between a slide and coverslip with 20 um polystyrene beads.\\
+Two methods were used to mount embryos for microscopy. In some experiments, embryos were dissected from adult worms in 5 \textmu l M9 buffer on a coverslip and mounted on 2\% agarose pads \citep{Zipperlen2001}. In other experiments, embryos were dissected in 8 \textmu l egg buffer, and mounted between a slide and coverslip with 20 \textmu m polystyrene beads.\\
 
 Midplane confocal images were captured using 60x or 100x objective lenses on a Nikon TiE system equipped with an X-Light V1 spinning disk system (CrestOptics) with 50 um slits, Obis 488/561 nm fiber-coupled diode lasers (Coherent) and an Evolve delta camera (Photometrics). The system was controlled using Metamorph (Molecular Devices) and configured by Cairn Research.\\
 
@@ -2271,9 +2271,9 @@ Midplane confocal images were captured using 60x or 100x objective lenses on a N
 
 \subsection{Full-length PAR-2 purification}
 
-Full length PAR-2 purification was performed with Colin Davis in Anne Schreiber's lab at the Crick. We grew 4L of High Five insect cells, and infected cells with virus packaged with pNH0046, a vector containing FLAG-StrepII2X-tagged PAR-2. This vector was built by Nisha Hirani, by inserting the full-length PAR-2 sequence into pASC144 (based on pFBDM), a vector designed for expression of recombinant proteins in insect cells. The virus was prepared by Colin Davis.\\
+Full length PAR-2 purification was performed with Colin Davis in Anne Schreiber's lab at the Crick. We grew 4 l of High Five insect cells, and infected cells with x virus packaged with pNH0046, a vector containing FLAG-StrepII2X-tagged PAR-2. This vector was built by Nisha Hirani, by inserting the full-length PAR-2 sequence into pASC144 (based on pFBDM), a vector designed for expression of recombinant proteins in insect cells. The virus was prepared by Colin Davis.\\
 
-Infected cells were incubated at xC for 3 days, centrifuged, and pellets frozen at -80$^{\circ}$C. We then resuspended pellets in lysis buffer (recipe in table \ref{table:insect_cell_lysis_buffer}) and sonicated samples on ice. We then centrifuged sonicated samples and discarded pellets. Next, we performed strep pull-down on the supernatant using a StrepTactin column, and eluted strep-tagged protein with elution buffer (recipe in table \ref{table:insect_cell_elution_buffer}). We followed this with size exclusion chromatography using a Superdex 200 column.\\
+Infected cells were incubated at x$^{\circ}$C for 3 days, centrifuged, and pellets frozen at -80$^{\circ}$C. We then resuspended pellets in lysis buffer (recipe in table \ref{table:insect_cell_lysis_buffer}) and sonicated samples on ice. We then centrifuged sonicated samples and discarded pellets. Next, we performed strep pull-down on the supernatant using a StrepTactin column, and eluted strep-tagged protein with elution buffer (recipe in table \ref{table:insect_cell_elution_buffer}). We followed this with size exclusion chromatography using a Superdex 200 column.\\
 
 \begin{table}[]
 \footnotesize
@@ -2336,17 +2336,17 @@ MgCl2 & 2 mM \\ \hline
 
 \subsection{PAR-2 RING domain fragment purification}
 
-PAR-2 RING domain fragment purification was performed with Dave Briggs in Neil McDonald's lab at the Crick. Based on secondary structure prediction and sequence alignment, we identified amino acids 40-120 of PAR-2 as sufficient to contain the core RING domain and flanking dimerisation helices. I amplified this sequence from pNH46 and cloned into the pETM11 His-Sumo vector (obtained from the Crick Structural Biology STP), generating the plasmid pTB10, which I transformed into Rosetta (DE3) cells by electroporation.\\
+PAR-2 RING domain fragment purification was performed with Dave Briggs in Neil McDonald's lab at the Crick. Based on secondary structure prediction and sequence alignment, we identified amino acids 40-120 of PAR-2 as likely sufficient to contain the core RING domain and flanking dimerisation helices. I amplified this sequence from pNH46 and cloned into the pETM11 His-Sumo vector (obtained from the Crick Structural Biology STP), generating the plasmid pTB10, which I transformed into Rosetta (DE3) cells by electroporation.\\
 
-I grew 5ml overnight cultures of transformed cells and used these to inoculate 12x 500ml LB supplemented with 50mM zinc sulphate. Cells were grown in a shaking incubator at 37C to an OD600 of 0.6. At this point, we reduced the temperature to 16$^{\circ}$C, added 100uM IPTG and left cultures shaking overnight. The following day, we centrifuged the cultures and froze pellets at -80$^{\circ}$C until ready for subsequent steps.\\
+I grew 5 ml overnight cultures of transformed cells and used these to inoculate 12x 500 ml LB supplemented with 50 mM zinc sulphate. Cells were grown in a shaking incubator at 37$^{\circ}$C to an OD600 of 0.6. At this point, we reduced the temperature to 16$^{\circ}$C, added 100 \textmu M IPTG and left cultures shaking overnight. The following day, we centrifuged the cultures and froze pellets at -80$^{\circ}$C until ready for subsequent steps.\\
 
-We began subsequent purification by resuspending pellets in lysis buffer containing protease inhibitors (recipe in table \ref{table:ecoli_lysis_buffer}) and sonicating samples on ice. We then centrifuged sonicated samples at high speed and discarded the pellets. We used the Ni-NTA agarose kit from Qiagen to pull His-tagged protein onto beads, and washed beads with lysis buffer without protease inhibitors, before eluting protein off beads with elution buffer (recipe in table \ref{table:ecoli_elution_buffer}).\\
+We began subsequent purification by resuspending pellets in lysis buffer containing protease inhibitors (recipe in table \ref{table:ecoli_lysis_buffer}) and sonicating samples on ice. We then centrifuged sonicated samples at high speed and discarded the pellets. We used the Ni-NTA agarose kit from Qiagen to pull His-tagged protein from the supernatant onto beads, and washed beads with lysis buffer without protease inhibitors, before eluting protein off beads with elution buffer (recipe in table \ref{table:ecoli_elution_buffer}).\\
 
 Next, to cleave the His-Sumo tag from the protein, we added the SUMO protease SenP2 (obtained from the Crick Structural Biology STP) at an approximate ratio of 1:1000, and left the sample overnight at 4$^{\circ}$C whilst dialysing in TBS with x dialysis tubing. We then removed cleaved tag from the sample using the Ni-NTA agarose kit.\\
 
 To remove any impurities from the sample, we performed ion exchange chromatography using x and size exclusion chromatography using x.\\
 
-To purify mutants of the RING domain, I performed site-directed mutagenesis on pTB10, generating the plasmid pTB13 for L109R and pTB11 for C56S. We attempted to express and purify 1 l (check) samples of both mutants. Whilst both were expressed in cells, we found that C56S was unstable during the purification process and we were unable to purify large quantities. L109R, on the other hand, was more stable, and we managed to purify sufficient quantities for one SEC-MALS run.\\
+To purify mutants of the RING domain, I performed site-directed mutagenesis on pTB10, generating the plasmid pTB13 for L109R and pTB11 for C56S. We attempted to express and purify 1 l samples of both mutants. Whilst both were expressed in cells, we found that C56S was unstable during the purification process and we were unable to purify large quantities. L109R, on the other hand, was more stable, and we managed to purify sufficient quantities for one SEC-MALS run.\\
 
 \begin{table}[]
 \footnotesize
@@ -2391,13 +2391,13 @@ ODE systems were numerically solved using the odeint function from the scipy.int
 
 \subsection{Creating qualitative parameter space maps}
 
-To create the qualitative 2D parameter space maps presented in chapter 6, simulations were initially performed across an 11x11 grid, and scored depending on the criteria of interest (e.g. the ability to maintain polarity, spontaneously break symmetry, or ASI). To allow the boundaries between regions in parameter space to be efficiently refined, I then perform additional simulations around any detected boundaries, and iteratively repeat this process (\cref{fig:paramspace_method}). 
+To create the qualitative 2D parameter space maps presented in chapter 6, simulations were initially performed across an 11x11 grid, and scored depending on the criteria of interest (e.g. the ability to maintain polarity, spontaneously break symmetry, or asymmetry index). To allow the boundaries between regions in parameter space to be efficiently refined, I then perform additional simulations around any detected boundaries, and iteratively repeat this process (\cref{fig:paramspace_method}). Simulations were performed on the Crick compute cluster.
 
 \begin{figure}
 \includegraphics[scale=1]{paramspace_method}
 \centering
 \mycaption{Iterative method for creating qualitative parameter space maps}{
-In iteration 1, models are simulated across an 11x11 grid, starting from a polarised state, and scored after 10000s as polarised (orange) or unpolarised (blue). In iterations 2 onwards, a custom algorithm detects regions of parameter space close to detected boundaries. The grid is further subdivided in these regions and additional simulations are performed (increasing resolution by a factor of 2 each time).
+In iteration 1, models are simulated across an 11x11 grid, starting from a polarised state, and scored after 10000s as polarised (orange) or unpolarised (blue). In iterations 2 onwards, a custom algorithm detects regions of parameter space close to detected boundaries. The grid is further subdivided in these regions and additional simulations are performed (increasing resolution by a factor of 2 each time). Variants of this approach were used depending on the application, such as starting simulations from a uniform state with a small perturbation, or scoring asymmetry index within a series of bounds. Some figures were made by overlaying multiple parameter space maps generated using this method.
 }
 \label{fig:paramspace_method}
 \end{figure}

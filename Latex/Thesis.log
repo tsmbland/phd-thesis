@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  14 MAR 2022 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  15 MAR 2022 09:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3531,13 +3531,13 @@ Overfull \hbox (6.48816pt too wide) in paragraph at lines 1990--1990
  []
 
 
-Overfull \hbox (34.33301pt too wide) in paragraph at lines 1990--1990
-\OT1/cmr/m/n/8 55)::GBP::mKate(Y65A)|  
+Overfull \hbox (38.58307pt too wide) in paragraph at lines 1990--1990
+\OT1/cmr/m/n/8 55)::GBP::mKate2(Y65A)|  
  []
 
 
-Overfull \hbox (36.69415pt too wide) in paragraph at lines 1990--1990
-\OT1/cmr/m/n/8 55)::GBP::mKate(Y65A); 
+Overfull \hbox (40.94421pt too wide) in paragraph at lines 1990--1990
+\OT1/cmr/m/n/8 55)::GBP::mKate2(Y65A); 
  []
 
 [200
@@ -3774,12 +3774,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2192--2193
  []
 
 
-Overfull \hbox (35.88092pt too wide) in paragraph at lines 2194--2195
-\OT1/cmr/m/n/12 mov-ing PH and re-plac-ing with \OT1/cmr/m/it/12 tomm-20\OT1/cm
-r/m/n/12 , yield-ing the plamid pTB2 (TOMM20::GBP).
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2194--2195
 
  []
@@ -3793,9 +3787,6 @@ Overfull \hbox (2.515pt too wide) in alignment at lines 2201--2201
  [] 
  []
 
-[216
-
-]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2206.
@@ -3814,6 +3805,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2221--2222
 
  []
 
+[216
+
+]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2223.
@@ -4122,13 +4116,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2523.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2523.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 786BB3BFC3916CE445DAFEF092778F15;10619.
+(rerunfilecheck)             Checksum: D4F8A9DB8A4ED6870B580A614AD53116;10626.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -4141,10 +4132,10 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2523.
  ) 
 Here is how much of TeX's memory you used:
- 29127 strings out of 492995
- 552369 string characters out of 6132704
- 1034770 words of memory out of 5000000
- 31687 multiletter control sequences out of 15000+600000
+ 29126 strings out of 492995
+ 552357 string characters out of 6132704
+ 1034761 words of memory out of 5000000
+ 31686 multiletter control sequences out of 15000+600000
  542369 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,20n,92p,10369b,1608s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4178,7 +4169,7 @@ s/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/cbfonts/grmn1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
 e1/public/cbfonts/grmn1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/cbfonts/grxn1000.pfb>
-Output written on Thesis.pdf (253 pages, 84750930 bytes).
+Output written on Thesis.pdf (253 pages, 84751452 bytes).
 PDF statistics:
  3055 PDF objects out of 3580 (max. 8388607)
  2658 compressed objects within 27 object streams

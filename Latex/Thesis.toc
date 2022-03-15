@@ -224,7 +224,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.2.5}Mitochondrial GFP-binding protein}{216}{subsection.9.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.6}Membrane tethered PAR-2 RING fragment}{217}{subsection.9.2.6}
+\contentsline {subsection}{\numberline {9.2.6}Plasma membrane tethered PAR-2 RING fragment}{217}{subsection.9.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.2.7}RING domain fragment}{219}{subsection.9.2.7}
 \defcounter {refsection}{0}\relax 
