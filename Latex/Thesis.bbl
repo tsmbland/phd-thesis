@@ -3457,6 +3457,71 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Illukkumbura2020}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=IR}{%
+         family={Illukkumbura},
+         familyi={I\bibinitperiod},
+         given={Rukshala},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bland},
+         familyi={B\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \keyw{Actomyosin,Advection,Cell polarity,Cortical flow,Membrane
+  flow,Polarity,Review,Self-organization}
+    \strng{namehash}{IRBTGNW1}
+    \strng{fullhash}{IRBTGNW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Beginning with Turing's seminal work [1], decades of research have
+  demonstrated the fundamental ability of biochemical networks to generate and
+  sustain the formation of patterns. However, it is increasingly appreciated
+  that biochemical networks also both shape and are shaped by physical and
+  mechanical processes [2, 3, 4]. One such process is fluid flow. In many
+  respects, the cytoplasm, membrane and actin cortex all function as fluids,
+  and as they flow, they drive bulk transport of molecules throughout the cell.
+  By coupling biochemical activity to long-range molecular transport, flows can
+  shape the distributions of molecules in space. Here, we review the various
+  types of flows that exist in cells, with the aim of highlighting recent
+  advances in our understanding of how flows are generated and how they
+  contribute to intracellular patterning processes, such as the establishment
+  of cell polarity.%
+    }
+    \field{booktitle}{Current Opinion in Cell Biology}
+    \verb{doi}
+    \verb 10.1016/j.ceb.2019.10.005
+    \endverb
+    \field{issn}{18790410}
+    \field{pages}{123\bibrangedash 134}
+    \field{title}{{Patterning and polarization of cells by intracellular
+  flows}}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S0955067419300924
+    \endverb
+    \field{volume}{62}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0955067419300924-mai
+    \verb n.pdf:pdf
+    \endverb
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Johnson2012}{article}{}
     \name{author}{3}{}{%
       {{hash=JJL}{%
@@ -5290,6 +5355,62 @@
     \endverb
     \field{journaltitle}{Developmental Cell}
     \field{year}{2004}
+  \endentry
+
+  \entry{OShea1989}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OEK}{%
+         family={O'Shea},
+         familyi={O\bibinitperiod},
+         given={Erin\bibnamedelima K.},
+         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rutkowski},
+         familyi={R\bibinitperiod},
+         given={Rheba},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KPS}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Peter\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \keyw{Leucine zipper}
+    \strng{namehash}{OEKRRKPS1}
+    \strng{fullhash}{OEKRRKPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{abstract}{%
+    Recently, a hypothetical structure called a leucine zipper was proposed
+  that defines a new class of DNA binding proteins. The common feature of these
+  proteins is a region spanning approximately 30 amino acids that contains a
+  periodic repeat of leucines every seven residues. A peptide corresponding to
+  the leucine zipper region of the yeast transcriptional activator GCN4 was
+  synthesized and characterized. This peptide associates in the micromolar
+  concentration range to form a very stable dimer of a helices with a parallel
+  orientation. Although some features of the leucine zipper model are supported
+  by our experimental data, the peptide has the characteristics of a coiled
+  coil.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.2911757
+    \endverb
+    \field{issn}{00368075}
+    \field{number}{4890}
+    \field{pages}{538\bibrangedash 542}
+    \field{title}{{Evidence that the leucine zipper is a coiled coil}}
+    \field{volume}{243}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/science.2911757.pdf:pdf
+    \endverb
+    \field{journaltitle}{Science}
+    \field{year}{1989}
   \endentry
 
   \entry{Pan2017}{article}{}
@@ -7312,6 +7433,84 @@
     \endverb
     \field{journaltitle}{Molecular Biology of the Cell}
     \field{year}{2018}
+  \endentry
+
+  \entry{Yeung2008}{article}{}
+    \name{author}{6}{}{%
+      {{hash=YT}{%
+         family={Yeung},
+         familyi={Y\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GGE}{%
+         family={Gilbert},
+         familyi={G\bibinitperiod},
+         given={Gary\bibnamedelima E.},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Jialan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Silvius},
+         familyi={S\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kapus},
+         familyi={K\bibinitperiod},
+         given={Andras},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Grinstein},
+         familyi={G\bibinitperiod},
+         given={Sergio},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Electrostatics}
+    \strng{namehash}{YT+1}
+    \strng{fullhash}{YTGGESJSJKAGS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    Electrostatic interactions with negatively charged membranes contribute to
+  the subcellular targeting of proteins with polybasic clusters or cationic
+  domains. Although the anionic phospholipid phosphatidylserine is
+  comparatively abundant, its contribution to the surface charge of individual
+  cellular membranes is unknown, partly because of the lack of reagents to
+  analyze its distribution in intact cells. We developed a biosensor to study
+  the subcellular distribution of phosphatidylserine and found that it binds
+  the cytosolic leaflets of the plasma membrane, as well as endosomes and
+  lysosomes. The negative charge associated with the presence of
+  phosphatidylserine directed proteins with moderately positive charge to the
+  endocytic pathway. More strongly cationic proteins, normally associated with
+  the plasma membrane, relocalized to endocytic compartments when the plasma
+  membrane surface charge decreased on calcium influx.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.1152066
+    \endverb
+    \field{issn}{00368075}
+    \field{number}{5860}
+    \field{pages}{210\bibrangedash 213}
+    \field{title}{{Membrane phosphatidylserine regulates surface charge and
+  protein localization}}
+    \field{volume}{319}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/science.1152066.pdf:pdf
+    \endverb
+    \field{journaltitle}{Science}
+    \field{year}{2008}
   \endentry
 
   \entry{Zhang2017}{article}{}

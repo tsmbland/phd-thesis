@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2.2}{\ignorespaces Autofluorescence is spatially correlated across emission channels}}{49}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.3}{\ignorespaces Applying SAIBR to images of GFP-tagged PAR proteins}}{51}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2.3}{\ignorespaces Applying SAIBR to images of GFP-tagged PAR proteins}}{50}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2.4}{\ignorespaces SAIBR improves detection of membrane signals}}{52}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
@@ -144,32 +144,38 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2.1}{\ignorespaces Title}}{191}{figure.caption.73}
+\contentsline {figure}{\numberline {7.2.1}{\ignorespaces Alphafold prediction of the PAR-2(RING)::GCN4 dimer}}{194}{figure.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2.2}{\ignorespaces Title}}{192}{figure.caption.74}
+\contentsline {figure}{\numberline {7.2.2}{\ignorespaces Strengthening dimerisation of PAR-2 shifts localisation pattern}}{195}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2.3}{\ignorespaces Title}}{193}{figure.caption.75}
+\contentsline {figure}{\numberline {7.2.3}{\ignorespaces Quantification of PAR-2 (GCN4)}}{196}{figure.caption.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3.1}{\ignorespaces Title}}{194}{figure.caption.76}
+\contentsline {figure}{\numberline {7.2.4}{\ignorespaces Localisation of RAB-5 and RAB-7 in \textit {C. elegans} zygotes}}{197}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4.1}{\ignorespaces Title}}{197}{figure.caption.77}
+\contentsline {figure}{\numberline {7.2.5}{\ignorespaces GCN4 alone does not localise to membranes}}{197}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5.1}{\ignorespaces Title}}{198}{figure.caption.78}
+\contentsline {figure}{\numberline {7.3.1}{\ignorespaces Effects of dimerisation on internal membrane binding in a three-compartment thermodynamic model}}{200}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3.2}{\ignorespaces Schematic of PAR reconfiguration events prior to symmetry breaking}}{202}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.4.1}{\ignorespaces Strong dimerisation slows redistribution timescales}}{205}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.5.1}{\ignorespaces PAR-2 (GCN4) in an aPAR mutant}}{208}{figure.caption.81}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.2.1}{\ignorespaces Free NeonGreen expressed using the \textit {glh-1} site method}}{211}{figure.caption.83}
+\contentsline {figure}{\numberline {9.2.1}{\ignorespaces Free NeonGreen expressed using the \textit {glh-1} site method}}{223}{figure.caption.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.1}{\ignorespaces Iterative method for creating qualitative parameter space maps}}{228}{figure.caption.101}
+\contentsline {figure}{\numberline {9.5.1}{\ignorespaces Iterative method for creating qualitative parameter space maps}}{240}{figure.caption.104}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.2}{\ignorespaces FxR motif in \textit {C. elegans} PAR-1, PAR-2 and PAR-3}}{231}{figure.caption.103}
+\contentsline {figure}{\numberline {9.5.2}{\ignorespaces FxR motif in \textit {C. elegans} PAR-1, PAR-2 and PAR-3}}{243}{figure.caption.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.3}{\ignorespaces Mutants of the PAR-2 high affinity FxR/S241 phosphosite in vivo}}{233}{figure.caption.104}
+\contentsline {figure}{\numberline {9.5.3}{\ignorespaces Mutants of the PAR-2 high affinity FxR/S241 phosphosite in vivo}}{245}{figure.caption.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.4}{\ignorespaces Schematic of potential models for PAR-2 multisite phosphorylation}}{237}{figure.caption.105}
+\contentsline {figure}{\numberline {9.5.4}{\ignorespaces Schematic of potential models for PAR-2 multisite phosphorylation}}{249}{figure.caption.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.5}{\ignorespaces Modelling FxR/S241 site mutants}}{240}{figure.caption.106}
+\contentsline {figure}{\numberline {9.5.5}{\ignorespaces Modelling FxR/S241 site mutants}}{252}{figure.caption.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5.6}{\ignorespaces Modelling PKC-3 sensitivity of wild type and FxR/S241 mutant PAR-2}}{241}{figure.caption.107}
+\contentsline {figure}{\numberline {9.5.6}{\ignorespaces Modelling PKC-3 sensitivity of wild type and FxR/S241 mutant PAR-2}}{253}{figure.caption.110}

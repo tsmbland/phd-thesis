@@ -79,7 +79,7 @@
 
 A final example of cell polarity is PAR polarity. Best studied in the developing \textit{C. elegans} embryo, PAR polarity plays an essential role in development by regulating a series of asymmetric cell divisions. PAR proteins form patterns on the cell membrane which direct asymmetric localisation of the spindle and asymmetric distribution of fate determinants. The resulting cell division is asymmetric, leading to two cells that differ in size and fate.\\
 
-The PAR network is a highly conserved network of proteins that drives polarity in a range of cell types across the animal kingdom (\cite{Goldstein2007}). PAR polarity plays a number of essential roles throughout development, including asymmetric cell division, cell fate specification, regulation of tissue architecture and cell motility. Key to this process is the formation of asymmetric PAR protein patterns at the cortex of cells. PAR polarity is distinct from the two other examples described so far as it relies on two distinct groups of proteins, referred to as anterior and posterior PARs (aPARs and pPARs) that show distinct and complementary cortical patterns. Rather than self-amplification, in which one protein (or group of proteins) directly feeds back onto its own local enrichment, the dominant patterning mechanism in PAR polarity is one of mutual antagonism, whereby proteins within the two subgroups negatively regulate each-other’s localisation \parencite{Goehring2011b}. \\
+The PAR network is a highly conserved network of proteins that drives polarity in a range of cell types across the animal kingdom (\cite{Goldstein2007}). PAR polarity plays a number of essential roles throughout development, including asymmetric cell division, cell fate specification, regulation of tissue architecture and cell motility. Key to this process is the formation of asymmetric PAR protein patterns at the cortex of cells. PAR polarity is distinct from the two other examples described so far as it relies on two distinct groups of proteins, referred to as anterior and posterior PARs (aPARs and pPARs) that show distinct and complementary cortical patterns. Rather than self-amplification, in which one protein (or group of proteins) directly feeds back onto its own local enrichment, the dominant patterning mechanism in PAR polarity is one of mutual antagonism, whereby proteins within the two subgroups negatively regulate each-other's localisation \parencite{Goehring2011b}. \\
 
 A classic model system for studies of the PAR network is the \textit{C. elegans} zygote. PAR proteins were first found to be important for this process in a screen of mutants that disrupt asymmetric zygote divisions (Kemphues and others… Tabuse, Watts). Work in the following decades has gone to characterize the PAR proteins as a diverse and highly conserved set of scaffold proteins, adaptors and enzymes, some which play essential roles in the self-organisation of PAR polarity \parencite{Lang2017}. Key to this process is cross-phosphorylation of the two subgroups, driven by kinases within each group, which negatively regulates membrane association and keeps the domains separate (refs).\\
 
@@ -270,9 +270,14 @@ Studies on RING mutants also shed potential light on the mechanisms of PAR-2 pro
 \clearpage
 \chapter{A pipeline for quantification of membrane and cytoplasmic protein concentrations}
 
+\textbf{Manuscript details:}\\
+
+The work described in section \ref{section:saibr} has been published on bioRxiv \citep{Rodrigues2022}. I present an abridged version of the work, and more details are available in the full article.\\
+
 \textbf{Detailed contributions:}\\
 
-\textbf{Manuscript details:}
+The work in section \ref{section:saibr} was performed in collaboration with Nelio Rodrigues. NR performed all of the imaging, and I performed all of the analysis shown here.
+
 
 \clearpage
 \section{Introduction}
@@ -281,8 +286,7 @@ Intro to section, build on narrative from previous section
 
 \clearpage
 \section{Autofluorescence correction}
-
-\textit{Note: this section has been adapted from \textcite{Rodrigues2022}, and describes work performed with Nelio Rodrigues.}
+\label{section:saibr}
 
 \subsection{Autofluorescence in \textit{C. elegans}}
 
@@ -292,13 +296,14 @@ We can observe the significance of the problem in \textit{C. elegans} by imaging
 
 \begin{SCfigure}
 \includegraphics[scale=0.9]{saibr_n2_vs_lgl}
-\mycaption{Autofluorescence is abundant and variable in images of \textit{C. elegans} zygotes}{GFP channel (488nm excitation, 535/50nm emission) images of unlabelled N2 and LGL-1::GFP embryos taken under identical imaging conditions. Pixel scaling is the same for each image. Fig. 1B from \textcite{Rodrigues2022}.}
+\mycaption{Autofluorescence is abundant and variable in images of \textit{C. elegans} zygotes}{GFP channel (488nm excitation, 535/50nm emission) images of unlabelled N2 and LGL-1::GFP embryos taken under identical imaging conditions. Pixel scaling is the same for each image. Figure panels from \textcite{Rodrigues2022}, Fig 1B.
+}
 \label{fig:saibr_n2_vs_lgl}
 \end{SCfigure}
 
-One approach that has been used to tackle autofluorescence in some systems is spectral imaging \citep{Billinton2001}. Typically used to separate overlapping fluorophore signals based on spectral characteristics, this approach can also be used to separate out autofluorescence by treating it much like a fluorophore with its own spectral characteristics. Whilst often effective, these techniques require specialised instruments and analysis tools and cannot be performed on standard confocal microscopes.\\
+One approach that has been used to tackle autofluorescence in some systems is spectral imaging \citep{Billinton2001}. Typically used to separate overlapping fluorophore signals based on spectral characteristics, this approach can also be used to separate out autofluorescence by treating it much like a fluorophore with its own spectral characteristics. Whilst often effective, these techniques require specialised instruments and analysis tools and cannot be performed on standard confocal microscopes unless equipped with the requisite detectors.\\
 
-A simpler, related, approach has been proposed for some systems (e.g. \cite{Roederer1986}) which exploits the fact that autofluorescence can often be described as a single fluorescent component, with an emission spectrum much broader than GFP. If one can find an emission wavelength (usually red shifted) that is specific for autofluorescence, this can be used to infer the amount of autofluorescence in the sample, which can then be subtracted away from the regular fluorophore channel to give a clean readout of fluorophore signal. In comparison to full spectral imaging, this method can be carried out with standard light sources and emission filters, and therefore can be easily implemented into existing workflows.\\
+A simpler, related, approach has been proposed for some systems (e.g. \cite{Roederer1986}) which exploits the fact that autofluorescence can often be described as a single fluorescent component, with an emission spectrum much broader than GFP. If one can find an emission wavelength (usually red shifted) that is specific for autofluorescence, this can be used to infer the amount of autofluorescence in the sample, which can then be subtracted away from the regular fluorophore channel to give a clean readout of fluorophore signal. In comparison to full spectral imaging, this method can be carried out with standard light sources and emission filters, and therefore can be easily implemented in existing workflows.\\
 
 Inspired by this approach, we aimed to implement, and assess the applicability of such a method for autofluorescence removal in images of \textit{C. elegans} embryos. In doing so, we have put together a robust and easily-implementable workflow which we’ve termed SAIBR: Spectral Autofluorescence Image correction by Regression.\\
 
@@ -317,7 +322,7 @@ Furthermore, by imaging untagged embryos with both the standard GFP channel and 
 \textbf{(A)} Correlation of pixel values between the GFP channel and AF channel for an unlabelled N2 embryo, subject to Gaussian blur of indicated radius. Pixel values were taken from an ROI encompassing the entire embryo and a portion of the background. All pixels within this region were used for the regression, but for clarity only a random 10\% sample of pixels are shown.
 \textbf{(B)} Comparison of inter-channel pixel correlation (Gaussian radius = 1) for three unlabelled N2 embryos, colour coded by embryo. Histograms of intensity values for GFP and AF channels shown for reference.
 \textbf{(C)} Comparison of per-pixel correlation with data obtained from whole embryo means. (i) Lines indicate per-pixel regression for individual embryos as in (B). (ii) Overlay showing mean whole embryo fluorescence values (circles).
-Fig. S2 and 1E-F from \textcite{Rodrigues2022}.
+Figure panels from \textcite{Rodrigues2022}, Fig S2, 1E-F.
 }
 \label{fig:saibr_n2_correlation}
 \end{figure}
@@ -336,7 +341,8 @@ In the case of LGL-1::GFP expressing embryos, where autofluorescence signal is d
 \centering
 \mycaption{Applying SAIBR to images of GFP-tagged PAR proteins}{
 \textbf{(A) - (D)} Raw (top) and SAIBR-corrected (middle) midplane images of zygotes expressing the indicated GFP fusions. Bottom panels show associated linescans across the images. SAIBR reveals prominent membrane localisation for LGL-1 and PAR-3 (arrows) which is not obvious in uncorrected images. We also see a prominent signal dip in the pronuclear region of uncorrected images due to local exclusion of autofluorescence (arrowheads), which disappears in SAIBR corrected images.
-Fig. 2A-D from \textcite{Rodrigues2022}.}
+Figure panels from \textcite{Rodrigues2022}, Fig 2A-D.
+}
 \label{fig:saibr_spatial_correction}
 \end{figure}
 
@@ -347,7 +353,8 @@ As shown in \cref{fig:saibr_membrane_profiles}, SAIBR has a strong impact on the
 \centering
 \mycaption{SAIBR improves detection of membrane signals}{
 \textbf{(A) - (C)} Averaged membrane profiles taken from raw (top) and SAIBR-corrected (bottom) images for LGL-1::GFP (A), PAR-3::GFP(B) and PAR-6::GFP (C) shown relative to unlabelled N2 controls. Membrane position at x=0$\mu m$. Mean $\pm$ SD indicated.
-Fig. 2E-G from \textcite{Rodrigues2022}.}
+Figure panels from \textcite{Rodrigues2022}, Fig. 2E-G.
+}
 \label{fig:saibr_membrane_profiles}
 \end{figure}
 
@@ -363,7 +370,7 @@ As SAIBR relies on a red shifted emission channel, complications can arise in sa
 \textbf{(A)} Gaussian-filtered (radius = 1) GFP channel vs AF channel pixel intensities for an mCh::MEX-5 expressing embryo, colour coded by RFP-channel fluorescence. Dashed line indicates the AF vs GFP correlation for untagged (N2) embryos. Inset shows residuals as a function of RFP channel signal. Pixels taken from an ROI encompassing the embryo and a region of the background, and 10\% of pixels are shown at random.
 \textbf{(B)} Multiple regression fit of GFP-channel signal as a function of AF and RFP channel signal. The same embryo and sample of pixels as in (A) is shown.
 \textbf{(C)} Predicted vs. measured GFP-channel signal based on the fit in (B). The same embryo and sample of pixels as in (A) and (B) is shown.
-Fig. 4B-D from \textcite{Rodrigues2022}.
+Figure panels from \textcite{Rodrigues2022}, Fig. 4B-D.
 }
 \label{fig:saibr_3channel_correlation}
 \end{figure}
@@ -374,7 +381,8 @@ To perform correction on images containing red fluorophore, we just need to capt
 \includegraphics[scale=1]{saibr_3channel_correction}
 \mycaption{3-channel SAIBR prevents oversubtraction in samples containing red fluorophore}{
 RFP channel, 2-channel SAIBR and 3-channel SAIBR images for samples expressing mCh::MEX-5, along with associated linescans. 2-channel SAIBR results in oversubtraction which is clearly visible as negative values in the mCh::MEX-5 line (arrow) and reduced cytoplasmic signal in the two-colour line. 3-channel SAIBR, using the calibration procedure shown in \cref{fig:saibr_3channel_correlation}, prevents oversubtraction.
-Fig. 4F from \textcite{Rodrigues2022}.}
+Figure panels from \textcite{Rodrigues2022}, Fig. 4F.
+}
 \label{fig:saibr_3channel_correction}
 \end{SCfigure}
 
@@ -385,7 +393,7 @@ In summary, I have demonstrated that a simple protocol, which we’ve termed SAI
 
 The simplicity of the method means that it can be easily incorporated into existing workflows, and should be applicable to a variety of imaging platforms. In the full study \citep{Rodrigues2022}, we show that the method is equally successful on both spinning-disk confocal and wide-field instruments. \\
 
-Whilst initially developed with \textit{C. elegans} embryos in mind, the method isn't specific to this system, and could be applied to a number of other model systems in which autofluorescence is a problem. In the full study, we show that the method works successfully in \textit{C. elegans} larvae, as well as other model organisms such as starfish and yeast. That said, the method isn’t guaranteed to perform well in all cases. If samples contain multiple, independently varying sources of autoflourescence, then SAIBR may face problems as a single autofluorescence reporter channel cannot account for this. However, much like how we can tackle red fluorophores, we have found that in some cases this can be solved simply by adding one extra reporter channel. Inevitably, though, such an approach may not be compatible with dual-colour imaging. \\
+Whilst initially developed with \textit{C. elegans} embryos in mind, the method isn't specific to this system, and could be applied to a number of other model systems in which autofluorescence is a problem. In the full study, we show that the method works successfully in \textit{C. elegans} larvae, as well as other model systems such as starfish oocytes and fission yeast (\textit{S. pombe}). That said, the method is not guaranteed to perform well in all cases. If samples contain multiple, independently varying sources of autoflourescence, then SAIBR may face problems as a single autofluorescence reporter channel cannot account for this. However, much like how we can tackle red fluorophores, we have found that in some cases this can be solved simply by adding one extra reporter channel. Inevitably, though, such an approach may not be compatible with dual-colour imaging. \\
 
 Whilst the analysis steps are relatively straightforward, implementing the computational workflow may still be a barrier to adoption for some. Therefore, to make the protocol accessible, I have put together a simple GUI-based FIJI plugin which can carry out all the necessary analysis in a few simple steps. This can be found here: \url{https://github.com/tsmbland/saibr_fiji_plugin}. \\
 
@@ -776,7 +784,7 @@ Notes:\\
 
 Results in the previous chapter suggest that the RING domain of PAR-2 plays a key role in regulating the membrane affinity of the protein, and may be responsible for conferring nonlinear-membrane binding kinetics to PAR-2. However, the precise mechanisms of RING domain action in this context are not yet understood, and are subject to investigation in this chapter.\\
 
-Whilst no mechanisms have been definitively attributed to the RING domain, several observations in previous studies provide insight into potential mechanisms. On its own, the PAR-2 RING domain has been shown to lack any membrane binding activity (\textcite{Hao2006}, and replicated later in \cref{fig:ring_fragment_in_vivo}), whereas a central portion of the protein containing the polybasic regions but lacking the RING domain binds to the membrane with a similar affinity to PAR-2 (C56S). Therefore, rather than a direct interaction with the membrane, it’s likely that the RING domain plays a modulatory role, affecting electrostatic membrane binding via the polybasic regions. Additionally, the authors show that the weakened affinity of PAR-2 (C56S) cannot be restored by the presence of wild-type PAR-2. I have also performed similar analysis in \cref{fig:c56s_cis}, which shows that PAR-2 (C56S) membrane affinity is unchanged when balanced by a wild type copy compared to when homozygous. In other words, the effects of C56S mutation appear to be cis-acting (intrinsic to each molecule). Finally, FRAP studies of PAR-2 (C56S) show that the mutant has faster membrane turnover kinetics than wild type PAR-2, suggesting that weakened membrane affinity in the mutant is due to a failure to stably associate with the membrane \citep{Motegi2011}.\\
+Whilst no mechanisms have been definitively attributed to the RING domain, several observations in previous studies provide insight into potential mechanisms. On its own, the PAR-2 RING domain has been shown to lack any membrane binding activity (\textcite{Hao2006}, and replicated later in \cref{fig:ring_fragment_in_vivo}), whereas a central portion of the protein containing the polybasic regions but lacking the RING domain binds to the membrane with a similar affinity to PAR-2 (C56S). Therefore, rather than a direct interaction with the membrane, it is likely that the RING domain plays a modulatory role, affecting electrostatic membrane binding via the polybasic regions. Additionally, the authors show that the weakened affinity of PAR-2 (C56S) cannot be restored by the presence of wild-type PAR-2. I have also performed similar analysis in \cref{fig:c56s_cis}, which shows that PAR-2 (C56S) membrane affinity is unchanged when balanced by a wild type copy compared to when homozygous. In other words, the effects of C56S mutation appear to be cis-acting (intrinsic to each molecule). Finally, FRAP studies of PAR-2 (C56S) show that the mutant has faster membrane turnover kinetics than wild type PAR-2, suggesting that weakened membrane affinity in the mutant is due to a failure to stably associate with the membrane \citep{Motegi2011}.\\
 
 
 \begin{figure}
@@ -790,7 +798,7 @@ Whilst no mechanisms have been definitively attributed to the RING domain, sever
 \label{fig:c56s_cis}
 \end{figure}
 
-RING domains were originally described by \textcite{Freemont1991} as a commonly occurring motif, between 40 and 70 residues in length, with a characteristic pattern of cysteine and/or histidine residues. Structural studies have since revealed a ‘cross-brace’ pattern, whereby these cysteine and histidine residues interact with two zinc ions to form a characteristic folded structure (\cref{fig:ring_schematic}). RING domains are highly prevalent, with 300 RING domain containing genes in the human genome \citep{Li2008}. Two roles have been commonly attributed to RING domains in other proteins: ubiquitination and dimerisation. In this chapter, I investigate each of these in turn as potential mechanism in the context of PAR-2 membrane association.\\
+RING domains were originally described by \textcite{Freemont1991} as a commonly occurring motif, between 40 and 70 residues in length, with a characteristic pattern of cysteine and/or histidine residues. Structural studies have since revealed a `cross-brace' pattern, whereby these cysteine and histidine residues interact with two zinc ions to form a characteristic folded structure (\cref{fig:ring_schematic}). RING domains are highly prevalent, with 300 RING domain containing genes in the human genome \citep{Li2008}. Two roles have been commonly attributed to RING domains in other proteins: ubiquitination and dimerisation. In this chapter, I investigate each of these in turn as potential mechanism in the context of PAR-2 membrane association.\\
 
 \begin{SCfigure}
 \includegraphics[scale=0.4]{ring_schematic}
@@ -900,7 +908,7 @@ Whilst the majority of RING domains are dimeric in crystal structures, their oli
 
 In the case of RING domains at the weaker end of the dimerisation scale, which exist largely as monomers in isolation, the ability to dimerise may be context specific. RNF4 is largely monomeric at physiological concentrations in vitro, but is able to dimerise upon addition of its substrate. Dual binding of two RNF4 molecules to a single substrate molecule creates a locally high concentration of RNF4 that permits dimerisation \citep{Rojas-Fernandez2014}. Similarly, TRIM25 shows weak dimerisation ability on its own, but dimerisation is stabilised by binding to an E2. \\
 
-Notably, however, not all RING domains are dimeric.  Some form higher order structures (e.g. the TRIM19 RING, which forms a ‘torus-shaped’ tetramer in crystal structures), whereas others lack any ability to oligomerise. The TRIM28 RING domain, for example, has a small N helix, but lacks a C helix, and forms no dimerisation contacts in crystal structures \citep{Stevens2019}. The TRIM56 RING domain lacks both helices, and similarly is monomeric in crystal structures \citep{Fiskin2017}.\\
+Notably, however, not all RING domains are dimeric.  Some form higher order structures (e.g. the TRIM19 RING, which forms a `torus-shaped' tetramer in crystal structures), whereas others lack any ability to oligomerise. The TRIM28 RING domain, for example, has a small N helix, but lacks a C helix, and forms no dimerisation contacts in crystal structures \citep{Stevens2019}. The TRIM56 RING domain lacks both helices, and similarly is monomeric in crystal structures \citep{Fiskin2017}.\\
 
 % Likewise, the CBL class of RING domains <more>..
 
@@ -1538,7 +1546,7 @@ c_{m1} &= \frac{1}{2} e^{-w_d} \left(\sqrt{4e^{w_d} c_m + 1} - 1\right)\\
 c_{m2} &= c_m - \frac{1}{2}e^{-w_d}\left(\sqrt{4e^{w_d} c_m + 1} - 1\right)
 \end{align}
 
-where concentrations are expressed in $c^{\circ}$ units. (Note, this is identical to the description of dimerisation in section \ref{section:thermodynamic_dimerisation}). As a result, overall chemical potentials of membrane and cytoplasmic protein ($\mu_m$ and $\mu_c$) can be described as a function of overall concentrations ($c_m$ and $c_c$):
+where concentrations are expressed in units of $c^{\circ}$ (the standard molar concentration). (Note, this is identical to the description of dimerisation in section \ref{section:thermodynamic_dimerisation}). As a result, overall chemical potentials of membrane and cytoplasmic protein ($\mu_m$ and $\mu_c$) can be described as a function of overall concentrations ($c_m$ and $c_c$):
 \begin{align}
 \mu_c &= \ln(c_c) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_c + \sqrt{4e^{w_d} c_c+ 1}\right)\\
 \mu_m &= \ln(c_m) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_m + \sqrt{4e^{w_d} c_m + 1}\right) - w_m
@@ -1565,7 +1573,7 @@ Throughout this chapter, I will restrict analysis to models in which cytoplasmic
 \label{fig:thermodynamic_model_koff}
 \end{figure}
 
-Overall, this analysis implies that the effects of dimerisation on membrane affinity are expected to come about largely through changes in the rate of membrane dissociation, rather than the rate of membrane association. Two separate points are important to note. Firstly, by impacting the dimeric state of membrane protein, the strength of dimer association ($w_d$) can tune the total dissociation rate of membrane protein over orders of magnitude. Secondly, positive feedback on membrane localisation is yielded through a decrease in membrane dissociation rates as membrane concentrations rise. In the rest of this chapter, I aim to consider these two features separately. Firstly, I consider the extent to which membrane dissociation rates impact the behaviour of the existing PAR model in the absence of dimerisation-driven positive feedback. Secondly, I build a new model that incorporates dimerisation-driven positive feedback in the pPAR subnetwork, and explore the impacts that this has on patterning behaviour.\\
+Overall, this analysis implies that the effects of dimerisation on membrane affinity are expected to come about largely through changes in the rate of membrane dissociation, rather than the rate of membrane association. Two separate points are important to note. Firstly, by impacting the dimeric state of membrane protein, the strength of dimer association ($w_d$) can tune the total dissociation rate of membrane protein over orders of magnitude. Secondly, positive feedback on membrane localisation results from a decrease in membrane dissociation rates as membrane concentrations rise. In the rest of this chapter, I aim to consider these two features separately. Firstly, I consider the extent to which membrane dissociation rates impact the behaviour of the existing PAR model in the absence of dimerisation-driven positive feedback. Secondly, I build a new model that incorporates dimerisation-driven positive feedback in the pPAR subnetwork, and explore the impacts that this has on patterning behaviour.\\
 
 
 \clearpage
@@ -1825,88 +1833,185 @@ Overall, this work suggests that, whilst dimerisation can provide an explanation
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\chapter{Experimental manipulation of PAR-2 dimerisation}
-
-\textbf{Detailed contributions:}\\
+\chapter{Enhancing PAR-2 dimerisation}
 
 \clearpage
 \section{Introduction}
 
-\section{Forced constitutive dimerisation of PAR-2 shifts localisation pattern}
+So far, my results have a highlighted an important role for the PAR-2 RING domain as a dimerisation domain. By increasing average membrane lifetimes, dimerisation strengthens the membrane association of PAR-2 and allows strong posterior polarity domains to be built. \\
 
-% Strikingly, we see the unexpected appearance of visible structures within the cell. Based on comparison to RAB localisation patterns, these appear to be endosomes.
+An important characteristic of the PAR-2 dimerisation reaction is its ability to respond dynamically to local concentrations. In the cytoplasm, where concentrations are low, protein is largely or entirely monomeric. At the membrane, where local concentrations are higher, membrane protein exists in a concentration-dependent equilibrium between monomeric and dimeric states. As discussed in chapter 5, this concentration-dependent behaviour drives a positive feedback reaction on membrane association. RING domain mutants show that shifting the balance towards a more monomeric state disrupts nonlinear behaviour and lowers membrane affinities. In this section, I consider the opposite, and investigate the effects of strengthening PAR-2 dimerisation. Theoretical models predict that strengthening dimerisation above wild type levels should increase average membrane lifetimes, and therefore increase overall membrane affinities, but may disrupt nonlinear behaviour.\\
 
-% We also see the appearance of PAR-2 on the anterior membrane, suggesting that the protein is less susceptable to antagonism by PKC-3
+The analysis in the chapter 6 also makes some interesting points about the implications of dimerisation in the context of polarity. Specifically, stable polarity without additional nonlinearities requires that dimers be (at least) partially resistant to antagonism compared to monomers. By enhancing dimerisation at the membrane and observing the effects on polarity I will comment on the interaction between dimerisation and antagonism.\\
 
-\begin{figure}[!h]
-\includegraphics[scale=1]{gcn4}
-\setlength{\abovecaptionskip}{20pt}
+
+\section{Strengthening PAR-2 dimerisation shifts localisation pattern}
+
+To increase the strength of PAR-2 dimerisation, I aimed to insert an additional dimerisation domain into the \textit{par-2} gene. I chose the leucine zipper domain of GCN4, a 33 amino acid peptide that mediates dimerisation of the yeast transcription factor GCN4. This peptide in isolation has been shown to strongly self-associate to form a very sable dimer in the micromolar range of concentrations \citep{OShea1989}. \\
+
+I inserted the domain immediately downstream of the RING domain (after E120) by CRISPR, flanked by short linkers. As GCN4 forms a coiled-coil in parallel, dimerisation of the endogenous RING domain should still remain intact (\cref{fig:gcn4_ring_structure}), and so the mutant should have additive contributions from two dimerisation domains. At the membrane, where concentrations are high, this should increase the fraction of protein in the dimeric state. In the cytoplasm, where PAR-2 is estimated to be in the nanomolar range \citep{Gross2018}, GCN4 alone might be expected to be monomeric, but the combination of RING and GCN4 might be sufficient for some degree of dimerisation.\\
+
+\begin{figure}
+\includegraphics[scale=0.95]{gcn4_ring_structure}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{Alphafold prediction of the PAR-2(RING)::GCN4 dimer}{
+Prediction based on the following protein sequence: PAR-2(40-120)::GSGG::GCN4::GGSG x2. Coloured by pLDDT score (blue indicates high prediction confidence, red indicates low prediction confidence). In the context of full-length PAR-2, this sequence is towards the N-terminus, upstream of the membrane binding domain.
+}
+\label{fig:gcn4_ring_structure}
+\end{figure}
+
+Fig. \ref{fig:gcn4}A shows the behaviour of PAR-2(GCN4) compared to PAR-2(wt) at the maintenance phase of polarity, and \cref{fig:gcn4_quantification} shows membrane quantification data. Strikingly, we find that strengthening dimerisation of PAR-2 with GCN4 causes a dramatic localisation shift. Firstly, whilst PAR-2 remains polarised towards the posterior, there is a considerable amount of localisation at the anterior membrane. This suggests that, whilst dimeric PAR-2 is clearly still able to respond to PKC-3, it may be partially resistant to antagonism. Secondly, we see the unexpected appearance of visible structures within the cell. Based on comparison to RAB localisation patterns (\cref{fig:rabs}), we believe that this likely represents an interaction of PAR-2 with early and late endosomal membranes.\\
+
+\begin{figure}
+\includegraphics[scale=1]{gcn4}
+\centering
+\mycaption{Strengthening dimerisation of PAR-2 shifts localisation pattern}{
+\textbf{(A)} Midplane confocal images of mNG::PAR-2 and mNG::PAR-2(GCN4) at maintenance phase. Images taken at NEBD (nuclear envelope breakdown). Raw and SAIBR corrected images shown for the same two embryos. Note the localisation of mNG::PAR-2(GCN4) to the anterior membrane, as well as prominent localisation to internal structures, which are more clearly apparent in SAIBR corrected images.
+\textbf{(B)} Timelapse of an mNG::PAR-2(GCN4) expressing embryo.
+}
 \label{fig:gcn4}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}
 \includegraphics[scale=1]{gcn4_quantification}
-\setlength{\abovecaptionskip}{20pt}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{Quantification of PAR-2 (GCN4)}{
+\textbf{(A) - (B)} Normalised cross-cortex profiles of mNG::PAR-2 and mNG::PAR-2(GCN4), averaged over the anterior (A) or posterior (B) 20\% of embryos. Mean $\pm$ SD.
+\textbf{(C)} Membrane concentration profiles of mNG::PAR-2 and mNG::PAR-2(GCN4). Mean $\pm$ SD.
+\textbf{(D)} Quantification of total mNG::PAR-2 and mNG::PAR-2(GCN4) expression, calculated as the average fluorescent signal from autofluorescence-corrected midplane images. 
+}
 \label{fig:gcn4_quantification}
 \end{figure}
 
-\begin{figure}[!h]
-\includegraphics[scale=1]{gcn4_alone}
-\setlength{\abovecaptionskip}{20pt}
+\begin{SCfigure}
+\includegraphics[scale=1]{rabs}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{Localisation of RAB-5 and RAB-7 in \textit{C. elegans} zygotes}{Figure from Anjon Audhya (\url{http://www.audhyalab.org/research_rab.php})}
+\label{fig:rabs}
+\end{SCfigure}
+
+To ensure that this localisation shift is a specific effect of PAR-2 dimerisation, rather than an effect of GCN4 per se, I imaged an mNG-tagged GCN4 domain in isolation (\cref{fig:gcn4_alone}). This construct shows no enrichment at internal membranes or the plasma membrane, suggesting that the localisation pattern seen for PAR-2(GCN4) is a specific effect of strongly dimerising PAR-2.\\
+
+\begin{figure}
+\includegraphics[scale=1]{gcn4_alone}
+\centering
+\mycaption{GCN4 alone does not localise to membranes}{
+\textbf{(A)} Midplane confocal image of mNG::GCN4. Localisation pattern is identical to mNG alone (see \cref{fig:glh}), and does not resemble the localisation pattern of mNG::PAR-2(GCN4).
+\textbf{(B)} Normalised cross cortex profiles of mNG::GCN4 (n=6) and mNG alone (n=6), averaged over the entire circumference of embryos. Mean $\pm$ SD.
+}
 \label{fig:gcn4_alone}
 \end{figure}
 
-\clearpage
-\section{Incorporating internal membranes into the thermodynamic model}
+Plasma-membrane localisation of PAR-2 relies on a central unstructured region of the protein rich in basic amino acids \parencite{Hao2006}. Full-length PAR-2 displays an ability to bind to an array of positively charged phospholipids in vitro, suggesting an electrostatics-based interaction rather than specific interaction with any one phospholipid \parencite{Motegi2011}. Given this promiscuous nature in vitro, wild type PAR-2's specificity for the plasma membrane in vivo is poorly understood. A common explanation is that preference relates to the charge of different membrane surfaces, which is generally understood to be higher for the plasma membrane than internal membranes due to an abundance of multivalent phosphoinositides. Strikingly, my results show that strengthening PAR-2 dimerisation can shift the localisation pattern of PAR-2 and promote binding to internal membranes that it would usually avoid. Additionally, we find that overall concentrations at the plasma membrane are lower than wild type, which may be due to sequestration of protein onto these internal membranes.\\
 
-The total amount of protein is conserved according the the following:
+
+\section{Incorporating internal membranes into thermodynamic models}
+
+So far, my mathematical models have been limited to cytoplasmic and plasma membrane compartments, and therefore do not account for the possibility of an interactions with other membranes. To attempt to understand the behaviour of PAR-2(GCN4), I extended the model to consider internal membranes as a third compartment. The adapted model has three energy parameters to consider. $w_m$ and $w_d$ represent the plasma membrane binding energy and the dimerisation energy, as before. I introduce $w_i$ to represent the internal membrane binding energy, which can be assumed to be lower than $w_m$ as internal membranes have reduced charge compared to the plasma membrane. We can then derive the following chemical potential terms for cytoplasmic ($c$), plasma membrane ($m$) and internal membrane ($i$) PAR-2 populations:
+\begin{align}
+\mu_c &= \ln(c_c) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_c + \sqrt{4e^{w_d} c_c+ 1}\right)\\
+\mu_m &= \ln(c_m) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_m + \sqrt{4e^{w_d} c_m + 1}\right) - w_m\\
+\mu_i &= \ln(c_i) - \frac{1}{2}\ln\left(1 + 2e^{w_d} c_i + \sqrt{4e^{w_d} c_i + 1}\right) - w_i
+\end{align}
+
+Thermodynamic equilibrium is reached when:
+\begin{equation}
+\mu_{c} =  \mu_{m} = \mu_{i}
+\end{equation}
+
+and the total amount of protein is conserved according to the following:
 \begin{equation}
 c_{tot} = c_c + \alpha c_p + \beta c_i
 \end{equation}
 
-where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and plasma membrane volume fractions, $\beta$ is the equivalent factor for internal membranes. Setting $c_{tot}$ as a fixed value, $c_c$ $c_p$ and $c_i$ can be solved numerically. Using this model, we can investigate the relationship between dimerisation energy ($w_d$) and PAR-2 localisation in systems with varying levels of internal membrane charge (varying $w_i$). As shown in fig x, we can see that, in systems where $w_i$ is sufficiently high, constitutive dimerisation (high $w_d$) can result in considerable PAR-2 levels on internal membranes, which isn't observed at lower/intermediate dimerisation strengths. 
+where $\alpha$ is a non-dimensional conversion factor between cytoplasmic and plasma membrane compartment volumes and $\beta$ is the equivalent factor for internal membranes. For simplicity, I assume that $\alpha = \beta$. $c_{tot}$ is the total amount of material, which represents the cytoplasmic concentration when all protein is cytoplasmic. Setting $c_{tot}$ as a fixed value, $c_c$ $c_p$ and $c_i$ can then be solved at equilibrium. Comparing this to a zygote at the polarity maintenance phase, $i$ can be thought to represent a population of early/late endosomal membranes, and $m$ can be thought to represent the posterior plasma membrane (I ignore the anterior plasma membrane as concentrations are comparatively low). Using this model, I investigate the relationship between dimerisation energy ($w_d$) and PAR-2 localisation in systems with varying levels of internal membrane charge ($w_i$). As shown in \cref{fig:six_species_thermodynamic}, we can see that, in systems where $w_i$ is sufficiently high, strong dimerisation (high $w_d$) can result in considerable PAR-2 levels on internal membranes, which is not observed at lower/intermediate dimerisation strengths.\\
 
-\begin{figure}[!h]
+\begin{figure}
 \includegraphics[scale=0.90]{six_species_thermodynamic}
-\setlength{\abovecaptionskip}{20pt}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{Effects of dimerisation on internal membrane binding in a three-compartment thermodynamic model}{
+Figure shows the equilibrium fraction of total protein in the cytoplasm, plasma membrane and internal membrane compartments as a function of $w_d$ and $w_i$. $w_m = 5$, $c_{tot} = 10^{-5}$, $\alpha=0.001$, $\beta=0.001$.
+}
 \label{fig:six_species_thermodynamic}
 \end{figure}
 
-However, whilst increasing $w_d$ may increase binding to internal membranes (provided that $w_i$ is high enough), this should always be accompanied by an increase in levels at the plasma membrane. In other words, we cannot get a scenario like what we see in vivo,  whereby constitutive dimerisation reduces levels on the plasma membrane.
+However, whilst increasing $w_d$ may increase localisation to internal membranes (provided that $w_i$ is sufficiently high), thermodynamic equilibrium suggests that this should always be accompanied by an \textit{increase} in levels at the posterior plasma membrane, rather than a decrease. At first glance, this seems incompatible with the in vivo data, where internal membrane binding of PAR-2(GCN4) appears to sequester PAR-2 away from the plasma membrane.\\
 
+This raises the interesting possibility that the polarity maintenance phase state observed in vivo is not, in fact, a representative case of chemical equilibrium. As discussed in the previous chapter, dimerisation is also expected to slow the kinetics of membrane exchange, and so increasing the dimerisation energy in GCN4 conditions is expected to slow rates. In a dynamic system, this will consequently increase the time required to reach equilibrium after any perturbation to the system. The PAR network undergoes a series of reconfigurations before polarity maintenance (\cref{fig:par_reconfigurations}). Specifically, wild type PAR-2 is held off the plasma membrane for around 1 hour from ovulation to symmetry breaking (apart from a brief window of around 10 minutes at anaphase II where the plasma membrane briefly becomes available). Symmetry breaking then occurs from an aPAR dominant state, whereby advection of aPARs towards the anterior rapidly frees up the posterior membrane, allowing PAR-2 to bind. Due to these dynamic changes, thermodynamic equilibrium at maintenance phase may not be a reasonable assumption, especially when coupled with slow exchange kinetics that strong dimerisation may bring about. To investigate these ideas in more detail, I next tried to model the implications of dimerisation in the context of a dynamically changing system.\\
 
-\section{Modelling PAR-2 dimer kinetics outside of equilibrium}
-
-
-\begin{figure}[!h]
-\includegraphics[scale=0.95]{three_surface_kinetic}
-\setlength{\abovecaptionskip}{20pt}
+\begin{figure}
+\includegraphics[scale=0.4]{par_reconfigurations}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{Schematic of PAR reconfiguration events prior to symmetry breaking}{
+Figure from \textcite{Reich2019}.
+}
+\label{fig:par_reconfigurations}
+\end{figure}
+
+\section{Modelling the kinetics of PAR network reconfigurations}
+
+There are three concentration-dependent rates to consider: the rate of membrane association ($k_{on}^*$), which is expected to be equal for plasma membrane and internal membranes, the rate of plasma membrane dissociation ($k_{off,m}^*$) and the rate of internal membrane dissociation ($k_{off,i}^*$), which we can describe using the kinetic rate theory introduced in the chapter 6 as:
+\begin{align}
+k_{on}^* &= \frac{\Lambda}{\sqrt{2 e^{w_d} c_c + \sqrt{4 e^{w_d} c_c + 1} + 1}}\\
+k_{off,m}^* &= \frac{\Lambda e^{-w_m}}{\sqrt{2 e^{w_d} c_m + \sqrt{4 e^{w_d} c_m + 1} + 1}}\\
+k_{off,i}^* &= \frac{\Lambda e^{-w_i}}{\sqrt{2 e^{w_d} c_i + \sqrt{4 e^{w_d} c_i + 1} + 1}}
+\end{align}
+
+Note: unlike the analysis in the chapter, 6 I will not set $k_{on}^*$ as a constant, to allow for the possibility that cytoplasmic protein might dimerise.\\
+
+Using this framework, we can consider the evolution of systems between any two equilibrium states. In the context of PAR-2 polarisation, there are two relevant conditions to consider. Firstly, the pre-symmetry breaking state can be modelled as a state in which the plasma membrane binding energy ($w_m$) is zero, but internal membranes are available to bind ($w_i = 3.5$). As shown in \cref{fig:three_surface_kinetic}A, thermodynamic equilibrium implies that partitioning of protein between the cytoplasm and internal membranes depends strongly on the dimerisation energy. If dimerisation energy is high, systems can stabilise with a considerable fraction of total protein on internal membranes. \\
+
+The post-symmetry breaking state can be modelled as a system with a positive $w_m$ (I use $w_m$ = 5). Figure \ref{fig:three_surface_kinetic}C shows the equilibrium state that it expected in these conditions. For the energy values chosen, this shows that increasing dimerisation is expected to increase levels on the plasma membrane, and internal membrane localisation should be comparatively low.\\
+
+To model the process of symmetry breaking, I start from the systems shown in \cref{fig:three_surface_kinetic}A, model symmetry breaking as in increase in $w_m$ at time zero, and follow the relative evolution of systems over time using the rates shown above. When dimerisation is weak, most protein begins in the cytoplasm, and the system is quick to reach its new equilibrium state with strong plasma membrane association. However, when dimerisation is strong, the cytoplasmic pool at time 0 is relatively depleted as a result of binding to internal membranes, so there is less protein immediately available to bind to the plasma membrane. Slow membrane exchange kinetics also cause protein to remain on internal membranes for a considerable period of time. As a result, the system progresses to a new equilibrium relatively slowly, and plasma membrane concentrations remain low throughout the simulation.\\
+
+
+\begin{figure}
+\includegraphics[scale=0.95]{three_surface_kinetic}
+\centering
+\mycaption{Strong dimerisation slows redistribution timescales}{
+\textbf{(A)} Equilibrium distribution of protein in systems with $w_m = 0$, representing a state in which PAR-2 is held off the plasma membrane by the activities of aPARs. Shown for three different values of $w_d$. 
+\textbf{(B)} $w_m$ was then increased (to 5), representing removal of aPAR from the posterior membrane, and systems were simulated over time. 
+\textbf{(C)} Equilibrium state of systems with $w_m = 5$. C = cytoplasm, PM = plasma membrane, IM = internal membranes. Time in arbitrary units, which depends on the kinetic pre-factor. $w_i = 3.5$, $\alpha = \beta = 0.001$, $c_{tot} = 10^{-5}$.
+}
 \label{fig:three_surface_kinetic}
 \end{figure}
 
+Overall, by considering the exchange kinetics of PAR-2 in a dynamic system, we can provide an explanation the observed in vivo distribution of PAR-2(GCN4). I propose that strong dimerisation causes PAR-2 to enrich at internal membranes prior to symmetry breaking, and slow release prevent PAR-2 from reaching high levels on the plasma membrane at polarity maintenance. This interpretation also suggests that any actions that bring the system closer to thermodynamic equilibrium should allow PAR-2(GCN4) to localise more strongly to the plasma membrane, and that equilibrium concentrations should eventually exceed wild type PAR-2.\\
 
-\section{aPAR mutants restore dimeric PAR-2 towards the expected equilibrium localisation pattern}
+\section{Monitoring PAR-2(GCN4) behaviour closer to equilibrium}
 
-\begin{figure}[!h]
+To investigate this, I studied PAR-2(GCN4) behaviour in \textit{par-3 (it71)} mutant cells. In aPAR mutant conditions, the plasma membrane is available to PAR-2 for around 40 minutes prior to NEBD (nuclear envelope breakdown) without major reconfigurations, so the system at NEBD is expected to be closer to its equilibrium state than in \textit{par-3 (wt)} cells.\\
+
+Images and quantification of PAR-2(GCN4) and PAR-2(wt) in wild type and \textit{par-3 (it71)} mutant conditions are shown in \cref{fig:gcn4_par3mut}. This shows that the distribution of PAR-2(GCN4) in \textit{par-3} mutant conditions is largely line with predictions from equilibrium models. Some internal membrane structures are still visible, but this is greatly reduced compared to wild type conditions. Plasma membrane localisation is similar to wild type PAR-2, but concentrations do not exceed wild type levels as might be expected. This may be due to some residual internal membrane binding, or due to a slight reduction in total protein levels in in these conditions (\cref{fig:gcn4_par3mut}B).\\
+
+Interestingly, PAR-2(GCN4) shows a distinct localisation pattern at the plasma membrane compared to wild type PAR-2. Whilst wild type PAR-2 is slightly enriched in the posterior, localisation of PAR-2(GCN4) is switched towards the anterior. I suspect that this is due to advective transport by anterior-directed cortical flows, which is typically stronger for proteins with longer membrane lifetimes \citep{Illukkumbura2020}.\\
+
+
+\begin{figure}
 \includegraphics[scale=0.95]{gcn4_par3mut}
-\setlength{\abovecaptionskip}{20pt}
 \centering
-\mycaption{Title}{Caption}
+\mycaption{PAR-2 (GCN4) in an aPAR mutant}{
+\textbf{(A)} Midplane autofluorescence-corrected confocal images of mNG::PAR-2 and mNG::PAR-2 (GCN4) in wild type and \textit{par-3 (it71)} conditions at NEBD. Note the presence of prominent internal structures for mNG::PAR-2 (GCN4) in wild type conditions, which are heavily suppressed in  \textit{par-3 (it71)} conditions.
+\textbf{(B)} Normalised cross-cortex profiles averaged over the whole circumference of the cell for mNG::PAR-2 and mNG::PAR-2 (GCN4) in \textit{par-3 (it71)} conditions.
+\textbf{(C)} Membrane concentration profiles of mNG::PAR-2 and mNG::PAR-2 (GCN4) in \textit{par-3 (it71)} conditions.
+\textbf{(D)} Quantification of total mNG::PAR-2 and mNG::PAR-2 (GCN4) expression in \textit{par-3 (it71)} embryos, calculated as the average fluorescent signal from autofluorescence-corrected midplane images. 
+}
 \label{fig:gcn4_par3mut}
 \end{figure}
 
+
 \section{Discussion}
 
+In this section I have shown that enhancing PAR-2 dimerisation leads to a number of striking effects. Firstly, localisation at the anterior membrane suggests that PAR-2 dimers are partially resistant to antagonism by PKC-3 compared to monomers. More work is needed to quantify this relationship in the context of the model presented in chapter 6, but at the very least this suggests that the beta parameter in that model is significantly greater than zero and significantly less than 1. Whether this puts the system in a regime that supports polarity without additional nonlinear feedback clearly needs further work to determine.\\
+
+Unexpectedly, strengthening PAR-2 dimerisation with GCN4 also leads to a dramatic relocalisation towards internal membranes. So far, we believe these structures to be endosomes, but additional experiments, such as dual-colour colocalisation experiments, will be required to determine this definitively.\\
+
+Membrane-binding probes with moderate charge tend to bind non-specifically to all membranes in cells, but those with strong charge tend to be more selective for plasma membranes \citep{Yeung2008}. In the case of wild type PAR-2, it is believed that strong charge on the membrane binding domain, coupled with strong charge on the plasma membrane is responsible for plasma membrane selectivity.  Its is unclear whether wild type PAR-2 completely avoids internal membranes, or whether there is some weak localisation that is below our ability to detect.\\
+
+However, at first glance, the effects of increasing dimerisation strength seem at odds with expectations. Our thermodynamic model shows that strengthening dimerisation, which increases the average total charge per molecule, should enhance specificity for the highly charged plasma membrane at equilibrium. Instead, I propose that this phenomenon can be explained by slow membrane exchange kinetics brought about by strong dimerisation. As the system is held in a state in which the plasma membrane is unavailable prior to symmetry breaking, systems with high dimerisation energies stabilise with large quantities of protein on internal membranes, and are slow to adapt to a new equilibrium when the posterior plasma membrane becomes available. The intermediate dimeric strength of the PAR-2 RING domain may put the protein in a sweet spot that allows it to respond relatively selectively to the plasma membrane but avoid getting trapped on internal membranes by slow kinetics.\\
+
+There are still many open questions that we are actively pursuing. Firstly, we are in the process of using an alternative dimerisation domain to enhance PAR-2 dimerisation, to see if the results can be replicated with a different dimerisation domain. Secondly, we are investigating whether GCN4 can be used to restore membrane affinities of RING domain mutants back up to wild type levels. Thirdly, we are using photobleaching-based imaging methods to directly measure membrane lifetimes of PAR-2 in L109R, wild type and GCN4 conditions. Early data is encouraging, and suggests a clear difference in membrane lifetime the three conditions.\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
