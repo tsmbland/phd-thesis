@@ -664,6 +664,71 @@
     \field{year}{2014}
   \endentry
 
+  \entry{Bai2018}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=BS}{%
+         family={Bai},
+         familyi={B\bibinitperiod},
+         given={Shaojie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KJZ}{%
+         family={Kolter},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima Zico},
+         giveni={J\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Koltun},
+         familyi={K\bibinitperiod},
+         given={Vladlen},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{Diffusion,Machine learning}
+    \strng{namehash}{BSKJZKV1}
+    \strng{fullhash}{BSKJZKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    For most deep learning practitioners, sequence modeling is synonymous with
+  recurrent networks. Yet recent results indicate that convolutional
+  architectures can outperform recurrent networks on tasks such as audio
+  synthesis and machine translation. Given a new sequence modeling task or
+  dataset, which architecture should one use? We conduct a systematic
+  evaluation of generic convolutional and recurrent architectures for sequence
+  modeling. The models are evaluated across a broad range of standard tasks
+  that are commonly used to benchmark recurrent networks. Our results indicate
+  that a simple convolutional architecture outperforms canonical recurrent
+  networks such as LSTMs across a diverse range of tasks and datasets, while
+  demonstrating longer effective memory. We conclude that the common
+  association between sequence modeling and recurrent networks should be
+  reconsidered, and convolutional networks should be regarded as a natural
+  starting point for sequence modeling tasks. To assist related work, we have
+  made code available at http://github.com/locuslab/TCN.%
+    }
+    \field{booktitle}{arXiv}
+    \verb{eprint}
+    \verb 1803.01271
+    \endverb
+    \field{issn}{23318422}
+    \field{title}{{An empirical evaluation of generic convolutional and
+  recurrent networks for sequence modeling}}
+    \verb{url}
+    \verb http://github.com/locuslab/TCN.
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Bai, Zico Kolter, Koltun - U
+    \verb nknown - An Empirical Evaluation of Generic Convolutional and Recurre
+    \verb nt Networks for Sequence Modeling(2).pdf:pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2018}
+  \endentry
+
   \entry{Beatty2010}{article}{}
     \name{author}{3}{}{%
       {{hash=BA}{%
@@ -2327,6 +2392,58 @@
     \field{year}{1991}
   \endentry
 
+  \entry{Goehring2014}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \keyw{Cell polarity,Feedback,Modeling,Networks,Polarity,Review}
+    \strng{namehash}{GNW1}
+    \strng{fullhash}{GNW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The par-titioning-defective or PAR proteins comprise the core of an
+  essential cell polarity network that underlies polarization in a wide variety
+  of cell types and developmental contexts. The output of this network in
+  nearly every case is the establishment of opposing and complementary membrane
+  domains that define a cell[U+05F3]s polarity axis. Yet, behind this simple
+  pattern is a complex system of interactions, regulation and dynamic
+  behaviors. How these various parts combine to generate polarized patterns of
+  protein localization in cells is only beginning to become clear. This review,
+  part of the Special Issue on Cell Polarity, aims to highlight several
+  emerging themes and design principles that underlie the process of cell
+  polarization by components of the PAR network.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.yexcr.2014.08.009
+    \endverb
+    \field{isbn}{1090-2422 (Electronic)\r0014-4827 (Linking)}
+    \field{issn}{10902422}
+    \field{number}{2}
+    \field{pages}{258\bibrangedash 266}
+    \field{title}{{PAR polarity: From complexity to design principles}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/25128809 http://linkinghub.elsevie
+    \verb r.com/retrieve/pii/S0014482714003371
+    \endverb
+    \field{volume}{328}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0014482714003371-mai
+    \verb n.pdf:pdf
+    \endverb
+    \field{journaltitle}{Experimental Cell Research}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Goehring2011a}{article}{}
     \name{author}{7}{}{%
       {{hash=GNW}{%
@@ -2676,6 +2793,120 @@
     \endverb
     \field{journaltitle}{Genetics}
     \field{year}{2021}
+  \endentry
+
+  \entry{Granik2019}{article}{}
+    \name{author}{8}{}{%
+      {{hash=GN}{%
+         family={Granik},
+         familyi={G\bibinitperiod},
+         given={Naor},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WLE}{%
+         family={Weiss},
+         familyi={W\bibinitperiod},
+         given={Lucien\bibnamedelima E.},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NE}{%
+         family={Nehme},
+         familyi={N\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Maayan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Chein},
+         familyi={C\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Perlson},
+         familyi={P\bibinitperiod},
+         given={Eran},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RY}{%
+         family={Roichman},
+         familyi={R\bibinitperiod},
+         given={Yael},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shechtman},
+         familyi={S\bibinitperiod},
+         given={Yoav},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Biophysical Society}%
+    }
+    \keyw{Machine learning,Single molecule}
+    \strng{namehash}{GN+1}
+    \strng{fullhash}{GNWLENELMCMPERYSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Diffusion plays a crucial role in many biological processes including
+  signaling, cellular organization, transport mechanisms, and more. Direct
+  observation of molecular movement by single-particle-tracking experiments has
+  contributed to a growing body of evidence that many cellular systems do not
+  exhibit classical Brownian motion but rather anomalous diffusion. Despite
+  this evidence, characterization of the physical process underlying anomalous
+  diffusion remains a challenging problem for several reasons. First, different
+  physical processes can exist simultaneously in a system. Second, commonly
+  used tools for distinguishing between these processes are based on asymptotic
+  behavior, which is experimentally inaccessible in most cases. Finally, an
+  accurate analysis of the diffusion model requires the calculation of many
+  observables because different transport modes can result in the same
+  diffusion power-law $\alpha$, which is typically obtained from the
+  mean-square displacements (MSDs). The outstanding challenge in the field is
+  to develop a method to extract an accurate assessment of the diffusion
+  process using many short trajectories with a simple scheme that is applicable
+  at the nonexpert level. Here, we use deep learning to infer the underlying
+  process resulting in anomalous diffusion. We implement a neural network to
+  classify single-particle trajectories by diffusion type: Brownian motion,
+  fractional Brownian motion and continuous time random walk. Further, we
+  demonstrate the applicability of our network architecture for estimating the
+  Hurst exponent for fractional Brownian motion and the diffusion coefficient
+  for Brownian motion on both simulated and experimental data. These networks
+  achieve greater accuracy than time-averaged MSD analysis on simulated
+  trajectories while only requiring as few as 25 steps. When tested on
+  experimental data, both net and ensemble MSD analysis converge to similar
+  values; however, the net needs only half the number of trajectories required
+  for ensemble MSD to achieve the same confidence interval. Finally, we extract
+  diffusion parameters from multiple extremely short trajectories (10 steps)
+  using our approach.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bpj.2019.06.015
+    \endverb
+    \field{issn}{15420086}
+    \field{number}{2}
+    \field{pages}{185\bibrangedash 192}
+    \field{title}{{Single-Particle Diffusion Characterization by Deep
+  Learning}}
+    \field{volume}{117}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0006349519305041-mmc
+    \verb 1.pdf:pdf;:Users/blandt/Documents/Mendeley Desktop/Granik et al. - 20
+    \verb 19 - Single-Particle Diffusion Characterization by Deep Learning.pdf:
+    \verb pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Griffin2011}{article}{}
@@ -3979,6 +4210,83 @@
     \endverb
     \field{journaltitle}{Nature}
     \field{year}{2003}
+  \endentry
+
+  \entry{Kemphues1988}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PJR}{%
+         family={Priess},
+         familyi={P\bibinitperiod},
+         given={James\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MDG}{%
+         family={Morton},
+         familyi={M\bibinitperiod},
+         given={Diane\bibnamedelima G.},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Niansheng},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cell Press}%
+    }
+    \keyw{C. elegans,Classic,PAR-2,Polarity}
+    \strng{namehash}{KKJ+1}
+    \strng{fullhash}{KKJPJRMDGCN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1988}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    We have isolated and analyzed eight strict maternal effect mutations
+  identifying four genes, par-1, par-2, par-3, and par-4, required for
+  cytoplasmic localization in early embryos of the nematode C. elegans.
+  Mutations in these genes lead to defects in cleavage patterns, timing of
+  cleavages, and localization of germ line-specific P granules. Four mutations
+  in par-1 and par-4 are fully expressed maternal effect lethal mutations; all
+  embryos from mothers homozygous for these mutations arrest as amorphous
+  masses of differentiated cells but are specifically lacking intestinal cells.
+  Four mutations in par-2, par-3, and par-4 are incompletely expressed maternal
+  effect lethal mutations and are also grandchildless; some embryos from
+  homozygous mothers survive and grow to become infertile adults due to absence
+  of functional germ cells. We propose that all of these defects result from
+  the failure of a maternally encoded system for intracellular localization in
+  early embryos.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0092-8674(88)80024-2
+    \endverb
+    \field{issn}{0092-8674}
+    \field{number}{3}
+    \field{pages}{311\bibrangedash 320}
+    \field{title}{{Identification of genes required for cytoplasmic
+  localization in early C. elegans embryos}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0092867488800242?v
+    \verb ia%3Dihub
+    \endverb
+    \field{volume}{52}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Kemphues et al. - 1988 - Ide
+    \verb ntification of genes required for cytoplasmic localization in early C
+    \verb . elegans embryos.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{year}{1988}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Kim2011}{article}{}
@@ -5286,6 +5594,262 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Munoz-Gil2021}{article}{}
+    \name{author}{34}{}{%
+      {{hash=MGG}{%
+         family={Mu{\~{n}}oz-Gil},
+         familyi={M\bibinitperiod-G\bibinitperiod},
+         given={Gorka},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Volpe},
+         familyi={V\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GMMA}{%
+         family={Garcia-March},
+         familyi={G\bibinitperiod-M\bibinitperiod},
+         given={Miguel\bibnamedelima Angel},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Aghion},
+         familyi={A\bibinitperiod},
+         given={Erez},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Argun},
+         familyi={A\bibinitperiod},
+         given={Aykut},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HCB}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Chang\bibnamedelima Beom},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bland},
+         familyi={B\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bo},
+         familyi={B\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJA}{%
+         family={Conejero},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima Alberto},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Firbas},
+         familyi={F\bibinitperiod},
+         given={Nicol{\'{a}}s},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={{Garibo i Orts}},
+         familyi={G\bibinitperiod},
+         given={{\`{O}}scar},
+         giveni={{\`{O}}\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gentili},
+         familyi={G\bibinitperiod},
+         given={Alessia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HZ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Zihan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=JJH}{%
+         family={Jeon},
+         familyi={J\bibinitperiod},
+         given={Jae\bibnamedelima Hyung},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kabbech},
+         familyi={K\bibinitperiod},
+         given={H{\'{e}}l{\`{e}}ne},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Yeongjin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kowalek},
+         familyi={K\bibinitperiod},
+         given={Patrycja},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Krapf},
+         familyi={K\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LOH}{%
+         family={Loch-Olszewska},
+         familyi={L\bibinitperiod-O\bibinitperiod},
+         given={Hanna},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LMA}{%
+         family={Lomholt},
+         familyi={L\bibinitperiod},
+         given={Michael\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MJB}{%
+         family={Masson},
+         familyi={M\bibinitperiod},
+         given={Jean\bibnamedelima Baptiste},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MPG}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Philipp\bibnamedelima G},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Seongyu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Requena},
+         familyi={R\bibinitperiod},
+         given={Borja},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Smal},
+         familyi={S\bibinitperiod},
+         given={Ihor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Taegeun},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Szwabi{\'{n}}ski},
+         familyi={S\bibinitperiod},
+         given={Janusz},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thapa},
+         familyi={T\bibinitperiod},
+         given={Samudrajit},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VH}{%
+         family={Verdier},
+         familyi={V\bibinitperiod},
+         given={Hippolyte},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Volpe},
+         familyi={V\bibinitperiod},
+         given={Giorgio},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Widera},
+         familyi={W\bibinitperiod},
+         given={Artur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lewenstein},
+         familyi={L\bibinitperiod},
+         given={Maciej},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Metzler},
+         familyi={M\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Manzo},
+         familyi={M\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGG+1}
+  \strng{fullhash}{MGGVGGMMAAEAAHCBBTBSCJAFNGOGAHZJJHKHKYKPKDLOHLMAMJBMPGPSRBSISTSJTSVHVGWALMMRMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Deviations from Brownian motion leading to anomalous diffusion are found in
+  transport dynamics from quantum physics to life sciences. The
+  characterization of anomalous diffusion from the measurement of an individual
+  trajectory is a challenging task, which traditionally relies on calculating
+  the trajectory mean squared displacement. However, this approach breaks down
+  for cases of practical interest, e.g., short or noisy trajectories,
+  heterogeneous behaviour, or non-ergodic processes. Recently, several new
+  approaches have been proposed, mostly building on the ongoing
+  machine-learning revolution. To perform an objective comparison of methods,
+  we gathered the community and organized an open competition, the Anomalous
+  Diffusion challenge (AnDi). Participating teams applied their algorithms to a
+  commonly-defined dataset including diverse conditions. Although no single
+  method performed best across all scenarios, machine-learning-based approaches
+  achieved superior performance for all tasks. The discussion of the challenge
+  results provides practical advice for users and a benchmark for developers.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41467-021-26320-w
+    \endverb
+    \verb{eprint}
+    \verb 2105.06766
+    \endverb
+    \field{isbn}{4146702126320}
+    \field{issn}{20411723}
+    \field{number}{1}
+    \field{title}{{Objective comparison of methods to decode anomalous
+  diffusion}}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41467-021-26320-w
+    \endverb
+    \field{volume}{12}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Mu{\~{n}}oz-Gil et al. - Unk
+    \verb nown - Hippolyte Verdier 13 , Giorgio Volpe 7 , Artur Widera 19.pdf:p
+    \verb df
+    \endverb
+    \field{journaltitle}{Nature Communications}
+    \field{eprinttype}{arXiv}
+    \field{year}{2021}
+  \endentry
+
   \entry{Munro2004}{article}{}
     \name{author}{3}{}{%
       {{hash=ME}{%
@@ -5794,86 +6358,6 @@
     \endverb
     \field{journaltitle}{Molecular Cell}
     \field{year}{2012}
-  \endentry
-
-  \entry{Ramanujam2018}{article}{}
-    \name{author}{5}{}{%
-      {{hash=RR}{%
-         family={Ramanujam},
-         familyi={R\bibinitperiod},
-         given={Ravikrishna},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=HZ}{%
-         family={Han},
-         familyi={H\bibinitperiod},
-         given={Ziyin},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=ZZ}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Zhen},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=KP}{%
-         family={Kanchanawong},
-         familyi={K\bibinitperiod},
-         given={Pakorn},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=MF}{%
-         family={Motegi},
-         familyi={M\bibinitperiod},
-         given={Fumio},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \keyw{C. elegans,Journal Club,PAR-1,PAR-2,Polarity,Printed}
-    \strng{namehash}{RR+1}
-    \strng{fullhash}{RRHZZZKPMF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{abstract}{%
-    Cell polarity is the asymmetric compartmentalization of cellular
-  components. An opposing gradient of partitioning-defective protein kinases,
-  atypical protein kinase C (aPKC) and PAR-1, at the cell cortex guides diverse
-  asymmetries in the structure of metazoan cells, but the mechanism underlying
-  their spatial patterning remains poorly understood. Here, we show in
-  Caenorhabditis elegans zygotes that the cortical PAR-1 gradient is patterned
-  as a consequence of dual mechanisms: stabilization of cortical dynamics and
-  protection from aPKC-mediated cortical exclusion. Dual control of cortical
-  PAR-1 depends on a physical interaction with the PRBH-domain protein PAR-2.
-  Using a reconstitution approach in heterologous cells, we demonstrate that
-  PAR-1, PAR-2, and polarized Cdc42-PAR-6-aPKC comprise the minimal network
-  sufficient for the establishment of an opposing cortical gradient. Our
-  findings delineate the mechanism governing cortical polarity, in which a
-  circuit consisting of aPKC and the PRBH-domain protein ensures the local
-  recruitment of PAR-1 to a well-defined cortical compartment.%
-    }
-    \verb{doi}
-    \verb 10.1038/s41589-018-0117-1
-    \endverb
-    \field{issn}{15524469}
-    \field{number}{10}
-    \field{pages}{917\bibrangedash 927}
-    \field{title}{{Establishment of the PAR-1 cortical gradient by the
-  aPKC-PRBH circuit}}
-    \verb{url}
-    \verb https://doi.org/10.1038/s41589-018-0117-1
-    \endverb
-    \field{volume}{14}
-    \verb{file}
-    \verb :Users/blandt/Documents/Mendeley Desktop/Ramanujam et al. - Unknown -
-    \verb  Establishment of the PAR-1 cortical gradient by the aPKC-PRBH circui
-    \verb t.pdf:pdf;:Users/blandt/Documents/Mendeley Desktop/41589_2018_117_MOE
-    \verb SM1_ESM.pdf:pdf
-    \endverb
-    \field{journaltitle}{Nature Chemical Biology}
-    \field{year}{2018}
   \endentry
 
   \entry{Redemann2011}{article}{}
