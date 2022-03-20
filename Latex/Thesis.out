@@ -1,21 +1,21 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Cell polarity}{chapter.1}% 2
 \BOOKMARK [2][-]{subsection.1.1.1}{The PAR network}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{PAR polarity in different contexts}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.2}{PAR polarity in the C. elegans embryo}{section.1.1}% 4
 \BOOKMARK [1][-]{section.1.2}{Patterning via self-organisation}{chapter.1}% 5
 \BOOKMARK [2][-]{subsection.1.2.1}{Principles of self-organisation}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.2}{Self-organisation for intracellular patterning}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.3}{Bistable patterning based on nonlinear feedback}{section.1.2}% 8
-\BOOKMARK [1][-]{section.1.3}{PAR polarity in the C. elegans zygote}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.2.2}{Self-organisation for cell polarity}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.3}{Models of cell polarity}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{The molecular circuitry of PAR polarity}{chapter.1}% 9
 \BOOKMARK [2][-]{subsection.1.3.1}{Mechanisms of PAR cortical association}{section.1.3}% 10
-\BOOKMARK [2][-]{subsection.1.3.2}{Maintenance of polarity by mutual antagonism}{section.1.3}% 11
-\BOOKMARK [2][-]{subsection.1.3.3}{Establishment of polarity}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.2}{Establishment of polarity}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{Maintenance of polarity by mutual antagonism}{section.1.3}% 12
 \BOOKMARK [2][-]{subsection.1.3.4}{Orchestrating an asymmetric cell division}{section.1.3}% 13
 \BOOKMARK [1][-]{section.1.4}{Beyond mutual antagonism}{chapter.1}% 14
 \BOOKMARK [2][-]{subsection.1.4.1}{State-switching}{section.1.4}% 15
-\BOOKMARK [2][-]{subsection.1.4.2}{Substrate competition}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.2}{Substrate competition and protection}{section.1.4}% 16
 \BOOKMARK [2][-]{subsection.1.4.3}{Positive feedback}{section.1.4}% 17
-\BOOKMARK [2][-]{subsection.1.4.4}{Advancing PAR polarity models}{section.1.4}% 18
+\BOOKMARK [2][-]{subsection.1.4.4}{Outlook}{section.1.4}% 18
 \BOOKMARK [0][-]{chapter.2}{A pipeline for quantification of membrane and cytoplasmic protein concentrations}{}% 19
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.2}{Autofluorescence correction}{chapter.2}% 21
@@ -112,6 +112,6 @@
 \BOOKMARK [1][-]{section.9.5}{Computational methods}{chapter.9}% 112
 \BOOKMARK [2][-]{subsection.9.5.1}{Image analysis}{section.9.5}% 113
 \BOOKMARK [2][-]{subsection.9.5.2}{Modelling}{section.9.5}% 114
-\BOOKMARK [0][-]{chapter*.134}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 115
-\BOOKMARK [0][-]{chapter*.140}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{}% 116
-\BOOKMARK [0][-]{chapter*.140}{Bibliography}{}% 117
+\BOOKMARK [0][-]{chapter*.138}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 115
+\BOOKMARK [0][-]{chapter*.144}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{}% 116
+\BOOKMARK [0][-]{chapter*.144}{Bibliography}{}% 117

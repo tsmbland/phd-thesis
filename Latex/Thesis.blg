@@ -16,7 +16,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 18344 items from 5000.
+Reallocated field_info (elt_size=4) to 20568 items from 5000.
 Database file #1: Thesis-blx.bib
 Database file #2: bibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -24,44 +24,45 @@ Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 96 entries,
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+You've used 112 entries,
             6256 wiz_defined-function locations,
-            2255 strings with 169083 characters,
-and the built_in function-call counts, 972063 in all, are:
-= -- 76841
-> -- 12844
-< -- 2622
-+ -- 28412
-- -- 6315
-* -- 81671
-:= -- 113038
+            2427 strings with 193673 characters,
+and the built_in function-call counts, 1089896 in all, are:
+= -- 85225
+> -- 14730
+< -- 3033
++ -- 31403
+- -- 7223
+* -- 91701
+:= -- 125549
 add.period$ -- 0
-call.type$ -- 96
-change.case$ -- 1285
-chr.to.int$ -- 47
-cite$ -- 190
-duplicate$ -- 101478
-empty$ -- 85794
-format.name$ -- 10316
-if$ -- 188847
+call.type$ -- 112
+change.case$ -- 1476
+chr.to.int$ -- 48
+cite$ -- 222
+duplicate$ -- 113842
+empty$ -- 96817
+format.name$ -- 11654
+if$ -- 212408
 int.to.chr$ -- 0
-int.to.str$ -- 208
+int.to.str$ -- 251
 missing$ -- 0
-newline$ -- 6586
-num.names$ -- 4188
-pop$ -- 36098
+newline$ -- 7468
+num.names$ -- 4883
+pop$ -- 41666
 preamble$ -- 1
-purify$ -- 2503
+purify$ -- 2822
 quote$ -- 0
-skip$ -- 17359
+skip$ -- 20090
 stack$ -- 0
-substring$ -- 146384
-swap$ -- 22564
-text.length$ -- 2865
-text.prefix$ -- 95
+substring$ -- 161679
+swap$ -- 25842
+text.length$ -- 3303
+text.prefix$ -- 114
 top$ -- 1
-type$ -- 3251
+type$ -- 3794
 warning$ -- 0
-while$ -- 13673
+while$ -- 15182
 width$ -- 0
-write$ -- 6491
+write$ -- 7357

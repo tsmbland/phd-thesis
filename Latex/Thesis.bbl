@@ -1115,6 +1115,80 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Boyd1996}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BL}{%
+         family={Boyd},
+         familyi={B\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=GS}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=LD}{%
+         family={Levitan},
+         familyi={L\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=SDT}{%
+         family={Stinchcomb},
+         familyi={S\bibinitperiod},
+         given={D\bibnamedelima T},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={K\bibnamedelima J},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,PAR-1,PAR-2,Polarity}
+    \strng{namehash}{BL+1}
+    \strng{fullhash}{BLGSLDSDTKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    The par genes participate in the process of establishing cellular
+  asymmetries during the first cell cycle of Caenorhabditis elegans
+  development. The par-2 gene is required for the unequal first cleavage and
+  for asymmetries in cell cycle length and spindle orientation in the two
+  resulting daughter cells. We have found that the PAR-2 protein is present in
+  adult gonads and early embryos. In gonads, the protein is uniformly
+  distributed at the cell cortex, and this subcellular localization depends on
+  microfilaments. In the one-cell embryo, PAR-2 is localized to the posterior
+  cortex and is partitioned into the posterior daughter, P1, at the first
+  cleavage. PAR-2 exhibits a similar asymmetric cortical localization in P1,
+  P2, and P3, the asymmetrically dividing blastomeres of germ line lineage.
+  This distribution in embryos is very similar to that of PAR-1 protein. By
+  analyzing the distribution of the PAR-2 protein in various par mutant
+  backgrounds we found that proper asymmetric distribution of PAR-2 depends
+  upon par-3 activity but not upon par-1 or par-4. par-2 activity is required
+  for proper cortical localization of PAR-1 and this effect requires wild-type
+  par-3 gene activity. We also find that, although par-2 activity is not
+  required for posterior localization of P granules at the one-cell stage, it
+  is required for proper cortical association of P granules in P1.%
+    }
+    \field{pages}{3075\bibrangedash 3084}
+    \field{title}{{PAR-2 is asymmetrically distributed and promotes association
+  of P granules and PAR-1 with the cortex in C. elegans embryos}}
+    \field{volume}{122}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Unknown - Unknown - full-tex
+    \verb t(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Development}
+    \field{year}{1996}
+  \endentry
+
   \entry{Brangwynne2009}{article}{}
     \name{author}{8}{}{%
       {{hash=BCP}{%
@@ -1195,6 +1269,88 @@
     \endverb
     \field{journaltitle}{Science}
     \field{year}{2009}
+  \endentry
+
+  \entry{Chau2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CAH}{%
+         family={Chau},
+         familyi={C\bibinitperiod},
+         given={Angela\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WJM}{%
+         family={Walter},
+         familyi={W\bibinitperiod},
+         given={Jessica\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gerardin},
+         familyi={G\bibinitperiod},
+         given={Jaline},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LWA}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Wendell\bibnamedelima A.},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Polarity,Printed,Yeast}
+    \strng{namehash}{CAH+1}
+    \strng{fullhash}{CAHWJMGJTCLWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    How cells form global, self-organized structures using genetically encoded
+  molecular rules remains elusive. Here, we take a synthetic biology approach
+  to investigate the design principles governing cell polarization. First,
+  using a coarse-grained computational model, we searched for all possible
+  simple networks that can achieve polarization. All solutions contained one of
+  three minimal motifs: positive feedback, mutual inhibition, or inhibitor with
+  positive feedback. These minimal motifs alone could achieve polarization
+  under limited conditions; circuits that combined two or more of these motifs
+  were significantly more robust. With these design principles as a blueprint,
+  we experimentally constructed artificial polarization networks in yeast,
+  using a toolkit of chimeric signaling proteins that spatially direct the
+  synthesis and degradation of phosphatidylinositol (3,4,5)-trisphosphate
+  (PIP3). Circuits with combinatorial motifs yielded clear foci of synthetic
+  PIP3that can persist for nearly an hour. Thus, by harnessing
+  localization-regulated signaling molecules, we can engineer simple molecular
+  circuits that reliably execute spatial self-organized programs.
+  {\textcopyright} 2012 Elsevier Inc.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2012.08.040
+    \endverb
+    \field{isbn}{1097-4172 (Electronic)\r0092-8674 (Linking)}
+    \field{issn}{00928674}
+    \field{number}{2}
+    \field{pages}{320\bibrangedash 332}
+    \field{title}{{Designing synthetic regulatory networks capable of
+  self-organizing cell polarization}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.cell.2012.08.040
+    \endverb
+    \field{volume}{151}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Chau et al. - 2012 - Designi
+    \verb ng Synthetic Regulatory Networks Capable of Self-Organizing Cell Pola
+    \verb rization.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{year}{2012}
   \endentry
 
   \entry{Concordet2018}{article}{}
@@ -2208,6 +2364,202 @@
     \field{year}{1995}
   \endentry
 
+  \entry{Ferrell2014a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FJE}{%
+         family={Ferrell},
+         familyi={F\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HSH}{%
+         family={Ha},
+         familyi={H\bibinitperiod},
+         given={Sang\bibnamedelima Hoon},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Printed,Review,Ultrasensitivity}
+    \strng{namehash}{FJEHSH1}
+    \strng{fullhash}{FJEHSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{extrayear}{1}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    Quantitative studies of signal transduction systems have shown that
+  ultrasensitive responses - switch-like, sigmoidal input/output relationships
+  - are commonplace in cell signaling. Ultrasensitivity is important for
+  various complex signaling systems, including signaling cascades, bistable
+  switches, and oscillators. In this first installment of a series on
+  ultrasensitivity we survey the occurrence of ultrasensitive responses in
+  signaling systems. We review why the simplest mass action systems exhibit
+  Michaelian responses, and then move on to zero-order ultrasensitivity, a
+  phenomenon that occurs when signaling proteins are operating near saturation.
+  We also discuss the physiological relevance of zero-order ultrasensitivity to
+  cellular regulation.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.tibs.2014.08.003
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{8585348585}
+    \field{issn}{13624326}
+    \field{number}{10}
+    \field{pages}{496\bibrangedash 503}
+    \field{title}{{Ultrasensitivity part I: Michaelian responses and zero-order
+  ultrasensitivity}}
+    \verb{url}
+    \verb http://www.cell.com/trends/biochemical-sciences/pdf/S0968-0004(14)001
+    \verb 43-1.pdf
+    \endverb
+    \field{volume}{39}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Ferrell Jr, Hoon Ha - 2014 -
+    \verb  Ultrasensitivity part I Michaelian responses and zero-order ultrasen
+    \verb sitivity.pdf:pdf
+    \endverb
+    \field{journaltitle}{Trends in Biochemical Sciences}
+    \field{eprinttype}{arXiv}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Ferrell2014b}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FJE}{%
+         family={Ferrell},
+         familyi={F\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HSH}{%
+         family={Ha},
+         familyi={H\bibinitperiod},
+         given={Sang\bibnamedelima Hoon},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Printed,Review,Ultrasensitivity}
+    \strng{namehash}{FJEHSH1}
+    \strng{fullhash}{FJEHSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{extrayear}{2}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    In this series of reviews, we are examining ultrasensitive responses, the
+  switch-like input-output relationships that contribute to signal processing
+  in a wide variety of signaling contexts. In the first part of this series, we
+  explored one mechanism for generating ultrasensitivity, zero-order
+  ultrasensitivity, where the saturation of two converting enzymes allows the
+  output to switch from low to high over a tight range of input levels. In this
+  second installment, we focus on three conceptually distinct mechanisms for
+  ultrasensitivity: multisite phosphorylation, stoichiometric inhibitors, and
+  positive feedback. We also examine several related mechanisms and concepts,
+  including cooperativity, reciprocal regulation, coherent feed-forward
+  regulation, and substrate competition, and provide several examples of
+  signaling processes where these mechanisms are known or are suspected to be
+  applicable.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.tibs.2014.09.003
+    \endverb
+    \field{isbn}{0968-0004 (Print)\r0968-0004}
+    \field{issn}{13624326}
+    \field{number}{11}
+    \field{pages}{556\bibrangedash 569}
+    \field{title}{{Ultrasensitivity part II: Multisite phosphorylation,
+  stoichiometric inhibitors, and positive feedback}}
+    \verb{url}
+    \verb https://ac.els-cdn.com/S0968000414001698/1-s2.0-S0968000414001698-mai
+    \verb n.pdf?_tid=76563e64-bd80-11e7-88f8-00000aab0f26&acdnat=1509374690_58c
+    \verb 666e8a1fe84f568b8531c0850fdf8
+    \endverb
+    \field{volume}{39}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Ferrell, Ha - 2014 - Ultrase
+    \verb nsitivity part II multisite phosphorylation, stoichiometric inhibitor
+    \verb s, and positive feedback.pdf:pdf
+    \endverb
+    \field{journaltitle}{Trends in Biochemical Sciences}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Ferrell2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FJE}{%
+         family={Ferrell},
+         familyi={F\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HSH}{%
+         family={Ha},
+         familyi={H\bibinitperiod},
+         given={Sang\bibnamedelima Hoon},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Bistability,Limit cycle oscillations,Modelling,Negative
+  feedback,Positive feedback,Printed,Review,Signaling
+  cascades,Ultrasensitivity}
+    \strng{namehash}{FJEHSH1}
+    \strng{fullhash}{FJEHSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{extrayear}{3}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    Switch-like, ultrasensitive responses - responses that resemble those of
+  cooperative enzymes but are not necessarily generated by cooperativity - are
+  widespread in signal transduction. In the previous installments in this
+  series, we reviewed several mechanisms for generating ultrasensitivity:
+  zero-order ultrasensitivity; multistep ultrasensitivity; inhibitor
+  ultrasensitivity; and positive feedback (or double negative feedback) loops.
+  In this review, we focus on how ultrasensitive components can be important
+  for the functioning of more complex signaling circuits. Ultrasensitivity can
+  allow the effective transmission of signals down a signaling cascade, can
+  contribute to the generation of bistability by positive feedback, and can
+  promote the production of biochemical oscillations in negative feedback
+  loops. This makes ultrasensitivity a key building block in systems biology
+  and synthetic biology.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.tibs.2014.10.002
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{8585348585}
+    \field{issn}{13624326}
+    \field{number}{12}
+    \field{pages}{612\bibrangedash 618}
+    \field{title}{{Ultrasensitivity part III: Cascades, bistable switches, and
+  oscillators}}
+    \verb{url}
+    \verb https://ac.els-cdn.com/S0968000414001844/1-s2.0-S0968000414001844-mai
+    \verb n.pdf?_tid=1e6782fe-f9fc-11e7-9f04-00000aab0f02&acdnat=1516024870_436
+    \verb dd0c6319c65147431386fee0e6020
+    \endverb
+    \field{volume}{39}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Ferrell Jr, Hoon Ha - 2014 -
+    \verb  Ultrasensitivity part III cascades, bistable switches, and oscillato
+    \verb rs.pdf:pdf
+    \endverb
+    \field{journaltitle}{Trends in Biochemical Sciences}
+    \field{eprinttype}{arXiv}
+    \field{year}{2014}
+  \endentry
+
   \entry{Fiorentini2020}{article}{}
     \name{author}{3}{}{%
       {{hash=FF}{%
@@ -2444,6 +2796,83 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Goehring2011}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hoege},
+         familyi={H\bibinitperiod},
+         given={Carsten},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GSW}{%
+         family={Grill},
+         familyi={G\bibinitperiod},
+         given={Stephan\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HAA}{%
+         family={Hyman},
+         familyi={H\bibinitperiod},
+         given={Anthony\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Polarity,Printed}
+    \strng{namehash}{GNW+1}
+    \strng{fullhash}{GNWHCGSWHAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{extrayear}{1}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Polarization of cells by PAR proteins requires the segregation of
+  antagonistic sets of proteins into two mutually exclusive membrane-associated
+  domains. Understanding how nanometer scale interactions between individual
+  PAR proteins allow spatial organization across cellular length scales
+  requires determining the kinetic properties of PAR proteins and how they are
+  modified in space. We find that PAR-2 and PAR-6, which localize to opposing
+  PAR domains, undergo exchange between well mixed cytoplasmic populations and
+  laterally diffusing membrane-associated states. Domain maintenance does not
+  involve diffusion barriers, lateral sorting, or active transport. Rather,
+  both PAR proteins are free to diffuse between domains, giving rise to a
+  continuous boundary flux because of lateral diffusion of molecules down the
+  concentration gradients that exist across the embryo. Our results suggest
+  that the equalizing effects of lateral diffusion are countered by
+  actin-independent differences in the effective membrane affinities of PAR
+  proteins between the two domains, which likely depend on the ability of each
+  PAR species to locally modulate the membrane affinity of opposing PAR species
+  within its domain. We propose that the stably polarized embryo reflects a
+  dynamic steady state in which molecules undergo continuous diffusion between
+  regions of net association and dissociation.%
+    }
+    \verb{doi}
+    \verb 10.1083/jcb.201011094
+    \endverb
+    \field{isbn}{1540-8140 (Electronic)\r0021-9525 (Linking)}
+    \field{issn}{00219525}
+    \field{number}{3}
+    \field{pages}{583\bibrangedash 594}
+    \field{title}{{PAR proteins diffuse freely across the anterior-posterior
+  boundary in polarized C. elegans embryos}}
+    \field{volume}{193}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Goehring et al. - 2011 - PAR
+    \verb  proteins diffuse freely across the anterior-posterior boundary in po
+    \verb larized C. elegans embryos.pdf:pdf;:Users/blandt/Documents/Mendeley D
+    \verb esktop/583.full.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Cell Biology}
+    \field{year}{2011}
+  \endentry
+
   \entry{Goehring2011a}{article}{}
     \name{author}{7}{}{%
       {{hash=GNW}{%
@@ -2498,6 +2927,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2011}
+    \field{extrayear}{2}
     \field{sortinit}{G}
     \field{sortinithash}{G}
     \field{abstract}{%
@@ -2909,6 +3339,67 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Graybill2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GC}{%
+         family={Graybill},
+         familyi={G\bibinitperiod},
+         given={Chiharu},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PKE}{%
+         family={Prehoda},
+         familyi={P\bibinitperiod},
+         given={Kenneth\bibnamedelima E},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Polarity}
+    \strng{namehash}{GCPKE1}
+    \strng{fullhash}{GCPKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    In Par complex-mediated cell polarity, phosphorylation by atypical protein
+  kinase C (aPKC) is coupled to substrate cortical displacement. Polarized
+  substrates often contain multiple phosphorylation sites, but the role of
+  multisite phosphorylation in Par-mediated polarity remains unclear. Here, we
+  have dissected the role of the three aPKC phosphorylation sites within the
+  tumor suppressor Lethal giant larvae. Using a cultured Drosophila S2 cell
+  cortical displacement assay, we observed that phosphorylation at any one site
+  causes only partial displacement. Complete displacement requires that all
+  three sites be modified. We undertook a kinetic analysis to determine if aPKC
+  phosphorylates each site equivalently. As the sites are closely spaced, we
+  observed not only differences in the rate of phosphorylation but also
+  interaction between the sites. A complete description of the rates reveals a
+  preferential order of phosphorylation. Our results provide new insights into
+  how multiple phosphorylations and phosphorylation rates could regulate
+  localization behaviors of fate determinants at the cortex.%
+    }
+    \verb{doi}
+    \verb 10.1021/bi500748w
+    \endverb
+    \field{issn}{15204995}
+    \field{number}{30}
+    \field{pages}{4931\bibrangedash 4937}
+    \field{title}{{Ordered multisite phosphorylation of lethal giant larvae by
+  atypical protein kinase C}}
+    \verb{url}
+    \verb http://pubs.acs.org/doi/pdf/10.1021/bi500748w
+    \endverb
+    \field{volume}{53}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Graybill, Prehoda - Unknown
+    \verb - Ordered Multisite Phosphorylation of Lethal Giant Larvae by Atypica
+    \verb l Protein Kinase C.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biochemistry}
+    \field{year}{2014}
+  \endentry
+
   \entry{Griffin2011}{article}{}
     \name{author}{3}{}{%
       {{hash=GEE}{%
@@ -3201,6 +3692,62 @@
     \endverb
     \field{journaltitle}{Biochemical and Biophysical Research Communications}
     \field{year}{2004}
+  \endentry
+
+  \entry{Gunawardena2005}{report}{}
+    \name{author}{1}{}{%
+      {{hash=GJ}{%
+         family={Gunawardena},
+         familyi={G\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Phosphorylation,Ultrasensitivity}
+    \strng{namehash}{GJ1}
+    \strng{fullhash}{GJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Phosphorylation and dephosphorylation play a fundamental role in eukaryotic
+  signaling. Some 30% of proteins are phosphorylated at any time, many on
+  multiple sites, raising the question of how the cellular phosphorylation
+  state is regulated. Previous work for one and two phosphorylation sites has
+  revealed mechanisms, such as distributive phosphorylation, for switch-like
+  regulation of maximally phosphorylated phosphoforms. These insights have led
+  to the influential view that more phosphorylation sites leads to steeper
+  switching, as proposed for substrates like cyclin E and the cyclin-dependent
+  kinase inhibitor Sic1. An analytical study of the ordered distributive case
+  reveals a more complex story. Multisite phosphorylation creates an efficient
+  threshold: The proportion of maximally phosphorylated substrate is maintained
+  close to 0 when the ratio of kinase to phosphatase activity lies below a
+  suitable threshold, and this threshold increases with increasing numbers of
+  sites, n. However, above the threshold, the response may not always abruptly
+  switch between 0 and 1, as would be the case for an efficient switch, but may
+  increase in a gradual manner, which becomes more hyperbolic with increasing
+  n. Abrupt switching cannot be attributed merely to n being large. We point
+  out that conventional measures of ultrasensitivity must be modified to
+  discriminate between thresholding and switching; we discuss additional
+  factors that influence switching efficiency and suggest new directions for
+  experimental investigation. cellular phosphorylation state distributive
+  versus processive ultrasensitivity multistability%
+    }
+    \field{booktitle}{Harvard Medical School}
+    \field{title}{{Multisite protein phosphorylation makes a good threshold but
+  can be a poor switch}}
+    \verb{url}
+    \verb www.pnas.orgcgidoi10.1073pnas.0507322102
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Gunawardena - 2005 - Multisi
+    \verb te protein phosphorylation makes a good threshold but can be a poor s
+    \verb witch.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2005}
   \endentry
 
   \entry{Hanggi1990}{article}{}
@@ -3593,6 +4140,67 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Hubatsch2019}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=HL}{%
+         family={Hubatsch},
+         familyi={H\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press Inc.}%
+    }
+    \keyw{Cell polarity,Geometry sensing,Intracellular gradients,Morphogen
+  gradients,Pattern formation,Polarity,Review,Scaling,Self-organization,Trigger
+  waves}
+    \strng{namehash}{HLGNW1}
+    \strng{fullhash}{HLGNW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    The notion that graded distributions of signals underlie the spatial
+  organization of biological systems has long been a central pillar in the
+  fields of cell and developmental biology. During morphogenesis, morphogens
+  spread across tissues to guide development of the embryo. Similarly, a
+  variety of dynamic gradients and pattern-forming networks have been
+  discovered that shape subcellular organization. Here we discuss the
+  principles of intracellular pattern formation by these intracellular
+  morphogens and relate them to conceptually similar processes operating at the
+  tissue scale. We will specifically review mechanisms for generating cellular
+  asymmetry and consider how intracellular patterning networks are controlled
+  and adapt to cellular geometry. Finally, we assess the general concept of
+  intracellular gradients as a mechanism for positional control in light of
+  current data, highlighting how the simple readout of fixed concentration
+  thresholds fails to fully capture the complexity of spatial patterning
+  processes occurring inside cells.%
+    }
+    \field{booktitle}{Current Topics in Developmental Biology}
+    \verb{doi}
+    \verb 10.1016/bs.ctdb.2019.11.006
+    \endverb
+    \field{issn}{00702153}
+    \field{title}{{Intracellular morphogens: Specifying patterns at the
+  subcellular scale}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Hubatsch, Goehring - 2019 -
+    \verb Intracellular morphogens Specifying patterns at the subcellular scale
+    \verb .pdf:pdf
+    \endverb
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Hubatsch2019a}{article}{}
     \name{author}{7}{}{%
       {{hash=HL}{%
@@ -3751,6 +4359,66 @@
     \endverb
     \field{year}{2020}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Insolera2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=IR}{%
+         family={Insolera},
+         familyi={I\bibinitperiod},
+         given={Ryan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={She},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SSH}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Song\bibnamedelima Hai},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Axon specification,Cytoskeleton,Neuronal polarity,PAR (for
+  partitioning-defective) proteins,Signaling pathway}
+    \strng{namehash}{IRCSSSH1}
+    \strng{fullhash}{IRCSSSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    A hallmark of neurons is their ability to polarize with dendrite and axon
+  specification to allow the proper flow of information through the nervous
+  system. Over the past decade, extensive research has been performed in an
+  attempt to understand the molecular and cellular machinery mediating this
+  neuronal polarization process. It has become evident that many of the
+  critical regulators involved in establishing neuronal polarity are
+  evolutionarily conserved proteins that had previously been implicated in
+  controlling the polarization of other cell types. At the forefront of this
+  research are the partition defective (Par) proteins. In this review,we will
+  provide a commentary on the progressof work regarding the central importance
+  of Parproteins in the establishment of neuronal polarity. {\textcopyright}
+  2010 Wiley Periodicals, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/dneu.20867
+    \endverb
+    \field{issn}{19328451}
+    \field{number}{6}
+    \field{pages}{483\bibrangedash 494}
+    \field{title}{{Par proteins and neuronal polarity}}
+    \field{volume}{71}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Developmental Neurobiology -
+    \verb  2011 - Insolera - Par proteins and neuronal polarity.pdf:pdf
+    \endverb
+    \field{journaltitle}{Developmental Neurobiology}
+    \field{year}{2011}
   \endentry
 
   \entry{Johnson2012}{article}{}
@@ -5507,6 +6175,93 @@
     \field{year}{2008}
   \endentry
 
+  \entry{Morton2002}{article}{}
+    \name{author}{7}{}{%
+      {{hash=MDG}{%
+         family={Morton},
+         familyi={M\bibinitperiod},
+         given={Diane\bibnamedelima G.},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=SDC}{%
+         family={Shakes},
+         familyi={S\bibinitperiod},
+         given={Diane\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nugent},
+         familyi={N\bibinitperiod},
+         given={Staci},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Dichoso},
+         familyi={D\bibinitperiod},
+         given={Daryl},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wenfu},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Golden},
+         familyi={G\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{14-3-3,Asymmetry,C. elegans,Caenorhabditis elegans,Polarity,par-5}
+    \strng{namehash}{MDG+1}
+    \strng{fullhash}{MDGSDCNSDDWWGAKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    The establishment of anterior-posterior polarity in the Caenorhabditis
+  elegans embryo requires the activity of the maternally expressed par genes.
+  We report the identification and analysis of a new par gene, par-5. We show
+  that par-5 is required for asynchrony and asymmetry in the first embryonic
+  cell divisions, normal pseudocleavage, normal cleavage spindle orientation at
+  the two-cell stage, and localization of P granules and MEX-5 during the first
+  and subsequent cell cycles. Furthermore, par-5 activity is required in the
+  first cell cycle for the asymmetric cortical localization of PAR-1 and PAR-2
+  to the posterior, and PAR-3, PAR-6, and PKC-3 to the anterior. When PAR-5 is
+  reduced by mutation or by RNA interference, these proteins spread around the
+  cortex of the one-cell embryo and partially overlap. We have shown by
+  sequence analysis of par-5 mutants and by RNA interference that the par-5
+  gene is the same as the ftt-1 gene, and encodes a 14-3-3 protein. The PAR-5
+  14-3-3 protein is present in gonads, oocytes, and early embryos, but is not
+  asymmetrically distributed. Our analysis indicates that the par-5 14-3-3 gene
+  plays a crucial role in the early events leading to polarization of the C.
+  elegans zygote. {\textcopyright} 2001 Elsevier Science.%
+    }
+    \verb{doi}
+    \verb 10.1006/dbio.2001.0489
+    \endverb
+    \field{issn}{00121606}
+    \field{title}{{The Caenorhabditis elegans par-5 Gene encodes a 14-3-3
+  protein required for cellular asymmetry in the early embryo}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Morton et al. - 2002 - The C
+    \verb aenorhabditis elegans par-5 Gene encodes a 14-3-3 protein required fo
+    \verb r cellular asymmetry in the early embry.pdf:pdf
+    \endverb
+    \field{journaltitle}{Developmental Biology}
+    \field{year}{2002}
+  \endentry
+
   \entry{Motegi2011}{article}{}
     \name{author}{6}{}{%
       {{hash=MF}{%
@@ -6358,6 +7113,86 @@
     \endverb
     \field{journaltitle}{Molecular Cell}
     \field{year}{2012}
+  \endentry
+
+  \entry{Ramanujam2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RR}{%
+         family={Ramanujam},
+         familyi={R\bibinitperiod},
+         given={Ravikrishna},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HZ}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Ziyin},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kanchanawong},
+         familyi={K\bibinitperiod},
+         given={Pakorn},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Motegi},
+         familyi={M\bibinitperiod},
+         given={Fumio},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Journal Club,PAR-1,PAR-2,Polarity,Printed}
+    \strng{namehash}{RR+1}
+    \strng{fullhash}{RRHZZZKPMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Cell polarity is the asymmetric compartmentalization of cellular
+  components. An opposing gradient of partitioning-defective protein kinases,
+  atypical protein kinase C (aPKC) and PAR-1, at the cell cortex guides diverse
+  asymmetries in the structure of metazoan cells, but the mechanism underlying
+  their spatial patterning remains poorly understood. Here, we show in
+  Caenorhabditis elegans zygotes that the cortical PAR-1 gradient is patterned
+  as a consequence of dual mechanisms: stabilization of cortical dynamics and
+  protection from aPKC-mediated cortical exclusion. Dual control of cortical
+  PAR-1 depends on a physical interaction with the PRBH-domain protein PAR-2.
+  Using a reconstitution approach in heterologous cells, we demonstrate that
+  PAR-1, PAR-2, and polarized Cdc42-PAR-6-aPKC comprise the minimal network
+  sufficient for the establishment of an opposing cortical gradient. Our
+  findings delineate the mechanism governing cortical polarity, in which a
+  circuit consisting of aPKC and the PRBH-domain protein ensures the local
+  recruitment of PAR-1 to a well-defined cortical compartment.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41589-018-0117-1
+    \endverb
+    \field{issn}{15524469}
+    \field{number}{10}
+    \field{pages}{917\bibrangedash 927}
+    \field{title}{{Establishment of the PAR-1 cortical gradient by the
+  aPKC-PRBH circuit}}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41589-018-0117-1
+    \endverb
+    \field{volume}{14}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Ramanujam et al. - Unknown -
+    \verb  Establishment of the PAR-1 cortical gradient by the aPKC-PRBH circui
+    \verb t.pdf:pdf;:Users/blandt/Documents/Mendeley Desktop/41589_2018_117_MOE
+    \verb SM1_ESM.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Chemical Biology}
+    \field{year}{2018}
   \endentry
 
   \entry{Redemann2011}{article}{}
@@ -7654,6 +8489,130 @@
     \field{year}{2001}
   \endentry
 
+  \entry{Wallenfang2000}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WMR}{%
+         family={Wallenfang},
+         familyi={W\bibinitperiod},
+         given={Matthew\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Seydoux},
+         familyi={S\bibinitperiod},
+         given={Geraldine},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,PAR-2,Polarity}
+    \strng{namehash}{WMRSG1}
+    \strng{fullhash}{WMRSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    In Caenorhabditis elegans, polarity along the anterior-posterior (A/P) axis
+  is established shortly after fertilization and is determined by the sperm,
+  whose position specifies the posterior end of the embryo'. Although many
+  factors required for the establishment of A/P polarity have been described,
+  the nature of the spatial cue provided by the sperm remains unknown. Here we
+  show that a microtubule-organizing centre is necessary and sufficient to
+  establish several aspects of A/P polarity. In wildtype embryos, appearance of
+  the first molecular asymmetries along the A/P axis correlates with and
+  requires nucleation of microtubules by the sperm-derived centrosomes (sperm
+  asters). In mutant embryos arrested in meiosis, sperm asters fail to form,
+  and posterior is defined by the position of the persistent meiotic spindle
+  rather than by the position of the sperm. Together, our data indicate that
+  the primary spatial cue for A/P polarity in C. elegans derives from
+  microtubules emanating from the sperm asters. Our findings support a parallel
+  between C. elegans zygotes and other cells, such as Drosophila oocytes, which
+  rely on microtubules to regulate polarity.%
+    }
+    \verb{doi}
+    \verb 10.1038/35040562
+    \endverb
+    \field{isbn}{0028-0836}
+    \field{issn}{00280836}
+    \field{number}{6808}
+    \field{pages}{89\bibrangedash 92}
+    \field{title}{{Polarization of the anterior-posterior axis of C. Elegans is
+  a microtubule-directed process}}
+    \field{volume}{408}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Wallenfang, Seydoux - 2000 -
+    \verb  Polarization of the anterior-posterior axis of C. Elegans is a micro
+    \verb tubule-directed process.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Wang2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Liming},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=NQ}{%
+         family={Nie},
+         familyi={N\bibinitperiod},
+         given={Qing},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=EG}{%
+         family={Enciso},
+         familyi={E\bibinitperiod},
+         given={German},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Phosphorylation,Printed,Ultrasensitivity}
+    \strng{namehash}{WLNQEG1}
+    \strng{fullhash}{WLNQEG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Multisite phosphorylation is a common form of posttranslational protein
+  regulation which has been used to increase the switchlike behavior of the
+  protein response to increasing kinase concentrations. In this letter, we show
+  that the switchlike response of multisite phosphoproteins is strongly
+  enhanced by nonessential phosphorylation sites, a mechanism that is robust to
+  parameter changes and easily implemented in nature. We obtained analytic
+  estimates for the Hill exponent (or coefficient) of the switchlike response,
+  and we observed that a tradeoff exists between the switch and the kinase
+  threshold for activation. This also suggests a possible evolutionary
+  mechanism for the relatively large numbers of phosphorylation sites found in
+  various proteins. {\textcopyright} 2010 by the Biophysical Society.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bpj.2010.07.030
+    \endverb
+    \field{isbn}{1542-0086 (Electronic)\r0006-3495 (Linking)}
+    \field{issn}{00063495}
+    \field{number}{6}
+    \field{pages}{L41\bibrangedash L43}
+    \field{title}{{Nonessential sites improve phosphorylation switch}}
+    \verb{url}
+    \verb https://ac.els-cdn.com/S0006349510009021/1-s2.0-S0006349510009021-mai
+    \verb n.pdf?_tid=ed7914a0-c571-11e7-be9c-00000aacb35e&acdnat=1510248056_79f
+    \verb 1f6433945dad8e997fe8cdaece9c9
+    \endverb
+    \field{volume}{99}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Wang, Nie, Enciso - 2010 - N
+    \verb onessential Sites Improve Phosphorylation Switch.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2010}
+  \endentry
+
   \entry{Watanabe2011}{article}{}
     \name{author}{8}{}{%
       {{hash=WS}{%
@@ -7746,6 +8705,77 @@
     \field{journaltitle}{Nature Methods}
     \field{year}{2011}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Watts1996}{article}{}
+    \name{author}{8}{}{%
+      {{hash=WJL}{%
+         family={Watts},
+         familyi={W\bibinitperiod},
+         given={Jennifer\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=EmB}{%
+         family={Etemad-moghadam},
+         familyi={E\bibinitperiod-m\bibinitperiod},
+         given={Bijan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Su},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Boyd},
+         familyi={B\bibinitperiod},
+         given={Lynn},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DBW}{%
+         family={Draper},
+         familyi={D\bibinitperiod},
+         given={Bruce\bibnamedelima W},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=MCC}{%
+         family={Mello},
+         familyi={M\bibinitperiod},
+         given={Craig\bibnamedelima C},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PJR}{%
+         family={Priess},
+         familyi={P\bibinitperiod},
+         given={James\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{assymmetry,axis,caenorhabditis elegans,cell
+  polarity,embryogenesis,par-6,suppression}
+    \strng{namehash}{WJL+1}
+    \strng{fullhash}{WJLEmBGSBLDBWMCCPJRKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{3133\bibrangedash 3140}
+    \field{title}{{Par-6, a Gene Involved in the Establishment of Asymmetry in
+  early C. elegans embryos, mediates the asymmetric localization of PAR-3}}
+    \field{volume}{3140}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/3133.pdf:pdf
+    \endverb
+    \field{journaltitle}{Development}
+    \field{year}{1996}
   \endentry
 
   \entry{Wu2018b}{article}{}
@@ -7851,6 +8881,96 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Wu2018a}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Youjun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Bingjie},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Younan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Munro},
+         familyi={M\bibinitperiod},
+         given={Edwin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ODJ}{%
+         family={Odde},
+         familyi={O\bibinitperiod},
+         given={David\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GEE}{%
+         family={Griffin},
+         familyi={G\bibinitperiod},
+         given={Erik\bibnamedelima E},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Polarity}
+    \strng{namehash}{WY+1}
+    \strng{fullhash}{WYHBLYMEODJGEE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{extrayear}{2}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Protein concentration gradients organize cells and tissues and commonly
+  form through diffusion away from a local source of protein. Interestingly,
+  during the asymmetric division of the Caenorhabditis elegans zygote, the
+  RNA-binding proteins MEX-5 and PIE-1 form opposing concentration gradients in
+  the absence of a local source. In this study, we use near-total internal
+  reflection fluorescence (TIRF) imaging and single-particle tracking to
+  characterize the reaction/diffusion dynamics that maintain the MEX-5 and
+  PIE-1 gradients. Our findings suggest that both proteins interconvert between
+  fast-diffusing and slow-diffusing states on timescales that are much shorter
+  (seconds) than the timescale of gradient formation (minutes). The kinetics of
+  diffusion-state switching are strongly polarized along the anterior/posterior
+  (A/P) axis by the PAR polarity system such that fast-diffusing MEX-5 and
+  PIE-1 particles are approximately symmetrically distributed, whereas
+  slow-diffusing particles are highly enriched in the anterior and posterior
+  cytoplasm, respectively. Using mathematical modeling, we show that local
+  differences in the kinetics of diffusion-state switching can rapidly generate
+  stable concentration gradients over a broad range of spatial and temporal
+  scales.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1722162115
+    \endverb
+    \field{isbn}{26:29632970}
+    \field{issn}{0027-8424}
+    \field{pages}{201722162}
+    \field{title}{{Rapid diffusion-state switching underlies stable cytoplasmic
+  gradients in the Caenorhabditis elegans zygote}}
+    \verb{url}
+    \verb www.pnas.org/cgi/doi/10.1073/pnas.1722162115 http://www.pnas.org/look
+    \verb up/doi/10.1073/pnas.1722162115
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Wu et al. - Unknown - Rapid
+    \verb diffusion-state switching underlies stable cytoplasmic gradients in t
+    \verb he Caenorhabditis elegans zygote.pdf:pdf;:Users/blandt/Documents/Mend
+    \verb eley Desktop/pnas.1722162115.sapp.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2018}
+  \endentry
+
   \entry{Wu2018}{article}{}
     \name{author}{6}{}{%
       {{hash=WY}{%
@@ -7896,7 +9016,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
-    \field{extrayear}{2}
+    \field{extrayear}{3}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \verb{doi}
