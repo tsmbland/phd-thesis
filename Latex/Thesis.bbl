@@ -1046,75 +1046,6 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{Bouvrais2018}{article}{}
-    \name{author}{6}{}{%
-      {{hash=BH}{%
-         family={Bouvrais},
-         familyi={B\bibinitperiod},
-         given={H{\'{e}}l{\`{e}}ne},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=CL}{%
-         family={Chesneau},
-         familyi={C\bibinitperiod},
-         given={Laurent},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=PS}{%
-         family={Pastezeur},
-         familyi={P\bibinitperiod},
-         given={Sylvain},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=FD}{%
-         family={Fairbrass},
-         familyi={F\bibinitperiod},
-         given={Danielle},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={Delattre},
-         familyi={D\bibinitperiod},
-         given={Marie},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PJ}{%
-         family={P{\'{e}}cr{\'{e}}aux},
-         familyi={P\bibinitperiod},
-         given={Jacques},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \keyw{C. elegans,Polarity}
-    \strng{namehash}{BH+1}
-    \strng{fullhash}{BHCLPSFDDMPJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \verb{doi}
-    \verb 10.1016/j.bpj.2018.10.010
-    \endverb
-    \field{issn}{00063495}
-    \field{number}{11}
-    \field{pages}{2189\bibrangedash 2205}
-    \field{title}{{Microtubule Feedback and LET-99-Dependent Control of Pulling
-  Forces Ensure Robust Spindle Position}}
-    \verb{url}
-    \verb https://linkinghub.elsevier.com/retrieve/pii/S0006349518311573
-    \endverb
-    \field{volume}{115}
-    \verb{file}
-    \verb :Users/blandt/Documents/Mendeley Desktop/Bouvrais et al. - 2018 - Mic
-    \verb rotubule Feedback and LET-99-Dependent Control of Pulling Forces Ensu
-    \verb re Robust Spindle Position.pdf:pdf
-    \endverb
-    \field{journaltitle}{Biophysical Journal}
-    \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
   \entry{Boyd1996}{article}{}
     \name{author}{5}{}{%
       {{hash=BL}{%
@@ -1271,6 +1202,44 @@
     \field{year}{2009}
   \endentry
 
+  \entry{Calvi2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CI}{%
+         family={Calvi},
+         familyi={C\bibinitperiod},
+         given={Ida},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Schwager},
+         familyi={S\bibinitperiod},
+         given={Francoise},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gotta},
+         familyi={G\bibinitperiod},
+         given={Monica},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CISFGM1}
+    \strng{fullhash}{CISFGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{{PP1 phosphatases control PAR-2 localization and polarity
+  establishment in C. elegans embryos}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/2022.01.19.476913v1.full.pdf
+    \verb :pdf
+    \endverb
+    \field{journaltitle}{biorRxiv}
+    \field{year}{2022}
+  \endentry
+
   \entry{Chau2012}{article}{}
     \name{author}{5}{}{%
       {{hash=CAH}{%
@@ -1403,6 +1372,64 @@
     \endverb
     \field{journaltitle}{Web Server issue Published online}
     \field{year}{2018}
+  \endentry
+
+  \entry{Cowan2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CCR}{%
+         family={Cowan},
+         familyi={C\bibinitperiod},
+         given={Carrie\bibnamedelima R.},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CAA}{%
+         family={Cowan},
+         familyi={C\bibinitperiod},
+         given={Anthony\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCRCAA1}
+    \strng{fullhash}{CCRCAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Polarity establishment requires a symmetry–breaking event, resulting in
+  an axis along which determinants are segregated. In Caenorhabditis elegans,
+  oocytes are apolar and are triggered to polarize rapidly along one axis after
+  fertilization. The establishment of this first polarity axis is revealed by
+  the asymmetric distribution of PAR proteins and cortical activity in the
+  one–celled embryo. Current evidence suggests that the
+  centrosome–pronucleus complex contributed by the sperm is involved in
+  defining the polarization axis. Here we directly assess the contribution of
+  the centrosome to polarity establishment by laser ablating the centrosome
+  before and during polarization. We find that the centrosome is required to
+  initiate polarity but not to maintain it. Initiation of polarity coincides
+  with the proximity of the centrosome to the cortex and the assembly of
+  pericentriolar material on the immature sperm centrosome. Depletion of
+  microtubules or the microtubule nucleator ±–tubulin did not affect
+  polarity establishment. These results demonstrate that the centrosome
+  provides an initiating signal that polarizes C. elegans embryos and indicate
+  that this signalling event might be independent of the role of the centrosome
+  as a microtubule nucleator. {\textcopyright} 2004 Nature publishing group.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature02825
+    \endverb
+    \field{issn}{00280836}
+    \field{number}{7004}
+    \field{pages}{92\bibrangedash 96}
+    \field{title}{{Centrosomes direct cell polarity independently of
+  microtubule assembly in C. elegans embryos}}
+    \field{volume}{431}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nature02825.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{year}{2004}
   \endentry
 
   \entry{Cuenca2003}{article}{}
@@ -2364,6 +2391,132 @@
     \field{year}{1995}
   \endentry
 
+  \entry{Feng2007}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FW}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Hao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CLN}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Ling\bibnamedelima Nga},
+         giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Mingjie},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Cell polarity,PB1 domain,Par complex,Par-3,Scaffold protein}
+    \strng{namehash}{FW+1}
+    \strng{fullhash}{FWWHCLNZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The evolutionarily conserved Par-3/Par-6/aPKC complex is essential for the
+  establishment and maintenance of polarity of a wide range of cells. Both
+  Par-3 and Par-6 are PDZ domain containing scaffold proteins capable of
+  binding to polarity regulatory proteins. In addition to three PDZ domains,
+  Par-3 also contains a conserved N-terminal oligomerization domain (NTD) that
+  is essential for proper subapical membrane localization and consequently the
+  functions of Par-3. The molecular basis of NTD-mediated Par-3 membrane
+  localization is poorly understood. Here, we describe the structure of a
+  monomeric form of the Par-3 NTD. Unexpectedly, the domain adopts a PB1-like
+  fold with both type-I and type-II structural features. The Par-3 NTD
+  oligomerizes into helical filaments via front-to-back interactions. We
+  further demonstrate that the NTD-mediated membrane localization of Par-3 in
+  MDCK cells is solely attributed to its oligomerization capacity. The data
+  presented in this study suggest that the Par-3 NTD is likely to facilitate
+  the assembly of higher-order Par-3/Par-6/aPKC complex with increased
+  avidities in targeting the complex to the subapical membrane domain and in
+  binding to other polarity-regulating proteins. {\textcopyright}2007 European
+  Molecular Biology Organization.%
+    }
+    \verb{doi}
+    \verb 10.1038/sj.emboj.7601702
+    \endverb
+    \field{issn}{02614189}
+    \field{number}{11}
+    \field{pages}{2786\bibrangedash 2796}
+    \field{title}{{The Par-3 NTD adopts a PB1-like structure required for Par-3
+  oligomerization and membrane localization}}
+    \field{volume}{26}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/The EMBO Journal - 2007 - Fe
+    \verb ng - The Par‐3 NTD adopts a PB1‐like structure required for Par�
+    \verb �3 oligomerization and membrane.pdf:pdf
+    \endverb
+    \field{journaltitle}{EMBO Journal}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Ferrell2002}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FJE}{%
+         family={Ferrell},
+         familyi={F\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \keyw{Modelling,Positive feedback,Review}
+    \strng{namehash}{FJE1}
+    \strng{fullhash}{FJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    Cell signaling systems that contain positive-feedback loops or
+  double-negative feedback loops can, in principle, convert graded inputs into
+  switch-like, irreversible responses. Systems of this sort are termed
+  'bistable'. Recently, several groups have engineered artificial bistable
+  systems into Escherichia coli and Saccharomyces cerevisiae, and have shown
+  that the systems exhibit interesting and potentially useful properties. In
+  addition, two naturally occurring signaling systems, the p42
+  mitogen-activated protein kinase and c-Jun amino-terminal kinase pathways in
+  Xenopus oocytes, have been shown to exhibit bistable responses. Here we
+  review the basic properties of bistable circuits, the requirements for
+  construction of a satisfactory bistable switch, and the recent progress
+  towards constructing and analysing bistable signaling systems.%
+    }
+    \field{booktitle}{Current Opinion in Cell Biology}
+    \verb{doi}
+    \verb 10.1016/S0955-0674(02)00314-9
+    \endverb
+    \field{issn}{09550674}
+    \field{number}{2}
+    \field{pages}{140\bibrangedash 148}
+    \field{title}{{Self-perpetuating states in signal transduction: Positive
+  feedback, double-negative feedback and bistability}}
+    \field{volume}{14}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Ferrell - 2002 - Self-perpet
+    \verb uating states in signal transduction Positive feedback, double-negati
+    \verb ve feedback and bistability.pdf:pdf
+    \endverb
+    \field{year}{2002}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Ferrell2014a}{article}{}
     \name{author}{2}{}{%
       {{hash=FJE}{%
@@ -2703,6 +2856,68 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Folkmann2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FAW}{%
+         family={Folkmann},
+         familyi={F\bibinitperiod},
+         given={Andrew\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Seydoux},
+         familyi={S\bibinitperiod},
+         given={Geraldine},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Journal Club,Kinase,MEX-6,P granules,PAR
+  proteins,PAR-1,PAR-2,PAR-3,Polarity,Printed}
+    \strng{namehash}{FAWSG1}
+    \strng{fullhash}{FAWSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The MARK/PAR-1 family of kinases are conserved regulators of cell polarity
+  that share a conserved C-terminal kinase-associated domain (KA1).
+  Localization of MARK/PAR-1 kinases to specific regions of the cell cortex is
+  a hallmark of polarized cells. In Caenorhabditis elegans zygotes, PAR-1
+  localizes to the posterior cortex under the influence of another polarity
+  kinase, aPKC/PKC-3. Here, we report that asymmetric localization of PAR-1
+  protein is not essential, and that PAR-1 kinase activity is regulated
+  spatially. We find that, as in human MARK1, the PAR-1 KA1 domain is an
+  auto-inhibitory domain that suppresses kinase activity. Auto-inhibition by
+  the KA1 domain functions in parallel with phosphorylation by PKC-3 to
+  suppress PAR-1 activity in the anterior cytoplasm. The KA1 domain also plays
+  an additional role that is essential for germ plasm maintenance and
+  fertility. Our findings suggest that modular regulation of kinase activity by
+  redundant inhibitory inputs contributes to robust symmetry breaking by
+  MARK/PAR-1 kinases in diverse cell types.%
+    }
+    \verb{doi}
+    \verb 10.1242/dev.171116
+    \endverb
+    \field{issn}{14779129}
+    \field{number}{6}
+    \field{title}{{Spatial regulation of the polarity kinase PAR-1 by parallel
+  inhibitory mechanisms}}
+    \verb{url}
+    \verb http://dev.biologists.org/content/develop/146/6/dev171116.full.pdf?wi
+    \verb th-ds=yes
+    \endverb
+    \field{volume}{146}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Folkmann, Seydoux - 2019 - S
+    \verb patial regulation of the polarity kinase PAR-1 by parallel inhibitory
+    \verb  mechanisms.pdf:pdf
+    \endverb
+    \field{journaltitle}{Development (Cambridge)}
+    \field{year}{2019}
+  \endentry
+
   \entry{Freemont1991}{article}{}
     \name{author}{3}{}{%
       {{hash=FPS}{%
@@ -2742,6 +2957,101 @@
     \endverb
     \field{journaltitle}{Cell}
     \field{year}{1991}
+  \endentry
+
+  \entry{Galli2011}{article}{}
+    \name{author}{7}{}{%
+      {{hash=GM}{%
+         family={Galli},
+         familyi={G\bibinitperiod},
+         given={Matilde},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mu{\~{n}}oz},
+         familyi={M\bibinitperiod},
+         given={Javier},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Portegijs},
+         familyi={P\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Boxem},
+         familyi={B\bibinitperiod},
+         given={Mike},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GSW}{%
+         family={Grill},
+         familyi={G\bibinitperiod},
+         given={Stephan\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HAJ}{%
+         family={Heck},
+         familyi={H\bibinitperiod},
+         given={Albert\bibnamedelima J.R.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VS}{%
+         family={{Van Den Heuvel}},
+         familyi={V\bibinitperiod},
+         given={Sander},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMMJPVBMGSWHAJVS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The position of the mitotic spindle controls the plane of cell cleavage and
+  determines whether polarized cells divide symmetrically or asymmetrically. In
+  animals, an evolutionarily conserved pathway of LIN-5 (homologues: Mud and
+  NuMA), GPR-1/2 (homologues: Pins, LGN, AGS-3) and G$\alpha$ mediates spindle
+  positioning, and acts downstream of the conserved PAR-3-PAR-6-aPKC polarity
+  complex. However, molecular interactions between polarity proteins and
+  LIN-5-GPR-G$\alpha$ remain to be identified. Here we describe a quantitative
+  mass spectrometry approach for in vivo identification of protein kinase
+  substrates. Applying this strategy to Caenorhabditis elegans embryos, we
+  found that depletion of the polarity kinase PKC-3 results in markedly
+  decreased levels of phosphorylation of a cluster of four LIN-5 serine
+  residues. These residues are directly phosphorylated by PKC-3 in vitro.
+  Phospho-LIN-5 co-localizes with PKC-3 at the anterior cell cortex and
+  temporally coincides with a switch from anterior-to posterior-directed
+  spindle movements in the one-cell embryo. LIN-5 mutations that prevent
+  phosphorylation increase the extent of anterior-directed spindle movements,
+  whereas phosphomimetic mutations decrease spindle migration. Our results
+  indicate that anterior-located PKC-3 inhibits cortical microtubule pulling
+  forces through direct phosphorylation of LIN-5. This molecular interaction
+  between polarity and spindle-positioning proteins may be used broadly in cell
+  cleavage plane determination. {\textcopyright} 2011 Macmillan Publishers
+  Limited. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1038/ncb2315
+    \endverb
+    \field{issn}{14657392}
+    \field{number}{9}
+    \field{pages}{1132\bibrangedash 1140}
+    \field{title}{{APKC phosphorylates NuMA-related LIN-5 to position the
+  mitotic spindle during asymmetric division}}
+    \field{volume}{13}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/ncb2315.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Cell Biology}
+    \field{year}{2011}
   \endentry
 
   \entry{Goehring2014}{article}{}
@@ -3471,6 +3781,77 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Grill2001}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GSW}{%
+         family={Grill},
+         familyi={G\bibinitperiod},
+         given={Stephan\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={G{\"{o}}nczy},
+         familyi={G\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SEH}{%
+         family={Stelzer},
+         familyi={S\bibinitperiod},
+         given={Ernst\bibnamedelima H.K.},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HAA}{%
+         family={Hyman},
+         familyi={H\bibinitperiod},
+         given={Anthony\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GSW+1}
+    \strng{fullhash}{GSWGPSEHHAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Cell divisions that create daughter ceils of different sizes are crucial
+  for the generation of cell diversity during animal development1. In such
+  asymmetric divisions, the mitotic spindle must be asymmetrically positioned
+  at the end of anaphase2,3. The mechanisms by which cell polarity translates
+  to asymmetric spindle positioning remain unclear. Here we examine the nature
+  of the forces governing asymmetric spindle positioning in the
+  single-cell-stage Caenorhabditis elegans embryo. To reveal the forces that
+  act on each spindle pole, we removed the central spindle in living embryos
+  either physically with an ultraviolet laser microbeam, or genetically by
+  RNA-mediated interference of a kinesin4. We show that pulling forces external
+  to the spindle act on the two spindle poles. A stronger net force acts on the
+  posterior pole, thereby explaining the overall posterior displacement seen in
+  wild-type embryos. We also show that the net force acting on each spindle
+  pole is under control of the par genes that are required for cell polarity
+  along the anterior-posterior embryonic axis. Finally, we discuss simple
+  mathematical models that describe the main features of spindle pole
+  behaviour. Our work suggests a mechanism for generating asymmetry in spindle
+  positioning by varying the net pulling force that acts on each spindle pole,
+  thus allowing for the generation of daughter cells with different sizes.%
+    }
+    \verb{doi}
+    \verb 10.1038/35054572
+    \endverb
+    \field{issn}{00280836}
+    \field{number}{6820}
+    \field{pages}{630\bibrangedash 633}
+    \field{title}{{Polarity controls forces governing asymmetric spindle
+  positioning in the caenorhabditis elegans embryo}}
+    \field{volume}{409}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/35054572.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{year}{2001}
+  \endentry
+
   \entry{Gross2018}{article}{}
     \name{author}{7}{}{%
       {{hash=GP}{%
@@ -3651,7 +4032,7 @@
     \keyw{C. elegans,Mms2,PAR-2,RING,RING
   finger,Rad6,Two-hybrid,Ubc13,Ubiquitin,Ubiquitin conjugating enzyme,Ubiquitin
   conjugating enzyme variant,Ubiquitin ligase,Ubiquitination,Uev1}
-    \strng{namehash}{GM+1}
+    \strng{namehash}{GM+2}
     \strng{fullhash}{GMCAFTBL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -3748,6 +4129,118 @@
     \endverb
     \field{type}{techreport}
     \field{year}{2005}
+  \endentry
+
+  \entry{Guo1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GS}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={K.\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Polarity}
+    \strng{namehash}{GSKKJ1}
+    \strng{fullhash}{GSKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Daughter cells with distinct fates can arise through intrinsically
+  asymmetrical divisions. Before such divisions, factors crucial for
+  determining cell fates become asymmetrically localized in the mother cell. In
+  Caenorhabditis elegans, PAR proteins are required for the early asymmetrical
+  divisions that establish embryonic polarity, and are asymmetrically localized
+  in early blastomeres, although the mechanism of their distribution is not
+  known. Here we report the identification in C. elegans of a non-muscle myosin
+  II heavy chain (designated NMY-2) by means of its interaction with the PAR-1
+  protein, a putative Ser/Thr protein kinase. Furthermore, injections of nmy-2
+  antisense RNA into ovaries of adult worms cause embryonic partitioning
+  defects and lead to mislocalization of PAR proteins. We therefore conclude
+  that NMY-2 is required for establishing cellular polarity in C. elegans
+  embryos.%
+    }
+    \verb{doi}
+    \verb 10.1038/382455a0
+    \endverb
+    \field{issn}{00280836}
+    \field{number}{6590}
+    \field{pages}{455\bibrangedash 458}
+    \field{title}{{A non-muscle myosin required for embryonic polarity in
+  Caenorhabditis elegans}}
+    \verb{url}
+    \verb https://www.nature.com/articles/382455a0.pdf
+    \endverb
+    \field{volume}{382}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Guo, Kemphues - 1989 - Devel
+    \verb opment (in the press).pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Guo1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GS}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Su},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GSKKJ2}
+    \strng{fullhash}{GSKKJ2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The first cleavage of C. elegans is asymmetric, generating daughter cells
+  with different sizes, cytoplasmic components, and fates. Mutations in the
+  par-1 gene disrupt this asymmetry. We report here that par-1 encodes a
+  putative Ser/Thr kinase with similarity to kinases from yeasts and mammals.
+  Two strong alleles have mutations in the kinase domain, suggesting that
+  kinase activity is essential for par-1 function. PAR-1 protein is localized
+  to the posterior periphery of the zygote and is distributed in a polar
+  fashion preceding the asymmetric divisions of the germline lineage. Because
+  PAR-1 distribution in the germline correlates with the distribution of
+  germline-specific P granules, it is possible that PAR-1 functions in germ
+  line development as well as in establishing embryonic polarity.
+  {\textcopyright} 1995.%
+    }
+    \verb{doi}
+    \verb 10.1016/0092-8674(95)90082-9
+    \endverb
+    \field{issn}{00928674}
+    \field{number}{4}
+    \field{pages}{611\bibrangedash 620}
+    \field{title}{{par-1, a gene required for establishing polarity in C.
+  elegans embryos, encodes a putative Ser/Thr kinase that is asymmetrically
+  distributed}}
+    \field{volume}{81}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-0092867495900829-main
+    \verb .pdf:pdf
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{year}{1995}
   \endentry
 
   \entry{Hanggi1990}{article}{}
@@ -4296,6 +4789,62 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Hung1999}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HTJ}{%
+         family={Hung},
+         familyi={H\bibinitperiod},
+         given={Tak\bibnamedelima June},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Asymmetry,Caenorhabditis elegans,PAR-6,PDZ domain,PKC-3,par}
+    \strng{namehash}{HTJKKJ1}
+    \strng{fullhash}{HTJKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    The par genes are required to establish polarity in the Caenorhabditis
+  elegans embryo. Mutations in two of these genes, par-3 and par-6, exhibit
+  similar phenotypes. A third gene, pkc-3, gives a similar phenotype when the
+  protein is depleted by RNA interference. PAR-3 and PKC-3 protein are
+  colocalized to the anterior periphery of asymmetrically dividing cells of the
+  germline lineage and the peripheral localizations of both proteins depends
+  upon the activity of par-6. Here we report the molecular cloning of par-6 and
+  the immunolocalization of PAR-6 protein. We found that par-6 encodes a
+  PDZ-domain-containing protein and has homologues in mammals and flies.
+  Moreover, we discovered that PAR-6 colocalizes with PAR-3 and that par-3 and
+  pkc-3 activity are required for the peripheral localization of PAR-6. The
+  localization of both PAR-3 and PAR-6 proteins is affected identically by
+  mutations in the par-2, par-4 and par-5 genes. The co-dependence of PAR-3,
+  PAR-6 and PKC-3 for peripheral localization and the overlap in their
+  distributions lead us to propose that they act in a protein complex.%
+    }
+    \verb{doi}
+    \verb 10.1242/dev.126.1.127
+    \endverb
+    \field{issn}{09501991}
+    \field{number}{1}
+    \field{pages}{127\bibrangedash 135}
+    \field{title}{{PAR-6 is a conserved PDZ domain-containing protein that
+  colocalizes with PAR-3 in Caenorhabditis elegans embryos}}
+    \field{volume}{126}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/127.pdf:pdf
+    \endverb
+    \field{journaltitle}{Development}
+    \field{year}{1999}
+  \endentry
+
   \entry{Illukkumbura2020}{misc}{}
     \name{author}{3}{}{%
       {{hash=IR}{%
@@ -4418,6 +4967,65 @@
     \verb  2011 - Insolera - Par proteins and neuronal polarity.pdf:pdf
     \endverb
     \field{journaltitle}{Developmental Neurobiology}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Jilkine2011}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=JA}{%
+         family={Jilkine},
+         familyi={J\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EKL}{%
+         family={Edelstein-Keshet},
+         familyi={E\bibinitperiod-K\bibinitperiod},
+         given={Leah},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Polarity,Printed,Review}
+    \strng{namehash}{JAEKL1}
+    \strng{fullhash}{JAEKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    Polarization, a primary step in the response of an individual eukaryotic
+  cell to a spatial stimulus, has attracted numerous theoretical treatments
+  complementing experimental studies in a variety of cell types. While the
+  phenomenon itself is universal, details differ across cell types, and across
+  classes of models that have been proposed. Most models address how symmetry
+  breaking leads to polarization, some in abstract settings, others based on
+  specific biochemistry. Here, we compare polarization in response to a
+  stimulus (e.g., a chemoattractant) in cells typically used in experiments
+  (yeast, amoebae, leukocytes, keratocytes, fibroblasts, and neurons), and, in
+  parallel, responses of several prototypical models to typical stimulation
+  protocols. We find that the diversity of cell behaviors is reflected by a
+  diversity of models, and that some, but not all models, can account for
+  amplification of stimulus, maintenance of polarity, adaptation, sensitivity
+  to new signals, and robustness.%
+    }
+    \field{booktitle}{PLoS Computational Biology}
+    \verb{doi}
+    \verb 10.1371/journal.pcbi.1001121
+    \endverb
+    \field{issn}{1553734X}
+    \field{number}{4}
+    \field{title}{{A comparison of mathematical models for polarization of
+  single eukaryotic cells in response to guided cues}}
+    \verb{url}
+    \verb www.ploscompbiol.org
+    \endverb
+    \field{volume}{7}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Jilkine, Edelstein-Keshet -
+    \verb Unknown - A Comparison of Mathematical Models for Polarization of Sin
+    \verb gle Eukaryotic Cells in Response to Gui.pdf:pdf
+    \endverb
     \field{year}{2011}
   \endentry
 
@@ -5524,6 +6132,55 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Lemmon2008}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LMA}{%
+         family={Lemmon},
+         familyi={L\bibinitperiod},
+         given={Mark\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Phospholipids,Review}
+    \strng{namehash}{LMA1}
+    \strng{fullhash}{LMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Many different globular domains bind to the surfaces of cellular membranes,
+  or to specific phospholipid components in these membranes, and this binding
+  is often tightly regulated. Examples include pleckstrin homology and C2
+  domains, which are among the largest domain families in the human proteome.
+  Crystal structures, binding studies and analyses of subcellular localization
+  have provided much insight into how members of this diverse group of domains
+  bind to membranes, what features they recognize and how binding is
+  controlled. A full appreciation of these processes is crucial for
+  understanding how protein localization and membrane topography and
+  trafficking are regulated in cells. {\textcopyright} 2008 Nature Publishing
+  Group.%
+    }
+    \field{booktitle}{Nature Reviews Molecular Cell Biology}
+    \verb{doi}
+    \verb 10.1038/nrm2328
+    \endverb
+    \field{issn}{14710072}
+    \field{number}{2}
+    \field{pages}{99\bibrangedash 111}
+    \field{title}{{Membrane recognition by phospholipid-binding domains}}
+    \verb{url}
+    \verb www.nature.com/reviews/molcellbio
+    \endverb
+    \field{volume}{9}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Lemmon - 2008 - Inner leafle
+    \verb t Membrane recognition by phospholipid-binding domains.pdf:pdf
+    \endverb
+    \field{year}{2008}
+  \endentry
+
   \entry{Li2010a}{article}{}
     \name{author}{4}{}{%
       {{hash=LB}{%
@@ -5558,6 +6215,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2010}
+    \field{extrayear}{1}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{abstract}{%
@@ -5602,6 +6260,97 @@
     \verb :Users/blandt/Documents/Mendeley Desktop/Li et al. - 2010 - Different
     \verb  domains of C. elegans PAR-3 are required at different times in devel
     \verb opment.pdf:pdf
+    \endverb
+    \field{journaltitle}{Developmental Biology}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Li2010}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Jin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Heon},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ADG}{%
+         family={Aceto},
+         familyi={A\bibinitperiod},
+         given={Donato\bibnamedelima G.},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hung},
+         familyi={H\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Aono},
+         familyi={A\bibinitperiod},
+         given={Shinya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc.}%
+    }
+    \keyw{Asymmetric division,Atypical protein kinase,Cell
+  polarity,Embryogenesis,Embryonic polarity,PAR-3,PAR-6,Polarity}
+    \strng{namehash}{LJ+1}
+    \strng{fullhash}{LJKHADGHJASKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{extrayear}{2}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    PAR-6 is a conserved protein important for establishment and maintenance of
+  cell polarity in a variety of metazoans. PAR-6 proteins function together
+  with PAR-3, aPKC and CDC-42. Mechanistic details of their interactions,
+  however, are not fully understood. We studied the biochemical interactions
+  between C. elegans PAR-6 and its binding partners and tested the requirements
+  of these interactions in living worms. We show that PB1 domain-mediated
+  binding of PAR-6 to PKC-3 is necessary for polarity establishment and PAR-6
+  cortical localization in C. elegans embryos. We also show that binding of
+  PAR-6 and PAR-3 is mediated in vitro by a novel type of PDZ-PDZ interaction;
+  the $\beta$C strand of PAR-6 PDZ binds the $\beta$D strand of PAR-3 PDZ1.
+  However, this interaction is dispensable in vivo for PAR-6 function
+  throughout the life of C. elegans. Mutations that specifically abolish
+  conventional ligand binding to the PAR-6 PDZ domain also failed to affect
+  PAR-6 function in vivo. We conclude that PAR-6 binding to PKC-3, but not to
+  PAR-3 nor to a conventional PDZ ligand, is required for PAR-6 cortical
+  localization and function in C. elegans. {\textcopyright} 2010 Elsevier Inc.
+  All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ydbio.2010.01.023
+    \endverb
+    \field{issn}{1095564X}
+    \field{number}{1}
+    \field{pages}{88\bibrangedash 98}
+    \field{title}{{Binding to PKC-3, but not to PAR-3 or to a conventional PDZ
+  domain ligand, is required for PAR-6 function in C. elegans}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.ydbio.2010.01.023
+    \endverb
+    \field{volume}{340}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0012160610000527-mai
+    \verb n.pdf:pdf
     \endverb
     \field{journaltitle}{Developmental Biology}
     \field{year}{2010}
@@ -5753,6 +6502,64 @@
     \endverb
     \field{journaltitle}{Biochemical Journal}
     \field{year}{2010}
+  \endentry
+
+  \entry{Lipkow2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LK}{%
+         family={Lipkow},
+         familyi={L\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ODJ}{%
+         family={Odde},
+         familyi={O\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{bacterial chemotaxis,brownian,diffusion,dynamics
+  simulation,intracellular organization,mathematical analysis,phophorylation
+  states}
+    \strng{namehash}{LKODJ1}
+    \strng{fullhash}{LKODJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Intracellular protein concentration gradients are generally thought to be
+  unsustainable at steady-state due to diffusion. Here we show how protein
+  concentration gradients can theoretically be sustained indefinitely through a
+  relatively simple mechanism that couples diffusion to a spatially segregated
+  kinase-phosphatase system. Although it is appreciated that such systems can
+  theoretically give rise to phosphostate gradients, it has been assumed that
+  they do not give rise to gradients in the total protein concentration. Here
+  we show that this assumption does not hold if the two forms of protein have
+  different diffusion coefficients. If, for example, the phosphorylated state
+  binds selectively to a second larger protein or protein complex then a steady
+  state gradient in total protein concentration will be created. We illustrate
+  the principle with an analytical solution to the diffusion-reaction problem
+  and by stochastic individual-based simulations using the Smoldyn program. We
+  argue that protein gradients created in this way need to be considered in
+  experiments using fluorescent probes and could in principle encode spatial
+  information in the cytoplasm.%
+    }
+    \verb{doi}
+    \verb 10.1007/s12195-008-0008-8
+    \endverb
+    \field{issn}{1865-5025}
+    \field{number}{1}
+    \field{pages}{84\bibrangedash 92}
+    \field{title}{{Model for Protein Concentration Gradients in the Cytoplasm}}
+    \field{volume}{1}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nihms-239632.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cellular and Molecular Bioengineering}
+    \field{year}{2008}
   \endentry
 
   \entry{Liu2017}{article}{}
@@ -6175,6 +6982,79 @@
     \field{year}{2008}
   \endentry
 
+  \entry{Mori2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MY}{%
+         family={Mori},
+         familyi={M\bibinitperiod},
+         given={Yoichiro},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Jilkine},
+         familyi={J\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EKL}{%
+         family={Edelstein-Keshet},
+         familyi={E\bibinitperiod-K\bibinitperiod},
+         given={Leah},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Bistable reaction-diffusion system,Cell polarization,Mass
+  conservation,Modelling,Polarity,Rho GTPases,Stationary front,Wave-pinning}
+    \strng{namehash}{MYJAEKL1}
+    \strng{fullhash}{MYJAEKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    We describe and analyze a bistable reaction-diffusion (RD) model for two
+  interconverting chemical species that exhibits a phenomenon of wave-pinning:
+  a wave of activation of one of the species is initiated at one end of the
+  domain, moves into the domain, decelerates, and eventually stops inside the
+  domain, forming a stationary front. The second ("inactive") species is
+  depleted in this process. This behavior arises in a model for chemical
+  polarization of a cell by Rho GTPases in response to stimulation. The
+  initially spatially homogeneous concentration profile (representative of a
+  resting cell) develops into an asymmetric stationary front profile (typical
+  of a polarized cell). Wave-pinning here is based on three properties: (1)
+  mass conservation in a finite domain, (2) nonlinear reaction kinetics
+  allowing for multiple stable steady states, and (3) a sufficiently large
+  difference in diffusion of the two species. Using matched asymptotic
+  analysis, we explain the mathematical basis of wave-pinning, and predict the
+  speed and pinned position of the wave. An analysis of the bifurcation of the
+  pinned front solution reveals how the wave-pinning regime depends on
+  parameters such as rates of diffusion and total mass of the species. We
+  describe two ways in which the pinned solution can be lost depending on the
+  details of the reaction kinetics: a saddle-node or a pitchfork bifurcation.%
+    }
+    \verb{doi}
+    \verb 10.1137/10079118X
+    \endverb
+    \field{issn}{00361399}
+    \field{number}{4}
+    \field{pages}{1401\bibrangedash 1427}
+    \field{title}{{Asymptotic and bifurcation analysis of wave-pinning in a
+  reaction-diffusion model for cell polarization}}
+    \verb{url}
+    \verb https://pdfs.semanticscholar.org/3838/b3bedd2a86e9cbfcefc11ea8a59ec94
+    \verb 50ac0.pdf?_ga=2.131178888.664586380.1569939058-1379241018.1569939058
+    \endverb
+    \field{volume}{71}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Mori, Jilkine, Edelstein-Kes
+    \verb het - Unknown - ASYMPTOTIC AND BIFURCATION ANALYSIS OF WAVE-PINNING I
+    \verb N A REACTION-DIFFUSION MODEL FOR CELL P.pdf:pdf
+    \endverb
+    \field{journaltitle}{SIAM Journal on Applied Mathematics}
+    \field{year}{2011}
+  \endentry
+
   \entry{Morton2002}{article}{}
     \name{author}{7}{}{%
       {{hash=MDG}{%
@@ -6260,6 +7140,75 @@
     \endverb
     \field{journaltitle}{Developmental Biology}
     \field{year}{2002}
+  \endentry
+
+  \entry{Motegi2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MF}{%
+         family={Motegi},
+         familyi={M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Seydoux},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Cdc42,PAR proteins,Polarity,Printed,Review,Subject Areas,cellular
+  biology,developmental biology,feedback loops,genetics,modelling of biological
+  networks,polarity,robustness,systems biology Keywords}
+    \strng{namehash}{MFSG1}
+    \strng{fullhash}{MFSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    To become polarized, cells must first 'break symmetry'. Symmetry breaking
+  is the process by which an unpolarized, symmetric cell develops a
+  singularity, often at the cell periphery, that is used to develop a polarity
+  axis. The Caenorhabditis elegans zygote breaks symmetry under the influence
+  of the sperm-donated centrosome, which causes the PAR polarity regulators to
+  sort into distinct anterior and posterior cortical domains. Modelling
+  analyses have shown that cortical flows induced by the centrosome combined
+  with antagonism between anterior and posterior PARs (mutual exclusion) are
+  sufficient, in principle, to break symmetry, provided that anterior and
+  posterior PAR activities are precisely balanced. Experimental evidence
+  indicates, however, that the system is surprisingly robust to changes in
+  cortical flows, mutual exclusion and PAR balance. We suggest that this
+  robustness derives from redundant symmetry-breaking inputs that engage two
+  positive feedback loops mediated by the anterior and posterior PAR proteins.
+  In particular, the PAR-2 feedback loop stabilizes the polarized state by
+  creating a domain where posterior PARs are immune to exclusion by anterior
+  PARs. The two feedback loops in the PAR network share characteristics with
+  the two feedback loops in the Cdc42 polarization network of Saccharomyces
+  cerevisiae.%
+    }
+    \verb{doi}
+    \verb 10.1098/rstb.2013.0010
+    \endverb
+    \field{isbn}{1471-2970 (Electronic)\n0962-8436 (Linking)}
+    \field{issn}{0962-8436}
+    \field{number}{1629}
+    \field{pages}{20130010\bibrangedash 20130010}
+    \field{title}{{The PAR network: redundancy and robustness in a
+  symmetry-breaking system}}
+    \verb{url}
+    \verb http://rstb.royalsocietypublishing.org/cgi/doi/10.1098/rstb.2013.0010
+    \endverb
+    \field{volume}{368}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Motegi, Seydoux - Unknown -
+    \verb The PAR network redundancy and robustness in a symmetry-breaking syst
+    \verb em.pdf:pdf
+    \endverb
+    \field{journaltitle}{Philosophical Transactions of the Royal Society B:
+  Biological Sciences}
+    \field{year}{2013}
   \endentry
 
   \entry{Motegi2011}{article}{}
@@ -7417,6 +8366,81 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Robin2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RFB}{%
+         family={Robin},
+         familyi={R\bibinitperiod},
+         given={Fran{\c{c}}ois\bibnamedelima B.},
+         giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MWM}{%
+         family={McFadden},
+         familyi={M\bibinitperiod},
+         given={William\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=YB}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Baixue},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MEM}{%
+         family={Munro},
+         familyi={M\bibinitperiod},
+         given={Edwin\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Polarity,Printed,Single molecule}
+    \strng{namehash}{RFB+1}
+    \strng{fullhash}{RFBMWMYBMEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    We describe a general, versatile and minimally invasive method to image
+  single molecules near the cell surface that can be applied to any GFP-tagged
+  protein in Caenorhabditis elegans embryos. We exploited tunable expression
+  via RNAi and a dynamically exchanging monomer pool to achieve fast,
+  continuous single-molecule imaging at optimal densities with signal-to-noise
+  ratios adequate for robust single-particle tracking (SPT). We introduce a
+  method called smPReSS, single-molecule photobleaching relaxation to steady
+  state, that infers exchange rates from quantitative analysis of
+  single-molecule photobleaching kinetics without using SPT. Combining SPT and
+  smPReSS allowed for spatially and temporally resolved measurements of protein
+  mobility and exchange kinetics. We used these methods to (i) resolve distinct
+  mobility states and spatial variation in exchange rates of the polarity
+  protein PAR-6 and (ii) measure spatiotemporal modulation of actin filament
+  assembly and disassembly. These methods offer a promising avenue to
+  investigate dynamic mechanisms that pattern the embryonic cell surface.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.2928
+    \endverb
+    \field{isbn}{1548-7105 (Electronic)\r1548-7091 (Linking)}
+    \field{issn}{15487105}
+    \field{number}{6}
+    \field{pages}{677\bibrangedash 682}
+    \field{title}{{Single-molecule analysis of cell surface dynamics in
+  Caenorhabditis elegans embryos}}
+    \verb{url}
+    \verb http://www.nature.com/doifinder/10.1038/nmeth.2928
+    \endverb
+    \field{volume}{11}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nmeth.2928-S1.pdf:pdf;:Users
+    \verb /blandt/Documents/Mendeley Desktop/Robin et al. - 2014 - Single-molec
+    \verb ule analysis of cell surface dynamics in Caenorhabditis elegans embry
+    \verb os.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{year}{2014}
+  \endentry
+
   \entry{Rodrigues2022}{article}{}
     \name{author}{8}{}{%
       {{hash=RNTL}{%
@@ -7783,6 +8807,83 @@
     \field{year}{2014}
   \endentry
 
+  \entry{Eurico-de-Sa2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EdSM}{%
+         prefix={Eurico-de},
+         prefixi={E\bibinitperiod-d\bibinitperiod},
+         family={S{\'{a}}},
+         familyi={S\bibinitperiod},
+         given={Morais},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Avik},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lowe},
+         familyi={L\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={{St Johnston}},
+         familyi={S\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Apicalbasal polarity,Axis formation,Oskar,Par-1,SCF,Ubiquitylation}
+    \strng{namehash}{SMEd+1}
+    \strng{fullhash}{SMEdMALNSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    The Drosophilaanterior-posterior axis is specified when the posterior
+  follicle cells signal to polarise the oocyte, leading to the anterior/lateral
+  localisation of the Par-6/aPKC complex and the posterior recruitment of
+  Par-1, which induces a microtubule reorganisation that localises
+  bicoidandoskar mRNAs. Here we show that oocyte polarity requires Slmb, the
+  substrate specificity subunit of the SCF E3 ubiquitin ligase that targets
+  proteins for degradation. The Par-6/aPKC complex is ectopically localised to
+  the posterior ofslmbmutant oocytes, and Par-1 andoskar mRNA are mislocalised.
+  Slmb appears to play a related role in epithelial follicle cells, as large
+  slmbmutant clones disrupt epithelial organisation, whereas small clones show
+  an expansion of the apical domain, with increased accumulation of apical
+  polarity factors at the apical cortex. The levels of aPKC and Par-6 are
+  significantly increased in slmb mutants, whereas Baz is slightly reduced.
+  Thus, Slmb may induce the polarisation of the anteriorposterior axis of the
+  oocyte by targeting the Par-6/aPKC complex for degradation at the oocyte
+  posterior. Consistent with this, overexpression of the aPKC antagonist Lgl
+  strongly rescues the polarity defects ofslmbmutant germline clones. The role
+  of Slmb in oocyte polarity raises an intriguing parallel withC. elegansaxis
+  formation, in which PAR-2 excludes the anterior PAR complex from the
+  posterior cortex to induce polarity, but its function can be substituted by
+  overexpressing Lgl. {\textcopyright} 2014. Published by The Company of
+  Biologists Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1242/dev.109827
+    \endverb
+    \field{issn}{14779129}
+    \field{number}{15}
+    \field{pages}{2984\bibrangedash 2992}
+    \field{title}{{Slmb antagonises the aPKC/Par-6 complex to control oocyte
+  and epithelial polarity}}
+    \field{volume}{141}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/dev109827.pdf:pdf
+    \endverb
+    \field{journaltitle}{Development (Cambridge)}
+    \field{year}{2014}
+  \endentry
+
   \entry{Sailer2015}{article}{}
     \name{author}{5}{}{%
       {{hash=SA}{%
@@ -7870,6 +8971,254 @@
     \endverb
     \field{journaltitle}{Developmental Cell}
     \field{year}{2015}
+  \endentry
+
+  \entry{Schlaitz2007}{article}{}
+    \name{author}{13}{}{%
+      {{hash=SAL}{%
+         family={Schlaitz},
+         familyi={S\bibinitperiod},
+         given={Anne\bibnamedelima Lore},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Srayko},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dammermann},
+         familyi={D\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=QS}{%
+         family={Quintin},
+         familyi={Q\bibinitperiod},
+         given={Sophie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WN}{%
+         family={Wielsch},
+         familyi={W\bibinitperiod},
+         given={Natalie},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={MacLeod},
+         familyi={M\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=dRQ}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Robillard},
+         familyi={R\bibinitperiod},
+         given={Quentin},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zinke},
+         familyi={Z\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YJR}{%
+         family={Yates},
+         familyi={Y\bibinitperiod},
+         given={John\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MRT}{%
+         family={M{\"{u}}ller-Reichert},
+         familyi={M\bibinitperiod-R\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shevchenko},
+         familyi={S\bibinitperiod},
+         given={Andrei},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Oegema},
+         familyi={O\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HAA}{%
+         family={Hyman},
+         familyi={H\bibinitperiod},
+         given={Anthony\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAL+1}
+    \strng{fullhash}{SALSMDAQSWNMIRQdZAYJRMRTSAOKHAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Microtubule behavior changes during the cell cycle and during spindle
+  assembly. However, it remains unclear how these changes are regulated and
+  coordinated. We describe a complex that targets the Protein Phosphatase 2A
+  holoenzyme (PP2A) to centrosomes in C. elegans embryos. This complex includes
+  Regulator of Spindle Assembly 1 (RSA-1), a targeting subunit for PP2A, and
+  RSA-2, a protein that binds and recruits RSA-1 to centrosomes. In contrast to
+  the multiple functions of the PP2A catalytic subunit, RSA-1 and RSA-2 are
+  specifically required for microtubule outgrowth from centrosomes and for
+  spindle assembly. The centrosomally localized RSA-PP2A complex mediates these
+  functions in part by regulating two critical mitotic effectors: the
+  microtubule destabilizer KLP-7 and the C. elegans regulator of spindle
+  assembly TPXL-1. By regulating a subset of PP2A functions at the centrosome,
+  the RSA complex could therefore provide a means of coordinating microtubule
+  outgrowth from centrosomes and kinetochore microtubule stability during
+  mitotic spindle assembly. {\textcopyright} 2007 Elsevier Inc. All rights
+  reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2006.10.050
+    \endverb
+    \field{issn}{00928674}
+    \field{number}{1}
+    \field{pages}{115\bibrangedash 127}
+    \field{title}{{The C. elegans RSA Complex Localizes Protein Phosphatase 2A
+  to Centrosomes and Regulates Mitotic Spindle Assembly}}
+    \field{volume}{128}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/PIIS0092867406016059.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cell}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Serber2007}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=SZ}{%
+         family={Serber},
+         familyi={S\bibinitperiod},
+         given={Zach},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=FJE}{%
+         family={Ferrell},
+         familyi={F\bibinitperiod},
+         given={James\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Modelling,Phosphorylation,Thermodynamics,Ultrasensitivity}
+    \strng{namehash}{SZFJE1}
+    \strng{fullhash}{SZFJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Cyclin-dependent kinase activation can prevent yeast cells from responding
+  to mating pheromone. Strickfaden et al. (2007) now show that this block
+  arises from the multisite phosphorylation of Ste5. This provides a beautiful
+  example of how phosphorylation can produce decisive changes in protein
+  function through bulk electrostatics, without the necessity of intricate
+  conformational changes. {\textcopyright} 2007 Elsevier Inc. All rights
+  reserved.%
+    }
+    \field{booktitle}{Cell}
+    \verb{doi}
+    \verb 10.1016/j.cell.2007.01.018
+    \endverb
+    \field{issn}{00928674}
+    \field{number}{3}
+    \field{pages}{441\bibrangedash 444}
+    \field{title}{{Tuning Bulk Electrostatics to Regulate Protein Function}}
+    \field{volume}{128}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/PIIS0092867407001146.pdf:pdf
+    \verb ;:Users/blandt/Documents/Mendeley Desktop/mmc1(5).pdf:pdf
+    \endverb
+    \field{year}{2007}
+  \endentry
+
+  \entry{Skwarek2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SLC}{%
+         family={Skwarek},
+         familyi={S\bibinitperiod},
+         given={Lara\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WSL}{%
+         family={Windler},
+         familyi={W\bibinitperiod},
+         given={Sarah\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=dVG}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Vreede},
+         familyi={V\bibinitperiod},
+         given={Geert},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RGC}{%
+         family={Rogers},
+         familyi={R\bibinitperiod},
+         given={Gregory\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bilder},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Drosophila,Epithelia,Par,Polarity,Tumor,Ubiquitin ligase}
+    \strng{namehash}{SLC+1}
+    \strng{fullhash}{SLCWSLVGdRGCBD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    The Par-3/Par-6/aPKC complex is the primary determinant of apical polarity
+  in epithelia across animal species, but how the activity of this complex is
+  restricted to allow polarization of the basolateral domain is less well
+  understood. In Drosophila, several multiprotein modules antagonize the Par
+  complex through a variety of means. Here we identify a new mechanism
+  involving regulated protein degradation. Strong mutations insupernumerary
+  limbs(slmb), which encodes the substrate adaptor of an SCF-class E3 ubiquitin
+  ligase, cause dramatic loss of polarity in imaginal discs accompanied by
+  tumorous proliferation defects. Slmb function is required to restrain apical
+  aPKC activity in a manner that is independent of endolysosomal trafficking
+  and parallel to the Scribble module of junctional scaffolding proteins. The
+  involvement of the Slmb E3 ligase in epithelial polarity, specifically
+  limiting Par complex activity to distinguish the basolateral domain, points
+  to parallels with polarization of theC. eleganszygote. {\textcopyright} 2014.
+  Published by The Company of Biologists Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1242/dev.109694
+    \endverb
+    \field{issn}{14779129}
+    \field{number}{15}
+    \field{pages}{2978\bibrangedash 2983}
+    \field{title}{{The F-box protein Slmb restricts the activity of aPKC to
+  polarize epithelial cells}}
+    \field{volume}{141}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/dev109694.pdf:pdf
+    \endverb
+    \field{journaltitle}{Development (Cambridge)}
+    \field{year}{2014}
   \endentry
 
   \entry{Soriano2016}{article}{}
@@ -8265,6 +9614,318 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Tabuse1998}{article}{}
+    \name{author}{6}{}{%
+      {{hash=TY}{%
+         family={Tabuse},
+         familyi={T\bibinitperiod},
+         given={Yo},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=IY}{%
+         family={Izumi},
+         familyi={I\bibinitperiod},
+         given={Yasushi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Piano},
+         familyi={P\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KKJ}{%
+         family={Kemphues},
+         familyi={K\bibinitperiod},
+         given={Kenneth\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Miwa},
+         familyi={M\bibinitperiod},
+         given={Johji},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Ohno},
+         familyi={O\bibinitperiod},
+         given={Shigeo},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Asymmetry,Caenorhabditis elegans,Cell polarity,Par-3,aPKC}
+    \strng{namehash}{TY+1}
+    \strng{fullhash}{TYIYPFKKJMJOS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Asymmetric cell divisions, critically important to specify cell types in
+  the development of multicellular organisms, require polarized distribution of
+  cytoplasmic components and the proper alignment of the mitotic apparatus. In
+  Caenorhabditis elegans, the maternally expressed protein, PAR-3, is localized
+  to one pole of asymmetrically dividing blastomeres and is required for these
+  asymmetric divisions. In this paper, we report that an atypical protein
+  kinase C (PKC-3) is essential for proper asymmetric cell divisions and
+  co-localizes with PAR-3. Embryos depleted of PKC-3 by RNA interference die
+  showing Par-like phenotypes including defects in early asymmetric divisions
+  and mislocalized germline-specific granules (P granules). The defective
+  phenotypes of PKC-3-depleted embryos are similar to those exhibited by
+  mutants for par-3 and another par gene, par-6. Direct interaction of PKC-3
+  with PAR-3 is shown by in vitro binding analysis. This result is reinforced
+  by the observation that PKC-3 and PAR-3 co-localize in vivo. Furthermore,
+  PKC-3 and PAR-3 show mutual dependence on each other and on three of the
+  other par genes for their localization. We conclude that PKC-3 plays an
+  indispensable role in establishing embryonic polarity through interaction
+  with PAR-3.%
+    }
+    \verb{doi}
+    \verb 10.1242/dev.125.18.3607
+    \endverb
+    \field{issn}{09501991}
+    \field{number}{18}
+    \field{pages}{3607\bibrangedash 3614}
+    \field{title}{{Atypical protein kinase C cooperates with PAR-3 to establish
+  embryonic polarity in Caenorhabditis elegans}}
+    \field{volume}{125}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/3607.pdf:pdf
+    \endverb
+    \field{journaltitle}{Development}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Tonikian2008}{article}{}
+    \name{author}{18}{}{%
+      {{hash=TR}{%
+         family={Tonikian},
+         familyi={T\bibinitperiod},
+         given={Raffi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yingnan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SSL}{%
+         family={Sazinsky},
+         familyi={S\bibinitperiod},
+         given={Stephen\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Currell},
+         familyi={C\bibinitperiod},
+         given={Bridget},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=YJH}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Jung\bibnamedelima Hua},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Reva},
+         familyi={R\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HHA}{%
+         family={Held},
+         familyi={H\bibinitperiod},
+         given={Heike\bibnamedelima A.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ABA}{%
+         family={Appleton},
+         familyi={A\bibinitperiod},
+         given={Brent\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Evangelista},
+         familyi={E\bibinitperiod},
+         given={Marie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XX}{%
+         family={Xin},
+         familyi={X\bibinitperiod},
+         given={Xiaofeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CAC}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Andrew\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Seshagiri},
+         familyi={S\bibinitperiod},
+         given={Somasekar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LLA}{%
+         family={Lasky},
+         familyi={L\bibinitperiod},
+         given={Laurence\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sander},
+         familyi={S\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Boone},
+         familyi={B\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BGD}{%
+         family={Bader},
+         familyi={B\bibinitperiod},
+         given={Gary\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SSS}{%
+         family={Sidhu},
+         familyi={S\bibinitperiod},
+         given={Sachdev\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TR+1}
+    \strng{fullhash}{TRZYSSLCBYJHRBHHAABAEMWYXXCACSSLLASCBCBGDSSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    PDZ domains are protein-protein interaction modules that recognize specific
+  C-terminal sequences to assemble protein complexes in multicellular
+  organisms. By scanning billions of random peptides, we accurately map binding
+  specificity for approximately half of the over 330 PDZ domains in the human
+  and Caenorhabditis elegans proteomes. The domains recognize features of the
+  last seven ligand positions, and we find 16 distinct specificity classes
+  conserved from worm to human, significantly extending the canonical two-class
+  system based on position -2. Thus, most PDZ domains are not promiscuous, but
+  rather are fine-tuned for specific interactions. Specificity profiling of 91
+  point mutants of a model PDZ domain reveals that the binding site is highly
+  robust, as all mutants were able to recognize C-terminal peptides. However,
+  many mutations altered specificity for ligand positions both close and far
+  from the mutated position, suggesting that binding specificity can evolve
+  rapidly under mutational pressure. Our specificity map enables the prediction
+  and prioritization of natural protein interactions, which can be used to
+  guide PDZ domain cell biology experiments. Using this approach, we predicted
+  and validated several viral ligands for the PDZ domains of the SCRIB polarity
+  protein. These findings indicate that many viruses produce PDZ ligands that
+  disrupt host protein complexes for their own benefit, and that highly
+  pathogenic strains target PDZ domains involved in cell polarity and growth.
+  {\textcopyright} 2008 Tonikian et al.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pbio.0060239
+    \endverb
+    \field{issn}{15449173}
+    \field{number}{9}
+    \field{pages}{2043\bibrangedash 2059}
+    \field{title}{{A specificity map for the PDZ domain family}}
+    \field{volume}{6}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/file.pdf:pdf
+    \endverb
+    \field{journaltitle}{PLoS Biology}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Tostevin2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TF}{%
+         family={Tostevin},
+         familyi={T\bibinitperiod},
+         given={Filipe},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Modelling,Polarity,Printed}
+    \strng{namehash}{TFHM1}
+    \strng{fullhash}{TFHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    At the one-cell stage, the C. elegans embryo becomes polarized along the
+  anterior-posterior axis. The PAR proteins form complementary anterior and
+  posterior domains in a dynamic process driven by cytoskeletal rearrangement.
+  Initially, the PAR proteins are uniformly distributed throughout the embryo.
+  After a cue from fertilization, cortical actomyosin contracts toward the
+  anterior pole. PAR-3/PAR-6/PKC-3 (the anterior PAR proteins) become
+  restricted to the anterior cortex. PAR-1 and PAR-2 (the posterior PAR
+  proteins) become enriched in the posterior cortical region. We present a
+  mathematical model of this polarity establishment process, in which we take a
+  novel approach to combine reaction-diffusion dynamics of the PAR proteins
+  coupled to a simple model of actomyosin contraction. We show that known
+  interactions between the PAR proteins are sufficient to explain many aspects
+  of the observed cortical PAR dynamics in both wild-type and mutant embryos.
+  However, cytoplasmic PAR protein polarity, which is vital for generating
+  daughter cells with distinct molecular components, cannot be properly
+  explained within such a framework. We therefore consider additional
+  mechanisms that can reproduce the proper cytoplasmic polarity. In particular
+  we predict that cytoskeletal asymmetry in the cytoplasm, in addition to the
+  cortical actomyosin asymmetry, is a critical determinant of PAR protein
+  localization. {\textcopyright} 2008 by the Biophysical Society.%
+    }
+    \verb{doi}
+    \verb 10.1529/biophysj.108.136416
+    \endverb
+    \verb{eprint}
+    \verb 0811.3339
+    \endverb
+    \field{isbn}{1542-0086 (Electronic)\r0006-3495 (Linking)}
+    \field{issn}{15420086}
+    \field{number}{10}
+    \field{pages}{4512\bibrangedash 4522}
+    \field{title}{{Modeling the establishment of PAR protein polarity in the
+  one-cell C. elegans embryo}}
+    \verb{url}
+    \verb https://ac.els-cdn.com/S0006349508785928/1-s2.0-S0006349508785928-mai
+    \verb n.pdf?_tid=f2c59516-ca02-4c4e-bf49-1b007c2a42e0&acdnat=1536614273_637
+    \verb ecc36abcf31149e24f0a5d3bded57
+    \endverb
+    \field{volume}{95}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Tostevin, Howard - Unknown -
+    \verb  Modeling the Establishment of PAR Protein Polarity in the One-Cell C
+    \verb . elegans Embryo.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{eprinttype}{arXiv}
+    \field{year}{2008}
+  \endentry
+
   \entry{Trong2014}{article}{}
     \name{author}{5}{}{%
       {{hash=TPK}{%
@@ -8613,6 +10274,83 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Wang2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WSC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shyi\bibnamedelima Chyi},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LTYF}{%
+         family={Low},
+         familyi={L\bibinitperiod},
+         given={Tricia Yu\bibnamedelima Feng},
+         giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=NY}{%
+         family={Nishimura},
+         familyi={N\bibinitperiod},
+         given={Yukako},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gole},
+         familyi={G\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Weimiao},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Motegi},
+         familyi={M\bibinitperiod},
+         given={Fumio},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,CDC-42,Polarity,Printed}
+    \strng{namehash}{WSC+1}
+    \strng{fullhash}{WSCLTYFNYGLYWMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Studying polarity establishment in C. elegans zygotes, Wang et al. find, by
+  imaging GFP-tagged proteins, that clusters of the PAR-3 polarity protein
+  assemble in response to membrane tension created by actomyosin
+  contractility.%
+    }
+    \verb{doi}
+    \verb 10.1038/ncb3577
+    \endverb
+    \field{isbn}{1476-4679 (Electronic) 1465-7392 (Linking)}
+    \field{issn}{14764679}
+    \field{number}{8}
+    \field{pages}{988\bibrangedash 995}
+    \field{title}{{Cortical forces and CDC-42 control clustering of PAR
+  proteins for Caenorhabditis elegans embryonic polarization}}
+    \verb{url}
+    \verb https://www.nature.com/ncb/journal/v19/n8/pdf/ncb3577.pdf?foxtrotcall
+    \verb back=true http://www.nature.com/doifinder/10.1038/ncb3577
+    \endverb
+    \field{volume}{19}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Wang et al. - Unknown - Cort
+    \verb ical forces and CDC-42 control clustering of PAR proteins for Caenorh
+    \verb abditis elegans embryonic polarization.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Cell Biology}
+    \field{year}{2017}
+  \endentry
+
   \entry{Watanabe2011}{article}{}
     \name{author}{8}{}{%
       {{hash=WS}{%
@@ -8778,6 +10516,85 @@
     \field{year}{1996}
   \endentry
 
+  \entry{Wu2007}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Hao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FW}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jia},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CLN}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Ling\bibnamedelima Nga},
+         giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Siyi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Mingjie},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{SIGNALING}
+    \strng{namehash}{WH+1}
+    \strng{fullhash}{WHFWCJCLNHSZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Multiple PDZ domain scaffold protein Par-3 and phosphoinositides (PIPs) are
+  required for polarity in diverse cell types. We show that the second PDZ
+  domain of Par-3 binds to phosphatidylinositol (PI) lipid membranes with high
+  affinity. We further demonstrate that a large subset of PDZ domains in
+  mammalian genomes are capable of binding to PI lipid membranes, indicating
+  that lipid binding is the second most prevalent interaction mode of PDZ
+  domains known to date. The biochemical and structural basis of Par-3
+  PDZ2-mediated membrane interaction is characterized in detail. The membrane
+  binding capacity of Par-3 PDZ2 is critical for epithelial cell polarization.
+  Interestingly, the lipid phosphatase PTEN directly binds to the third PDZ
+  domain of Par-3. The concatenation of the PIP-binding PDZ2 and the lipid
+  phosphatase PTEN-binding PDZ3 endows Par-3 as an ideal scaffold protein for
+  integrating PIP signaling events during cellular polarization.
+  {\textcopyright} 2007 Elsevier Inc. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.molcel.2007.10.028
+    \endverb
+    \field{issn}{10972765}
+    \field{number}{5}
+    \field{pages}{886\bibrangedash 898}
+    \field{title}{{PDZ Domains of Par-3 as Potential Phosphoinositide Signaling
+  Integrators}}
+    \field{volume}{28}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/PIIS1097276507007745.pdf:pdf
+    \endverb
+    \field{journaltitle}{Molecular Cell}
+    \field{year}{2007}
+  \endentry
+
   \entry{Wu2018b}{article}{}
     \name{author}{9}{}{%
       {{hash=WWS}{%
@@ -8881,96 +10698,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Wu2018a}{article}{}
-    \name{author}{6}{}{%
-      {{hash=WY}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Youjun},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=HB}{%
-         family={Han},
-         familyi={H\bibinitperiod},
-         given={Bingjie},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=LY}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Younan},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=ME}{%
-         family={Munro},
-         familyi={M\bibinitperiod},
-         given={Edwin},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=ODJ}{%
-         family={Odde},
-         familyi={O\bibinitperiod},
-         given={David\bibnamedelima J},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=GEE}{%
-         family={Griffin},
-         familyi={G\bibinitperiod},
-         given={Erik\bibnamedelima E},
-         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \keyw{C. elegans,Polarity}
-    \strng{namehash}{WY+1}
-    \strng{fullhash}{WYHBLYMEODJGEE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{extrayear}{2}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{abstract}{%
-    Protein concentration gradients organize cells and tissues and commonly
-  form through diffusion away from a local source of protein. Interestingly,
-  during the asymmetric division of the Caenorhabditis elegans zygote, the
-  RNA-binding proteins MEX-5 and PIE-1 form opposing concentration gradients in
-  the absence of a local source. In this study, we use near-total internal
-  reflection fluorescence (TIRF) imaging and single-particle tracking to
-  characterize the reaction/diffusion dynamics that maintain the MEX-5 and
-  PIE-1 gradients. Our findings suggest that both proteins interconvert between
-  fast-diffusing and slow-diffusing states on timescales that are much shorter
-  (seconds) than the timescale of gradient formation (minutes). The kinetics of
-  diffusion-state switching are strongly polarized along the anterior/posterior
-  (A/P) axis by the PAR polarity system such that fast-diffusing MEX-5 and
-  PIE-1 particles are approximately symmetrically distributed, whereas
-  slow-diffusing particles are highly enriched in the anterior and posterior
-  cytoplasm, respectively. Using mathematical modeling, we show that local
-  differences in the kinetics of diffusion-state switching can rapidly generate
-  stable concentration gradients over a broad range of spatial and temporal
-  scales.%
-    }
-    \verb{doi}
-    \verb 10.1073/pnas.1722162115
-    \endverb
-    \field{isbn}{26:29632970}
-    \field{issn}{0027-8424}
-    \field{pages}{201722162}
-    \field{title}{{Rapid diffusion-state switching underlies stable cytoplasmic
-  gradients in the Caenorhabditis elegans zygote}}
-    \verb{url}
-    \verb www.pnas.org/cgi/doi/10.1073/pnas.1722162115 http://www.pnas.org/look
-    \verb up/doi/10.1073/pnas.1722162115
-    \endverb
-    \verb{file}
-    \verb :Users/blandt/Documents/Mendeley Desktop/Wu et al. - Unknown - Rapid
-    \verb diffusion-state switching underlies stable cytoplasmic gradients in t
-    \verb he Caenorhabditis elegans zygote.pdf:pdf;:Users/blandt/Documents/Mend
-    \verb eley Desktop/pnas.1722162115.sapp.pdf:pdf
-    \endverb
-    \field{journaltitle}{Proceedings of the National Academy of Sciences}
-    \field{year}{2018}
-  \endentry
-
   \entry{Wu2018}{article}{}
     \name{author}{6}{}{%
       {{hash=WY}{%
@@ -9016,7 +10743,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
-    \field{extrayear}{3}
+    \field{extrayear}{2}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \verb{doi}
@@ -9117,6 +10844,136 @@
     \field{year}{2008}
   \endentry
 
+  \entry{Zhang2013a}{article}{}
+    \name{author}{13}{}{%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wenjuan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jia},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZK}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Bingquan},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Shuai},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Mingdong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Besenbacher},
+         familyi={B\bibinitperiod},
+         given={Flemming},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gong},
+         familyi={G\bibinitperiod},
+         given={Weimin},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Mingjie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FW}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \strng{namehash}{ZY+1}
+    \strng{fullhash}{ZYWWCJZKGFGBZSDMBFGWZMSFFW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Par-3, the central organizer of the Par-3/Par-6/atypical protein kinase C
+  complex, is a multimodular scaffold protein that is essential for cell
+  polarity establishment and maintenance. The N-terminal domain (NTD) of Par-3
+  is capable of self-association to form filament-like structures, although the
+  underlying mechanism is poorly understood. Here, we determined the crystal
+  structure of Par-3 NTD and solved the filament structure by cryoelectron
+  microscopy. We found that an intrinsic "front-to-back" interaction mode is
+  important for Par-3 NTD self-association and that both the lateral and
+  longitudinal packing within the filament are mediated by electrostatic
+  interactions. Disruptions of the lateral or longitudinal packing
+  significantly impaired Par-3 NTD self-association and thereby impacted the
+  Par-3-mediated epithelial polarization. We finally demonstrated that a Par-3
+  NTD-like domain from histidine ammonia-lyase also harbors a similar
+  self-association capacity. This work unequivocally provides the structural
+  basis for Par-3 NTD self-association and characterizes one type of protein
+  domain that can self-assemble via electrostatic interactions.
+  {\textcopyright} 2013 Elsevier Ltd. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.str.2013.04.004
+    \endverb
+    \field{issn}{09692126}
+    \field{number}{6}
+    \field{pages}{997\bibrangedash 1006}
+    \field{title}{{Structural insights into the intrinsic self-assembly of
+  par-3 N-terminal domain}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.str.2013.04.004
+    \endverb
+    \field{volume}{21}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0969212613001147-mai
+    \verb n.pdf:pdf
+    \endverb
+    \field{journaltitle}{Structure}
+    \field{year}{2013}
+  \endentry
+
   \entry{Zhang2017}{article}{}
     \name{author}{5}{}{%
       {{hash=ZZ}{%
@@ -9195,6 +11052,93 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Ziman1993}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZM}{%
+         family={Ziman},
+         familyi={Z\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Preuss},
+         familyi={P\bibinitperiod},
+         given={Daphne},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mulholland},
+         familyi={M\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OJM}{%
+         family={O'Brien},
+         familyi={O\bibinitperiod},
+         given={Jeanne\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Botstein},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=JDI}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Douglas\bibnamedelima I.},
+         giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZM+1}
+    \strng{fullhash}{ZMPDMJOJMBDJDI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    The Saccharomyces cerevisiae Cdc42 protein, a member of the Ras superfamily
+  of low-molecular-weight GTP-binding proteins, is involved in the control of
+  cell polarity during the yeast cell cycle. This protein has a consensus
+  sequence (CAAX) for geranylgeranyl modification and is likely to be
+  associated, at least in part, with cell membranes. Using cell fractionation
+  and immunolocalization techniques, we have investigated the subcellular
+  localization of Cdc42p. Cdc42p was found in both soluble and particulate
+  pools, and neither its abundance nor its distribution varied through the cell
+  cycle. The particulate form of Cdc42p could be solubilized with detergents
+  but not with NaCl or urea, suggesting that it is tightly associated with
+  membranes. An increase in soluble Cdc42p was observed in a
+  geranylgeranyltransferase mutant strain (cdc43-2ts) grown at the restrictive
+  temperature. In addition, Cdc42p from a cdc42C188S mutant strain (that has an
+  alteration at the prenylation consensus site) was almost exclusively in the
+  soluble fraction, suggesting that membrane localization is dependent on
+  geranylgeranyl modification at Cys-188. Immunofluorescence and immunoelectron
+  microscopy experiments demonstrated that Cdc42p localizes to the plasma
+  membrane in the vicinity of secretory vesicles that were found at the site of
+  bud emergence, at the tips and sides of enlarging buds, and within mating
+  projections (shmoo tips) in $\alpha$-factor-arrested cells. These results
+  indicate that Cdc42p is localized to the bud site early in the cell cycle and
+  suggest that this localization is critical for the selection of the proper
+  site for bud emergence and for polarized cell growth.%
+    }
+    \verb{doi}
+    \verb 10.1091/mbc.4.12.1307
+    \endverb
+    \field{issn}{10591524}
+    \field{number}{12}
+    \field{pages}{1307\bibrangedash 1316}
+    \field{title}{{Subcellular localization of Cdc42p, a Saccharomyces
+  cerevisiae GTP-binding protein involved in the control of cell polarity}}
+    \field{volume}{4}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/mbc.4.12.1307.pdf:pdf
+    \endverb
+    \field{journaltitle}{Molecular Biology of the Cell}
+    \field{year}{1993}
+  \endentry
+
   \entry{Zipperlen2001}{article}{}
     \name{author}{5}{}{%
       {{hash=ZP}{%
@@ -9270,6 +11214,73 @@
     \endverb
     \field{journaltitle}{EMBO Journal}
     \field{year}{2001}
+  \endentry
+
+  \entry{Zonies2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZS}{%
+         family={Zonies},
+         familyi={Z\bibinitperiod},
+         given={Seth},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Motegi},
+         familyi={M\bibinitperiod},
+         given={Fumio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hao},
+         familyi={H\bibinitperiod},
+         given={Yingsong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Seydoux},
+         familyi={S\bibinitperiod},
+         given={Geraldine},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Caenorhabditis elegans,PAR-2,Par proteins,Polarity}
+    \strng{namehash}{ZS+1}
+    \strng{fullhash}{ZSMFHYSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Polarization of the C. elegans zygote is initiated by ECT-2-dependent
+  cortical flows, which mobilize the anterior PAR proteins (PAR-3, PAR-6 and
+  PKC-3) away from the future posterior end of the embryo marked by the sperm
+  centrosome. Here, we demonstrate the existence of a second, parallel and
+  redundant pathway that can polarize the zygote in the absence of
+  ECT-2-dependent cortical flows. This second pathway depends on the polarity
+  protein PAR-2. We show that PAR-2 localizes to the cortex nearest the sperm
+  centrosome even in the absence of cortical flows. Once on the cortex, PAR-2
+  antagonizes PAR-3-dependent recruitment of myosin, creating myosin flows that
+  transport the anterior PAR complex away from PAR-2 in a positive-feedback
+  loop. We propose that polarity in the C. elegans zygote is initiated by
+  redundant ECT-2- and PAR-2-dependent mechanisms that lower PAR-3 levels
+  locally, triggering a positive-feedback loop that polarizes the entire
+  cortex.%
+    }
+    \verb{doi}
+    \verb 10.1242/dev.045823
+    \endverb
+    \field{issn}{09501991}
+    \field{number}{10}
+    \field{pages}{1669\bibrangedash 1677}
+    \field{title}{{Symmetry breaking and polarization of the C. elegans zygote
+  by the polarity protein PAR-2}}
+    \field{volume}{137}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1669.pdf:pdf
+    \endverb
+    \field{journaltitle}{Development}
+    \field{year}{2010}
   \endentry
 \endsortlist
 \endinput
