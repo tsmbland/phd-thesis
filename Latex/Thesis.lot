@@ -10,58 +10,58 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces RING domain proteins in the Protein Data Bank (PDB) with closest homology to the PAR-2 RING domain}}{133}{table.caption.63}
+\contentsline {table}{\numberline {4.1}{\ignorespaces RING domain proteins in the Protein Data Bank (PDB) with closest homology to the PAR-2 RING domain}}{136}{table.caption.63}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces Optimised model parameters}}{173}{table.caption.87}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Optimised model parameters}}{176}{table.caption.87}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces Default parameter values used for symmetric PAR model}}{184}{table.caption.90}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Default parameter values used for symmetric PAR model}}{187}{table.caption.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Parameters describing the core features of dimerisation and antagonism}}{195}{table.caption.95}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.3}{\ignorespaces Parameters describing the core features of dimerisation and antagonism}}{198}{table.caption.95}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.1}{\ignorespaces \textit {C. elegans} strains}}{231}{table.9.1}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.2}{\ignorespaces Injection mix recipe for PAR-2 point mutations}}{234}{table.caption.110}
+\contentsline {table}{\numberline {9.1}{\ignorespaces \textit {C. elegans} strains}}{234}{table.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.3}{\ignorespaces CRISPR guides for \textit {glh-1} site insertions}}{239}{table.caption.114}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Injection mix recipe for PAR-2 point mutations}}{237}{table.caption.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.5}{\ignorespaces Primer sequences for \textit {glh-1} site insertion repair templates}}{239}{table.caption.115}
+\contentsline {table}{\numberline {9.3}{\ignorespaces CRISPR guides for \textit {glh-1} site insertions}}{242}{table.caption.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.7}{\ignorespaces Summary of CRISPR strategies for PAR-2 point mutations}}{240}{table.caption.116}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Primer sequences for \textit {glh-1} site insertion repair templates}}{242}{table.caption.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.8}{\ignorespaces crRNA guides for PAR-2 CRISPR point mutations}}{240}{table.caption.117}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Summary of CRISPR strategies for PAR-2 point mutations}}{243}{table.caption.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.10}{\ignorespaces Repair templates for PAR-2 CRISPR point mutations}}{241}{table.caption.118}
+\contentsline {table}{\numberline {9.8}{\ignorespaces crRNA guides for PAR-2 CRISPR point mutations}}{243}{table.caption.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.11}{\ignorespaces PCR screening primers for PAR-2 CRISPR point mutations}}{241}{table.caption.119}
+\contentsline {table}{\numberline {9.10}{\ignorespaces Repair templates for PAR-2 CRISPR point mutations}}{244}{table.caption.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.13}{\ignorespaces DNA sequence of GCN4-IL used for CRISPR insertions}}{242}{table.caption.120}
+\contentsline {table}{\numberline {9.11}{\ignorespaces PCR screening primers for PAR-2 CRISPR point mutations}}{244}{table.caption.119}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.15}{\ignorespaces Constructs for inserting GCN4 at the endogenous PAR-2 locus}}{242}{table.caption.121}
+\contentsline {table}{\numberline {9.13}{\ignorespaces DNA sequence of GCN4-IL used for CRISPR insertions}}{245}{table.caption.120}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.17}{\ignorespaces DNA sequence of Tomm-20 1-55 used for CRISPR insertions}}{244}{table.caption.122}
+\contentsline {table}{\numberline {9.15}{\ignorespaces Constructs for inserting GCN4 at the endogenous PAR-2 locus}}{245}{table.caption.121}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.19}{\ignorespaces Sequences for generating mKate Y65A mutation}}{244}{table.caption.123}
+\contentsline {table}{\numberline {9.17}{\ignorespaces DNA sequence of Tomm-20 1-55 used for CRISPR insertions}}{247}{table.caption.122}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.21}{\ignorespaces DNA sequence of PAR-2 (1-177) used for CRISPR insertions}}{245}{table.caption.124}
+\contentsline {table}{\numberline {9.19}{\ignorespaces Sequences for generating mKate Y65A mutation}}{247}{table.caption.123}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.23}{\ignorespaces Primer sequences for generating PAR-2 RING repair template for insertion at the \textit {glh-1} site}}{246}{table.caption.125}
+\contentsline {table}{\numberline {9.21}{\ignorespaces DNA sequence of PAR-2 (1-177) used for CRISPR insertions}}{248}{table.caption.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.24}{\ignorespaces Lysis buffer for PAR-2 purification from insect cells}}{250}{table.caption.126}
+\contentsline {table}{\numberline {9.23}{\ignorespaces Primer sequences for generating PAR-2 RING repair template for insertion at the \textit {glh-1} site}}{249}{table.caption.125}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.25}{\ignorespaces Elution buffer for PAR-2 purification from insect cells}}{250}{table.caption.127}
+\contentsline {table}{\numberline {9.24}{\ignorespaces Lysis buffer for PAR-2 purification from insect cells}}{253}{table.caption.126}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.26}{\ignorespaces Reaction mix for ubiquitination assays}}{250}{table.caption.128}
+\contentsline {table}{\numberline {9.25}{\ignorespaces Elution buffer for PAR-2 purification from insect cells}}{253}{table.caption.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.27}{\ignorespaces Lysis buffer for PAR-2 RING purification from bacteria}}{252}{table.caption.129}
+\contentsline {table}{\numberline {9.26}{\ignorespaces Reaction mix for ubiquitination assays}}{253}{table.caption.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.28}{\ignorespaces Elution buffer for PAR-2 RING purification from bacteria}}{252}{table.caption.130}
+\contentsline {table}{\numberline {9.27}{\ignorespaces Lysis buffer for PAR-2 RING purification from bacteria}}{255}{table.caption.129}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.28}{\ignorespaces Elution buffer for PAR-2 RING purification from bacteria}}{255}{table.caption.130}

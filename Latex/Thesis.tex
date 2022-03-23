@@ -130,6 +130,10 @@ Through quantitative imaging, gene editing, in vitro biochemistry, and mathemati
 
 % Cell polarity plays a number of essential roles throughout development, including asymmetric cell division, cell fate specification, regulation of tissue architecture and cell motility.
 
+% Ultimately, this asymmetry has to come from somewhere. Think about the first cell of an organism Without any kind of asymmetry, this would just divide to produce a homogenous ball of cells.
+
+Cell polarity is really important. Set up by polarity proteins that form patterns on the membrane. PAR proteins are an example of this. Key question is how these patterns come about.
+
 \begin{figure}
 \includegraphics[scale=1]{polarity_examples}
 \centering
@@ -141,7 +145,9 @@ Through quantitative imaging, gene editing, in vitro biochemistry, and mathemati
 % Rukshala 1.2.2
 % Jake 1.2.1
 
-The PAR proteins (table x) were first identified in \textit{C. elegans} in screens of mutants that disrupt asymmetric zygote divisions \citep{Kemphues1988, Morton2002, Watts1996}. Subsequent work showed that these proteins direct asymmetric cell divisions by controlling both the segregation of fate determinants and asymmetric positioning of the cleavage plane \citep{Guo1996}, leading to two cells that differ in size and fate. It was shown that during polarisation, a subset of the PAR proteins become enriched asymmetrically at the cell cortex in distinct anterior and posterior domains. The PAR proteins themselves are responsible for organising themselves in this fashion, through a process of mutual antagonism between the two groups \citep{Boyd1996, Etemad-Moghadam1995, Guo1995}.\\
+The PAR proteins (table \ref{tab:par_proteins}) were first identified in \textit{C. elegans} in screens of mutants that disrupt asymmetric zygote divisions \citep{Kemphues1988, Morton2002, Watts1996}. Subsequent work showed that during polarisation, a subset of the PAR proteins become enriched asymmetrically at the cell cortex in distinct anterior and posterior domains (as seen in fig x). Once in this distribution, the PAR proteins then direct asymmetric cell divisions by controlling both the segregation of fate determinants and asymmetric positioning of the cleavage plane \citep{Guo1996}, leading to two cells that differ in size and fate.\\
+
+The PAR network has hallmarks of a self-organising network, in the sense that the proteins forming the patterns are directly responsible to organising themselves in this fashion. This is now understood to be driven largely by mutual antagonism between the two distinct PAR groups, in which each one acts to locally exclude proteins from the other group \citep{Boyd1996, Etemad-Moghadam1995, Guo1995}.\\
 
 \begin{table}[]
 \footnotesize
@@ -158,21 +164,20 @@ PAR-6 & Adaptor protein & Par6 & mPar6 \\ \hline
 \mycaption{The PAR proteins}{
 PAR proteins identified in original screens by Ken Kempues and colleagues, details attributed to them in later studies, and homologues in other species. A range of other proteins, whilst not PAR by name, are often considered part of the PAR network due to their interactions with these proteins. In \textit{C. elegans}, this includes the kinase PKC-3, the small GTPase CDC-42, the Rho GAP CHIN-1, and the tumor suppressor LGL-1. Table adapted from \cite{Insolera2011}.
 }
+\label{tab:par_proteins}
 \end{table}
 
-Since the initial discovery of the PAR proteins, work has gone to characterize the PAR proteins as a diverse and highly conserved set of scaffold proteins, adaptors and enzymes, which are conserved across metazoa and regulate polarity in numerous contexts, in cells of a range of sizes, and in response to a range of different cues \citep{Goldstein2007, Goehring2014}. Detailed mechanisms differ between systems, such as unipolar polarity without an opposing domain in some cases, and junctional domains in other cases. However, many of the core principles underlying polarity in different systems appears to be conserved.\\
-
+Since the initial discovery of the PAR proteins, work has gone to characterize the PAR proteins as a diverse and highly conserved set of scaffold proteins, adaptors and enzymes, which are conserved across metazoa and regulate polarity in numerous contexts, in cells of a range of sizes, and in response to a range of different cues \citep{Goldstein2007, Goehring2014}. The mechanisms of PAR polarity, and the distributions of the PAR proteins, differs between systems, such as unipolar polarity without an opposing domain in some cases, and junctional domains in other cases. Nevertheless, many of the core principles underlying polarity in different systems appears to be conserved.\\
 
 
 \subsection{PAR polarity in the \textit{C. elegans} embryo}
 
-% I will discuss broad concepts here, and discuss the molecular details in section x
 
-The system in which the PAR proteins were first discovered, the \textit{C. elegans} embryo has continued to be an important model system for research into the PAR proteins. As large, transparent cells, \textit{C. elegans} are particularly suitable for quantitative imaging. Additionally, there are a range of genetic tools available in \textit{C. elegans} to perturb protein function. Finally, being confined to a single cell, it is a simpler system compared to others, and allows identification of core principles of PAR polarity that would be more difficult to uncover in complex tissues.\\
+The system in which the PAR proteins were first discovered, the \textit{C. elegans} embryo, has continued to be an important model system for research into the PAR proteins. As large, transparent cells, \textit{C. elegans} zygotes are particularly suitable for quantitative imaging, and, there are a range of genetic tools available in \textit{C. elegans} that allow researchers to perturb protein function. Additionally, being confined to a single cell, the system is simpler than  many others, which allows for easier identification of core principles of PAR polarity that would be more difficult to uncover in complex tissues. In this section, I will discuss some of the broad concepts relating to PAR polarity in the embryo, and discuss the molecular details in section x.\\
 
 The two groups of proteins that define the anterior-posterior axis are referred to as aPARs (anterior PARs) and pPARs (posterior PARs) respectively. The anterior domain is composed of the oligomeric scaffold protein PAR-3, the adaptor protein PAR-6, the kinase PKC-3 and the GTPase CDC-42. The posterior domain is composed of the kinase PAR-1, the RING-domain protein PAR-2, the tumour suppressor LGL-1 and the GTPase-activating protein CHIN-1. Two additional proteins, the kinase PAR-4 and 14-3-3 protein PAR-5, are not asymmetrically localised but play a role in setting up asymmetry of the other PARs.\\
 
-The polarisation process is generally described in terms of two distinct phases: establishment phase, in which PAR asymmetries are first set up, and maintenance phase in which PAR asymmetries are maintained until cell division. Prior to the establishment phase, aPARs are uniformly enriched on the cortex, and exclude pPARs through antagonistic interactions. Polarity is triggered by the sperm donated centrosome via two redundant pathways. Firstly, there is an inhibition of cortical actomyosin contractility in the posterior, triggering cortical flows that segregate aPARs to the anterior \citep{Munro2004, Goehring2011a}. Secondly, microtubules associated with the sperm centrosome can directly promote PAR-2 binding to the cortex in the posterior \citep{Motegi2011, Wallenfang2000, Zonies2010}. Together, these mechanisms break the symmetry of the system, establishing an aPAR rich anterior and a pPAR rich posterior. \\
+The polarisation process is generally described in terms of two distinct phases: establishment phase, in which PAR asymmetries are first set up, and maintenance phase in which PAR asymmetries are maintained until cell division. Prior to the establishment phase, aPARs are uniformly enriched on the cortex, and exclude pPARs through antagonistic interactions. Polarity is triggered by the sperm donated centrosome, which causes symmetry of the system to be broken via two redundant pathways. Firstly, there is an inhibition of cortical actomyosin contractility in the posterior, triggering cortical flows that segregate aPARs to the anterior \citep{Munro2004, Goehring2011a}. Secondly, microtubules associated with the sperm centrosome can directly promote PAR-2 binding to the cortex in the posterior \citep{Motegi2011, Wallenfang2000, Zonies2010}. Together, these mechanisms break the symmetry of the system, establishing an aPAR rich anterior and a pPAR rich posterior. \\
 
 \begin{figure}
 \includegraphics[scale=1]{par_polarity_schematic}
@@ -198,39 +203,31 @@ To understand how combinations of protein mobility and protein-protein interacti
 \clearpage
 \section{Patterning via self-organisation}
 
-% Mathematical models of cell polarisation date back to work by Gierer and Meinhardt in the 1970s.
-
-% Intro to patterns/self-organisation
 % Patterns can be found everywhere...
-% Question: are there general princliples or do unique rules and mechanisms exist in each case 
-
 % FIGURE: examples? Limb development, animal stripes, cell polarity, topographic maps
+
+% Question: are there general principles or do unique rules and mechanisms exist in each case 
+
+Patterns are found everywhere. Some examples. Whilst the biological mechanisms are, of course, very different in all of these cases, pioneering modelling work proposed that a few core principles are sufficient to explain biological pattern formation.
+
 
 \subsection{Principles of self-organisation}
 
-% Turing
-% Relate to stripes on an animal
-% In an array of what he referred to as cells, biomolecules (referred to as morphogens) are produced which diffuse and interact with each other. At high concentrations, genes are switched on which lead to cell differentiation
-% A number of interpretations for what cells and biomolecules are. May be actual cells. Diffusing chemicals or neural activity.
-% All that is needed to form a pattern is two chemicals that react with each other in a certain way and exhibit different diffusion kinetics
-% Patterns can be static or oscilatory. Static patterns are more obviously applicable to cell polarity, but oscilatory patterns are also important such as min. Maybe come back to this.
-% Linear instability
-% In order for a pattern to form, a deviation from uniformity must have positive feedback to cause it to increase further. However, positive feedback alone isn't sufficient, as this would cause uncontrolled spreading. Pattern formation requires that the spread be confined. Common ways to achieve this are a long-range inhibitory signal that extends from the region of growth. 
+Alan Turing is considered by many to be the pioneer in this field. In his highly influential paper, he proposed that all that is needed to form a pattern is two chemicals that react with each other in a certain way and exhibit different diffusion kinetics.\\
 
-% Variations are possible. Depletion of a pool of meterial required for self-enhancement can provide a long-range inhibitory signal. Requires that diffusion of the depleted substance be faster than diffusion of the activator. Positive feedback can result from inhibition of inhibition (double negative feedback). If two species inhibit each other mutually, an increase in one leads to inhibition of the other, which frees inhibition on the first and allows if to amplify. Both of these concepts are useful to bear in mind for models of PAR polarity, which I will discuss later.
-% Double negative feedback is mathematically equivalent to autocatalysis \citep{Ferrell2002}
+% His model involved array of ‘cells’, from which chemical substances are produced, which diffuse and interact with each other. Using linear instability analysis, he proposed that the reaction and diffusion kinetics can lead to linear instabilities that cause uniform distributions of chemicals to develop spatial patterns. In terms of tissue patterning, he proposed that high morphogen concentrations can switch genes on which lead to cell differentiation. 
 
+% Subtle changes in the reaction and diffusion kinetics can determine whether patterns are static or oscillatory. Static patterns are more obviously applicable to biology, but oscillatory patterns have been found to be important in some cases, such as min.
 
-% FIGURE: positive feedback vs double negative feedback
+These ideas were later generalised by Gierer and Meinhardt using a more intuitive framework that emphasised two key requirements for pattern formation: short-range activation and long-range inhibition.\\
 
-% If initiated randomly, the pattern will have some irregularity
+Imagine a spatial system in which a substance has a uniform distribution. Firstly, in order for a pattern to form, a deviation from uniformity must have positive feedback to cause it to increase further. However, positive feedback alone is not sufficient, as this would cause uncontrolled spreading. Pattern formation requires that the spread be confined. Common ways to achieve this are a long-range inhibitory signal that extends from the region of growth. Variations are possible, such as depletion of a pool of material required for self-enhancement which provide a long-range inhibitory signal. \\
 
-% Gierer-meinhardt
-% Generalised his theory
-% Short range activation and long range inhibition
-% Can try and explain this intuitively
-% Use this to introduce the concept of partial differential equations
+At the time of these early studies, many of the mechanistic details underlying pattern formation were not clear, and the identity of the key players in these models are open to interpretation. A spatial system may refer to cells in a tissue, but can equally be applied to consider distinct positions within a single cell (as will become apparent later). The chemicals can refer to biomolecules diffusing between cells in a tissue, but can equally apply to molecules diffusing within individual cells, or even patterns of electrical signals in neural tissue. \\
+
 % Proof of these models requires the identification of morphogens and measurements of their kinetics
+
+
 
 \begin{figure}
 \includegraphics[scale=0.4]{activator_inhibitor}
@@ -252,33 +249,16 @@ Starting from an initial uniform state with stochastic variation, the system spo
 \end{figure}
 
 
-
-
-% Examples
-% Limb development
-% Patterned neural connections (Willshaw1976). Eglen review 2009
-% Polulation dynamics
-% Epidemiology?
-% Tea trade. Hypothetical analogies have also been made describing international trade of tea
-% Religion? Economy?
-
-% Applications
-% E.g. computers that rely on self-organisation
-
-% Link to cell polarity
-% With the advent of advanced microscopy techniques, particularly fluorescence microscopy which allowed the localisation of specific proteins to be probed in cells, patterns began to be observed on an intracellular scale
-% Cloning of GFP (Prasher 1992)
-% Cell polarity is a pattern, albeit much simpler than some of the others described so far. A polarity axis defined by regions of low and high concentrations
-% Other patterns consist of two membrane regions occupied by different species
-
 \clearpage
 \subsection{Self-organisation for cell polarity}
 
-% The principles described so far can be readily transferred to describe pattern formation within a cell
-% Models have three core features: diffusion, membrane exchange and feedback
-% I will first introduce, in a broad sense, how the three main concepts can be readily applied to the context of cell membrane patterning. In next section I will then describe two examples of cell polarity models that use these concepts
+% With the advent of advanced microscopy techniques, particularly fluorescence microscopy which allowed the localisation of specific proteins to be probed in cells, patterns began to be observed on an intracellular scale. Cell polarity, in which a polarity axis defined by regions of low and high concentrations, is an example of such a pattern, albeit simpler than the kinds of patterns that may be observed at a tissue level. \\
+
+The principles described so far can be readily transferred to describe pattern formation within a cell. I will first introduce, in a broad sense, how the three main concepts can be readily applied to the context of cell membrane patterning. In next section I will then describe two examples of cell polarity models that use these concepts.\\
 
 \subsubsection{Differential diffusion}
+
+% Patterning requires that activation and inhibition signals be propagated over different length scales. A minimum requirement for this is two species with differing diffusion coefficients.
 
 Polarity proteins set up an asymmetry by creating polarised patterns on the plasma membrane. However, the proteins are generally not fixed on the membrane, and instead undergo a continuous exchange with the underlying cytoplasm. This creates two states: membrane bound and cytoplasmic. Since diffusion at the membrane is typically much slower than diffusion in the cytoplasm, the requirement for differential diffusion kinetics is naturally satisfied.
 
@@ -286,7 +266,7 @@ Polarity proteins set up an asymmetry by creating polarised patterns on the plas
 \includegraphics[scale=1.1]{differential_diffusion_membrane}
 \centering
 \mycaption{Membrane-cytoplasm exchange creates species with differing diffusion rates}{
-A protein binds is in exchange between membrane-bound and cytoplasmic states, with binding rate $k_{on}$ and unbinding rate $k_{off}$. Diffusion of the membrane-bound state is expected to be much slower than the cytoplasmic state (diffusion coefficient $D_m < D_c$.}
+A protein binds is in exchange between membrane-bound and cytoplasmic states, with binding rate $k_{on}$ and unbinding rate $k_{off}$. Diffusion of the membrane-bound state is expected to be much slower than the cytoplasmic state (diffusion coefficient $D_m < D_c$).}
 \label{fig:differential_diffusion_membrane}
 \end{SCfigure}
 
@@ -296,7 +276,7 @@ A protein binds is in exchange between membrane-bound and cytoplasmic states, wi
 
 Polarity can come about if the rate of membrane association is locally increased, or the rate of dissociation locally decreased, so that the protein accumulates in a particular space. If this process is driven by the protein itself, positive feedback can result. \\
 
-As discussed below, this local activation can come about in a number of different ways (fig x). For example, a protein might directly promote its own accumulation (autocatalysis), either directly or via intermediates. Alternatively, mutual antagonism involving two species that negatively regulate one another can result in a double negative feedback loop, which is is mathematically equivalent to autocatalysis \citep{Ferrell2002}.
+As discussed below, this local activation can come about in a number of different ways (fig x). For example, a protein might directly promote its own accumulation (autocatalysis), either directly or via intermediates. Alternatively, mutual antagonism involving two species that negatively regulate one another can result in a double negative feedback loop, which is is mathematically equivalent to autocatalysis \citep{Ferrell2002}. If two species inhibit each other mutually, an increase in one leads to inhibition of the other, which frees inhibition on the first and allows if to amplify. Both of these concepts are useful to bear in mind for models of PAR polarity, which I will discuss later.
 
 \begin{figure}
 \includegraphics[scale=1]{feedback_modes_schematic}
@@ -313,7 +293,7 @@ The proteins themselves are generally not produced or destroyed on timescales th
 \clearpage
 \subsection{Models of cell polarity}
 
-Using these core principles, a number of models have been proposed to describe cell polarity. For the most part, models do not attempt to address the complex biochemistry of cell polarity networks, but compose systems as a small number of species and core reactions. Species in models generally do not refer to a single protein but to a set of proteins that interact together. Feedback reactions, which are generally complex, multi step reactions in vivo are built as single (or a small number) of terms in differential equations. Spatially geometry is usually simplified too. Because polarisation often occurs over a single axis, systems are usually modelled in one-dimension.\\
+Using these core principles, a number of models have been proposed to describe cell polarity. For the most part, models do not attempt to address the complex biochemistry of cell polarity networks, but compose systems as a small number of species and core reactions. Species in models generally do not refer to a single protein but to a set of proteins that interact together. Feedback reactions, which are generally complex, multi step reactions in vivo are built as single (or a small number) of terms in partial differential equations. A simplified spatially geometry is usually used too. Because polarisation often occurs over a single axis, systems are usually modelled in one-dimension.\\
 
 Some models are considered 'Turing-type', characterised by instabilities that cause symmetry to react to a small spatially varying stimulus and spontaneously break symmetry. These are attractive in the sense that they can account for spontaneous polarisation and can achieve high degrees of spatial asymmetry. However, they generally fail to account for resting nonpolar states which are often observed in vivo, in which systems wait for a sufficiently large trigger before polarity is kicked off.\\
 
@@ -326,7 +306,7 @@ In this section I will describe two models that are relevant to this work. I wil
 
 \subsubsection{Wave pinning model}
 
-Rho GTPases (Cdc42, Rac, Rho) are a conserved family of polarity proteins that regulate cell polarity in a range of contexts and cell types. An example is budding yeast, in which asymmetric cell division ate controlled by the polarity protein Cdc42, which forms a polar cap on the cell membrane. Cdc42 cycles between active, GTP-bound membrane state and an inactive GDP-bound cytoplasmic state. Switching between these two states is catalysed by two classes of proteins. The GEF Cdc24 switches Cdc42 to its active state, and a group of GAPs switch Cdc42 to its inactive state. Another key player is the scaffold protein Bem1, which is recruited to the membrane by the active form of Cdc42 and further recruits the GEF Cdc24. This reaction leads to a positive feedback loop, in which active Cdc42 accumulation leads to more accumulation. Meanwhile, growth of the domain causes the cytoplasmic form to be depleted, which eventually stalls growth of the domain.\\
+The wave-pinning model is a minimal cell polarity that was initially built to describe RhoGTPase patterning. Rho GTPases (Cdc42, Rac, Rho) are a conserved family of polarity proteins that regulate cell polarity in a range of contexts and cell types. An example is budding yeast, in which asymmetric cell division ate controlled by the polarity protein Cdc42, which forms a polar cap on the cell membrane. Cdc42 cycles between active, GTP-bound membrane state and an inactive GDP-bound cytoplasmic state. Switching between these two states is catalysed by two classes of proteins. The GEF Cdc24 switches Cdc42 to its active state, and a group of GAPs switch Cdc42 to its inactive state. Another key player is the scaffold protein Bem1, which is recruited to the membrane by the active form of Cdc42 and further recruits the GEF Cdc24. This reaction leads to a positive feedback loop, in which active Cdc42 accumulation leads to more accumulation. Meanwhile, growth of the domain causes the cytoplasmic form to be depleted, which eventually stalls growth of the domain.\\
 
 
 \begin{figure}
@@ -352,11 +332,11 @@ With the assumption that cytoplasmic diffusion is fast, and so cytoplasmic conce
 c &= T - \psi \bar{m}
 \end{align}
 
-where $\bar{m}$ is the average membrane concentration. This assumption is a close approximation when cytoplasmic diffusion is fast, and simplifies mathematical analysis.\\
+where $\bar{m}$ is the average membrane concentration and $\psi$ is the surface area to volume ratio. This assumption is a close approximation when cytoplasmic diffusion is fast, and simplifies mathematical analysis.\\
 
-A key feature of this model is that the reaction kinetics display bistability. This can seen by solving the reaction terms at equilibrium, which gives $m$ as a function of $c$ (fig xA). We can see from this that the resulting curve folds over itself, meaning that, within a range of cytoplasmic concentrations, two stable membrane concentrations (an upper and a lower state) are permitted by the reaction terms (a third solution between them is unstable). This bistability comes as a result of nonlinearities in the reaction terms, specifically in this case the exponents of 2 in the Hill function, which imply an ultrasensitivity relationship of the positive feedback reaction on membrane concentrations.\\
+A key feature of this model is that the reaction kinetics display bistability. This can seen by solving the reaction terms at equilibrium, which shows the permitted steady state combinations of $m$ and $c$ (fig xA). We can see from this that the resulting curve folds over itself, meaning that, within a range of cytoplasmic concentrations, two stable membrane concentrations (an upper and a lower state) are permitted by the reaction terms (a third solution between them is unstable). This bistability comes as a result of nonlinearities in the reaction terms, specifically in this case the exponents of 2 in the Hill function, which imply an ultrasensitivity relationship of the positive feedback reaction on membrane concentrations.\\
 
-Starting from a uniform state, a transient stimulus can be locally amplified by the positive feedback terms, bringing part of the system into the upper state. Due to diffusion, this region then spreads, until depletion of the cytoplasmic pool causes this spreading to stall (a phenomenon known as 'wave-pinning'). An example of a stable pattern is shown in fig x, which shows stable upper and lower regions separated by an interface. As pinning is caused by cytoplasmic depletion, the position of the interface is strongly influenced by the total amount of protein in the system. Furthermore, since bistability is only supported within a range of cytoplasmic concentrations, large changes in protein amounts can more the system away from a regime in which polarity is supported.\\
+Starting from a uniform state, a transient stimulus can be locally amplified by the positive feedback terms, bringing part of the system into the upper state. Due to diffusion, this region then spreads, until depletion of the cytoplasmic pool causes this spreading to stall (a phenomenon known as 'wave-pinning'). An example of a stable pattern is shown in fig x, which shows stable upper and lower regions separated by an interface. As pinning is caused by cytoplasmic depletion, the position of the interface is strongly influenced by the total amount of protein in the system. Furthermore, since bistability is only supported within a range of cytoplasmic concentrations, large changes in protein amounts can move the system away from a regime in which polarity is supported.\\
 
 
 
@@ -389,8 +369,7 @@ However, \cite{Goehring2011} later showed that polarity maintenance does not req
 \frac{\partial P_m}{\partial t} &= D_P \frac{\partial^2 P_m}{\partial x^2} + k_{on,P} P_c - k_{off,P} P_m - k_{PA} A_m^{\beta} P_m
 \end{align}
 
-where $x$ is the position coordinate along a one-dimensional membrane, $D_A$ and $D_P$ are diffusion coefficients at the membrane, $k_{on,A}$ and $k_{on,P}$ are binding rates from the cytoplasm to the membrane, $k_{off,A}$ and $k_{off,P}$ are the detachment rates from the membrane to the cytoplasm, and $k_{AP}$ and $k_{PA}$ describe antagonism.
-To provide sufficient nonlinearity for bistability, exponents are placed on the antagonism terms ($\alpha$ and $\beta$), at least one of which must be greater than one.\\
+where $x$ is the position coordinate along a one-dimensional membrane, $D_A$ and $D_P$ are diffusion coefficients at the membrane, $k_{on,A}$ and $k_{on,P}$ are binding rates from the cytoplasm to the membrane, $k_{off,A}$ and $k_{off,P}$ are the detachment rates from the membrane to the cytoplasm, and $k_{AP}$ and $k_{PA}$ describe antagonism.\\
 
 With the assumption that cytoplasmic diffusion is fast, and so cytoplasmic concentrations are effectively uniform, the cytoplasmic concentrations of A and P ($A_c$ and $P_c$) can be calculated based on the total amount of material ($A_{tot}$ and $P_{tot}$) according the the conservation of mass terms below:
 \begin{align}
@@ -409,16 +388,12 @@ Figure from \textcite{Goehring2011a}.
 \label{fig:goehring_model_schematic}
 \end{SCfigure}
 
-Bistability is achieved by including exponents on the antagonism terms. Such non-linearity could, in theory, be achieved in a number of ways \citep{Ferrell2014, Ferrell2014a, Ferrell2014b}. One example is multisite phosphorylation \citep{Serber2007}, which is common to many targets of PKC-3, including LGL-1 \citep{Graybill2014} and PAR-2 \citep{Hao2006}. The non-linearity of such reactions can be enhanced through the presence of cooperativity between phosphorylation sites \citep{Gunawardena2005}, or the presence of redundant sites \citep{Wang2010}, giving a switch-like behaviour.\\
-
-Alternatively, oligomerisation of proteins can provide sufficient non-linearity to support bistability, even if mutual antagonism reactions follow simple mass-action kinetics \citep{Sailer2015, Dawes2011, Lang2022}. Such reactions have been proposed for PAR-2 \citep{Arata2016},  PAR-3 \citep{Li2010a} and CHIN-1 \citep{Sailer2015}.\\
-
-Notably, whilst we have highlighted potential sources of non-linearity in the network, there have, to date, been no direct quantitative demonstrations of this key requirement for the PAR polarity model. Thus, the ability of the PAR network to support bistability in vivo is unknown.
+To provide sufficient nonlinearity for bistability, exponents are placed on the antagonism terms ($\alpha$ and $\beta$), at least one of which must be greater than one.. Such non-linearity could, in theory, be achieved in a number of ways \citep{Ferrell2014, Ferrell2014a, Ferrell2014b}. One example is multisite phosphorylation \citep{Serber2007}, which is common to many targets of PKC-3, including LGL-1 \citep{Graybill2014} and PAR-2 \citep{Hao2006}. The non-linearity of such reactions can be enhanced through the presence of cooperativity between phosphorylation sites \citep{Gunawardena2005}, or the presence of redundant sites \citep{Wang2010}, giving a switch-like behaviour. Alternatively, oligomerisation of proteins has been shown to provide sufficient non-linearity to support bistability, even if mutual antagonism reactions follow simple mass-action kinetics \citep{Sailer2015, Dawes2011, Lang2022}. Such reactions have been proposed for PAR-2 \citep{Arata2016},  PAR-3 \citep{Li2010a} and CHIN-1 \citep{Sailer2015}. Notably, whilst we have highlighted potential sources of non-linearity in the network, there have, to date, been no direct quantitative demonstrations of this key requirement for the PAR polarity model. Thus, the ability of the PAR network to support bistability in vivo is unknown.
 
 % Self organisation decouples final patterns from the strength of the input cue, and leads to consistent patterns in the face of upstream variations
 
 \clearpage
-\section{The molecular circuitry of PAR polarity}
+\section{The molecular circuitry of the PAR network}
 
 % Relate to previous section. Features of model: membrane association, mutually antagonistic feedback, and triggering.
 
@@ -437,19 +412,17 @@ Solid lines indicate direct binding. Dotted lines represent enzymatic activity. 
 
 \subsection{Mechanisms of cortical association}
 
-PAR proteins associate with the cortex in a number of ways. Some PARs display direct and intrinsic cortical localisation activity (PAR-3, PAR-2, CDC-42, CHIN-1, LGL-1). Whilst originally thought to interact with the cytoskeleton, these PARs are now known to localise to the cortex by interacting with the inner leaflet of the plasma membrane through a combination of electrostatics and interactions with specific phospholipids. Other PARs rely instead on other PARs to act as scaffolds (PAR-6, PKC-3), or fall somewhere in between with a mix of direct and scaffold-mediated membrane binding (PAR-1). In this section I will overview some of the key mechanisms.\\
+The PAR proteins associate with the cortex in a number of ways. Some of the PARs display direct and intrinsic cortical localisation activity (PAR-3, PAR-2, CDC-42, CHIN-1, LGL-1). Other PARs rely instead on other PARs to act as scaffolds (PAR-6, PKC-3), or fall somewhere in between with a mix of direct and scaffold-mediated membrane binding (PAR-1). In this section I will overview some of the key mechanisms of cortical association.\\
 
 \subsubsection{Association with lipids}
-% At this point do I need to remind the reader what each protein does?
-% Make clear the distinction between specific lipid interactions, hydrophobic interactions and charge
+
+A number of the PAR proteins localise to the cortex by interacting with the inner leaflet of the plasma membrane. For some PAR proteins, this is mediated by interactions with specific phospholipids that are enriched at the plasma membrane. Other PARs, rely on electrostatic interactions with the membrane via charged domains.\\
 
 PAR-3, an aPAR scaffold protein, associates with the membrane via its PDZ2 domain \citep{Li2010a}. PAR-3 has three PDZ domains, of which only PDZ2 is required for cortical association. PDZ domains most commonly recognise C-terminal sequences on proteins \citep{Tonikian2008} or other PDZ domains (ref), however the PDZ2 domain of PAR-3 is thought to interact directly with plasma membrane phosphoinositides \citep{Wu2007}.\\
 
 The membrane localisation of the RHO GTPase CDC-42 is largely due to a c-terminal geranylgeranyl moiety \citep{Ziman1993}, which promotes hydrophobic attachment to cell membranes. The protein additionally contains a conserved cluster of positively charged residues directly preceding the geranylgeranyl moiety, including a di-arginine motif which promotes specificity for PIP$_2$ containing membranes \citep{Johnson2012}, which is likely responsible for the protein's plasma membrane specificity.\\
 
 Cortical localisation of PAR-2 in vivo depends on a central unstructured region of the protein rich in basic amino acids \citep{Hao2006}. Full-length PAR-2 displays an ability to bind to an array of positively charged phospholipids in vitro, suggesting an electrostatics-based interaction rather than specific interaction with any one phospholipid \citep{Motegi2011}. Given this promiscuous nature, its apparent specificity for the plasma membrane in vivo is poorly understood, but may be a consequence of the increased charge associated with the plasma membrane compared to other membranes \citep{Yeung2008}.\\
-% So far I'm not talking about the fact that ATP domain has no role...
-% Contains a 26-amino acid phospho-regulated basic and hydrophobic sequence (Bailey)
 
 PAR-1 contains a C-terminal KA domain, a common membrane association domain, which can bind to membranes and (similarly to PAR-2) interact non-specifically with anionic phospholipids \citep{Moravcevic2010}. This domain has been shown to be both necessary and sufficient for cortical localisation in vivo \citep{Motegi2011}.\\
 
@@ -457,9 +430,7 @@ Cortical association of LGL-1 relies on a region towards the C-terminus of the p
 
 \subsubsection{Interaction with scaffolds}
 
-Some PAR proteins don't display intrinsic cortical localisation activity, relying instead on other PARs to act as scaffolds and adaptors. PAR-6 and PKC-3 are stable binding partners, interacting via PB1 domains at the N-terminus of each protein \citep{Hirano2005}, and in normal circumstances are dependent on each other for stable cortical association \citep{Tabuse1998, Hung1999}. Proper cortical association of this complex relies on interactions with both PAR-3 and CDC-42. \\
-
-PAR-6 interacts with CDC-42 via its semi-CRIB domain, which is a requirement for proper cortical association \citep{Aceto2006}. It can also interact with the PDZ1 domain of PAR-3 via its own PDZ domain \citep{Li2010}. However, this interaction does not appear to play an essential role in vivo in \textit{C. elegans} embryos, as mutations to this domain which disrupt the interaction in vitro have no effect on the in vivo distribution of PAR-6 \citep{Li2010}. PKC-3 engages with PAR-3 via its kinase domain. Two sites flanking the phosphosite direct binding to the CR3 domain of PAR-3 \citep{Soriano2016}). Upstream of the phosphosite is an FxR site, a conserved motif found in PKC-3 substrates which provides an anchor point for PKC-3. Downstream is a hook motif which engages pockets within the PKC-3 kinase domain and disrupts an N-lobe required for catalytic activity, keeping PKC-3 in an inactive state.\\
+PAR-6 and PKC-3 are stable binding partners, interacting via PB1 domains at the N-terminus of each protein \citep{Hirano2005}, and in normal circumstances are dependent on each other for stable cortical association \citep{Tabuse1998, Hung1999}. Proper cortical association of this complex relies on interactions with both PAR-3 and CDC-42. PAR-6 interacts with CDC-42 via its semi-CRIB domain, which is a requirement for proper cortical association \citep{Aceto2006}. It can also interact with the PDZ1 domain of PAR-3 via its own PDZ domain \citep{Li2010}. However, this interaction does not appear to play an essential role in vivo in \textit{C. elegans} embryos, as mutations to this domain which disrupt the interaction in vitro have no effect on the in vivo distribution of PAR-6 \citep{Li2010}. PKC-3 engages with PAR-3 via its kinase domain. Two sites flanking the phosphosite direct binding to the CR3 domain of PAR-3 \citep{Soriano2016}). Upstream of the phosphosite is an FxR site, a conserved motif found in PKC-3 substrates which provides an anchor point for PKC-3. Downstream is a hook motif which engages pockets within the PKC-3 kinase domain and disrupts an N-lobe required for catalytic activity, keeping PKC-3 in an inactive state.\\
 
 PAR-6/PKC-3 accumulate at the membrane in two distinct pools: a punctate PAR-3 dependent pool, and a diffuse CDC-42 dependent pool \citep{Aceto2006, Beers2006}. The punctate pool represents PAR-6/PKC-3 directly associated with PAR-3 \citep{Dickinson2017}, whereas the diffuse pool represents PAR-6/PKC-3 bound to CDC-42. PAR-3 is usually essential for any PAR-6/PKC-3 cortical localisation, suggesting that the PAR-3 associated state is a prerequisite for assembly into the CDC-42 associated state. Interestingly, however, inhibition of PKC-3 kinase activity allows the complex to bypass this requirement and interact with CDC42 directly in the absence of PAR-3 \citep{Rodriguez2017}. This implies a model where the complex is first recruited into a PAR-3 associated complex, PKC-3 is then inactivated by PAR-3, which permits transfer to a CDC-42 associated state, in which the inhibition of PKC-3 is relieved.\\
 
@@ -505,6 +476,8 @@ Maintenance does not involve any diffusion barriers, and proteins are able to fr
 
 % PRBH motifs? See Bailey/Prehoda
 Antagonism from aPARs to pPARs is thought to be driven exclusively by PKC-3. The pPAR proteins PAR-1, PAR-2 and LGL-1 contain FxR motifs, which act as high affinity PKC-3 recognition motifs \citep{Soriano2016}. Phosphorylation of these substrates by PKC-3 adds negative charge to the proteins, which electrostatically repels them from the membrane. In the case of PAR-1 and LGL-1, phosphorylation is at a single site within the membrane association domain \citep{Hoege2010, Motegi2011}. Phosphorylation of these sites is necessary and sufficient to exclude these proteins from the membrane. PAR-2 is more complex, with seven predicted phosphorylation sites \citep{Hao2006}, although these have yet to be verified biochemically. Phosphorylation by PKC-3 has been shown to disrupt binding of PAR-2 to phospholipids in vitro \citep{Motegi2011}. Mutation of all seven sites prevents phosphorylation in vivo, leading to uniform PAR-2 \citep{Hao2006}. I will discuss details relating to PAR-2 phosphorylation further in the appendix.\\
+
+% Is LGL multiphosphorylated? See Graybill2014
 
 CHIN-1 does not have an FxR site, but is also excluded from the anterior by PKC-3 \citep{Sailer2015}. This is thought to involve direct inhibition of CHIN-1 clustering at the cortex by PKC-3, however the mechanistic basis of this is poorly understood.\\
 
@@ -2376,6 +2349,8 @@ There are still many open questions that we are actively pursuing. Firstly, we a
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \chapter{Discussion}
+
+% If a high affinity is so good for the system, then why does PAR-2 not form constitutive dimers? My work suggests that to do so comes with a cost. 
 
 \begin{comment}
 \subsection{Main functional roles of PAR-2}
