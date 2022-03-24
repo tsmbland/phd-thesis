@@ -5,114 +5,113 @@
 \BOOKMARK [1][-]{section.1.2}{Patterning via self-organisation}{chapter.1}% 5
 \BOOKMARK [2][-]{subsection.1.2.1}{Principles of self-organisation}{section.1.2}% 6
 \BOOKMARK [2][-]{subsection.1.2.2}{Self-organisation for cell polarity}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.3}{Models of cell polarity}{section.1.2}% 8
-\BOOKMARK [1][-]{section.1.3}{The molecular circuitry of the PAR network}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.3.1}{Mechanisms of cortical association}{section.1.3}% 10
-\BOOKMARK [2][-]{subsection.1.3.2}{Establishment of polarity}{section.1.3}% 11
-\BOOKMARK [2][-]{subsection.1.3.3}{Maintenance of polarity by mutual antagonism}{section.1.3}% 12
-\BOOKMARK [2][-]{subsection.1.3.4}{Orchestrating an asymmetric cell division}{section.1.3}% 13
-\BOOKMARK [1][-]{section.1.4}{Beyond mutual antagonism}{chapter.1}% 14
-\BOOKMARK [2][-]{subsection.1.4.1}{Regulation of the actomyosin cortex}{section.1.4}% 15
-\BOOKMARK [2][-]{subsection.1.4.2}{Division of labour}{section.1.4}% 16
-\BOOKMARK [2][-]{subsection.1.4.3}{Substrate competition and protection}{section.1.4}% 17
-\BOOKMARK [2][-]{subsection.1.4.4}{A pPAR positive feedback circuit}{section.1.4}% 18
-\BOOKMARK [1][-]{section.1.5}{Outlook}{chapter.1}% 19
-\BOOKMARK [0][-]{chapter.2}{A pipeline for quantification of membrane and cytoplasmic protein concentrations}{}% 20
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.2}{Autofluorescence correction}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.1}{Autofluorescence in C. elegans}{section.2.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.2}{SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.3}{Assessing SAIBR performance on images of PAR proteins}{section.2.2}% 25
-\BOOKMARK [2][-]{subsection.2.2.4}{Extending SAIBR to dual-labelled C. elegans embryos}{section.2.2}% 26
-\BOOKMARK [2][-]{subsection.2.2.5}{Discussion}{section.2.2}% 27
-\BOOKMARK [1][-]{section.2.3}{Extracting membrane and cytoplasmic signal components}{chapter.2}% 28
-\BOOKMARK [2][-]{subsection.2.3.1}{An overview of existing methods}{section.2.3}% 29
-\BOOKMARK [2][-]{subsection.2.3.2}{Accounting for out-of-focus scatter}{section.2.3}% 30
-\BOOKMARK [2][-]{subsection.2.3.3}{A gradient descent protocol for image quantification}{section.2.3}% 31
-\BOOKMARK [2][-]{subsection.2.3.4}{Segmentation}{section.2.3}% 32
-\BOOKMARK [2][-]{subsection.2.3.5}{Benchmarking the method}{section.2.3}% 33
-\BOOKMARK [2][-]{subsection.2.3.6}{Calibrating concentration units}{section.2.3}% 34
-\BOOKMARK [2][-]{subsection.2.3.7}{Discussion}{section.2.3}% 35
-\BOOKMARK [0][-]{chapter.3}{Uncovering a PAR-2 positive feedback circuit}{}% 36
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.1.1}{The PAR-2 polarity pathway}{section.3.1}% 38
-\BOOKMARK [2][-]{subsection.3.1.2}{Self-recruitment}{section.3.1}% 39
-\BOOKMARK [2][-]{subsection.3.1.3}{RING domain}{section.3.1}% 40
-\BOOKMARK [2][-]{subsection.3.1.4}{PKC-3/PAR-2 interactions}{section.3.1}% 41
-\BOOKMARK [2][-]{subsection.3.1.5}{Outlook}{section.3.1}% 42
-\BOOKMARK [1][-]{section.3.2}{Quantitative characterisation of PAR-2 mutant alleles}{chapter.3}% 43
-\BOOKMARK [1][-]{section.3.3}{RING domain promotes positive feedback to achieve optimal membrane affinity}{chapter.3}% 44
-\BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 45
-\BOOKMARK [0][-]{chapter.4}{Determining mechanisms of PAR-2 RING domain action}{}% 46
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.2}{Exploring a role for ubiquitination}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.2.1}{PAR-2 does not show activity in in vitro ubiquitination assays}{section.4.2}% 49
-\BOOKMARK [2][-]{subsection.4.2.2}{Targeted mutation to putative linchpin site has no phenotype}{section.4.2}% 50
-\BOOKMARK [2][-]{subsection.4.2.3}{Discussion}{section.4.2}% 51
-\BOOKMARK [1][-]{section.4.3}{Exploring a role for dimerisation}{chapter.4}% 52
-\BOOKMARK [2][-]{subsection.4.3.1}{PAR-2 RING domain sequence bears hallmarks of dimeric RINGs}{section.4.3}% 53
-\BOOKMARK [2][-]{subsection.4.3.2}{The PAR-2 RING domain displays concentration-dependent dimerisation in vitro}{section.4.3}% 54
-\BOOKMARK [2][-]{subsection.4.3.3}{Dimerisation is mediated by 4-helix bundle with hydrophobic core}{section.4.3}% 55
-\BOOKMARK [2][-]{subsection.4.3.4}{Cytoplasmic PAR-2 does not self-associate in vivo}{section.4.3}% 56
-\BOOKMARK [2][-]{subsection.4.3.5}{Membrane-enriched PAR-2 self-associates in vivo}{section.4.3}% 57
-\BOOKMARK [2][-]{subsection.4.3.6}{Mutation to dimerisation interface weakens membrane association in vivo}{section.4.3}% 58
-\BOOKMARK [2][-]{subsection.4.3.7}{Discussion}{section.4.3}% 59
-\BOOKMARK [0][-]{chapter.5}{Modelling the interplay between dimerisation and membrane association}{}% 60
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 61
-\BOOKMARK [1][-]{section.5.2}{Modelling chemical equilibria}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.3}{A thermodynamic model of dimerisation and membrane association}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.3.1}{Thermodynamic description of membrane association}{section.5.3}% 64
-\BOOKMARK [2][-]{subsection.5.3.2}{Thermodynamic description of dimerisation}{section.5.3}% 65
-\BOOKMARK [2][-]{subsection.5.3.3}{Combining membrane association and dimerisation}{section.5.3}% 66
-\BOOKMARK [2][-]{subsection.5.3.4}{Intermediate dimerisation can drive nonlinear membrane association}{section.5.3}% 67
-\BOOKMARK [1][-]{section.5.4}{Quantitative assessment of PAR-2 membrane association behaviour}{chapter.5}% 68
-\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 69
-\BOOKMARK [0][-]{chapter.6}{Assessing the impacts of PAR-2 dimerisation in polarity models}{}% 70
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 71
-\BOOKMARK [1][-]{section.6.2}{Describing membrane binding dynamics with transition state theory}{chapter.6}% 72
-\BOOKMARK [1][-]{section.6.3}{Exploring the effects of membrane lifetime in the mutual antagonism model}{chapter.6}% 73
-\BOOKMARK [2][-]{subsection.6.3.1}{Conditions for polarisation}{section.6.3}% 74
-\BOOKMARK [2][-]{subsection.6.3.2}{Low off rates strengthen pattern asymmetries}{section.6.3}% 75
-\BOOKMARK [2][-]{subsection.6.3.3}{Low off rates enhance pattern stability}{section.6.3}% 76
-\BOOKMARK [2][-]{subsection.6.3.4}{Conclusions}{section.6.3}% 77
-\BOOKMARK [1][-]{section.6.4}{Exploring the effects of dimerisation-driven feedback in polarity models}{chapter.6}% 78
-\BOOKMARK [2][-]{subsection.6.4.1}{Separating the effects of dimerisation on membrane affinity and feedback}{section.6.4}% 79
-\BOOKMARK [2][-]{subsection.6.4.2}{Modelling aPAR to pPAR antagonism}{section.6.4}% 80
-\BOOKMARK [2][-]{subsection.6.4.3}{Dimerisation can generate nonlinear antagonism}{section.6.4}% 81
-\BOOKMARK [2][-]{subsection.6.4.4}{Dimerisation-driven nonlinearities are sufficient for polarity in self-organising models}{section.6.4}% 82
-\BOOKMARK [1][-]{section.6.5}{Discussion}{chapter.6}% 83
-\BOOKMARK [0][-]{chapter.7}{Enhancing PAR-2 dimerisation}{}% 84
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 85
-\BOOKMARK [1][-]{section.7.2}{Strengthening PAR-2 dimerisation shifts localisation pattern}{chapter.7}% 86
-\BOOKMARK [1][-]{section.7.3}{Incorporating internal membranes into thermodynamic models}{chapter.7}% 87
-\BOOKMARK [1][-]{section.7.4}{Modelling the kinetics of PAR network reconfigurations}{chapter.7}% 88
-\BOOKMARK [1][-]{section.7.5}{Monitoring the behaviour of dimeric PAR-2 closer to equilibrium}{chapter.7}% 89
-\BOOKMARK [1][-]{section.7.6}{Discussion}{chapter.7}% 90
-\BOOKMARK [0][-]{chapter.8}{Discussion}{}% 91
-\BOOKMARK [0][-]{chapter.9}{Materials and methods}{}% 92
-\BOOKMARK [1][-]{section.9.1}{C. elegans methods}{chapter.9}% 93
-\BOOKMARK [2][-]{subsection.9.1.1}{Worm maintenance}{section.9.1}% 94
-\BOOKMARK [2][-]{subsection.9.1.2}{Worm strains}{section.9.1}% 95
-\BOOKMARK [2][-]{subsection.9.1.3}{RNA interference}{section.9.1}% 96
-\BOOKMARK [2][-]{subsection.9.1.4}{Brood size assays}{section.9.1}% 97
-\BOOKMARK [1][-]{section.9.2}{CRISPR}{chapter.9}% 98
-\BOOKMARK [2][-]{subsection.9.2.1}{Overview of CRISPR strategies}{section.9.2}% 99
-\BOOKMARK [2][-]{subsection.9.2.2}{Testing a method for gene insertions at the endogenous glh-1 site}{section.9.2}% 100
-\BOOKMARK [2][-]{subsection.9.2.3}{PAR-2 point mutations}{section.9.2}% 101
-\BOOKMARK [2][-]{subsection.9.2.4}{PAR-2 GCN4 insertion}{section.9.2}% 102
-\BOOKMARK [2][-]{subsection.9.2.5}{Mitochondrial GFP-binding protein}{section.9.2}% 103
-\BOOKMARK [2][-]{subsection.9.2.6}{Plasma membrane tethered PAR-2 RING fragment}{section.9.2}% 104
-\BOOKMARK [2][-]{subsection.9.2.7}{RING domain fragment}{section.9.2}% 105
-\BOOKMARK [2][-]{subsection.9.2.8}{GCN4 fragment}{section.9.2}% 106
-\BOOKMARK [1][-]{section.9.3}{Microscopy}{chapter.9}% 107
-\BOOKMARK [1][-]{section.9.4}{In vitro methods}{chapter.9}% 108
-\BOOKMARK [2][-]{subsection.9.4.1}{Full-length PAR-2 purification}{section.9.4}% 109
-\BOOKMARK [2][-]{subsection.9.4.2}{Ubiquitination assays}{section.9.4}% 110
-\BOOKMARK [2][-]{subsection.9.4.3}{PAR-2 RING domain fragment purification}{section.9.4}% 111
-\BOOKMARK [2][-]{subsection.9.4.4}{SEC-MALS}{section.9.4}% 112
-\BOOKMARK [1][-]{section.9.5}{Computational methods}{chapter.9}% 113
-\BOOKMARK [2][-]{subsection.9.5.1}{Image analysis}{section.9.5}% 114
-\BOOKMARK [2][-]{subsection.9.5.2}{Modelling}{section.9.5}% 115
-\BOOKMARK [0][-]{chapter*.134}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 116
-\BOOKMARK [0][-]{chapter*.140}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{}% 117
-\BOOKMARK [0][-]{chapter*.140}{Bibliography}{}% 118
+\BOOKMARK [1][-]{section.1.3}{The molecular circuitry of the PAR network}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.3.1}{Mechanisms of cortical association}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.2}{Establishment of polarity}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.3}{Maintenance of polarity by mutual antagonism}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.4}{Orchestrating an asymmetric cell division}{section.1.3}% 12
+\BOOKMARK [1][-]{section.1.4}{Beyond mutual antagonism}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.4.1}{Regulation of the actomyosin cortex}{section.1.4}% 14
+\BOOKMARK [2][-]{subsection.1.4.2}{Division of labour}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.3}{Substrate competition}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.4}{A pPAR positive feedback circuit}{section.1.4}% 17
+\BOOKMARK [1][-]{section.1.5}{Outlook}{chapter.1}% 18
+\BOOKMARK [0][-]{chapter.2}{A pipeline for quantification of membrane and cytoplasmic protein concentrations}{}% 19
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.2}{Autofluorescence correction}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{Autofluorescence in C. elegans}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{Assessing SAIBR performance on images of PAR proteins}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.4}{Extending SAIBR to dual-labelled C. elegans embryos}{section.2.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.5}{Discussion}{section.2.2}% 26
+\BOOKMARK [1][-]{section.2.3}{Extracting membrane and cytoplasmic signal components}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.3.1}{An overview of existing methods}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.2}{Accounting for out-of-focus scatter}{section.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.3.3}{A gradient descent protocol for image quantification}{section.2.3}% 30
+\BOOKMARK [2][-]{subsection.2.3.4}{Segmentation}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.5}{Benchmarking the method}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.6}{Calibrating concentration units}{section.2.3}% 33
+\BOOKMARK [2][-]{subsection.2.3.7}{Discussion}{section.2.3}% 34
+\BOOKMARK [0][-]{chapter.3}{Uncovering a PAR-2 positive feedback circuit}{}% 35
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.1.1}{The PAR-2 polarity pathway}{section.3.1}% 37
+\BOOKMARK [2][-]{subsection.3.1.2}{Self-recruitment}{section.3.1}% 38
+\BOOKMARK [2][-]{subsection.3.1.3}{RING domain}{section.3.1}% 39
+\BOOKMARK [2][-]{subsection.3.1.4}{PKC-3/PAR-2 interactions}{section.3.1}% 40
+\BOOKMARK [2][-]{subsection.3.1.5}{Outlook}{section.3.1}% 41
+\BOOKMARK [1][-]{section.3.2}{Quantitative characterisation of PAR-2 mutant alleles}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.3}{RING domain promotes positive feedback to achieve optimal membrane affinity}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 44
+\BOOKMARK [0][-]{chapter.4}{Determining mechanisms of PAR-2 RING domain action}{}% 45
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.2}{Exploring a role for ubiquitination}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.2.1}{PAR-2 does not show activity in in vitro ubiquitination assays}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.2}{Targeted mutation to putative linchpin site has no phenotype}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.3}{Discussion}{section.4.2}% 50
+\BOOKMARK [1][-]{section.4.3}{Exploring a role for dimerisation}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.3.1}{PAR-2 RING domain sequence bears hallmarks of dimeric RINGs}{section.4.3}% 52
+\BOOKMARK [2][-]{subsection.4.3.2}{The PAR-2 RING domain displays concentration-dependent dimerisation in vitro}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.3}{Dimerisation is mediated by 4-helix bundle with hydrophobic core}{section.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.3.4}{Cytoplasmic PAR-2 does not self-associate in vivo}{section.4.3}% 55
+\BOOKMARK [2][-]{subsection.4.3.5}{Membrane-enriched PAR-2 self-associates in vivo}{section.4.3}% 56
+\BOOKMARK [2][-]{subsection.4.3.6}{Mutation to dimerisation interface weakens membrane association in vivo}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.7}{Discussion}{section.4.3}% 58
+\BOOKMARK [0][-]{chapter.5}{Modelling the interplay between dimerisation and membrane association}{}% 59
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.2}{Modelling chemical equilibria}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.3}{A thermodynamic model of dimerisation and membrane association}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.3.1}{Thermodynamic description of membrane association}{section.5.3}% 63
+\BOOKMARK [2][-]{subsection.5.3.2}{Thermodynamic description of dimerisation}{section.5.3}% 64
+\BOOKMARK [2][-]{subsection.5.3.3}{Combining membrane association and dimerisation}{section.5.3}% 65
+\BOOKMARK [2][-]{subsection.5.3.4}{Intermediate dimerisation can drive nonlinear membrane association}{section.5.3}% 66
+\BOOKMARK [1][-]{section.5.4}{Quantitative assessment of PAR-2 membrane association behaviour}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 68
+\BOOKMARK [0][-]{chapter.6}{Assessing the impacts of PAR-2 dimerisation in polarity models}{}% 69
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.2}{Describing membrane binding dynamics with transition state theory}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.3}{Exploring the effects of membrane lifetime in the mutual antagonism model}{chapter.6}% 72
+\BOOKMARK [2][-]{subsection.6.3.1}{Conditions for polarisation}{section.6.3}% 73
+\BOOKMARK [2][-]{subsection.6.3.2}{Low off rates strengthen pattern asymmetries}{section.6.3}% 74
+\BOOKMARK [2][-]{subsection.6.3.3}{Low off rates enhance pattern stability}{section.6.3}% 75
+\BOOKMARK [2][-]{subsection.6.3.4}{Conclusions}{section.6.3}% 76
+\BOOKMARK [1][-]{section.6.4}{Exploring the effects of dimerisation-driven feedback in polarity models}{chapter.6}% 77
+\BOOKMARK [2][-]{subsection.6.4.1}{Separating the effects of dimerisation on membrane affinity and feedback}{section.6.4}% 78
+\BOOKMARK [2][-]{subsection.6.4.2}{Modelling aPAR to pPAR antagonism}{section.6.4}% 79
+\BOOKMARK [2][-]{subsection.6.4.3}{Dimerisation can generate nonlinear antagonism}{section.6.4}% 80
+\BOOKMARK [2][-]{subsection.6.4.4}{Dimerisation-driven nonlinearities are sufficient for polarity in self-organising models}{section.6.4}% 81
+\BOOKMARK [1][-]{section.6.5}{Discussion}{chapter.6}% 82
+\BOOKMARK [0][-]{chapter.7}{Enhancing PAR-2 dimerisation}{}% 83
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 84
+\BOOKMARK [1][-]{section.7.2}{Strengthening PAR-2 dimerisation shifts localisation pattern}{chapter.7}% 85
+\BOOKMARK [1][-]{section.7.3}{Incorporating internal membranes into thermodynamic models}{chapter.7}% 86
+\BOOKMARK [1][-]{section.7.4}{Modelling the kinetics of PAR network reconfigurations}{chapter.7}% 87
+\BOOKMARK [1][-]{section.7.5}{Monitoring the behaviour of dimeric PAR-2 closer to equilibrium}{chapter.7}% 88
+\BOOKMARK [1][-]{section.7.6}{Discussion}{chapter.7}% 89
+\BOOKMARK [0][-]{chapter.8}{Discussion}{}% 90
+\BOOKMARK [0][-]{chapter.9}{Materials and methods}{}% 91
+\BOOKMARK [1][-]{section.9.1}{C. elegans methods}{chapter.9}% 92
+\BOOKMARK [2][-]{subsection.9.1.1}{Worm maintenance}{section.9.1}% 93
+\BOOKMARK [2][-]{subsection.9.1.2}{Worm strains}{section.9.1}% 94
+\BOOKMARK [2][-]{subsection.9.1.3}{RNA interference}{section.9.1}% 95
+\BOOKMARK [2][-]{subsection.9.1.4}{Brood size assays}{section.9.1}% 96
+\BOOKMARK [1][-]{section.9.2}{CRISPR}{chapter.9}% 97
+\BOOKMARK [2][-]{subsection.9.2.1}{Overview of CRISPR strategies}{section.9.2}% 98
+\BOOKMARK [2][-]{subsection.9.2.2}{Testing a method for gene insertions at the endogenous glh-1 site}{section.9.2}% 99
+\BOOKMARK [2][-]{subsection.9.2.3}{PAR-2 point mutations}{section.9.2}% 100
+\BOOKMARK [2][-]{subsection.9.2.4}{PAR-2 GCN4 insertion}{section.9.2}% 101
+\BOOKMARK [2][-]{subsection.9.2.5}{Mitochondrial GFP-binding protein}{section.9.2}% 102
+\BOOKMARK [2][-]{subsection.9.2.6}{Plasma membrane tethered PAR-2 RING fragment}{section.9.2}% 103
+\BOOKMARK [2][-]{subsection.9.2.7}{RING domain fragment}{section.9.2}% 104
+\BOOKMARK [2][-]{subsection.9.2.8}{GCN4 fragment}{section.9.2}% 105
+\BOOKMARK [1][-]{section.9.3}{Microscopy}{chapter.9}% 106
+\BOOKMARK [1][-]{section.9.4}{In vitro methods}{chapter.9}% 107
+\BOOKMARK [2][-]{subsection.9.4.1}{Full-length PAR-2 purification}{section.9.4}% 108
+\BOOKMARK [2][-]{subsection.9.4.2}{Ubiquitination assays}{section.9.4}% 109
+\BOOKMARK [2][-]{subsection.9.4.3}{PAR-2 RING domain fragment purification}{section.9.4}% 110
+\BOOKMARK [2][-]{subsection.9.4.4}{SEC-MALS}{section.9.4}% 111
+\BOOKMARK [1][-]{section.9.5}{Computational methods}{chapter.9}% 112
+\BOOKMARK [2][-]{subsection.9.5.1}{Image analysis}{section.9.5}% 113
+\BOOKMARK [2][-]{subsection.9.5.2}{Modelling}{section.9.5}% 114
+\BOOKMARK [0][-]{chapter*.130}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{}% 115
+\BOOKMARK [0][-]{chapter*.136}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{}% 116
+\BOOKMARK [0][-]{chapter*.136}{Bibliography}{}% 117
