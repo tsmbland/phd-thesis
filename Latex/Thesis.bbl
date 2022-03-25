@@ -1170,6 +1170,96 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Bo2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BS}{%
+         family={Bo},
+         familyi={B\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={Falko},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Eichhorn},
+         familyi={E\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Volpe},
+         familyi={V\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Diffusion,Machine learning,Single
+  molecule,doi:10.1103/PhysRevE.100.010102 url:https://doi.or}
+    \strng{namehash}{BS+2}
+    \strng{fullhash}{BSSFERVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Anomalous diffusion occurs in many physical and biological phenomena, when
+  the growth of the mean squared displacement (MSD) with time has an exponent
+  different from one. We show that recurrent neural networks (RNNs) can
+  efficiently characterize anomalous diffusion by determining the exponent from
+  a single short trajectory, outperforming the standard estimation based on the
+  MSD when the available data points are limited, as is often the case in
+  experiments. Furthermore, the RNNs can handle more complex tasks where there
+  are no standard approaches, such as determining the anomalous diffusion
+  exponent from a trajectory sampled at irregular times, and estimating the
+  switching time and anomalous diffusion exponents of an intermittent system
+  that switches between different kinds of anomalous diffusion. We validate our
+  method on experimental data obtained from subdiffusive colloids trapped in
+  speckle light fields and superdiffusive microswimmers. Anomalous diffusion
+  underlies various physical and biological systems, such as the motion of
+  microscopic particles in a crowded subcellular environment and the active
+  dynamics of biomolecules in the cytoplasm [1-3]. While normal diffusion is
+  characterized by a linear growth of the mean squared displacement (MSD) with
+  time, anomalous diffusion features a nonlinear, power-law growth. If we
+  consider a microscopic particle whose position is X (t), its MSD is, in the
+  stationary case, E [(X (t + $\tau$) − X (t)) 2 ] = K $\alpha$ $\tau$
+  $\alpha$ , (1) where $\alpha$ is the exponent characterizing the anomalous
+  diffusion and K $\alpha$ is a generalized diffusion coefficient with
+  dimension [length 2 time −$\alpha$ ]. The exponent $\alpha$ contains
+  crucial information regarding the nature of these systems distinguishing
+  standard diffusion ($\alpha$ = 1) from anomalous diffusion ($\alpha$ < 1 for
+  subdiffusion and $\alpha$ > 1 for superdiffusion). Therefore, it is crucial
+  to be able to determine its value from experimental data. When large datasets
+  are available, the exponent can be straightforwardly fitted from the
+  empirical MSD [4-8], or using alternative techniques [9-15]. Most of these
+  methods work under the assumption that the exponent does not change abruptly
+  over the duration of the measurement, and require the particles' trajectory
+  to be sufficiently long and to be sampled at regular time intervals (unless
+  several trajectories are available for each case). However, especially in
+  single-molecule studies and in nonequilibrium experiments, the dynamic and
+  unsteady character of the process under study and the variability of the
+  environment restrict the possibility to collect large amounts of data under
+  the exact same conditions [16]. Therefore, often one has only access to
+  trajectories that are short (e.g., limited * Present address:%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevE.100.010102
+    \endverb
+    \field{title}{{Measurement of anomalous diffusion using recurrent neural
+  networks}}
+    \field{volume}{100}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/PhysRevE.100.010102.pdf:pdf;
+    \verb :Users/blandt/Documents/Mendeley Desktop/SI_resub.pdf:pdf
+    \endverb
+    \field{journaltitle}{Physical Review E}
+    \field{year}{2019}
+  \endentry
+
   \entry{Boyd1996}{article}{}
     \name{author}{5}{}{%
       {{hash=BL}{%
@@ -1362,6 +1452,39 @@
     \endverb
     \field{journaltitle}{biorRxiv}
     \field{year}{2022}
+  \endentry
+
+  \entry{Chang2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CY}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Yiran},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DDJ}{%
+         family={Dickinson},
+         familyi={D\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Diffusion,Oligomerisation,PAR-3,Polarity,Single molecule}
+    \strng{namehash}{CYDDJ1}
+    \strng{fullhash}{CYDDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{0\bibrangedash 43}
+    \field{title}{{A particle size threshold governs diffusion and segregation
+  of PAR-3 during cell polarization}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/2021.06.07.447386v1.full.pdf
+    \verb :pdf
+    \endverb
+    \field{year}{2021}
   \endentry
 
   \entry{Chau2012}{article}{}
@@ -2307,6 +2430,96 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Dong2020}{article}{}
+    \name{author}{7}{}{%
+      {{hash=DW}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Juan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xuejing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lettieri},
+         familyi={L\bibinitperiod},
+         given={Kaela},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HGR}{%
+         family={Hammond},
+         familyi={H\bibinitperiod},
+         given={Gerald\bibnamedelima R},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Journal Club,PAR-6,Polarity,Printed}
+    \strng{namehash}{DW+1}
+    \strng{fullhash}{DWLJZXWYLKHGRHY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Mechanisms coupling the atypical PKC (aPKC) kinase activity to its
+  subcellular localization are essential for cell polarization. Unlike other
+  members of the PKC family, aPKC has no well-defined plasma membrane (PM) or
+  calcium binding domains, leading to the assumption that its subcellular
+  localization relies exclusively on protein-protein interactions. Here we show
+  that in both Drosophila and mammalian cells, the pseudosubstrate region (PSr)
+  of aPKC acts as a polybasic domain capable of targeting aPKC to the PM via
+  electrostatic binding to PM PI4P and PI(4,5)P2. However, physical interaction
+  between aPKC and Par-6 is required for the PM-targeting of aPKC, likely by
+  allosterically exposing the PSr to bind PM. Binding of Par-6 also inhibits
+  aPKC kinase activity, and such inhibition can be relieved through Par-6
+  interaction with apical polarity protein Crumbs. Our data suggest a potential
+  mechanism in which allosteric regulation of polybasic PSr by Par-6 couples
+  the control of both aPKC subcellular localization and spatial activation of
+  its kinase activity.%
+    }
+    \verb{doi}
+    \verb 10.1083/JCB.201903031
+    \endverb
+    \field{issn}{15408140}
+    \field{number}{7}
+    \field{title}{{A polybasic domain in aPKC mediates Par6-dependent control
+  of membrane targeting and kinase activity}}
+    \verb{url}
+    \verb https://doi.org/10.1083/jcb.201903031
+    \endverb
+    \field{volume}{219}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Dong et al. - 2020 - A polyb
+    \verb asic domain in aPKC mediates Par6-dependent control of membrane targe
+    \verb ting and kinase activity.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Cell Biology}
+    \field{year}{2020}
+  \endentry
+
   \entry{Dormand1980}{article}{}
     \name{author}{2}{}{%
       {{hash=DJR}{%
@@ -2343,6 +2556,75 @@
     \field{journaltitle}{Journal of Computational and Applied Mathematics,
   volume 6, no 1}
     \field{year}{1980}
+  \endentry
+
+  \entry{Dosset2016}{article}{}
+    \name{author}{7}{}{%
+      {{hash=DP}{%
+         family={Dosset},
+         familyi={D\bibinitperiod},
+         given={Patrice},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Rassam},
+         familyi={R\bibinitperiod},
+         given={Patrice},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fernandez},
+         familyi={F\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=EC}{%
+         family={Espenel},
+         familyi={E\bibinitperiod},
+         given={Cedric},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rubinstein},
+         familyi={R\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Margeat},
+         familyi={M\bibinitperiod},
+         given={Emmanuel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MPE}{%
+         family={Milhiet},
+         familyi={M\bibinitperiod},
+         given={Pierre-Emmanual},
+         giveni={P\bibinitperiod-E\bibinitperiod},
+      }}%
+    }
+    \keyw{Diffusion,Machine learning,Membrane,Neural network,Single
+  molecule,Single molecule tracking,Trajectory}
+    \strng{namehash}{DP+1}
+    \strng{fullhash}{DPRPFLECREMEMPE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1126/science.1222483
+    \endverb
+    \field{issn}{10959203}
+    \field{title}{{Automatic detection of diffusion modes within biological
+  membranes using back- propagation neural network}}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Dosset et al. - 2016 - Autom
+    \verb atic detection of diffusion modes within biological membranes using b
+    \verb ack-propagation neural network.pdf:pdf
+    \endverb
+    \field{journaltitle}{BMC Bioinformatics}
+    \field{year}{2016}
   \endentry
 
   \entry{Duan2020}{article}{}
@@ -4776,6 +5058,73 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Holly2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HRW}{%
+         family={Holly},
+         familyi={H\bibinitperiod},
+         given={Ryan\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Kimberly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PKE}{%
+         family={Prehoda},
+         familyi={P\bibinitperiod},
+         given={Kenneth\bibnamedelima E.},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cell Press}%
+    }
+    \keyw{Drosophila,Polarity,asymmetric cell division,cell polarity,protein
+  interactions,protein phosphorylation,stem cells}
+    \strng{namehash}{HRWJKPKE1}
+    \strng{fullhash}{HRWJKPKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Par-3 regulates animal cell polarity by targeting the Par complex proteins
+  Par-6 and atypical protein kinase C (aPKC) to specific cortical sites.
+  Although numerous physical interactions between Par-3 and the Par complex
+  have been identified [1–6], we discovered a novel interaction between
+  Par-3's second PDZ domain and a highly conserved aPKC PDZ-binding motif (PBM)
+  that is required in the context of the full-length, purified Par-6-aPKC
+  complex. We also found that Par-3 is phosphorylated by the full Par complex
+  and phosphorylation induces dissociation of the Par-3 phosphorylation site
+  from aPKC's kinase domain but does not disrupt the Par-3 PDZ2-aPKC PBM
+  interaction. In asymmetrically dividing Drosophila neuroblasts, the aPKC PBM
+  is required for cortical targeting, consistent with its role in mediating a
+  persistent interaction with Par-3. Our results define a physical connection
+  that targets the Par complex to polarized sites on the cell membrane.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cub.2019.12.055
+    \endverb
+    \field{issn}{18790445}
+    \field{number}{5}
+    \field{pages}{893\bibrangedash 898.e5}
+    \field{title}{{A Conserved PDZ-Binding Motif in aPKC Interacts with Par-3
+  and Mediates Cortical Polarity}}
+    \field{volume}{30}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Holly, Jones, Prehoda - 2020
+    \verb  - A Conserved PDZ-Binding Motif in aPKC Interacts with Par-3 and Med
+    \verb iates Cortical Polarity.pdf:pdf
+    \endverb
+    \field{journaltitle}{Current Biology}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Hubatsch2019}{incollection}{}
     \name{author}{2}{}{%
       {{hash=HL}{%
@@ -4930,6 +5279,87 @@
     \endverb
     \field{journaltitle}{Nature Physics}
     \field{year}{2019}
+  \endentry
+
+  \entry{Humphries2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HNE}{%
+         family={Humphries},
+         familyi={H\bibinitperiod},
+         given={Nicolas\bibnamedelima E.},
+         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Weimerskirch},
+         familyi={W\bibinitperiod},
+         given={Henri},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=QN}{%
+         family={Queiroz},
+         familyi={Q\bibinitperiod},
+         given={Nuno},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SEJ}{%
+         family={Southall},
+         familyi={S\bibinitperiod},
+         given={Emily\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SDW}{%
+         family={Sims},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima W.},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \keyw{Evolution,Optimal foraging,Organism,Predator-prey,Telemetry}
+    \strng{namehash}{HNE+1}
+    \strng{fullhash}{HNEWHQNSEJSDW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    It is an open question how animals find food in dynamic natural
+  environments where they possess little or no knowledge of where resources are
+  located. Foraging theory predicts that in environments with sparsely
+  distributed target resources, where forager knowledge about resources'
+  locations is incomplete, L{\'{e}}vy flight movements optimize the success of
+  random searches. However, the putative success of L{\'{e}}vy foraging has
+  been demonstrated only in model simulations. Here, we use
+  high-temporal-resolution Global Positioning System (GPS) tracking of
+  wandering (Diomedea exulans) and black-browed albatrosses (Thalassarche
+  melanophrys) with simultaneous recording of prey captures, to show that both
+  species exhibit L{\'{e}}vy and Brownian movement patterns. We find that total
+  prey masses captured by wandering albatrosses during L{\'{e}}vy movements
+  exceed daily energy requirements by nearly four-fold, and approached yields
+  by Brownian movements in other habitats. These results, together with our
+  reanalysis of previously published albatross data, overturn the notion that
+  albatrosses do not exhibit L{\'{e}}vy patterns during foraging, and
+  demonstrate that L{\'{e}}vy flights of predators in dynamic natural
+  environments present a beneficial alternative strategy to simple, spatially
+  intensive behaviors. Our findings add support to the possibility that
+  biological L{\'{e}}vy flight may have naturally evolved as a search strategy
+  in response to sparse resources and scant information.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1121201109
+    \endverb
+    \field{issn}{00278424}
+    \field{number}{19}
+    \field{pages}{7169\bibrangedash 7174}
+    \field{title}{{Foraging success of biological L{\'{e}}vy flights recorded
+  in situ}}
+    \field{volume}{109}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/pnas.1121201109.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{year}{2012}
   \endentry
 
   \entry{Hung1999}{article}{}
@@ -5247,6 +5677,50 @@
     \endverb
     \field{journaltitle}{Journal of Biological Chemistry}
     \field{year}{2012}
+  \endentry
+
+  \entry{Jones2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JKA}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Kimberly\bibnamedelima A},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DML}{%
+         family={Drummond},
+         familyi={D\bibinitperiod},
+         given={Michael\bibnamedelima L},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PKE}{%
+         family={Prehoda},
+         familyi={P\bibinitperiod},
+         given={Kenneth\bibnamedelima E},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JKADMLPKE1}
+    \strng{fullhash}{JKADMLPKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1101/2022.01.01.474707
+    \endverb
+    \field{title}{{Cooperative regulation of C1-domain membrane recruitment
+  polarizes atypical Protein Kinase C}}
+    \verb{url}
+    \verb https://doi.org/10.1101/2022.01.01.474707
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Jones, Drummond, Prehoda - U
+    \verb nknown - Cooperative regulation of C1-domain membrane recruitment pol
+    \verb arizes atypical Protein Kinase C.pdf:pdf
+    \endverb
+    \field{year}{2022}
   \endentry
 
   \entry{Jumper2021}{article}{}
@@ -6153,6 +6627,130 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Kowalek2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KP}{%
+         family={Kowalek},
+         familyi={K\bibinitperiod},
+         given={Patrycja},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LOH}{%
+         family={Loch-Olszewska},
+         familyi={L\bibinitperiod-O\bibinitperiod},
+         given={Hanna},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Szwabi{\'{n}}ski},
+         familyi={S\bibinitperiod},
+         given={Janusz},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Diffusion,Machine learning,Single molecule,deep learning,diffusion
+  modes,machine learning,single particle tracking}
+    \strng{namehash}{KPLOHSJ1}
+    \strng{fullhash}{KPLOHSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Single-particle trajectories measured in microscopy experiments contain
+  important information about dynamic processes occurring in a range of
+  materials including living cells and tissues. However, extracting that
+  information is not a trivial task due to the stochastic nature of the
+  particles' movement and the sampling noise. In this paper, we adopt a
+  deep-learning method known as a convolutional neural network (CNN) to
+  classify modes of diffusion from given trajectories. We compare this fully
+  automated approach working with raw data to classical machine learning
+  techniques that require data preprocessing and extraction of human-engineered
+  features from the trajectories to feed classifiers like random forest or
+  gradient boosting. All methods are tested using simulated trajectories for
+  which the underlying physical model is known. From the results it follows
+  that CNN is usually slightly better than the feature-based methods, but at
+  the cost of much longer processing times. Moreover, there are still some
+  borderline cases in which the classical methods perform better than CNN.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevE.100.032410
+    \endverb
+    \verb{eprint}
+    \verb 1902.07942
+    \endverb
+    \field{issn}{24700053}
+    \field{number}{3}
+    \field{title}{{Classification of diffusion modes in single-particle
+  tracking data: Feature-based versus deep-learning approach}}
+    \field{volume}{100}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/PhysRevE.100.032410.pdf:pdf;
+    \verb :Users/blandt/Documents/Mendeley Desktop/Kowalek, Loch-Olszewska, Szw
+    \verb abi´nski - 2019 - Classification of diffusion modes in single-partic
+    \verb le tracking data Feature-based versus d.pdf:pdf
+    \endverb
+    \field{journaltitle}{Physical Review E}
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Krapf2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KD}{%
+         family={Krapf},
+         familyi={K\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \keyw{Cell membrane,Continuous time random walk,Fractional Brownian
+  motion,MSD,Single-particle tracking,Subdiffusion}
+    \strng{namehash}{KD1}
+    \strng{fullhash}{KD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The plasma membrane is a complex fluid where lipids and proteins undergo
+  diffusive motion critical to biochemical reactions. Through quantitative
+  imaging analyses such as single-particle tracking, it is observed that
+  diffusion in the cell membrane is usually anomalous in the sense that the
+  mean squared displacement is not linear with time. This chapter describes the
+  different models that are employed to describe anomalous diffusion, paying
+  special attention to the experimental evidence that supports these models in
+  the plasma membrane. We review models based on anticorrelated displacements,
+  such as fractional Brownian motion and obstructed diffusion, and
+  nonstationary models such as continuous time random walks. We also emphasize
+  evidence for the formation of distinct compartments that transiently form on
+  the cell surface. Finally, we overview heterogeneous diffusion processes in
+  the plasma membrane, which have recently attracted considerable interest.%
+    }
+    \field{booktitle}{Current Topics in Membranes}
+    \verb{doi}
+    \verb 10.1016/bs.ctm.2015.03.002
+    \endverb
+    \field{issn}{10635823}
+    \field{pages}{167\bibrangedash 207}
+    \field{title}{{Mechanisms Underlying Anomalous Diffusion in the Plasma
+  Membrane}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/bs.ctm.2015.03.002
+    \endverb
+    \field{volume}{75}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S1063582315000034-mai
+    \verb n.pdf:pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
   \entry{Kumfer2010}{article}{}
     \name{author}{7}{}{%
       {{hash=KKT}{%
@@ -6848,6 +7446,126 @@
     \field{year}{2008}
   \endentry
 
+  \entry{Liu2020}{article}{}
+    \name{author}{12}{}{%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Ziheng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Aihong},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=XJ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Jiawen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Haojie},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Weiguo},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LQY}{%
+         family={Lei},
+         familyi={L\bibinitperiod},
+         given={Qun\bibnamedelima Ying},
+         giveni={Q\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zhouhua},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Mingjie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Yu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wen},
+         familyi={W\bibinitperiod},
+         given={Wenyu},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{Journal Club,Phase separation}
+    \strng{namehash}{LZ+1}
+    \strng{fullhash}{LZYYGAXJMYLHHWLQYLZZMCYWW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    The evolutionarily conserved Par3/Par6/aPKC complex regulates the polarity
+  establishment of diverse cell types and distinct polarity-driven functions.
+  However, how the Par complex is concentrated beneath the membrane to initiate
+  cell polarization remains unclear. Here we show that the Par complex exhibits
+  cell cycle-dependent condensation in Drosophila neuroblasts, driven by
+  liquid–liquid phase separation. The open conformation of Par3 undergoes
+  autonomous phase separation likely due to its NTD-mediated oligomerization.
+  Par6, via C-terminal tail binding to Par3 PDZ3, can be enriched to Par3
+  condensates and in return dramatically promote Par3 phase separation. aPKC
+  can also be concentrated to the Par3N/Par6 condensates as a client.
+  Interestingly, activated aPKC can disperse the Par3/Par6 condensates via
+  phosphorylation of Par3. Perturbations of Par3/Par6 phase separation impair
+  the establishment of apical–basal polarity during neuroblast asymmetric
+  divisions and lead to defective lineage development. We propose that phase
+  separation may be a common mechanism for localized cortical condensation of
+  cell polarity complexes.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41467-020-16135-6
+    \endverb
+    \field{issn}{20411723}
+    \field{number}{1}
+    \field{title}{{Par complex cluster formation mediated by phase separation}}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41467-020-16135-6
+    \endverb
+    \field{volume}{11}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/s41467-020-16135-6.pdf:pdf;:
+    \verb Users/blandt/Documents/Mendeley Desktop/41467_2020_16135_MOESM1_ESM.p
+    \verb df:pdf
+    \endverb
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2020}
+  \endentry
+
   \entry{Liu2017}{article}{}
     \name{author}{9}{}{%
       {{hash=LZ}{%
@@ -6907,7 +7625,7 @@
       }}%
     }
     \keyw{2A}
-    \strng{namehash}{LZ+1}
+    \strng{namehash}{LZ+2}
     \strng{fullhash}{LZCOWJBJZMZYWLRHQLLJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -6954,6 +7672,68 @@
     \endverb
     \field{journaltitle}{Scientific Reports}
     \field{year}{2017}
+  \endentry
+
+  \entry{Martin2002}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MDS}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Douglas\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=FMB}{%
+         family={Forstner},
+         familyi={F\bibinitperiod},
+         given={Martin\bibnamedelima B.},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KJA}{%
+         family={K{\"{a}}s},
+         familyi={K\bibinitperiod},
+         given={Josef\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Diffusion,Single molecule}
+    \strng{namehash}{MDSFMBKJA1}
+    \strng{fullhash}{MDSFMBKJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Subdiffusion and its causes in both in vivo and in vitro lipid membranes
+  have become the focus of recent research. We report apparent subdiffusion,
+  observed via single particle tracking (SPT), in a homogeneous system that
+  only allows normal diffusion (a DMPC monolayer in the fluid state). The
+  apparent subdiffusion arises from slight errors in finding the actual
+  particle position due to noise inherent in all experimental SPT systems. A
+  model is presented that corrects this artifact, and predicts the time scales
+  after which the effect becomes negligible. The techniques and results
+  presented in this paper should be of use in all SPT experiments studying
+  normal and anomalous diffusion.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0006-3495(02)73971-4
+    \endverb
+    \field{issn}{00063495}
+    \field{number}{4}
+    \field{pages}{2109\bibrangedash 2117}
+    \field{title}{{Apparent subdiffusion inherent to single particle tracking}}
+    \verb{url}
+    \verb https://reader.elsevier.com/reader/sd/pii/S0006349502739714?token=7AE
+    \verb 57073943239119C6C0C91B177A9DB2A800024D1F8D80A1E4D507C7497F4FBF7B19DBD
+    \verb 7EA56A45F946088BC2C0BD26
+    \endverb
+    \field{volume}{83}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0006349502739714-mai
+    \verb n.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2002}
   \endentry
 
   \entry{Matsuda2005}{article}{}
@@ -7613,6 +8393,178 @@
     \endverb
     \field{journaltitle}{Nature Cell Biology}
     \field{year}{2011}
+  \endentry
+
+  \entry{Munoz-Gil2019}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MGG}{%
+         family={Mu{\~{n}}oz-Gil},
+         familyi={M\bibinitperiod-G\bibinitperiod},
+         given={Gorka},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GMMA}{%
+         family={Garcia-March},
+         familyi={G\bibinitperiod-M\bibinitperiod},
+         given={Miguel\bibnamedelima Angel},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Manzo},
+         familyi={M\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MGJD}{%
+         family={Mart{\'{i}}n-Guerrero},
+         familyi={M\bibinitperiod-G\bibinitperiod},
+         given={Jos{\'{e}}\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lewenstein},
+         familyi={L\bibinitperiod},
+         given={Maciej},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Diffusion,Machine learning}
+    \strng{namehash}{MGG+1}
+    \strng{fullhash}{MGGGMMAMCMGJDLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    In order to study transport in complex environments, it is extremely
+  important to determine the physical mechanism underlying diffusion, and
+  precisely characterize its nature and parameters. Often, this task is
+  strongly impacted by data consisting of trajectories with short length and
+  limited localization precision. In this paper, we propose a machine learning
+  method based on a random forest architecture, which is able to associate even
+  very short trajectories to the underlying diffusion mechanism with a high
+  accuracy. In addition, the method is able to classify the motion according to
+  normal or anomalous diffusion, and determine its anomalous exponent with a
+  small error. The method provides highly accurate outputs even when working
+  with very short trajectories and in the presence of experimental noise. We
+  further demonstrate the application of transfer learning to experimental and
+  simulated data not included in the training/testing dataset. This allows for
+  a full, high-accuracy characterization of experimental trajectories without
+  the need of any prior information.%
+    }
+    \verb{doi}
+    \verb 10.1088/1367-2630/ab6065
+    \endverb
+    \verb{eprint}
+    \verb 1903.02850
+    \endverb
+    \field{title}{{Machine learning method for single trajectory
+  characterization}}
+    \verb{url}
+    \verb http://arxiv.org/abs/1903.02850%0Ahttp://dx.doi.org/10.1088/1367-2630
+    \verb /ab6065
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Mu{\~{n}}oz-Gil et al. - Unk
+    \verb nown - Single trajectory characterization via machine learning.pdf:pd
+    \verb f
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Munoz-Gil2020}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=MGG}{%
+         family={Mu{\~{n}}oz-Gil},
+         familyi={M\bibinitperiod-G\bibinitperiod},
+         given={Gorka},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Volpe},
+         familyi={V\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GMMA}{%
+         family={Garc{\'{i}}a-March},
+         familyi={G\bibinitperiod-M\bibinitperiod},
+         given={Miguel\bibnamedelima Angel},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Metzler},
+         familyi={M\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lewenstein},
+         familyi={L\bibinitperiod},
+         given={Maciej},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Manzo},
+         familyi={M\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Diffusion,Machine learning}
+    \strng{namehash}{MGG+1}
+    \strng{fullhash}{MGGVGGMMAMRLMMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    {\textcopyright} COPYRIGHT SPIE. Downloading of the abstract is permitted
+  for personal use only. The deviation from pure Brownian motion, generally
+  referred to as anomalous diffusion, has received large attention in the
+  scientific literature to describe many physical scenarios. Several methods,
+  based on classical statistics and machine learning approaches, have been
+  developed to characterize anomalous diffusion from experimental data, which
+  are usually acquired as particle trajectories. With the aim to assess and
+  compare the available methods to characterize anomalous diffusion, we have
+  organized the Anomalous Diffusion (AnDi) Challenge
+  (http://www.andi-challenge.org/). Specifically, the AnDi Challenge will
+  address three different aspects of anomalous diffusion characterization,
+  namely: (i) Inference of the anomalous diffusion exponent. (ii)
+  Identification of the underlying diffusion model. (iii) Segmentation of
+  trajectories. Each problem includes sub-tasks for different number of
+  dimensions (1D, 2D and 3D). In order to compare the various methods, we have
+  developed a dedicated open-source framework for the simulation of the
+  anomalous diffusion trajectories that are used for the training and test
+  datasets. The challenge was launched on March 1, 2020, and consists of three
+  phases. Currently, the participation to the first phase is open. Submissions
+  will be automatically evaluated and the performance of the top-scoring
+  methods will be thoroughly analyzed and compared in an upcoming article.%
+    }
+    \verb{doi}
+    \verb 10.1117/12.2567914
+    \endverb
+    \verb{eprint}
+    \verb 2003.12036
+    \endverb
+    \field{isbn}{9781510637443}
+    \field{issn}{1996756X}
+    \field{pages}{44}
+    \field{title}{{The anomalous diffusion challenge: single trajectory
+  characterisation as a competition}}
+    \verb{url}
+    \verb http://www. http://arxiv.org/abs/2003.12036%0Ahttp://dx.doi.org/10.11
+    \verb 17/12.2567914
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Mu{\~{n}}oz-Gil et al. - Unk
+    \verb nown - AnDi The Anomalous Diffusion Challenge.pdf:pdf
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{year}{2020}
   \endentry
 
   \entry{Munoz-Gil2021}{article}{}
@@ -8287,6 +9239,69 @@
     \field{year}{2008}
   \endentry
 
+  \entry{Plerou2000}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PV}{%
+         family={Plerou},
+         familyi={P\bibinitperiod},
+         given={Vasiliki},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gopikrishnan},
+         familyi={G\bibinitperiod},
+         given={Parameswaran},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ALA}{%
+         family={Amaral},
+         familyi={A\bibinitperiod},
+         given={Lu{\'{i}}s\bibnamedelima A.Nunes},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Gabaix},
+         familyi={G\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SHE}{%
+         family={Stanley},
+         familyi={S\bibinitperiod},
+         given={H.\bibnamedelima Eugene},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PV+1}
+    \strng{fullhash}{PVGPALAGXSHE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    The relation between trading activity, measured by the number of
+  transactions, and the price change is quantified for a given stock. A
+  database documenting every transaction for 1000 US stocks for the two-year
+  period 1994-1995 is analyzed. It is found that stock price movements are
+  analogous to a complex variant of classic diffusion.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRevE.62.R3023
+    \endverb
+    \field{issn}{1063651X}
+    \field{number}{3 A}
+    \field{pages}{3023\bibrangedash 3026}
+    \field{title}{{Economic fluctuations and anomalous diffusion}}
+    \field{volume}{62}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/PhysRevE.62.R3023.pdf:pdf
+    \endverb
+    \field{journaltitle}{Physical Review E - Statistical Physics, Plasmas,
+  Fluids, and Related Interdisciplinary Topics}
+    \field{year}{2000}
+  \endentry
+
   \entry{Pletnev2008}{article}{}
     \name{author}{8}{}{%
       {{hash=PS}{%
@@ -8780,6 +9795,81 @@
     \field{journaltitle}{Doctoral thesis, UCL (University College London).}
     \field{year}{2019}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Robin2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RFB}{%
+         family={Robin},
+         familyi={R\bibinitperiod},
+         given={Fran{\c{c}}ois\bibnamedelima B.},
+         giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MWM}{%
+         family={McFadden},
+         familyi={M\bibinitperiod},
+         given={William\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=YB}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Baixue},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MEM}{%
+         family={Munro},
+         familyi={M\bibinitperiod},
+         given={Edwin\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{C. elegans,Polarity,Printed,Single molecule}
+    \strng{namehash}{RFB+1}
+    \strng{fullhash}{RFBMWMYBMEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    We describe a general, versatile and minimally invasive method to image
+  single molecules near the cell surface that can be applied to any GFP-tagged
+  protein in Caenorhabditis elegans embryos. We exploited tunable expression
+  via RNAi and a dynamically exchanging monomer pool to achieve fast,
+  continuous single-molecule imaging at optimal densities with signal-to-noise
+  ratios adequate for robust single-particle tracking (SPT). We introduce a
+  method called smPReSS, single-molecule photobleaching relaxation to steady
+  state, that infers exchange rates from quantitative analysis of
+  single-molecule photobleaching kinetics without using SPT. Combining SPT and
+  smPReSS allowed for spatially and temporally resolved measurements of protein
+  mobility and exchange kinetics. We used these methods to (i) resolve distinct
+  mobility states and spatial variation in exchange rates of the polarity
+  protein PAR-6 and (ii) measure spatiotemporal modulation of actin filament
+  assembly and disassembly. These methods offer a promising avenue to
+  investigate dynamic mechanisms that pattern the embryonic cell surface.%
+    }
+    \verb{doi}
+    \verb 10.1038/nmeth.2928
+    \endverb
+    \field{isbn}{1548-7105 (Electronic)\r1548-7091 (Linking)}
+    \field{issn}{15487105}
+    \field{number}{6}
+    \field{pages}{677\bibrangedash 682}
+    \field{title}{{Single-molecule analysis of cell surface dynamics in
+  Caenorhabditis elegans embryos}}
+    \verb{url}
+    \verb http://www.nature.com/doifinder/10.1038/nmeth.2928
+    \endverb
+    \field{volume}{11}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nmeth.2928-S1.pdf:pdf;:Users
+    \verb /blandt/Documents/Mendeley Desktop/Robin et al. - 2014 - Single-molec
+    \verb ule analysis of cell surface dynamics in Caenorhabditis elegans embry
+    \verb os.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Methods}
+    \field{year}{2014}
   \endentry
 
   \entry{Rodrigues2022}{article}{}
@@ -10376,6 +11466,64 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Uversky2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=UVN}{%
+         family={Uversky},
+         familyi={U\bibinitperiod},
+         given={Vladimir\bibnamedelima N.},
+         giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{Binding promiscuity,Disordeded protein,Edge of chaos,Emergent
+  behavior,Intrinsically disordered protein (IDP),Intrinsically disordered
+  region,Phase separation,Review,Spatio-temporal heterogeneity,Structural
+  flexibility}
+    \strng{namehash}{UVN1}
+    \strng{fullhash}{UVN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{abstract}{%
+    Recognition of the natural abundance and functional importance of
+  intrinsically disordered proteins (IDPs), and protein hybrids that contain
+  both intrinsically disordered protein regions (IDPRs) and ordered regions, is
+  changing protein science. IDPs and IDPRs, i.e., functional proteins and
+  protein regions without unique structures, can often be found in all
+  organisms, and typically play vital roles in various biological processes.
+  Disorder-based functionality complements the functions of ordered proteins
+  and domains. However, by virtue of their existence, IDPs/IDPRs, which are
+  characterized by remarkable conformational flexibility and structural
+  plasticity, break multiple rules established over the years to explain
+  structure, folding, and functionality of well-folded proteins with unique
+  structures. Despite the general belief that unique biological functions of
+  proteins require unique 3D-structures (which dominated protein science for
+  more than a century), structure-less IDPs/IDPRs are functional, being able to
+  engage in biological activities and perform impossible tricks that are highly
+  unlikely for ordered proteins. With their exceptional spatio-temporal
+  heterogeneity and high conformational flexibility, IDPs/IDPRs represent
+  complex systems that act at the edge of chaos and are specifically tunable by
+  various means. In this article, some of the wonders of intrinsic disorder are
+  discussed as illustrations of their "mysterious" (meta)physics.%
+    }
+    \verb{doi}
+    \verb 10.3389/fphy.2019.00010
+    \endverb
+    \field{issn}{2296424X}
+    \field{number}{FEB}
+    \field{pages}{8\bibrangedash 23}
+    \field{title}{{Intrinsically disordered proteins and their "Mysterious"
+  (meta)physics}}
+    \field{volume}{7}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/fphy-07-00010.pdf:pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Physics}
+    \field{year}{2019}
+  \endentry
+
   \entry{Visco2016}{article}{}
     \name{author}{4}{}{%
       {{hash=VI}{%
@@ -10640,6 +11788,127 @@
     \endverb
     \field{journaltitle}{Biophysical Journal}
     \field{year}{2010}
+  \endentry
+
+  \entry{Wang2018}{article}{}
+    \name{author}{12}{}{%
+      {{hash=WP}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Pengran},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Benhenda},
+         familyi={B\bibinitperiod},
+         given={Shirine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Haiyan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LBV}{%
+         family={Lallemand-Breitenbach},
+         familyi={L\bibinitperiod-B\bibinitperiod},
+         given={Val{\'{e}}rie},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhen},
+         familyi={Z\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=JF}{%
+         family={Jollivet},
+         familyi={J\bibinitperiod},
+         given={Florence},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Peres},
+         familyi={P\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yuwen},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CSJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Sai\bibnamedelima Juan},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhu},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={{De Th{\'{e}}}},
+         familyi={D\bibinitperiod},
+         given={Hugues},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Meng},
+         familyi={M\bibinitperiod},
+         given={Guoyu},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer US}%
+    }
+    \strng{namehash}{WP+1}
+    \strng{fullhash}{WPBSWHLBVZTJFPLLYCSJCZDHMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    ProMyelocyticLeukemia nuclear bodies (PML NBs) are stress-regulated domains
+  directly implicated in acute promyelocytic leukemia eradication. Most TRIM
+  family members bind ubiquitin E2s and many acquire ligase activity upon RING
+  dimerization. In contrast, PML binds UBC9, the SUMO E2 enzyme. Here, using
+  X-ray crystallography and SAXS characterization, we demonstrate that PML RING
+  tetramerizes through highly conserved PML-specific sequences, which are
+  required for NB assembly and PML sumoylation. Conserved residues implicated
+  in RING dimerization of other TRIMs also contribute to PML tetramer
+  stability. Wild-Type PML rescues the ability of some RING mutants to form NBs
+  as well as their sumoylation. Impaired RING tetramerization abolishes
+  PML/RARA-driven leukemogenesis in vivo and arsenic-induced differentiation ex
+  vivo. Our studies thus identify RING tetramerization as a key step in the NB
+  macro-molecular scaffolding. They suggest that higher order RING interactions
+  allow efficient UBC9 recruitment and thus change the biochemical nature of
+  TRIM-facilitated post-Translational modifications.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41467-018-03498-0
+    \endverb
+    \field{issn}{20411723}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{{RING tetramerization is required for nuclear body biogenesis
+  and PML sumoylation}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/s41467-018-03498-0
+    \endverb
+    \field{volume}{9}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/s41467-018-03498-0.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2018}
   \endentry
 
   \entry{Wang2017}{article}{}

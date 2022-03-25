@@ -1,273 +1,281 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{19}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction}{21}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Cell polarity}{20}{section.1.1}
+\contentsline {section}{\numberline {1.1}Cell polarity}{22}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}The PAR network}{22}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The PAR network}{24}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}PAR polarity in the \textit {C. elegans} embryo}{24}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}PAR polarity in the \textit {C. elegans} embryo}{26}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Patterning via self-organisation}{28}{section.1.2}
+\contentsline {section}{\numberline {1.2}Patterning via self-organisation}{30}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Principles of self-organisation}{28}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Principles of self-organisation}{30}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Self-organisation for cell polarity}{31}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Self-organisation for cell polarity}{33}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wave pinning model}{32}{subsubsection*.10}
+\contentsline {subsubsection}{Wave pinning model}{34}{subsubsection*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Minimal PAR model}{35}{subsubsection*.13}
+\contentsline {subsubsection}{Minimal PAR model}{37}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}The molecular circuitry of the PAR network}{39}{section.1.3}
+\contentsline {section}{\numberline {1.3}The molecular circuitry of the PAR network}{41}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Mechanisms of cortical association}{40}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Mechanisms of cortical association}{42}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Association with lipids}{40}{subsubsection*.16}
+\contentsline {subsubsection}{Association with lipids}{42}{subsubsection*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Interaction with scaffolds}{42}{subsubsection*.17}
+\contentsline {subsubsection}{Interaction with scaffolds}{44}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Self-association and clustering}{42}{subsubsection*.18}
+\contentsline {subsubsection}{Self-association and clustering}{45}{subsubsection*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Establishment of polarity}{43}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Establishment of polarity}{46}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Anterior-directed cortical flows}{44}{subsubsection*.19}
+\contentsline {subsubsection}{Anterior-directed cortical flows}{46}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The microtubule pathway}{44}{subsubsection*.20}
+\contentsline {subsubsection}{The microtubule pathway}{47}{subsubsection*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Additional pathways}{45}{subsubsection*.21}
+\contentsline {subsubsection}{Additional pathways}{47}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Maintenance of polarity by mutual antagonism}{45}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Maintenance of polarity by mutual antagonism}{48}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PKC-3 pathway}{46}{subsubsection*.22}
+\contentsline {subsubsection}{PKC-3 pathway}{48}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PAR-1 pathway}{47}{subsubsection*.23}
+\contentsline {subsubsection}{PAR-1 pathway}{49}{subsubsection*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{LGL-1 pathway}{48}{subsubsection*.24}
+\contentsline {subsubsection}{LGL-1 pathway}{50}{subsubsection*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{CHIN-1 pathway}{48}{subsubsection*.25}
+\contentsline {subsubsection}{CHIN-1 pathway}{50}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Orchestrating an asymmetric cell division}{48}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}Orchestrating an asymmetric cell division}{51}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Placement of the division plane}{49}{subsubsection*.26}
+\contentsline {subsubsection}{Placement of the division plane}{51}{subsubsection*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Segregation of fate determinants}{49}{subsubsection*.27}
+\contentsline {subsubsection}{Segregation of fate determinants}{51}{subsubsection*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Beyond mutual antagonism}{51}{section.1.4}
+\contentsline {section}{\numberline {1.4}Beyond mutual antagonism}{53}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Regulation of the actomyosin cortex}{51}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Regulation of the actomyosin cortex}{53}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Division of labour}{52}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Division of labour}{54}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Substrate competition}{54}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.3}Substrate competition}{56}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}A pPAR positive feedback circuit}{54}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.4}A pPAR positive feedback circuit}{56}{subsection.1.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Outlook}{56}{section.1.5}
+\contentsline {section}{\numberline {1.5}Outlook}{58}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}A pipeline for quantification of membrane and cytoplasmic protein concentrations}{58}{chapter.2}
+\contentsline {chapter}{\numberline {2}A pipeline for quantification of membrane and cytoplasmic protein concentrations}{60}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{59}{section.2.1}
+\contentsline {section}{\numberline {2.1}Introduction}{61}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Autofluorescence correction}{60}{section.2.2}
+\contentsline {section}{\numberline {2.2}Autofluorescence correction}{62}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Autofluorescence in \textit {C. elegans}}{60}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Autofluorescence in \textit {C. elegans}}{62}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}{62}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}SAIBR: a simplified method for autofluorescence correction based on dual emission imaging}{64}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Assessing SAIBR performance on images of PAR proteins}{63}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Assessing SAIBR performance on images of PAR proteins}{65}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Extending SAIBR to dual-labelled \textit {C. elegans} embryos}{66}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Extending SAIBR to dual-labelled \textit {C. elegans} embryos}{68}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Discussion}{68}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}Discussion}{70}{subsection.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Extracting membrane and cytoplasmic signal components}{73}{section.2.3}
+\contentsline {section}{\numberline {2.3}Extracting membrane and cytoplasmic signal components}{75}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}An overview of existing methods}{73}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}An overview of existing methods}{75}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Accounting for out-of-focus scatter}{75}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Accounting for out-of-focus scatter}{77}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}A gradient descent protocol for image quantification}{85}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}A gradient descent protocol for image quantification}{87}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Segmentation}{89}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}Segmentation}{91}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Benchmarking the method}{89}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.5}Benchmarking the method}{91}{subsection.2.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.6}Calibrating concentration units}{92}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.6}Calibrating concentration units}{94}{subsection.2.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.7}Discussion}{96}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.7}Discussion}{98}{subsection.2.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Uncovering a PAR-2 positive feedback circuit}{97}{chapter.3}
+\contentsline {chapter}{\numberline {3}Uncovering a PAR-2 positive feedback circuit}{99}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{98}{section.3.1}
+\contentsline {section}{\numberline {3.1}Introduction}{100}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}The PAR-2 polarity pathway}{98}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}The PAR-2 polarity pathway}{100}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Self-recruitment}{99}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Self-recruitment}{101}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}RING domain}{103}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}RING domain}{105}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}PKC-3/PAR-2 interactions}{104}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.4}PKC-3/PAR-2 interactions}{106}{subsection.3.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}Outlook}{105}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.5}Outlook}{107}{subsection.3.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Quantitative characterisation of PAR-2 mutant alleles}{107}{section.3.2}
+\contentsline {section}{\numberline {3.2}Quantitative characterisation of PAR-2 mutant alleles}{109}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}RING domain promotes positive feedback to achieve optimal membrane affinity}{112}{section.3.3}
+\contentsline {section}{\numberline {3.3}RING domain promotes positive feedback to achieve optimal membrane affinity}{114}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Discussion}{117}{section.3.4}
+\contentsline {section}{\numberline {3.4}Discussion}{119}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Determining mechanisms of PAR-2 RING domain action}{119}{chapter.4}
+\contentsline {chapter}{\numberline {4}Determining mechanisms of PAR-2 RING domain action}{121}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{120}{section.4.1}
+\contentsline {section}{\numberline {4.1}Introduction}{122}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Exploring a role for ubiquitination}{122}{section.4.2}
+\contentsline {section}{\numberline {4.2}Exploring a role for ubiquitination}{124}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}PAR-2 does not show activity in in vitro ubiquitination assays}{125}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}PAR-2 does not show activity in in vitro ubiquitination assays}{127}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Targeted mutation to putative linchpin site has no phenotype}{126}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Targeted mutation to putative linchpin site has no phenotype}{128}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Discussion}{130}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Discussion}{132}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Exploring a role for dimerisation}{131}{section.4.3}
+\contentsline {section}{\numberline {4.3}Exploring a role for dimerisation}{133}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}PAR-2 RING domain sequence bears hallmarks of dimeric RINGs}{133}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}PAR-2 RING domain sequence bears hallmarks of dimeric RINGs}{135}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}The PAR-2 RING domain displays concentration-dependent dimerisation in vitro}{134}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}The PAR-2 RING domain displays concentration-dependent dimerisation in vitro}{136}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Dimerisation is mediated by 4-helix bundle with hydrophobic core}{139}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Dimerisation is mediated by 4-helix bundle with hydrophobic core}{141}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Cytoplasmic PAR-2 does not self-associate in vivo}{142}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Cytoplasmic PAR-2 does not self-associate in vivo}{144}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Membrane-enriched PAR-2 self-associates in vivo}{146}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Membrane-enriched PAR-2 self-associates in vivo}{148}{subsection.4.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.6}Mutation to dimerisation interface weakens membrane association in vivo}{148}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}Mutation to dimerisation interface weakens membrane association in vivo}{150}{subsection.4.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.7}Discussion}{153}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.7}Discussion}{155}{subsection.4.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Modelling the interplay between dimerisation and membrane association}{155}{chapter.5}
+\contentsline {chapter}{\numberline {5}Modelling the interplay between dimerisation and membrane association}{159}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{157}{section.5.1}
+\contentsline {section}{\numberline {5.1}Introduction}{161}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Modelling chemical equilibria}{158}{section.5.2}
+\contentsline {section}{\numberline {5.2}Modelling chemical equilibria}{162}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}A thermodynamic model of dimerisation and membrane association}{163}{section.5.3}
+\contentsline {section}{\numberline {5.3}A thermodynamic model of dimerisation and membrane association}{167}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Thermodynamic description of membrane association}{163}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Thermodynamic description of membrane association}{167}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Thermodynamic description of dimerisation}{165}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Thermodynamic description of dimerisation}{169}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Combining membrane association and dimerisation}{166}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Combining membrane association and dimerisation}{170}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Intermediate dimerisation can drive nonlinear membrane association}{170}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.4}Intermediate dimerisation can drive nonlinear membrane association}{174}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Quantitative assessment of PAR-2 membrane association behaviour}{174}{section.5.4}
+\contentsline {section}{\numberline {5.4}Quantitative assessment of PAR-2 membrane association behaviour}{178}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Discussion}{178}{section.5.5}
+\contentsline {section}{\numberline {5.5}Discussion}{182}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Assessing the impacts of PAR-2 dimerisation in polarity models}{179}{chapter.6}
+\contentsline {chapter}{\numberline {6}Assessing the impacts of PAR-2 dimerisation in polarity models}{183}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{180}{section.6.1}
+\contentsline {section}{\numberline {6.1}Introduction}{184}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Describing membrane binding dynamics with transition state theory}{181}{section.6.2}
+\contentsline {section}{\numberline {6.2}Describing membrane binding dynamics with transition state theory}{185}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Exploring the effects of membrane lifetime in the mutual antagonism model}{185}{section.6.3}
+\contentsline {section}{\numberline {6.3}Exploring the effects of membrane lifetime in the mutual antagonism model}{189}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Conditions for polarisation}{187}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.1}Conditions for polarisation}{191}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Low off rates strengthen pattern asymmetries}{187}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Low off rates strengthen pattern asymmetries}{191}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Low off rates enhance pattern stability}{189}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}Low off rates enhance pattern stability}{193}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.4}Conclusions}{192}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.4}Conclusions}{196}{subsection.6.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Exploring the effects of dimerisation-driven feedback in polarity models}{193}{section.6.4}
+\contentsline {section}{\numberline {6.4}Exploring the effects of dimerisation-driven feedback in polarity models}{197}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Separating the effects of dimerisation on membrane affinity and feedback}{193}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Separating the effects of dimerisation on membrane affinity and feedback}{197}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Modelling aPAR to pPAR antagonism}{194}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.2}Modelling aPAR to pPAR antagonism}{198}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Dimerisation can generate nonlinear antagonism}{197}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.3}Dimerisation can generate nonlinear antagonism}{201}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Dimerisation-driven nonlinearities are sufficient for polarity in self-organising models}{198}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.4}Dimerisation-driven nonlinearities are sufficient for polarity in self-organising models}{202}{subsection.6.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Discussion}{204}{section.6.5}
+\contentsline {section}{\numberline {6.5}Discussion}{208}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Enhancing PAR-2 dimerisation}{207}{chapter.7}
+\contentsline {chapter}{\numberline {7}Enhancing PAR-2 dimerisation}{211}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Introduction}{208}{section.7.1}
+\contentsline {section}{\numberline {7.1}Introduction}{212}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Strengthening PAR-2 dimerisation shifts localisation pattern}{210}{section.7.2}
+\contentsline {section}{\numberline {7.2}Strengthening PAR-2 dimerisation shifts localisation pattern}{214}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Incorporating internal membranes into thermodynamic models}{216}{section.7.3}
+\contentsline {section}{\numberline {7.3}Incorporating internal membranes into thermodynamic models}{220}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Modelling the kinetics of PAR network reconfigurations}{220}{section.7.4}
+\contentsline {section}{\numberline {7.4}Modelling the kinetics of PAR network reconfigurations}{224}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Monitoring the behaviour of dimeric PAR-2 closer to equilibrium}{224}{section.7.5}
+\contentsline {section}{\numberline {7.5}Monitoring the behaviour of dimeric PAR-2 closer to equilibrium}{228}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Discussion}{226}{section.7.6}
+\contentsline {section}{\numberline {7.6}Discussion}{230}{section.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Discussion}{228}{chapter.8}
+\contentsline {chapter}{\numberline {8}Discussion}{233}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Materials and methods}{229}{chapter.9}
+\contentsline {section}{\numberline {8.1}RING-driven dimerisation stabilises PAR-2 membrane association}{234}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}\textit {C. elegans} methods}{229}{section.9.1}
+\contentsline {section}{\numberline {8.2}Functional importance of RING-driven membrane association}{234}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.1}Worm maintenance}{229}{subsection.9.1.1}
+\contentsline {section}{\numberline {8.3}An affinity/specificity scale}{234}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.2}Worm strains}{229}{subsection.9.1.2}
+\contentsline {chapter}{\numberline {9}Materials and methods}{235}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.3}RNA interference}{234}{subsection.9.1.3}
+\contentsline {section}{\numberline {9.1}\textit {C. elegans} methods}{236}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.4}Brood size assays}{234}{subsection.9.1.4}
+\contentsline {subsection}{\numberline {9.1.1}Worm maintenance}{236}{subsection.9.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}CRISPR}{235}{section.9.2}
+\contentsline {subsection}{\numberline {9.1.2}Worm strains}{236}{subsection.9.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.1}Overview of CRISPR strategies}{235}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.1.3}RNA interference}{241}{subsection.9.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Point mutations}{235}{subsubsection*.105}
+\contentsline {subsection}{\numberline {9.1.4}Brood size assays}{241}{subsection.9.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Small insertions}{236}{subsubsection*.107}
+\contentsline {section}{\numberline {9.2}CRISPR}{242}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Large insertions}{237}{subsubsection*.108}
+\contentsline {subsection}{\numberline {9.2.1}Overview of CRISPR strategies}{242}{subsection.9.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.2}Testing a method for gene insertions at the endogenous \textit {glh-1} site}{238}{subsection.9.2.2}
+\contentsline {subsubsection}{Point mutations}{242}{subsubsection*.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.3}PAR-2 point mutations}{242}{subsection.9.2.3}
+\contentsline {subsubsection}{Small insertions}{243}{subsubsection*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.4}PAR-2 GCN4 insertion}{244}{subsection.9.2.4}
+\contentsline {subsubsection}{Large insertions}{244}{subsubsection*.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.5}Mitochondrial GFP-binding protein}{245}{subsection.9.2.5}
+\contentsline {subsection}{\numberline {9.2.2}Testing a method for gene insertions at the endogenous \textit {glh-1} site}{245}{subsection.9.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.6}Plasma membrane tethered PAR-2 RING fragment}{246}{subsection.9.2.6}
+\contentsline {subsection}{\numberline {9.2.3}PAR-2 point mutations}{249}{subsection.9.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.7}RING domain fragment}{248}{subsection.9.2.7}
+\contentsline {subsection}{\numberline {9.2.4}PAR-2 GCN4 insertion}{251}{subsection.9.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.8}GCN4 fragment}{249}{subsection.9.2.8}
+\contentsline {subsection}{\numberline {9.2.5}Mitochondrial GFP-binding protein}{252}{subsection.9.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Microscopy}{250}{section.9.3}
+\contentsline {subsection}{\numberline {9.2.6}Plasma membrane tethered PAR-2 RING fragment}{253}{subsection.9.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}In vitro methods}{251}{section.9.4}
+\contentsline {subsection}{\numberline {9.2.7}RING domain fragment}{255}{subsection.9.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.1}Full-length PAR-2 purification}{251}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.2.8}GCN4 fragment}{256}{subsection.9.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.2}Ubiquitination assays}{251}{subsection.9.4.2}
+\contentsline {section}{\numberline {9.3}Microscopy}{257}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.3}PAR-2 RING domain fragment purification}{253}{subsection.9.4.3}
+\contentsline {section}{\numberline {9.4}In vitro methods}{258}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.4}SEC-MALS}{255}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {9.4.1}Full-length PAR-2 purification}{258}{subsection.9.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Computational methods}{256}{section.9.5}
+\contentsline {subsection}{\numberline {9.4.2}Ubiquitination assays}{258}{subsection.9.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.1}Image analysis}{256}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.4.3}PAR-2 RING domain fragment purification}{260}{subsection.9.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.2}Modelling}{256}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {9.4.4}SEC-MALS}{262}{subsection.9.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Simulations}{256}{subsubsection*.127}
+\contentsline {section}{\numberline {9.5}Computational methods}{263}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Creating qualitative parameter space maps}{256}{subsubsection*.128}
+\contentsline {subsection}{\numberline {9.5.1}Image analysis}{263}{subsection.9.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{258}{chapter*.130}
+\contentsline {subsection}{\numberline {9.5.2}Modelling}{263}{subsection.9.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{273}{chapter*.136}
+\contentsline {subsubsection}{Simulations}{263}{subsubsection*.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{278}{chapter*.136}
+\contentsline {subsubsection}{Creating qualitative parameter space maps}{263}{subsubsection*.128}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.5.3}Code availability}{264}{subsection.9.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{265}{chapter*.130}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{280}{chapter*.136}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{287}{chapter*.136}
