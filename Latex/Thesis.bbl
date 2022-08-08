@@ -1334,6 +1334,90 @@
     \field{year}{1996}
   \endentry
 
+  \entry{Bradbury2018}{software}{}
+    \name{author}{11}{}{%
+      {{hash=BJ}{%
+         family={Bradbury},
+         familyi={B\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Frostig},
+         familyi={F\bibinitperiod},
+         given={Roy},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Hawkins},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JMJ}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Matthew\bibnamedelima James},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Leary},
+         familyi={L\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Maclaurin},
+         familyi={M\bibinitperiod},
+         given={Dougal},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Necula},
+         familyi={N\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Paszke},
+         familyi={P\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={VanderPlas},
+         familyi={V\bibinitperiod},
+         given={Jake},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WMS}{%
+         family={Wanderman-Milne},
+         familyi={W\bibinitperiod-M\bibinitperiod},
+         given={Skye},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZQ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Qiao},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJFRHPJMJLCMDNGPAVJWMSZQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{{{JAX}: composable transformations of {P}ython+{N}um{P}y
+  programs}}
+    \verb{url}
+    \verb http://github.com/google/jax
+    \endverb
+    \field{year}{2018}
+  \endentry
+
   \entry{Brangwynne2009}{article}{}
     \name{author}{8}{}{%
       {{hash=BCP}{%
@@ -2795,6 +2879,169 @@
     \endverb
     \field{type}{techreport}
     \field{year}{1995}
+  \endentry
+
+  \entry{Evans2022}{article}{}
+    \name{author}{22}{}{%
+      {{hash=ER}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={O'Neill},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pritzel},
+         familyi={P\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Antropova},
+         familyi={A\bibinitperiod},
+         given={Natasha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Senior},
+         familyi={S\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={{\v{Z}}{\'{i}}dek},
+         familyi={{\v{Z}}\bibinitperiod},
+         given={Augustin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={Russ},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Blackwell},
+         familyi={B\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yim},
+         familyi={Y\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Ronneberger},
+         familyi={R\bibinitperiod},
+         given={Olaf},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bodenstein},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zielinski},
+         familyi={Z\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bridgland},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Potapenko},
+         familyi={P\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cowie},
+         familyi={C\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tunyasuvunakool},
+         familyi={T\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={Rishub},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={Ellen},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kohli},
+         familyi={K\bibinitperiod},
+         given={Pushmeet},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Jumper},
+         familyi={J\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hassabis},
+         familyi={H\bibinitperiod},
+         given={Demis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory}%
+    }
+    \strng{namehash}{ER+1}
+    \strng{fullhash}{EROMPAANSAGTZABRBSYJROBSZMBAPACATKJRCEKPJJHD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1101/2021.10.04.463034
+    \endverb
+    \field{pages}{2021.10.04.463034}
+    \field{title}{{Protein complex prediction with AlphaFold-Multimer}}
+    \verb{url}
+    \verb https://www.biorxiv.org/content/10.1101/2021.10.04.463034v2 https://w
+    \verb ww.biorxiv.org/content/10.1101/2021.10.04.463034v2.abstract
+    \endverb
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/Evans et al. - 2022 - Protei
+    \verb n complex prediction with AlphaFold-Multimer.pdf:pdf
+    \endverb
+    \field{journaltitle}{bioRxiv}
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Feng2007}{article}{}
@@ -5231,7 +5478,7 @@
          giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
-    \keyw{C. elegans,Modelling,Polarity}
+    \keyw{C. elegans,Goehring lab,Modelling,Polarity}
     \strng{namehash}{HL+1}
     \strng{fullhash}{HLPFRJDRNTHNIRGNW1}
     \field{labelnamesource}{author}
@@ -5700,6 +5947,7 @@
          giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
     }
+    \keyw{Journal Club}
     \strng{namehash}{JKADMLPKE1}
     \strng{fullhash}{JKADMLPKE1}
     \field{labelnamesource}{author}
@@ -9149,6 +9397,156 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Paszke2019}{incollection}{}
+    \name{author}{21}{}{%
+      {{hash=PA}{%
+         family={Paszke},
+         familyi={P\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Massa},
+         familyi={M\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lerer},
+         familyi={L\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bradbury},
+         familyi={B\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Chanan},
+         familyi={C\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Killeen},
+         familyi={K\bibinitperiod},
+         given={Trevor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Zeming},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Gimelshein},
+         familyi={G\bibinitperiod},
+         given={Natalia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AL}{%
+         family={Antiga},
+         familyi={A\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Desmaison},
+         familyi={D\bibinitperiod},
+         given={Alban},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kopf},
+         familyi={K\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YE}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DZ}{%
+         family={DeVito},
+         familyi={D\bibinitperiod},
+         given={Zachary},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Raison},
+         familyi={R\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tejani},
+         familyi={T\bibinitperiod},
+         given={Alykhan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chilamkurthy},
+         familyi={C\bibinitperiod},
+         given={Sasank},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Steiner},
+         familyi={S\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Lu},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bai},
+         familyi={B\bibinitperiod},
+         given={Junjie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chintala},
+         familyi={C\bibinitperiod},
+         given={Soumith},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Curran Associates, Inc.}%
+    }
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PAGSMFLABJCGKTLZGNALDAKAYEDZRMTACSSBFLBJCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Advances in Neural Information Processing Systems 32}
+    \field{pages}{8024\bibrangedash 8035}
+    \field{title}{{PyTorch: An Imperative Style, High-Performance Deep Learning
+  Library}}
+    \verb{url}
+    \verb http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-
+    \verb performance-deep-learning-library.pdf
+    \endverb
+    \field{year}{2019}
+  \endentry
+
   \entry{Petrasek2008}{article}{}
     \name{author}{6}{}{%
       {{hash=PZ}{%
@@ -9697,7 +10095,7 @@
          giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
-    \keyw{Aurora kinase,C. elegans,Caenorhabditis elegans,Membrane
+    \keyw{Aurora kinase,C. elegans,Caenorhabditis elegans,Goehring lab,Membrane
   quantification,PAR proteins,Polarity,Polo kinase,cell cycle,cell
   polarity,development,symmetry breaking,zygote}
     \strng{namehash}{RJD+1}
@@ -9924,6 +10322,7 @@
          giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
+    \keyw{Goehring lab}
     \strng{namehash}{RNTL+1}
     \strng{fullhash}{RNTLBTBPJNKHNGYFSGNW1}
     \field{labelnamesource}{author}
@@ -10053,7 +10452,7 @@
     \list{language}{1}{%
       {en}%
     }
-    \keyw{C. elegans,CDC-42,PAR clusters,PAR
+    \keyw{C. elegans,CDC-42,Goehring lab,PAR clusters,PAR
   proteins,PAR-2,PAR-3,PAR-6,PKC-3,Polarity,Printed,actomyosin flow,atypical
   protein kinase C,cell polarity,symmetry breaking}
     \strng{namehash}{RJ+1}
