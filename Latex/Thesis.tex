@@ -1077,16 +1077,16 @@ Work in section \ref{section:ring_ubiquitin} was performed with Colin Davis in A
 \clearpage
 \section{Introduction}
 
-Whilst no mechanisms have been definitively attributed to the PAR-2 RING domain, several observations in previous studies provide insight into potential mechanisms. On its own, the PAR-2 RING domain has been shown to lack any membrane binding activity (\textcite{Hao2006}, and replicated later in \cref{fig:ring_fragment_in_vivo}), whereas a central portion of the protein containing the polybasic regions but lacking the RING domain binds to the membrane with a similar affinity to PAR-2 (C56S). Therefore, rather than a direct interaction with the membrane, it is likely that the RING domain plays a modulatory role. Additionally, the authors show that the weakened affinity of PAR-2 (C56S) cannot be restored by the presence of wild-type PAR-2. I have also performed similar analysis in \cref{fig:c56s_cis}, which shows that PAR-2 (C56S) membrane affinity is unchanged when balanced by a wild type copy compared to when homozygous. In other words, the effects of C56S mutation appear to be cis-acting (intrinsic to each molecule). Finally, fluorescence recovery after photobleaching (FRAP) studies of PAR-2 (C56S) show that the mutant has faster membrane turnover kinetics than wild type PAR-2, suggesting that weakened membrane affinity in the mutant is due to a failure to stably associate with the membrane \citep{Motegi2011}.\\
+Whilst no mechanisms have been definitively attributed to the PAR-2 RING domain, several observations in previous studies provide insight into potential mechanisms. On its own, the PAR-2 RING domain has been shown to lack any membrane binding activity (\textcite{Hao2006}, and replicated later in \cref{fig:ring_fragment_in_vivo}), whereas a central portion of the protein containing the polybasic regions but lacking the RING domain binds to the membrane with a similar affinity to PAR-2 (C56S). Therefore, rather than a direct interaction with the membrane, it is likely that the RING domain plays a modulatory role. Additionally, the authors show that the weakened affinity of PAR-2 (C56S) cannot be restored by the presence of wild-type PAR-2.  I have also performed similar analysis in \cref{fig:c56s_cis}, which shows that PAR-2 (C56S) membrane affinity shows only a modest increase when balanced by a wild type copy compared to when homozygous. In other words, the effects of C56S mutation appear to be mostly cis-acting (intrinsic to each molecule). Finally, fluorescence recovery after photobleaching (FRAP) studies of PAR-2 (C56S) show that the mutant has faster membrane turnover kinetics than wild type PAR-2, suggesting that weakened membrane affinity in the mutant is due to a failure to stably associate with the membrane \citep{Motegi2011}.\\
 
 
 \begin{figure}
-\includegraphics[scale=1]{c56s_cis_v2}
+\includegraphics[scale=1.4]{c56s_cis_v2}
 \centering
 \mycaption{The PAR-2 RING domain activity is cis-acting}{
 \textbf{(A)} Schematic of the three genotypes investigated. Quantification results represent the distribution of mNG-tagged PAR-2 only.
-\textbf{(B)} Normalised cross-cortex profiles averaged over the posterior domain for the three conditions. 
-\textbf{(C)} Membrane affinity measurements for the three conditions, measured over the posterior domain of polarised cells.
+\textbf{(B)} i. Membrane affinity measurements for the three conditions, measured over the posterior domain of polarised cells.
+ii. Probability distributions of effect sizes in the data, estimated by bootstrapping. Vertical bars indicate 95\% confidence intervals.
 }
 \label{fig:c56s_cis}
 \end{figure}
@@ -1168,7 +1168,8 @@ To test the potential role of linchpin-mediated autoubiquitination for PAR-2 mem
 \mycaption{Mutation of the PAR-2 linchpin site has no effect on membrane affinity}{
 \textbf{(A)} Midplane images of wild type vs K94A GFP::PAR-2 at maintenance phase.
 \textbf{(B)} Normalised cross-cortex profiles for wild type vs K94A PAR-2 averaged over the posterior domain.
-\textbf{(C)} Membrane affinity measurements for wild type vs K94A PAR-2 in the posterior domain.
+\textbf{(C)} i. Membrane affinity measurements for wild type vs K94A PAR-2 in the posterior domain.
+ii. Probability distribution of the mean membrane affinity difference between wild type and K94A PAR-2, estimated by bootstrapping. Vertical line indicates 95\% confidence interval.
 }
 \label{fig:linchpin_in_vivo}
 \end{figure}
@@ -1371,14 +1372,13 @@ To investigate this, I used a pleckstrin homology (PH) plasma membrane probe to 
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{ph_ring_v2}
-\setlength{\abovecaptionskip}{20pt}
 \centering
 \mycaption{Membrane-tethered RING domain fragment drives posterior localisation}{
 \textbf{(A)} Schematic of the three constructs tested (GFP not shown).
 \textbf{(B)} Midplane confocal images of the three constructs.
 \textbf{(C)} Quantification of membrane to cytoplasmic ratios for the three constructs (Mean $\pm$ SD).
-\textbf{(D)} Quantification of asymmetry index using the data in (C).
-\textbf{(E)} Total expression of the three constructs. Expression of GFP::PH was downregulated by RNAi, aiming to roughly match expression of the other two constructs.
+\textbf{(D)} i. Quantification of asymmetry index using the data in (C).
+ii. Probability distributions of effect sizes in the data, estimated by bootstrapping. Vertical lines indicate 95\% confidence intervals.
 }
 \label{fig:ph_ring}
 \end{figure}
@@ -1391,7 +1391,8 @@ These results imply that the GFP::PH::RING construct polarises by dimerising wit
 \mycaption{Localisation of membrane-tethered RING domain is dependent on endogenous PAR patterns}{
 \textbf{(A)} Midplane confocal images of GFP::PH::RING under conditions of no RNAi, \textit{par-2} RNAi and \textit{par-6} RNAi.
 \textbf{(B)} Quantification of membrane to cytoplasmic ratios for the three constructs (Mean $\pm$ SD).
-\textbf{(C)} Quantification of asymmetry index using the data in (C).
+\textbf{(C)} i. Quantification of asymmetry index using the data in (C).
+ii. Probability distribution of effect sizes in the data, estimated by bootstrapping. Vertical lines indicate 95\% confidence intervals.
 }
 \label{fig:ph_ring_rnai}
 \end{figure}
@@ -2183,6 +2184,7 @@ Fig. \ref{fig:gcn4}A shows the behaviour of PAR-2(GCN4) compared to PAR-2(wt) at
 \textbf{(A) - (B)} Normalised cross-cortex profiles of mNG::PAR-2 and mNG::PAR-2(GCN4), averaged over the anterior (A) or posterior (B) 20\% of embryos. Mean $\pm$ SD.
 \textbf{(C)} Membrane concentration profiles of mNG::PAR-2 and mNG::PAR-2(GCN4). Mean $\pm$ SD.
 \textbf{(D)} Quantification of total mNG::PAR-2 and mNG::PAR-2(GCN4) expression, calculated as the average fluorescent signal from autofluorescence-corrected midplane images. 
+Right: Probability distribution of the difference in dosage between PAR-2(GCN4) and PAR-2(WT), estimated by bootstrapping. Vertical line indicates 95\% confidence interval.
 }
 \label{fig:gcn4_quantification}
 \end{figure}
@@ -2302,6 +2304,7 @@ Interestingly, PAR-2(GCN4) shows a different localisation pattern at the plasma 
 \textbf{(B)} Normalised cross-cortex profiles averaged over the whole circumference of the cell for mNG::PAR-2 and mNG::PAR-2(GCN4) in \textit{par-3(it71)} conditions.
 \textbf{(C)} Membrane concentration profiles of mNG::PAR-2 and mNG::PAR-2(GCN4) in \textit{par-3(it71)} conditions.
 \textbf{(D)} Quantification of total mNG::PAR-2 and mNG::PAR-2(GCN4) expression in \textit{par-3(it71)} embryos, calculated as the average fluorescent signal from autofluorescence-corrected midplane images. 
+Right: Probability distribution of the difference in dosage between PAR-2(GCN4) and PAR-2(WT), estimated by bootstrapping. Vertical line indicates 95\% confidence interval.
 }
 \label{fig:gcn4_par3mut}
 \end{figure}
