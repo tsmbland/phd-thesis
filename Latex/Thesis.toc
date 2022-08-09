@@ -126,7 +126,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Targeted mutation to putative linchpin site has no phenotype}{132}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Discussion}{136}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Discussion}{135}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Exploring a role for dimerisation}{137}{section.4.3}
 \defcounter {refsection}{0}\relax 

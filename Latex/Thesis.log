@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  9 AUG 2022 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  9 AUG 2022 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2753,13 +2753,13 @@ Overfull \hbox (10.76445pt too wide) in paragraph at lines 1166--1173
  [][] 
  []
 
-
+[134]
 Underfull \hbox (badness 10000) in paragraph at lines 1180--1181
 
  []
 
-[134] [135 <../Figures/linchpin_alignments.png (PNG copy)> <../Figures/linchpin
-_in_vivo_v2.png (PNG copy)>] [136]
+[135 <../Figures/linchpin_alignments.png (PNG copy)>] [136 <../Figures/linchpin
+_in_vivo_v2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1188--1189
 
  []
@@ -2978,7 +2978,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
  []
 
 [153 <../Figures/ring_fragment_in_vivo.png (PNG copy)>]
-<../Figures/ph_ring_v2.png, id=2175, 394.23285pt x 410.4936pt>
+<../Figures/ph_ring_v2.png, id=2176, 394.23285pt x 410.4936pt>
 File: ../Figures/ph_ring_v2.png Graphic file (type png)
 
 <use ../Figures/ph_ring_v2.png>
@@ -2990,7 +2990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
  []
 
 [154 <../Figures/ph_ring_v2.png (PNG copy)>]
-<../Figures/ph_ring_rnai_v2.png, id=2181, 377.79143pt x 292.33215pt>
+<../Figures/ph_ring_rnai_v2.png, id=2182, 377.79143pt x 292.33215pt>
 File: ../Figures/ph_ring_rnai_v2.png Graphic file (type png)
 
 <use ../Figures/ph_ring_rnai_v2.png>
@@ -3003,7 +3003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
  []
 
 [155] [156 <../Figures/ph_ring_rnai_v2.png (PNG copy)>]
-<../Figures/l50_structure.png, id=2191, 194.82788pt x 162.8484pt>
+<../Figures/l50_structure.png, id=2192, 194.82788pt x 162.8484pt>
 File: ../Figures/l50_structure.png Graphic file (type png)
 
 <use ../Figures/l50_structure.png>
@@ -3025,7 +3025,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1411--1412
  []
 
 
-<../Figures/dimer_interface_mutants_in_vivo.png, id=2194, 427.23615pt x 310.218
+<../Figures/dimer_interface_mutants_in_vivo.png, id=2195, 427.23615pt x 310.218
 98pt>
 File: ../Figures/dimer_interface_mutants_in_vivo.png Graphic file (type png)
  <use ../Figures/dimer_interface_mutants_in_vivo.png>
@@ -3039,7 +3039,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1424--1425
 
 [157 <../Figures/l50_structure.png (PNG copy)>] [158 <../Figures/dimer_interfac
 e_mutants_in_vivo.png (PNG copy)>]
-<../Figures/ring_lines_lethality_sterility.png, id=2205, 369.66106pt x 189.1065
+<../Figures/ring_lines_lethality_sterility.png, id=2206, 369.66106pt x 189.1065
 pt>
 File: ../Figures/ring_lines_lethality_sterility.png Graphic file (type png)
  <use ../Figures/ring_lines_lethality_sterility.png>
@@ -3102,7 +3102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1492--1493
 
  []
 
-<../Figures/gibbs_profile.png, id=2252, 216.81pt x 216.81pt>
+<../Figures/gibbs_profile.png, id=2253, 216.81pt x 216.81pt>
 File: ../Figures/gibbs_profile.png Graphic file (type png)
 
 <use ../Figures/gibbs_profile.png>
@@ -3122,7 +3122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1543--1544
  []
 
 
-<../Figures/thermodynamic_simple_example2.png, id=2272, 344.12566pt x 91.3011pt
+<../Figures/thermodynamic_simple_example2.png, id=2273, 344.12566pt x 91.3011pt
 >
 File: ../Figures/thermodynamic_simple_example2.png Graphic file (type png)
  <use ../Figures/thermodynamic_simple_example2.png>
@@ -3135,7 +3135,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1558--1559
  []
 
 
-<../Figures/thermodynamic_simple_example.png, id=2286, 344.12566pt x 106.89937p
+<../Figures/thermodynamic_simple_example.png, id=2287, 344.12566pt x 106.89937p
 t>
 File: ../Figures/thermodynamic_simple_example.png Graphic file (type png)
  <use ../Figures/thermodynamic_simple_example.png>
@@ -3162,7 +3162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
  []
 
 
-<../Figures/thermodynamic_membrane_binding_schematic.png, id=2303, 164.59492pt 
+<../Figures/thermodynamic_membrane_binding_schematic.png, id=2304, 164.59492pt 
 x 144.41956pt>
 File: ../Figures/thermodynamic_membrane_binding_schematic.png Graphic file (typ
 e png)
@@ -3184,7 +3184,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1640--1641
  []
 
 
-<../Figures/thermodynamic_simple_dimer.png, id=2322, 395.5578pt x 205.12634pt>
+<../Figures/thermodynamic_simple_dimer.png, id=2323, 395.5578pt x 205.12634pt>
 File: ../Figures/thermodynamic_simple_dimer.png Graphic file (type png)
 
 <use ../Figures/thermodynamic_simple_dimer.png>
@@ -3207,7 +3207,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1678--1679
  []
 
 
-<../Figures/thermodynamic_model_species.png, id=2343, 489.5088pt x 286.36987pt>
+<../Figures/thermodynamic_model_species.png, id=2344, 489.5088pt x 286.36987pt>
 File: ../Figures/thermodynamic_model_species.png Graphic file (type png)
 <use ../Figures/thermodynamic_model_species.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_species.png used on inp
@@ -3239,7 +3239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
  []
 
 
-<../Figures/thermodynamic_model_feedback.png, id=2357, 374.3586pt x 180.25342pt
+<../Figures/thermodynamic_model_feedback.png, id=2358, 374.3586pt x 180.25342pt
 >
 File: ../Figures/thermodynamic_model_feedback.png Graphic file (type png)
  <use ../Figures/thermodynamic_model_feedback.png>
@@ -3252,7 +3252,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1708--1709
  []
 
 [178]
-<../Figures/thermodynamic_model_dimer_fractions.png, id=2364, 454.51808pt x 342
+<../Figures/thermodynamic_model_dimer_fractions.png, id=2365, 454.51808pt x 342
 .49957pt>
 File: ../Figures/thermodynamic_model_dimer_fractions.png Graphic file (type png
 )
@@ -3309,7 +3309,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1752.
 
 [183]
-<../Figures/thermodynamic_wt_vs_l109r_model_fit.png, id=2396, 485.11238pt x 490
+<../Figures/thermodynamic_wt_vs_l109r_model_fit.png, id=2397, 485.11238pt x 490
 .41217pt>
 File: ../Figures/thermodynamic_wt_vs_l109r_model_fit.png Graphic file (type png
 )
@@ -3378,7 +3378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1863--1864
 
  []
 
-<../Figures/thermodynamic_model_koff.png, id=2443, 377.12895pt x 181.51814pt>
+<../Figures/thermodynamic_model_koff.png, id=2444, 377.12895pt x 181.51814pt>
 File: ../Figures/thermodynamic_model_koff.png Graphic file (type png)
 
 <use ../Figures/thermodynamic_model_koff.png>
@@ -3409,7 +3409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1914--1915
  []
 
 [194]
-<../Figures/goehring_model_kant_koff_triggering.png, id=2486, 340.69283pt x 337
+<../Figures/goehring_model_kant_koff_triggering.png, id=2487, 340.69283pt x 337
 .0191pt>
 File: ../Figures/goehring_model_kant_koff_triggering.png Graphic file (type png
 )
@@ -3429,7 +3429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1938--1939
  []
 
 
-<../Figures/goehring_model_kant_koff_asi.png, id=2498, 407.48235pt x 191.7564pt
+<../Figures/goehring_model_kant_koff_asi.png, id=2499, 407.48235pt x 191.7564pt
 >
 File: ../Figures/goehring_model_kant_koff_asi.png Graphic file (type png)
  <use ../Figures/goehring_model_kant_koff_asi.png>
@@ -3452,7 +3452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1954--1955
  []
 
 [197]
-<../Figures/goehring_model_kant_koff_dosage_imbalance.png, id=2507, 355.3275pt 
+<../Figures/goehring_model_kant_koff_dosage_imbalance.png, id=2508, 355.3275pt 
 x 348.40163pt>
 File: ../Figures/goehring_model_kant_koff_dosage_imbalance.png Graphic file (ty
 pe png)
@@ -3489,7 +3489,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2001--2002
 
  []
 
-<../Figures/epsilon_vs_koff_v2.png, id=2529, 265.2309pt x 180.49432pt>
+<../Figures/epsilon_vs_koff_v2.png, id=2530, 265.2309pt x 180.49432pt>
 File: ../Figures/epsilon_vs_koff_v2.png Graphic file (type png)
 
 <use ../Figures/epsilon_vs_koff_v2.png>
@@ -3525,7 +3525,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2056--2057
  []
 
 [204]
-<../Figures/model_antagonism_effective_exponent.png, id=2553, 378.03232pt x 362
+<../Figures/model_antagonism_effective_exponent.png, id=2554, 378.03232pt x 362
 .97607pt>
 File: ../Figures/model_antagonism_effective_exponent.png Graphic file (type png
 )
@@ -3554,7 +3554,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2082--2083
 
  []
 
-<../Figures/dimer_model_triggering.png, id=2565, 308.71335pt x 333.6465pt>
+<../Figures/dimer_model_triggering.png, id=2566, 308.71335pt x 333.6465pt>
 File: ../Figures/dimer_model_triggering.png Graphic file (type png)
 
 <use ../Figures/dimer_model_triggering.png>
@@ -3572,7 +3572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2095--2096
  []
 
 
-<../Figures/dimer_mutual_antagonism_model_asi.png, id=2579, 395.73848pt x 191.9
+<../Figures/dimer_mutual_antagonism_model_asi.png, id=2580, 395.73848pt x 191.9
 3707pt>
 File: ../Figures/dimer_mutual_antagonism_model_asi.png Graphic file (type png)
  <use ../Figures/dimer_mutual_antagonism_model_asi.png>
@@ -3580,7 +3580,7 @@ Package pdftex.def Info: ../Figures/dimer_mutual_antagonism_model_asi.png used
 on input line 2098.
 (pdftex.def)             Requested size: 395.73752pt x 191.9366pt.
 
-<../Figures/dimer_model_more_paramspace.png, id=2580, 412.84238pt x 542.08522pt
+<../Figures/dimer_model_more_paramspace.png, id=2581, 412.84238pt x 542.08522pt
 >
 File: ../Figures/dimer_model_more_paramspace.png Graphic file (type png)
  <use ../Figures/dimer_model_more_paramspace.png>
@@ -3655,7 +3655,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2155--2156
 
  []
 
-<../Figures/gcn4_ring_structure.png, id=2619, 355.02638pt x 153.03172pt>
+<../Figures/gcn4_ring_structure.png, id=2620, 355.02638pt x 153.03172pt>
 File: ../Figures/gcn4_ring_structure.png Graphic file (type png)
 
 <use ../Figures/gcn4_ring_structure.png>
@@ -3670,14 +3670,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2168--2169
 [217
 
  <../Figures/gcn4_ring_structure.png (PNG copy)>]
-<../Figures/gcn4.png, id=2629, 392.54655pt x 295.70474pt>
+<../Figures/gcn4.png, id=2634, 392.54655pt x 295.70474pt>
 File: ../Figures/gcn4.png Graphic file (type png)
 
 <use ../Figures/gcn4.png>
 Package pdftex.def Info: ../Figures/gcn4.png used on input line 2171.
 (pdftex.def)             Requested size: 392.5456pt x 295.70401pt.
 
-<../Figures/gcn4_quantification_v2.png, id=2630, 400.67693pt x 385.07864pt>
+<../Figures/gcn4_quantification_v2.png, id=2635, 400.67693pt x 385.07864pt>
 File: ../Figures/gcn4_quantification_v2.png Graphic file (type png)
 
 <use ../Figures/gcn4_quantification_v2.png>
@@ -3689,7 +3689,7 @@ Overfull \hbox (3.19095pt too wide) in paragraph at lines 2181--2188
  [][] 
  []
 
-<../Figures/rabs.png, id=2631, 151.22498pt x 146.88878pt>
+<../Figures/rabs.png, id=2636, 151.22498pt x 146.88878pt>
 File: ../Figures/rabs.png Graphic file (type png)
 
 <use ../Figures/rabs.png>
@@ -3705,7 +3705,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2199--2200
 
  []
 
-<../Figures/gcn4_alone.png, id=2634, 341.17462pt x 175.1343pt>
+<../Figures/gcn4_alone.png, id=2639, 341.17462pt x 175.1343pt>
 File: ../Figures/gcn4_alone.png Graphic file (type png)
 
 <use ../Figures/gcn4_alone.png>
@@ -3737,7 +3737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2233--2234
 [223
 
 ]
-<../Figures/six_species_thermodynamic.png, id=2671, 442.17195pt x 147.4308pt>
+<../Figures/six_species_thermodynamic.png, id=2676, 442.17195pt x 147.4308pt>
 File: ../Figures/six_species_thermodynamic.png Graphic file (type png)
 
 <use ../Figures/six_species_thermodynamic.png>
@@ -3754,7 +3754,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2246--2247
 
  []
 
-<../Figures/par_reconfigurations.png, id=2677, 958.58125pt x 253.94875pt>
+<../Figures/par_reconfigurations.png, id=2682, 958.58125pt x 253.94875pt>
 File: ../Figures/par_reconfigurations.png Graphic file (type png)
 
 <use ../Figures/par_reconfigurations.png>
@@ -3788,7 +3788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2274--2275
 
  []
 
-<../Figures/three_surface_kinetic.png, id=2698, 423.984pt x 490.7133pt>
+<../Figures/three_surface_kinetic.png, id=2703, 423.984pt x 490.7133pt>
 File: ../Figures/three_surface_kinetic.png Graphic file (type png)
 
 <use ../Figures/three_surface_kinetic.png>
@@ -3831,7 +3831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2296--2297
 
  []
 
-<../Figures/gcn4_par3mut_v2.png, id=2715, 401.21895pt x 333.28516pt>
+<../Figures/gcn4_par3mut_v2.png, id=2721, 401.21895pt x 333.28516pt>
 File: ../Figures/gcn4_par3mut_v2.png Graphic file (type png)
 
 <use ../Figures/gcn4_par3mut_v2.png>
@@ -3962,7 +3962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2392--2393
  []
 
 
-<../Figures/mutant_comparison_for_discussion.png, id=2788, 383.15144pt x 142.07
+<../Figures/mutant_comparison_for_discussion.png, id=2794, 383.15144pt x 142.07
 077pt>
 File: ../Figures/mutant_comparison_for_discussion.png Graphic file (type png)
  <use ../Figures/mutant_comparison_for_discussion.png>
@@ -4076,7 +4076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2543--2544
 
  []
 
-[259] <../Figures/glh.png, id=2899, 366.34868pt x 297.9933pt>
+[259] <../Figures/glh.png, id=2905, 366.34868pt x 297.9933pt>
 File: ../Figures/glh.png Graphic file (type png)
 
 <use ../Figures/glh.png>
@@ -4422,7 +4422,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2891--2892
 
 [276
 
-] <../Figures/paramspace_method.png, id=3018, 391.7034pt x 139.36066pt>
+] <../Figures/paramspace_method.png, id=3024, 391.7034pt x 139.36066pt>
 File: ../Figures/paramspace_method.png Graphic file (type png)
 
 <use ../Figures/paramspace_method.png>
@@ -4455,7 +4455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2926--2927
 
  []
 
-<../Figures/fxr_sequence.png, id=3039, 706.64pt x 283.0575pt>
+<../Figures/fxr_sequence.png, id=3045, 706.64pt x 283.0575pt>
 File: ../Figures/fxr_sequence.png Graphic file (type png)
 
 <use ../Figures/fxr_sequence.png>
@@ -4473,7 +4473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2939--2940
 
  []
 
-<../Figures/par2_phos_mutants.png, id=3045, 333.245pt x 839.135pt>
+<../Figures/par2_phos_mutants.png, id=3051, 333.245pt x 839.135pt>
 File: ../Figures/par2_phos_mutants.png Graphic file (type png)
 
 <use ../Figures/par2_phos_mutants.png>
@@ -4507,7 +4507,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2959--2960
 
  []
 
-<../Figures/fxr_phosphorylation_types.png, id=3068, 393.1488pt x 571.4148pt>
+<../Figures/fxr_phosphorylation_types.png, id=3074, 393.1488pt x 571.4148pt>
 File: ../Figures/fxr_phosphorylation_types.png Graphic file (type png)
 
 <use ../Figures/fxr_phosphorylation_types.png>
@@ -4539,7 +4539,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2976--2977
 
  []
 
-[287] <../Figures/fxr_mutant_schematic.png, id=3087, 431.211pt x 503.36055pt>
+[287] <../Figures/fxr_mutant_schematic.png, id=3093, 431.211pt x 503.36055pt>
 File: ../Figures/fxr_mutant_schematic.png Graphic file (type png)
 
 <use ../Figures/fxr_mutant_schematic.png>
@@ -4547,7 +4547,7 @@ Package pdftex.def Info: ../Figures/fxr_mutant_schematic.png used on input line
  2979.
 (pdftex.def)             Requested size: 366.53108pt x 427.85847pt.
 
-<../Figures/fxr_simulations.png, id=3088, 359.12167pt x 402.303pt>
+<../Figures/fxr_simulations.png, id=3094, 359.12167pt x 402.303pt>
 File: ../Figures/fxr_simulations.png Graphic file (type png)
 
 <use ../Figures/fxr_simulations.png>
@@ -4777,10 +4777,6 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3063.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1FEAE4F0005812312F2F136F8985F2E4;10460.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
@@ -4822,10 +4818,10 @@ fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/cbfonts/grmn1000.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/cbfonts/grmn1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/cbfonts/grxn1000.pfb>
-Output written on Thesis.pdf (318 pages, 92346692 bytes).
+Output written on Thesis.pdf (318 pages, 92346829 bytes).
 PDF statistics:
- 3890 PDF objects out of 4296 (max. 8388607)
- 3406 compressed objects within 35 object streams
+ 3896 PDF objects out of 4296 (max. 8388607)
+ 3412 compressed objects within 35 object streams
  825 named destinations out of 1000 (max. 500000)
  1435 words of extra memory for PDF output out of 10000 (max. 10000000)
 

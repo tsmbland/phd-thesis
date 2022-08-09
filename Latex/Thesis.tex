@@ -1160,7 +1160,7 @@ Whilst mechanisms of catalytic activity are variable among proteins, a key catal
 \label{fig:linchpin_alignments}
 \end{figure}
 
-To test the potential role of linchpin-mediated autoubiquitination for PAR-2 membrane binding affinity, I used CRISPR to perform targeted mutation to this site, turning it into an alanine. As shown in \cref{fig:linchpin_in_vivo}, this has no detectable effect on membrane affinity. Whilst this cannot rule out a role for PAR-2 as a ubiquitin ligase in vivo, the result argues against a model in which linchpin-mediated autoubiquitination is a driver of high membrane association.\\
+To test the potential role of linchpin-mediated autoubiquitination for PAR-2 membrane binding affinity, I used CRISPR to perform targeted mutation to this site, turning it into an alanine. As shown in \cref{fig:linchpin_in_vivo}, this has only a marginal effect on membrane affinity. Whilst this cannot rule out a role for PAR-2 as a ubiquitin ligase in vivo, the result argues against a model in which linchpin-mediated autoubiquitination is a main driver of high membrane association.\\
 
 \begin{figure}
 \includegraphics[scale=0.9]{linchpin_in_vivo_v2}
@@ -1368,7 +1368,7 @@ I next aimed to test the ability of the PAR-2 RING to dimerise on the membrane, 
 \label{fig:ring_fragment_in_vivo}
 \end{figure}
 
-To investigate this, I used a pleckstrin homology (PH) plasma membrane probe to tether the RING-containing fragment to the plasma membrane. Should this construct be capable of dimerising with endogenous PAR-2, we would expect preferential enrichment in the posterior of the cell. I found that construct was poorly expressed in zygotes, but visible after autofluorescence correction by SAIBR. Whilst PH alone is uniform on the membrane, tethering it to the PAR-2 RING domain causes clear enrichment in the posterior, which is indicative of an interaction with endogenous PAR-2 (\cref{fig:ph_ring}). A C56S mutant construct, by contrast, shows a reduced degree of polarity compared to the wild type probe.\\
+To investigate this, I used a pleckstrin homology (PH) plasma membrane probe to tether the RING-containing fragment to the plasma membrane. Should this construct be capable of dimerising with endogenous PAR-2, we would expect preferential enrichment in the posterior of the cell. I found that construct was poorly expressed in zygotes, but visible after autofluorescence correction by SAIBR. Whilst PH alone is uniform on the membrane, tethering it to the PAR-2 RING domain causes clear enrichment in the posterior, which is indicative of an interaction with endogenous PAR-2 (\cref{fig:ph_ring}). A C56S mutant construct, by contrast, shows a reduced degree of polarity compared to the wild type probe (\cref{fig:ph_ring}B-D).\\
 
 \begin{figure}[!h]
 \includegraphics[scale=1]{ph_ring_v2}
@@ -1383,7 +1383,7 @@ ii. Probability distributions of effect sizes in the data, estimated by bootstra
 \label{fig:ph_ring}
 \end{figure}
 
-These results imply that the GFP::PH::RING construct polarises by dimerising with polarised endogenous PAR-2. Therefore, it is expected that disrupting polarity of endogenous PAR-2 should disrupt posterior bias of the membrane-tethered RING domain. To test this, I disrupted endogenous polarity using RNAi against \textit{par-2} or \textit{par-6}, and visualised the effect on the GFP::PH::RING construct (\cref{fig:ph_ring_rnai}). As expected, if PAR-2 is uniform (\textit{par-6} RNAi) or absent (\textit{par-2} RNAi), the membrane tethered RING domain reverts to a more uniform localisation.\\
+These results imply that the GFP::PH::RING construct polarises by dimerising with polarised endogenous PAR-2. Following from these results, it is expected that disrupting polarity of endogenous PAR-2 should disrupt posterior bias of the membrane-tethered RING domain. To test this, I disrupted endogenous polarity using RNAi against \textit{par-2} or \textit{par-6}, and visualised the effect on the GFP::PH::RING construct. As expected, if PAR-2 is uniform (\textit{par-6} RNAi) or absent (\textit{par-2} RNAi), the membrane tethered RING domain reverts to a more uniform localisation (\cref{fig:ph_ring_rnai}).\\
 
 \begin{figure}
 \includegraphics[scale=1]{ph_ring_rnai_v2}
@@ -2165,7 +2165,7 @@ Prediction based on the following protein sequence: PAR-2(40-120)::GSGG::GCN4::G
 \label{fig:gcn4_ring_structure}
 \end{figure}
 
-Fig. \ref{fig:gcn4}A shows the behaviour of PAR-2(GCN4) compared to PAR-2(wt) at the maintenance phase of polarity, and \cref{fig:gcn4_quantification} shows membrane quantification data. Strikingly, we find that strengthening dimerisation of PAR-2 with GCN4 causes a dramatic localisation shift. Firstly, whilst PAR-2 remains polarised towards the posterior, there is a considerable amount of localisation at the anterior membrane. This suggests that, whilst dimeric PAR-2 is clearly still able to respond to PKC-3, it may be partially resistant to antagonism. Secondly, we see the unexpected appearance of visible structures within the cell. Based on comparison to RAB localisation patterns (\cref{fig:rabs}), we believe that this likely represents an interaction of PAR-2 with early and late endosomal membranes.\\
+Fig. \ref{fig:gcn4}A shows the behaviour of PAR-2(GCN4) compared to PAR-2(wt) at the maintenance phase of polarity, and \cref{fig:gcn4_quantification} shows membrane quantification and dosage data. Strikingly, we find that strengthening dimerisation of PAR-2 with GCN4 causes a dramatic localisation shift. Firstly, whilst PAR-2 remains polarised towards the posterior, there is a considerable amount of localisation at the anterior membrane (\cref{fig:gcn4}Aiii,  \cref{fig:gcn4_quantification}A, C). This suggests that, whilst dimeric PAR-2 is clearly still able to respond to PKC-3, it may be partially resistant to antagonism. Secondly, we see the unexpected appearance of visible structures within the cell (\cref{fig:gcn4}Aiv). Based on comparison to RAB localisation patterns (\cref{fig:rabs}), we believe that this likely represents an interaction of PAR-2 with early and late endosomal membranes. Total protein amounts are unchanged (\cref{fig:gcn4_quantification}D).\\
 
 \begin{figure}
 \includegraphics[scale=1]{gcn4}
@@ -2291,9 +2291,9 @@ Overall, by considering the exchange kinetics of PAR-2 in a dynamic system, we c
 
 To investigate this, I studied PAR-2(GCN4) behaviour in \textit{par-3(it71)} mutant cells. In aPAR mutant conditions, the plasma membrane is available to PAR-2 for around 40 minutes prior to nuclear envelope breakdown (NEBD) without major reconfigurations, so the system at NEBD is expected to be closer to its equilibrium state than in \textit{par-3(wt)} cells.\\
 
-Images and quantification of PAR-2(GCN4) and PAR-2(wt) in wild type and \textit{par-3(it71)} mutant conditions are shown in \cref{fig:gcn4_par3mut}. Strikingly, internal membrane localisation of PAR-2(GCN4) is greatly reduced in \textit{par-3} mutant conditions, in line with predictions from equilibrium models. Some internal membrane structures are still visible, but this is greatly reduced compared to wild type conditions. Plasma membrane localisation is similar to wild type PAR-2, but concentrations do not exceed wild type levels as might be expected. This may be due to some residual internal membrane binding, or due to a slight reduction in total protein levels in in these conditions (\cref{fig:gcn4_par3mut}B).\\
+Images and quantification of PAR-2(GCN4) and PAR-2(wt) in wild type and \textit{par-3(it71)} mutant conditions are shown in \cref{fig:gcn4_par3mut}. Strikingly, internal membrane localisation of PAR-2(GCN4) is greatly reduced in \textit{par-3} mutant conditions, in line with predictions from equilibrium models. Some internal membrane structures are still visible, but this is greatly reduced compared to wild type conditions. Plasma membrane localisation is similar to wild type PAR-2, but concentrations do not exceed wild type levels as might be expected. This may be due to some residual internal membrane binding, or due to a slight reduction in total protein levels that we observe in these conditions (\cref{fig:gcn4_par3mut}D).\\
 
-Interestingly, PAR-2(GCN4) shows a different localisation pattern at the plasma membrane compared to wild type PAR-2. Whilst wild type PAR-2 is slightly enriched in the posterior, localisation of PAR-2(GCN4) is switched towards the anterior. I suspect that this is due to advective transport by anterior-directed cortical flows, which is typically stronger for proteins with longer membrane lifetimes \citep{Illukkumbura2020}.\\
+Interestingly, PAR-2(GCN4) shows a different localisation pattern at the plasma membrane compared to wild type PAR-2. Whilst wild type PAR-2 is slightly enriched in the posterior, localisation of PAR-2(GCN4) is switched towards the anterior (\cref{fig:gcn4_par3mut}C). I suspect that this is due to advective transport by anterior-directed cortical flows, which is typically stronger for proteins with longer membrane lifetimes \citep{Illukkumbura2020}.\\
 
 
 \begin{figure}
