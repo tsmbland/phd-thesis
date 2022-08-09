@@ -1039,18 +1039,18 @@ ODEs were build using a constant off rate term ($k_{off} = 1$), with on rates sp
 
 In a \textit{par-3 (it71)} background, a PAR-2 intrinsic positive feedback reaction implies that the membrane to cytoplasmic ratio should vary with concentration. A commonly used method that can be used to vary protein amounts in \textit{C. elegans} is RNAi, which reduces protein amounts in a manner that can be tuned by duration of dsRNA exposure. To test for the existence of PAR-2 intrinsic positive feedback, I performed an in vivo titration assay using \textit{par-3 (it71)} mutant worms expressing mNG::PAR-2 (wt), in which I used RNAi to rundown protein levels, and quantified membrane and cytoplasmic concentrations on an embryo-by-embryo basis. mNG (NeonGreen) was selected as a fluorophore as it is significantly brighter that GFP, which aids quantification in cells with long RNAi exposures.\\
 
-Strikingly, the results reveal that PAR-2 does not follow strict linear membrane binding kinetics (\cref{fig:rundown_vs_c56s}A, C (blue)). Instead, a nonlinearity appears to be present whereby membrane affinities are higher in cells with higher dosages. The shape of the relationship implies that PAR-2 is feeding back onto its own membrane binding (\cref{fig:rundown_schematic}), but there is no evidence for any discontinuities that would imply bistable behaviour.\\
+Strikingly, the results reveal that PAR-2 does not follow strict linear membrane binding kinetics (\cref{fig:rundown_vs_c56s}A, C, D (blue)). Instead, a nonlinearity appears to be present whereby membrane affinities are higher in cells with higher dosages. The shape of the relationship implies that PAR-2 is feeding back onto its own membrane binding (\cref{fig:rundown_schematic}), but there is no evidence for any discontinuities that would imply bistable behaviour.\\
 
-Interestingly, unlike wild type PAR-2, the membrane affinity of PAR-2 (C56S) is equal in polarised and \textit{par-3 (it71)} systems, despite large changes in membrane and cytoplasmic concentrations. This suggests that the mechanism of positive feedback may be RING-dependent. To test this, I performed a similar titration assay using the PAR-2 (C56S) mutant line. The results (\cref{fig:rundown_vs_c56s}B, C (orange)) show that the nonlinearity of the cytoplasm vs membrane relationship is greatly reduced compared to wild type, implying that the RING domain plays an essential role in promoting positive feedback.\\
+Interestingly, unlike wild type PAR-2, the membrane affinity of PAR-2 (C56S) is equal in polarised and \textit{par-3 (it71)} systems, despite large changes in membrane and cytoplasmic concentrations. This suggests that the mechanism of positive feedback may be RING-dependent. To test this, I performed a similar titration assay using the PAR-2 (C56S) mutant line. The results (\cref{fig:rundown_vs_c56s}B, C, D (orange)) show that the nonlinearity of the cytoplasm vs membrane relationship is greatly reduced compared to wild type, implying that the RING domain plays an essential role in promoting positive feedback.\\
 
 
 \begin{figure}[!h]
-\includegraphics[scale=0.88]{rundown_vs_c56s}
-\setlength{\abovecaptionskip}{20pt}
+\includegraphics[scale=0.9]{rundown_vs_c56s_v2}
 \centering
 \mycaption{PAR-2 displays RING-dependent nonlinear membrane binding kinetics}{
 \textbf{(A) - (B)} Images of \textit{par-3 (it71)} cells expressing wild type (A) or C56S (B) mNG::PAR-2 with varying dosage achieved by \textit{par-2 RNAi}. Bottom panels show mean ($\pm$ SD) normalised cross-cortex intensity profiles for the embryos shown, averaged over the entire embryo circumference.
-\textbf{(C)} Quantification of membrane and cytoplasmic concentrations for the full dataset, including untagged N2s (white), which fall close to the origin.
+\textbf{(C)} Quantification of membrane and cytoplasmic concentrations for the full dataset, including untagged N2s (white). Solid lines indicate fit of each dataset to an exponent model ($y = ax^b$). Shaded regions show 95\% confidence intervals, estimated by bootstrapping.
+\textbf{(D)} Probability distributions of exponents from model fitting in (C), estimated by bootstrapping. PH(PLC$\Delta1$) data (derived from data in \cref{fig:memquant_benchmarking_ph_rundown}) shown for comparison. Vertical lines indicate 95\% confidence intervals.
 }
 \label{fig:rundown_vs_c56s}
 \end{figure}
@@ -1262,11 +1262,11 @@ To understand the oligomeric properties of the PAR-2 RING domain in solution, we
 We performed five SEC-MALS assays on PAR-2 RING, using sample concentrations of 10, 5, 2, 0.75 and 0.5 mg/ml (\cref{fig:sec_mals}A). In all cases a single peak is observed in refractive index traces, with corresponding molar mass measurements by MALS somewhere between the expected weight of a monomer and a dimer, suggesting that the sample exists in a monomer-dimer equilibrium. Furthermore, mass distributions show clear concentration-dependence, with more concentrated samples giving higher molar mass measurements. This is more clearly visualised in \cref{fig:sec_mals}B, which shows that the average molecular weight of particles in the sample increases as a function of sample concentration. Overall, this data suggests that the PAR-2 RING domain displays concentration-dependent dimerisation, existing largely as a monomer at low concentrations and mostly dimeric at higher concentrations.\\
 
 \begin{figure}
-\includegraphics[scale=1]{sec_mals}
+\includegraphics[scale=1]{sec_mals_v2}
 \centering
 \mycaption{SEC-MALS titration reveals concentration-dependent dimerisation of the PAR-2 RING domain}{
 \textbf{(A)} SEC-MALS traces for the PAR-2 RING domain at different concentrations. Solid lines indicate refractive index measurements, dotted lines indicate molar mass measurements. Colour coded by sample concentration. Note that effective concentrations are lower than this as sample gets diluted in the instrument. MALS traces are cropped to retention volumes for which refractive index is $>$ 80\% of its peak value.
-\textbf{(B)} Molecular weight measurements vs. concentration for the SEC-MALS assays in (A). Note, for samples in a monomer-dimer equilibrium, this represents the average weight of all particles in the sample. Error bars represent measurement uncertainty.
+\textbf{(B)} Weight-average molecular weight measurements vs. sample concentration for the SEC-MALS assays in (A). Solid line indicates fit to a dimerisation model.
 }
 \label{fig:sec_mals}
 \end{figure}
@@ -1305,11 +1305,12 @@ Colour coded by pLDDT.
 Given that dimerisation is predicted to be mediated by a hydrophobic interface within a 4-helix bundle, we would expect that mutations to hydrophobic residues within this region should disrupt dimerisation, as has been shown previously for several RING domains \citep{Koliopoulos2016, Rojas-Fernandez2014, Liew2010}. Unlike mutations to zinc-coordinating cysteines, which completely misfold the domain, mutations to this interface should preserve the tertiary structure of the domain and specifically disrupt dimerisation. I identified L109, predicted to be found in the C-helix, as a likely important site (\cref{fig:l109r_sec_mals}A), and L109R as a likely disruptive mutation. As we did for the wild-type RING domain, we expressed the mutant allele in bacteria and purified it using the same protocol. SEC-MALS shows that this mutant has the expected molecular weight of an entirely monomeric population (\cref{fig:l109r_sec_mals}A). By contrast, wild type RING at an equivalent concentration (\cref{fig:sec_mals}A, 0.75 mg/ml) is partially dimeric. We cannot rule out that PAR-2(L109R) dimerises at higher concentrations, but were unable to purify sufficient quantities to test at higher levels.\\
 
 \begin{figure}
-\includegraphics[scale=1]{l109r_sec_mals}
+\includegraphics[scale=1]{l109r_sec_mals_v2}
 \centering
 \mycaption{Mutation of residue at hydrophobic interface disrupts PAR-2 RING domain dimerisation}{
 \textbf{(A)} Position of the L109 site within the 4-helix bundle of the PAR-2 RING domain dimer (AlphaFold prediction). L109 site highlighted in blue, other residues coloured by hydrophobicity.
 \textbf{(B)} SEC-MALS trace for PAR-2 RING (L109R). Solid line indicates refractive index, dotted line indicates molar mass. Sample concentration 0.75 mg/ml.
+\textbf{(C)} Weight-average molecular weight vs. sample concentration for the single SEC-MALS trace in (B). Shown against wild-type data (gray).
 }
 \label{fig:l109r_sec_mals}
 \end{figure}
@@ -1408,15 +1409,17 @@ Overall, the data described so far suggests a mechanism whereby cytoplasmic PAR-
 \label{fig:l50_structure}
 \end{SCfigure}
 
-As shown in \cref{fig:dimer_interface_mutants_in_vivo}, both mutations cause a strong reduction in membrane affinity. The effect is stronger for L109R than L50R, which may suggest that L50R has a weaker disruptive effect on dimerisation. Combining both mutants has no effect compared to L109R alone, which implies that dimerisation is completely disrupted in L109R. Interestingly, however, neither mutant reduces membrane affinity to the same extent as C56S. Assuming that dimerisation is fully disrupted by L109R, this implies that fully unfolding the domain may have additional effects compared to just disrupting dimerisation alone. One plausible explanation is that, in the case of C56S, the unfolded domain interferes with normal membrane binding, and therefore has an additional negative effect on membrane affinity. Compatible with this, a PH::RING fusion has lower overall membrane affinity than PH alone (\cref{fig:ph_ring}). Combining C56S and L109R has no effect compared to C56S alone, suggesting that dimerisation is completely disrupted in the C56S mutant.\\
+As shown in \cref{fig:dimer_interface_mutants_in_vivo}A-C, both mutations cause a strong reduction in membrane affinity. The effect is stronger for L109R than L50R, which may suggest that L50R has a weaker disruptive effect on dimerisation. Combining both mutants has no effect compared to L109R alone (\cref{fig:dimer_interface_mutants_in_vivo}D), which implies that dimerisation is completely disrupted in L109R. Interestingly, however, neither mutant reduces membrane affinity to the same extent as C56S. Assuming that dimerisation is fully disrupted by L109R, this implies that fully unfolding the domain may have additional effects compared to just disrupting dimerisation alone. One plausible explanation is that, in the case of C56S, the unfolded domain interferes with normal membrane binding, and therefore has an additional negative effect on membrane affinity. Compatible with this, a PH::RING fusion has lower overall membrane affinity than PH alone (\cref{fig:ph_ring}). Combining C56S and L109R has no effect compared to C56S alone (\cref{fig:dimer_interface_mutants_in_vivo}E), suggesting that dimerisation is completely disrupted in the C56S mutant.\\
 
 \begin{figure}
-\includegraphics[scale=0.9]{dimer_interface_mutants_in_vivo}
+\includegraphics[scale=0.9]{dimer_interface_mutants_in_vivo_v2}
 \centering
 \mycaption{Dimerisation interface mutants disrupt PAR-2 membrane association}{
 \textbf{(A)} Midplane confocal images of wild type, L50R, L109R and C56S PAR-2.
 \textbf{(B)} Normalised cross-cortex profiles for the four PAR-2 alleles in (A).
-\textbf{(C)} Quantification of membrane to cytoplasmic ratio for the four mutants and (A) and (B) and two additional combined mutants.
+\textbf{(C)} Quantification of membrane to cytoplasmic ratio for the four mutants and (A) and (B). Bottom: probability distributions of effect sizes in the dataset, estimated by bootstrapping.
+\textbf{(D)} Membrane affinity quantification of double L50R+L109R mutant shows no effect compared to L109R alone. Right: probability distributions of effect sizes in the dataset, estimated by bootstrapping.
+\textbf{(E)} Membrane affinity quantification of double C56S+L109R mutant shows no effect compared to C56S alone. Right: probability distributions of effect sizes in the dataset, estimated by bootstrapping. Vertical lines in C (bottom), D (right) and E (right) show 95\% confidence intervals.
 }
 \label{fig:dimer_interface_mutants_in_vivo}
 \end{figure}
@@ -2543,13 +2546,13 @@ To test the potential utility of this method, and to serve as a base for future 
 After inserting the T2A::mNG::INPP4A sequence at the \textit{glh-1} site, embryos displayed high expression of mNG, but also displayed puncta in the posterior of embryos which likely represents a small amount of GLH-1::mNG fusion protein (\cref{fig:glh}B, top). Whilst generally highly efficient in vitro, 2A peptides have been shown to result in incomplete ribosome skipping in a range of in vivo systems, which can lead to a small amount of separated fusion protein \citep{Kim2011}. In mouse and HeLa cell lines, the efficiency of ribosome skipping has been shown to increase by including an additional P2A sequence (an alternative 2A peptide) in tandem with T2A (known as tandem P2A-T2A, or tPT2A), which entirely removes fusion protein expression without affecting overall expression levels \citep{Liu2017, Pan2017}. To test this approach, I inserted a P2A sequence upstream of T2A in the \textit{glh-1::T2A::mNG} line by CRISPR, targeting the site with guides TB0122 and TB0123 (table \ref{tab:glh_guides}), and using TB0124 (table \ref{tab:glh_templates}) as a repair template (ordered as an ultramer oligomer by IDT). A schematic of the overall target sequence is shown in \cref{fig:glh}Aii. After inserting this additional sequence, visible expression of GLH-1::mNG fusion protein was successfully repressed (\cref{fig:glh}B, bottom), without any change in overall expression levels (\cref{fig:glh}C).\\
 
 \begin{figure}
-\includegraphics[scale=1]{glh}
+\includegraphics[scale=1]{glh_v2}
 \centering
 \mycaption{Free NeonGreen expressed using the \textit{glh-1} site method}{
 \textbf{(A)} Schematic of target sequences.
 \textbf{(B)} Midplane confical images of NeonGreen expressed using the \textit{glh-1} site method, preceded by either T2A alone (top) or P2A::T2A (bottom). Note the presence of posterior puncta in the method using T2A alone, and removal of puncta when using P2A::T2A.
 \textbf{(C)} Quantification of total protein expression in embryos using both methods, calculated as the average fluorescent signal from autofluorescence-corrected midplane images. 
-}
+Right: Probability distribution of the mean dosage difference between the two groups, estimated by bootstrapping. Vertical line indicates 95\% confidence interval.}
 \label{fig:glh}
 \end{figure}
 

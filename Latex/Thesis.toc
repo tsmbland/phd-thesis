@@ -138,9 +138,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.4}Cytoplasmic PAR-2 does not self-associate in vivo}{148}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Membrane-enriched PAR-2 self-associates in vivo}{152}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Membrane-enriched PAR-2 self-associates in vivo}{153}{subsection.4.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.6}Mutation to dimerisation interface weakens membrane association in vivo}{155}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}Mutation to dimerisation interface weakens membrane association in vivo}{157}{subsection.4.3.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.7}Discussion}{160}{subsection.4.3.7}
 \defcounter {refsection}{0}\relax 
