@@ -200,7 +200,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Incorporating internal membranes into thermodynamic models}{225}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Modelling the kinetics of PAR network reconfigurations}{229}{section.7.4}
+\contentsline {section}{\numberline {7.4}Modelling the kinetics of PAR-2 reconfigurations}{229}{section.7.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.5}Monitoring the behaviour of dimeric PAR-2 closer to equilibrium}{233}{section.7.5}
 \defcounter {refsection}{0}\relax 
@@ -210,76 +210,76 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}A mechanistic basis for PAR-2 positive feedback}{240}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Importance of PAR-2 positive feedback for patterning}{242}{section.8.2}
+\contentsline {section}{\numberline {8.2}Importance of PAR-2 positive feedback for patterning}{243}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Additional roles of PAR-2}{244}{section.8.3}
+\contentsline {section}{\numberline {8.3}Additional roles of PAR-2}{245}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}A membrane affinity/specificity scale}{247}{section.8.4}
+\contentsline {section}{\numberline {8.4}A membrane affinity/specificity scale}{248}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Summary}{249}{section.8.5}
+\contentsline {section}{\numberline {8.5}Summary}{251}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Materials and methods}{250}{chapter.9}
+\contentsline {chapter}{\numberline {9}Materials and methods}{252}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}\textit {C. elegans} methods}{251}{section.9.1}
+\contentsline {section}{\numberline {9.1}\textit {C. elegans} methods}{253}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.1}Worm maintenance}{251}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.1}Worm maintenance}{253}{subsection.9.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.2}Worm strains}{251}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.2}Worm strains}{253}{subsection.9.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.3}RNA interference}{256}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.3}RNA interference}{258}{subsection.9.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.4}Brood size assays}{256}{subsection.9.1.4}
+\contentsline {subsection}{\numberline {9.1.4}Brood size assays}{258}{subsection.9.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}CRISPR}{257}{section.9.2}
+\contentsline {section}{\numberline {9.2}CRISPR}{259}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.1}Overview of CRISPR strategies}{257}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.1}Overview of CRISPR strategies}{259}{subsection.9.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Point mutations}{257}{subsubsection*.109}
+\contentsline {subsubsection}{Point mutations}{259}{subsubsection*.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Small insertions}{258}{subsubsection*.111}
+\contentsline {subsubsection}{Small insertions}{260}{subsubsection*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Large insertions}{259}{subsubsection*.112}
+\contentsline {subsubsection}{Large insertions}{261}{subsubsection*.113}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.2}Testing a method for gene insertions at the endogenous \textit {glh-1} site}{260}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.2}Testing a method for gene insertions at the endogenous \textit {glh-1} site}{262}{subsection.9.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.3}PAR-2 point mutations}{264}{subsection.9.2.3}
+\contentsline {subsection}{\numberline {9.2.3}PAR-2 point mutations}{266}{subsection.9.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.4}PAR-2 GCN4 insertion}{266}{subsection.9.2.4}
+\contentsline {subsection}{\numberline {9.2.4}PAR-2 GCN4 insertion}{268}{subsection.9.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.5}Mitochondrial GFP-binding protein}{267}{subsection.9.2.5}
+\contentsline {subsection}{\numberline {9.2.5}Mitochondrial GFP-binding protein}{269}{subsection.9.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.6}Plasma membrane tethered PAR-2 RING fragment}{268}{subsection.9.2.6}
+\contentsline {subsection}{\numberline {9.2.6}Plasma membrane tethered PAR-2 RING fragment}{270}{subsection.9.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.7}RING domain fragment}{270}{subsection.9.2.7}
+\contentsline {subsection}{\numberline {9.2.7}RING domain fragment}{272}{subsection.9.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.8}GCN4 fragment}{271}{subsection.9.2.8}
+\contentsline {subsection}{\numberline {9.2.8}GCN4 fragment}{273}{subsection.9.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Microscopy}{272}{section.9.3}
+\contentsline {section}{\numberline {9.3}Microscopy}{274}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}In vitro methods}{273}{section.9.4}
+\contentsline {section}{\numberline {9.4}In vitro methods}{275}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.1}Full-length PAR-2 purification}{273}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.1}Full-length PAR-2 purification}{275}{subsection.9.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.2}Ubiquitination assays}{273}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.2}Ubiquitination assays}{275}{subsection.9.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.3}PAR-2 RING domain fragment purification}{275}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.3}PAR-2 RING domain fragment purification}{277}{subsection.9.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.4}SEC-MALS}{277}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {9.4.4}SEC-MALS}{279}{subsection.9.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Computational methods}{278}{section.9.5}
+\contentsline {section}{\numberline {9.5}Computational methods}{280}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.1}Image analysis}{278}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.1}Image analysis}{280}{subsection.9.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.2}Modelling}{278}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {9.5.2}Modelling}{280}{subsection.9.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Simulations}{278}{subsubsection*.131}
+\contentsline {subsubsection}{Simulations}{280}{subsubsection*.132}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Creating qualitative parameter space maps}{278}{subsubsection*.132}
+\contentsline {subsubsection}{Creating qualitative parameter space maps}{280}{subsubsection*.133}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.3}Code availability}{279}{subsection.9.5.3}
+\contentsline {subsection}{\numberline {9.5.3}Code availability}{281}{subsection.9.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{280}{chapter*.134}
+\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{282}{chapter*.135}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{295}{chapter*.140}
+\contentsline {chapter}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{297}{chapter*.141}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{302}{chapter*.140}
+\contentsline {chapter}{Bibliography}{304}{chapter*.141}
