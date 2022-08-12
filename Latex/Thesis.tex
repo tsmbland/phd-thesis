@@ -27,6 +27,7 @@
 \usepackage{ltablex}
 \usepackage{seqsplit}
 \usepackage{longtable,tabu}
+\usepackage{rotating}
 \addbibresource{bibliography.bib}
 
 
@@ -2371,7 +2372,7 @@ As an aside, perhaps the mitochondrial binding assay presented in chapter 3, in 
 \chapter{Discussion}
 
 \clearpage
-Almost all cells display some form of polarity, and the mechanisms by which this comes about is one of the fundamental questions in cell biology. In many cases, polarity is driven by molecular feedback pathways in a small network of polarity proteins - the PAR network. Whilst many of the key players and interactions in the network have been identified, there is still much to be learnt about how these proteins interact to organise cell polarity, particularly in a quantitative sense.\\
+Almost all cells display some form of polarity, and the mechanisms by which this comes about is a fundamental question in cell biology. In many cases, polarity is driven by molecular feedback pathways in a small network of polarity proteins - the PAR network. Whilst many of the key players and interactions in the network have been identified, there is still much to be learnt about how these proteins interact to organise cell polarity, particularly in a quantitative sense.\\
 
 The \textit{C. elegans} embryo is an attractive model system for studying the design principles of PAR polarity. Work in recent decades suggests that multiple feedback pathways are at play to drive polarity in the \textit{C. elegans} embryo, but some of these pathways are poorly understood. A notable example is a proposed pPAR positive feedback circuit involving the RING-domain protein PAR-2. Such a pathway has been suggested to underlie robust pPAR domain maintenance, even in conditions where spatial information from the aPARs is lost, but this has been poorly understood both from a mechanistic and quantitative point of view. In this project, I used an interdisciplinary approach to study the molecular circuitry of feedback reactions in the PAR network, focussing on PAR-2. \\
 
@@ -2387,16 +2388,40 @@ Next, I decided to investigated the mechanisms of RING domain action, which were
 
 Whilst the PAR-2 RING has long been known to be important, this is the first direct evidence supporting a mechanism of action in vivo. Additionally, whilst the ability of RING domains to dimerise is well established, a role for this reaction in driving positive feedback on a membrane association reaction is, to the best of my knowledge, a novel function for a RING domain.\\
 
+
+\section{Dimer affinity is optimised for feedback and membrane specificity}
+
+% something here about feedback - requires dimerisation at membrane but not cytoplasm
+
+Typically, it is thought that increasing the electrostatic charge on a protein should increase its specificity for the highly charged plasma membrane \citep{Yeung2008}. Following this logic, dimerisation, which should effectively double the net charge per molecule, is expected to be productive for strong plasma membrane association. However, my results for PAR-2 show that both disrupting dimerisaton and enhancing dimerisation can weaken localisation at the plasma membrane (\cref{fig:mutant_comparison_for_discussion}), but that this occurs for different reasons. An intermediate degree of dimerisation, as seen for wild type PAR-2, can promote strong membrane association, and this can be disrupted by dimer interface mutants (e.g. L109R). However, by slowing membrane exchange timescales, constitutive dimerisation (GCN4) can cause effective entrapment on internal membranes prior to symmetry breaking, which can sequester PAR-2 away from the plasma membrane. PAR-2 dimerisation, mediated by an intermediate strength RING domain, appears to put the protein in a sweet spot that allows it to bind strongly to the plasma membrane, but avoid entrapment on internal membranes.\\
+
+
 \begin{figure}
-\includegraphics[scale=1.4]{discussion_schematic1}
+\includegraphics[scale=1]{mutant_comparison_for_discussion}
 \centering
-\mycaption{Title}{
-Caption
+\mycaption{Comparison of PAR-2 mutants with differing dimerisation strengths}{
 }
-\label{fig:discussion_schematic2}
+\label{fig:mutant_comparison_for_discussion}
 \end{figure}
 
-\section{Importance of PAR-2 positive feedback for patterning}
+
+As discussed in the introduction, membrane binding strategies vary between different PAR proteins. Some PARs, such as PAR-3 and CDC-42, rely mainly on binding to specific phospholipids enriched at the plasma membrane, whereas others, like PAR-2 and PAR-1, are thought to rely mainly on electrostatic interactions. In the former case, plasma membrane specificity is an obvious outcome of lipid specificify. In the latter case, whilst explanations for plasma membrane specificity have been put forward, my work suggests that additional considerations are needed in the context of dynamically changing systems.\\
+
+Interestingly, whilst this has not been proven, PAR-1 cytoplasmic gradients have been speculated to come about through an interaction with endoplasmic reticulum (ER) membranes \citep{Folkmann2019}. Whilst PAR-1 is not thought to dimerise, it is interesting to speculate whether constitutive PAR-1 dimerisation might shift its balance towards stronger ER localisation.\\
+
+
+\begin{sidewaysfigure}
+\includegraphics[scale=0.85]{discussion_schematic_full}
+\centering
+\mycaption{Schematic of the PAR-2 polarisation pathway and the effects of dimerisation strength}{
+\textbf{(A)} Pre-symmetry breaking, the system is held in an equilibrium state in which PAR-2 is kept off the plasma membrane, whilst low-affinity internal membrane association is permitted. Following symmetry breaking, the posterior plasma membrane becomes accessible, via flow-driven aPAR clearance and microtubule protection,  and the system transitions towards a new equilibrium state. Membrane-specific dimerisation leads to a positive feedback reaction which amplifies posterior plasma membrane association.
+\textbf{(B)} Dimerisation strength affects both the general membrane-binding affinity of PAR-2 and the kinetics of membrane exchange. When dimerisation strength is low (e.g. L109R),  systems are fast to evolve to a new equilibrium, but posterior concentrations remain low owing to a weak membrane affinity. When dimerisation strength is high (e.g. GCN4),  PAR-2 binds strongly to internal membranes, and gets kinetically trapped due to slow membrane exchange kinetics. Intermediate dimerisation strength optimises the balance between these two phenomena to ensure strong posterior membrane localisation. 
+}
+\label{fig:discussion_schematic_full}
+\end{sidewaysfigure}
+
+\clearpage
+\section{Contributions of dimerisation-driven feedback to bistable patterning}
 
 I next investigated the functional importance of this reaction in mathematical models, using a simple two species model with linear antagonism terms. My analysis shows that dimerisation coupled to mutual antagonism can be sufficient to generate stable patterns without other sources of nonlinearity, provided that dimers be, at least partially, resistant to antagonism compared to monomers. Results in chapter 7 suggest that dimers might be partially resistant to antagonism, but more work is needed to confirm this. Mathematical models would also be useful here to investigate the potential links between dimerisation and antagonism, and the requirements for differential antagonism, but this is yet to be explored.\\
 
@@ -2419,23 +2444,8 @@ We do not know the mechanisms by which PAR-2 carries out these downstream roles.
 Given the many roles of PAR-2, I was surprised to see that my dimer interface mutant (L109R), in which membrane affinity is strongly reduced, displays no signs of sterility or embryonic lethality. On the other hand, C56S mutation, which has a stronger effect on membrane affinity, leads to partial sterility and embryonic lethality. The reason for the difference in affinity between these mutants is unclear, but I suspect that the additional loss in affinity in C56S is a result of domain unfolding, which may interfere with membrane binding. Recent work from the Goehring lab (Rodrigues et al., in prep) shows that embryos are able to withstand large (approximately 50\%) reductions in PAR-2 cortical concentrations before significant defects are observed, indicating that the system likely contains multiple sources of robustness. It may be that, whilst C56S pushes worms below this threshold, L109R worms are just above. In this case, I would expect that PAR-2 L109R worms should be relatively sensitive to small reductions in protein amounts. Non-wild-type backgrounds such as \textit{lgl-1} mutants, which are usually viable with wild type PAR-2, may also show defects when combined with PAR-2(L109R).\\
 
 
-\section{A membrane affinity/specificity scale}
+% \section{Comparisons to other systems}
 
-Typically, it is thought that increasing the electrostatic charge on a protein should increase its specificity for the highly charged plasma membrane \citep{Yeung2008}. Following this logic, dimerisation, which should effectively double the net charge per molecule, is expected to be productive for strong plasma membrane association. However, my results for PAR-2 show that both disrupting dimerisaton and enhancing dimerisation can weaken localisation at the plasma membrane (\cref{fig:mutant_comparison_for_discussion}), but that this occurs for different reasons. An intermediate degree of dimerisation, as seen for wild type PAR-2, can promote strong membrane association, and this can be disrupted by dimer interface mutants (e.g. L109R). However, by slowing membrane exchange timescales, constitutive dimerisation (GCN4) can cause effective entrapment on internal membranes prior to symmetry breaking, which can sequester PAR-2 away from the plasma membrane. PAR-2 dimerisation, mediated by an intermediate strength RING domain, appears to put the protein in a sweet spot that allows it to bind strongly to the plasma membrane, but avoid entrapment on internal membranes.\\
-
-
-\begin{figure}
-\includegraphics[scale=1.2]{discussion_schematic2}
-\centering
-\mycaption{Title}{
-Caption
-}
-\label{fig:discussion_schematic2}
-\end{figure}
-
-As discussed in the introduction, membrane binding strategies vary between different PAR proteins. Some PARs, such as PAR-3 and CDC-42, rely mainly on binding to specific phospholipids enriched at the plasma membrane, whereas others, like PAR-2 and PAR-1, are thought to rely mainly on electrostatic interactions. In the former case, plasma membrane specificity is an obvious outcome of lipid specificify. In the latter case, whilst explanations for plasma membrane specificity have been put forward, my work suggests that additional considerations are needed in the context of dynamically changing systems.\\
-
-Interestingly, whilst this has not been proven, PAR-1 cytoplasmic gradients have been speculated to come about through an interaction with endoplasmic reticulum (ER) membranes \citep{Folkmann2019}. Whilst PAR-1 is not thought to dimerise, it is interesting to speculate whether constitutive PAR-1 dimerisation might shift its balance towards stronger ER localisation.\\
 
 \clearpage
 \section{Summary}
