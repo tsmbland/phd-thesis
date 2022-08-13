@@ -1260,6 +1260,60 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Boggs1990}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BPT}{%
+         family={Boggs},
+         familyi={B\bibinitperiod},
+         given={Paul\bibnamedelima T.},
+         giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=RJE}{%
+         family={Rogers},
+         familyi={R\bibinitperiod},
+         given={Janet\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BPTRJE1}
+    \strng{fullhash}{BPTRJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1990}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Orthogonal Distance Regresson (ODR) is the name given to the com-
+  putational problem associated with finding the maximum likelihood esti-
+  mators of parameters in measurement error models in the case of normally
+  distributed errors. We examine the stable and efficient algorithm of Boggs,
+  Byrd and Schnabel (SIAM J. Sci. Stat. Comput., 8 (1987), pp. 1052– 1078)
+  for finding the solution of this problem when the underlying model is assumed
+  to be nonlinear in both the independent variable and the pa- rameters. We
+  also describe the associated public domain software package, ODRPACK.We then
+  review the results of a simulation study that compares ODR with ordinary
+  least squares (OLS). We also present the new results of an extension to this
+  study. Finally we discuss the use of the asymptotic covariance matrix for
+  computing confidence regions and intervals for the es- timated parameters.
+  Our conclusions are that ODR is better than OLS for the criteria considered,
+  and that ODRPACK can provide effective solutions and useful statistical
+  information for nonlinear ODR problems.%
+    }
+    \verb{doi}
+    \verb 10.1090/conm/112/1087109
+    \endverb
+    \field{pages}{186}
+    \field{title}{{“Orthogonal Distance Regression” in “Statistical
+  analysis of measurement error models and applications: proceedings of the
+  AMS-IMS-SIAM joint summer research conference held June 10-16, 1989”}}
+    \field{volume}{112}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nistir89-4197.pdf:pdf
+    \endverb
+    \field{journaltitle}{Contemporary Mathematics}
+    \field{year}{1990}
+  \endentry
+
   \entry{Boyd1996}{article}{}
     \name{author}{5}{}{%
       {{hash=BL}{%
@@ -3780,6 +3834,89 @@
     \field{year}{1972}
   \endentry
 
+  \entry{Goehring2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GNW}{%
+         family={Goehring},
+         familyi={G\bibinitperiod},
+         given={Nathan\bibnamedelima W.},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chowdhury},
+         familyi={C\bibinitperiod},
+         given={Debanjan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HAA}{%
+         family={Hyman},
+         familyi={H\bibinitperiod},
+         given={Anthony\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GSW}{%
+         family={Grill},
+         familyi={G\bibinitperiod},
+         given={Stephan\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Biophysical Society}%
+    }
+    \keyw{C. elegans,FRAP}
+    \strng{namehash}{GNW+1}
+    \strng{fullhash}{GNWCDHAAGSW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Obtaining quantitative kinetic parameters from fluorescence recovery after
+  photobleaching (FRAP) experiments generally requires a theoretical analysis
+  of protein mobility and appropriate solutions for FRAP recovery derived for a
+  given geometry. Here we provide a treatment of FRAP recovery for a molecule
+  undergoing a combined process of reversible membrane association and lateral
+  diffusion on the plasma membrane for two commonly used bleach geometries:
+  Stripes, and boxes. Such analysis is complicated by the fact that diffusion
+  of a molecule during photobleaching can lead to broadening of the bleach
+  area, resulting in significant deviations of the actual bleach shape from the
+  desired bleach geometry, which creates difficulty in accurately measuring
+  kinetic parameters. Here we overcome the problem of deviations between actual
+  and idealized bleach geometries by parameterizing, more accurately, the
+  initial postbleach state. This allows for reconstruction of an accurate and
+  analytically tractable approximation of the actual fluorescence distribution.
+  Through simulated FRAP experiments, we demonstrate that this method can be
+  used to accurately measure a broad range of combinations of diffusion
+  constants and exchange rates. Use of this method to analyze the plextrin
+  homology domain of PLC-d1 in Caenorhabditis elegans results in quantitative
+  agreement with prior analysis of this domain in other cells using other
+  methods. Because of the flexibility, relative ease of implementation, and its
+  use of standard, easily obtainable bleach geometries, this method should be
+  broadly applicable to investigation of protein dynamics at the plasma
+  membrane. {\textcopyright} 2010 by the Biophysical Society.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bpj.2010.08.033
+    \endverb
+    \field{issn}{15420086}
+    \field{number}{8}
+    \field{pages}{2443\bibrangedash 2452}
+    \field{title}{{FRAP analysis of membrane-associated proteins: Lateral
+  diffusion and membrane-cytoplasmic exchange}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.bpj.2010.08.033
+    \endverb
+    \field{volume}{99}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/mmc1 (1).pdf:pdf;:Users/blan
+    \verb dt/Documents/Mendeley Desktop/1-s2.0-S0006349510010283-main.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2010}
+  \endentry
+
   \entry{Goehring2011}{article}{}
     \name{author}{4}{}{%
       {{hash=GNW}{%
@@ -5329,8 +5466,9 @@
     \list{publisher}{1}{%
       {Cell Press}%
     }
-    \keyw{Drosophila,Polarity,asymmetric cell division,cell polarity,protein
-  interactions,protein phosphorylation,stem cells}
+    \keyw{Drosophila,Estimation statistics,Polarity,asymmetric cell
+  division,cell polarity,protein interactions,protein phosphorylation,stem
+  cells}
     \strng{namehash}{HRWJKPKE1}
     \strng{fullhash}{HRWJKPKE1}
     \field{labelnamesource}{author}
@@ -5947,7 +6085,7 @@
          giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
     }
-    \keyw{Journal Club}
+    \keyw{Estimation statistics,Journal Club}
     \strng{namehash}{JKADMLPKE1}
     \strng{fullhash}{JKADMLPKE1}
     \field{labelnamesource}{author}
@@ -10498,6 +10636,60 @@
     \field{journaltitle}{Developmental Cell}
     \field{year}{2017}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Rodriguez-Boulan2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RBE}{%
+         family={Rodriguez-Boulan},
+         familyi={R\bibinitperiod-B\bibinitperiod},
+         given={Enrique},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MIG}{%
+         family={Macara},
+         familyi={M\bibinitperiod},
+         given={Ian\bibnamedelima G.},
+         giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \keyw{Epithelia}
+    \strng{namehash}{RBEMIG1}
+    \strng{fullhash}{RBEMIG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Epithelial cells require apical-basal plasma membrane polarity to carry out
+  crucial vectorial transport functions and cytoplasmic polarity to generate
+  different cell progenies for tissue morphogenesis. The establishment and
+  maintenance of a polarized epithelial cell with apical, basolateral and
+  ciliary surface domains is guided by an epithelial polarity programme (EPP)
+  that is controlled by a network of protein and lipid regulators. The EPP is
+  organized in response to extracellular cues and is executed through the
+  establishment of an apical-basal axis, intercellular junctions,
+  epithelial-specific cytoskeletal rearrangements and a polarized trafficking
+  machinery. Recent studies have provided insight into the interactions of the
+  EPP with the polarized trafficking machinery and how these regulate
+  epithelial polarization and depolarization. {\textcopyright} 2014 Macmillan
+  Publishers Limited. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrm3775
+    \endverb
+    \field{issn}{14710080}
+    \field{number}{4}
+    \field{pages}{225\bibrangedash 242}
+    \field{title}{{Organization and execution of the epithelial polarity
+  programme}}
+    \field{volume}{15}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nrm3775.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Reviews Molecular Cell Biology}
+    \field{year}{2014}
   \endentry
 
   \entry{Roederer1986}{article}{}

@@ -178,7 +178,7 @@ But functional segregation goes beyond the inter-cellular level. Not only are th
 \mycaption{Examples of cell polarity}{
 \textbf{(A)} A neuron, which is polarised to send signals from an input end to an output end.
 \textbf{(B)} A \textit{Dictyostelium} cell, which is polarised to move in a certain direction.
-\textbf{(C)} Epithelial cells are polarised along an apico-basal axis. An apical surface faces a lumen (e.g. for uptake of nutrients) and a basal surface contacts a basement membrane.
+\textbf{(C)} Epithelial cells are polarised along an apico-basal axis. An apical surface faces the exterior of a tissue or a lumen (e.g. for uptake of nutrients) and a basal surface contacts a basement membrane.
 \textbf{(D)} A \textit{C. elegans} zygote, which polarises prior to an asymmetric cell division.
 Red and green represent the localisation of different polarity proteins.
 }
@@ -221,9 +221,9 @@ PAR proteins identified in original screens by Ken Kempues and colleagues, detai
 \label{tab:par_proteins}
 \end{table}
 
-Since their initial discovery in \textit{C. elegans}, further work has gone on to show that these proteins act to set up polarity in numerous different cell types and organisms \citep{Goldstein2007}.  Extensive research has focussed on understanding the identity and roles of the individual PAR proteins, which has shed considerable light on the mechanisms driving cell polarity. The PAR network is now known to consist of a mix of kinases, scaffolds and adaptor proteins, each of which has their own specialised role in regulating polarity \citep{Lang2017}. However, whilst the identity of these proteins is known, our understanding of they interact to generate stable patterns in cells is far from complete.\\
+Since their initial discovery in \textit{C. elegans}, further work has gone on to show that these proteins act to set up polarity in numerous different cell types and organisms \citep{Goldstein2007}.  Extensive research has focussed on understanding the identity and roles of the individual PAR proteins, which has shed considerable light on the mechanisms driving cell polarity. The PAR network is now known to consist of a mix of kinases, scaffolds and adaptor proteins, each of which has their own specialised role in regulating polarity \citep{Lang2017}.  The core PAR network consists of the scaffold protein PAR-3, the adaptor protein PAR-6, the kinase PKC-3, the GTPase CDC-42 and the kinase PAR-1. Depending on the system, other proteins and protein complexes interact with these core components to help set up polarity.  In epithelia, for example, the Crumbs complex (consisting of Crb, Sdt and PatJ) and the Scribble complex (consisting of Scrib, Dlg and Lgl) interact with the core PAR network to help set up apico-basal polarity \citep{Rodriguez-Boulan2014}. Another example, of particular relevance to this thesis, is the RING-domain containing protein PAR-2, a \textit{C. elegans} specific protein that interacts with PAR-1 to help set up anterior-posterior polarity in the embryo.\\
 
-In this project, I aim to further our understanding of how the PAR proteins create polarised patterns in cells, specifically using the \textit{C. elegans} embryo as a model system. To set up the project, I will begin by giving a broad overview of the \textit{C. elegans} embryo system. I will then discuss mathematical modelling frameworks that have been instrumental in furthering our understanding of how the PAR proteins form patterns. Finally, I will give a more detailed account of the known molecular interactions in the PAR network.\\
+Whilst the identity of the PAR proteins is known, our understanding of how they interact to generate stable patterns in cells is far from complete. In this project, I aim to further our understanding of how the PAR proteins create polarised patterns in cells, specifically using the \textit{C. elegans} embryo as a model system. To set up the project, I will begin by giving a broad overview of the \textit{C. elegans} embryo system. I will then discuss mathematical modelling frameworks that have been instrumental in furthering our understanding of how the PAR proteins form patterns. Finally, I will give a more detailed account of the known molecular interactions in the PAR network, focussing on the \textit{C. elegans} embryo system.\\
 
 
 \subsection{PAR polarity in the \textit{C. elegans} embryo}
@@ -1040,9 +1040,11 @@ ODEs were build using a constant off rate term ($k_{off} = 1$), with on rates sp
 
 In a \textit{par-3 (it71)} background, a PAR-2 intrinsic positive feedback reaction implies that the membrane to cytoplasmic ratio should vary with concentration. A commonly used method that can be used to vary protein amounts in \textit{C. elegans} is RNAi, which reduces protein amounts in a manner that can be tuned by duration of dsRNA exposure. To test for the existence of PAR-2 intrinsic positive feedback, I performed an in vivo titration assay using \textit{par-3 (it71)} mutant worms expressing mNG::PAR-2 (wt), in which I used RNAi to rundown protein levels, and quantified membrane and cytoplasmic concentrations on an embryo-by-embryo basis. mNG (NeonGreen) was selected as a fluorophore as it is significantly brighter that GFP, which aids quantification in cells with long RNAi exposures.\\
 
-Strikingly, the results reveal that PAR-2 does not follow strict linear membrane binding kinetics (\cref{fig:rundown_vs_c56s}A, C, D (blue)). Instead, a nonlinearity appears to be present whereby membrane affinities are higher in cells with higher dosages. The shape of the relationship implies that PAR-2 is feeding back onto its own membrane binding (\cref{fig:rundown_schematic}), but there is no evidence for any discontinuities that would imply bistable behaviour.\\
+Strikingly, the results reveal that PAR-2 does not follow strict linear membrane binding kinetics (\cref{fig:rundown_vs_c56s}A, C, D (blue)).  Instead,  a nonlinearity appears to be present, whereby membrane affinities are higher in cells with higher dosages. Whereas the membrane vs cytoplasm relationship for PH (shown previously in fig x) has an effective exponent close to 1,  implying linear mass-action kinetics, the PAR-2 relationship has an exponent of ~2.5, implying cooperative membrane association (\cref{fig:rundown_schematic}D). Notably, however, there is no evidence for any discontinuities that would imply bistable behaviour.\\
 
 Interestingly, unlike wild type PAR-2, the membrane affinity of PAR-2 (C56S) is equal in polarised and \textit{par-3 (it71)} systems, despite large changes in membrane and cytoplasmic concentrations. This suggests that the mechanism of positive feedback may be RING-dependent. To test this, I performed a similar titration assay using the PAR-2 (C56S) mutant line. The results (\cref{fig:rundown_vs_c56s}B, C, D (orange)) show that the nonlinearity of the cytoplasm vs membrane relationship is greatly reduced compared to wild type, implying that the RING domain plays an essential role in promoting positive feedback.\\
+
+% Some degree of nonlinearity appears to be maintained (exponent ~ 1.7). This might imply that some non-RING-dependent mechainsms contribute to nonlinear membrane association. More...
 
 
 \begin{figure}[!h]
@@ -1260,7 +1262,7 @@ The sequence analysis above suggests that the PAR-2 RING should likely have the 
 
 To understand the oligomeric properties of the PAR-2 RING domain in solution, we subjected our purified sample to SEC-MALS, a common approach for characterising the molecular mass and oligomeric state of protein samples. The strategy follows a two step process. Firstly, size exclusion chromatography (SEC), separates particles in a sample based on their size. Larger particles leave the SEC column before smaller particles (i.e. at lower retention volumes). Refractive index scores monitor the concentration of particles leaving the column. Secondly, the eluent flow leaving the SEC column is monitored continuously by a multi-angle light scattering (MALS) instrument, which provides an estimate of the molecular weight of particles based on light scattering properties.\\
 
-We performed five SEC-MALS assays on PAR-2 RING, using sample concentrations of 10, 5, 2, 0.75 and 0.5 mg/ml (\cref{fig:sec_mals}A). In all cases a single peak is observed in refractive index traces, with corresponding molar mass measurements by MALS somewhere between the expected weight of a monomer and a dimer, suggesting that the sample exists in a monomer-dimer equilibrium. Furthermore, mass distributions show clear concentration-dependence, with more concentrated samples giving higher molar mass measurements. This is more clearly visualised in \cref{fig:sec_mals}B, which shows that the average molecular weight of particles in the sample increases as a function of sample concentration. Overall, this data suggests that the PAR-2 RING domain displays concentration-dependent dimerisation, existing largely as a monomer at low concentrations and mostly dimeric at higher concentrations.\\
+We performed five SEC-MALS assays on PAR-2 RING, using sample concentrations of 10, 5, 2, 0.75 and 0.5 mg/ml (\cref{fig:sec_mals}A). In all cases a single peak is observed in refractive index traces, with corresponding molar mass measurements by MALS somewhere between the expected weight of a monomer and a dimer, suggesting that the sample exists in a monomer-dimer equilibrium. Furthermore, mass distributions show clear concentration-dependence, with more concentrated samples giving higher molar mass measurements. This is more clearly visualised in \cref{fig:sec_mals}B, which shows that the average molecular weight of particles in the sample increases as a function of sample concentration.  Comparison to a dimerisation model (black line) shows a good fit. Overall, this data suggests that the PAR-2 RING domain displays concentration-dependent dimerisation, existing largely as a monomer at low concentrations and mostly dimeric at higher concentrations.\\
 
 \begin{figure}
 \includegraphics[scale=1]{sec_mals_v2}
@@ -1303,7 +1305,7 @@ Colour coded by pLDDT.
 \label{fig:ring_alphafold_species}
 \end{figure}
 
-Given that dimerisation is predicted to be mediated by a hydrophobic interface within a 4-helix bundle, we would expect that mutations to hydrophobic residues within this region should disrupt dimerisation, as has been shown previously for several RING domains \citep{Koliopoulos2016, Rojas-Fernandez2014, Liew2010}. Unlike mutations to zinc-coordinating cysteines, which completely misfold the domain, mutations to this interface should preserve the tertiary structure of the domain and specifically disrupt dimerisation. I identified L109, predicted to be found in the C-helix, as a likely important site (\cref{fig:l109r_sec_mals}A), and L109R as a likely disruptive mutation. As we did for the wild-type RING domain, we expressed the mutant allele in bacteria and purified it using the same protocol. SEC-MALS shows that this mutant has the expected molecular weight of an entirely monomeric population (\cref{fig:l109r_sec_mals}A). By contrast, wild type RING at an equivalent concentration (\cref{fig:sec_mals}A, 0.75 mg/ml) is partially dimeric. We cannot rule out that PAR-2(L109R) dimerises at higher concentrations, but were unable to purify sufficient quantities to test at higher levels.\\
+Given that dimerisation is predicted to be mediated by a hydrophobic interface within a 4-helix bundle, we would expect that mutations to hydrophobic residues within this region should disrupt dimerisation, as has been shown previously for several RING domains \citep{Koliopoulos2016, Rojas-Fernandez2014, Liew2010}. Unlike mutations to zinc-coordinating cysteines, which completely misfold the domain, mutations to this interface should preserve the tertiary structure of the domain and specifically disrupt dimerisation. I identified L109, predicted to be found in the C-helix, as a likely important site (\cref{fig:l109r_sec_mals}A), and L109R as a likely disruptive mutation. As we did for the wild-type RING domain, we expressed the mutant allele in bacteria and purified it using the same protocol. SEC-MALS shows that this mutant has the expected molecular weight of a predominantly monomeric population (\cref{fig:l109r_sec_mals}B, C). By contrast, wild type RING at an equivalent concentration (\cref{fig:sec_mals}A, 0.75 mg/ml) is partially dimeric (\cref{fig:l109r_sec_mals}C). We cannot rule out that PAR-2(L109R) dimerises at higher concentrations, but were unable to purify sufficient quantities to test at higher levels.\\
 
 \begin{figure}
 \includegraphics[scale=1]{l109r_sec_mals_v2}
@@ -1379,7 +1381,7 @@ To investigate this, I used a pleckstrin homology (PH) plasma membrane probe to 
 \textbf{(A)} Schematic of the three constructs tested (GFP not shown).
 \textbf{(B)} Midplane confocal images of the three constructs.
 \textbf{(C)} Quantification of membrane to cytoplasmic ratios for the three constructs (Mean $\pm$ SD).
-\textbf{(D)} i. Quantification of asymmetry index using the data in (C).
+\textbf{(D)} i. Quantification of asymmetry index (see Methods) using the data in (C).
 ii. Probability distributions of effect sizes in the data, estimated by bootstrapping. Vertical lines indicate 95\% confidence intervals.
 }
 \label{fig:ph_ring}
@@ -1393,7 +1395,7 @@ These results imply that the GFP::PH::RING construct polarises by dimerising wit
 \mycaption{Localisation of membrane-tethered RING domain is dependent on endogenous PAR patterns}{
 \textbf{(A)} Midplane confocal images of GFP::PH::RING under conditions of no RNAi, \textit{par-2} RNAi and \textit{par-6} RNAi.
 \textbf{(B)} Quantification of membrane to cytoplasmic ratios for the three constructs (Mean $\pm$ SD).
-\textbf{(C)} i. Quantification of asymmetry index using the data in (C).
+\textbf{(C)} i. Quantification of asymmetry index (see Methods) using the data in (C).
 ii. Probability distribution of effect sizes in the data, estimated by bootstrapping. Vertical lines indicate 95\% confidence intervals.
 }
 \label{fig:ph_ring_rnai}
@@ -1427,6 +1429,8 @@ As shown in \cref{fig:dimer_interface_mutants_in_vivo}A-C, both mutations cause 
 
 % Rundown data wt vs L109R?
 
+\begin{comment}
+
 \begin{figure}
 \includegraphics[scale=1]{l109r_rundown}
 \centering
@@ -1436,6 +1440,8 @@ As shown in \cref{fig:dimer_interface_mutants_in_vivo}A-C, both mutations cause 
 }
 \label{fig:l109r_rundown}
 \end{figure}
+
+\end{comment}
 
 To determine the effects of these mutants on organism development, I investigated levels of embryonic lethality and adult sterility. PAR-2 null mutants typically display embryonic lethality, as zygotic polarity is disrupted. Sterility is a common phenotype associated with partially penetrant PAR-2 defects, as PAR-2 is important in stabilising germ line identity in the P lineage. Data for my mutants (\cref{fig:ring_lines_lethality_sterility}) shows that, whilst lines harboring a C56S mutation have high levels of lethality and sterility, this is not the case for the dimerisation interface mutants. It may be that the additional loss of membrane affinity in C56S mutants has a significant impact on pPAR domain integrity, which may be important in later developmental stages as well as in the zygote. Even though no effects were observed for L50R and L109R compared to wild type, it is likely that defects would be observed in non wild-type backgrounds (e.g. LGL-1 mutant), or with reduced PAR-2 expression (e.g. heterozygous). This remains to be investigated.\\
 
@@ -1452,7 +1458,7 @@ To determine the effects of these mutants on organism development, I investigate
 
 \subsection{Discussion}
 
-With this data, I hope that I have made a convincing case that the RING domain of PAR-2 promotes dimerisation. My assays show that, in vivo, dimerisation of PAR-2 appears to be restricted to the membrane. A simple explanation for this could be that effective concentrations are much higher on the membrane than in the cytoplasm, and so membrane-enrichment could be responsible for driving concentration-dependent dimerisation. I cannot rule out that the membrane-interaction strengthens dimerisation through other means, perhaps by altering folding of the protein. However, given that the RING domain fragment can clearly dimerise in vitro without a membrane, this seems surplus to requirement.\\
+With this data, I hope that I have made a convincing case that the RING domain of PAR-2 can act as a dimerisation domain. My assays show that, in vivo, dimerisation of PAR-2 appears to be restricted to the membrane. A simple explanation for this could be that effective concentrations are much higher on the membrane than in the cytoplasm, and so membrane-enrichment could be responsible for driving concentration-dependent dimerisation. I cannot rule out that the membrane-interaction strengthens dimerisation through other means, perhaps by altering folding of the protein. However, given that the RING domain fragment can clearly dimerise in vitro without a membrane, this seems surplus to requirement.\\
 
 It is unclear how these results relate to results described in \textcite{Arata2016}, in which the authors claim to see membrane-bound oligomers as large as tetramers. Whilst I cannot rule out the formation of larger complexes on the membrane, I have shown that the oligomeric state of the PAR-2 RING domain in vitro is a monomer-dimer mix, which is in line with the expected structure of the domain. Tetrameric RING domains do exist (e.g. PML/TRIM19 \citep{Wang2018}), but this does not appear to be the case for the PAR-2 RING. There are no other regions of PAR-2 that are known to self-associate, so it is unclear how tetramers might come about. The only other structured domain in the protein is a C-terminal ATP binding domain, removal of which has been shown to have no phenotype in vivo \citep{Hao2006}. Phase separation mediated by disordered regions of the protein might be possible \citep{Uversky2019}, as has been proposed for PAR-3 \citep{Liu2020}, although this might be expected to yield particles larger than tetramers, which the authors did not observe. It is also possible that larger complexes could be mediated by interactions with another protein, such as PAR-1. The region of PAR-2 that mediates an interaction with PAR-1 is unknown. The authors did not look at RING domain mutants, so it is unclear whether the phenomena that they observe are RING-dependent or due to another cause.\\
 
@@ -1763,7 +1769,7 @@ In chapter 3, I showed that wild type PAR-2 displays nonlinear membrane associat
 
 To assess whether the different behaviour of WT and L109R can be explained purely by a reduction in dimerisation energy, I fit the in vivo data to a model in which $w_m$ is unchanged between the two conditions but $w_d$ allowed to change. As discussed previously, the model has a parameter $D$ describing the diameter of the protein molecule. Whilst this has not been determined for PAR-2, we can expect that, with a mass of 69.95 kDa, protein diameter should be on the order of 1-10 nm \citep{Erickson2009}. To assess the full range of model behaviours I consider $D$ at both extremes.\\
 
-I performed model fitting by orthogonal distance regression, and estimated parameter uncertainty by bootstrapping (\cref{fig:thermodynamic_wt_vs_l109r_model_fit}A, C). Optimised model parameters and 95\% confidence intervals are shown in table \ref{table:thermodynamic_model_parameters}.\\
+I performed model fitting by orthogonal distance regression \citep{Boggs1990}, and estimated parameter uncertainty by bootstrapping (\cref{fig:thermodynamic_wt_vs_l109r_model_fit}A, C). Optimised model parameters and 95\% confidence intervals are shown in table \ref{table:thermodynamic_model_parameters}.\\
 
 \begin{table}[]
 \begin{tabular}{|l|l|l|}
@@ -1801,11 +1807,11 @@ Figures \ref{fig:thermodynamic_wt_vs_l109r_model_fit}B and D show that the optim
 
 \section{Discussion}
 
-Overall, this analysis shows that a number of previously unexplained behaviours of PAR-2 can be explained by its ability to dimerise. The in vitro data in chapter 4 shows that the PAR-2 RING domain displays concentration dependent dimerisation. I propose that, in vivo, cytoplasmic PAR-2 concentrations are too low for the RING to dimerise, but enrichment on the membrane enhances effective concentrations, driving concentration-dependent RING dimerisation on the membrane. This reaction has two major consequences:\\
+Overall, I have shown that a simple thermodynamic model of dimerisation and membrane association, with just four species and two interaction energies, can successfully capture the nonlinear membrane association behaviour of PAR-2, and the disruptive effects of RING domain mutants. I propose that, in vivo, cytoplasmic PAR-2 concentrations are too low for the RING to dimerise, but enrichment on the membrane enhances effective concentrations, driving concentration-dependent RING dimerisation on the membrane. This reaction has two major consequences. Firstly, as dimers can utilise membrane binding interfaces from two PAR-2 molecules, dimerisation is expected to enhance overall membrane affinities. This provides an explanation for the reduction in membrane localisation seen for all RING domain mutants (chapter 4). Secondly membrane-specific dimerisation can lead to a nonlinear relationship between concentration and membrane association, which closely matches in vivo PAR-2 data. This nonlinearity can be considered a form of positive feedback in which the effective membrane affinity increases with increasing membrane concentrations. \\
 
-Firstly, as dimers can utilise membrane binding interfaces from two PAR-2 molecules, dimerisation is expected to enhance overall membrane affinities. This provides an explanation for the reduction in membrane localisation seen for all RING domain mutants (chapter 4). \\
+Moving forward, further experiments could be devised to test this thermodynamic formulism more rigorously. For example, the model makes certain predictions about the effects of temperature, showing a decrease in membrane affinity and membrane dimerisation as temperatures rise (\cref{fig:thermodynamic_model_temperature}). Comparison of equivalent in vivo data to these predictions could give a sense of the validity of the model. Of course, care would be needed when interpreting such an experiment, as temperature interventions might have unanticipated consequences both intrinsic to PAR-2 (e.g. changes to protein folding) and extrinsic (e.g. activation of heat shock pathways).\\
 
-Secondly membrane-specific dimerisation can lead to a nonlinear relationship between concentration and membrane association, which closely matches in vivo PAR-2 data. This nonlinearity can be considered a form of positive feedback in which the effective membrane affinity increases with increasing membrane concentrations. Oligomerisation is a common feature of many polarity proteins, and has been suggested to contribute to stable bistability in mathematical models of polarity \citep{Lang2022}. In the next chapter, I consider the specific impact that PAR-2 dimerisation may have on the patterning behaviour of the PAR network.\\
+Of additional interest is the effects that this mechanism might have on the overall pattern forming capabilities of the PAR network. Oligomerisation is a common feature of many polarity proteins, and has been suggested to contribute to stable bistability in mathematical models of polarity \citep{Lang2022}. In the next chapter, I consider the specific impact that PAR-2 dimerisation may have on the patterning behaviour of the PAR network.\\
 
 \begin{SCfigure}
 \includegraphics[scale=0.9]{thermodynamic_model_temperature}
@@ -1974,7 +1980,7 @@ The results (\cref{fig:goehring_model_kant_koff_asi}) show a dependence of patte
 
 \subsection{Low off rates enhance pattern stability}
 
-Maintenance of polarity relies on competition between aPARs and pPARs, and therefore balanced activity between the two groups is expected to be an essential requirement for polarity. That said, recent work from the Goehring lab shows that the PAR network is surprisingly robust to imbalances in protein amounts in vivo, able to withstand reductions in PAR protein amounts by over 50\% (Rodrigues et al., in prep). This warrants full exploration of the robustness of models to imbalances in protein amounts.\\
+Maintenance of polarity relies on competition between aPARs and pPARs, and therefore balanced activity between the two groups is expected to be an essential requirement for polarity. That said, recent work from the Goehring lab shows that the PAR network is surprisingly robust to imbalances in protein amounts in vivo, able to maintain its functions in the face of reductions in PAR protein amounts by over 50\% (Rodrigues et al., in prep). This warrants full exploration of the robustness of models to imbalances in protein amounts.\\
 
 To test the robustness of models to protein imbalances, I simulated models with varying levels of $P_{tot}$, and scored their ability to maintain polarity starting from a polarised state. Models with high off rates are highly sensitive to protein amounts. Small reductions in $P_{tot}$ cause the boundary position to shift towards the posterior, and larger imbalances cause polarity to completely break down (\cref{fig:goehring_model_kant_koff_dosage_imbalance}A). Models with lower off rates, however, are more stable in the face of imbalances (\cref{fig:goehring_model_kant_koff_dosage_imbalance}B). Small imbalances cause relatively minor shifts in the boundary position, and models can withstand larger imbalances before polarity breaks down. In figure \ref{fig:goehring_model_kant_koff_dosage_imbalance}B, I show the maximum reduction in $P_{tot}$ that models can withstand before polarity breaks down, across $k_{ant}$ / $k_{off}$ parameter space. This reveals that, within the range of parameters explored, tolerance to imbalance is set mainly by $k_{off}$, and $k_{ant}$ has relatively little impact.\\
 
@@ -2170,7 +2176,7 @@ So far, my results have a highlighted an important role for the PAR-2 RING domai
 
 An important characteristic of the PAR-2 dimerisation reaction is its ability to respond dynamically to local concentrations. In the cytoplasm, where concentrations are low, PAR-2 is largely or entirely monomeric. At the membrane, where local concentrations are higher, PAR-2 exists in a concentration-dependent equilibrium between monomeric and dimeric states. As discussed in chapter 5, this concentration-dependent behaviour drives a positive feedback reaction on membrane association. RING domain mutants show that shifting the balance towards a more monomeric state disrupts nonlinear behaviour and lowers membrane affinities. In this section, I consider the opposite, and investigate the effects of strengthening PAR-2 dimerisation. Theoretical models predict that strengthening dimerisation above wild type levels should increase average membrane lifetimes, and therefore increase overall membrane affinities, but may disrupt nonlinear behaviour if cytoplasmic protein is made dimeric.\\
 
-The analysis in the chapter 6 also makes some interesting points about the implications of dimerisation in the context of polarity. Specifically, stable polarity without additional nonlinearities requires that dimers be (at least) partially resistant to antagonism compared to monomers. By enhancing dimerisation at the membrane and observing the effects on polarity, I will comment on the interaction between dimerisation and antagonism.\\
+The analysis in the chapter 6 also makes some hypotheses about the implications of dimerisation in the context of polarity. Specifically, stable polarity without additional nonlinearities requires that dimers be (at least) partially resistant to antagonism compared to monomers. By enhancing dimerisation at the membrane and observing the effects on polarity, I will comment on the interaction between dimerisation and antagonism.\\
 
 
 \section{Strengthening PAR-2 dimerisation shifts localisation pattern}
@@ -2384,17 +2390,14 @@ My work began by developing an image analysis pipeline to allow for quantitative
 
 A main focus of my project has been aiming to understand the mechanisms that contribute to PAR-2 patterning. To this end, I started by investigating a series of PAR-2 mutants (AxA, C56S, R183-5A, R163A) with known polarity-defective phenotypes. My results suggest that these mutants fail for different reasons, suggesting that a number of processes are at play to drive PAR-2 polarity. Whilst performing this analysis, I also found that wild type PAR-2 deviates from expected linear membrane binding kinetics, which is the first direct evidence for a positive feedback reaction. I also found that this nonlinearity is lost in RING domain mutants, suggesting a RING-dependent mechanism.\\
 
-Next, I decided to investigated the mechanisms of RING domain action, which were previously unknown. My first line of inquiry involved a hypothesis that PAR-2 might be able to autoubiquitinate, in line with commonly established roles for RING domains. Whilst my data cannot definitively rule out such a role, my data points to an alternative mechanism. Using in vitro and in vivo experiments, I have shown that the RING domain of PAR-2 can dimerise, and that, in vivo, this specifically occurs when local concentrations are enriched by membrane binding. Additionally, by comparison to thermodynamically constrained mathematical models, I have shown that this reaction can explain the observed positive feedback behaviour, and the difference in membrane affinity between wild type and RING mutant PAR-2.\\
+Next, I decided to investigate the mechanisms of RING domain action, which were previously unknown. My first line of inquiry involved a hypothesis that PAR-2 might be able to autoubiquitinate, in line with commonly established roles for RING domains. Whilst my data cannot definitively rule out such a role, my data points to an alternative mechanism. Using in vitro and in vivo experiments, I have shown that the RING domain of PAR-2 can dimerise, and that, in vivo, this specifically occurs when local concentrations are enriched by membrane binding. Additionally, by comparison to thermodynamically constrained mathematical models, I have shown that this reaction can explain the observed positive feedback behaviour, and the difference in membrane affinity between wild type and RING mutant PAR-2.\\
 
 Whilst the PAR-2 RING has long been known to be important, this is the first direct evidence supporting a mechanism of action in vivo. Additionally, whilst the ability of RING domains to dimerise is well established, a role for this reaction in driving positive feedback on a membrane association reaction is, to the best of my knowledge, a novel function for a RING domain.\\
 
 
-\section{Dimer affinity is optimised for feedback and membrane specificity}
+\section{Dimer affinity is optimised for positive feedback and membrane specificity}
 
-% something here about feedback - requires dimerisation at membrane but not cytoplasm
-
-Typically, it is thought that increasing the electrostatic charge on a protein should increase its specificity for the highly charged plasma membrane \citep{Yeung2008}. Following this logic, dimerisation, which should effectively double the net charge per molecule, is expected to be productive for strong plasma membrane association. However, my results for PAR-2 show that both disrupting dimerisaton and enhancing dimerisation can weaken localisation at the plasma membrane (\cref{fig:mutant_comparison_for_discussion}), but that this occurs for different reasons. An intermediate degree of dimerisation, as seen for wild type PAR-2, can promote strong membrane association, and this can be disrupted by dimer interface mutants (e.g. L109R). However, by slowing membrane exchange timescales, constitutive dimerisation (GCN4) can cause effective entrapment on internal membranes prior to symmetry breaking, which can sequester PAR-2 away from the plasma membrane. PAR-2 dimerisation, mediated by an intermediate strength RING domain, appears to put the protein in a sweet spot that allows it to bind strongly to the plasma membrane, but avoid entrapment on internal membranes.\\
-
+Typically, it is thought that increasing the electrostatic charge on a protein should increase its specificity for the highly charged plasma membrane \citep{Yeung2008}. Following this logic, dimerisation, which should effectively double the net charge per molecule, is expected to be productive for strong plasma membrane association. However, my results for PAR-2 show that both disrupting dimerisaton and enhancing dimerisation can weaken localisation at the plasma membrane (\cref{fig:mutant_comparison_for_discussion}), which is counter to predictions from equilibrium models. \\
 
 \begin{figure}
 \includegraphics[scale=1]{mutant_comparison_for_discussion}
@@ -2404,32 +2407,41 @@ Typically, it is thought that increasing the electrostatic charge on a protein s
 \label{fig:mutant_comparison_for_discussion}
 \end{figure}
 
+I propose the model presented in \cref{fig:discussion_schematic_full}. Pre-symmetry breaking, the system is held in an equilibrium state in which PAR-2 is kept off the plasma membrane, whilst low-affinity internal membrane association is permitted. Following symmetry breaking, the posterior plasma membrane becomes accessible, via flow-driven aPAR clearance and posterior protection of PAR-2 by microtubules, and the system transitions towards a new equilibrium state. Membrane-specific dimerisation, driven by the intermediate-strength RING domain, leads to a positive feedback reaction which amplifies posterior plasma membrane association (\cref{fig:discussion_schematic_full}A).\\
 
-As discussed in the introduction, membrane binding strategies vary between different PAR proteins. Some PARs, such as PAR-3 and CDC-42, rely mainly on binding to specific phospholipids enriched at the plasma membrane, whereas others, like PAR-2 and PAR-1, are thought to rely mainly on electrostatic interactions. In the former case, plasma membrane specificity is an obvious outcome of lipid specificify. In the latter case, whilst explanations for plasma membrane specificity have been put forward, my work suggests that additional considerations are needed in the context of dynamically changing systems.\\
-
-Interestingly, whilst this has not been proven, PAR-1 cytoplasmic gradients have been speculated to come about through an interaction with endoplasmic reticulum (ER) membranes \citep{Folkmann2019}. Whilst PAR-1 is not thought to dimerise, it is interesting to speculate whether constitutive PAR-1 dimerisation might shift its balance towards stronger ER localisation.\\
-
+In this scheme, both increasing dimerisation strength and decreasing dimerisation strength can weaken localisation at the plasma membrane, but this occurs for different reasons (\cref{fig:discussion_schematic_full}B). At low dimerisation strengths (e.g L109R), protein is unable to dimerise at the membrane, and therefore unable to partake in a positive feedback reaction to stabilise the high-affinity dimeric state. However, at the other end of the scale, strong dimerisation (GCN4), which slows membrane exchange timescales, can cause effective entrapment on internal membranes prior to symmetry breaking, which can sequester PAR-2 away from the plasma membrane. Wild type PAR-2 dimerisation, mediated by an intermediate strength RING domain, appears to put the protein in a sweet spot that allows it to bind strongly to the plasma membrane, but avoid kinetic entrapment on internal membranes.\\
 
 \begin{sidewaysfigure}
 \includegraphics[scale=0.85]{discussion_schematic_full}
 \centering
 \mycaption{Schematic of the PAR-2 polarisation pathway and the effects of dimerisation strength}{
-\textbf{(A)} Pre-symmetry breaking, the system is held in an equilibrium state in which PAR-2 is kept off the plasma membrane, whilst low-affinity internal membrane association is permitted. Following symmetry breaking, the posterior plasma membrane becomes accessible, via flow-driven aPAR clearance and microtubule protection,  and the system transitions towards a new equilibrium state. Membrane-specific dimerisation leads to a positive feedback reaction which amplifies posterior plasma membrane association.
-\textbf{(B)} Dimerisation strength affects both the general membrane-binding affinity of PAR-2 and the kinetics of membrane exchange. When dimerisation strength is low (e.g. L109R),  systems are fast to evolve to a new equilibrium, but posterior concentrations remain low owing to a weak membrane affinity. When dimerisation strength is high (e.g. GCN4),  PAR-2 binds strongly to internal membranes, and gets kinetically trapped due to slow membrane exchange kinetics. Intermediate dimerisation strength optimises the balance between these two phenomena to ensure strong posterior membrane localisation. 
-}
+See main text for full description}
 \label{fig:discussion_schematic_full}
 \end{sidewaysfigure}
 
-\clearpage
+Whilst my data makes a good case that the RING-domain of PAR-2 drives intermediate-strength dimerisation, and my theoretical models have been able to account for a number of maintenance-phase behaviours of wild-type and mutant PAR-2, several aspects of the model could be strengthened with further experimental work. \\
+
+Firstly, my conclusions are largely based on analysis of single timepoints at maintenance phase. To fully validate the model, more work is required to analyse the temporal dynamics of polarity onset in different conditions, including quantitative assessment of pre-symmetry breaking states.\\
+
+Secondly, whilst I have been able to establish that wild-type PAR-2 dimerises at the membrane in vivo, my current data does not give any direct quantitative information about the degree of dimerisation, which would be useful for comparison to the thermodynamic model. In vivo imaging techniques such as FLIM (fluorescence lifetime imaging)-based FRET (Forster resonance energy transfer), which uses fluorescence lifetime measurements to monitor the transfer of energy between two fluorophores in close proximity, could be used to directly monitor the degree of dimerisation at the membrane (and in the cytoplasm). Furthermore, super-resolution microscopy techniques, such as SIM (structured illumination microscopy) may allow us to resolve and quantify distinct monomeric and dimeric populations at the membrane. \\
+
+Thirdly, the model relies heavily on the claim that strengthening dimerisation reduces membrane unbinding rates. Whilst our model gives good theoretical backing to this claim, we have yet to demonstrate this experimentally. Techniques such as FRAP \citep{Goehring2010, Motegi2011} and smPRESS \citep{Robin2014} have previously been used to explore the membrane exchange kinetics of PARs, including PAR-2 itself, although each method comes with caveats and success in our hands has been limited so far.\\
+
+
+\section{Comparison to other PAR proteins}
+
+As discussed in the introduction, membrane binding strategies vary between different PAR proteins. Some PARs, such as PAR-3 and CDC-42, rely mainly on binding to specific phospholipids enriched at the plasma membrane, whereas others, like PAR-2 and PAR-1, are thought to rely mainly on electrostatic interactions. In the former case, plasma membrane specificity is an obvious outcome of lipid specificity. In the latter case, whilst explanations for plasma membrane specificity have been put forward, my work suggests that additional considerations are needed in the context of dynamically changing systems.\\
+
+Interestingly, whilst this has not been proven, PAR-1 cytoplasmic gradients have been speculated to come about through an interaction with endoplasmic reticulum (ER) membranes \citep{Folkmann2019}. Whilst PAR-1 is not thought to dimerise, it is interesting to speculate whether constitutive PAR-1 dimerisation might shift its balance towards stronger ER localisation.\\
+
+
 \section{Contributions of dimerisation-driven feedback to bistable patterning}
 
-I next investigated the functional importance of this reaction in mathematical models, using a simple two species model with linear antagonism terms. My analysis shows that dimerisation coupled to mutual antagonism can be sufficient to generate stable patterns without other sources of nonlinearity, provided that dimers be, at least partially, resistant to antagonism compared to monomers. Results in chapter 7 suggest that dimers might be partially resistant to antagonism, but more work is needed to confirm this. Mathematical models would also be useful here to investigate the potential links between dimerisation and antagonism, and the requirements for differential antagonism, but this is yet to be explored.\\
+In chapter 6, I investigated the functional importance of the PAR-2 dimerisation reaction in patterning models, using a simple two species model with linear antagonism terms. My analysis shows that dimerisation coupled to mutual antagonism can be sufficient to generate stable patterns without other sources of nonlinearity, provided that dimers be, at least partially, resistant to antagonism compared to monomers. Results in chapter 7 suggest that dimers might be partially resistant to antagonism by PKC-3, but more work is needed to confirm this. Mathematical models would also be useful here to investigate the potential links between dimerisation and antagonism, and the requirements for differential antagonism, but this is yet to be explored.\\
 
 In reality, the system likely contains multiple sources of nonlinear behaviour, and so likely does not rely solely on any one source of nonlinearity to generate bistability. Nevertheless, having multiple sources of nonlinear feedback is expected to enhance the overall robustness of the system \citep{Chau2012}.\\
 
 Relating this back to original observations that PAR-2 can remain polarised in conditions with uniform aPAR, many questions are still unanswered. If dimers are resistant to antagonism, for whatever reason, then dimerisation would suggest an ability of PAR-2 to resist PKC-3 when highly concentrated. However, whilst models in these regimes can show a nonlinear relationship between kinase concentrations and antagonism, this relationship displays no signs of bistability (\cref{fig:model_antagonism_effective_exponent}), so cannot generate a spatial asymmetry without additional sources of spatial information. It is possible that additional pPARs, such as LGL-1 and CHIN-1 might act to locally inhibit PKC-3 activity. However, were this to be the case, it is unclear why the PAR-2 point mutants investigated would be unable to polarise in these conditions. Perhaps there might be a complex interaction between PAR-2 and LGL-1/CHIN-1 that we are not yet accounting for. Alternatively, PAR-2 itself may act to locally inhibit PKC-3 activity. How this might come about, and whether this could create bistable behaviour, needs further investigation.\\
-
-% Notably, my model is in contrast to previous claims that self-recruitment of PAR-2 might allow PAR-2 domains to `self-stabilise’ in the face of uniform antagonism \citep{Motegi2011}. I propose that this view be reconsidered, and that researchers focus on other potential explanations for this behaviour.
 
 \section{Additional roles of PAR-2}
 
@@ -2450,7 +2462,7 @@ Given the many roles of PAR-2, I was surprised to see that my dimer interface mu
 \clearpage
 \section{Summary}
 
-Overall, the results of this project enhance our understanding of the role of PAR-2 in PAR polarity maintenance, particularly with regard to the RING domain of the protein. Taken together, my results suggest that a concentration-dependent dimerisation reaction drives stable membrane association of PAR-2, and constitutes a positive feedback pathway that can drive stable patterning. Currently there are still many unknowns about the roles of PAR-2, and the pPARs more generally, in self-organising polarity, and more work will be required to fully understand this. My results also raise some interesting new ideas about the interplay between dimerisation and membrane specificity, which may be interesting for further study.\\
+Overall, the results of this project enhance our understanding of the role of PAR-2 in PAR polarity maintenance, particularly with regard to the RING domain of the protein. Taken together, my results reveal that a concentration-dependent dimerisation reaction drives a positive feedback pathway, which enhances membrane concentrations and stabilises PAR-2 domains. My work also reveals a key role for an optimisation of dimerisation strength at intermediate levels. Reducing dimerisation energy below this level results in a loss of positive feedback, whilst enhancing dimerisation energy leads to kinetic trapping of PAR-2 on internal membranes, both of which can compromise PAR-2 domain integrity. There are still many unknowns about the roles of PAR-2 in cell polarity, such the nature of its relationship with PKC-3 and the mechanisms by which it carries out its downstream roles, and more work will be required to enhance our understanding in these areas.\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
@@ -2927,6 +2939,16 @@ SEC-MALS was performed with Dave Briggs in Neil McDonald's lab at the Crick. Sam
 \subsection{Image analysis}
 
 Image analysis methods are described in full in chapter 2.\\
+
+\subsection{Image analysis - asymmetry index}
+
+Asymmetry index (\cref{fig:ph_ring} and \cref{fig:ph_ring_rnai}) was calculated according to the following formula:
+
+\begin{equation}
+ASI = \frac{A - P}{A + P}
+\end{equation}
+
+Where A and P represent anterior and posterior membrane signal (defined as the mean signal within the anterior/posterior half of the membrane).
 
 \subsection{Modelling}
 
