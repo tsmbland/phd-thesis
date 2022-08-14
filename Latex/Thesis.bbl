@@ -6730,6 +6730,50 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Kitano2004}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KH}{%
+         family={Kitano},
+         familyi={K\bibinitperiod},
+         given={Hiroaki},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KH1}
+    \strng{fullhash}{KH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Robustness is a ubiquitously observed property of biological systems. It is
+  considered to be a fundamental feature of complex evolvable systems. It is
+  attained by several underlying principles that are universal to both
+  biological organisms and sophisticated engineering systems. Robustness
+  facilitates evolvability and robust traits are often selected by evolution.
+  Such a mutually beneficial process is made possible by specific architectural
+  features observed in robust systems. But there are trade-offs between
+  robustness, fragility, performance and resource demands, which explain system
+  behaviour, including the patterns of failure. Insights into inherent
+  properties of robust systems will provide us with a better understanding of
+  complex diseases and a guiding principle for therapy design.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrg1471
+    \endverb
+    \field{issn}{14710056}
+    \field{number}{11}
+    \field{pages}{826\bibrangedash 837}
+    \field{title}{{Biological robustness}}
+    \field{volume}{5}
+    \verb{file}
+    \verb :Users/blandt/Documents/Mendeley Desktop/nrg1471.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Reviews Genetics}
+    \field{year}{2004}
+  \endentry
+
   \entry{Klinkert2019}{article}{}
     \name{author}{11}{}{%
       {{hash=KK}{%
