@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  15 AUG 2022 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  15 AUG 2022 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,27 +949,27 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1069,7 +1069,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1079,9 +1079,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count422
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write7
@@ -1090,7 +1090,7 @@ LaTeX Info: Redefining \nameref on input line 34.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `textgreek' on line 34.
+. Activating mapping `textgreek' on line 35.
 .................................................
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
@@ -1205,88 +1205,88 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 34.
-Package biblatex Info: Reference segment=0 on input line 34.
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
@@ -1327,7 +1327,7 @@ rupts PAR-2 RING
 \openout10 = `Thesis.lot'.
 
  [22]
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
@@ -1337,12 +1337,12 @@ Chapter 1.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
@@ -1351,15 +1351,15 @@ File: ../Figures/polarity_examples.png Graphic file (type png)
 
 <use ../Figures/polarity_examples.png>
 Package pdftex.def Info: ../Figures/polarity_examples.png used on input line 18
-1.
-(pdftex.def)             Requested size: 356.41264pt x 174.82768pt.
+3.
+(pdftex.def)             Requested size: 405.01213pt x 198.66672pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
@@ -1367,11 +1367,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
@@ -1381,74 +1376,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
 [26 <../Figures/polarity_examples.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 211.
+               Default added (so using `tbp') on input line 213.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-[27]
 Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
-[28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
 [29]
-<../Figures/par_polarity_schematic.png, id=1109, 344.90857pt x 178.32622pt>
+<../Figures/par_polarity_schematic.png, id=1107, 344.90857pt x 178.32622pt>
 File: ../Figures/par_polarity_schematic.png Graphic file (type png)
 
 <use ../Figures/par_polarity_schematic.png>
 Package pdftex.def Info: ../Figures/par_polarity_schematic.png used on input li
-ne 243.
+ne 245.
 (pdftex.def)             Requested size: 344.90771pt x 178.32578pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-[30 <../Figures/par_polarity_schematic.png (PNG copy)>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-
+[30 <../Figures/par_polarity_schematic.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
-
+[31] [32]
 Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
@@ -1458,155 +1453,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-<../Figures/feedback_modes_schematic.png, id=1158, 292.03102pt x 133.88017pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+<../Figures/feedback_modes_schematic.png, id=1162, 292.03102pt x 133.88017pt>
 File: ../Figures/feedback_modes_schematic.png Graphic file (type png)
 
 <use ../Figures/feedback_modes_schematic.png>
 Package pdftex.def Info: ../Figures/feedback_modes_schematic.png used on input 
-line 276.
+line 278.
 (pdftex.def)             Requested size: 292.0303pt x 133.87984pt.
 
-<../Figures/activator_inhibitor.png, id=1160, 928.46875pt x 276.03125pt>
+<../Figures/activator_inhibitor.png, id=1164, 928.46875pt x 276.03125pt>
 File: ../Figures/activator_inhibitor.png Graphic file (type png)
 
 <use ../Figures/activator_inhibitor.png>
 Package pdftex.def Info: ../Figures/activator_inhibitor.png used on input line 
-285.
-(pdftex.def)             Requested size: 371.38092pt x 110.41054pt.
+287.
+(pdftex.def)             Requested size: 408.52751pt x 121.45412pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
-[32
+[33
 
 
-] [33 <../Figures/feedback_modes_schematic.png (PNG copy)> <../Figures/activato
+] [34 <../Figures/feedback_modes_schematic.png (PNG copy)> <../Figures/activato
 r_inhibitor.png>]
-<../Figures/gierer_meinhardt.png, id=1177, 370.44397pt x 111.35602pt>
+<../Figures/gierer_meinhardt.png, id=1181, 370.44397pt x 111.35602pt>
 File: ../Figures/gierer_meinhardt.png Graphic file (type png)
 
 <use ../Figures/gierer_meinhardt.png>
-Package pdftex.def Info: ../Figures/gierer_meinhardt.png used on input line 299
+Package pdftex.def Info: ../Figures/gierer_meinhardt.png used on input line 301
 .
-(pdftex.def)             Requested size: 370.44305pt x 111.35573pt.
- [34 <../Figures/gierer_meinhardt.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
+(pdftex.def)             Requested size: 407.48961pt x 122.49197pt.
+ [35 <../Figures/gierer_meinhardt.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
-[35
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--317
+
+ []
+
+[36
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
-<../Figures/yeast_polarity_schematic.png, id=1202, 274.32487pt x 132.37456pt>
+<../Figures/yeast_polarity_schematic.png, id=1206, 274.32487pt x 132.37456pt>
 File: ../Figures/yeast_polarity_schematic.png Graphic file (type png)
 
 <use ../Figures/yeast_polarity_schematic.png>
 Package pdftex.def Info: ../Figures/yeast_polarity_schematic.png used on input 
-line 324.
-(pdftex.def)             Requested size: 274.3242pt x 132.37422pt.
- [36]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+line 326.
+(pdftex.def)             Requested size: 356.6223pt x 172.08688pt.
+ [37]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-[37 <../Figures/yeast_polarity_schematic.png (PNG copy)>]
+[38 <../Figures/yeast_polarity_schematic.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
-<../Figures/wave_pinning.png, id=1223, 356.532pt x 166.76303pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+<../Figures/wave_pinning.png, id=1226, 356.532pt x 166.76303pt>
 File: ../Figures/wave_pinning.png Graphic file (type png)
 
 <use ../Figures/wave_pinning.png>
-Package pdftex.def Info: ../Figures/wave_pinning.png used on input line 350.
-(pdftex.def)             Requested size: 356.53111pt x 166.76262pt.
+Package pdftex.def Info: ../Figures/wave_pinning.png used on input line 352.
+(pdftex.def)             Requested size: 392.18639pt x 183.4399pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-
- []
-
-[38 <../Figures/wave_pinning.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 [39]
-<../Figures/goehring_model_schematic.png, id=1241, 490.83376pt x 496.85625pt>
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+[40 <../Figures/wave_pinning.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+<../Figures/goehring_model_schematic.png, id=1243, 490.83376pt x 496.85625pt>
 File: ../Figures/goehring_model_schematic.png Graphic file (type png)
 
 <use ../Figures/goehring_model_schematic.png>
 Package pdftex.def Info: ../Figures/goehring_model_schematic.png used on input 
-line 380.
+line 382.
 (pdftex.def)             Requested size: 220.87314pt x 223.58324pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-
- []
-
-[40 <../Figures/goehring_model_schematic.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-<../Figures/par_proteins_schematic.png, id=1281, 452.69125pt x 161.60374pt>
+[41] [42 <../Figures/goehring_model_schematic.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+<../Figures/par_proteins_schematic.png, id=1285, 452.69125pt x 161.60374pt>
 File: ../Figures/par_proteins_schematic.png Graphic file (type png)
 
 <use ../Figures/par_proteins_schematic.png>
 Package pdftex.def Info: ../Figures/par_proteins_schematic.png used on input li
-ne 401.
+ne 403.
 (pdftex.def)             Requested size: 407.41835pt x 145.44202pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
-[42
+[43
 
 
  <../Figures/par_proteins_schematic.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
@@ -1616,12 +1610,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
-[43]
+
 Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
-
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
@@ -1632,26 +1626,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--425
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
-[44]
+
 Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
-[45]
+
 Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
-
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
@@ -1662,22 +1656,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 442--443
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
 
-[46]
+
 Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
@@ -1686,84 +1680,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
 [48]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
  []
 
-
-Overfull \hbox (2.38474pt too wide) in paragraph at lines 478--479
-[]\OT1/cmr/m/n/12 Continuous de-phos-pho-ry-la-tion is re-quired to coun-ter-ac
-t phos-pho-ry-la-tion by PKC-
- []
-
-
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
-
- []
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
-
+Overfull \hbox (2.38474pt too wide) in paragraph at lines 480--481
+[]\OT1/cmr/m/n/12 Continuous de-phos-pho-ry-la-tion is re-quired to coun-ter-ac
+t phos-pho-ry-la-tion by PKC-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
 
  []
 
 [51]
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 505--506
 
  []
 
-
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 507--508
 
  []
 
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
@@ -1772,20 +1766,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
-[53
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 520--521
 
  []
 
+[54
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 522--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 
  []
 
@@ -1794,27 +1788,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--529
 
  []
 
-[54]
+
 Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
-
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 532--533
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
-
- []
-
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+
+ []
+
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 544--545
 
  []
@@ -1824,12 +1818,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 546--547
 
  []
 
-[56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 
  []
 
-
+[57] [58]
 Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
@@ -1839,15 +1833,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 556--557
 
  []
 
-[58
 
-] [59]
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
+[59
+
+] [60]
+Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 568--569
 
@@ -1858,16 +1852,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
-[60
 
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
@@ -1875,24 +1861,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--591
-
- []
-
-<../Figures/saibr_n2_vs_lgl.png, id=1536, 169.29248pt x 261.01515pt>
-File: ../Figures/saibr_n2_vs_lgl.png Graphic file (type png)
-
-<use ../Figures/saibr_n2_vs_lgl.png>
-Package pdftex.def Info: ../Figures/saibr_n2_vs_lgl.png used on input line 593.
-
-(pdftex.def)             Requested size: 152.3618pt x 234.91145pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
@@ -1900,139 +1874,159 @@ Underfull \hbox (badness 10000) in paragraph at lines 599--600
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
+
+ []
+
+<../Figures/saibr_n2_vs_lgl.png, id=1540, 169.29248pt x 261.01515pt>
+File: ../Figures/saibr_n2_vs_lgl.png Graphic file (type png)
+
+<use ../Figures/saibr_n2_vs_lgl.png>
+Package pdftex.def Info: ../Figures/saibr_n2_vs_lgl.png used on input line 595.
+
+(pdftex.def)             Requested size: 152.3618pt x 234.91145pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 601--602
 
  []
 
-[63 <../Figures/saibr_n2_vs_lgl.png (PNG copy)>]
+[63
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 603--604
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
-
+[64 <../Figures/saibr_n2_vs_lgl.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 611--612
 
  []
 
-<../Figures/saibr_n2_correlation.png, id=1554, 434.8245pt x 435.48697pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
+
+ []
+
+<../Figures/saibr_n2_correlation.png, id=1558, 434.8245pt x 435.48697pt>
 File: ../Figures/saibr_n2_correlation.png Graphic file (type png)
 
 <use ../Figures/saibr_n2_correlation.png>
 Package pdftex.def Info: ../Figures/saibr_n2_correlation.png used on input line
- 614.
+ 616.
 (pdftex.def)             Requested size: 413.0809pt x 413.71027pt.
 
-Overfull \hbox (3.47546pt too wide) in paragraph at lines 614--621
+Overfull \hbox (3.47546pt too wide) in paragraph at lines 616--623
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
 
  []
 
-[64] [65 <../Figures/saibr_n2_correlation.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 630--631
-
- []
-
-
+[65] [66 <../Figures/saibr_n2_correlation.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
-<../Figures/saibr_spatial_correction.png, id=1567, 450.60345pt x 227.71072pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+
+ []
+
+<../Figures/saibr_spatial_correction.png, id=1573, 450.60345pt x 227.71072pt>
 File: ../Figures/saibr_spatial_correction.png Graphic file (type png)
 
 <use ../Figures/saibr_spatial_correction.png>
 Package pdftex.def Info: ../Figures/saibr_spatial_correction.png used on input 
-line 635.
+line 637.
 (pdftex.def)             Requested size: 405.53937pt x 204.93773pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
-[66] [67 <../Figures/saibr_spatial_correction.png (PNG copy)>]
-<../Figures/saibr_membrane_profiles.png, id=1580, 388.27057pt x 277.5168pt>
+[67] [68 <../Figures/saibr_spatial_correction.png (PNG copy)>]
+<../Figures/saibr_membrane_profiles.png, id=1589, 388.27057pt x 277.5168pt>
 File: ../Figures/saibr_membrane_profiles.png Graphic file (type png)
 
 <use ../Figures/saibr_membrane_profiles.png>
 Package pdftex.def Info: ../Figures/saibr_membrane_profiles.png used on input l
-ine 647.
+ine 649.
 (pdftex.def)             Requested size: 388.2696pt x 277.51611pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--659
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
 
  []
 
-[68 <../Figures/saibr_membrane_profiles.png (PNG copy)>]
-<../Figures/saibr_3channel_correlation.png, id=1589, 394.89532pt x 394.71465pt>
+[69 <../Figures/saibr_membrane_profiles.png (PNG copy)>]
+<../Figures/saibr_3channel_correlation.png, id=1598, 394.89532pt x 394.71465pt>
 File: ../Figures/saibr_3channel_correlation.png Graphic file (type png)
 <use ../Figures/saibr_3channel_correlation.png>
 Package pdftex.def Info: ../Figures/saibr_3channel_correlation.png used on inpu
-t line 662.
+t line 664.
 (pdftex.def)             Requested size: 394.89435pt x 394.71367pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--674
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
 
  []
 
 
-<../Figures/saibr_3channel_correction.png, id=1592, 249.99397pt x 332.32155pt>
+<../Figures/saibr_3channel_correction.png, id=1601, 249.99397pt x 332.32155pt>
 File: ../Figures/saibr_3channel_correction.png Graphic file (type png)
 
 <use ../Figures/saibr_3channel_correction.png>
 Package pdftex.def Info: ../Figures/saibr_3channel_correction.png used on input
- line 676.
+ line 678.
 (pdftex.def)             Requested size: 249.99335pt x 332.32074pt.
 
-Underfull \hbox (badness 2799) in paragraph at lines 682--682
+Underfull \hbox (badness 2799) in paragraph at lines 684--684
 \OT1/cmr/bx/n/10 pre-vents over-sub-trac-tion in
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 682--682
+Underfull \hbox (badness 1472) in paragraph at lines 684--684
 \OT1/cmr/bx/n/10 sam-ples con-tain-ing red flu-
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 682--682
+Underfull \hbox (badness 2237) in paragraph at lines 684--684
 \OT1/cmr/bx/n/10 o-rophore.  \OT1/cmr/m/n/10 RFP chan-nel,
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 682--682
+Underfull \hbox (badness 1552) in paragraph at lines 684--684
 \OT1/cmr/m/n/10 SAIBR im-ages for sam-ples ex-
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 682--682
+Underfull \hbox (badness 1122) in paragraph at lines 684--684
 \OT1/cmr/m/n/10 as-so-ci-ated lines-cans. 2-channel
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 682--682
+Underfull \hbox (badness 1755) in paragraph at lines 684--684
 \OT1/cmr/m/n/10 pre-vents over-sub-trac-tion. Fig-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
-
- []
-
-[69] [70 <../Figures/saibr_3channel_correlation.png (PNG copy)>] [71 <../Figure
-s/saibr_3channel_correction.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 689--690
 
  []
 
-
+[70] [71 <../Figures/saibr_3channel_correlation.png (PNG copy)>] [72 <../Figure
+s/saibr_3channel_correction.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 691--692
 
  []
@@ -2047,80 +2041,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 695--696
 
  []
 
-[72] [73]
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+
+ []
+
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 708--709
 
  []
 
 
-<../Figures/memquant_method_comparison.png, id=1624, 340.75305pt x 355.74907pt>
+<../Figures/memquant_method_comparison.png, id=1633, 340.75305pt x 355.74907pt>
 File: ../Figures/memquant_method_comparison.png Graphic file (type png)
 <use ../Figures/memquant_method_comparison.png>
 Package pdftex.def Info: ../Figures/memquant_method_comparison.png used on inpu
-t line 709.
-(pdftex.def)             Requested size: 340.75221pt x 355.7482pt.
+t line 711.
+(pdftex.def)             Requested size: 374.82951pt x 391.32518pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
-
- []
-
-[74
-
-
-] [75 <../Figures/memquant_method_comparison.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 718--719
 
  []
 
+[75
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+
+] [76 <../Figures/memquant_method_comparison.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
 
-[76] <../Figures/memquant_cyt_profile.png, id=1649, 292.2117pt x 324.19118pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+
+ []
+
+[77] <../Figures/memquant_cyt_profile.png, id=1658, 292.2117pt x 324.19118pt>
 File: ../Figures/memquant_cyt_profile.png Graphic file (type png)
 
 <use ../Figures/memquant_cyt_profile.png>
 Package pdftex.def Info: ../Figures/memquant_cyt_profile.png used on input line
- 725.
-(pdftex.def)             Requested size: 292.21098pt x 324.19038pt.
+ 727.
+(pdftex.def)             Requested size: 350.65228pt x 389.02747pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--737
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
 
-[77 <../Figures/memquant_cyt_profile.png (PNG copy)>]
-<../Figures/memquant_cyt_psf.png, id=1655, 446.32747pt x 360.50685pt>
+<../Figures/memquant_cyt_psf.png, id=1660, 446.32747pt x 360.50685pt>
 File: ../Figures/memquant_cyt_psf.png Graphic file (type png)
 
 <use ../Figures/memquant_cyt_psf.png>
-Package pdftex.def Info: ../Figures/memquant_cyt_psf.png used on input line 740
+Package pdftex.def Info: ../Figures/memquant_cyt_psf.png used on input line 742
 .
 (pdftex.def)             Requested size: 401.691pt x 324.45314pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
 
  []
 
-[78 <../Figures/memquant_cyt_psf.png (PNG copy)>]
-<../Figures/memquant_mem_psf.png, id=1666, 446.32747pt x 360.50685pt>
+[78] [79 <../Figures/memquant_cyt_profile.png (PNG copy)>] [80 <../Figures/memq
+uant_cyt_psf.png (PNG copy)>]
+<../Figures/memquant_mem_psf.png, id=1681, 446.32747pt x 360.50685pt>
 File: ../Figures/memquant_mem_psf.png Graphic file (type png)
 
 <use ../Figures/memquant_mem_psf.png>
-Package pdftex.def Info: ../Figures/memquant_mem_psf.png used on input line 752
+Package pdftex.def Info: ../Figures/memquant_mem_psf.png used on input line 754
 .
 (pdftex.def)             Requested size: 401.691pt x 324.45314pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
-
- []
-
-[79] [80 <../Figures/memquant_mem_psf.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 763--764
 
  []
 
-
+[81 <../Figures/memquant_mem_psf.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 765--766
 
  []
@@ -2130,7 +2124,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 767--768
 
  []
 
-[81]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 769--770
 
  []
@@ -2145,177 +2139,188 @@ Underfull \hbox (badness 10000) in paragraph at lines 773--774
 
  []
 
-[82]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 775--776
 
  []
 
-<../Figures/memquant_model_schematic.png, id=1696, 345.57104pt x 230.7822pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+ []
+
+[84]
+<../Figures/memquant_model_schematic.png, id=1709, 345.57104pt x 230.7822pt>
 File: ../Figures/memquant_model_schematic.png Graphic file (type png)
 
 <use ../Figures/memquant_model_schematic.png>
 Package pdftex.def Info: ../Figures/memquant_model_schematic.png used on input 
-line 778.
+line 780.
 (pdftex.def)             Requested size: 397.40363pt x 265.39746pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--787
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
 
  []
 
-[83] [84 <../Figures/memquant_model_schematic.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
-
- []
-
-
+[85 <../Figures/memquant_model_schematic.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 793--794
 
  []
 
-[85]
+
 Underfull \hbox (badness 10000) in paragraph at lines 795--796
 
  []
 
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 
-<../Figures/memquant_forward_and_back_propagation.png, id=1720, 295.28317pt x 2
+ []
+
+
+<../Figures/memquant_forward_and_back_propagation.png, id=1729, 295.28317pt x 2
 81.853pt>
 File: ../Figures/memquant_forward_and_back_propagation.png Graphic file (type p
 ng)
  <use ../Figures/memquant_forward_and_back_propagation.png>
 Package pdftex.def Info: ../Figures/memquant_forward_and_back_propagation.png u
-sed on input line 798.
-(pdftex.def)             Requested size: 324.81248pt x 310.03926pt.
+sed on input line 800.
+(pdftex.def)             Requested size: 383.86807pt x 366.40886pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
 
  []
 
-<../Figures/memquant_membg_training.png, id=1729, 408.26527pt x 425.1885pt>
+<../Figures/memquant_membg_training.png, id=1738, 408.26527pt x 425.1885pt>
 File: ../Figures/memquant_membg_training.png Graphic file (type png)
 
 <use ../Figures/memquant_membg_training.png>
 Package pdftex.def Info: ../Figures/memquant_membg_training.png used on input l
-ine 808.
+ine 810.
 (pdftex.def)             Requested size: 408.26428pt x 425.18745pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
 
  []
 
-[86] [87 <../Figures/memquant_forward_and_back_propagation.png (PNG copy)>]
-[88 <../Figures/memquant_membg_training.png (PNG copy)>]
-<../Figures/memquant_segmentation_v2.png, id=1746, 398.02702pt x 184.83052pt>
+[87] [88 <../Figures/memquant_forward_and_back_propagation.png (PNG copy)>]
+[89 <../Figures/memquant_membg_training.png (PNG copy)>]
+<../Figures/memquant_segmentation_v2.png, id=1755, 398.02702pt x 184.83052pt>
 File: ../Figures/memquant_segmentation_v2.png Graphic file (type png)
 
 <use ../Figures/memquant_segmentation_v2.png>
 Package pdftex.def Info: ../Figures/memquant_segmentation_v2.png used on input 
-line 825.
-(pdftex.def)             Requested size: 398.02605pt x 184.83006pt.
+line 827.
+(pdftex.def)             Requested size: 437.83107pt x 203.3142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 836--837
-
+Overfull \hbox (28.22563pt too wide) in paragraph at lines 827--831
+ [][] 
  []
 
-[89 <../Figures/memquant_segmentation_v2.png (PNG copy)>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 838--839
 
  []
 
+[90 <../Figures/memquant_segmentation_v2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
 
-<../Figures/memquant_benchmarking_ph_rundown.png, id=1756, 432.53595pt x 480.23
+ []
+
+
+<../Figures/memquant_benchmarking_ph_rundown.png, id=1765, 432.53595pt x 480.23
 415pt>
 File: ../Figures/memquant_benchmarking_ph_rundown.png Graphic file (type png)
  <use ../Figures/memquant_benchmarking_ph_rundown.png>
 Package pdftex.def Info: ../Figures/memquant_benchmarking_ph_rundown.png used o
-n input line 841.
+n input line 843.
 (pdftex.def)             Requested size: 432.53488pt x 480.23297pt.
 
-Overfull \hbox (22.92944pt too wide) in paragraph at lines 841--848
+Overfull \hbox (22.92944pt too wide) in paragraph at lines 843--850
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
 
  []
 
 
-<../Figures/memquant_benchmarking_noise.png, id=1760, 392.4261pt x 423.5022pt>
+<../Figures/memquant_benchmarking_noise.png, id=1769, 392.4261pt x 423.5022pt>
 File: ../Figures/memquant_benchmarking_noise.png Graphic file (type png)
 
 <use ../Figures/memquant_benchmarking_noise.png>
 Package pdftex.def Info: ../Figures/memquant_benchmarking_noise.png used on inp
-ut line 855.
-(pdftex.def)             Requested size: 372.80267pt x 402.32478pt.
+ut line 857.
+(pdftex.def)             Requested size: 412.04759pt x 444.67749pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 868--869
+Overfull \hbox (2.44215pt too wide) in paragraph at lines 857--863
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
 
  []
 
-[90] [91 <../Figures/memquant_benchmarking_ph_rundown.png (PNG copy)>] [92 <../
+[91] [92 <../Figures/memquant_benchmarking_ph_rundown.png (PNG copy)>] [93 <../
 Figures/memquant_benchmarking_noise.png (PNG copy)>]
-<../Figures/memquant_optogenetics.png, id=1776, 420.8523pt x 206.2104pt>
+<../Figures/memquant_optogenetics.png, id=1785, 420.8523pt x 206.2104pt>
 File: ../Figures/memquant_optogenetics.png Graphic file (type png)
 
 <use ../Figures/memquant_optogenetics.png>
 Package pdftex.def Info: ../Figures/memquant_optogenetics.png used on input lin
-e 871.
+e 873.
 (pdftex.def)             Requested size: 420.85127pt x 206.20988pt.
 
-Overfull \hbox (11.24583pt too wide) in paragraph at lines 871--877
+Overfull \hbox (11.24583pt too wide) in paragraph at lines 873--879
  [][] 
  []
 
-[93 <../Figures/memquant_optogenetics.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 892--893
-
- []
-
-
+[94 <../Figures/memquant_optogenetics.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 894--895
 
  []
 
-[94]
-Underfull \hbox (badness 10000) in paragraph at lines 899--900
+
+Underfull \hbox (badness 10000) in paragraph at lines 896--897
 
  []
 
-
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
-[95
 
-]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
 
 [96
 
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 915--916
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
+
+ []
+
+[97
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 917--918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--922
+Underfull \hbox (badness 10000) in paragraph at lines 919--920
 
  []
 
@@ -2324,80 +2329,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 923--924
 
  []
 
-[97
+
+Underfull \hbox (badness 10000) in paragraph at lines 925--926
+
+ []
+
+[98
 
 
-] <../Figures/no_flow_sb_model.png, id=1807, 384.4764pt x 384.65707pt>
+] <../Figures/no_flow_sb_model.png, id=1816, 384.4764pt x 384.65707pt>
 File: ../Figures/no_flow_sb_model.png Graphic file (type png)
 
 <use ../Figures/no_flow_sb_model.png>
-Package pdftex.def Info: ../Figures/no_flow_sb_model.png used on input line 928
+Package pdftex.def Info: ../Figures/no_flow_sb_model.png used on input line 930
 .
-(pdftex.def)             Requested size: 346.02554pt x 346.18816pt.
+(pdftex.def)             Requested size: 384.47545pt x 384.65613pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 
  []
 
-[98 <../Figures/no_flow_sb_model.png (PNG copy)>]
-<../Figures/polarity_regimes_schematics.png, id=1814, 303.0522pt x 230.11972pt>
+
+<../Figures/polarity_regimes_schematics.png, id=1819, 303.0522pt x 230.11972pt>
 File: ../Figures/polarity_regimes_schematics.png Graphic file (type png)
 <use ../Figures/polarity_regimes_schematics.png>
 Package pdftex.def Info: ../Figures/polarity_regimes_schematics.png used on inp
-ut line 941.
-(pdftex.def)             Requested size: 333.35844pt x 253.13245pt.
+ut line 943.
+(pdftex.def)             Requested size: 363.66081pt x 276.14226pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
-
- []
-
-[99 <../Figures/polarity_regimes_schematics.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 954--955
 
  []
 
-
+[99] [100 <../Figures/no_flow_sb_model.png (PNG copy)>] [101 <../Figures/polari
+ty_regimes_schematics.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 956--957
 
  []
 
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
+
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
 
  []
 
-[101] <../Figures/par2_schematic.png, id=1836, 407.66302pt x 105.15285pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
+
+ []
+
+[102] <../Figures/par2_schematic.png, id=1845, 407.66302pt x 105.15285pt>
 File: ../Figures/par2_schematic.png Graphic file (type png)
 
 <use ../Figures/par2_schematic.png>
-Package pdftex.def Info: ../Figures/par2_schematic.png used on input line 970.
+Package pdftex.def Info: ../Figures/par2_schematic.png used on input line 972.
 (pdftex.def)             Requested size: 387.27766pt x 99.89462pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
 
  []
 
-[102 <../Figures/par2_schematic.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 984--985
-
- []
-
-
+[103 <../Figures/par2_schematic.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 986--987
 
  []
 
-
+[104]
 Underfull \hbox (badness 10000) in paragraph at lines 988--989
 
  []
 
-[103] [104]
-Underfull \hbox (badness 10000) in paragraph at lines 994--995
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
 
  []
 
-
+[105]
 Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
@@ -2407,43 +2413,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 998--999
 
  []
 
-[105
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
 
  []
 
+[106
 
-<../Figures/par2_misc_mutants_quantification.png, id=1868, 396.5214pt x 451.928
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+
+ []
+
+
+<../Figures/par2_misc_mutants_quantification.png, id=1877, 396.5214pt x 451.928
 4pt>
 File: ../Figures/par2_misc_mutants_quantification.png Graphic file (type png)
  <use ../Figures/par2_misc_mutants_quantification.png>
 Package pdftex.def Info: ../Figures/par2_misc_mutants_quantification.png used o
-n input line 1003.
+n input line 1005.
 (pdftex.def)             Requested size: 376.69318pt x 429.32954pt.
 
-<../Figures/par2_misc_mutants_detailed_quantification.png, id=1869, 446.80928pt
+<../Figures/par2_misc_mutants_detailed_quantification.png, id=1878, 446.80928pt
  x 323.40825pt>
 File: ../Figures/par2_misc_mutants_detailed_quantification.png Graphic file (ty
 pe png)
  <use ../Figures/par2_misc_mutants_detailed_quantification.png>
 Package pdftex.def Info: ../Figures/par2_misc_mutants_detailed_quantification.p
-ng used on input line 1015.
+ng used on input line 1017.
 (pdftex.def)             Requested size: 402.12463pt x 291.06471pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
 
  []
 
-[106] [107 <../Figures/par2_misc_mutants_quantification.png (PNG copy)>]
-[108 <../Figures/par2_misc_mutants_detailed_quantification.png (PNG copy)>]
-[109]
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
-
- []
-
-
+[107] [108 <../Figures/par2_misc_mutants_quantification.png (PNG copy)>]
+[109 <../Figures/par2_misc_mutants_detailed_quantification.png (PNG copy)>]
+[110]
 Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
 
  []
@@ -2453,48 +2459,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 
  []
 
-[110
 
-] <../Figures/rundown_schematic.png, id=1897, 417.05812pt x 283.47908pt>
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
+
+ []
+
+[111
+
+] <../Figures/rundown_schematic.png, id=1907, 417.05812pt x 283.47908pt>
 File: ../Figures/rundown_schematic.png Graphic file (type png)
 
 <use ../Figures/rundown_schematic.png>
 Package pdftex.def Info: ../Figures/rundown_schematic.png used on input line 10
-37.
+39.
 (pdftex.def)             Requested size: 396.20296pt x 269.30359pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
 
  []
 
-[111]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
 
  []
 
-[112 <../Figures/rundown_schematic.png (PNG copy)>]
-<../Figures/rundown_vs_c56s_v2.png, id=1911, 342.86093pt x 487.46115pt>
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
+
+ []
+
+[113 <../Figures/rundown_schematic.png (PNG copy)>]
+<../Figures/rundown_vs_c56s_v2.png, id=1921, 342.86093pt x 487.46115pt>
 File: ../Figures/rundown_vs_c56s_v2.png Graphic file (type png)
 
 <use ../Figures/rundown_vs_c56s_v2.png>
 Package pdftex.def Info: ../Figures/rundown_vs_c56s_v2.png used on input line 1
-059.
-(pdftex.def)             Requested size: 308.57198pt x 438.71098pt.
- [113 <../Figures/rundown_vs_c56s_v2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
-
- []
+061.
+(pdftex.def)             Requested size: 342.86009pt x 487.45996pt.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[114] [115 <../Figures/rundown_vs_c56s_v2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
 
  []
@@ -2504,181 +2514,181 @@ Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
 
  []
 
-[114
 
-] [115]
-Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
 
  []
 
 [116
 
+] [117]
+Chapter 4.
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
 
  []
 
-<../Figures/c56s_cis_v2.png, id=1936, 295.16272pt x 153.27263pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
+
+ []
+
+[118
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
+
+ []
+
+<../Figures/c56s_cis_v2.png, id=1950, 295.16272pt x 153.27263pt>
 File: ../Figures/c56s_cis_v2.png Graphic file (type png)
 
 <use ../Figures/c56s_cis_v2.png>
-Package pdftex.def Info: ../Figures/c56s_cis_v2.png used on input line 1095.
+Package pdftex.def Info: ../Figures/c56s_cis_v2.png used on input line 1097.
 (pdftex.def)             Requested size: 413.22499pt x 214.5802pt.
 
-Overfull \hbox (3.61955pt too wide) in paragraph at lines 1095--1101
+Overfull \hbox (3.61955pt too wide) in paragraph at lines 1097--1103
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
-
- []
-
-[117
-
-
-] <../Figures/ring_schematic.png, id=1946, 521.95pt x 377.41pt>
-File: ../Figures/ring_schematic.png Graphic file (type png)
-
-<use ../Figures/ring_schematic.png>
-Package pdftex.def Info: ../Figures/ring_schematic.png used on input line 1108.
-
-(pdftex.def)             Requested size: 208.77629pt x 150.96132pt.
- [118 <../Figures/c56s_cis_v2.png (PNG copy)> <../Figures/ring_schematic.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
-
- []
-
-<../Figures/ubiquitination_pathway.png, id=1955, 429.10312pt x 174.6525pt>
-File: ../Figures/ubiquitination_pathway.png Graphic file (type png)
-
-<use ../Figures/ubiquitination_pathway.png>
-Package pdftex.def Info: ../Figures/ubiquitination_pathway.png used on input li
-ne 1122.
-(pdftex.def)             Requested size: 407.64565pt x 165.91893pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
 
  []
 
 [119
 
- <../Figures/ubiquitination_pathway.png>]
+
+] <../Figures/ring_schematic.png, id=1960, 521.95pt x 377.41pt>
+File: ../Figures/ring_schematic.png Graphic file (type png)
+
+<use ../Figures/ring_schematic.png>
+Package pdftex.def Info: ../Figures/ring_schematic.png used on input line 1110.
+
+(pdftex.def)             Requested size: 208.77629pt x 150.96132pt.
+ [120 <../Figures/c56s_cis_v2.png (PNG copy)> <../Figures/ring_schematic.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+
+ []
+
+<../Figures/ubiquitination_pathway.png, id=1969, 429.10312pt x 174.6525pt>
+File: ../Figures/ubiquitination_pathway.png Graphic file (type png)
+
+<use ../Figures/ubiquitination_pathway.png>
+Package pdftex.def Info: ../Figures/ubiquitination_pathway.png used on input li
+ne 1124.
+(pdftex.def)             Requested size: 407.64565pt x 165.91893pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 1131--1132
 
  []
 
+[121
 
+ <../Figures/ubiquitination_pathway.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
 
  []
 
-[120]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 
  []
 
-
+[122]
 Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1141--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1139--1140
 
  []
 
-[121]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1143--1144
 
  []
 
-[122] <../Figures/ubiquitin_assay.png, id=1986, 403.44728pt x 180.07275pt>
-File: ../Figures/ubiquitin_assay.png Graphic file (type png)
-
-<use ../Figures/ubiquitin_assay.png>
-Package pdftex.def Info: ../Figures/ubiquitin_assay.png used on input line 1146
-.
-(pdftex.def)             Requested size: 403.44629pt x 180.07231pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
+[123]
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
 
  []
 
-[123 <../Figures/ubiquitin_assay.png (PNG copy)>]
+[124] <../Figures/ubiquitin_assay.png, id=2000, 403.44728pt x 180.07275pt>
+File: ../Figures/ubiquitin_assay.png Graphic file (type png)
+
+<use ../Figures/ubiquitin_assay.png>
+Package pdftex.def Info: ../Figures/ubiquitin_assay.png used on input line 1148
+.
+(pdftex.def)             Requested size: 403.44629pt x 180.07231pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
 
  []
 
-
+[125 <../Figures/ubiquitin_assay.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
 
  []
 
-<../Figures/linchpin_alignments.png, id=1997, 346.59488pt x 165.91988pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1165
+
+ []
+
+<../Figures/linchpin_alignments.png, id=2011, 346.59488pt x 165.91988pt>
 File: ../Figures/linchpin_alignments.png Graphic file (type png)
 
 <use ../Figures/linchpin_alignments.png>
 Package pdftex.def Info: ../Figures/linchpin_alignments.png used on input line 
-1165.
+1167.
 (pdftex.def)             Requested size: 311.9325pt x 149.32649pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
 
  []
 
-[124] <../Figures/linchpin_in_vivo_v2.png, id=2005, 453.6147pt x 194.82788pt>
+[126] <../Figures/linchpin_in_vivo_v2.png, id=2019, 453.6147pt x 194.82788pt>
 File: ../Figures/linchpin_in_vivo_v2.png Graphic file (type png)
 
 <use ../Figures/linchpin_in_vivo_v2.png>
 Package pdftex.def Info: ../Figures/linchpin_in_vivo_v2.png used on input line 
-1177.
+1179.
 (pdftex.def)             Requested size: 408.24945pt x 175.34346pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
 
  []
 
-[125 <../Figures/linchpin_alignments.png (PNG copy)>] [126 <../Figures/linchpin
+[127 <../Figures/linchpin_alignments.png (PNG copy)>] [128 <../Figures/linchpin
 _in_vivo_v2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
 
  []
 
-<../Figures/trim25.png, id=2015, 585.18625pt x 341.275pt>
+<../Figures/trim25.png, id=2031, 585.18625pt x 341.275pt>
 File: ../Figures/trim25.png Graphic file (type png)
 
 <use ../Figures/trim25.png>
-Package pdftex.def Info: ../Figures/trim25.png used on input line 1203.
+Package pdftex.def Info: ../Figures/trim25.png used on input line 1205.
 (pdftex.def)             Requested size: 234.07034pt x 136.50757pt.
 
-Underfull \hbox (badness 3503) in paragraph at lines 1208--1208
+Underfull \hbox (badness 3503) in paragraph at lines 1210--1210
 [][]\OT1/cmr/bx/n/10 : |Struc-ture of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
-
- []
-
-[127
-
-
- <../Figures/trim25.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
 
  []
 
+[129
 
-Underfull \hbox (badness 10000) in paragraph at lines 1216--1217
+
+ <../Figures/trim25.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
 
  []
 
@@ -2688,297 +2698,291 @@ Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1222--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1221
 
  []
 
-[128]
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
+
+ []
+
+[130]
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1229
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1228.
+               Default added (so using `tbp') on input line 1230.
 
-<../Figures/alignments_other_rings.png, id=2054, 359.36258pt x 262.40033pt>
+<../Figures/alignments_other_rings.png, id=2068, 359.36258pt x 262.40033pt>
 File: ../Figures/alignments_other_rings.png Graphic file (type png)
 
 <use ../Figures/alignments_other_rings.png>
 Package pdftex.def Info: ../Figures/alignments_other_rings.png used on input li
-ne 1245.
+ne 1247.
 (pdftex.def)             Requested size: 359.3617pt x 262.39967pt.
 
-Overfull \hbox (9.22783pt too wide) in paragraph at lines 1254--1255
+Overfull \hbox (9.22783pt too wide) in paragraph at lines 1256--1257
 []\OT1/cmr/m/n/12 These re-gions are also highly con-served in dif-fer-ent \OT1
 /cmr/m/it/12 Caenorhab-di-tis \OT1/cmr/m/n/12 species (fig. []4.9[]).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
+Underfull \hbox (badness 10000) in paragraph at lines 1256--1257
 
  []
 
-<../Figures/alignments_par2.png, id=2056, 339.36787pt x 306.60547pt>
+<../Figures/alignments_par2.png, id=2070, 339.36787pt x 306.60547pt>
 File: ../Figures/alignments_par2.png Graphic file (type png)
 
 <use ../Figures/alignments_par2.png>
-Package pdftex.def Info: ../Figures/alignments_par2.png used on input line 1257
+Package pdftex.def Info: ../Figures/alignments_par2.png used on input line 1259
 .
 (pdftex.def)             Requested size: 339.36703pt x 306.6047pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1270
-
- []
-
-[129] [130 <../Figures/alignments_other_rings.png (PNG copy)>] [131 <../Figures
-/alignments_par2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1271--1272
 
  []
 
-
+[131] [132 <../Figures/alignments_other_rings.png (PNG copy)>] [133 <../Figures
+/alignments_par2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
 
  []
 
-[132] <../Figures/sec_mals_v2.png, id=2075, 370.80533pt x 184.10782pt>
-File: ../Figures/sec_mals_v2.png Graphic file (type png)
 
-<use ../Figures/sec_mals_v2.png>
-Package pdftex.def Info: ../Figures/sec_mals_v2.png used on input line 1276.
-(pdftex.def)             Requested size: 370.80441pt x 184.10736pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
+Underfull \hbox (badness 10000) in paragraph at lines 1275--1276
 
  []
 
-[133 <../Figures/sec_mals_v2.png (PNG copy)>]
+[134] <../Figures/sec_mals_v2.png, id=2090, 370.80533pt x 184.10782pt>
+File: ../Figures/sec_mals_v2.png Graphic file (type png)
+
+<use ../Figures/sec_mals_v2.png>
+Package pdftex.def Info: ../Figures/sec_mals_v2.png used on input line 1278.
+(pdftex.def)             Requested size: 370.80441pt x 184.10736pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
 
  []
 
-<../Figures/ring_alphafold.png, id=2087, 465.29836pt x 409.46977pt>
+[135 <../Figures/sec_mals_v2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
+
+ []
+
+<../Figures/ring_alphafold.png, id=2101, 465.29836pt x 409.46977pt>
 File: ../Figures/ring_alphafold.png Graphic file (type png)
 
 <use ../Figures/ring_alphafold.png>
-Package pdftex.def Info: ../Figures/ring_alphafold.png used on input line 1294.
+Package pdftex.def Info: ../Figures/ring_alphafold.png used on input line 1296.
 
 (pdftex.def)             Requested size: 418.76465pt x 368.51938pt.
 
-Overfull \hbox (9.15921pt too wide) in paragraph at lines 1294--1301
+Overfull \hbox (9.15921pt too wide) in paragraph at lines 1296--1303
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1305--1306
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1308
 
  []
 
-<../Figures/ring_alphafold_species.png, id=2089, 419.82848pt x 418.98532pt>
+<../Figures/ring_alphafold_species.png, id=2103, 419.82848pt x 418.98532pt>
 File: ../Figures/ring_alphafold_species.png Graphic file (type png)
 
 <use ../Figures/ring_alphafold_species.png>
 Package pdftex.def Info: ../Figures/ring_alphafold_species.png used on input li
-ne 1308.
-(pdftex.def)             Requested size: 377.84213pt x 377.0833pt.
+ne 1310.
+(pdftex.def)             Requested size: 419.82745pt x 418.98428pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1316--1317
+Overfull \hbox (10.22202pt too wide) in paragraph at lines 1310--1314
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
 
  []
 
-[134] [135 <../Figures/ring_alphafold.png (PNG copy)>] [136 <../Figures/ring_al
+[136] [137 <../Figures/ring_alphafold.png (PNG copy)>] [138 <../Figures/ring_al
 phafold_species.png (PNG copy)>]
-<../Figures/l109r_sec_mals_v2.png, id=2111, 370.38374pt x 323.7696pt>
+<../Figures/l109r_sec_mals_v2.png, id=2124, 370.38374pt x 323.7696pt>
 File: ../Figures/l109r_sec_mals_v2.png Graphic file (type png)
 
 <use ../Figures/l109r_sec_mals_v2.png>
 Package pdftex.def Info: ../Figures/l109r_sec_mals_v2.png used on input line 13
-19.
+21.
 (pdftex.def)             Requested size: 370.38283pt x 323.76881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
+Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
 
  []
 
-[137 <../Figures/l109r_sec_mals_v2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1333--1334
-
- []
-
-
+[139 <../Figures/l109r_sec_mals_v2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1335--1336
 
  []
 
-<../Figures/tomm20_schematic.png, id=2120, 385.07864pt x 169.77428pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
+
+ []
+
+<../Figures/tomm20_schematic.png, id=2134, 385.07864pt x 169.77428pt>
 File: ../Figures/tomm20_schematic.png Graphic file (type png)
 
 <use ../Figures/tomm20_schematic.png>
-Package pdftex.def Info: ../Figures/tomm20_schematic.png used on input line 133
-8.
-(pdftex.def)             Requested size: 365.82263pt x 161.28464pt.
- [138]
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
+Package pdftex.def Info: ../Figures/tomm20_schematic.png used on input line 134
+0.
+(pdftex.def)             Requested size: 385.0777pt x 169.77385pt.
+ [140]
+Underfull \hbox (badness 10000) in paragraph at lines 1347--1348
 
  []
 
-<../Figures/tomm20_merge.png, id=2128, 400.91783pt x 223.67564pt>
+<../Figures/tomm20_merge.png, id=2142, 400.91783pt x 223.67564pt>
 File: ../Figures/tomm20_merge.png Graphic file (type png)
 
 <use ../Figures/tomm20_merge.png>
-Package pdftex.def Info: ../Figures/tomm20_merge.png used on input line 1348.
+Package pdftex.def Info: ../Figures/tomm20_merge.png used on input line 1350.
 (pdftex.def)             Requested size: 380.86978pt x 212.49065pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
 
  []
 
-[139 <../Figures/tomm20_schematic.png (PNG copy)>]
-<../Figures/tomm20_assay.png, id=2137, 289.14023pt x 144.60022pt>
+[141 <../Figures/tomm20_schematic.png (PNG copy)>]
+<../Figures/tomm20_assay.png, id=2150, 289.14023pt x 144.60022pt>
 File: ../Figures/tomm20_assay.png Graphic file (type png)
 
 <use ../Figures/tomm20_assay.png>
-Package pdftex.def Info: ../Figures/tomm20_assay.png used on input line 1360.
+Package pdftex.def Info: ../Figures/tomm20_assay.png used on input line 1362.
 (pdftex.def)             Requested size: 289.13951pt x 144.59985pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
+Underfull \hbox (badness 10000) in paragraph at lines 1373--1374
 
  []
 
-[140 <../Figures/tomm20_merge.png (PNG copy)>]
-<../Figures/ring_fragment_in_vivo.png, id=2144, 326.05815pt x 175.1343pt>
+[142 <../Figures/tomm20_merge.png (PNG copy)>]
+<../Figures/ring_fragment_in_vivo.png, id=2158, 326.05815pt x 175.1343pt>
 File: ../Figures/ring_fragment_in_vivo.png Graphic file (type png)
 
 <use ../Figures/ring_fragment_in_vivo.png>
 Package pdftex.def Info: ../Figures/ring_fragment_in_vivo.png used on input lin
-e 1374.
+e 1376.
 (pdftex.def)             Requested size: 326.05734pt x 175.13387pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1386
 
  []
 
-<../Figures/ph_ring_v2.png, id=2147, 394.23285pt x 410.4936pt>
+<../Figures/ph_ring_v2.png, id=2161, 394.23285pt x 410.4936pt>
 File: ../Figures/ph_ring_v2.png Graphic file (type png)
 
 <use ../Figures/ph_ring_v2.png>
-Package pdftex.def Info: ../Figures/ph_ring_v2.png used on input line 1386.
+Package pdftex.def Info: ../Figures/ph_ring_v2.png used on input line 1388.
 (pdftex.def)             Requested size: 394.23187pt x 410.4926pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1398--1399
+Underfull \hbox (badness 10000) in paragraph at lines 1400--1401
 
  []
 
-[141 <../Figures/tomm20_assay.png (PNG copy)>]
-<../Figures/ph_ring_rnai_v2.png, id=2154, 377.79143pt x 292.33215pt>
+[143 <../Figures/tomm20_assay.png (PNG copy)>]
+<../Figures/ph_ring_rnai_v2.png, id=2167, 377.79143pt x 292.33215pt>
 File: ../Figures/ph_ring_rnai_v2.png Graphic file (type png)
 
 <use ../Figures/ph_ring_rnai_v2.png>
-Package pdftex.def Info: ../Figures/ph_ring_rnai_v2.png used on input line 1401
+Package pdftex.def Info: ../Figures/ph_ring_rnai_v2.png used on input line 1403
 .
 (pdftex.def)             Requested size: 377.7905pt x 292.33142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
+Overfull \hbox (10.66573pt too wide) in paragraph at lines 1415--1415
+|[]\OT1/cmr/bx/n/14.4 Mutation to the dimeri-sa-tion in-ter-face weak-ens mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
 
  []
 
-[142 <../Figures/ring_fragment_in_vivo.png (PNG copy)>] [143 <../Figures/ph_rin
-g_v2.png (PNG copy)>] [144 <../Figures/ph_ring_rnai_v2.png (PNG copy)>]
-<../Figures/l50_structure.png, id=2168, 194.82788pt x 162.8484pt>
+[144 <../Figures/ring_fragment_in_vivo.png (PNG copy)>] [145 <../Figures/ph_rin
+g_v2.png (PNG copy)>] [146 <../Figures/ph_ring_rnai_v2.png (PNG copy)>]
+<../Figures/l50_structure.png, id=2182, 194.82788pt x 162.8484pt>
 File: ../Figures/l50_structure.png Graphic file (type png)
 
 <use ../Figures/l50_structure.png>
-Package pdftex.def Info: ../Figures/l50_structure.png used on input line 1418.
+Package pdftex.def Info: ../Figures/l50_structure.png used on input line 1420.
 (pdftex.def)             Requested size: 155.8625pt x 130.2789pt.
 
-Underfull \hbox (badness 1052) in paragraph at lines 1421--1421
+Underfull \hbox (badness 1052) in paragraph at lines 1423--1423
 [][]\OT1/cmr/bx/n/10 : |Po-si-tion of the
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 1421--1421
+Underfull \hbox (badness 1596) in paragraph at lines 1423--1423
 \OT1/cmr/bx/n/10 main. \OT1/cmr/m/n/10 L50 site high-lighted in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1423--1424
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
 
  []
 
 
-<../Figures/dimer_interface_mutants_in_vivo_v2.png, id=2173, 437.29373pt x 447.
+<../Figures/dimer_interface_mutants_in_vivo_v2.png, id=2187, 437.29373pt x 447.
 23085pt>
 File: ../Figures/dimer_interface_mutants_in_vivo_v2.png Graphic file (type png)
 
  <use ../Figures/dimer_interface_mutants_in_vivo_v2.png>
 Package pdftex.def Info: ../Figures/dimer_interface_mutants_in_vivo_v2.png used
- on input line 1426.
+ on input line 1428.
 (pdftex.def)             Requested size: 393.56071pt x 402.50404pt.
 
 Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 1454--1455
+Underfull \hbox (badness 10000) in paragraph at lines 1456--1457
 
  []
 
-[145 <../Figures/l50_structure.png (PNG copy)>] [146 <../Figures/dimer_interfac
+[147 <../Figures/l50_structure.png (PNG copy)>] [148 <../Figures/dimer_interfac
 e_mutants_in_vivo_v2.png (PNG copy)>]
-<../Figures/ring_lines_lethality_sterility.png, id=2184, 369.66106pt x 189.1065
+<../Figures/ring_lines_lethality_sterility.png, id=2197, 369.66106pt x 189.1065
 pt>
 File: ../Figures/ring_lines_lethality_sterility.png Graphic file (type png)
  <use ../Figures/ring_lines_lethality_sterility.png>
 Package pdftex.def Info: ../Figures/ring_lines_lethality_sterility.png used on 
-input line 1457.
+input line 1459.
 (pdftex.def)             Requested size: 369.66016pt x 189.10603pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1469--1470
-
- []
-
-[147 <../Figures/ring_lines_lethality_sterility.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1471--1472
 
  []
 
-[148]
+[149 <../Figures/ring_lines_lethality_sterility.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1473--1474
 
  []
 
-
+[150]
 Underfull \hbox (badness 10000) in paragraph at lines 1475--1476
 
  []
 
-[149]
+
+Underfull \hbox (badness 10000) in paragraph at lines 1477--1478
+
+ []
+
+[151]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1482--1484
-
- []
-
-[150
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1488--1489
-
- []
-
-[151
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1506--1507
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1508--1509
+Underfull \hbox (badness 10000) in paragraph at lines 1484--1486
 
  []
 
@@ -2986,137 +2990,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 1508--1509
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1522--1523
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1491
 
  []
 
-<../Figures/gibbs_profile.png, id=2227, 216.81pt x 216.81pt>
+[153
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1508--1509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1511
+
+ []
+
+[154
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1525
+
+ []
+
+<../Figures/gibbs_profile.png, id=2240, 216.81pt x 216.81pt>
 File: ../Figures/gibbs_profile.png Graphic file (type png)
 
 <use ../Figures/gibbs_profile.png>
-Package pdftex.def Info: ../Figures/gibbs_profile.png used on input line 1525.
+Package pdftex.def Info: ../Figures/gibbs_profile.png used on input line 1527.
 (pdftex.def)             Requested size: 195.12718pt x 195.12718pt.
- [153
+ [155
 
 
  <../Figures/gibbs_profile.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1544--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1546--1547
 
  []
 
-[154]
-Underfull \hbox (badness 10000) in paragraph at lines 1573--1574
+[156]
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1576
 
  []
 
 
-<../Figures/thermodynamic_simple_example2.png, id=2248, 344.12566pt x 91.3011pt
+<../Figures/thermodynamic_simple_example2.png, id=2261, 344.12566pt x 91.3011pt
 >
 File: ../Figures/thermodynamic_simple_example2.png Graphic file (type png)
  <use ../Figures/thermodynamic_simple_example2.png>
 Package pdftex.def Info: ../Figures/thermodynamic_simple_example2.png used on i
-nput line 1576.
+nput line 1578.
 (pdftex.def)             Requested size: 309.71022pt x 82.17023pt.
- [155 <../Figures/thermodynamic_simple_example2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
+ [157 <../Figures/thermodynamic_simple_example2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1590--1591
 
  []
 
 
-<../Figures/thermodynamic_simple_example.png, id=2261, 344.12566pt x 106.89937p
+<../Figures/thermodynamic_simple_example.png, id=2276, 344.12566pt x 106.89937p
 t>
 File: ../Figures/thermodynamic_simple_example.png Graphic file (type png)
  <use ../Figures/thermodynamic_simple_example.png>
 Package pdftex.def Info: ../Figures/thermodynamic_simple_example.png used on in
-put line 1591.
+put line 1593.
 (pdftex.def)             Requested size: 309.71022pt x 96.20853pt.
- [156 <../Figures/thermodynamic_simple_example.png (PNG copy)>]
-Overfull \hbox (7.58017pt too wide) in paragraph at lines 1601--1601
+ [158 <../Figures/thermodynamic_simple_example.png (PNG copy)>]
+Overfull \hbox (7.58017pt too wide) in paragraph at lines 1603--1603
 |[]\OT1/cmr/bx/n/17.28 A ther-mo-dy-namic model of dimeri-sa-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1604--1605
+Underfull \hbox (badness 10000) in paragraph at lines 1606--1607
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
+Underfull \hbox (badness 10000) in paragraph at lines 1617--1618
 
  []
 
-[157
+[159
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1625
 
  []
 
 
-<../Figures/thermodynamic_membrane_binding_schematic.png, id=2274, 164.59492pt 
+<../Figures/thermodynamic_membrane_binding_schematic.png, id=2287, 164.59492pt 
 x 144.41956pt>
 File: ../Figures/thermodynamic_membrane_binding_schematic.png Graphic file (typ
 e png)
  <use ../Figures/thermodynamic_membrane_binding_schematic.png>
 Package pdftex.def Info: ../Figures/thermodynamic_membrane_binding_schematic.pn
-g used on input line 1625.
+g used on input line 1627.
 (pdftex.def)             Requested size: 164.59451pt x 144.41919pt.
 
-[158 <../Figures/thermodynamic_membrane_binding_schematic.png (PNG copy)>]
-[159]
-Underfull \hbox (badness 10000) in paragraph at lines 1670--1671
+[160 <../Figures/thermodynamic_membrane_binding_schematic.png (PNG copy)>]
+[161]
+Underfull \hbox (badness 10000) in paragraph at lines 1672--1673
 
  []
 
 
-<../Figures/thermodynamic_simple_dimer.png, id=2294, 395.5578pt x 205.12634pt>
+<../Figures/thermodynamic_simple_dimer.png, id=2307, 395.5578pt x 205.12634pt>
 File: ../Figures/thermodynamic_simple_dimer.png Graphic file (type png)
 
 <use ../Figures/thermodynamic_simple_dimer.png>
 Package pdftex.def Info: ../Figures/thermodynamic_simple_dimer.png used on inpu
-t line 1673.
+t line 1675.
 (pdftex.def)             Requested size: 395.55682pt x 205.12584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1684--1685
+Underfull \hbox (badness 10000) in paragraph at lines 1686--1687
 
  []
 
-[160 <../Figures/thermodynamic_simple_dimer.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1706--1707
-
- []
-
-[161]
+[162 <../Figures/thermodynamic_simple_dimer.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1708--1709
 
  []
 
+[163]
+Underfull \hbox (badness 10000) in paragraph at lines 1710--1711
 
-<../Figures/thermodynamic_model_species.png, id=2315, 489.5088pt x 286.36987pt>
+ []
+
+
+<../Figures/thermodynamic_model_species.png, id=2329, 489.5088pt x 286.36987pt>
 File: ../Figures/thermodynamic_model_species.png Graphic file (type png)
 <use ../Figures/thermodynamic_model_species.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_species.png used on inp
-ut line 1711.
+ut line 1713.
 (pdftex.def)             Requested size: 440.55385pt x 257.7305pt.
 
-Overfull \hbox (30.94841pt too wide) in paragraph at lines 1711--1715
+Overfull \hbox (30.94841pt too wide) in paragraph at lines 1713--1717
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1719--1720
+Underfull \hbox (badness 10000) in paragraph at lines 1721--1722
 
  []
 
-[162 <../Figures/thermodynamic_model_species.png (PNG copy)>]
-Overfull \hbox (1.87572pt too wide) in paragraph at lines 1722--1722
+[164 <../Figures/thermodynamic_model_species.png (PNG copy)>]
+Overfull \hbox (1.87572pt too wide) in paragraph at lines 1724--1724
 |[]\OT1/cmr/bx/n/14.4 Intermediate dimeri-sa-tion can drive non-lin-ear mem-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1725
-
  []
 
 
@@ -3125,46 +3145,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 1726--1727
  []
 
 
-<../Figures/thermodynamic_model_feedback.png, id=2323, 374.3586pt x 180.25342pt
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+
+ []
+
+
+<../Figures/thermodynamic_model_feedback.png, id=2337, 374.3586pt x 180.25342pt
 >
 File: ../Figures/thermodynamic_model_feedback.png Graphic file (type png)
  <use ../Figures/thermodynamic_model_feedback.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_feedback.png used on in
-put line 1729.
+put line 1731.
 (pdftex.def)             Requested size: 374.35768pt x 180.25296pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1738--1739
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
 
  []
 
-[163]
-<../Figures/thermodynamic_model_dimer_fractions.png, id=2331, 454.51808pt x 342
+[165]
+<../Figures/thermodynamic_model_dimer_fractions.png, id=2344, 454.51808pt x 342
 .49957pt>
 File: ../Figures/thermodynamic_model_dimer_fractions.png Graphic file (type png
 )
  <use ../Figures/thermodynamic_model_dimer_fractions.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_dimer_fractions.png use
-d on input line 1741.
+d on input line 1743.
 (pdftex.def)             Requested size: 409.06248pt x 308.24677pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1760--1761
-
- []
-
-[164 <../Figures/thermodynamic_model_feedback.png (PNG copy)>] [165 <../Figures
-/thermodynamic_model_dimer_fractions.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1762--1763
 
  []
 
-[166]
-Overfull \hbox (11.7564pt too wide) in paragraph at lines 1765--1765
-|[]\OT1/cmr/bx/n/17.28 Quantitative as-sess-ment of PAR-2 mem-brane
+[166 <../Figures/thermodynamic_model_feedback.png (PNG copy)>] [167 <../Figures
+/thermodynamic_model_dimer_fractions.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1765
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1767--1768
-
+[168]
+Overfull \hbox (11.7564pt too wide) in paragraph at lines 1767--1767
+|[]\OT1/cmr/bx/n/17.28 Quantitative as-sess-ment of PAR-2 mem-brane
  []
 
 
@@ -3178,42 +3198,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 1771--1772
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1778--1779
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1774
 
  []
 
-[167
+
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
+
+ []
+
+[169
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
+Underfull \hbox (badness 10000) in paragraph at lines 1782--1783
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1782.
+               Default added (so using `tbp') on input line 1784.
 
-[168]
-<../Figures/thermodynamic_wt_vs_l109r_model_fit.png, id=2363, 485.11238pt x 490
+[170]
+<../Figures/thermodynamic_wt_vs_l109r_model_fit.png, id=2377, 485.11238pt x 490
 .41217pt>
 File: ../Figures/thermodynamic_wt_vs_l109r_model_fit.png Graphic file (type png
 )
  <use ../Figures/thermodynamic_wt_vs_l109r_model_fit.png>
 Package pdftex.def Info: ../Figures/thermodynamic_wt_vs_l109r_model_fit.png use
-d on input line 1805.
+d on input line 1807.
 (pdftex.def)             Requested size: 412.34746pt x 416.85233pt.
 
-Overfull \hbox (2.74202pt too wide) in paragraph at lines 1805--1810
+Overfull \hbox (2.74202pt too wide) in paragraph at lines 1807--1812
  [][] 
  []
 
-[169] [170 <../Figures/thermodynamic_wt_vs_l109r_model_fit.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1818--1819
-
- []
-
-
+[171] [172 <../Figures/thermodynamic_wt_vs_l109r_model_fit.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1820--1821
 
  []
@@ -3223,204 +3243,204 @@ Underfull \hbox (badness 10000) in paragraph at lines 1822--1823
 
  []
 
-[171
 
-]
-<../Figures/thermodynamic_model_temperature.png, id=2380, 227.28915pt x 226.807
-34pt>
-File: ../Figures/thermodynamic_model_temperature.png Graphic file (type png)
- <use ../Figures/thermodynamic_model_temperature.png>
-Package pdftex.def Info: ../Figures/thermodynamic_model_temperature.png used on
- input line 1825.
-(pdftex.def)             Requested size: 204.55833pt x 204.12471pt.
-
-Underfull \hbox (badness 1014) in paragraph at lines 1832--1832
-[][]\OT1/cmr/bx/n/10 : |Mod-elling the ef-fects of
- []
-
-[172 <../Figures/thermodynamic_model_temperature.png (PNG copy)>]
-Chapter 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1842--1843
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1844--1845
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
 
  []
 
 [173
 
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1850--1851
+<../Figures/thermodynamic_model_temperature.png, id=2394, 227.28915pt x 226.807
+34pt>
+File: ../Figures/thermodynamic_model_temperature.png Graphic file (type png)
+ <use ../Figures/thermodynamic_model_temperature.png>
+Package pdftex.def Info: ../Figures/thermodynamic_model_temperature.png used on
+ input line 1827.
+(pdftex.def)             Requested size: 204.55833pt x 204.12471pt.
+
+Underfull \hbox (badness 1014) in paragraph at lines 1834--1834
+[][]\OT1/cmr/bx/n/10 : |Mod-elling the ef-fects of
+ []
+
+[174 <../Figures/thermodynamic_model_temperature.png (PNG copy)>]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1844--1845
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1852--1853
+Underfull \hbox (badness 10000) in paragraph at lines 1846--1847
 
- []
-
-[174
-
-
-]
-Overfull \hbox (11.42033pt too wide) in paragraph at lines 1856--1856
-|[]\OT1/cmr/bx/n/17.28 Describing mem-brane bind-ing dy-nam-ics with
  []
 
 [175
 
 
-] [176]
-Underfull \hbox (badness 10000) in paragraph at lines 1903--1904
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1852--1853
 
  []
 
-<../Figures/thermodynamic_model_koff.png, id=2419, 377.12895pt x 181.51814pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1854--1855
+
+ []
+
+[176
+
+
+]
+Overfull \hbox (11.42033pt too wide) in paragraph at lines 1858--1858
+|[]\OT1/cmr/bx/n/17.28 Describing mem-brane bind-ing dy-nam-ics with
+ []
+
+[177
+
+
+] [178]
+Underfull \hbox (badness 10000) in paragraph at lines 1905--1906
+
+ []
+
+<../Figures/thermodynamic_model_koff.png, id=2432, 377.12895pt x 181.51814pt>
 File: ../Figures/thermodynamic_model_koff.png Graphic file (type png)
 
 <use ../Figures/thermodynamic_model_koff.png>
 Package pdftex.def Info: ../Figures/thermodynamic_model_koff.png used on input 
-line 1908.
+line 1910.
 (pdftex.def)             Requested size: 377.12802pt x 181.5177pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1918
+Underfull \hbox (badness 10000) in paragraph at lines 1919--1920
 
  []
 
-[177] [178 <../Figures/thermodynamic_model_koff.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1924--1925
+[179] [180 <../Figures/thermodynamic_model_koff.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1926--1927
 
  []
 
-[179
+[181
 
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1941.
+               Default added (so using `tbp') on input line 1943.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1954--1955
+Underfull \hbox (badness 10000) in paragraph at lines 1956--1957
 
  []
 
-[180]
-<../Figures/goehring_model_kant_koff_triggering.png, id=2461, 340.69283pt x 337
+[182]
+<../Figures/goehring_model_kant_koff_triggering.png, id=2475, 340.69283pt x 337
 .0191pt>
 File: ../Figures/goehring_model_kant_koff_triggering.png Graphic file (type png
 )
  <use ../Figures/goehring_model_kant_koff_triggering.png>
 Package pdftex.def Info: ../Figures/goehring_model_kant_koff_triggering.png use
-d on input line 1959.
+d on input line 1961.
 (pdftex.def)             Requested size: 340.69199pt x 337.01828pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
 
  []
 
-[181] [182 <../Figures/goehring_model_kant_koff_triggering.png (PNG copy)>]
-<../Figures/goehring_model_kant_koff_asi.png, id=2474, 407.48235pt x 191.7564pt
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1981
+
+ []
+
+[183] [184 <../Figures/goehring_model_kant_koff_triggering.png (PNG copy)>]
+<../Figures/goehring_model_kant_koff_asi.png, id=2487, 407.48235pt x 191.7564pt
 >
 File: ../Figures/goehring_model_kant_koff_asi.png Graphic file (type png)
  <use ../Figures/goehring_model_kant_koff_asi.png>
 Package pdftex.def Info: ../Figures/goehring_model_kant_koff_asi.png used on in
-put line 1981.
+put line 1983.
 (pdftex.def)             Requested size: 407.48134pt x 191.7559pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1992--1993
-
- []
-
-[183 <../Figures/goehring_model_kant_koff_asi.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 1994--1995
 
  []
 
+[185 <../Figures/goehring_model_kant_koff_asi.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
 
-<../Figures/goehring_model_kant_koff_dosage_imbalance.png, id=2482, 355.3275pt 
+ []
+
+
+<../Figures/goehring_model_kant_koff_dosage_imbalance.png, id=2496, 355.3275pt 
 x 348.40163pt>
 File: ../Figures/goehring_model_kant_koff_dosage_imbalance.png Graphic file (ty
 pe png)
  <use ../Figures/goehring_model_kant_koff_dosage_imbalance.png>
 Package pdftex.def Info: ../Figures/goehring_model_kant_koff_dosage_imbalance.p
-ng used on input line 1997.
+ng used on input line 1999.
 (pdftex.def)             Requested size: 355.32661pt x 348.40077pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2007--2008
+Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
 
  []
 
-[184] [185 <../Figures/goehring_model_kant_koff_dosage_imbalance.png (PNG copy)
->] [186]
-Underfull \hbox (badness 10000) in paragraph at lines 2017--2018
+[186] [187 <../Figures/goehring_model_kant_koff_dosage_imbalance.png (PNG copy)
+>] [188]
+Underfull \hbox (badness 10000) in paragraph at lines 2019--2020
 
  []
 
-[187
+[189
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2041--2042
+Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
 
  []
 
-<../Figures/epsilon_vs_koff_v2.png, id=2506, 265.2309pt x 180.49432pt>
+<../Figures/epsilon_vs_koff_v2.png, id=2519, 265.2309pt x 180.49432pt>
 File: ../Figures/epsilon_vs_koff_v2.png Graphic file (type png)
 
 <use ../Figures/epsilon_vs_koff_v2.png>
 Package pdftex.def Info: ../Figures/epsilon_vs_koff_v2.png used on input line 2
-044.
+046.
 (pdftex.def)             Requested size: 265.23024pt x 180.49387pt.
- [188 <../Figures/epsilon_vs_koff_v2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 2061--2062
+ [190 <../Figures/epsilon_vs_koff_v2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2063--2064
 
  []
 
-[189]
-Underfull \hbox (badness 10000) in paragraph at lines 2078--2079
+[191]
+Underfull \hbox (badness 10000) in paragraph at lines 2080--2081
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2080.
+               Default added (so using `tbp') on input line 2082.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2097
+Underfull \hbox (badness 10000) in paragraph at lines 2098--2099
 
  []
 
-[190]
-<../Figures/model_antagonism_effective_exponent.png, id=2528, 378.03232pt x 362
+[192]
+<../Figures/model_antagonism_effective_exponent.png, id=2541, 378.03232pt x 362
 .97607pt>
 File: ../Figures/model_antagonism_effective_exponent.png Graphic file (type png
 )
  <use ../Figures/model_antagonism_effective_exponent.png>
 Package pdftex.def Info: ../Figures/model_antagonism_effective_exponent.png use
-d on input line 2099.
+d on input line 2101.
 (pdftex.def)             Requested size: 378.03139pt x 362.97517pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2108--2109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2120--2121
+Underfull \hbox (badness 10000) in paragraph at lines 2110--2111
 
  []
 
@@ -3429,47 +3449,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 2122--2123
 
  []
 
-[191] [192 <../Figures/model_antagonism_effective_exponent.png (PNG copy)>]
-<../Figures/dimer_model_triggering.png, id=2541, 308.71335pt x 333.6465pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2125
+
+ []
+
+[193] [194 <../Figures/model_antagonism_effective_exponent.png (PNG copy)>]
+<../Figures/dimer_model_triggering.png, id=2555, 308.71335pt x 333.6465pt>
 File: ../Figures/dimer_model_triggering.png Graphic file (type png)
 
 <use ../Figures/dimer_model_triggering.png>
 Package pdftex.def Info: ../Figures/dimer_model_triggering.png used on input li
-ne 2125.
+ne 2127.
 (pdftex.def)             Requested size: 308.71259pt x 333.64568pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
-
- []
-
-[193 <../Figures/dimer_model_triggering.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 2135--2136
 
  []
 
-
-<../Figures/dimer_mutual_antagonism_model_asi.png, id=2550, 395.73848pt x 191.9
-3707pt>
-File: ../Figures/dimer_mutual_antagonism_model_asi.png Graphic file (type png)
- <use ../Figures/dimer_mutual_antagonism_model_asi.png>
-Package pdftex.def Info: ../Figures/dimer_mutual_antagonism_model_asi.png used 
-on input line 2138.
-(pdftex.def)             Requested size: 395.73752pt x 191.9366pt.
-
-<../Figures/dimer_model_more_paramspace.png, id=2551, 412.84238pt x 542.08522pt
->
-File: ../Figures/dimer_model_more_paramspace.png Graphic file (type png)
- <use ../Figures/dimer_model_more_paramspace.png>
-Package pdftex.def Info: ../Figures/dimer_model_more_paramspace.png used on inp
-ut line 2148.
-(pdftex.def)             Requested size: 371.55469pt x 487.8722pt.
- [194 <../Figures/dimer_mutual_antagonism_model_asi.png (PNG copy)>] [195 <../F
-igures/dimer_model_more_paramspace.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 2159--2160
+[195 <../Figures/dimer_model_triggering.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2138
 
  []
 
 
+<../Figures/dimer_mutual_antagonism_model_asi.png, id=2563, 395.73848pt x 191.9
+3707pt>
+File: ../Figures/dimer_mutual_antagonism_model_asi.png Graphic file (type png)
+ <use ../Figures/dimer_mutual_antagonism_model_asi.png>
+Package pdftex.def Info: ../Figures/dimer_mutual_antagonism_model_asi.png used 
+on input line 2140.
+(pdftex.def)             Requested size: 395.73752pt x 191.9366pt.
+
+<../Figures/dimer_model_more_paramspace.png, id=2564, 412.84238pt x 542.08522pt
+>
+File: ../Figures/dimer_model_more_paramspace.png Graphic file (type png)
+ <use ../Figures/dimer_model_more_paramspace.png>
+Package pdftex.def Info: ../Figures/dimer_model_more_paramspace.png used on inp
+ut line 2150.
+(pdftex.def)             Requested size: 371.55469pt x 487.8722pt.
+ [196 <../Figures/dimer_mutual_antagonism_model_asi.png (PNG copy)>] [197 <../F
+igures/dimer_model_more_paramspace.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 2161--2162
 
  []
@@ -3479,30 +3499,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 2163--2164
 
  []
 
-[196
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 2165--2166
 
  []
 
-[197]
+[198
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 2167--2168
 
  []
 
-[198]
-Chapter 7.
-[199
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2184--2185
+[199]
+Underfull \hbox (badness 10000) in paragraph at lines 2169--2170
 
  []
 
+[200]
+Chapter 7.
+[201
 
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 2186--2187
 
  []
@@ -3512,17 +3532,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2188--2189
 
  []
 
-[200
+
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2191
+
+ []
+
+[202
 
 
 ]
-Overfull \hbox (0.47836pt too wide) in paragraph at lines 2191--2191
+Overfull \hbox (0.47836pt too wide) in paragraph at lines 2193--2193
 |[]\OT1/cmr/bx/n/17.28 Strengthening PAR-2 dimeri-sa-tion shifts lo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2193--2194
-
  []
 
 
@@ -3530,109 +3550,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 2195--2196
 
  []
 
-<../Figures/gcn4_ring_structure.png, id=2585, 355.02638pt x 153.03172pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2197--2198
+
+ []
+
+<../Figures/gcn4_ring_structure.png, id=2598, 355.02638pt x 153.03172pt>
 File: ../Figures/gcn4_ring_structure.png Graphic file (type png)
 
 <use ../Figures/gcn4_ring_structure.png>
 Package pdftex.def Info: ../Figures/gcn4_ring_structure.png used on input line 
-2200.
+2202.
 (pdftex.def)             Requested size: 337.27315pt x 145.3793pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2208--2209
+Underfull \hbox (badness 10000) in paragraph at lines 2210--2211
 
  []
 
-[201
+[203
 
  <../Figures/gcn4_ring_structure.png (PNG copy)>]
-<../Figures/gcn4.png, id=2598, 392.54655pt x 295.70474pt>
+<../Figures/gcn4.png, id=2612, 392.54655pt x 295.70474pt>
 File: ../Figures/gcn4.png Graphic file (type png)
 
 <use ../Figures/gcn4.png>
-Package pdftex.def Info: ../Figures/gcn4.png used on input line 2211.
+Package pdftex.def Info: ../Figures/gcn4.png used on input line 2213.
 (pdftex.def)             Requested size: 392.5456pt x 295.70401pt.
 
-<../Figures/gcn4_quantification_v2.png, id=2599, 400.67693pt x 385.07864pt>
+<../Figures/gcn4_quantification_v2.png, id=2613, 400.67693pt x 385.07864pt>
 File: ../Figures/gcn4_quantification_v2.png Graphic file (type png)
 
 <use ../Figures/gcn4_quantification_v2.png>
 Package pdftex.def Info: ../Figures/gcn4_quantification_v2.png used on input li
-ne 2221.
+ne 2223.
 (pdftex.def)             Requested size: 400.67595pt x 385.0777pt.
 
-<../Figures/rabs.png, id=2600, 151.22498pt x 146.88878pt>
+<../Figures/rabs.png, id=2614, 151.22498pt x 146.88878pt>
 File: ../Figures/rabs.png Graphic file (type png)
 
 <use ../Figures/rabs.png>
-Package pdftex.def Info: ../Figures/rabs.png used on input line 2233.
+Package pdftex.def Info: ../Figures/rabs.png used on input line 2235.
 (pdftex.def)             Requested size: 151.2246pt x 146.88841pt.
 
-Underfull \hbox (badness 3439) in paragraph at lines 2237--2237
+Underfull \hbox (badness 3439) in paragraph at lines 2239--2239
 [][]\OT1/cmr/bx/n/10 : |Lo-cal-i-sa-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2239--2240
+Underfull \hbox (badness 10000) in paragraph at lines 2241--2242
 
  []
 
-[202 <../Figures/gcn4.png (PNG copy)>] [203 <../Figures/gcn4_quantification_v2.
+[204 <../Figures/gcn4.png (PNG copy)>] [205 <../Figures/gcn4_quantification_v2.
 png (PNG copy)>]
-<../Figures/gcn4_alone.png, id=2612, 341.17462pt x 175.1343pt>
+<../Figures/gcn4_alone.png, id=2626, 341.17462pt x 175.1343pt>
 File: ../Figures/gcn4_alone.png Graphic file (type png)
 
 <use ../Figures/gcn4_alone.png>
-Package pdftex.def Info: ../Figures/gcn4_alone.png used on input line 2242.
-(pdftex.def)             Requested size: 341.17378pt x 175.13387pt.
+Package pdftex.def Info: ../Figures/gcn4_alone.png used on input line 2244.
+(pdftex.def)             Requested size: 375.29323pt x 192.64832pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2251--2252
+Underfull \hbox (badness 10000) in paragraph at lines 2253--2254
 
  []
 
-[204 <../Figures/rabs.png (PNG copy)> <../Figures/gcn4_alone.png (PNG copy)>]
-[205]
-Overfull \hbox (4.7523pt too wide) in paragraph at lines 2254--2254
+[206 <../Figures/rabs.png (PNG copy)> <../Figures/gcn4_alone.png (PNG copy)>]
+[207]
+Overfull \hbox (4.7523pt too wide) in paragraph at lines 2256--2256
 |[]\OT1/cmr/bx/n/17.28 Incorporating in-ter-nal mem-branes into ther-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2273--2274
+Underfull \hbox (badness 10000) in paragraph at lines 2275--2276
 
  []
 
-[206
+[208
 
 ]
-<../Figures/six_species_thermodynamic.png, id=2637, 442.17195pt x 147.4308pt>
+<../Figures/six_species_thermodynamic.png, id=2650, 442.17195pt x 147.4308pt>
 File: ../Figures/six_species_thermodynamic.png Graphic file (type png)
 
 <use ../Figures/six_species_thermodynamic.png>
 Package pdftex.def Info: ../Figures/six_species_thermodynamic.png used on input
- line 2276.
+ line 2278.
 (pdftex.def)             Requested size: 397.95107pt x 132.68648pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2284--2285
-
- []
-
-[207 <../Figures/six_species_thermodynamic.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 2286--2287
 
  []
 
-<../Figures/par_reconfigurations.png, id=2643, 958.58125pt x 253.94875pt>
+[209 <../Figures/six_species_thermodynamic.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2288--2289
+
+ []
+
+<../Figures/par_reconfigurations.png, id=2656, 958.58125pt x 253.94875pt>
 File: ../Figures/par_reconfigurations.png Graphic file (type png)
 
 <use ../Figures/par_reconfigurations.png>
 Package pdftex.def Info: ../Figures/par_reconfigurations.png used on input line
- 2289.
+ 2291.
 (pdftex.def)             Requested size: 383.4257pt x 101.5777pt.
- [208 <../Figures/par_reconfigurations.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2306--2307
-
- []
-
-
+ [210 <../Figures/par_reconfigurations.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2308--2309
 
  []
@@ -3642,36 +3662,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 2310--2311
 
  []
 
-[209
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 2312--2313
 
  []
 
+[211
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 2314--2315
 
  []
 
-<../Figures/three_surface_kinetic.png, id=2660, 423.984pt x 490.7133pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2316--2317
+
+ []
+
+<../Figures/three_surface_kinetic.png, id=2674, 423.984pt x 490.7133pt>
 File: ../Figures/three_surface_kinetic.png Graphic file (type png)
 
 <use ../Figures/three_surface_kinetic.png>
 Package pdftex.def Info: ../Figures/three_surface_kinetic.png used on input lin
-e 2318.
+e 2320.
 (pdftex.def)             Requested size: 402.78249pt x 466.17499pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2328--2329
+Underfull \hbox (badness 10000) in paragraph at lines 2330--2331
 
  []
 
-[210] [211 <../Figures/three_surface_kinetic.png (PNG copy)>] [212]
-Underfull \hbox (badness 10000) in paragraph at lines 2332--2333
-
- []
-
-
+[212] [213 <../Figures/three_surface_kinetic.png (PNG copy)>] [214]
 Underfull \hbox (badness 10000) in paragraph at lines 2334--2335
 
  []
@@ -3681,21 +3701,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 2336--2337
 
  []
 
-<../Figures/gcn4_par3mut_v2.png, id=2678, 401.21895pt x 333.28516pt>
-File: ../Figures/gcn4_par3mut_v2.png Graphic file (type png)
 
-<use ../Figures/gcn4_par3mut_v2.png>
-Package pdftex.def Info: ../Figures/gcn4_par3mut_v2.png used on input line 2340
-.
-(pdftex.def)             Requested size: 381.15582pt x 316.6191pt.
- [213
-
-] [214 <../Figures/gcn4_par3mut_v2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 2355--2356
+Underfull \hbox (badness 10000) in paragraph at lines 2338--2339
 
  []
 
+<../Figures/gcn4_par3mut_v2.png, id=2691, 401.21895pt x 333.28516pt>
+File: ../Figures/gcn4_par3mut_v2.png Graphic file (type png)
 
+<use ../Figures/gcn4_par3mut_v2.png>
+Package pdftex.def Info: ../Figures/gcn4_par3mut_v2.png used on input line 2342
+.
+(pdftex.def)             Requested size: 381.15582pt x 316.6191pt.
+ [215
+
+] [216 <../Figures/gcn4_par3mut_v2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 2357--2358
 
  []
@@ -3710,24 +3730,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 2361--2362
 
  []
 
-[215
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 2363--2364
 
  []
 
-Excluding 'comment' comment. [216]
-Chapter 8.
 [217
 
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2390--2391
+Underfull \hbox (badness 10000) in paragraph at lines 2365--2366
 
  []
 
+Excluding 'comment' comment. [218]
+Chapter 8.
+[219
 
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 2392--2393
 
  []
@@ -3737,16 +3757,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2394--2395
 
  []
 
-[218
 
-]
-Overfull \hbox (2.42427pt too wide) in paragraph at lines 2398--2398
-|[]\OT1/cmr/bx/n/17.28 A mech-a-nis-tic ba-sis for PAR-2 pos-i-tive feed-
+Underfull \hbox (badness 10000) in paragraph at lines 2396--2397
+
  []
 
+[220
 
-Underfull \hbox (badness 10000) in paragraph at lines 2400--2401
-
+]
+Overfull \hbox (2.42427pt too wide) in paragraph at lines 2400--2400
+|[]\OT1/cmr/bx/n/17.28 A mech-a-nis-tic ba-sis for PAR-2 pos-i-tive feed-
  []
 
 
@@ -3759,49 +3779,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 2404--2405
 
  []
 
-[219
 
-
-] [220]
-Underfull \hbox (badness 10000) in paragraph at lines 2409--2410
-
- []
-
-
-<../Figures/mutant_comparison_for_discussion.png, id=2716, 383.15144pt x 142.07
-077pt>
-File: ../Figures/mutant_comparison_for_discussion.png Graphic file (type png)
- <use ../Figures/mutant_comparison_for_discussion.png>
-Package pdftex.def Info: ../Figures/mutant_comparison_for_discussion.png used o
-n input line 2412.
-(pdftex.def)             Requested size: 383.1505pt x 142.0704pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2419--2420
+Underfull \hbox (badness 10000) in paragraph at lines 2406--2407
 
  []
 
 [221
 
- <../Figures/mutant_comparison_for_discussion.png (PNG copy)>]
+
+] [222]
+Underfull \hbox (badness 10000) in paragraph at lines 2411--2412
+
+ []
+
+
+<../Figures/mutant_comparison_for_discussion.png, id=2730, 383.15144pt x 142.07
+077pt>
+File: ../Figures/mutant_comparison_for_discussion.png Graphic file (type png)
+ <use ../Figures/mutant_comparison_for_discussion.png>
+Package pdftex.def Info: ../Figures/mutant_comparison_for_discussion.png used o
+n input line 2414.
+(pdftex.def)             Requested size: 383.1505pt x 142.0704pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 2421--2422
 
  []
 
-<../Figures/discussion_schematic_full.png, id=2725, 707.2824pt x 378.39368pt>
+[223
+
+ <../Figures/mutant_comparison_for_discussion.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2423--2424
+
+ []
+
+<../Figures/discussion_schematic_full.png, id=2739, 707.2824pt x 378.39368pt>
 File: ../Figures/discussion_schematic_full.png Graphic file (type png)
 
 <use ../Figures/discussion_schematic_full.png>
 Package pdftex.def Info: ../Figures/discussion_schematic_full.png used on input
- line 2424.
+ line 2426.
 (pdftex.def)             Requested size: 636.54826pt x 340.55115pt.
 
-Overfull \hbox (1.31306pt too wide) in paragraph at lines 2424--2427
+Overfull \hbox (1.31306pt too wide) in paragraph at lines 2426--2429
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2431--2432
-
  []
 
 
@@ -3814,29 +3834,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 2435--2436
 
  []
 
-[222] [223 <../Figures/discussion_schematic_full.png (PNG copy)>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2437--2438
 
  []
 
-[224]
-Underfull \hbox (badness 10000) in paragraph at lines 2442--2443
+[224] [225 <../Figures/discussion_schematic_full.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2439--2440
 
  []
 
-
+[226]
 Underfull \hbox (badness 10000) in paragraph at lines 2444--2445
 
  []
 
-[225
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2449--2450
+Underfull \hbox (badness 10000) in paragraph at lines 2446--2447
 
  []
 
+[227
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 2451--2452
 
  []
@@ -3846,14 +3866,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2453--2454
 
  []
 
-[226
 
-] [227]
-Underfull \hbox (badness 10000) in paragraph at lines 2457--2458
+Underfull \hbox (badness 10000) in paragraph at lines 2455--2456
 
  []
 
+[228
 
+] [229]
 Underfull \hbox (badness 10000) in paragraph at lines 2459--2460
 
  []
@@ -3863,72 +3883,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 2461--2462
 
  []
 
-[228
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 2463--2464
 
  []
 
+[230
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 2465--2466
 
  []
 
-[229] [230]
-Underfull \hbox (badness 10000) in paragraph at lines 2480--2481
+
+Underfull \hbox (badness 10000) in paragraph at lines 2467--2468
 
  []
 
-[231
+[231] [232]
+Underfull \hbox (badness 10000) in paragraph at lines 2482--2483
 
-
-]
-Chapter 9.
-[232
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2496--2497
-
- []
-
-
-Overfull \hbox (1.14581pt too wide) in paragraph at lines 2557--2557
-\OT1/cmr/m/n/8 PH::eGFP::LOV|  
- []
-
-
-Overfull \hbox (8.71814pt too wide) in paragraph at lines 2557--2557
-\OT1/cmr/m/n/8 55)::GBP::mKate2|  
- []
-
-
-Overfull \hbox (8.71814pt too wide) in paragraph at lines 2557--2557
-\OT1/cmr/m/n/8 55)::GBP::mKate2 
- []
-
-
-Overfull \hbox (8.71814pt too wide) in paragraph at lines 2557--2557
-\OT1/cmr/m/n/8 55)::GBP::mKate2 
  []
 
 [233
 
 
-] [234] [235] [236]
-Underfull \hbox (badness 10000) in paragraph at lines 2562--2563
+]
+Chapter 9.
+[234
 
- []
-
-[237
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2575--2576
+Underfull \hbox (badness 10000) in paragraph at lines 2498--2499
 
  []
 
 
+Overfull \hbox (1.14581pt too wide) in paragraph at lines 2559--2559
+\OT1/cmr/m/n/8 PH::eGFP::LOV|  
+ []
+
+
+Overfull \hbox (8.71814pt too wide) in paragraph at lines 2559--2559
+\OT1/cmr/m/n/8 55)::GBP::mKate2|  
+ []
+
+
+Overfull \hbox (8.71814pt too wide) in paragraph at lines 2559--2559
+\OT1/cmr/m/n/8 55)::GBP::mKate2 
+ []
+
+
+Overfull \hbox (8.71814pt too wide) in paragraph at lines 2559--2559
+\OT1/cmr/m/n/8 55)::GBP::mKate2 
+ []
+
+[235
+
+
+] [236] [237] [238]
+Underfull \hbox (badness 10000) in paragraph at lines 2564--2565
+
+ []
+
+[239
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 2577--2578
 
  []
@@ -3938,228 +3958,228 @@ Underfull \hbox (badness 10000) in paragraph at lines 2579--2580
 
  []
 
-[238
+
+Underfull \hbox (badness 10000) in paragraph at lines 2581--2582
+
+ []
+
+[240
 
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2581.
+               Default added (so using `tbp') on input line 2583.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2604--2605
-
- []
-
-[239]
 Underfull \hbox (badness 10000) in paragraph at lines 2606--2607
 
  []
 
-[240]
-Underfull \hbox (badness 10000) in paragraph at lines 2611--2612
+[241]
+Underfull \hbox (badness 10000) in paragraph at lines 2608--2609
 
  []
 
-
+[242]
 Underfull \hbox (badness 10000) in paragraph at lines 2613--2614
 
  []
 
-[241]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2615--2616
 
  []
 
-<../Figures/glh_v2.png, id=2868, 393.44992pt x 283.41885pt>
+[243]
+Underfull \hbox (badness 10000) in paragraph at lines 2617--2618
+
+ []
+
+<../Figures/glh_v2.png, id=2881, 393.44992pt x 283.41885pt>
 File: ../Figures/glh_v2.png Graphic file (type png)
 
 <use ../Figures/glh_v2.png>
-Package pdftex.def Info: ../Figures/glh_v2.png used on input line 2618.
+Package pdftex.def Info: ../Figures/glh_v2.png used on input line 2620.
 (pdftex.def)             Requested size: 393.44894pt x 283.41815pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2628--2629
+Underfull \hbox (badness 10000) in paragraph at lines 2630--2631
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2630.
+               Default added (so using `tbp') on input line 2632.
 
-[242] [243 <../Figures/glh_v2.png (PNG copy)>]
+[244] [245 <../Figures/glh_v2.png (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2645.
+               Default added (so using `tbp') on input line 2647.
 
-[244]
-Underfull \hbox (badness 10000) in paragraph at lines 2663--2664
+[246]
+Underfull \hbox (badness 10000) in paragraph at lines 2665--2666
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2665.
+               Default added (so using `tbp') on input line 2667.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/bx/n/10 Guides
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 2675--2675
+Underfull \hbox (badness 4303) in paragraph at lines 2677--2677
 []|\OT1/cmr/bx/n/10 Repair tem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/bx/n/10 Screening
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 NH0379,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 NH0383,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 TB0046,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 TB0044,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 TB0041,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 TB0036,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 NH0379,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 NH0383,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 TB0041,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
+Underfull \hbox (badness 10000) in paragraph at lines 2677--2677
 []|\OT1/cmr/m/n/10 TB0049,
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2680.
+               Default added (so using `tbp') on input line 2682.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2696.
+               Default added (so using `tbp') on input line 2698.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2711.
-
-[245
-
-] [246]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2734.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2744.
+               Default added (so using `tbp') on input line 2713.
 
 [247
 
+] [248]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2736.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2746.
+
+[249
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2759--2760
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2761--2762
 
  []
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2763.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2773.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2788--2789
+Underfull \hbox (badness 10000) in paragraph at lines 2763--2764
 
  []
 
-[248
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2765.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2775.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2790--2791
+
+ []
+
+[250
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2790.
+               Default added (so using `tbp') on input line 2792.
 
-[249] [250]
-Underfull \hbox (badness 10000) in paragraph at lines 2803--2804
+[251] [252]
+Underfull \hbox (badness 10000) in paragraph at lines 2805--2806
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2806.
+               Default added (so using `tbp') on input line 2808.
 
-[251
+[253
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2823--2824
+Underfull \hbox (badness 10000) in paragraph at lines 2825--2826
 
  []
 
-[252
+[254
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2831--2832
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2833--2834
 
  []
 
-[253
+
+Underfull \hbox (badness 10000) in paragraph at lines 2835--2836
+
+ []
+
+[255
 
 
 ]
-Overfull \hbox (6.0625pt too wide) in paragraph at lines 2841--2842
+Overfull \hbox (6.0625pt too wide) in paragraph at lines 2843--2844
 \OT1/cmr/m/n/12 Full length PAR-2 pu-rifi-ca-tion was per-formed with Colin Dav
 is in Anne Schreiber's
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2841--2842
-
  []
 
 
@@ -4168,31 +4188,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 2843--2844
  []
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2845.
+Underfull \hbox (badness 10000) in paragraph at lines 2845--2846
+
+ []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2866.
+               Default added (so using `tbp') on input line 2847.
 
-[254
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2868.
+
+[256
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2886.
+               Default added (so using `tbp') on input line 2888.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2906--2907
-
- []
-
-[255]
 Underfull \hbox (badness 10000) in paragraph at lines 2908--2909
 
  []
 
-
+[257]
 Underfull \hbox (badness 10000) in paragraph at lines 2910--2911
 
  []
@@ -4212,150 +4232,150 @@ Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
 
  []
 
-[256]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2918--2919
+
+ []
+
+[258]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2918.
+               Default added (so using `tbp') on input line 2920.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2933.
+               Default added (so using `tbp') on input line 2935.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2950--2951
-
- []
-
-[257]
-Underfull \hbox (badness 10000) in paragraph at lines 2957--2958
+Underfull \hbox (badness 10000) in paragraph at lines 2952--2953
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2971--2972
+[259]
+Underfull \hbox (badness 10000) in paragraph at lines 2959--2960
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2975--2976
+Underfull \hbox (badness 10000) in paragraph at lines 2973--2974
 
  []
 
-[258
+
+Underfull \hbox (badness 10000) in paragraph at lines 2977--2978
+
+ []
+
+[260
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2981--2982
+Underfull \hbox (badness 10000) in paragraph at lines 2983--2984
 
  []
 
-<../Figures/paramspace_method.png, id=2981, 391.7034pt x 139.36066pt>
+<../Figures/paramspace_method.png, id=2995, 391.7034pt x 139.36066pt>
 File: ../Figures/paramspace_method.png Graphic file (type png)
 
 <use ../Figures/paramspace_method.png>
 Package pdftex.def Info: ../Figures/paramspace_method.png used on input line 29
-88.
+90.
 (pdftex.def)             Requested size: 391.70244pt x 139.3603pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2998--2999
+Underfull \hbox (badness 10000) in paragraph at lines 3000--3001
 
  []
 
-[259] [260 <../Figures/paramspace_method.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 3005--3006
-
- []
-
-[261
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 3012--3013
-
- []
-
-[262
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 3016--3017
-
- []
-
-<../Figures/fxr_sequence.png, id=3009, 706.64pt x 283.0575pt>
-File: ../Figures/fxr_sequence.png Graphic file (type png)
-
-<use ../Figures/fxr_sequence.png>
-Package pdftex.def Info: ../Figures/fxr_sequence.png used on input line 3019.
-(pdftex.def)             Requested size: 282.65099pt x 113.22098pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3027--3028
+[261] [262 <../Figures/paramspace_method.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 3007--3008
 
  []
 
 [263
 
- <../Figures/fxr_sequence.png>]
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3014--3015
+
+ []
+
+[264
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3018--3019
+
+ []
+
+<../Figures/fxr_sequence.png, id=3022, 706.64pt x 283.0575pt>
+File: ../Figures/fxr_sequence.png Graphic file (type png)
+
+<use ../Figures/fxr_sequence.png>
+Package pdftex.def Info: ../Figures/fxr_sequence.png used on input line 3021.
+(pdftex.def)             Requested size: 282.65099pt x 113.22098pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 3029--3030
 
  []
 
-<../Figures/par2_phos_mutants.png, id=3015, 333.245pt x 839.135pt>
+[265
+
+ <../Figures/fxr_sequence.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3031--3032
+
+ []
+
+<../Figures/par2_phos_mutants.png, id=3029, 333.245pt x 839.135pt>
 File: ../Figures/par2_phos_mutants.png Graphic file (type png)
 
 <use ../Figures/par2_phos_mutants.png>
 Package pdftex.def Info: ../Figures/par2_phos_mutants.png used on input line 30
-32.
+34.
 (pdftex.def)             Requested size: 133.29562pt x 335.64804pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3039--3040
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 3041--3042
 
  []
 
-[264] [265 <../Figures/par2_phos_mutants.png>] [266]
-Underfull \hbox (badness 10000) in paragraph at lines 3045--3046
+
+Underfull \hbox (badness 10000) in paragraph at lines 3043--3044
 
  []
 
-
+[266] [267 <../Figures/par2_phos_mutants.png>] [268]
 Underfull \hbox (badness 10000) in paragraph at lines 3047--3048
 
  []
 
-[267
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 3049--3050
 
  []
 
-<../Figures/fxr_phosphorylation_types.png, id=3037, 393.1488pt x 571.4148pt>
+[269
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3052
+
+ []
+
+<../Figures/fxr_phosphorylation_types.png, id=3050, 393.1488pt x 571.4148pt>
 File: ../Figures/fxr_phosphorylation_types.png Graphic file (type png)
 
 <use ../Figures/fxr_phosphorylation_types.png>
 Package pdftex.def Info: ../Figures/fxr_phosphorylation_types.png used on input
- line 3052.
+ line 3054.
 (pdftex.def)             Requested size: 334.17805pt x 485.70486pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3058--3059
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 3060--3061
 
  []
 
-[268] [269 <../Figures/fxr_phosphorylation_types.png (PNG copy)>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 3062--3063
 
  []
 
-
+[270] [271 <../Figures/fxr_phosphorylation_types.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 3064--3065
 
  []
@@ -4365,61 +4385,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 3066--3067
 
  []
 
-[270] <../Figures/fxr_mutant_schematic.png, id=3057, 431.211pt x 503.36055pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3068--3069
+
+ []
+
+[272] <../Figures/fxr_mutant_schematic.png, id=3071, 431.211pt x 503.36055pt>
 File: ../Figures/fxr_mutant_schematic.png Graphic file (type png)
 
 <use ../Figures/fxr_mutant_schematic.png>
 Package pdftex.def Info: ../Figures/fxr_mutant_schematic.png used on input line
- 3069.
+ 3071.
 (pdftex.def)             Requested size: 366.53108pt x 427.85847pt.
 
-<../Figures/fxr_simulations.png, id=3058, 359.12167pt x 402.303pt>
+<../Figures/fxr_simulations.png, id=3072, 359.12167pt x 402.303pt>
 File: ../Figures/fxr_simulations.png Graphic file (type png)
 
 <use ../Figures/fxr_simulations.png>
-Package pdftex.def Info: ../Figures/fxr_simulations.png used on input line 3076
+Package pdftex.def Info: ../Figures/fxr_simulations.png used on input line 3078
 .
 (pdftex.def)             Requested size: 323.20651pt x 362.06934pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3083--3084
+Underfull \hbox (badness 10000) in paragraph at lines 3085--3086
 
  []
 
-[271] [272 <../Figures/fxr_mutant_schematic.png (PNG copy)>] [273 <../Figures/f
+[273] [274 <../Figures/fxr_mutant_schematic.png (PNG copy)>] [275 <../Figures/f
 xr_simulations.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 3087--3088
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3089--3090
 
  []
 
-[274
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 3100--3101
+Underfull \hbox (badness 10000) in paragraph at lines 3091--3092
 
  []
 
-[275
-
+[276
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 3107--3108
+Underfull \hbox (badness 10000) in paragraph at lines 3102--3103
 
  []
 
+[277
 
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 3109--3110
 
- []
-
-
-Overfull \hbox (0.53058pt too wide) in paragraph at lines 3111--3112
-[]\OT1/cmr/m/n/12 Typically, dif-fu-sion is mon-i-tored us-ing single-particle 
-track-ing ex-per-i-ments, build-
  []
 
 
@@ -4428,47 +4442,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 3111--3112
  []
 
 
+Overfull \hbox (0.53058pt too wide) in paragraph at lines 3113--3114
+[]\OT1/cmr/m/n/12 Typically, dif-fu-sion is mon-i-tored us-ing single-particle 
+track-ing ex-per-i-ments, build-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3113--3114
 
  []
 
-[276
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 3115--3116
 
  []
 
+[278
 
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 3117--3118
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3121
+
+Underfull \hbox (badness 10000) in paragraph at lines 3119--3120
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3123
 .
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3121.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3126--3127
-
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3123.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3128--3129
 
  []
 
-[277] [278]
-Underfull \hbox (badness 10000) in paragraph at lines 3133--3134
+
+Underfull \hbox (badness 10000) in paragraph at lines 3130--3131
 
  []
 
-
+[279] [280]
 Underfull \hbox (badness 10000) in paragraph at lines 3135--3136
 
  []
@@ -4478,15 +4498,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 3137--3138
 
  []
 
-[279
 
-] [280] [281
+Underfull \hbox (badness 10000) in paragraph at lines 3139--3140
 
-] [282
+ []
+
+[281
+
+] [282] [283
+
+] [284
 
 
 ]
-Overfull \hbox (28.07207pt too wide) in paragraph at lines 3152--3152
+Overfull \hbox (28.07207pt too wide) in paragraph at lines 3154--3154
 [][]\OT1/cmr/m/n/10 Benton, Richard and Daniel St John-ston (2003). ``Drosophil
 a PAR-1 and 14-3-3 in-hibit Bazooka/PAR-
  []
@@ -4505,32 +4530,32 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
 
 Package biblatex Warning: No driver for entry type 'software'.
-(biblatex)                Using fallback driver on input line 3151.
+(biblatex)                Using fallback driver on input line 3153.
 
-[283] [284]
-Overfull \hbox (10.6032pt too wide) in paragraph at lines 3152--3152
+[285] [286]
+Overfull \hbox (10.6032pt too wide) in paragraph at lines 3154--3154
 \OT1/cmr/m/n/10 CRISPR/Cas9.'' In: \OT1/cmr/m/it/10 mi-croP-ub-li-ca-tion bi-ol
 -ogy \OT1/cmr/m/n/10 2020. \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n/10 : 2578-9430. \O
 T1/cmr/m/sc/10 doi\OT1/cmr/m/n/10 : []$\OT1/cmtt/m/n/10 10 . 17912 / micropub .
 
  []
 
-[285] [286] [287] [288]
-Overfull \hbox (1.31754pt too wide) in paragraph at lines 3152--3152
+[287] [288] [289] [290]
+Overfull \hbox (1.31754pt too wide) in paragraph at lines 3154--3154
 \OT1/cmr/m/n/10 containing mem-branes and in-duc-ing cel-lu-lar trans-for-ma-ti
 on''. In: \OT1/cmr/m/it/10 Jour-nal of Bi-o-log-i-cal Chem-
  []
 
-[289] [290] [291] [292]
+[291] [292] [293] [294]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [293]
+ [295]
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ¼ in font cmr10!
 
-Overfull \hbox (3.13196pt too wide) in paragraph at lines 3152--3152
+Overfull \hbox (3.13196pt too wide) in paragraph at lines 3154--3154
 [][]\OT1/cmr/m/n/10 Robin, Fran^^Xcois B. et al. (2014). ``Single-molecule anal
 -y-sis of cell sur-face dy-nam-ics in Caenorhab-
  []
@@ -4548,43 +4573,53 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
 
-Overfull \hbox (0.3242pt too wide) in paragraph at lines 3152--3152
+Overfull \hbox (0.3242pt too wide) in paragraph at lines 3154--3154
 [][]\OT1/cmr/m/n/10 Rojas-Fernandez, Ale-jan-dro et al. (2014). ``SUMO chain-in
 duced dimer-iza-tion ac-ti-vates RNF4''.
  []
 
-[294] [295]
-Overfull \hbox (11.42688pt too wide) in paragraph at lines 3152--3152
+[296] [297]
+Overfull \hbox (11.42688pt too wide) in paragraph at lines 3154--3154
 \OT1/cmtt/m/n/10 S0074 -[] 7696(08 ) 61544 -[] 2$[]\OT1/cmr/m/n/10 . arXiv: []$
 \OT1/cmtt/m/n/10 1705 . 03505$[]\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/
 m/n/10 : []$\OT1/cmtt/m/n/10 http : / / rstb . royalsocietypublishing .
  []
 
 
-Overfull \hbox (29.6854pt too wide) in paragraph at lines 3152--3152
+Overfull \hbox (29.6854pt too wide) in paragraph at lines 3154--3154
 [][]\OT1/cmr/m/n/10 Uversky, Vladimir N. (2019). ``In-trin-si-cally dis-or-dere
 d pro-teins and their "Mys-te-ri-ous" (meta)physics''.
  []
 
-[296] [297]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3153.
- [298]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3153.
+[298] [299]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3155.
+ [300]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3155.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3153.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3153.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3155.
 
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 168657F3728ABF19D4E1D6A29A1F5224;10808.
+
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 168657F3728ABF19D4E1D6A29A1F5224;10808
+(rerunfilecheck)             After:  4872525F7D33E64BFC6D9B5170E22D8F;10812.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3153.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3155.
  ) 
 Here is how much of TeX's memory you used:
- 29987 strings out of 492995
- 571291 string characters out of 6132704
- 1200331 words of memory out of 5000000
+ 29989 strings out of 492995
+ 571307 string characters out of 6132704
+ 1200369 words of memory out of 5000000
  32364 multiletter control sequences out of 15000+600000
  543322 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4617,10 +4652,10 @@ fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/cbfonts/grmn1000.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/cbfonts/grmn1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/cbfonts/grxn1000.pfb>
-Output written on Thesis.pdf (298 pages, 94968774 bytes).
+Output written on Thesis.pdf (300 pages, 94969751 bytes).
 PDF statistics:
- 3820 PDF objects out of 4296 (max. 8388607)
- 3355 compressed objects within 34 object streams
- 807 named destinations out of 1000 (max. 500000)
+ 3833 PDF objects out of 4296 (max. 8388607)
+ 3366 compressed objects within 34 object streams
+ 809 named destinations out of 1000 (max. 500000)
  1477 words of extra memory for PDF output out of 10000 (max. 10000000)
 
