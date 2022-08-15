@@ -3273,10 +3273,6 @@
     \field{pages}{496\bibrangedash 503}
     \field{title}{{Ultrasensitivity part I: Michaelian responses and zero-order
   ultrasensitivity}}
-    \verb{url}
-    \verb http://www.cell.com/trends/biochemical-sciences/pdf/S0968-0004(14)001
-    \verb 43-1.pdf
-    \endverb
     \field{volume}{39}
     \verb{file}
     \verb :Users/blandt/Documents/Mendeley Desktop/Ferrell Jr, Hoon Ha - 2014 -
@@ -3336,11 +3332,6 @@
     \field{pages}{556\bibrangedash 569}
     \field{title}{{Ultrasensitivity part II: Multisite phosphorylation,
   stoichiometric inhibitors, and positive feedback}}
-    \verb{url}
-    \verb https://ac.els-cdn.com/S0968000414001698/1-s2.0-S0968000414001698-mai
-    \verb n.pdf?_tid=76563e64-bd80-11e7-88f8-00000aab0f26&acdnat=1509374690_58c
-    \verb 666e8a1fe84f568b8531c0850fdf8
-    \endverb
     \field{volume}{39}
     \verb{file}
     \verb :Users/blandt/Documents/Mendeley Desktop/Ferrell, Ha - 2014 - Ultrase
@@ -3404,11 +3395,6 @@
     \field{pages}{612\bibrangedash 618}
     \field{title}{{Ultrasensitivity part III: Cascades, bistable switches, and
   oscillators}}
-    \verb{url}
-    \verb https://ac.els-cdn.com/S0968000414001844/1-s2.0-S0968000414001844-mai
-    \verb n.pdf?_tid=1e6782fe-f9fc-11e7-9f04-00000aab0f02&acdnat=1516024870_436
-    \verb dd0c6319c65147431386fee0e6020
-    \endverb
     \field{volume}{39}
     \verb{file}
     \verb :Users/blandt/Documents/Mendeley Desktop/Ferrell Jr, Hoon Ha - 2014 -
@@ -8152,11 +8138,6 @@
     \field{number}{4}
     \field{pages}{2109\bibrangedash 2117}
     \field{title}{{Apparent subdiffusion inherent to single particle tracking}}
-    \verb{url}
-    \verb https://reader.elsevier.com/reader/sd/pii/S0006349502739714?token=7AE
-    \verb 57073943239119C6C0C91B177A9DB2A800024D1F8D80A1E4D507C7497F4FBF7B19DBD
-    \verb 7EA56A45F946088BC2C0BD26
-    \endverb
     \field{volume}{83}
     \verb{file}
     \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S0006349502739714-mai
@@ -8568,10 +8549,6 @@
     \field{pages}{1401\bibrangedash 1427}
     \field{title}{{Asymptotic and bifurcation analysis of wave-pinning in a
   reaction-diffusion model for cell polarization}}
-    \verb{url}
-    \verb https://pdfs.semanticscholar.org/3838/b3bedd2a86e9cbfcefc11ea8a59ec94
-    \verb 50ac0.pdf?_ga=2.131178888.664586380.1569939058-1379241018.1569939058
-    \endverb
     \field{volume}{71}
     \verb{file}
     \verb :Users/blandt/Documents/Mendeley Desktop/Mori, Jilkine, Edelstein-Kes
@@ -10061,11 +10038,6 @@
     \field{pages}{933\bibrangedash 942}
     \field{title}{{Structure of an E3:E2∼Ub Complex Reveals an Allosteric
   Mechanism Shared among RING/U-box Ligases}}
-    \verb{url}
-    \verb https://reader.elsevier.com/reader/sd/pii/S1097276512005916?token=80D
-    \verb 2CAA780EFB851D893AAF0397ABBBAD85F4E16D2DCCBF040369371FF6BFFEDD2EAE504
-    \verb EDDA2B3E390B63DCAECE6B44
-    \endverb
     \field{volume}{47}
     \verb{file}
     \verb :Users/blandt/Documents/Mendeley Desktop/1-s2.0-S1097276512005916-mai
@@ -10452,14 +10424,13 @@
     \field{year}{2014}
   \endentry
 
-  \entry{Rodrigues2022}{article}{}
+  \entry{Rodrigues2022a}{article}{}
     \name{author}{8}{}{%
-      {{hash=RNTL}{%
+      {{hash=RNT}{%
          family={Rodrigues},
          familyi={R\bibinitperiod},
-         given={Nelio T\bibnamedelima L},
-         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
-  L\bibinitperiod},
+         given={Nelio\bibnamedelima T.L.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
       {{hash=BT}{%
          family={Bland},
@@ -10476,7 +10447,7 @@
       {{hash=NK}{%
          family={Ng},
          familyi={N\bibinitperiod},
-         given={KangBo},
+         given={Kangbo},
          giveni={K\bibinitperiod},
       }}%
       {{hash=HN}{%
@@ -10504,56 +10475,46 @@
          giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
-    \keyw{Goehring lab}
-    \strng{namehash}{RNTL+1}
-    \strng{fullhash}{RNTLBTBPJNKHNGYFSGNW1}
+    \strng{namehash}{RNT+1}
+    \strng{fullhash}{RNTBTBPJNKHNGYFSGNW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
-    Biological systems are increasingly viewed through the lens of mathematics,
-  physics, and systems approaches that demand accurate quantification of gene
-  expression and local protein concentrations. Such approaches have benefited
-  greatly from the revolution in genetic engineering sparked by CRISPR/Cas9. By
-  facilitating the tagging of genes at their genomic loci, CRISPR/Cas9 allows
-  us to use fluorescence to monitor proteins that are expressed at or near
-  endogenous levels under native regulatory control. However, due to their
-  typically lower expression levels, quantitative experiments using
-  endogenously-tagged genes can run into limits imposed by autofluorescence
-  (AF). AF is often a particular challenge in the illumination bands occupied
-  by the most efficient fluorescent proteins (GFP, mNeonGreen). Stimulated by
-  our work in C. elegans, we describe and validate Spectral Autofluorescence
+    Biological systems are increasingly viewed through a quantitative lens that
+  demands accurate measures of gene expression and local protein
+  concentrations. CRISPR/Cas9 gene tagging has enabled increased use of
+  fluorescence to monitor proteins at or near endogenous levels under native
+  regulatory control. However, due to typically lower expression levels,
+  experiments using endogenously-tagged genes run into limits imposed by
+  autofluorescence (AF). AF is often a particular challenge in wavelengths
+  occupied by commonly used fluorescent proteins (GFP, mNeonGreen). Stimulated
+  by our work in C. elegans, we describe and validate Spectral Autofluorescence
   Image correction By Regression (SAIBR), a simple, platform-independent
-  protocol, and associated GUI-based FIJI plugin to correct for
-  autofluorescence using standard filter sets and illumination conditions.
-  Fully validated for use in C. elegans embryos and tested in diverse systems,
-  including starfish oocytes and fission yeast, SAIBR achieves accurate
-  quantitation of fluorophore signal and enables reliable detection and
-  quantification of even weakly expressed proteins. Thus, SAIBR provides a
-  highly accessible, low barrier way to incorporate AF correction as standard
-  for researchers working on a broad variety of cell and developmental
-  systems.Competing Interest StatementThe authors have declared no competing
-  interest.%
+  protocol and FIJI plugin to correct for autofluorescence using standard
+  filter sets and illumination conditions. Validated for use in C. elegans
+  embryos, starfish oocytes and fission yeast, SAIBR is ideal for samples with
+  a single dominant AF source, and achieves accurate quantitation of
+  fluorophore signal and enables reliable detection and quantification of even
+  weakly expressed proteins. Thus, SAIBR provides a highly accessible, low
+  barrier way to incorporate AF correction as standard for researchers working
+  on a broad variety of cell and developmental systems.%
     }
     \verb{doi}
-    \verb 10.1101/2022.01.19.476881
+    \verb 10.1242/dev.200545
     \endverb
-    \field{pages}{2022.01.19.476881}
-    \field{title}{{SAIBR: A simple, platform-independent method for spectral
+    \field{issn}{0950-1991}
+    \field{title}{{SAIBR : A simple, platform-independent method for spectral
   autofluorescence correction}}
-    \verb{url}
-    \verb http://biorxiv.org/content/early/2022/01/20/2022.01.19.476881.abstrac
-    \verb t
-    \endverb
     \verb{file}
-    \verb :Users/blandt/Documents/Mendeley Desktop/2022.01.19.476881v1.full.pdf
-    \verb :pdf
+    \verb :Users/blandt/Documents/Mendeley Desktop/Rodrigues et al. - 2022 - SA
+    \verb IBR a simple, platform-independent method for spectral autofluorescen
+    \verb ce correction.pdf:pdf
     \endverb
-    \field{journaltitle}{bioRxiv}
+    \field{journaltitle}{Development}
     \field{year}{2022}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Rodriguez2017}{article}{}

@@ -1,7 +1,7 @@
-\documentclass[12pt]{"report"}
+\documentclass[12pt,a4paper,twoside]{"report"}
 \setlength{\parindent}{0pt}
 \linespread{1.5}
-\usepackage[margin=1.5in]{geometry}
+\usepackage[inner=1.5in, outer=1.1in, bottom=1.5in]{geometry}
 \usepackage{graphicx}
 \graphicspath{ {../Figures/} }
 \usepackage{titlesec}
@@ -24,10 +24,10 @@
 \usepackage[backend=bibtex,style=authoryear, natbib=true]{biblatex} %
 \usepackage{textgreek}
 \usepackage{tabularx}
-\usepackage{ltablex}
 \usepackage{seqsplit}
 \usepackage{longtable,tabu}
 \usepackage{rotating}
+\raggedbottom
 \addbibresource{bibliography.bib}
 
 
@@ -58,12 +58,14 @@ University College London\\}
 
 \vspace{15mm}
 
-{March 26, 2022}
+{August 15, 2022}
 \end{titlepage}
 
 
-\pagebreak
+\newpage
 \setcounter{page}{2}
+\mbox{}
+\newpage
 
 \begin{Large}
 \textbf{Declaration}\\
@@ -71,7 +73,10 @@ University College London\\}
 
 I, Tom Bland, confirm that the work presented in this thesis is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
 
+\newpage
+\mbox{}
 \pagebreak
+
 \begin{Large}
 \textbf{Abstract}\\
 \end{Large}
@@ -560,7 +565,7 @@ In this thesis, I present an interdisciplinary study of the molecular circuitry 
 
 \textbf{Manuscript details:}\\
 
-The work described in section \ref{section:saibr} has been published on bioRxiv \citep{Rodrigues2022}. I present an abridged description of the work here. More details are available in the full article.\\
+The work described in section \ref{section:saibr} has been published in the journal Development \citep{Rodrigues2022a}. I present an abridged description of the work here. More details are available in the full article.\\
 
 \textbf{Detailed contributions:}\\
 
@@ -586,7 +591,7 @@ We can observe the significance of this problem in \textit{C. elegans} by imagin
 
 \begin{SCfigure}
 \includegraphics[scale=0.9]{saibr_n2_vs_lgl}
-\mycaption{Autofluorescence is abundant and variable in images of \textit{C. elegans} zygotes}{GFP channel (488nm excitation, 535/50nm emission) images of unlabelled N2 and LGL-1::GFP embryos taken under identical imaging conditions. Pixel scaling is the same for each image. Figure panels from \textcite{Rodrigues2022}, Fig 1B.
+\mycaption{Autofluorescence is abundant and variable in images of \textit{C. elegans} zygotes}{GFP channel (488nm excitation, 535/50nm emission) images of unlabelled N2 and LGL-1::GFP embryos taken under identical imaging conditions. Pixel scaling is the same for each image. Figure panels from \textcite{Rodrigues2022a}, Fig 1B.
 }
 \label{fig:saibr_n2_vs_lgl}
 \end{SCfigure}
@@ -612,7 +617,7 @@ Furthermore, by imaging untagged embryos with both the standard GFP channel and 
 \textbf{(A)} Correlation of pixel values between the GFP channel and AF channel for an unlabelled N2 embryo, subject to Gaussian blur of indicated radius. Pixel values were taken from a region of interest (ROI) encompassing the entire embryo and a portion of the background. All pixels within this region were used for the regression, but for clarity only a random 10\% sample of pixels are shown.
 \textbf{(B)} Comparison of inter-channel pixel correlation (Gaussian radius = 1) for three unlabelled N2 embryos, colour coded by embryo. Histograms of intensity values for GFP and AF channels shown for reference.
 \textbf{(C)} Comparison of per-pixel correlation with data obtained from whole embryo means. (i) Lines indicate per-pixel regression for individual embryos as in (B). (ii) Overlay showing mean whole embryo fluorescence values (circles).
-Figure panels from \textcite{Rodrigues2022}, Fig S2, 1E-F.
+Figure panels from \textcite{Rodrigues2022a}, Fig S2, 1E-F.
 }
 \label{fig:saibr_n2_correlation}
 \end{figure}
@@ -631,7 +636,7 @@ In the case of LGL-1::GFP expressing embryos, where autofluorescence signal is d
 \centering
 \mycaption{Applying SAIBR to images of GFP-tagged PAR proteins}{
 \textbf{(A) - (D)} Raw (top) and SAIBR-corrected (middle) midplane images of zygotes expressing the indicated GFP fusions. Bottom panels show associated linescans across the images. SAIBR reveals prominent membrane localisation for LGL-1 and PAR-3 (arrows) which is not obvious in uncorrected images. We also see a prominent signal dip in the pronuclear region of uncorrected images due to local exclusion of autofluorescence (arrowheads), which disappears in SAIBR corrected images.
-Figure panels from \textcite{Rodrigues2022}, Fig 2A-D.
+Figure panels from \textcite{Rodrigues2022a}, Fig 3A-D.
 }
 \label{fig:saibr_spatial_correction}
 \end{figure}
@@ -643,7 +648,7 @@ As shown in \cref{fig:saibr_membrane_profiles}, SAIBR has a strong impact on the
 \centering
 \mycaption{SAIBR improves detection of membrane signals}{
 \textbf{(A) - (C)} Averaged membrane profiles taken from raw (top) and SAIBR-corrected (bottom) images for LGL-1::GFP (A), PAR-3::GFP(B) and PAR-6::GFP (C) shown relative to unlabelled N2 controls. Membrane position at x=0$\mu m$. Mean $\pm$ SD indicated.
-Figure panels from \textcite{Rodrigues2022}, Fig. 2E-G.
+Figure panels from \textcite{Rodrigues2022a}, Fig. 3E-G.
 }
 \label{fig:saibr_membrane_profiles}
 \end{figure}
@@ -660,7 +665,7 @@ As SAIBR relies on a red shifted emission channel, complications can arise in sa
 \textbf{(A)} Gaussian-filtered (radius = 1) GFP channel vs AF channel pixel intensities for an mCh::MEX-5 expressing embryo, colour coded by RFP-channel fluorescence. Dashed line indicates the AF vs GFP correlation for untagged (N2) embryos. Inset shows residuals as a function of RFP channel signal. Pixels taken from an ROI encompassing the embryo and a region of the background, and 10\% of pixels are shown at random.
 \textbf{(B)} Multiple regression fit of GFP-channel signal as a function of AF and RFP channel signal. The same embryo and sample of pixels as in (A) is shown.
 \textbf{(C)} Predicted vs. measured GFP-channel signal based on the fit in (B). The same embryo and sample of pixels as in (A) and (B) is shown.
-Figure panels from \textcite{Rodrigues2022}, Fig. 4B-D.
+Figure panels from \textcite{Rodrigues2022a}, Fig. 5B-D.
 }
 \label{fig:saibr_3channel_correlation}
 \end{figure}
@@ -671,7 +676,7 @@ To perform correction on images containing red fluorophore, we just need to capt
 \includegraphics[scale=1]{saibr_3channel_correction}
 \mycaption{3-channel SAIBR prevents oversubtraction in samples containing red fluorophore}{
 RFP channel, 2-channel SAIBR and 3-channel SAIBR images for samples expressing mCh::MEX-5, along with associated linescans. 2-channel SAIBR results in oversubtraction which is clearly visible as negative values in the mCh::MEX-5 line (arrow) and reduced cytoplasmic signal in the two-colour line. 3-channel SAIBR, using the calibration procedure shown in \cref{fig:saibr_3channel_correlation}, prevents oversubtraction.
-Figure panels from \textcite{Rodrigues2022}, Fig. 4F.
+Figure panels from \textcite{Rodrigues2022a}, Fig. 5F.
 }
 \label{fig:saibr_3channel_correction}
 \end{SCfigure}
@@ -681,11 +686,11 @@ Figure panels from \textcite{Rodrigues2022}, Fig. 4F.
 
 In summary, I have demonstrated that a simple protocol, which we have termed SAIBR, can be used to successfully remove autofluorescence in images of \textit{C. elegans} zygotes. The improvements are particularly striking for images of fusion proteins with low levels of expression, such as LGL-1::GFP, but even in cases where expression levels are higher, AF correction will prove important for quantitative analysis of membrane concentrations, as will be discussed in the next section. For the rest of this thesis, unless otherwise stated, green fluorophore images will be presented with autofluorescence removed by SAIBR.\\
 
-The simplicity of the method means that it can be easily incorporated into existing workflows, and should be applicable to a variety of imaging platforms. In the full study \citep{Rodrigues2022}, we show that the method is equally successful on both spinning-disk confocal and wide-field instruments. \\
+The simplicity of the method means that it can be easily incorporated into existing workflows, and should be applicable to a variety of imaging platforms. In the full study \citep{Rodrigues2022a}, we show that the method is equally successful on both spinning-disk confocal and wide-field instruments. \\
 
 Whilst initially developed with \textit{C. elegans} embryos in mind, the method is not specific to this system, and could be applied to a number of other model systems in which autofluorescence is a problem. In the full study, we show that the method works successfully in \textit{C. elegans} larvae, as well as other model systems such as starfish oocytes and fission yeast (\textit{S. pombe}). That said, the method is not guaranteed to perform well in all cases. If samples contain multiple, independently varying sources of autoflourescence, then SAIBR may face problems as a single autofluorescence reporter channel cannot account for this. However, much like how we can tackle red fluorophores, we have found that in some cases this can be solved simply by adding one extra reporter channel. Inevitably, though, such an approach may not be compatible with dual-colour imaging. \\
 
-Whilst the analysis steps are relatively straightforward, implementing the computational workflow may still be a barrier to adoption for some. Therefore, to make the protocol accessible, I have put together a simple graphical user interface (GUI)-based FIJI plugin which can carry out all the necessary analysis in a few simple steps. This can be found at: \url{https://github.com/tsmbland/saibr_fiji_plugin}. \\
+Whilst the analysis steps are relatively straightforward, implementing the computational workflow may still be a barrier to adoption for some. Therefore, to make the protocol accessible, I have put together a simple graphical user interface (GUI)-based FIJI plugin which can carry out all the necessary analysis in a few simple steps. This can be found at: \url{https://github.com/goehringlab/saibr_fiji_plugin}. \\
 
 The method comes with a few tradeoffs, which will vary in significance depending on the particular study. One issue is that, as the method combines pixel noise from multiple images, corrected images can in some cases be quite noisy, particularly where weak imaging conditions are used. It also requires capturing two emission channels for each image, which doubles sample illumination times and potential phototoxicity, which may be an issue for long timelapses. Additionally, if samples display rapid motion, then the time lag between taking these two channels may lead to pixel mismatches, which could introduce artefacts. These last points could be fixed by using an imaging setup that allows for dual capture of multiple emission bands. However, for this particular study, these issues will not be of major significance. \\
 
@@ -2416,7 +2421,7 @@ I propose the model presented in \cref{fig:discussion_schematic_full}. Pre-symme
 In this scheme, both increasing dimerisation strength and decreasing dimerisation strength can weaken localisation at the plasma membrane, but this occurs for different reasons (\cref{fig:discussion_schematic_full}B). At low dimerisation strengths (e.g L109R), protein is unable to dimerise at the membrane, and therefore unable to partake in a positive feedback reaction to stabilise the high-affinity dimeric state. However, at the other end of the scale, strong dimerisation (GCN4), which slows membrane exchange timescales, can cause effective entrapment on internal membranes prior to symmetry breaking, which can sequester PAR-2 away from the plasma membrane. Wild type PAR-2 dimerisation, mediated by an intermediate strength RING domain, appears to put the protein in a sweet spot that allows it to bind strongly to the plasma membrane, but avoid kinetic entrapment on internal membranes.\\
 
 \begin{sidewaysfigure}
-\includegraphics[scale=0.85]{discussion_schematic_full}
+\includegraphics[scale=0.9]{discussion_schematic_full}
 \centering
 \mycaption{Schematic of the PAR-2 polarisation pathway and the effects of dimerisation strength}{
 See main text for full description}
@@ -2496,6 +2501,7 @@ Strains used in this study are listed in table \ref{tab:worm_lines}.\\
     >{\scriptsize}X[1,l]
     >{\scriptsize}X[3,l]
     >{\scriptsize}X[1,l]}
+    
     
 \hline
 \textbf{Strain} & \textbf{Description} & \textbf{Genotype} & \textbf{Source} \\ \hline
