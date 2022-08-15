@@ -1056,7 +1056,7 @@ Interestingly, unlike wild type PAR-2, the membrane affinity of PAR-2 (C56S) is 
 \mycaption{PAR-2 displays RING-dependent nonlinear membrane binding kinetics}{
 \textbf{(A) - (B)} Images of \textit{par-3 (it71)} cells expressing wild type (A) or C56S (B) mNG::PAR-2 with varying dosage achieved by \textit{par-2 RNAi}. Bottom panels show mean ($\pm$ SD) normalised cross-cortex intensity profiles for the embryos shown, averaged over the entire embryo circumference.
 \textbf{(C)} Quantification of membrane and cytoplasmic concentrations for the full dataset, including untagged N2s (white). Solid lines indicate fit of each dataset to an exponent model ($y = ax^b$). Shaded regions show 95\% confidence intervals, estimated by bootstrapping.
-\textbf{(D)} Probability distributions of exponents from model fitting in (C), estimated by bootstrapping. PH(PLC$\Delta1$) data (derived from data in \cref{fig:memquant_benchmarking_ph_rundown}) shown for comparison. Vertical lines indicate 95\% confidence intervals.
+\textbf{(D)} Probability distributions of exponents from model fitting in (C), estimated by bootstrapping (1000 bootstrap samples). PH(PLC$\Delta1$) data (derived from data in \cref{fig:memquant_benchmarking_ph_rundown}) shown for comparison. Vertical lines indicate 95\% confidence intervals.
 }
 \label{fig:rundown_vs_c56s}
 \end{figure}
@@ -2963,6 +2963,10 @@ Where A and P represent anterior and posterior membrane signal (defined as the m
 \subsection{Bioinformatics}
 
 Protein sequence alignments were performed in Jalview using the Clustal Omega algorithm with default parameters. Protein structure predictions were performed using the online AlphaFold Colab notebook.\\
+
+\subsection{Statistics}
+
+Probability distributions of statistical metrics were estimated using a bootstrapping method with a total of 5000 bootstrap samples (unless otherwise stated), and plotted as kernel density estimates. 95\% confidence intervals were derived from probability distributions using the percentile method. All statistical analysis was performed using custom code written in Python, using the numpy and scipy.stats packages.\\
 
 \subsection{Modelling}
 
