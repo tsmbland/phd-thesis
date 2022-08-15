@@ -544,13 +544,13 @@ A number of additional feedback interactions involving PAR-2 could, in theory, a
 \section{Outlook}
 
 
-Given the importance of cell polarity, the presence of multiple, potentially semi-redundant feedback pathways to ensure robust \footnote{In this thesis I use the term `robustness' to describe the ability of a system to maintain its functions despite internal or external perturbations (as discussed in \textcite{Kitano2004}). In the case of the PAR network, robustness can be considered at two levels: the ability of the PAR network to maintain asymmetric patterns, and the ability of downstream polarity outputs to maintain normal functionality. I mostly focus on the former when discussing PAR network robustness in this thesis.} polarity maintenance is not surprising. Whilst mutual antagonism alone might be sufficient to capture polarity in these systems, theoretical studies have shown that the addition of further mechanisms, such as positive feedback motifs, to polarity networks makes them more resistant to changes in factors such as protein dosage, diffusion coefficients and reaction rates \citep{Chau2012}. In a system that must be robust in the face of changing environments and biological noise, this presents a clear evolutionary benefit. Furthermore, having redundant interactions can help to ensure that systems can polarise (or at least partially polarise) even when components of the system are broken or missing.\\
+Given the importance of cell polarity, the presence of multiple, potentially semi-redundant feedback pathways to ensure robust \footnote{In this thesis I use the term `robustness' to describe the ability of a system to maintain its functions despite internal or external perturbations (as discussed in \textcite{Kitano2004}). In the case of PAR polarity, robustness can be considered at two levels: the ability of the PAR network to maintain asymmetric patterns, and the ability of downstream polarity outputs to maintain normal functionality. I mostly focus on the former when discussing PAR network robustness in this thesis.} polarity maintenance is not surprising. Whilst mutual antagonism alone might be sufficient to capture polarity in these systems, theoretical studies have shown that the addition of further mechanisms, such as positive feedback motifs, to polarity networks makes them more resistant to changes in factors such as protein dosage, diffusion coefficients and reaction rates \citep{Chau2012}. In a system that must be robust in the face of changing environments and biological noise, this presents a clear evolutionary benefit. Furthermore, having redundant interactions can help to ensure that systems can polarise (or at least partially polarise) even when components of the system are broken or missing.\\
 
 Systems level approaches, involving the use of mathematical models, have been instrumental in enhancing our understanding of the links between molecular interactions, feedback pathways and patterning behaviours in the PAR network. However, as most of the information that we have about the PAR network is qualitative rather than quantitative, our ability to fully understand systems level behaviours with models is currently limited. Additionally, many of the molecular mechanisms surrounding the proposed feedback pathways in the network are poorly understood. \\
 
-Amongst many areas of uncertainty in the PAR network, PAR-2 is particularly enigmatic. Specific to \textit{C. elegans}, PAR-2 is nonetheless essential for polarity maintenance, through its role as a scaffold for PAR-1 and via downstream regulation of the cortex. As discussed above, PAR-2 also defies predictions from simple mutual antagonism models in its apparent ability to polarise without aPAR asymmetries. A positive feedback pathway has been proposed, but we lack sufficient quantitative data to understand the contribution of this proposed pathway to polarity. Furthermore, the mechanistic basis of PAR-2 positive feedback is not known, and many uncertainties exist surrounding the roles of the RING domain and protein oligomerisation in regulating membrane association behaviour.\\
+Amongst many areas of uncertainty in the PAR network, PAR-2 is particularly enigmatic.  Conserved only amongst nematodes, PAR-2 is nonetheless an essential component of the polarity pathway, through its role as a scaffold for PAR-1 and via downstream regulation of the cortex. As discussed above, PAR-2 also defies predictions from simple mutual antagonism models in its apparent ability to polarise without aPAR asymmetries. A positive feedback pathway has been proposed, but we lack sufficient quantitative data to understand the contribution of this proposed pathway to polarity. Furthermore, the mechanistic basis of PAR-2 positive feedback is not known, and many uncertainties exist surrounding the roles of the RING domain and protein oligomerisation in regulating membrane association behaviour.\\
 
-In this thesis, I present an interdisciplinary study of the molecular circuitry of feedback reactions in the PAR network, focussing on PAR-2. In light of a need for good quantitative data, the first aim of my project was to set up an image quantification pipeline that allows us to easily obtain quantitative information about the membrane-binding behaviour of the PAR proteins. I will describe this pipeline in chapter 2. In chapter 3 I use these tools to quantitatively analyse the membrane association behaviour of wild type PAR-2 and several mutant alleles, revealing evidence of a positive feedback circuit and a potential role for the RING domain. In chapter 4, I focus on understanding the mechanisms of RING domain action, exploring hypotheses relating to ubiquitination and dimerisation, and find a role for the RING domain as a concentration-dependent dimerisation domain. In chapter 5 I draw a theoretical link between dimerisation and positive feedback using thermodynamic models. In chapter 6, I incorporate the PAR-2 positive feedback pathway into patterning models, and explore its implications for bistability, symmetry breaking and pattern robustness. In chapter 7, I investigate the link between dimerisation strength and membrane association behaviour in vivo, revealing a key role for intermediate dimerisation strength, and providing novel and unexpected insights into the origins of PAR-2's plasma membrane specificity.
+In this thesis, I present an interdisciplinary study of the molecular circuitry of feedback reactions in the PAR network, focussing on PAR-2. In light of a need for good quantitative data, the first aim of my project was to set up an image quantification pipeline that allows us to easily obtain quantitative information about the membrane-binding behaviour of the PAR proteins. I will describe this pipeline in chapter 2. In chapter 3 I use these tools to quantitatively analyse the membrane association behaviour of wild type PAR-2 and several mutant alleles, revealing evidence of a positive feedback circuit and a potential role for the RING domain. In chapter 4, I focus on understanding the mechanisms of RING domain action, exploring hypotheses relating to ubiquitination and dimerisation, and find a role for the RING domain as a concentration-dependent dimerisation domain. In chapter 5, I draw a theoretical link between dimerisation and positive feedback using thermodynamic models. In chapter 6, I incorporate the PAR-2 positive feedback pathway into patterning models, and explore its implications for bistability, symmetry breaking and pattern robustness. In chapter 7, I investigate the link between dimerisation strength and membrane association behaviour in vivo, revealing a key role for intermediate dimerisation strength, and providing novel and unexpected insights into the origins of PAR-2's plasma membrane specificity.
 
 
 
@@ -1173,7 +1173,7 @@ To test the potential role of linchpin-mediated autoubiquitination for PAR-2 mem
 \centering
 \mycaption{Mutation of the PAR-2 linchpin site has no effect on membrane affinity}{
 \textbf{(A)} Midplane images of wild type vs K94A GFP::PAR-2 at maintenance phase.
-\textbf{(B)} Normalised cross-cortex profiles for wild type vs K94A PAR-2 averaged over the posterior domain.
+\textbf{(B)} Normalised cross-cortex profiles for wild type vs K94A PAR-2 averaged over the posterior domain of multiple embryos (n=12 for WT, n=8 for K94A). Mean $\pm$ SD.
 \textbf{(C)} i. Membrane affinity measurements for wild type vs K94A PAR-2 in the posterior domain.
 ii. Probability distribution of the mean membrane affinity difference between wild type and K94A PAR-2, estimated by bootstrapping. Vertical line indicates 95\% confidence interval.
 }
@@ -1370,7 +1370,7 @@ I next aimed to test the ability of the PAR-2 RING to dimerise on the membrane, 
 \centering
 \mycaption{PAR-2 RING domain fragment shows no membrane localisation}{
 \textbf{(A)} Midplane image of mNG::PAR-2(1-177), showing entirely cytoplasmic localisation.
-\textbf{(B)} Normalised cross-cortex profile of mNG::PAR-2(1-177) compared to mNG alone.
+\textbf{(B)} Normalised cross-cortex profile of mNG::PAR-2(1-177) compared to mNG alone (n = 6 for mNG and n = 5 for mNG::PAR-2(1-177)). Mean $\pm$ SD.
 }
 \label{fig:ring_fragment_in_vivo}
 \end{figure}
@@ -1422,7 +1422,7 @@ As shown in \cref{fig:dimer_interface_mutants_in_vivo}A-C, both mutations cause 
 \centering
 \mycaption{Dimerisation interface mutants disrupt PAR-2 membrane association}{
 \textbf{(A)} Midplane confocal images of wild type, L50R, L109R and C56S PAR-2.
-\textbf{(B)} Normalised cross-cortex profiles for the four PAR-2 alleles in (A).
+\textbf{(B)} Normalised cross-cortex profiles for the four PAR-2 alleles in (A). Mean $\pm$ SD.
 \textbf{(C)} Quantification of membrane to cytoplasmic ratio for the four mutants and (A) and (B). Bottom: probability distributions of effect sizes in the dataset, estimated by bootstrapping.
 \textbf{(D)} Membrane affinity quantification of double L50R+L109R mutant shows no effect compared to L109R alone. Right: probability distributions of effect sizes in the dataset, estimated by bootstrapping.
 \textbf{(E)} Membrane affinity quantification of double C56S+L109R mutant shows no effect compared to C56S alone. Right: probability distributions of effect sizes in the dataset, estimated by bootstrapping. Vertical lines in C (bottom), D (right) and E (right) show 95\% confidence intervals.
@@ -1800,8 +1800,8 @@ Figures \ref{fig:thermodynamic_wt_vs_l109r_model_fit}B and D show that the optim
 \includegraphics[scale=0.85]{thermodynamic_wt_vs_l109r_model_fit}
 \centering
 \mycaption{Membrane-association behaviour of wild-type and L109R PAR-2 can be explained by a reduction in dimerisation energy}{
-\textbf{(A, C)} Parameter estimates for models with $D$ (protein diameter) = 10 nm (A) or 1 nm (C). Models were fit to the in vivo data in (B) and (C) by orthogonal distance regression. Parameter uncertainty was assessed by bootstrapping. Each point represents parameters obtained from fitting a model to single bootstrap sample (an orange and a blue point with a shared $w_m$ for each sample). Black dots show parameters for a model trained on the full dataset.
-\textbf{(B, D)} In vivo data (points) compared to model fits (lines, shaded regions indicate 95\% confidence intervals). $c^{\circ}$ is defined as the mean cytoplasmic concentration of wild type PAR-2 at full dosage x $10^8$. Assuming a cytoplasmic concentration of roughly 10 nM \citep{Gross2018}, this corresponds to a $c^{\circ}$ of approximately 1 M. Also shown are the dimeric states of membrane and cytoplasmic protein in the models across the range of concentrations, with 95\% confidence intervals.
+\textbf{(A, C)} Parameter estimates for models with $D$ (protein diameter) = 10 nm (A) or 1 nm (C). Models were fit to the in vivo data in (B) and (D) by orthogonal distance regression. Parameter uncertainty was assessed by bootstrapping. Each point represents parameters obtained from fitting a model to single bootstrap sample (an orange and a blue point with a shared $w_m$ for each sample), for a total of 1000 bootstrap samples. Black dots show parameters for a model trained on the full dataset.
+\textbf{(B, D)} In vivo data (points) compared to model fits (lines, shaded regions indicate 95\% confidence intervals). $c^{\circ}$ is defined as the mean cytoplasmic concentration of wild type PAR-2 at full dosage x$10^8$. Assuming a cytoplasmic concentration of roughly 10 nM \citep{Gross2018}, this corresponds to a $c^{\circ}$ of approximately 1 M. Also shown are the dimeric states of membrane and cytoplasmic protein in the models across the range of concentrations, with 95\% confidence intervals.
 }
 \label{fig:thermodynamic_wt_vs_l109r_model_fit}
 \end{figure}
@@ -1819,8 +1819,9 @@ Of additional interest is the effects that this mechanism might have on the over
 \begin{SCfigure}
 \includegraphics[scale=0.9]{thermodynamic_model_temperature}
 \centering
-\mycaption{Modelling the effects of temperature on the membrane vs. cytoplasm relationship of PAR-2}{
-Black line shows the membrane vs cytoplasm relationship of the parameterised model first shown in \cref{fig:thermodynamic_wt_vs_l109r_model_fit}B. Blue and red lines show membrane vs cytoplasm relationships for equivalent models with a 5\% decrease (blue) or 5\% increase in absolute temperature (equivalent to an increase or decrease of approximately 15$^{\circ}$C from a starting temperature of 20$^{\circ}$C).\\ \\ \\
+\mycaption{Modelling the effects of temperature on the membrane vs cytoplasm relationship of PAR-2}{
+\textbf{(i)} Black line (left panel) shows the membrane vs cytoplasm relationship of the parameterised model first shown in \cref{fig:thermodynamic_wt_vs_l109r_model_fit}B. Blue and red lines show membrane vs cytoplasm relationships for equivalent models with a 5\% decrease (blue) or 5\% increase in absolute temperature (equivalent to an increase or decrease of approximately 15$^{\circ}$C from a starting temperature of 20$^{\circ}$C). 
+\textbf{(ii)} Membrane dimerisation fraction as a function of membrane concentration for each condition.
 }
 \label{fig:thermodynamic_model_temperature}
 \end{SCfigure}
@@ -2335,8 +2336,8 @@ Interestingly, PAR-2(GCN4) shows a different localisation pattern at the plasma 
 \centering
 \mycaption{PAR-2(GCN4) in an aPAR mutant}{
 \textbf{(A)} Midplane autofluorescence-corrected confocal images of mNG::PAR-2 and mNG::PAR-2(GCN4) in wild type and \textit{par-3(it71)} conditions at NEBD. Note the presence of prominent internal structures for mNG::PAR-2(GCN4) in wild type conditions, which are heavily suppressed in \textit{par-3(it71)} conditions.
-\textbf{(B)} Normalised cross-cortex profiles averaged over the whole circumference of the cell for mNG::PAR-2 and mNG::PAR-2(GCN4) in \textit{par-3(it71)} conditions.
-\textbf{(C)} Membrane concentration profiles of mNG::PAR-2 and mNG::PAR-2(GCN4) in \textit{par-3(it71)} conditions.
+\textbf{(B)} Normalised cross-cortex profiles averaged over the whole circumference of the cell for mNG::PAR-2 and mNG::PAR-2(GCN4) in \textit{par-3(it71)} conditions. Mean $\pm$ SD.
+\textbf{(C)} Membrane concentration profiles of mNG::PAR-2 and mNG::PAR-2(GCN4) in \textit{par-3(it71)} conditions. Mean $\pm$ SD.
 \textbf{(D)} Quantification of total mNG::PAR-2 and mNG::PAR-2(GCN4) expression in \textit{par-3(it71)} embryos, calculated as the average fluorescent signal from autofluorescence-corrected midplane images. 
 Right: Probability distribution of the difference in dosage between PAR-2(GCN4) and PAR-2(WT), estimated by bootstrapping. Vertical line indicates 95\% confidence interval.
 }
@@ -2958,6 +2959,10 @@ ASI = \frac{A - P}{A + P}
 \end{equation}
 
 Where A and P represent anterior and posterior membrane signal (defined as the mean signal within the anterior/posterior half of the membrane).
+
+\subsection{Bioinformatics}
+
+Protein sequence alignments were performed in Jalview using the Clustal Omega algorithm with default parameters. Protein structure predictions were performed using the online AlphaFold Colab notebook.\\
 
 \subsection{Modelling}
 
