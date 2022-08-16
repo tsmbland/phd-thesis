@@ -138,11 +138,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.4}Cytoplasmic PAR-2 does not self-associate in vivo}{140}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Membrane-enriched PAR-2 self-associates in vivo}{142}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Membrane-enriched PAR-2 self-associates in vivo}{143}{subsection.4.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.6}Mutation to the dimerisation interface weakens membrane association in vivo}{144}{subsection.4.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.7}Discussion}{150}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.7}Discussion}{148}{subsection.4.3.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Modelling the interplay between dimerisation and membrane association}{152}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -192,7 +192,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.5}Discussion}{198}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Enhancing PAR-2 dimerisation}{201}{chapter.7}
+\contentsline {chapter}{\numberline {7}Enhancing the strength of PAR-2 dimerisation}{201}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Introduction}{202}{section.7.1}
 \defcounter {refsection}{0}\relax 
@@ -268,26 +268,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.4.4}SEC-MALS}{259}{subsection.9.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Computational methods}{260}{section.9.5}
+\contentsline {section}{\numberline {9.5}Computational methods}{261}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.1}Image analysis}{260}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.1}Image analysis}{261}{subsection.9.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.2}Image analysis - asymmetry index}{260}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {9.5.2}Image analysis - asymmetry index}{261}{subsection.9.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.3}Bioinformatics}{260}{subsection.9.5.3}
+\contentsline {subsection}{\numberline {9.5.3}Bioinformatics}{261}{subsection.9.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.4}Statistics}{260}{subsection.9.5.4}
+\contentsline {subsection}{\numberline {9.5.4}Statistics}{261}{subsection.9.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.5}Modelling}{261}{subsection.9.5.5}
+\contentsline {subsection}{\numberline {9.5.5}Modelling}{262}{subsection.9.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Simulations}{261}{subsubsection*.131}
+\contentsline {subsubsection}{Simulations}{262}{subsubsection*.131}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Creating qualitative parameter space maps}{261}{subsubsection*.132}
+\contentsline {subsubsection}{Creating qualitative parameter space maps}{262}{subsubsection*.132}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.5.6}Code availability}{261}{subsection.9.5.6}
+\contentsline {subsection}{\numberline {9.5.6}Code availability}{262}{subsection.9.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{263}{chapter*.134}
+\contentsline {chapter}{Appendix 1: Modelling the PAR-2/PKC-3 substrate/kinase interaction}{264}{chapter*.134}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{277}{chapter*.140}
+\contentsline {chapter}{Appendix 2: Developing a machine learning method for characterisation of anomalous diffusion trajectories}{278}{chapter*.140}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{284}{chapter*.140}
+\contentsline {chapter}{Bibliography}{285}{chapter*.140}

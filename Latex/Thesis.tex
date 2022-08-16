@@ -61,7 +61,7 @@ University College London\\}
 
 \vspace{15mm}
 
-{August 15, 2022}
+{August 16, 2022}
 \end{titlepage}
 
 
@@ -228,7 +228,7 @@ PAR proteins identified in original screens by Ken Kempues and colleagues, detai
 \label{tab:par_proteins}
 \end{table}
 
-Since their initial discovery in \textit{C. elegans}, further work has gone on to show that these proteins act to set up polarity in numerous different cell types and organisms \citep{Goldstein2007}.  Extensive research has focussed on understanding the identity and roles of the individual PAR proteins, which has shed considerable light on the mechanisms driving cell polarity. The PAR network is now known to consist of a mix of kinases, scaffolds and adaptor proteins, each of which has their own specialised role in regulating polarity \citep{Lang2017}.  The core PAR network consists of the scaffold protein PAR-3, the adaptor protein PAR-6, the kinase PKC-3, the GTPase CDC-42 and the kinase PAR-1. Depending on the system, other proteins and protein complexes interact with these core components to help set up polarity.  In epithelia, for example, the Crumbs complex (consisting of Crb, Sdt and PatJ) and the Scribble complex (consisting of Scrib, Dlg and Lgl) interact with the core PAR network to help set up apico-basal polarity \citep{Rodriguez-Boulan2014}. Another example, of particular relevance to this thesis, is the RING-domain containing protein PAR-2, a nematode-specific protein that interacts with PAR-1 to help set up anterior-posterior polarity in the embryo.\\
+Since their initial discovery in \textit{C. elegans}, further work has gone on to show that these proteins act to set up polarity in numerous different cell types and organisms \citep{Goldstein2007}.  Extensive research has focussed on understanding the identity and roles of the individual PAR proteins, which has shed considerable light on the mechanisms driving cell polarity. The PAR network is now known to consist of a mix of kinases, scaffolds and adaptor proteins, each of which has their own specialised role in regulating polarity \citep{Lang2017}.  The core PAR network consists of the scaffold protein PAR-3, the adaptor protein PAR-6, the kinase aPKC (PKC-3 in \textit{C. elegans}), the GTPase CDC-42 and the kinase PAR-1. Depending on the system, other proteins and protein complexes interact with these core components to help set up polarity. In the \textit{C. elegans} embryo, for example, the RING-domain containing protein PAR-2 (which is specific to nematodes) interacts with PAR-1 to help define a posterior domain. In epithelia, the Scribble complex (consisting of Scrib, Dlg and Lgl) plays an analogous role, colocalising with Par-1 to define basolateral identity, whilst the Crumbs complex (consisting of Crb, Sdt and PatJ) interacts with Par-6 and aPKC to define apical identity \citep{Rodriguez-Boulan2014}.\\
 
 Whilst the identity of the PAR proteins is known, our understanding of how they interact to generate stable patterns in cells is far from complete. In this project, I aim to further our understanding of how the PAR proteins create polarised patterns in cells, specifically using the \textit{C. elegans} embryo as a model system. To set up the project, I will begin by giving a broad overview of the \textit{C. elegans} embryo system. I will then discuss mathematical modelling frameworks that have been instrumental in furthering our understanding of how the PAR proteins form patterns. Finally, I will give a more detailed account of the known molecular interactions in the PAR network, focussing on the \textit{C. elegans} embryo system.\\
 
@@ -337,7 +337,7 @@ These ideas were formalised by \textcite{Mori2008} with their wave-pinning model
 \frac{\partial m}{\partial t} = D_m \frac{\partial^2 m}{\partial x^2} + c \left(k_0 + \frac{\gamma a^2}{K^2 + m^2} \right) - \delta m
 \end{equation}
 
-Here, diffusion and reactions are modelled along a one-dimensional system, where $x$ is the position coordinate along a membrane around half the circumference of a cell. $D_a$ is the diffusion coefficient on the membrane. The second term in the equation describes the rate of membrane association: $k_0$ is a rate constant describing the basal rate of membrane association, and the fraction term in the brackets describes positive feedback on membrane association, which is built as a Hill function with maximum rate $\gamma$ and saturation parameter $K$. Finally, $\delta$ describes the constant rate of membrane dissociation.\\
+Here, diffusion and reactions are modelled along a one-dimensional system, where $x$ is the position coordinate along a membrane around half the circumference of a cell (i.e. from one end to the other). $D_a$ is the diffusion coefficient on the membrane. The second term in the equation describes the rate of membrane association: $k_0$ is a rate constant describing the basal rate of membrane association, and the fraction term in the brackets describes positive feedback on membrane association, which is built as a Hill function with maximum rate $\gamma$ and saturation parameter $K$. Finally, $\delta$ describes the constant rate of membrane dissociation.\\
 
 With the assumption that cytoplasmic diffusion is fast, and so cytoplasmic concentrations are effectively uniform, $c$ can be modelled as a single uniform value based on the total amount of material ($T$), according to the conservation of mass term below:
 \begin{align}
@@ -451,7 +451,7 @@ As previously mentioned, PAR polarity does not occur spontaneously, requiring a 
 
 \subsubsection{Anterior-directed cortical flows}
 
-Signals from the sperm-donated centrosome induce cortical flows towards the anterior of the embryo \citep{Cowan2004, Munro2004, Goehring2011a}. The cue is thought to lead to a local downregulation of RHO-1 activity, which downregulates actomyosin contractility in the posterior. This sets up a spatial gradient of contractility, which leads to anterior-directed cortical flows.\\
+Signals from the sperm-donated centrosome induce cortical flows towards the anterior of the embryo \citep{Cowan2004, Munro2004, Goehring2011a}. The cue is thought to lead to a local downregulation of RHO-1 activity, which downregulates actomyosin contractility in the posterior, setting up a spatial gradient of contractility which drives anterior-directed cortical flows.\\
 
 These flows transport PAR-3 clusters towards the anterior \citep{Dickinson2017, Rodriguez2017, Wang2017}, which also moves the kinase PKC-3. The resulting depletion of PKC-3 in the posterior relieves antagonism of pPARs, allowing them to bind to the membrane in the posterior and form a nascent domain. Further work has shown that the PAR proteins themselves are able to feed back onto the actomyosin cortex, amplifying contractility asymmetries as polarity progresses \citep{Gross2018}.\\
 
@@ -536,7 +536,7 @@ Cycling of PKC-3/PAR-6 between these states allows for functional segregation be
 
 \subsection{Substrate competition}
 
-Most current models group the pPARs together as a single species, and model phosphorylation by PKC-3 as a single antagonistic reaction towards this species. However, in reality, PKC-3 does not act on all pPARs equally. Rather, there appears to be a hierarchy of interactions between PKC-3 and its substrates. LGL-1, for example, displays considerable localisation to the cortex prior to symmetry breaking, whereas PAR-2 is held mostly cytoplasmic, indicating that LGL-1 is less sensitive to PKC-3 than PAR-2 \citep{Beatty2010}. In kinase systems with multiple substrates, competition between substrates can contribute to nonlinear phosphorylation behaviour, whereby high affinity substrates act as competitor substrates to shape the response of lower affinity substrates \citep{Ferrell2014b}. Whether the relationships between PKC-3 and its substrates are tuned to give ultrasensitive responses has not been explored. \\
+Most current models group the pPARs together as a single species, and model phosphorylation by PKC-3 as a single antagonistic reaction towards this species. However, in reality, PKC-3 does not act on all pPARs equally. Rather, there appears to be a hierarchy of interactions between PKC-3 and its substrates. LGL-1, for example, displays considerable localisation to the cortex prior to symmetry breaking, whereas PAR-2 is held mostly cytoplasmic, indicating that LGL-1 is less sensitive to PKC-3 than PAR-2 \citep{Beatty2010}. In kinase systems with multiple substrates, competition between substrates can contribute to nonlinear phosphorylation behaviour, whereby high affinity substrates act as competitor substrates to shape the response of lower affinity substrates \citep{Ferrell2014b}. Whether the relationships between PKC-3 and its substrates are tuned to give ultrasensitive responses, and the potential implications of this for bistable patterning, have not been fully explored. \\
 
 
 \subsection{A pPAR positive feedback circuit}
@@ -666,7 +666,7 @@ As SAIBR relies on a red shifted emission channel, complications can arise in sa
 \mycaption{Pixel intensities correlate across three channels in samples containing red fluorophore.}{
 \textbf{(A)} Gaussian-filtered (radius = 1 pixel) GFP channel vs AF channel pixel intensities for an mCh::MEX-5 expressing embryo, colour coded by RFP-channel fluorescence. Dashed line indicates the AF vs GFP correlation for untagged (N2) embryos. Inset shows residuals as a function of RFP channel signal. Pixels are taken from an ROI encompassing the embryo and a region of the background, and 10\% of pixels are shown at random.
 \textbf{(B)} Multiple regression fit of GFP-channel signal as a function of AF and RFP channel signal. The same embryo and sample of pixels as in (A) is shown.
-\textbf{(C)} Predicted vs. measured GFP-channel signal based on the fit in (B). The same embryo and sample of pixels as in (A) and (B) is shown.
+\textbf{(C)} Predicted vs measured GFP-channel signal based on the fit in (B). The same embryo and sample of pixels as in (A) and (B) is shown.
 Figure panels from \textcite{Rodrigues2022a}, Fig. 5B-D.
 }
 \label{fig:saibr_3channel_correlation}
@@ -845,8 +845,8 @@ To test this method, I performed quantification on images of embryos expressing 
 \mycaption{Quantification of GFP::PH expressing embryos reveals a linear relationship between membrane and cytoplasmic concentrations}{
 \textbf{(A)} Schematic demonstrating the optimisation procedure, highlighting the input parameters to be optimised in red.
 \textbf{(B)} Images of GFP::PH expressing embryos with varying dosages of GFP::PH, obtained by RNAi rundown.
-\textbf{(C)} Membrane vs. cytoplasmic concentrations for the full dataset of embryos. Empty circles represent untagged N2 embryos. Embryos in (B) represented by blue, orange and green circles.
-\textbf{(D)} Cross-cortex profiles averaged over the entire circumference of the embryo vs. GFP::PH dosage. Colour coding as in (C).
+\textbf{(C)} Membrane vs cytoplasmic concentrations for the full dataset of embryos. Empty circles represent untagged N2 embryos. Embryos in (B) represented by blue, orange and green circles.
+\textbf{(D)} Cross-cortex profiles averaged over the entire circumference of the embryo vs GFP::PH dosage. Colour coding as in (C).
 }
 \label{fig:memquant_benchmarking_ph_rundown}
 \end{figure}
@@ -1050,7 +1050,7 @@ ODEs were build using a constant off rate term ($k_{off} = 1$), with on rates sp
 
 In a \textit{par-3 (it71)} background, a PAR-2 intrinsic positive feedback reaction implies that the membrane to cytoplasmic ratio should vary with concentration. A commonly used method that can be used to vary protein amounts in \textit{C. elegans} is RNAi, which reduces protein amounts in a manner that can be tuned by duration of dsRNA exposure. To test for the existence of PAR-2 intrinsic positive feedback, I performed an in vivo titration assay using \textit{par-3 (it71)} mutant worms expressing mNG::PAR-2 (wt), in which I used RNAi to rundown protein levels, and quantified membrane and cytoplasmic concentrations on an embryo-by-embryo basis. mNG (NeonGreen) was selected as a fluorophore as it is significantly brighter that GFP, which aids quantification in cells with long RNAi exposures.\\
 
-Strikingly, the results reveal that PAR-2 does not follow strict linear membrane binding kinetics (\cref{fig:rundown_vs_c56s}A, C, D (blue)).  Instead,  a nonlinearity appears to be present, whereby membrane affinities are higher in cells with higher dosages. Whereas the membrane vs cytoplasm relationship for PH (shown previously in \cref{fig:memquant_benchmarking_ph_rundown}) has an effective exponent close to 1,  implying linear mass-action kinetics, the PAR-2 relationship has an exponent of approximately 2.5, implying cooperative membrane association (\cref{fig:rundown_schematic}D). Notably, however, there is no evidence for any discontinuities that would imply bistable behaviour.\\
+Strikingly, the results reveal that PAR-2 does not follow strict linear membrane binding kinetics (\cref{fig:rundown_vs_c56s}A, C, D (blue)).  Instead,  a nonlinearity appears to be present, whereby membrane affinities are higher in cells with higher dosages. Whereas the membrane vs cytoplasm relationship for PH (shown previously in \cref{fig:memquant_benchmarking_ph_rundown}) has an effective exponent close to 1,  implying linear mass-action kinetics, the PAR-2 relationship fits a model with a higher exponent, implying cooperative membrane association (\cref{fig:rundown_schematic}D). Notably, however, there is no evidence for any discontinuities that would imply bistable behaviour.\\
 
 Interestingly, unlike wild type PAR-2, the membrane affinity of PAR-2 (C56S) is equal in polarised and \textit{par-3 (it71)} systems, despite large changes in membrane and cytoplasmic concentrations. This suggests that the mechanism of positive feedback may be RING-dependent. To test this, I performed a similar titration assay using the PAR-2 (C56S) mutant line. The results (\cref{fig:rundown_vs_c56s}B, C, D (orange)) show that the nonlinearity of the cytoplasm vs membrane relationship is greatly reduced compared to wild type, implying that the RING domain plays an essential role in promoting positive feedback.\\
 
@@ -1209,7 +1209,7 @@ A RING domain consisting of a zinc-interacting core (orange) flanked by N and C 
 \label{fig:trim25}
 \end{SCfigure}
 
-In many cases, the significance of dimerisation is fundamentally linked to the role of RING-domain proteins as ubiquitin ligases. RING dimerisation helps stabilise the closed E2-Ub conformation, by allowing each Ub to make simultaneous contacts with two RING domains, which in many cases is essential for ubiquitination activity. Mutations to key hydrophobic residues in N and C helices have been shown to disrupt dimerisation and reduce ubiquitination activity for many RING domains \citep{Koliopoulos2016, Rojas-Fernandez2014, Liew2010}. On the other hand, forced dimerisation of RINGs can hyperactivate ubiquitination activity, as has been shown for RNF4 \citep{Rojas-Fernandez2014}. Given the widespread roles of protein dimerisation \citep{Goodsell2000}, it is also not unlikely that RING domains have evolved functions as dimerisation domains in other contexts unrelated to ubiquitination, however to the best of my knowledge there are no confirmed examples of this to date.\\
+In many cases, the significance of dimerisation is fundamentally linked to the role of RING-domain proteins as ubiquitin ligases. RING dimerisation helps stabilise the closed E2-Ub conformation, by allowing each Ub to make simultaneous contacts with two RING domains, which in many cases is essential for ubiquitination activity. Mutations to key hydrophobic residues in N and C helices have been shown to disrupt dimerisation and reduce ubiquitination activity for many RING domains \citep{Koliopoulos2016, Rojas-Fernandez2014, Liew2010}. On the other hand, forced dimerisation of RINGs can hyperactivate ubiquitination activity, as has been shown for RNF4 \citep{Rojas-Fernandez2014}. Given the widespread roles of protein dimerisation \citep{Goodsell2000}, it is also not unlikely that RING domains have evolved functions as dimerisation domains in other contexts unrelated to ubiquitination, however concrete examples of this are limited.\\
 
 Whilst the majority of RING domains are dimeric in crystal structures, their oligomeric state in solution varies dramatically, ranging from entirely monomeric to constitutively dimeric. For example, whereas TRIM32 appears constitutively dimeric in solution \citep{Koliopoulos2016}, TRIM21 exists in a monomer-dimer equilibrium \citep{Dickson2018}, and TRIM25, whilst crystalising as a dimer, appears entirely monomeric in solution, only dimerising at very high concentrations \citep{Koliopoulos2016}. \\
 
@@ -1275,11 +1275,11 @@ To understand the oligomeric properties of the PAR-2 RING domain in solution, we
 We performed five SEC-MALS assays on PAR-2 RING, using sample concentrations of 10, 5, 2, 0.75 and 0.5 mg/ml (\cref{fig:sec_mals}A). In all cases a single peak is observed in refractive index traces, with corresponding molar mass measurements by MALS somewhere between the expected weight of a monomer and a dimer, suggesting that the sample exists in a monomer-dimer equilibrium. Furthermore, mass distributions show clear concentration-dependence, with more concentrated samples giving higher molar mass measurements. This is more clearly visualised in \cref{fig:sec_mals}B, which shows that the average molecular weight of particles in the sample increases as a function of sample concentration.  Comparison to a dimerisation model (black line) shows a good fit. Overall, this data suggests that the PAR-2 RING domain displays concentration-dependent dimerisation, existing largely as a monomer at low concentrations and mostly dimeric at higher concentrations.\\
 
 \begin{figure}
-\includegraphics[scale=1]{sec_mals_v2}
+\includegraphics[scale=1.1]{sec_mals_v2}
 \centering
 \mycaption{SEC-MALS titration reveals concentration-dependent dimerisation of the PAR-2 RING domain}{
 \textbf{(A)} SEC-MALS traces for the PAR-2 RING domain at different concentrations. Solid lines indicate refractive index measurements, dotted lines indicate molar mass measurements. Colour coded by sample concentration. Note that effective concentrations are lower than this as sample gets diluted in the instrument. MALS traces are cropped to retention volumes for which refractive index is $>$ 80\% of its peak value.
-\textbf{(B)} Weight-average molecular weight measurements vs. sample concentration for the SEC-MALS assays in (A). Solid line indicates fit to a dimerisation model.
+\textbf{(B)} Weight-average molecular weight measurements vs sample concentration for the SEC-MALS assays in (A). Solid line indicates fit to a dimer model (see Methods).
 }
 \label{fig:sec_mals}
 \end{figure}
@@ -1323,7 +1323,7 @@ Given that dimerisation is predicted to be mediated by a hydrophobic interface w
 \mycaption{Mutation of residue at hydrophobic interface disrupts PAR-2 RING domain dimerisation}{
 \textbf{(A)} Position of the L109 site within the 4-helix bundle of the PAR-2 RING domain dimer (AlphaFold prediction). L109 site highlighted in blue, other residues coloured by hydrophobicity.
 \textbf{(B)} SEC-MALS trace for PAR-2 RING (L109R). Solid line indicates refractive index, dotted line indicates molar mass. Sample concentration 0.75 mg/ml.
-\textbf{(C)} Weight-average molecular weight vs. sample concentration for the single SEC-MALS trace in (B). Shown against wild-type data (gray).
+\textbf{(C)} Weight-average molecular weight vs sample concentration for the single SEC-MALS trace in (B). Shown against wild-type data (gray).
 }
 \label{fig:l109r_sec_mals}
 \end{figure}
@@ -1474,7 +1474,7 @@ It is unclear how these results relate to results described in \textcite{Arata20
 
 It is also possible that their interpretations might be an artefact of their analysis methods. Crucially, several key results in their study lie in stark contrast to other studies. Their measurements of PAR-2 membrane lifetimes are significantly lower than is generally regarded by other studies \citep{Goehring2011, Hubatsch2019a, Motegi2011}. This may account for the shape of the PAR-2 domain interface predicted by their partial differential equation (PDE) models, which is significantly sharper that in vivo observations \citep{Goehring2011, Hubatsch2019a}. Their estimates of absolute PAR-2 concentrations are also significantly higher than other studies \citep{Gross2018, Goehring2011a}. Finally, their analysis of PAR-3 is concerning. PAR-3 is generally regarded to be highly clustered on the membrane \citep{Dickinson2017}, but their particle size distributions suggest that PAR-3 clusters are smaller than the supposedly tetrameric PAR-2, which is completely counter to expectations.\\
 
-Regardless, RING-dependent dimerisation of PAR-2 appears to be important for driving strong membrane association, as I have shown that specifically disrupting dimerisation leads to a strong reduction in membrane affinity. There may be a number of possible explanations for this. Whilst I do not see any evidence for autoubiquitination, I cannot rule this out with my data. Given that the role of RING dimerisation is so fundamentally linked to ubiquitination activity in many RING E3s, one could imagine that, if this were occurring in the case of PAR-2, then this would also be disrupted by dimer interface mutants. I cannot rule out a model like this, but in the next chapter I provide a far simpler explanation based on dimerisation alone.\\
+Regardless, RING-dependent dimerisation of PAR-2 appears to be important for driving strong membrane association, as I have shown that specifically disrupting dimerisation leads to a strong reduction in membrane affinity. There may be a number of possible explanations for this. Whilst I do not see any evidence for autoubiquitination, I cannot rule this out with my data. Given that the role of RING dimerisation is so fundamentally linked to ubiquitination activity in many RING E3s, one could imagine that, if this were occurring in the case of PAR-2, then this would also be disrupted by dimer interface mutants. I cannot rule out a model like this, but in the next chapter I provide a far simpler explanation based on dimerisation alone.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2178,7 +2178,7 @@ Overall, this work suggests that, whilst dimerisation can provide an explanation
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\chapter{Enhancing PAR-2 dimerisation}
+\chapter{Enhancing the strength of PAR-2 dimerisation}
 
 \clearpage
 \section{Introduction}
@@ -2362,7 +2362,9 @@ Membrane-binding probes with moderate charge tend to bind non-specifically to al
 
 At first glance, the effects of increasing dimerisation strength seem at odds with expectations. Our thermodynamic model shows that strengthening dimerisation, which increases the average total charge per molecule, should enhance specificity for the highly charged plasma membrane at equilibrium. This does not match the maintenance phase distribution of PAR-2(GCN4), which appears to lose selectivity and bind to membranes that it would usually avoid. Instead, I propose that this phenomenon can be explained by slow membrane exchange kinetics brought about by strong dimerisation. As the system is held in a state in which the plasma membrane is unavailable prior to symmetry breaking, systems with high dimerisation energies will stabilise with large quantities of protein on internal membranes, and will be slow to adapt to a new equilibrium when the posterior plasma membrane becomes available. An additional point, not included in my models, is that continuous recycling of membrane might add to a constant flux of PAR-2 into internal membranes which would need to re-distribute back to the plasma membrane, and this may also account for internal membrane localisation in PAR-2(GCN4) in the same way.\\
 
-Overall, these results suggest that the intermediate dimeric strength of the PAR-2 RING domain may put the protein in a sweet spot that allows it to respond relatively selectively to the plasma membrane but avoid getting trapped on internal membranes by slow membrane exchange kinetics. There are still many open questions that we are actively pursuing. Firstly, we are in the process of testing an alternative dimerisation domain to see if the PAR-2(GCN4) results can be replicated. Secondly, we are exploring combining RING mutants with GCN4 insertion,  investigating whether GCN4 can be used to restore the membrane affinities of RING domain mutants back up to wild type levels. Thirdly, we are using photobleaching-based imaging methods to directly measure the membrane lifetimes of wild type, L109R and GCN4 PAR-2 alleles. Early data is in line with expectations, suggesting a clear difference in membrane lifetime between three alleles.\\
+Overall, these results suggest that the intermediate dimeric strength of the PAR-2 RING domain may put the protein in a sweet spot that allows it to respond relatively selectively to the plasma membrane but avoid getting trapped on internal membranes by slow membrane exchange kinetics. 
+
+% There are still many open questions that we are actively pursuing. Firstly, we are in the process of testing an alternative dimerisation domain to see if the PAR-2(GCN4) results can be replicated. Secondly, we are exploring combining RING mutants with GCN4 insertion,  investigating whether GCN4 can be used to restore the membrane affinities of RING domain mutants back up to wild type levels. Thirdly, we are using photobleaching-based imaging methods to directly measure the membrane lifetimes of wild type, L109R and GCN4 PAR-2 alleles. Early data is in line with expectations, suggesting a clear difference in membrane lifetime between three alleles.\\
 
 
 \begin{comment}
@@ -2401,9 +2403,9 @@ My work began by developing an image analysis pipeline to allow for quantitative
 
 A main focus of my project has been aiming to understand the mechanisms that contribute to PAR-2 patterning. To this end, I started by investigating a series of PAR-2 mutants (AxA, C56S, R183-5A, R163A) with known polarity-defective phenotypes. My results suggest that these mutants fail for different reasons, suggesting that a number of processes are at play to drive PAR-2 polarity. Whilst performing this analysis, I also found that wild type PAR-2 deviates from expected linear membrane binding kinetics, which is the first direct evidence for a positive feedback reaction. I also found that this nonlinearity is lost in RING domain mutants, suggesting a RING-dependent mechanism.\\
 
-Next, I decided to investigate the mechanisms of RING domain action, which were previously unknown. My first line of inquiry involved a hypothesis that PAR-2 might be able to autoubiquitinate, in line with commonly established roles for RING domains. Whilst my data cannot definitively rule out such a role, my data points to an alternative mechanism. Using in vitro and in vivo experiments, I have shown that the RING domain of PAR-2 can dimerise, and that, in vivo, this specifically occurs when local concentrations are enriched by membrane binding. Additionally, by comparison to thermodynamically constrained mathematical models, I have shown that this reaction can explain the observed positive feedback behaviour, and the difference in membrane affinity between wild type and RING mutant PAR-2.\\
+Next, I decided to investigate the mechanisms of RING domain action, which were previously unknown. My first line of inquiry involved a hypothesis that PAR-2 might be able to autoubiquitinate, in line with commonly established roles for RING domains. Whilst I cannot definitively rule out such a role, my data points to an alternative mechanism. Using in vitro and in vivo experiments, I have shown that the RING domain of PAR-2 can dimerise, and that, in vivo, this specifically occurs when local concentrations are enriched by membrane binding. Additionally, by comparison to thermodynamically constrained mathematical models, I have shown that this reaction can explain the observed positive feedback behaviour of PAR-2, and the difference in membrane affinity between wild type and RING mutant PAR-2.\\
 
-Whilst the PAR-2 RING has long been known to be important, this is the first direct evidence supporting a mechanism of action in vivo. Additionally, whilst the ability of RING domains to dimerise is well established, a role for this reaction in driving positive feedback on a membrane association reaction is, to the best of my knowledge, a novel function for a RING domain.\\
+Whilst the PAR-2 RING has long been known to be important, this is the first direct evidence supporting a mechanism of action in vivo. Additionally, whilst the ability of RING domains to dimerise is well established, a role for this reaction in driving positive feedback on a membrane association reaction is, to the best of my knowledge, a novel function for a RING domain, and expands the repertoire of known functions for RING domains beyond ubiquitination pathways.\\
 
 
 \section{Dimer affinity is optimised for positive feedback and membrane specificity}
@@ -2432,23 +2434,23 @@ See main text for full description}
 
 Whilst my data makes a good case that the RING-domain of PAR-2 drives intermediate-strength dimerisation, and my theoretical models have been able to account for a number of maintenance-phase behaviours of wild-type and mutant PAR-2, several aspects of the model could be strengthened with further experimental work. \\
 
-Firstly, my conclusions are largely based on analysis of single timepoints at maintenance phase. To fully validate the model, more work is required to analyse the temporal dynamics of polarity onset in different conditions, including quantitative assessment of pre-symmetry breaking states.\\
+Firstly, my conclusions are largely based on analysis of single developmental timepoints at maintenance phase. To fully validate the model, more work is required to analyse the temporal dynamics of polarity onset in different conditions, including quantitative assessment of pre-symmetry breaking states.\\
 
-Secondly, whilst I have been able to establish that wild-type PAR-2 dimerises at the membrane in vivo, my current data does not give any direct quantitative information about the degree of dimerisation, which would be useful for comparison to the thermodynamic model. In vivo imaging techniques such as FLIM (fluorescence lifetime imaging)-based FRET (Forster resonance energy transfer), which uses fluorescence lifetime measurements to monitor the transfer of energy between two fluorophores in close proximity, could be used to directly monitor the degree of dimerisation at the membrane (and in the cytoplasm). Furthermore, super-resolution microscopy techniques, such as SIM (structured illumination microscopy) may allow us to resolve and quantify distinct monomeric and dimeric populations at the membrane. \\
+Secondly, whilst I have been able to establish that wild-type PAR-2 dimerises at the membrane in vivo, my current data does not give any direct quantitative information about the degree of dimerisation, which would be useful for comparison to the thermodynamic model. In vivo imaging techniques such as FLIM (fluorescence lifetime imaging)-based FRET (F\"{o}rster resonance energy transfer), which uses fluorescence lifetime measurements to monitor the transfer of energy between two fluorophores in close proximity, could be used to directly monitor the degree of dimerisation at the membrane (and in the cytoplasm). Furthermore, super-resolution microscopy techniques, such as SIM (structured illumination microscopy) may allow us to resolve and quantify distinct monomeric and dimeric populations at the membrane. \\
 
-Thirdly, the model relies heavily on the claim that strengthening dimerisation reduces membrane unbinding rates. Whilst our model gives good theoretical backing to this claim, we have yet to demonstrate this experimentally. Techniques such as FRAP \citep{Goehring2010, Motegi2011} and smPRESS \citep{Robin2014} have previously been used to explore the membrane exchange kinetics of PARs, including PAR-2 itself, although each method comes with caveats and success in our hands has been limited so far.\\
+Thirdly, the model relies heavily on the claim that strengthening dimerisation reduces membrane unbinding rates. Whilst our model gives good theoretical backing to this claim, we have yet to demonstrate this experimentally. Techniques such as FRAP \citep{Goehring2010, Motegi2011} and smPRESS \citep{Robin2014} have previously been used to explore the membrane exchange kinetics of PARs, including PAR-2 itself, although each method comes with caveats, and success in our hands has been limited so far.\\
 
 
 \section{Comparison to other PAR proteins}
 
-As discussed in the introduction, membrane binding strategies vary between different PAR proteins. Some PARs, such as PAR-3 and CDC-42, rely mainly on binding to specific phospholipids enriched at the plasma membrane, whereas others, like PAR-2 and PAR-1, are thought to rely mainly on electrostatic interactions. In the former case, plasma membrane specificity is an obvious outcome of lipid specificity. In the latter case, whilst explanations for plasma membrane specificity have been put forward, my work suggests that additional considerations are needed in the context of dynamically changing systems.\\
+As discussed in the chapter 1, membrane binding strategies vary between different PAR proteins. Some PARs, such as PAR-3 and CDC-42, rely mainly on binding to specific phospholipids enriched at the plasma membrane, whereas others, like PAR-2 and PAR-1, are thought to rely mainly on electrostatic interactions. In the former case, plasma membrane specificity is an obvious outcome of lipid specificity. In the latter case, whilst explanations for plasma membrane specificity have been put forward, my work suggests that additional considerations are needed in the context of dynamically changing systems.\\
 
 Interestingly, whilst this has not been proven, PAR-1 cytoplasmic gradients have been speculated to come about through an interaction with endoplasmic reticulum (ER) membranes \citep{Folkmann2019}. Whilst PAR-1 is not thought to dimerise, it is interesting to speculate whether constitutive PAR-1 dimerisation might shift its balance towards stronger ER localisation.\\
 
 
 \section{Contributions of dimerisation-driven feedback to bistable patterning}
 
-In chapter 6, I investigated the functional importance of the PAR-2 dimerisation reaction in patterning models, using a simple two species model with linear antagonism terms. My analysis shows that dimerisation coupled to mutual antagonism can be sufficient to generate stable patterns without other sources of nonlinearity, provided that dimers be, at least partially, resistant to antagonism compared to monomers. Results in chapter 7 suggest that dimers might be partially resistant to antagonism by PKC-3, but more work is needed to confirm this. Mathematical models would also be useful here to investigate the potential links between dimerisation and antagonism, and the requirements for differential antagonism, but this is yet to be explored.\\
+In chapter 6, I investigated the functional importance of the PAR-2 dimerisation reaction in patterning models, using a simple two species model with linear antagonism terms. My analysis shows that dimerisation coupled to mutual antagonism can be sufficient to generate stable patterns without other sources of nonlinearity, provided that dimers be, at least partially, resistant to antagonism compared to monomers. Results in chapter 7 suggest that dimers may be partially resistant to antagonism by PKC-3, but more work is needed to confirm this. Mathematical models would also be useful here to investigate the potential links between dimerisation and antagonism, and the requirements for differential antagonism, but this is yet to be explored.\\
 
 In reality, the system likely contains multiple sources of nonlinear behaviour, and so likely does not rely solely on any one source of nonlinearity to generate bistability. Nevertheless, having multiple sources of nonlinear feedback is expected to enhance the overall robustness of the system \citep{Chau2012}.\\
 
@@ -2464,7 +2466,7 @@ In addition, PAR-2 is thought to have a number of other roles that are not carri
 
 We do not know the mechanisms by which PAR-2 carries out these downstream roles. The only other structured domain in PAR-2 is a C-terminal ATP binding domain. However, removal of this domain has been shown to have no phenotype \citep{Hao2006}, so the role for this domain is unclear. Perhaps these roles could also be mediated by the RING domain, perhaps through a ubiquitination pathway. Since I see no observable phenotype in the linchpin (K94A) mutant, my work casts doubt on this, although I have not characterised the behaviour of this mutant in non-wild type backgrounds, so there could be some disruption that I fail to see in wild type backgrounds. This could be interesting to explore, with the caveat that the linchpin is not a universally conserved mechanism, and so is not guaranteed to disrupt ubiquitination activity if there is any.\\
 
-Given the many roles of PAR-2, I was surprised to see that my dimer interface mutant (L109R), in which membrane affinity is strongly reduced, displays no signs of sterility or embryonic lethality. On the other hand, C56S mutation, which has a stronger effect on membrane affinity, leads to partial sterility and embryonic lethality. The reason for the difference in affinity between these mutants is unclear, but I suspect that the additional loss in affinity in C56S is a result of domain unfolding, which may interfere with membrane binding. Recent work from the Goehring lab (Rodrigues et al., in prep) shows that embryos are able to withstand large (approximately 50\%) reductions in PAR-2 cortical concentrations before significant defects are observed, indicating that the system likely contains multiple sources of robustness. It may be that, whilst C56S pushes worms below this threshold, L109R worms are just above. In this case, I would expect that PAR-2 L109R worms should be relatively sensitive to small reductions in protein amounts. Non-wild-type backgrounds such as \textit{lgl-1} mutants, which are usually viable with wild type PAR-2, may also show defects when combined with PAR-2(L109R).\\
+Given the many roles of PAR-2, I was surprised to see that my dimer interface mutant (L109R), in which membrane affinity is strongly reduced, displays no signs of sterility or embryonic lethality. On the other hand, C56S mutation, which has a stronger effect on membrane affinity, leads to partial sterility and embryonic lethality. The reason for the difference in affinity between these mutants is unclear, but I suspect that the additional loss in affinity in C56S is a result of domain unfolding, which may interfere with membrane binding. Recent work from the Goehring lab (Rodrigues et al., in prep) shows that embryos are able to withstand large (approximately 50\%) reductions in PAR-2 cortical concentrations before significant defects are observed, indicating that the system likely contains multiple sources of robustness. It may be that, whilst C56S pushes worms below this threshold, L109R worms are just above. In this case, I would expect that PAR-2(L109R) worms should be relatively sensitive to small reductions in protein amounts. Non-wild-type backgrounds such as \textit{lgl-1} mutants, which are usually viable with wild type PAR-2, may also show defects when combined with PAR-2(L109R).\\
 
 
 % \section{Comparisons to other polarity systems}
@@ -2951,6 +2953,13 @@ TCEP & 0.5 mM \\ \hline
 
 SEC-MALS was performed with Dave Briggs in Neil McDonald's lab at the Crick. Samples were run over a size exclusion chromatography using a Superdex 75 increase 10/30 column (Cytiva), and analysed by multi-angle light scattering (MALS) using a DAWN MALS detector (Wyatt instruments). \\
 
+Molecular weight measurements are given as a weight average ($M_w$). For a system containing a mix of monomers and dimers, this can be modelled as:
+
+\begin{equation}
+M_w = \frac{n_m W_m^2 + n_d W_d^2}{n_m W_m + n_d W_d}
+\end{equation}
+
+where $n_m$ and $n_d$ are the number of monomer and dimer molecules, and $W_m$ and $W_d$ are the molecular weight of monomer and dimer molecules (= 9.23474 and 18.46948 kDa). To fit the molecular weight vs. concentration data in \cref{fig:sec_mals}, $n_m$ and $n_d$ were modelled as a function of total concentration according to the equations previously presented in chapter 5 (equations 5.18 and 5.19), with $w_d$ (dimerisation strength) as a single free parameter.\\
 
 \section{Computational methods}
 
@@ -3018,7 +3027,7 @@ PAR-2 polarity arises largely through phosphorylation by the anterior PAR PKC-3.
 The S241 site is unique amongst the putative phosphorylation sites in its inclusion of an upstream FxR motif (\cref{fig:fxr_sequence}). Identified in PAR-3 \citep{Soriano2016}, and also present in PAR-1 and LGL-1, FxR motifs act as high affinity PKC-3 recognition motifs. To assess the roles of the FxR/S241 site in the context of polarity, we performed a series of mutations at the endogenous PAR-2 locus by CRISPR. As expected, mutation of S241 to alanine completely disrupts polarity, indicating that phosphorylation is largely or entirely prevented. Mutation of the FxR site to a AxA, designed to reduce affinity of PKC-3 for this site, leads to reduced removal of PAR-2 from the anterior membrane by PKC-3. Together, these results imply that efficient removal of PAR-2 from the membrane by PKC-3 requires PKC-3 to engage with the high affinity FxR site and phosphorylate S241.\\
 
 \begin{figure}
-\includegraphics[scale=0.4]{fxr_sequence}
+\includegraphics[scale=0.5]{fxr_sequence}
 \centering
 \mycaption{FxR motif in \textit{C. elegans} PAR-1, PAR-2 and PAR-3}{
 PAR-1, PAR-2 and PAR-3 all contain PKC-3 phosphorylation sites with an upstream FxR motif, which acts as a high affinity PKC-3 recognition motif. In PAR-1 and PAR-2, this site attracts PKC-3 and promotes rapid phosphorylation of the corresponding site. PAR-3 has an additional downstream KR motif. Together the FxR and KR bind PKC-3 with such a high affinity that PAR-3 acts as an inhibitor to PKC-3 rather than a substrate.
@@ -3031,7 +3040,7 @@ Surprisingly, in mutants where the high affinity site is lost, mutating S241 to 
 Overall, these mutants imply that removal of PAR-2 from the membrane by PKC-3 is driven by a complex interaction between multiple phosphorylation sites. Whilst phosphorylation at the high affinity FxR/S241 site does not appear to directly drive PAR-2 off the membrane, the site appears to impact access to other phosphorylation sites on the molecule that are directly linked to membrane removal. \\
 
 \begin{figure}
-\includegraphics[scale=0.4]{par2_phos_mutants}
+\includegraphics[scale=0.5]{par2_phos_mutants}
 \centering
 \mycaption{Mutants of the PAR-2 high affinity FxR/S241 phosphosite in vivo}{
 Shows midplane confocal images at maintenance phase (without autofluorescence correction). Figure from Nisha Hirani.}
@@ -3051,7 +3060,7 @@ As a starting point, I consider two general frameworks that are often applied to
 It is clear that both of these simple models are insufficient to capture all observations from the PAR-2 FxR/S241 mutants. In the following discussion, I propose that the core behaviours of all mutants can be captured in a simple model that combines features of processive and distributive pathways (\cref{fig:fxr_phosphorylation_types}C). In this model, the kinase can follow both processive and distributive pathways. In the processive route, the kinase first binds to the first (high affinity) site and, once it has phosphorylated this site, is handed off to the second (low affinity) site. Alternatively, the kinase may bypass the processive route and bind directly to the second site, but this is expected to be rarer since the second site has a lower affinity than the first site. \\
 
 \begin{figure}
-\includegraphics[scale=0.85]{fxr_phosphorylation_types}
+\includegraphics[scale=0.95]{fxr_phosphorylation_types}
 \centering
 \mycaption{Schematic of potential models for PAR-2 multisite phosphorylation}{}
 \label{fig:fxr_phosphorylation_types}
@@ -3068,14 +3077,14 @@ In all cases these changes cause the processive route to be lost (\cref{fig:fxr_
 By contrast, phosphorylation at the low affinity site is almost completely lost in S241A conditions. The key difference compared to AxA and AxA + S241A conditions is that, in the S241A model, PKC-3 still has access to the high affinity site (as the FxR motif is intact). Whereas wild type PAR-2 would quickly be phosphorylated at this site, and PKC-3 handed off to the seconndary site, this cannot occur in S241A conditions, and so PKC-3 remains bound to the site until it eventually falls off (set by rate $k_{unbind1}$). This has two consequences. Firstly, PKC-3 molecules become sequestered onto PAR-2 molecules, which reduces the availability of kinase to bind to and phosphorylate other molecules. Secondly, since the model assumes that only one kinase molecule can be bound to a substrate molecule at a time, stable binding of PKC-3 to the high affinity site of a molecule blocks access of PKC-3 molecules to the second site. The first effect is a trans effect, and the second is a cis effect (intrinsic to each molecule).\\
 
 \begin{figure}
-\includegraphics[scale=0.85]{fxr_mutant_schematic}
+\includegraphics[scale=0.9]{fxr_mutant_schematic}
 \centering
 \mycaption{Modelling FxR/S241 site mutants}{}
 \label{fig:fxr_mutant_schematic}
 \end{figure}
 
 \begin{figure}
-\includegraphics[scale=0.9]{fxr_simulations}
+\includegraphics[scale=1]{fxr_simulations}
 \centering
 \mycaption{Modelling PKC-3 sensitivity of wild type and FxR/S241 mutant PAR-2}{
 Shows the percentage of PAR-2 molecules phosphorylated at each site at equilibrium, as a function of total PKC-3 levels. Default parameters: $k_{bind1} = 1$, $k_{unbind1} = 0.1$, $k_{bind2} = 0.1$, $k_{unbind2} = 0.1$, $k_{cat1} = 1$, $k_{cat2} = 1$, $k_{dephos} = 0.1$, total PAR-2 = 1. Mutants are simulated as outlined in the main text.}
