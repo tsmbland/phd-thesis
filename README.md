@@ -12,3 +12,12 @@ Through quantitative imaging, gene editing, in vitro biochemistry, and mathemati
 ### Code availability
 
 All code is available [here](https://github.com/tsmbland/phd-thesis-scripts)
+
+
+### Publications
+
+Some of this work has been published in the following articles:
+
+- [Optimized dimerization of the PAR-2 RING domain drives cooperative and selective membrane recruitment for robust feedback-driven cell polarization.](https://www.biorxiv.org/content/10.1101/2023.08.10.552581v1) BioRxiv (2023). _Preprint_
+
+- [SAIBR : A simple, platform-independent method for spectral autofluorescence correction.](https://journals.biologists.com/dev/article/149/14/dev200545/276004/SAIBR-a-simple-platform-independent-method-for) Development (2022).
